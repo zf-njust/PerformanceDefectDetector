@@ -1,0 +1,1708 @@
+Project,Key,Summary,Issue Type,Status,Priority,Resolution,Assignee,Reporter,Creator,Created,Last Viewed,Updated,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Watchers,Images,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Sub-Tasks,Linked Issues,Environment,Description
+Avro,AVRO-6,Better support for using customized in memory types with Avro GenericDatumReader and GenericDatumWriter,Improvement,Closed,Major,Fixed,Hong Tang,Hong Tang,Hong Tang,4/11/2009 17:32,,7/14/2009 22:50,4/14/2009 21:43,1.0.0,1.0.0,java,,0,0,,,,,,,AVRO-11,,"Currently Avro's GenericDatumReader/Writer requires Record, Array, and Map be subclasses of GenericRecord, GenericArray, and Map. Additionally, STRING and BYTES are mapped to Utf8 and ByteBuffer. Finally, Record fields are accessed through field names, this may be less efficient if a user-defined record class supports field access by positions (such as PIG Tuples). 
+
+I suggest we improve the interface to (1) have more flexibility to use user-types with Avro; (2) support access to RECORDs by either field names or field positions."
+Avro,AVRO-10,add fixed-size type,Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,4/13/2009 20:42,,7/14/2009 22:50,5/22/2009 17:48,,1.0.0,spec,,0,0,,,,,,,,,"Avro should support an opaque binary type whose size in bytes is specified in the schema. This would permit, e.g., single-byte values, short values, and efficient representations for checksums pseudo-random values such as MD5 and SHA, dates, etc."
+Avro,AVRO-11,Improve SpecificDatumReader code by using field positions.,Improvement,Closed,Minor,Fixed,Doug Cutting,Hong Tang,Hong Tang,4/14/2009 4:21,,7/14/2009 22:50,4/14/2009 22:29,1.0.0,1.0.0,java,,0,0,,,,,,,AVRO-6,,"With Avro-6, it would be more efficient to reimplement SpecificDatumReader to use field positions from schema."
+Avro,AVRO-13,Use dictionary instead of if-else in validate,Improvement,Closed,Major,Fixed,Sharad Agarwal,Sharad Agarwal,Sharad Agarwal,4/14/2009 7:28,,7/14/2009 22:50,4/15/2009 5:19,1.0.0,1.0.0,python,,0,0,,,,,,,,,Currently validate in generic.py and reflect.py uses if-else. It would be efficient to use dictionary with keys as schema types.
+Avro,AVRO-24,benchmark bulk data,Task,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,4/27/2009 20:02,,10/14/2009 18:53,9/30/2009 21:32,,1.2.0,java,,0,6,,,,,,,,,"It would be good to validate that the RPC wire format is capable of transmitting bulk data efficiently. In particular, to be used for HDFS file access, it must be able to, when including file data in an RPC response, or writing file data in an RPC request: 
+- saturate a disk's throughput or a network interface; and 
+- not consume much CPU. 
+In other words, Avro's RPC should not be a bottleneck in the transfer of file data from a remote disk to an application or vice versa, and moreover it should leave the vast majority of the CPU for the application."
+Avro,AVRO-25,Blocking for value output (with API change),Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Raymie Stata,Raymie Stata,4/29/2009 18:34,,7/14/2009 22:50,6/5/2009 18:32,,1.0.0,java,,0,0,,,,,,,,,"The Avro specification has provisions for decomposing very large arrays and maps into ""blocks."" These provisions allow for streaming implementations that would allow one to, for example, write the contents of a file out as an Avro array w/out knowing in advance how many records are in the file. 
+
+The current Java implementation of Avro does support this provision. My colleague Thiru will be attaching a patch which implements blocking. It turns out that the buffering required to do blocking is non-trivial, so it seem beneficial to include a standard implementation of blocking as part of the reference Avro implementation. 
+
+This is an early version of the code. We are still working on testing and performance tuning. But we wanted early feedback. 
+
+This patch also includes a new set of classes called ValueInput and ValueOutput, which are meant to replace ValueReader and ValueWriter. These classes have largely the same API as ValueReader/Writer, but they include a few more methods to ""bracket"" items that appear inside of arrays and maps. Shortly, we'll be posting a separate patch which implements further subclasses of ValueInput/Output that do ""validation"" of input and output against a schema (and also do automatic schema resolution for readers). 
+
+We're implementing these classes separate from ValueInput/Output to allow you to kick our tires w/out causing too much disruption to your source trees. Let's validate the basic idea behind these patches first, and then determine the details of integrating them into the rest of Avro."
+Avro,AVRO-26,Converting JUnit tests into TestNG controlled environment,Test,Closed,Major,Fixed,Konstantin Boudnik,Konstantin Boudnik,Konstantin Boudnik,5/1/2009 18:49,,7/22/2009 20:09,5/18/2009 18:37,,1.0.0,"java, python",,0,2,,,,,,,AVRO-81,,"TestNG is a powerful test harness, which provides a lot of useful features like parallel test execution, test parametrization, and such. 
+Avro uses JUnit environment instead which is more rigid and less efficient. 
+
+I'd suggest to convert Avro's Junit based test infrastructure into TestNG controller environment, which will allow to achieve higher level of test execution control in the long run"
+Avro,AVRO-27,Consistent Overhead Byte Stuffing (COBS) encoded block format for Object Container Files,New Feature,Closed,Major,Later,Unassigned,Matt Massie,Matt Massie,5/6/2009 20:11,,7/14/2009 23:04,6/23/2009 20:02,,,spec,,0,2,,,,,,,,,"Object Container Files could use a 1 byte sync marker (set to zero) using zig-zag and COBS encoding within blocks to efficiently escape zeros from the record data. 
+
+h4. Zig-Zag encoding 
+
+With zig-zag encoding only the value of 0 (zero) gets encoded into a value with a single zero byte. This property means that we can write any non-zero zig-zag long inside a block within concern for creating an unintentional sync byte. 
+
+h4. COBS encoding 
+
+We'll use COBS encoding to ensure that all zeros are escaped inside the block payload. You can read http://www.sigcomm.org/sigcomm97/papers/p062.pdf for the details about COBS encoding. 
+
+h1. Block Format 
+
+All blocks start and end with a sync byte (set to zero) with a type-length-value format internally as follows: 
+
+|| name || format || length in bytes || value || meaning || 
+| sync | byte | 1 | always 0 (zero) | The sync byte serves as a clear marker for the start of a block | 
+| type | zig-zag long | variable | must be non-zero | The type field expresses whether the block is for _metadata_ or _normal_ data. | 
+| length | zig-zag long | variable | must be non-zero | The length field expresses the number of bytes until the next record (including the cobs code and sync byte). Useful for skipping ahead to the next block. | 
+| cobs_code | byte | 1 | see COBS code table below | Used in escaping zeros from the block payload | 
+| payload | cobs-encoded | Greater than or equal to zero | all non-zero bytes | The payload of the block | 
+| sync | byte | 1 | always 0 (zero) | The sync byte serves as a clear marker for the end of the block | 
+
+h2. COBS code table 
+
+|| Code || Followed by || Meaning | 
+| 0x00 | (not applicable) | (not allowed ) | 
+| 0x01 | nothing | Empty payload followed by the closing sync byte | 
+| 0x02 | one data byte | The single data byte, followed by the closing sync byte | 
+| 0x03 | two data bytes | The pair of data bytes, followed by the closing sync byte | 
+| 0x04 | three data bytes | The three data bytes, followed by the closing sync byte | 
+| n | (n-1) data bytes | The (n-1) data bytes, followed by the closing sync byte | 
+| 0xFD | 252 data bytes | The 252 data bytes, followed by the closing sync byte | 
+| 0xFE | 253 data bytes | The 253 data bytes, followed by the closing sync byte | 
+| 0xFF | 254 data bytes | The 254 data bytes *not* followed by a zero. | 
+(taken from http://www.sigcomm.org/sigcomm97/papers/p062.pdf) 
+
+h1. Encoding 
+
+Only the block writer needs to perform byte-by-byte processing to encode the block. The overhead for COBS encoding is very small in terms of the in-memory state required. 
+
+h1. Decoding 
+
+Block readers are not required to do as much byte-by-byte processing as a writer. The reader could (for example) find a _metadata_ block by doing the following: 
+
+# Search for a zero byte in the file which marks the start of a record 
+# Read and zig-zag decode the _type_ of the block 
+#* If the block is _normal_ data, read the _length_, seek ahead to the next block and goto step #2 again 
+#* If the block is a _metadata_ block, cobs decode the data"
+Avro,AVRO-47,Byte sequence to be represented as void*,Bug,Closed,Major,Fixed,Scott Banachowski,Arvind Jayaprakash,Arvind Jayaprakash,6/5/2009 20:21,,3/1/2010 17:10,1/22/2010 22:42,,1.3.0,c++,,0,2,,,,,,,,,"The current function prototype for serializin bytes is as follows: 
+void putBytes(const uint8_t *val, size_t size) 
+
+This is better written as 
+void putBytes(const void *val, size_t size) 
+
+Using void* in favour of an int based data type frees us from unnecessary casting opaque bytes from arbitrary stuctures/classes into ""integer"". This is consistent with say a function like memcpy()"
+Avro,AVRO-48,There are a large number of unused imports and unnecessary @SuppressWarning annotations,Task,Closed,Minor,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,6/6/2009 4:13,,7/14/2009 22:50,6/8/2009 21:54,1.0.0,1.0.0,java,,0,0,,,,,,,,,There are in all about 90 instances of unused imports and unnecessary @SuppressWarning annotations.
+Avro,AVRO-49,Efficient positive varints,Improvement,Closed,Major,Won't Fix,Unassigned,Ismael Juma,Ismael Juma,6/10/2009 20:38,,7/14/2009 23:04,6/23/2009 19:57,,,spec,,0,2,,,,,,,,,"Hi, 
+
+Avro looks like an interesting project, so I was looking at the specification. I noticed that varints use zig-zag encoding which is a good signed representation. However, id-like values are very common and they are often always positive. I think it would be nice to support them as efficiently as possible too (like Protocol Buffers, for example). Would something like this be considered at all?"
+Avro,AVRO-61,Support for blocking arrays/maps in python,Bug,Closed,Major,Fixed,Ravi Gummadi,Thiruvalluvan M. G.,Thiruvalluvan M. G.,6/24/2009 7:26,,9/16/2009 22:31,8/18/2009 20:57,,1.1.0,python,,0,1,,,,,,,AVRO-88,,"We have introduced a blocking version of writer in Java that enables readers to efficiently skip large arrays and maps. The avro format encoded arrays and maps by encoding the number of elements by the the elements themselves. Zero element count indicates that the array/map has ended. The change we introduced is that if the element count is negative, it is followed by the byte-count of the encoded elements that follow. The reader, on seeing a negative element count should flip the sign to get the actual number of elements. In addition, if it is interested in supporting fast skip, it should use the byte count to skip the elements en-bloc instead of decoding them individually. If it does not want to support fast skip, it has to just read the byte count and ignore its value. 
+
+The changes are already made in Java's ValueReader to support this. Similar changes need to done in Python as well."
+Avro,AVRO-63,Optimize #hashCode() and #equals() for Protocol and Schema,Improvement,Closed,Major,Won't Fix,Unassigned,Doug Cutting,Doug Cutting,6/25/2009 19:57,,9/4/2009 16:43,8/27/2009 22:26,,,java,,0,0,,,,,,,,,"It's often useful to cache things derived from a Schema or Protocol in a WeakHashMap. Each cache lookup involves at least one call to #equals() and #hashCode() on the Schema or Protocol. But the Schema#hashCode() is expensive, since it must walk the entire schema, allocating objects to detect circular schemas. It would be better if Schema cached its hash code in a field. This can also be used optimize Schema#equals(): if two Schema's do not have the same hashCode then they cannot be equal. With these optimizations, the only slow case would be a cache lookup of an equal but not identical Schema. Perhaps even this can be optimized by caching its MD5 and assuming that, if the MD5 does not match, schemas are not equal."
+Avro,AVRO-89,generated record classes should use unboxed numeric types,Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,8/12/2009 17:06,,9/25/2009 21:15,8/12/2009 22:35,,1.1.0,java,,0,0,,,,,,,AVRO-123,,"Currently, in a generated Java class, an integer field has type java.lang.Integer. It would be more efficient if ""int"" were used. Similarly for longs, floats, doubles and boolean."
+Avro,AVRO-108,add binary comparator,New Feature,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,8/28/2009 16:36,,9/16/2009 22:31,8/31/2009 18:05,,1.1.0,java,,0,2,,,,,,,"AVRO-41, AVRO-109",,"Hadoop MapReduce performance benefits greatly if data may be compared without deserializing to an object, but rather by examining its serialized bytes directly. Such ""raw"" comparators are typically written by hand in Hadoop, and are very fragile. 
+
+With Avro it is possible to generically compare two serialized byte sequences if their schema is known. This should work for any Avro data, regardless of how it was serialized or how it will be deserialized."
+Avro,AVRO-110,"make GenericData, & ReflectData implement singleton pattern",Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,9/1/2009 18:33,,9/16/2009 22:31,9/2/2009 18:12,,1.1.0,java,,0,0,,,,,,,AVRO-41,,"Currently GenericData has only static methods. ReflectData used to follow that pattern, but in AVRO-104 was converted into a normally instantiable class, with a public constructor. 
+
+Better for both would be the singleton pattern. A static get() method would return the single, statically-allocated instance. Instances could thus implement long-lived caches (a feature of ReflectData that was lost in AVRO-104, adversely affecting performance). A protected constructor would be provided so that singleton subclasses can be implemented that override methods. 
+"
+Avro,AVRO-115,remove RPC sessions,Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,9/11/2009 18:44,,10/14/2009 18:53,9/23/2009 22:34,,1.2.0,spec,,1,2,,,,,,,,,"The spec currently has a notion of an RPC session. Within a session requests and responses need not be prefixed by handshakes. 
+
+The existing RPC implementations (python and Java) assume that all transports naturally have sessions, which is not the case. An HTTP transport may or may not have a session, a UDP transport does not naturally have a session. Moreover, we anticipate the implementation in Avro of a high-performance scalable transport that, e.g., permits multiplexing of requests and responses over a single TCP connection. Establishing a session in this context creates a race condition. Also, it would be advantageous if a single connection could service multiple protocols. 
+
+For the above reasons, I propose we remove the notion of RPC sessions. Each request and response payload must then be prefixed by a HandshakeRequest or HandshakeResponse respectively. In most cases this adds just 34 bytes to requests and 4 bytes to responses. The added runtime costs are negligible, as, instead of using a session key to access the cached protocol instead the protocol hashes are used. 
+
+"
+Avro,AVRO-143,use ASM to accellerate reflection,Improvement,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,10/13/2009 21:29,,10/15/2009 0:41,,,,java,,0,5,,,,,,,,,"Java reflection is very slow, about 100 times slower for field access than normal Java code. However reflection might be a useful tool for converting existing codebases to use Avro. 
+
+One could, using ASM (http://asm.ow2.org/) make existing compiled classes to implement the SpecificRecord interface or something similar: 
+
+http://hadoop.apache.org/avro/docs/current/api/java/org/apache/avro/specific/SpecificRecord.html 
+
+This would make existing classes as fast to serialize as generated classes. 
+"
+Avro,AVRO-172,Don't include value class data/methods in each instance of a value,Improvement,Closed,Major,Fixed,Matt Massie,Matt Massie,Matt Massie,10/26/2009 21:41,,3/1/2010 17:09,10/27/2009 17:48,"1.0.0, 1.1.0, 1.2.0",1.3.0,c,,0,1,,14400,0,14400,100%,,,,"This patch is in response to Thiru's feedback about the current C implementation. Thanks, Thiru! I appreciate the feedback. 
+
+Previously, all instances of an Avro value contained class-specific data and methods (e.g. callbacks for reading, skipping and writing data). This is inefficient and unnecessary. 
+
+This patch creates a per value class registry to hold all class-wide information. 
+
+Moreover, this patch creates the framework necessary for support the Avro JSON import/export format. Each value class registers all supported data formats (named AVRO_BINARY_FORMAT and AVRO_JSON_IMPORT_EXPORT_FORMAT). The current JSON parser is a DOM-like parser which is really only suitable for process schema data. The callbacks registered in the value class registry will allow us to process JSON data in a SAX-link fashion moving forward."
+Avro,AVRO-196,Add encoding for sparse records,New Feature,Open,Minor,Unresolved,Unassigned,Justin SB,Justin SB,11/13/2009 19:34,,12/6/2011 16:44,,,,java,,3,2,,,,,,,,,"If we have a large record with many fields in avro which is mostly empty, currently avro will still serialize every field, leading to big overhead. We could support a sparse record format for this case: before each record a bitmask is serialized indicating the presence of the fields. We could specify the encoding type as a new attribute in the avpr e.g. {""type"":""record"", ""name"":""Test"", ""encoding"":""sparse"", ""fields"":....} 
+
+I've put an implementation of the idea on github: 
+http://github.com/justinsb/avro/commit/7f6ad2532298127fcdd9f52ce90df21ff527f9d1 
+
+This leads to big improvements in the serialization size in our case, when we're using avro to serialize performance metrics, where most of the fields are usually empty. 
+
+The alternative of using a Map isn't a good idea because it (1) serializes the names of the fields and (2) means we lose strong typing."
+Avro,AVRO-204,change the way symbolic references are tracked,Improvement,Closed,Major,Fixed,Scott Banachowski,Scott Banachowski,Scott Banachowski,11/16/2009 22:43,,3/1/2010 17:09,11/17/2009 1:12,,1.3.0,c++,,0,1,,,,,,,,,"In a schema, a previously defined schema may be referenced by name. The way the implementation tracked this was a look-aside mapping of name to instance. If a symbol node was encountered during parsing it was referenced via the map. 
+
+Instead of using a look-aside map, now a pointer to the referenced node is stored in the symbolic schema node, so while parsing it may be de-referenced without a lookup. The look-aside map is only when compiling the schema, so that symbols are resolved at compile time. 
+
+This improves performance, reduces storage space, and simplifies some some upcoming changes (resolving schema differences). 
+"
+Avro,AVRO-217,Benchmark Python implementation of Avro,Improvement,Open,Major,Unresolved,Jeff Hammerbacher,Jeff Hammerbacher,Jeff Hammerbacher,11/19/2009 10:23,,1/29/2015 22:01,,,,python,,0,2,,,,,,,"AVRO-709, AVRO-1504",,Doug mentioned to me that the Python implementation of Avro could use some performance benchmarks. This ticket is meant to collect ideas for what to benchmark and subsequently the implementation and execution of those benchmarks.
+Avro,AVRO-228,Refactor to separate concerns: (de)serialization vs marshalling to data model,Improvement,Open,Major,Unresolved,Unassigned,Justin SB,Justin SB,11/20/2009 6:29,,2/21/2011 1:35,,1.3.0,,java,,1,3,,,,,,,,,"I've attached a patch that separates out the code that deals with marshalling to java data models (Generic, Specific, Reflect) from the code that deals with (de)serializtion (DatumReader, DatumWriter). This means that e.g GenericDatumReader, SpecificDatumReader and ReflectDatumReader are unnecessary. Instead, a single AvroDatumReader is parameterized with a ClassMapping. The class mapping interface is currently implemented by the existing GenericData, SpecificData, ReflectData mappers. 
+
+The patch is large, so might be quite hard to follow. Essentially I renamed GenericDatumReader to AvroDatumReader, and moved any model-specific functionality to the ClassMapping interface. I did the same for DatumWriter & Requestor & Responder. 
+
+There remains some oddities for the ProxyingResponder / Requestor, but I wanted to keep the patch as a straight re-organization without significant code changes. 
+
+I believe this patch will set us up for some refactors down the road - ClassMapping is really 3 interfaces in one - the mapping of Java types to Avro types, some utility functions (like hashCode), and field accessors. Splitting this interface into 3 interfaces would allow reuse of the parts separately. Then it would be easy to use avro with arbitrary data models (by implementing the accessor functions) without needing to implement DatumWriters etc."
+Avro,AVRO-259,GenericData.Array should fail fast when constructed with a null Schema,Bug,Closed,Trivial,Fixed,Kevin Oliver,Kevin Oliver,Kevin Oliver,12/18/2009 17:14,,3/1/2010 17:09,1/9/2010 0:03,,1.3.0,java,,0,2,,,,,,,,,GenericData.Array's constructor takes a Schema but doesn't validate that it is not null. The schema is assumed to be not null in other places (equals() and hashCode()) which then trigger NPEs.
+Avro,AVRO-266,Union as java.lang.Object prevents object reuse,Improvement,Open,Major,Unresolved,Unassigned,Todd Lipcon,Todd Lipcon,12/23/2009 23:01,,12/13/2011 19:06,,1.2.0,,java,,1,3,,,,,,,AVRO-248,,"Because Unions end up deserializing as java.lang.Object and using the object's type to differentiate the union constituents, object reuse is pretty hard to achieve. I don't have a specific benchmark, but I think this will hurt performance for logging applications where every record in a large file is a union, and the type tends to change for each record."
+Avro,AVRO-270,Expose (optionally) RPC server and client statistics to users,New Feature,Open,Major,Unresolved,Philip Zeyliger,Philip Zeyliger,Philip Zeyliger,12/30/2009 19:37,,1/4/2010 5:06,,,,java,,0,1,,,,,,,"AVRO-271, AVRO-272, AVRO-273, AVRO-275, AVRO-279",,"When working with a live systme, it's often quite handy to see what RPCs it's processing, how long they take, which ones are in flight, etc. I hope for this to be lightweight enough that it's always on, but for both security and performance reasons, it will be entirely optional. 
+"
+Avro,AVRO-278,use array instead of map to implement generic records,Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,12/31/2009 23:06,,3/1/2010 17:09,1/8/2010 20:36,,1.3.0,java,,0,1,,,,,,AVRO-350,,,"It would be considerably faster to implement GenericData.Record as an array rather than as a HashMap. We expect generic data to be a major incentive to using Avro, and users of Java's generic API should not pay a performance penalty."
+Avro,AVRO-286,Schema for JSON,New Feature,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,1/4/2010 23:00,,1/4/2010 23:00,,,,spec,,0,3,,,,,,,,,"Avro's spec might include a standard schema to be used for JSON data, thus providing a fast, compact binary format for JSON. Such a schema is included in AVRO-251. Command-line tools could be created to convert json data to and from this format."
+Avro,AVRO-315,Performance improvements to BinaryDecoder,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/13/2010 7:04,,3/1/2010 17:09,1/14/2010 12:48,,1.3.0,java,,0,1,,,,,,,AVRO-327,,"The forthcoming patch improves the performance of BinaryDecoder.readLong(), readFloat() and readDouble(). 
+
+The test-patch has a command-line program Perf in org.apache.avro.io in the (test part of the source directory) which tests the performance of readInt() (which calls readLong()) readFloat() and readDouble(). On my machine, the patch improves the performance by 10% for readInt() and about 50% for readFloat() and readDouble(). 
+
+The idea is to unroll the loops in readLong(), readFloat() and readDouble(). There is a small change in doReadBytes() which checks for most common condition before less common ones."
+Avro,AVRO-316,Optiminzing inner loop functions of Avro io,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/13/2010 12:41,,3/1/2010 17:09,1/15/2010 17:20,,1.3.0,java,,0,2,,,,,,,,,"The methods advance() and pushProduction() of org.apache.avro.io.parsing.Parser class are invoked at least once per read/write call on ValidatingDecoder, ResolvingDecoder and ValidatingEncoder. Any optimization in these functions will improve overall performance when using these classes. 
+
+Try org.apacge.avro.io.Perf -V to see the effect of this patch on the performance. On my machine it gives about 5 to 8% improvement. 
+
+The optimizations are: 
+- Reorder the code within advance() so that the most frequent paths involve minimal comparisons. 
+- Repleace Symbol.CONTINUE with null to indicate that next symbol on the stack needs to be looked at. 
+- Get rid of a parameter to pushProduction. This parameter was used only in one call site of that function; others pass null. Refactored the code so that these invocations do not pay for that piece of logic that they don't use."
+Avro,AVRO-327,Performance improvements to BinaryDecoder.readLong(),Improvement,Closed,Major,Duplicate,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/14/2010 11:15,,3/1/2010 21:47,2/5/2010 1:20,,,java,,0,4,,,,,,,"AVRO-392, AVRO-315",,"AVRO-315 proposed performance improvements to readLong(), readFloat() and readDouble(). readLong() did not improve performance well for all. Scott proposed a better method (but requires a change in semantics and API). We'll carry on the discussion on that proposal here. AVRO-315 will be committed with changes for readFloat() and readDouble()."
+Avro,AVRO-328,Performance improvements Validating encoder/decoder for nested records,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/14/2010 14:52,,3/1/2010 17:09,1/16/2010 6:00,,1.3.0,java,,0,2,,,,,,,,,"With nested records, Parser.pushProduction() gets called multiple times (once per record nesting). Since we do not have any events for beginning and end of records, it enhances the performance if we flatten the grammar, wherever possible. 
+
+The forthcoming patch does just that. 
+
+Try org.apache.avro.io.Perf -N 
+
+On my machine (HP laptop with Cygwin) the improvement is about 20%. 
+
+"
+Avro,AVRO-336,Equals() on SpecificRecord fails (java),Bug,Closed,Major,Fixed,Doug Cutting,Scott Carey,Scott Carey,1/15/2010 8:15,,3/1/2010 17:09,1/19/2010 0:49,1.3.0,1.3.0,java,,0,2,,,,,,,,,"rev 899520, trunk. 
+
+Calling equals() on an object generated by the SpecificAPI fails. 
+
+The object is a record with several fields, one is an array. This object can serialize and deserialize, binary and json. But equals() fails, as well as hashCode() in some cases. 
+
+It fails in Schema.java, line 217. 
+{code} 
+/** If this is an array, returns its element type. */ 
+public Schema getElementType() { 
+throw new AvroRuntimeException(""Not an array: ""+this); 
+} 
+{code} 
+
+This looks unimplemented. 
+
+The stack trace is: 
+{noformat} 
+Exception in thread ""main"" org.apache.avro.AvroRuntimeException: Not an array: {""type"":""record"",""name"":""Variable"",""namespace"":""com.rr.avro"",""fields"":[{""name"":""variableId"",""type"":""int""},{""name"":""selectedValue"",""type"":""string""}]} 
+at org.apache.avro.Schema.getElementType(Schema.java:217) 
+at org.apache.avro.generic.GenericData.compare(GenericData.java:468) 
+at org.apache.avro.specific.SpecificData.compare(SpecificData.java:250) 
+at org.apache.avro.specific.SpecificData.compare(SpecificData.java:242) 
+at org.apache.avro.specific.SpecificRecordBase.compareTo(SpecificRecordBase.java:45) 
+at org.apache.avro.specific.SpecificRecordBase.equals(SpecificRecordBase.java:35) 
+{noformat} 
+
+That record is the element type of the array, so I think this is just due to the implementation being incomplete. 
+The specific compiler could also generate equals() methods (which would be more efficient than traversing the schema). I wonder if eclipse's ""generate hashcode and equals"" code is usable."
+Avro,AVRO-341,specify avro transport in spec,Improvement,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,1/15/2010 20:29,,12/4/2010 0:59,,,,spec,,1,19,,,,,,,"AVRO-406, AVRO-625, AVRO-641, HADOOP-4487, HADOOP-6659, AVRO-334, AVRO-340, AVRO-707, HBASE-2400",,"We should develop a high-performance, secure, transport for Avro. This should be named with avro: uris."
+Avro,AVRO-345,Optimization for ResolvingDecoder,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/16/2010 12:08,,3/1/2010 17:09,1/19/2010 14:31,,1.3.0,java,,0,1,,,,,,,,,"If the writer's and reader's schema are records, we allow the order of fields to be different in them. The ResolvingDecoder returns the fields in the writer's order. This is to avoid buffering. The current implementation uses FieldAdjust action on the parser stack. The number of such action symbols is equal to the number of reader fields. This causes performance problem because the number of calls to advance() is almost double compared to the number of calls in ValidatingDecoder. 
+
+This patch replaces the FieldAdjustAction symbols with FieldOrderAction symbols. We have FieldOrderActions one per record, which is expected to be much smaller than the number of fields. Though it changes the API for ResolvingDecoder slightly, there is no impact because we do not have any users yet. 
+
+I see a 10-15% improvement in my computer with Perf -S."
+Avro,AVRO-354,Performance improvement to BinaryDecoder.readInt(),Improvement,Closed,Minor,Fixed,Kevin Oliver,Kevin Oliver,Kevin Oliver,1/19/2010 21:41,,3/1/2010 17:09,1/26/2010 15:28,1.3.0,1.3.0,java,,0,2,,,,,,,,"koliver@koliver-ws4:~$ uname -a 
+Linux koliver-ws4 2.6.24-26-generic #1 SMP Tue Dec 1 17:55:03 UTC 2009 x86_64 GNU/Linux 
+","Able to get a 3-7% improvement on Perf -i by creating a specialized version of BinaryDecoder.readInt() that uses the same code as readLong() but uses ints instead of long for all its math and bit arithmetic. 
+
+The performance improvement is larger on a 32-bit VM (around 7%) than on a 64-bit VM (around 3%)."
+Avro,AVRO-366,Add FastLZ Codec,New Feature,Open,Minor,Unresolved,Unassigned,Jacob Rideout,Jacob Rideout,1/22/2010 8:07,,11/23/2010 5:46,,,,java,,1,2,,,,,,,"HADOOP-6349, AVRO-135",,It would be nice to have LZO/LZF/FastLZ compression codec support.
+Avro,AVRO-367,Complete memory management for the C implementation,Improvement,Closed,Major,Fixed,Matt Massie,Matt Massie,Matt Massie,1/22/2010 18:16,,3/1/2010 17:09,1/22/2010 19:04,,1.3.0,c,,0,0,,,,,,,,,"This patch completes memory management for the C implementation. 
+
+* All schema and datum objects are now freed when dereferenced 
+* Four new methods have been added {{avro_wrapstring}}, {{avro_wrapbytes}}, {{avro_givestring}}, and {{avro_givebytes}}. These new methods allow C developers to explicitly state if they want {{libavro}} to copy bytes/string (the default), ""wrap"" them with no memory management or ""give"" them to {{libavro}} to manage. This allows for less buffer copying when decoding data. 
+* Issues with type punning have been resolved to prevent compiler warnings 
+* The {{map}} and {{record}} data structures now implement management correctly. 
+* A new valgrind test is added and runs during {{make check}} if valgrind is found on the build system. 
+
+A future optimization will be to have a stack of allocated objects for each obj type instead of always using malloc() and free()."
+Avro,AVRO-380,Avro Container File format change: add block size to block descriptor,Improvement,Closed,Major,Fixed,Scott Carey,Scott Carey,Scott Carey,1/27/2010 1:25,,3/1/2010 17:09,1/29/2010 19:29,1.3.0,1.3.0,"doc, java, spec",,0,2,,,,,,,,,"The new file format in AVRO-160 limits a few use cases that I have found to be important. 
+
+A block currently contains a count of the number of records, the block data, and a sync marker. 
+This change would add the block size, in bytes, along side the number of records. 
+
+This allows efficient access to a block's data without the need to decode the data into individual Datums, which is useful for various use cases."
+Avro,AVRO-383,Optimizing ResolvingDecoder for default values,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/27/2010 17:22,,3/1/2010 17:09,2/2/2010 5:07,,1.3.0,java,,0,0,,,,,,,,,"When the reader's and writer's schemas are records and the reader's schema has a field with default value and the writer's schema doesn't have the field, the ResolvingDecoder keeps the default value in a byte array. This byte array is in Json format. Moving this to Avro binary format improves performance. 
+
+Apply the test patch and try ""Perf -M"". Then apply the patch and run it again. On my machine, the performance is three times the original."
+Avro,AVRO-388,Using ResolvingDecoder in GenericDatumReader,Improvement,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,1/30/2010 9:38,,3/1/2010 17:09,2/3/2010 1:52,,1.3.0,java,,0,0,,,,,,,,,"This patch removes GenericDatumReader's own logic for schema resolution by relying on ResolvingDecoder. The code has become somewhat compact. The duplication logic we were concerned about in AVRO-383 is gone. 
+
+There are three changes to the public interface of GenericDatumReader: 
+* readInt() and readString() functions no longer provide the writer's schema. I think it is reasonable that code outside GenericDatumReader should not worry about schema resolution and thus don't have to know about writer's schema. 
+* setSchema() function of DatumReader may throw IOException. 
+
+None in Avro codebase is affected by these changes. 
+
+In terms of performance: 
+
+* When there is no resolution required, that is reader's and writer's schemas are identical, there is no change in performance. In fact, ResolvingEncoder is not used in this case. Use Perf -G to measuer. 
+* If the resolution involves only promotions (from int to long) the new code is about 5% faster. User Perf -Gp 
+* If the resolution involves supplying default values from the reader's schema because writer's schema does have a field, the node is faster about 15%. This improvement is probably due to AVRO-383. User Perf -Gd to measure this. 
+* If the resolution involves field reordering (reader's and writer's schema have the same fields, but in different order) the new code is _slower_ by about 20%. This is because, ResolvingDecoder provides information on field reordering through a vector of Schema.Field objects. The Field class has the field position but not the field name. But GenericDatumWriter's setField() function needs the field name. getFieldName() function introduced in this patch does a linear search to find the name from the reader's schema. This is inefficient. We can handle this problem in any of the following ways: 
+1. Do nothing claiming that field reordering is rare and we can live with this inefficiency. I tried this and saw that the new code performs about 5-10% faster than the old. 
+2. Change the signature of the setField() so that it does not require the field name. This is an incomaptible change to the GenericDatumReader's public interface. None of the code in the current Avro will need field name. But if somebody has extended GenericDatumReader, they will be affected. 
+3. Have a new class FieldInfo which has the name and position of the field and make ResolvingDecoder return an array of FieldInfo instead of Field. It's not obvious, which package/class this new class would go to. If one wants a clean dependencies, probably it belongs to io package. I'm not confortable adding another class into the io package at the present. Keeping it as an inner class of ResolvingDecoder will create circular dependencies between the io.parsing package and ResolvingDecoder class. 
+4. Instead of a new class FieldInfo above use Map.Entry<String, Field>. 
+5. Add a new field called ""name"" to Schema.Field class. It will be somewhat redundant because the key of the fields map of RecordSchema is the field name. With this, the field name will be available both as the key and as a part of value of the map. 
+
+My personal preference is 5 followed by 4. 
+"
+Avro,AVRO-392,Binary Decoder Performance and flexibility overhaul,Improvement,Closed,Critical,Fixed,Scott Carey,Scott Carey,Scott Carey,2/3/2010 10:49,,3/1/2010 17:09,2/19/2010 21:46,,1.3.0,java,,0,2,,,,,,,"AVRO-414, AVRO-327",,"BinaryDecoder has room for significant performance improvement. [AVRO-327|https://issues.apache.org/jira/browse/AVRO-327] has some preliminary work here, but in order to satisfy some use cases there is much more work to do. 
+
+I am opening a new ticket because the scope of the changes needed to do this the right way are larger. 
+
+I have done a large bulk of a new implementation that abstracts a 'ByteSource' from the BinaryDecoder. Currently BinaryDecoder is tightly coupled to InputStream. The ByteSource can wrap an InputStream, FileChannel, or byte[] in this version, but could be extended to support other channel types, sockets, etc. This abstraction allows the BinaryDecoder to buffer data from various sources while supporting interleaved access to the underlying data and greater flexibility going forward. 
+The performance of this abstraction has been heavily tuned so that maximum performance can be achieved even for slower ByteSource implementations. 
+
+For readers that must interleave reads on a stream with the decoder, this includes a 
+{code} 
+public InputStream inputStream(); 
+{code} 
+method on the decoder that can serve interleaved reads. 
+
+Additionally it will be necessary to have a constructor on BinaryDecoder that allows two BinaryDecoders to share a stream (and buffer). 
+
+
+Performance results on this new version is better than previous prototypes: 
+
+*current trunk BinaryDecoder* 
+{noformat} 
+ReadInt: 983 ms, 30.497877855999185 million entries/sec 
+ReadLongSmall: 1058 ms, 28.336666040111496 million entries/sec 
+ReadLong: 1518 ms, 19.75179889508437 million entries/sec 
+ReadFloat: 657 ms, 45.61031157924184 million entries/sec 
+ReadDouble: 761 ms, 39.387756709704355 million entries/sec 
+ReadBoolean: 331 ms, 90.4268145647456 million entries/sec 
+RepeaterTest: 7718 ms, 3.886725782038378 million entries/sec 
+NestedRecordTest: 1884 ms, 15.91964611687992 million entries/sec 
+ResolverTest: 8296 ms, 3.616055866616717 million entries/sec 
+MigrationTest: 21216 ms, 1.4139999570144013 million entries/sec 
+{noformat} 
+
+*buffering BinaryDecoder* 
+{noformat} 
+ReadInt: 187 ms, 160.22131904871262 million entries/sec 
+ReadLongSmall: 372 ms, 80.4863521975457 million entries/sec 
+ReadLong: 613 ms, 48.882385721129246 million entries/sec 
+ReadFloat: 253 ms, 118.16606270679061 million entries/sec 
+ReadDouble: 275 ms, 108.94314257389068 million entries/sec 
+ReadBoolean: 222 ms, 134.85327963176064 million entries/sec 
+RepeaterTest: 3335 ms, 8.993007936329503 million entries/sec 
+NestedRecordTest: 1152 ms, 26.0256943004597 million entries/sec 
+ResolverTest: 4213 ms, 7.120659335077578 million entries/sec 
+MigrationTest: 15310 ms, 1.9594884898992941 million entries/sec 
+{noformat} 
+
+Performance is 2x to 5x the throughput of trunk on most tests."
+Avro,AVRO-428,Improve file read performance by buffering data,Improvement,Closed,Major,Fixed,Matt Massie,Matt Massie,Matt Massie,2/22/2010 22:21,,3/1/2010 21:47,2/23/2010 18:25,,1.3.0,c,,0,1,,,,,,,,,
+Avro,AVRO-460,Performance improvement to write_long(),Improvement,Closed,Major,Fixed,Bruce Mitchener,Bruce Mitchener,Bruce Mitchener,3/12/2010 17:28,,3/22/2010 23:19,3/12/2010 18:07,1.3.0,1.3.1,c,,0,0,,,,,,,,,"write_long should buffer up its output and write it at once to avoid overhead rather than writing byte-by-byte. 
+"
+Avro,AVRO-464,Rework internals of records and schemas for greater performance,Improvement,Closed,Major,Won't Fix,Douglas Creager,Bruce Mitchener,Bruce Mitchener,3/15/2010 5:08,,8/12/2011 20:22,7/14/2011 23:43,,"1.5.2, 1.6.0",c,,0,1,,,,,,,,,"As far as I can tell, there's no need for the integer->string hash tables in schemas or records ... they can be arrays instead. 
+"
+Avro,AVRO-508,Use page-backed buffers for C++ serialization input or output,Improvement,Closed,Major,Fixed,Scott Banachowski,Scott Banachowski,Scott Banachowski,4/5/2010 17:28,,9/8/2010 21:12,4/8/2010 16:48,,1.4.0,c++,,0,0,,,,,,,,,"This change came about when I looked at how to tie the object container and http changes to the serializer. 
+
+The current implementation of C++ allows serialization to and from C++ iostreams. However, typically I want to serialize to a buffer, which I can write to disk or network (or both). While iostreams do buffering, they're not well-suited if you just want to store to memory (the unittest examples serialize to ostringstream then extract the data as a string--not so efficient). 
+
+So I've added a buffering library, that does page-backed allocations (adds a page as buffer grows). It also supports the concept classes defined by boost::asio for Constant and Mutable buffer sequences (this allows the buffers to be used directly in asio networking calls), conversion to iovec, appending of foreign buffers, and iostream interface wrapper, so it's pretty flexible in the way it can be used."
+Avro,AVRO-512,define and implement mapreduce connector protocol,New Feature,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,4/6/2010 18:23,,6/29/2011 22:05,6/15/2010 18:22,,1.4.0,java,,0,8,,,,,,,"AVRO-570, AVRO-285",,"Avro should provide Hadoop Mapper and Reducer implementations that connect to a subprocess in another programming language, transmitting raw binary values to and from that process. This should be modeled after Hadoop Pipes. It would allow one to easily write efficient mapreduce programs in non-Java languages that process Avro-format data."
+Avro,AVRO-514,Ruby impl has unnecessary StringIO calls in Responder.,Improvement,Closed,Major,Fixed,Jeff Hodges,Jeff Hodges,Jeff Hodges,4/9/2010 0:22,,6/14/2010 1:37,4/12/2010 9:17,,1.3.3,ruby,,0,0,,,,,,,,,"There are more elsewhere, but this is needed."
+Avro,AVRO-519,Efficient sparse optional fields support,New Feature,Open,Major,Unresolved,Unassigned,John Plevyak,John Plevyak,4/17/2010 18:17,,4/29/2010 18:24,,,,spec,,4,4,,,,,,,,,"One of the nice features of protobuf is efficient support for very sparse optional fields, 
+for example large number of tags potentially associated with a document the vast 
+majority of which are empty. 
+
+Avro does support optional fields as part of differing specifications, but not on a per-record 
+level after a protocol has been agreed upon. Avro does have support for arrays and maps 
+however both of these require homogeneous types. 
+
+I would suggest adding an additional field attribute: 
+* ""optional"" - with values ""true""/""false"" (where ""false"" is assumed) 
+
+For the encoding I would suggest that that any record which includes optional fields 
+would be prefixed by an presence map which would be a sequence of int8 x* where: 
+
+x > 0 : the lower 7 bits are presence bits for the next 7 optional fields (low bit first) 
+-128 < x < 0 : the next present field is position x + 135 (as x runs from 0 to -127 and the first 7 
+must be empty otherwise we would use the x > 0 encoding) 
+x == -128: no optional fields present in the next 134 optional fields 
+x = 0 : end of sequence 
+further, if the map has covered all the options, the end-of-sequence marker can be 
+elided. For example, a type with 3 optional fields would require only a single byte. 
+
+This will permit encoding at 8/7 of a bit per present entry (worst case) and at a cost of 
+8/134 (0.06) bits/entry per all but last not-present (7.5 bytes / 1000 optional fields). 
+
+This encoding is backward compatible as well as schema's which do not contain optional 
+elements do not have the presence map and the encoding is therefore identical. Backward 
+compatibility can be maintained by simply using the default value for not-present fields. 
+
+Language APIs: 
+
+Efficient support could include either an explicit presence test or a function which returns the value 
+or default value (if the field is not present). 
+
+
+
+
+"
+Avro,AVRO-543,ruby: schema comparison is hella slow,Improvement,Closed,Major,Fixed,Jeff Hodges,Jeff Hodges,Jeff Hodges,5/15/2010 4:10,,6/14/2010 1:37,5/19/2010 22:31,1.3.2,1.3.3,ruby,,0,0,,,,,,,,,"schema comparison is very, very slow causing large latencies on handshake."
+Avro,AVRO-556,Poor performance for Reader::readBytes can be easily improved,Improvement,Closed,Major,Fixed,Unassigned,Dave Wright,Dave Wright,5/31/2010 20:12,,6/14/2010 1:37,6/6/2010 2:16,1.3.2,1.3.3,c++,,0,1,,,,,,,,Linux,"The default implementation of Reader::readBytes on 1.3.2 reads bytes into the result vector one-byte-at-a-time. For large byte arrays (~500k or so), this is horrendously slow. 
+The code can easily be changed to simply do: 
+{noformat} 
+void readBytes(std::vector<uint8_t> &val) { 
+int64_t size = readSize(); 
+val.resize(size); 
+in_.readBytes(&val[0], size); 
+} 
+{noformat} 
+..which will copy all the bytes in a single call. 
+(note: it appears this function has been changed in the trunk, but it still copies byte-by-byte, so the optimization would still apply). 
+
+In my testing of serializing/deserializing a message with a 500k byte field in it 1000 times, execution time dropped from from 30+sec to 0.2sec with this optimization. 
+
+The same optimization can easily be applied to readFixed(uint8_t *val...) as well. 
+
+"
+Avro,AVRO-557,Speed up one-time data decoding,Improvement,Closed,Major,Fixed,Doug Cutting,Kevin Oliver,Kevin Oliver,6/2/2010 20:12,,9/8/2010 21:07,8/10/2010 22:20,1.3.2,1.4.0,java,,0,2,,,,,,,,,There are big gains to be had in performance when using a BinaryDecoder and a GenericDatumReader just one time. This is due to the relatively expensive parsing and initialization that came with 1.3. Patch with example code and a Perf harness to follow.
+Avro,AVRO-563,Reduce startup time for tool.rb rpcreceive,Improvement,Open,Major,Unresolved,Unassigned,Jeff Hammerbacher,Jeff Hammerbacher,6/6/2010 2:26,,6/7/2010 3:49,,,,ruby,,0,1,,,,,,,,,"When running the RPC interop tests for the 1.3.3 release, I noticed that the Ruby implementation is taking around 15s to start the tool.rb rpcreceive server and write the port to stdout. I don't know where this high latency is coming from, but I think we should investigate, as forcing the RPC interop tests to wait that long between server startup and client send will make the tests last far longer than they need to last."
+Avro,AVRO-610,Move away from Net:HTTP,Improvement,Open,Major,Unresolved,Unassigned,Ryan King,Ryan King,8/6/2010 21:10,,8/9/2010 16:22,,,,ruby,,0,1,,,,,,,,,"For a variety of reasons, Net:HTTP doesn't work well: 
+
+* its pure ruby, so its performance isn't great 
+* it uses the Timeout module, which isn't very effective 
+
+Typhoeus would be my preference: http://github.com/pauldix/typhoeus"
+Avro,AVRO-637,GenericArray should implement Collection,New Feature,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,8/27/2010 17:52,,12/28/2010 21:10,9/1/2010 3:24,,1.4.0,java,,1,1,,,,,,,AVRO-720,,"It would be nice if Avro arrays were better integrated with Java collections. The GenericArray interface permits array element reuse, which is awkward with java.util.Collection. But if GenericArray implemented Collection and the Avro runtime permitted arbitrary Collection implementations to be passed for Arrays then it would simplify many applications. The runtime could still reuse elements if an array implemented GenericArray, so performance would not suffer for applications that, e.g., loop over a data file, reusing instances."
+Avro,AVRO-654,Recursive #validate() for union'ed schemas in Ruby cripples performance,Bug,Open,Major,Unresolved,Unassigned,Philip (flip) Kromer,Philip (flip) Kromer,9/3/2010 2:24,,12/6/2010 18:48,,1.3.3,,ruby,,0,4,,,,,,,"AVRO-656, AVRO-709",,"The ruby DatumWriter calls #validate() on each #write(). In the case of a schema with many nested unions (cf. Cassandra's*), this requires a recursive depth-first search to determine which branch to take. In ruby, these operations are very expensive -- enough to limit write speeds to 2k/sec on a machine of moderate size. 
+
+For repeated writing of the same data structure, one idea would be to create a CompiledDatumWriter. This would walk through the validation and assemble an tree of the methods to apply to each schema element in turn: 
+[ [:write_long 'id'], [:write_bytes, 'name'], [:write_record, 'address', [:write_long, 'street']] ] 
+
+--- 
+* http://github.com/infochimps/cassandra/blob/beta1_plus_patches/interface/avro/cassandra.avpr"
+Avro,AVRO-673,Reduce time spent validating schemas,Improvement,Closed,Minor,Fixed,Erik Frey,Erik Frey,Erik Frey,9/24/2010 21:22,,10/14/2010 19:06,10/8/2010 21:15,,1.4.1,python,,0,1,,,,,,,,,"avro.io has a validate method that currently occupies around half the time it takes to serialize a fairly complex record through a datafile. validate() gets called repeatedly during an object's traversal, even though validate itself is already recursive. This introduces combinatorially excessive validation that has a significant impact on the performance of serializing complex records."
+Avro,AVRO-679,Improved encodings for arrays,New Feature,Closed,Minor,Incomplete,Unassigned,Stu Hood,Stu Hood,10/10/2010 20:48,,5/6/2011 19:18,4/22/2011 18:20,,,spec,,0,2,,,,,,,,,"There are better ways to encode arrays of varints [1] which are faster to decode, and more space efficient than encoding varints independently. 
+
+Extending the idea to other types of variable length data like 'bytes' and 'string', you could encode the entries for an array block as an array of lengths, followed by contiguous byte/utf8 data. 
+
+[1] group varint encoding: slides 57-63 of http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/people/jeff/WSDM09-keynote.pdf"
+Avro,AVRO-695,Cycle Reference Support,New Feature,Resolved,Major,Fixed,Ryan Blue,Moustapha Cherri,Moustapha Cherri,11/15/2010 16:01,,2/4/2016 22:53,2/3/2016 19:18,1.7.6,1.8.0,spec,,4,10,,2419200,2419200,,0%,,,,"This is a proposed implementation to add cycle reference support to Avro. It basically introduce a new type named Cycle. Cycles contains a string representing the path to the other reference. 
+
+For example if we have an object of type Message that have a member named previous with type Message too. If we have have this hierarchy: 
+
+message 
+previous : message2 
+
+message2 
+previous : message2 
+
+When serializing the cycle path for ""message2.previous"" will be ""previous"". 
+
+The implementation depend on ANTLR to evaluate those cycle at read time to resolve them. I used ANTLR 3.2. This dependency is not mandated; I just used ANTLR to speed thing up. I kept in this implementation the generated code from ANTLR though this should not be the case as this should be generated during the build. I only updated the Java code. 
+
+I did not make full unit testing but you can find ""avrotest.Main"" class that can be used a preliminary test. 
+
+Please do not hesitate to contact me for further clarification if this seems interresting. 
+
+Best regards, 
+Moustapha Cherri"
+Avro,AVRO-697,Install SIGPIPE handler in the Avro tools main method.,Improvement,Open,Major,Unresolved,Unassigned,Patrick Linehan,Patrick Linehan,11/17/2010 21:39,,11/23/2010 21:40,,,,java,,0,0,,,,,,,,,"The following command should complete quickly, no matter how many records ""myfile.avro"" contains: 
+
+java -jar avro-tools.jar tojson myfile.avro | head 
+
+However, because the tool JAR's main method does not install a SIGPIPE handler, this command can be quite slow for large files. 
+
+Suggested fix is to install a handler which calls ""System.exit(128 + signal.getNumber())"" in response to SIGPIPE. Typically the signal number (""getNumber"") is 13, but no need to hard code it. 
+
+Potential issues: 
+
+* Tests which invoke Main.main() will necessarily force the signal handler to be installed. This may be undesirable, as the entire test JVM will be ""infected"" with the handler. Workarounds exist. Does not bother me, personally, however. 
+* Installing signal handlers generates compile-time warnings, if I'm not mistaken. Workarounds exist. Does not bother me, personally, however. 
+
+If this suggestion sounds reasonable, I'll post a patch."
+Avro,AVRO-709,Some python speedups,Improvement,Closed,Minor,Fixed,Justin Azoff,Justin Azoff,Justin Azoff,12/5/2010 23:55,,5/6/2011 19:14,3/31/2011 22:51,1.5.0,1.5.1,python,,1,2,,,,,,,"AVRO-654, AVRO-217",linux,"I did some basic profiling of the python library and found it spent most of it's time looking up the properties. 
+Converting them to plain class members speeds things up quite a bit. using __slots__ would probably improve things even more."
+Avro,AVRO-719,AvroOutputFormat: Expose sync interval configuration,Improvement,Closed,Minor,Fixed,Joe Crobak,Joe Crobak,Joe Crobak,12/23/2010 18:59,,3/12/2011 0:32,1/7/2011 21:20,1.4.1,1.5.0,java,,0,0,,,,,,,,"Mac, Java 6","AvroOutputFormat supports setting deflate level for the underlying DataFileWriter, but not the sync interval. As I've seen performance improvements using larger-than-default sync intervals, it would be nice to make this option configurable."
+Avro,AVRO-726,Make GenericDatumReader/GenericDatumWriter data member protected so that it can be used by the derived classes,Improvement,Closed,Major,Fixed,Doug Cutting,Xiaolu Ye,Xiaolu Ye,1/5/2011 21:49,,7/1/2011 20:37,3/7/2011 20:14,1.5.0,1.5.0,java,,0,3,,,,,,,"AVRO-770, AVRO-839",,"Currently, GenericDatumReader/GenericDatumWriter data members are private. Is it possible to make them protected so that we could extend those classes and create our own special DatumReader/Writer? The reason we want to do that is because we've created our own base SpecificRecordEx that implements SpecificRecord and added put/get for primitive types. We now want to extend the GenericDatumReader/GenericDatumWriter to use those primitive put/get functions to reduce box/unbox for better performance. 
+Thanks, 
+
+Xiaolu"
+Avro,AVRO-743,Java: Performance Regression and memory pressure with GenericDatumReader,Bug,Closed,Critical,Fixed,Scott Carey,Scott Carey,Scott Carey,1/24/2011 7:26,,3/12/2011 0:32,2/7/2011 18:37,1.5.0,1.5.0,java,,0,3,,,,,,,AVRO-650,,"AVRO-650 introduced a large performance regression and memory bloat issue with GenericDatumReader. 
+
+Performance plummets for some Perf.java tests (One test took 1 hour to finish on my laptop). 
+Some minor changes I tried result in it passing in shorter time, but with still an 80% performance degredation. 
+
+This is associated with memory bloat related to ThreadLocals. 
+
+More details provided in comments."
+Avro,AVRO-752,Java: Enhanced Performance Test Suite,Improvement,Closed,Minor,Fixed,Scott Carey,Scott Carey,Scott Carey,2/1/2011 8:35,,3/12/2011 0:32,2/9/2011 1:38,,1.5.0,java,,0,0,,,,,,,,,"The Perf.java performance test can be improved. Notably, it is only useful for testing Decoders at the moment. Upgrading it to run tests more consistently, support both read (Decoder) and write (Encoder) tests, and be more flexible in general will help us performance tune and spot regressions more easily."
+Avro,AVRO-753,Java: Improve BinaryEncoder Performance,Improvement,Closed,Blocker,Fixed,Scott Carey,Scott Carey,Scott Carey,2/1/2011 9:07,,3/12/2011 0:32,2/25/2011 0:38,,1.5.0,java,,1,2,,,,,,,"AVRO-738, AVRO-769",,"BinaryEncoder has not had a performance improvement pass like BinaryDecoder did. It still mostly writes directly to the underlying OutputStream which is not optimal for performance. I like to use a rule that if you are writing to an OutputStream or reading from an InputStream in chunks smaller than 128 bytes, you have a performance problem. 
+
+Measurements indicate that optimizing BinaryEncoder yields a 2.5x to 6x performance improvement. The process is significantly simpler than BinaryDecoder because 'pushing' is easier than 'pulling' -- and also because we do not need a 'direct' variant because BinaryEncoder already buffers sometimes. 
+
+"
+Avro,AVRO-761,Requestor sends protocol text on each handshake under certain circumstances,Bug,Closed,Major,Fixed,Doug Cutting,Richard Ahrens,Richard Ahrens,2/9/2011 20:28,,3/12/2011 0:32,3/8/2011 1:02,1.4.1,1.5.0,java,,0,1,,,,,,,,,"When using a stateless transport such as HTTP and different protocol versions on client and server, Requestor will send the local protocol text on each request once a handshake match is established. For large protocols, this slows things down considerably. The attached patch resolves the issue by resetting the sendLocalText field after a successful handshake."
+Avro,AVRO-762,Better schema resolution,New Feature,Closed,Blocker,Fixed,Douglas Creager,Douglas Creager,Douglas Creager,2/9/2011 20:44,,3/12/2011 0:32,2/25/2011 21:15,,1.5.0,c,,0,1,,,,,,,,,"I've been working on a pretty major patch that changes the way the C library implements schema resolution. Before, we would compare the writer and reader schemas each time we try to read a record from an Avro file. This is a fair bit of wasted effort. The approach I'm taking with the new implementation is to separate schema resolution and binary parsing into separate operations. There's a new ""consumer"" API, which defines a set of callbacks for processing Avro data that conforms to a schema. The new avro_consume_binary function reads binary-encoded Avro data from a buffer or file, and passes that data into a consumer instance. Each consumer instance is associated with the writer schema of the data that it expects to process. 
+
+Schema resolution is now implemented in the new avro_resolver_new function, which returns a consumer instance that knows how to translate from the writer schema to the reader schema. As the resolver receives data via the consumer API, it fills in the contents of a destination avro_datum_t (which should be an instance of the reader schema). 
+
+This work isn't complete yet — I still have to implement promotion (int->long and friends), and have to add support for recursive schemas (via the AVRO_LINK schema type). But I wanted to get the patch out there for people to view and test in the meantime. This patch depends on a few other of my patches, that haven't made it into SVN yet; if you want to test the code without patching yourself, I have a tracking branch on [github|https://github.com/dcreager/avro/tree/resolution]."
+Avro,AVRO-765,Java: Improvement to BinaryDecoder readLong performance,Improvement,Closed,Minor,Fixed,Scott Carey,Scott Carey,Scott Carey,2/14/2011 1:28,,12/13/2011 19:06,2/14/2011 19:11,,1.5.0,java,,0,0,,,,,,,,,"I have found a few enhancements to the BinaryDecoder while I was working on the BinaryEncoders. 
+
+BinaryDecoder's readLong improves by 75%+ on the latest 64bit Sun JVM's. 
+"
+Avro,AVRO-769,Java: Align Decoder/Encoder APIs for consistency and long term stability,Improvement,Closed,Blocker,Fixed,Scott Carey,Scott Carey,Scott Carey,2/17/2011 3:53,,3/12/2011 0:32,2/25/2011 23:46,,1.5.0,java,,0,1,,,,,,,AVRO-753,,"As part of AVRO-753, we modified the Encoder API to be more like the current Decoder API. This issue tracks related changes to solidify the API of both Encoder and Decoder to be more stable and consistent. It is expected that the result will be long-lived and not require major changes in the future for the following reasons: 
+
+* Instantiation and configuration will be funneled through EncoderFactory and DecoderFactory. Individual implementation types and constructors are not exposed. With this abstraction we could, for example, put the features of BlockingBinaryEncoder into BufferedBinaryEncoder and not break any user code. We already have some of this distinction on the Decoder side, but not all BinaryDecoders are going through the factory. 
+* The core Encoder and Decoder abstract classes will not declare configuration methods or constructors. This makes them 'pure' low level Avro read/write API constructs. This separation of concerns means, for example, that not all encoder implementations need wrap an OutputStream because of init(OutputStream out). 
+* The core Encoder and Decoder API does not know or care about Schemas, resolution, or any other 'higher order' Avro concept. This is the pure separation of concern for writing/reading primitive Avro types to/from somewhere. 
+* Implementations have been heavily performance tuned on both sides, so changes to the API necessary for high performance will not be likely. 
+
+The Factories will adhere to the following general principles: 
+* configuration options that do not affect the semantics of a type can be set through the factory. i.e. buffer sizes. 
+* configuration that affects the semantics or changes the output or supported input will have separate factory methods. For example, choosing between an implementation that requires calling flush() and one that does not, requires choosing a different factory method to instantiate. This is important because it generally means that client code explicitly requests the behavioral type, and that helps prevent bugs caused by accidentally configuring a factory to return an object that is incompatible with the use case."
+Avro,AVRO-774,Improvements to the repositories section in the POM,Improvement,Closed,Minor,Fixed,Lars Francke,Lars Francke,Lars Francke,2/22/2011 22:30,,3/12/2011 0:32,2/24/2011 22:34,1.5.0,1.5.0,"build, java",,0,1,,,,,,,,,"The repositories section specifies the central repository which is unnecessary as it is automatically inherited and as such confusing. It also has the incorrect repository for JBoss in it. The Netty page is wrong. 
+
+http://repository.jboss.org/nexus/content/groups/public also mirrors central etc. 
+
+The correct one is: http://repository.jboss.org/nexus/content/groups/public-jboss/ which only hosts JBoss stuff."
+Avro,AVRO-800,plot performance over time,New Feature,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,4/7/2011 23:30,,12/13/2011 19:06,,,,java,,0,2,,,,,,,,,"It might be useful to have a nightly repository of Avro performance statistics, so that we can plot performance changes over time."
+Avro,AVRO-806,add a column-major file format,New Feature,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,4/19/2011 23:24,,5/2/2013 2:30,9/11/2012 21:41,,1.7.2,"java, spec",,6,33,,,,,,,"PIG-3059, HIVE-352, HIVE-756, PIG-3015, HIVE-3585",,Define a column-major file format. This would permit better compression and also permit efficient skipping of fields that are not of interest.
+Avro,AVRO-813,EOFException is thrown during normal operation,Bug,Open,Major,Unresolved,Bruno Dumon,Bruno Dumon,Bruno Dumon,4/27/2011 15:44,,1/29/2016 12:35,,1.5.0,1.9.0,java,,1,8,,,,,,,,,"In an application that uses Avro as RPC mechanism (with the NettyTransceiver, but that's irrelevant), I've noticed in jprofiler that during normal operation quite some time was spent creating EOFExceptions: 
+
+{noformat} 
+5.4% - 2,004 ms org.apache.avro.ipc.generic.GenericResponder.readRequest 
+5.0% - 1,871 ms org.apache.avro.generic.GenericDatumReader.read 
+4.9% - 1,832 ms org.apache.avro.generic.GenericDatumReader.read 
+4.9% - 1,832 ms org.apache.avro.generic.GenericDatumReader.readRecord 
+4.5% - 1,670 ms org.apache.avro.generic.GenericDatumReader.read 
+4.5% - 1,670 ms org.apache.avro.generic.GenericDatumReader.readRecord 
+4.3% - 1,596 ms org.apache.avro.generic.GenericDatumReader.read 
+2.8% - 1,048 ms org.apache.avro.generic.GenericDatumReader.readArray 
+1.3% - 477 ms org.apache.avro.io.ValidatingDecoder.arrayNext 
+1.3% - 471 ms org.apache.avro.io.BinaryDecoder.arrayNext 
+1.3% - 466 ms org.apache.avro.io.BinaryDecoder.doReadItemCount 
+1.3% - 466 ms org.apache.avro.io.BinaryDecoder.readLong 
+1.3% - 466 ms org.apache.avro.io.BinaryDecoder.ensureBounds 
+1.3% - 466 ms org.apache.avro.io.BinaryDecoder$ByteSource.compactAndFill 
+1.3% - 466 ms org.apache.avro.io.BinaryDecoder$InputStreamByteSource.tryReadRaw 
+1.3% - 466 ms org.apache.avro.util.ByteBufferInputStream.read 
+1.3% - 466 ms org.apache.avro.util.ByteBufferInputStream.getBuffer 
+1.3% - 466 ms java.io.EOFException.<init> 
+1.3% - 466 ms java.io.IOException.<init> 
+1.2% - 460 ms java.lang.Exception.<init> 
+1.2% - 460 ms java.lang.Throwable.<init> 
+1.2% - 460 ms java.lang.Throwable.fillInStackTrace 
+{noformat} 
+
+
+These exceptions are produced by the ByteBufferInputStream (which modifies InputStream's contract: return -1 at eof), but are catched higher up by the tryReadRaw method. 
+
+What happens is this: 
+
+The message in question has an (empty) array at the end of its message, thus the reader tries to read the size of this array in BinaryDecoder.readLong. This calls ensureBounds(10), whose contract is that it should read 10 bytes if they are available, and otherwise be quiet. ensureBounds calls via compactAndFill the tryReadRaw method. It is this method which catches the EOFException, because it only 'tries' to read so many bytes. 
+
+Note that InputStreamByteSource.readRaw (without the 'try' part) does itself check if read < 0 in order to throw EOFException, making the throwing of EOFException in ByteBufferInputStream unnecessary (for this particular usage). 
+
+There was some talk about EOFException in AVRO-392 too, though it seems this particular common case was not mentioned there. When using Avro RPC, or more in general, when using Avro to read small messages rather than large files, it seems like one can very easily run into this EOFException situation, which hurts performance. 
+
+I'll attach a patch which simply removes the throwing of EOFException in ByteBufferInputStream, but this will likely break other cases which rely on the EOFException being thrown (haven't researched this to the bottom)."
+Avro,AVRO-814,SpecificDatumReader.newRecord always looks up the classname,Bug,Closed,Major,Later,Unassigned,Stu Hood,Stu Hood,4/29/2011 23:05,,12/13/2011 19:06,5/4/2011 18:16,,,java,,0,0,,,,,,,,,"Even when given an instance of the record class, SpecificDatumReader looks up the Class in the SpecificData Class cache. This breaks decoding into subclasses of a generated record class without programmatically modifying the schema of the subclass, and is probably unnecessary."
+Avro,AVRO-837,New Avro value interface,New Feature,Closed,Major,Fixed,Douglas Creager,Douglas Creager,Douglas Creager,6/7/2011 16:03,,11/1/2011 18:36,7/14/2011 2:40,1.6.0,1.6.0,c,,0,0,,,,,,,,,"I've been working on a new interface for representing Avro values. The new interface supports custom implementations, which allows you to directly use instances of existing C types as Avro values. It also includes a ""generic"" implementation of the interface that's much faster and more space efficient than the old avro_datum_t class. Lastly, the interface includes support for zero-copy getters and setters for bytes, string, and fixed values."
+Avro,AVRO-839,Implement builder pattern in generated record classes that sets default values when omitted,Improvement,Closed,Major,Fixed,James Baldassari,James Baldassari,James Baldassari,6/16/2011 4:35,,1/24/2012 4:56,8/26/2011 20:56,,1.6.0,java,,0,3,,,,,,,"PIG-2463, AVRO-951, AVRO-846, AVRO-993, AVRO-770, AVRO-985, AVRO-726, AVRO-784",,"This is an idea for an improvement to the SpecificCompiler-generated record classes. There are two main issues to address: 
+
+# Default values specified in schemas are only used at read time, not when writing/serializing records. For example, a NullPointerException is thrown when attempting to write a record that has an uninitialized array or string type. I'm sure this was done for good reasons, like giving users maximum control and preventing unnecessary garbage collection, but I think it's also somewhat confusing and unintuitive for new users (myself included). 
+# Users have to create their own factory classes/methods for every record type, both to ensure that all non-primitive members are initialized and to facilitate the construction and initialization of record instances (i.e. constructing and setting values in a single statement). 
+
+These issues have been discussed previously here: 
+* [http://search-hadoop.com/m/iDVTn1JVeSR1] 
+* AVRO-726 
+* AVRO-770 
+* [http://search-hadoop.com/m/JuY1V16pwxh1] 
+
+I'd like to propose a solution that is used by at least one other messaging framework. For each generated record class there will be a public static inner class called Builder. The Builder inner class has the same fields as the record class, as well as accessors and mutators for each of these fields. Whenever a mutator method is called, the Builder sets a boolean flag indicating that the field has been set. All mutators return a reference to 'this', so it's possible to chain a series of setter invocations, which makes it really easy to construct records in a single statement. The Builder also has a build() method which constructs a record instance using the values that were set in the Builder. When the build() method is invoked, if there are any fields that have not been set but have default values as defined in the schema, the Builder will set the values of these fields using their defaults. 
+
+One nice thing about implementing the builder pattern in a static inner Builder class rather than in the record itself is that this enhancement will be completely backwards-compatible with existing code. The record class itself would not change, and the public fields would still be there, so existing code would still work. Users would have the option to use the Builder or continue constructing records manually. Eventually the public fields could be phased out, and the record would be made immutable. All changes would have to be done through the Builder. 
+
+Here is an example of what this might look like: 
+{code} 
+// Person.newBuilder() returns a new Person.Builder instance 
+// All Person.Builder setters return 'this' allowing us to chain set calls together for convenience 
+// Person.Builder.build() returns a Person instance after setting any uninitialized values that have defaults 
+Person me = Person.newBuilder().setName(""James"").setCountry(""US"").setState(""MA"").build(); 
+
+// We still have direct access to Person's members, so the records are backwards-compatible 
+me.state = ""CA""; 
+
+// Person has accessor methods now so that the public fields can be phased out later 
+System.out.println(me.getState()); 
+
+// No NPE here because the array<Person> field that stores this person's friends has been automatically 
+// initialized by the Builder to a new java.util.ArrayList<Person> due to a @java_class annotation in the IDL 
+System.out.println(me.getFriends().size()); 
+{code} 
+
+What do people think about this approach? Any other ideas?"
+Avro,AVRO-847,Unittest for tethered map reduce in java,Test,Closed,Minor,Fixed,Jeremy Lewi,Jeremy Lewi,Jeremy Lewi,6/30/2011 20:06,,11/1/2011 18:36,7/1/2011 16:24,1.5.1,1.6.0,java,,0,0,,,,,,,,,"I was working on a unittest to run the java example of a tethered map reduce job (see Issue #512). While doing so I ran into a couple of issues. I was able to work around the issues and will submit a patch but I'm not sure my fixes were correct. The issues are below. 
+
+1) A deadlock appears to occur if the subprocess can't start. This happens because the parent process is waiting for the childProcess to send the configure command, which it can't do if the process failed to start. I solved this by adding some code to TetheredProcess to check if the subprocess has already exited. 
+
+2) The tethered classes don't provide a way to pass command line arguments to the program executed to start the subprocess. I solved this by adding some appropriate keys to the job configuration XML file to specify a) the executable, b) the command line arguments and c) whether or not the executable should be distributed via the DistributeCache mechanism to all the nodes. 
+
+3) I ran into some communication problems between the child and parent processes. These seemed to be because the child was using ""Sasl"" for the protocol but the parent was using ""Socket"" (e.g SocketServer, SocketTransciever). 
+
+4) In TetherJob.setupJob I needed to set the MapOutputKeyClass to TetherData; otherwise I was getting an error about the mapper expecting type AvroKey for the data but getting type TetherData. 
+
+5) During the sort phase when it called compare on the keys I was getting an exception (stack trace below). I think this is because the buffer collecting the output from the mapper wasn't being flushed. I was able to ""solve"" this problem by forcing a flush in TetherKeySerializer.serialize. My limited knowledge of the innards of map/reduce avro lead me to believe this is a less than ideal solution. I would imagine that during the M/R job, a flush should be occurring at the end of the map phase and that should make it unnecessary to invoke flush each time serialize is invoked. 
+
+org.apache.avro.AvroRuntimeException: java.io.EOFException 
+at org.apache.avro.io.BinaryData.compare(BinaryData.java:74) 
+at org.apache.avro.mapred.tether.TetherKeyComparator.compare(TetherKeyComparator.java:46) 
+at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.compare(MapTask.java:942) 
+at org.apache.hadoop.util.QuickSort.fix(QuickSort.java:30) 
+at org.apache.hadoop.util.QuickSort.sortInternal(QuickSort.java:83) 
+at org.apache.hadoop.util.QuickSort.sort(QuickSort.java:59) 
+at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1228) 
+at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1129) 
+at org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:359) 
+at org.apache.hadoop.mapred.MapTask.run(MapTask.java:307) 
+at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:177)"
+Avro,AVRO-853,Cache hash codes in Schema and Field,Improvement,Closed,Major,Fixed,Doug Cutting,Douglas Kaminsky,Douglas Kaminsky,7/6/2011 21:38,,11/1/2011 18:36,8/12/2011 21:54,1.5.1,1.6.0,java,,0,1,,,,,,,,,"We are experiencing a serious performance degradation when trying to store/retrieve fields and schemas in hash-based data structures (eg. HashMap). Since all fields and schemas are immutable (with the exception of RecordSchema allowing deferred setting of Fields) it makes sense to cache the hash code on the object instead of recalculating every time the hashCode method gets called. 
+
+(Are there other mutable Schema sub-types that I'm not thinking about?)"
+Avro,AVRO-859,Java: Data Flow Overhaul -- Composition and Symmetry,New Feature,Open,Major,Unresolved,Scott Carey,Scott Carey,Scott Carey,7/14/2011 16:42,,7/21/2011 18:17,,,,java,,0,1,,,,,,,,,"Data flow in Avro is currently broken into two parts: Read and Write. These share many common patterns but almost no common code. 
+Additionally, the APIs for this are DatumReader and DatumWriter, which requires that implementations know how to traverse Schemas and use the Resolver. 
+
+This is a proposal to overhaul the inner workings of Avro Java between the Decoder/Encoder APIs and DatumReader/DatumWriter such that there is significantly more code re-use and much greater opportunity for new features that can all share in general optimizations and dynamic code generation. 
+
+The two primary concepts involved are: 
+* _*Functional Composition*_ 
+* _*Symmetry*_ 
+
+h4. Functional Composition 
+All read and write operations can be broken into functional bits and composed rather than writing monolithic classes. This allows a ""DatumWriter2"" to be a graph of functions that pre-compute all state required from a schema rather than traverse a schema for each write. 
+
+h4. Symmetry 
+Avro's data flow can be made symmetric. Rather than thinking in terms of Read and Write, think in terms of: 
+* _*Source*_: Where data that is represented by an Avro schema comes from -- this may be a Decoder, or an Object graph. 
+* _*Target*_: Where data that represents an Avro schema is sent -- this may be an Encoder or an Object graph. 
+
+(More detail in the comments)"
+Avro,AVRO-870,Use singleton class instances for primitive Schemas,Improvement,Open,Major,Unresolved,Unassigned,Aaron Kimball,Aaron Kimball,8/3/2011 20:59,,8/5/2011 0:08,,1.5.1,,java,,0,0,,,,,,,,,"Would make a solid performance improvement for operations like Schema.equals() if the {{Schema.create(Schema.Type.INT)}} operation (and STRING, LONG, and other primitive types) returned referentially--equal objects every time. 
+
+This would require disallowing calls to {{addProp()}}, or else something clever."
+Avro,AVRO-900,On slower machines Java unit test TestFileSpanStorage fails,Bug,Closed,Major,Fixed,Thiruvalluvan M. G.,Thiruvalluvan M. G.,Thiruvalluvan M. G.,10/1/2011 19:03,,11/1/2011 18:35,10/5/2011 19:26,,1.6.0,java,,0,0,,,,,,,,,It is because sleeping for 1 second is not sufficient in slower machines. The forthcoming patch fixes the problem.
+Avro,AVRO-907,optimize access to protobuf messages,Improvement,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,10/4/2011 22:47,,11/1/2011 18:36,10/5/2011 18:38,,1.6.0,java,,0,0,,,,,,,,,AVRO-804 included an optimization to Thrift struct field access that's also applicable to protobuf.
+Avro,AVRO-909,AVRO-803 change generated getter methods for string fields to return java.lang.String instead of Utf8,Sub-task,Closed,Major,Won't Fix,Unassigned,Doug Cutting,Doug Cutting,10/5/2011 20:52,,10/7/2011 20:23,10/7/2011 19:28,,,java,,0,0,,,,,,,,,"A field X of type string might generate: 
+{code} 
+public CharSequence x; // for back compatibility 
+public void setX(String s) { 
+if (x instanceof Utf8) 
+x.set(s); 
+else 
+x = new Utf8(s); 
+} 
+public String getX() { return x.toString(); } 
+{code} 
+
+The accessor methods have not yet been released, so this would be a compatible change in 1.6. Applications that wished to use Utf8 directly for performance could still use the field directly. Utf8 could be improved to lazily convert between byte[] and String representations."
+Avro,AVRO-911,remove object reuse from Java APIs,Improvement,Closed,Major,Won't Fix,Doug Cutting,Doug Cutting,Doug Cutting,10/5/2011 23:14,,10/7/2011 20:27,10/7/2011 19:31,,,java,,0,2,,,,,,,AVRO-803,,"Avro's Java APIs were designed to permit object reuse when reading with the assumption that would provide performance advantages. In particular, the old parameter in DatumReader<T>.read(T old, Decoder), the Utf8 class, and the GenericArray.peek() method were all designed for this purpose. But I am unable to see significant performance improvements when objects are reused. I tried modifying Perf.java's GenericTest to reuse records, and its StringTest to not reuse Utf8 instances and, in both cases, performance is not substantially altered. 
+
+If we were to remove these then issues such as AVRO-803 would disappear. Always using java.lang.String instead of Utf8 would remove a lot of user confusion."
+Avro,AVRO-924,permit reading & writing arbitrary JSON as binary Avro data,New Feature,Closed,Major,Fixed,Doug Cutting,Doug Cutting,Doug Cutting,10/12/2011 19:51,,6/24/2015 10:50,10/17/2011 20:43,,1.6.0,java,,0,1,,,,,,,,,"It would be useful to permit reading and writing arbitrary JSON data as binary Avro data. JSON is a popular data interchange format but can be rather big and slow to process in some cases, e.g., for numeric data. Avro can provide a smaller and faster to process binary format for JSON data."
+Avro,AVRO-934,Avro PHP has a performance issue - it appears to operate in O(N^2) time when decoding messages,Improvement,Closed,Major,Fixed,A B,A B,A B,10/17/2011 17:38,,11/1/2011 18:36,10/17/2011 21:04,1.5.4,1.6.0,php,,0,0,,,,,,,,"PHP 5.3.8, Windows or OSX","While decoding simple requests, observed that the time to decode was growing much faster than expected. A 25k file would take 3 seconds to decode while a 570k file was taking approximately 45 minutes. The Ruby implementation does not exhibit a similar issue; above 570k file takes about 3 seconds to decode. Profiled the code and found that the problem lies in AvroStringIO::read($len) - repeated calls to array_slice seem to cause the issue. Replaced the call to array_slice with the following and now the 570k file is processed in about 5 seconds. I will submit the patch shortly as well but here is the new code: 
+
+class AvroStringIO extends AvroIO 
+{ 
+... 
+public function read($len) 
+{ 
+$this->check_closed(); 
+//$read = array_slice($this->buffer, $this->current_index, $len); 
+$read=array(); 
+for($i=$this->current_index; $i<($this->current_index+$len); $i++) 
+$read []=$this->buffer[$i]; 
+..."
+Avro,AVRO-939,Java: optimize BinaryData#compareBytes() to use sun.misc.Unsafe when available,New Feature,Patch Available,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,10/20/2011 18:14,,7/26/2012 18:19,,1.7.1,,java,,0,12,,,,,,,HADOOP-7761,,"Google's Guava libraries include an optimized implementation of lexicographic byte comparison based on sun.misc.Unsafe that's ~4x faster than the normal Java implementation. 
+
+http://hiroshiyamauchi.blogspot.com/2010/08/fast-unsigned-byte-lexicographical.html 
+http://www.google.com/codesearch#UKMs0lhE9bg/trunk/src/com/google/common/primitives/UnsignedBytes.java&l=276 
+
+We might similarly optimize BinaryData#compareBytes()."
+Avro,AVRO-946,GenericData.resolveUnion() performance improvement,Improvement,Closed,Major,Fixed,Doug Cutting,Hernan Otero,Hernan Otero,10/27/2011 21:29,,11/15/2011 17:30,11/4/2011 20:59,1.6.0,1.6.1,java,,0,0,,,,,,,,,"Due to the sequential nature of today's implementation of GenericData.resolveUnion() (used when serializing an object): 
+
+{code} 
+public int resolveUnion(Schema union, Object datum) { 
+int i = 0; 
+for (Schema type : union.getTypes()) { 
+if (instanceOf(type, datum)) 
+return i; 
+i++; 
+} 
+throw new UnresolvedUnionException(union, datum); 
+} 
+{code} 
+
+it showed up when we were doing some serialization performance analysis. A simple optimization can be implemented by keeping a map within the UnionSchema object (in fact, this could actually be a perfect hash map given the potential values in the map are known in advance). The optimization is obviously most notable when a Union within the schema contains many types (in our particular use case, more than 40 in some cases). In this scenario, we observed a 25% improvement by using an identity hash map. 
+
+Even though using an identity map provides a significant boost, we have observed an even further improvement (and removed some of the restrictions of relying on object identity) by using a perfect hash map on the schema names (an extra 15% on top of that in some cases). This implementation, unfortunately, is not something we could contribute at this point, but we thought it'd be a good idea to allow users to provide alternative implementations of the indexing behavior, such as adding the following static method to Schema: 
+
+{code} 
+public static void setUnionTypeIndexCacheFactory(UnionIndexCacheFactory factory) 
+{ 
+unionIndexCacheFactory = factory; 
+} 
+{code} 
+
+This is what the interface and identity hash map-based implementation would look like: 
+
+{code} 
+/** 
+* A factory interface for creating UnionTypeIndexCache instances. 
+*/ 
+public static interface UnionIndexCacheFactory 
+{ 
+UnionIndexCache createUnionIndexCache(List<Schema> types); 
+
+/** 
+* Used for caching schema indices within a union. 
+*/ 
+public static interface UnionIndexCache 
+{ 
+void setTypeIndex(Schema schema, int index); 
+
+int getTypeIndex(Schema schema); 
+} 
+
+} 
+
+private static class IdentityMapUnionIndexCacheFactory implements UnionIndexCacheFactory 
+{ 
+@Override 
+public UnionIndexCache createUnionIndexCache(List<Schema> types) 
+{ 
+return new UnionIndexCache() 
+{ 
+private final IdentityHashMap<Schema, Integer> schemaToIndex = new IdentityHashMap<Schema, Integer>(); 
+
+@Override 
+public void setTypeIndex(Schema schema, int index) 
+{ 
+schemaToIndex.put(schema, index); 
+} 
+
+@Override 
+public int getTypeIndex(Schema schema) 
+{ 
+Integer index = schemaToIndex.get(schema); 
+return index == null ? -1 : index; 
+} 
+}; 
+} 
+} 
+{code} 
+
+I will attach a patch later today or early tomorrow. 
+
+Thanks in advance, 
+
+Hernan Otero"
+Avro,AVRO-947,improve performance of resolver cache for multi-threaded applications,Improvement,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,10/28/2011 17:00,,10/28/2011 17:16,,,,java,,0,0,,,,,,,,,"The DatumReader API is meant to be thread-safe, in that many threads should be able to simultaneously use a single DatumReader instance. When we first switched GenericDatumReader to use a resolver thread-safety was broken. AVRO-650 repaired this with a thread-local resolver cache, but performance suffered. AVRO-743 improved performance for single-threaded applications, but multi-threaded performance is still poor."
+Avro,AVRO-964,Provide clone() method for generated avro-specific objects,Improvement,Open,Major,Unresolved,Unassigned,Vyacheslav Zholudev,Vyacheslav Zholudev,11/29/2011 10:12,,12/1/2011 15:33,,1.7.0,,java,,0,2,,,,,,,,,"It would be great to provide a generated clone() method for avro-specific objects like it is done for equals(), toString() and hashCode() methods. 
+Due to object re-usage in Hadoop, it is often necessary to clone objects because they have to be processed all together after e.g. Reducer input has been read. 
+
+Currently I see two ad-hoc options to deal with it: 
+1) Create potentially lots of tedious code to clone objects manually. This method is error-prone, since it's easy to forget cloning of some fields after schema evolution 
+2) Use DatumWriter and DatumReader to serialize/deserialize objects. This method works extremely slow (in my experiments 30-40 times slower than method #1. 
+
+So neither of methods is sufficiently good, on the other hand adding a generated clone() method should be not that complicated."
+Avro,AVRO-968,Avro C - avro_value_cmp_fast() may return garbage value for AVRO_STRING comparison,Bug,Closed,Minor,Fixed,Douglas Creager,Vivek Nadkarni,Vivek Nadkarni,12/2/2011 2:51,,2/15/2012 0:46,1/24/2012 14:07,"1.6.1, 1.6.2, 1.7.0","1.6.2, 1.7.0",c,,0,0,,86400,86400,,0%,,,All. Currently using gcc 4.6.1 on Ubuntu 11.10.,"Compiler shows a warning that variables may be used uninitialized in avro_value_cmp_fast(): 
+
+/home/user/avro-trunk/lang/c/src/value.c: In function 'avro_value_cmp_fast': 
+/home/user/avro-trunk/lang/c/src/value.c:387:13: warning: 'size2' may be used uninitialized in this function [-Wuninitialized] 
+/home/user/avro-trunk/lang/c/src/value.c:387:13: warning: 'size1' may be used uninitialized in this function [-Wuninitialized] 
+/home/user/avro-trunk/lang/c/src/value.c:388:11: warning: 'buf1' may be used uninitialized in this function [-Wuninitialized] 
+/home/user/avro-trunk/lang/c/src/value.c:388:11: warning: 'buf2' may be used uninitialized in this function [-Wuninitialized] 
+
+Examining the file shows that the warnings are real, and the variables size1, buf1, size2, buf2 should be loaded before they are used. The simple fix is to copy matching code from the function avro_value_equal_fast(). I will attach that code in an upcoming patch. 
+
+Cheers, 
+Vivek 
+"
+Avro,AVRO-981,Python Avro library does not build/install on OS X,Bug,Closed,Blocker,Fixed,Juan Manuel Caicedo,Russell Jurney,Russell Jurney,12/15/2011 1:38,,12/10/2012 17:57,10/6/2012 15:38,"1.5.4, 1.6.1",1.7.3,python,,1,6,,,,,,,AVRO-866,"Mac OS X 10.6.8, Python 2.5, 2.6, 2.7","russell-jurneys-macbook-pro:py rjurney$ sudo python2.5 setup.py install 
+Password: 
+running install 
+running bdist_egg 
+running egg_info 
+writing requirements to avro.egg-info/requires.txt 
+writing avro.egg-info/PKG-INFO 
+writing top-level names to avro.egg-info/top_level.txt 
+writing dependency_links to avro.egg-info/dependency_links.txt 
+reading manifest file 'avro.egg-info/SOURCES.txt' 
+writing manifest file 'avro.egg-info/SOURCES.txt' 
+installing library code to build/bdist.macosx-10.6-i386/egg 
+running install_lib 
+running build_py 
+creating build/bdist.macosx-10.6-i386 
+creating build/bdist.macosx-10.6-i386/egg 
+creating build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/__init__.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/datafile.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/io.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/ipc.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/protocol.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/schema.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/tool.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/avro/txipc.py -> build/bdist.macosx-10.6-i386/egg/avro 
+copying build/lib/pyAntTasks-1.3-LICENSE.txt -> build/bdist.macosx-10.6-i386/egg 
+copying build/lib/pyAntTasks-1.3.jar -> build/bdist.macosx-10.6-i386/egg 
+creating build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/__init__.py -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/_speedups.c -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/decoder.py -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/encoder.py -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/LICENSE.txt -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/scanner.py -> build/bdist.macosx-10.6-i386/egg/simplejson 
+copying build/lib/simplejson/tool.py -> build/bdist.macosx-10.6-i386/egg/simplejson 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/__init__.py to __init__.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/datafile.py to datafile.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/io.py to io.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/ipc.py to ipc.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/protocol.py to protocol.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/schema.py to schema.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/tool.py to tool.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/avro/txipc.py to txipc.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/simplejson/__init__.py to __init__.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/simplejson/decoder.py to decoder.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/simplejson/encoder.py to encoder.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/simplejson/scanner.py to scanner.pyc 
+byte-compiling build/bdist.macosx-10.6-i386/egg/simplejson/tool.py to tool.pyc 
+creating build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+installing scripts to build/bdist.macosx-10.6-i386/egg/EGG-INFO/scripts 
+running install_scripts 
+running build_scripts 
+creating build/scripts-2.5 
+copying and adjusting ./scripts/avro -> build/scripts-2.5 
+changing mode of build/scripts-2.5/avro from 644 to 755 
+creating build/bdist.macosx-10.6-i386/egg/EGG-INFO/scripts 
+copying build/scripts-2.5/avro -> build/bdist.macosx-10.6-i386/egg/EGG-INFO/scripts 
+changing mode of build/bdist.macosx-10.6-i386/egg/EGG-INFO/scripts/avro to 755 
+copying avro.egg-info/PKG-INFO -> build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+copying avro.egg-info/SOURCES.txt -> build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+copying avro.egg-info/dependency_links.txt -> build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+copying avro.egg-info/requires.txt -> build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+copying avro.egg-info/top_level.txt -> build/bdist.macosx-10.6-i386/egg/EGG-INFO 
+zip_safe flag not set; analyzing archive contents... 
+creating 'dist/avro-_AVRO_VERSION_-py2.5.egg' and adding 'build/bdist.macosx-10.6-i386/egg' to it 
+removing 'build/bdist.macosx-10.6-i386/egg' (and everything under it) 
+Processing avro-_AVRO_VERSION_-py2.5.egg 
+Copying avro-_AVRO_VERSION_-py2.5.egg to /Library/Python/2.5/site-packages 
+Adding avro -AVRO-VERSION- to easy-install.pth file 
+Installing avro script to /usr/local/bin 
+
+Installed /Library/Python/2.5/site-packages/avro-_AVRO_VERSION_-py2.5.egg 
+Processing dependencies for avro==-AVRO-VERSION- 
+Searching for python-snappy 
+Reading http://pypi.python.org/simple/python-snappy/ 
+Reading http://github.com/andrix/python-snappy 
+Best match: python-snappy 0.3.2 
+Downloading http://pypi.python.org/packages/source/p/python-snappy/python-snappy-0.3.2.tar.gz#md5=94ec3eb54a780fac3b15a6c141af973f 
+Processing python-snappy-0.3.2.tar.gz 
+Running python-snappy-0.3.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-c1VYAq/python-snappy-0.3.2/egg-dist-tmp-_CpoEp 
+cc1plus: warning: command line option ""-Wstrict-prototypes"" is valid for C/ObjC but not for C++ 
+snappymodule.cc:31:22: error: snappy-c.h: No such file or directory 
+snappymodule.cc: In function 'PyObject* snappy__compress(PyObject*, PyObject*)': 
+snappymodule.cc:62: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:62: error: expected `;' before 'status' 
+snappymodule.cc:75: error: 'snappy_max_compressed_length' was not declared in this scope 
+snappymodule.cc:79: error: 'status' was not declared in this scope 
+snappymodule.cc:79: error: 'snappy_compress' was not declared in this scope 
+snappymodule.cc:81: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: In function 'PyObject* snappy__uncompress(PyObject*, PyObject*)': 
+snappymodule.cc:107: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:107: error: expected `;' before 'status' 
+snappymodule.cc:120: error: 'status' was not declared in this scope 
+snappymodule.cc:120: error: 'snappy_uncompressed_length' was not declared in this scope 
+snappymodule.cc:121: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc:128: error: 'snappy_uncompress' was not declared in this scope 
+snappymodule.cc:129: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: In function 'PyObject* snappy__is_valid_compressed_buffer(PyObject*, PyObject*)': 
+snappymodule.cc:151: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:151: error: expected `;' before 'status' 
+snappymodule.cc:156: error: 'status' was not declared in this scope 
+snappymodule.cc:156: error: 'snappy_validate_compressed_buffer' was not declared in this scope 
+snappymodule.cc:157: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: At global scope: 
+snappymodule.cc:41: warning: '_state' defined but not used 
+cc1plus: warning: command line option ""-Wstrict-prototypes"" is valid for C/ObjC but not for C++ 
+snappymodule.cc:31:22: error: snappy-c.h: No such file or directory 
+snappymodule.cc: In function 'PyObject* snappy__compress(PyObject*, PyObject*)': 
+snappymodule.cc:62: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:62: error: expected `;' before 'status' 
+snappymodule.cc:75: error: 'snappy_max_compressed_length' was not declared in this scope 
+snappymodule.cc:79: error: 'status' was not declared in this scope 
+snappymodule.cc:79: error: 'snappy_compress' was not declared in this scope 
+snappymodule.cc:81: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: In function 'PyObject* snappy__uncompress(PyObject*, PyObject*)': 
+snappymodule.cc:107: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:107: error: expected `;' before 'status' 
+snappymodule.cc:120: error: 'status' was not declared in this scope 
+snappymodule.cc:120: error: 'snappy_uncompressed_length' was not declared in this scope 
+snappymodule.cc:121: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc:128: error: 'snappy_uncompress' was not declared in this scope 
+snappymodule.cc:129: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: In function 'PyObject* snappy__is_valid_compressed_buffer(PyObject*, PyObject*)': 
+snappymodule.cc:151: error: 'snappy_status' was not declared in this scope 
+snappymodule.cc:151: error: expected `;' before 'status' 
+snappymodule.cc:156: error: 'status' was not declared in this scope 
+snappymodule.cc:156: error: 'snappy_validate_compressed_buffer' was not declared in this scope 
+snappymodule.cc:157: error: 'SNAPPY_OK' was not declared in this scope 
+snappymodule.cc: At global scope: 
+snappymodule.cc:41: warning: '_state' defined but not used 
+lipo: can't open input file: /var/tmp//ccbd0SLZ.out (No such file or directory) 
+error: Setup script exited with error: command 'gcc-4.2' failed with exit status 1 
+"
+Avro,AVRO-985,Remove byte-by-byte copying in RecordBuilderBase.defaultValue for non-complex types,Improvement,Open,Major,Unresolved,Unassigned,Douglas Kaminsky,Douglas Kaminsky,12/20/2011 21:48,,1/5/2012 22:52,,1.6.1,,java,,0,1,,,,,,,AVRO-839,,"In one section of RecordBuilderBase.defaultValue(Field) (quoted below) a bytewise copy of the default object is created based on the JSON value provided. However, this is an extremely inefficient operation and causes large slowdowns when building large object sets, including latency spikes when the binary encoder flushes. 
+
+A simple workaround for a majority of cases would be to have a separate code path for ""primitives"" (fixed, string, boolean, int, double, enum, float, bytes) that allows direct creation rather than a full bytewise copy (and subsequent deep copy). 
+
+*_RecordBuilderBase.java_*: 
+
+{code} 
+// If not cached, get the default Java value by encoding the default JSON 
+// value and then decoding it: 
+if (defaultValue == null) { 
+ByteArrayOutputStream baos = new ByteArrayOutputStream(); 
+encoder = EncoderFactory.get().binaryEncoder(baos, encoder); 
+ResolvingGrammarGenerator.encode( 
+encoder, field.schema(), defaultJsonValue); 
+encoder.flush(); 
+decoder = DecoderFactory.get().binaryDecoder( 
+baos.toByteArray(), decoder); 
+defaultValue = new GenericDatumReader( 
+field.schema()).read(null, decoder); 
+defaultSchemaValues.putIfAbsent(field.pos(), defaultValue); 
+} 
+{code}"
+Avro,AVRO-989,Java: Improve Builder performance in Specific API,Improvement,Open,Major,Unresolved,Unassigned,Scott Carey,Scott Carey,1/5/2012 23:03,,1/24/2012 22:15,,,,java,,2,1,,,,,,,,,"The Specific API generates Builder objects for each record. This builder uses a boolean[] to store flags for each field to indicate whether the field is set or not. 
+
+This is not space efficient, a boolean[] takes 16 bytes plus one byte per field, rounded up to the nearest 8 byte interval. 
+
+This can be improved on by using BitSet for large records, and bitmasks on an int for records with less than 32 fields."
+Avro,AVRO-994,TestFileSpanStorage.testTonsOfSpans() fails on my slow VM,Bug,Closed,Minor,Fixed,James Baldassari,James Baldassari,James Baldassari,1/16/2012 8:24,,2/15/2012 0:46,1/17/2012 15:32,"1.6.0, 1.6.1","1.6.2, 1.7.0",java,,0,0,,,,,,,,,"{noformat} 
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.554 sec <<< FAILURE! 
+testTonsOfSpans(org.apache.avro.ipc.trace.TestFileSpanStorage) Time elapsed: 3.853 sec <<< FAILURE! 
+java.lang.AssertionError: expected:<50000> but was:<42356> 
+at org.junit.Assert.fail(Assert.java:93) 
+at org.junit.Assert.failNotEquals(Assert.java:647) 
+at org.junit.Assert.assertEquals(Assert.java:128) 
+at org.junit.Assert.assertEquals(Assert.java:472) 
+at org.junit.Assert.assertEquals(Assert.java:456) 
+at org.apache.avro.ipc.trace.TestFileSpanStorage.testTonsOfSpans(TestFileSpanStorage.java:70) 
+{noformat} 
+
+The issue seems to be the {{Thread.sleep(2000)}} on line 66. Doubling this to 4000ms causes the test to pass. In general it might be better to make this sleep event-based rather than using a fixed sleep time. If that isn't possible, then maybe using some sort of a retry loop would work."
+Avro,AVRO-1046,ReflectDatumReader doesn't work with SpecificRecords containing an array of values,Bug,Closed,Minor,Fixed,Doug Cutting,Gabriel Reid,Gabriel Reid,3/16/2012 14:11,,6/11/2012 20:01,5/17/2012 21:13,1.6.2,1.7.0,java,,0,2,,,,,,,,,"When a ReflectDatumReader is used to read implementations of SpecificRecord, it fails if the SpecificRecord includes an (avro) array. This appears to be due to the fact that the newArray method in ReflectDatumReader works differently (based on a reflection-based schema) than the newArray method in GenericDatumReader (which is the base class of the DatumReaders). 
+
+The included patch simply removes the delegation to SpecificData for the creation of a schema in the case of a SpecificRecord. My assumption is that the delegation to SpecificData is for performance reasons. 
+
+The rationale in removing the delegation to SpecificData is that a) it doesn't work completely correctly, as demonstrated, and b) if a user is using ReflectDatumReader (instead of SpecificDatumReader) to read SpecificRecords, there may be other underlying reasons that reflection is specifically chosen, and so this intention should not be undermined by the delegation to SpecificData."
+Avro,AVRO-1049,GenericData.Record#equals() does not return false when the schemas are not equal,Bug,Closed,Minor,Fixed,Doug Cutting,Andrew Kenworthy,Andrew Kenworthy,3/23/2012 13:20,,6/11/2012 20:01,5/16/2012 21:58,1.6.0,1.7.0,java,,0,1,,,,,,,,,"GenericData.Record#equals() does not return false when the schemas are not equal: it currently only checks 
+the schema names as a performance optimization; this test code illustrates the issue: 
+
+{code} 
+@Test 
+public void test() { 
+Schema schema1 = Schema.createRecord(""test_record"", null, ""my.namespace"", false); 
+List<Field> fields1 = new ArrayList<Field>(); 
+fields1.add(new Field(""attribute1"", Schema.create(Schema.Type.STRING), null, null, Order.IGNORE)); 
+schema1.setFields(fields1); 
+
+Schema schema2 = Schema.createRecord(""test_record"", null, ""my.namespace"", false); 
+List<Field> fields2 = new ArrayList<Field>(); 
+fields2.add(new Field(""attribute1"", Schema.create(Schema.Type.STRING), null, null, Order.ASCENDING)); 
+schema2.setFields(fields2); 
+
+GenericRecord record1 = new GenericData.Record(schema1); 
+record1.put(""attribute1"", ""1""); 
+
+GenericRecord record2 = new GenericData.Record(schema2); 
+record2.put(""attribute1"", ""2""); 
+
+System.out.println(record1.equals(record2)); // returns TRUE 
+System.out.println(record2.equals(record1)); // returns FALSE 
+} 
+{code} 
+
+See also: 
+
+http://mail-archives.apache.org/mod_mbox/avro-user/201202.mbox/%3C4F355A77.1070009@apache.org%3E"
+Avro,AVRO-1050,Avro PHP consumes too much memory due to code in io.php (AvroStringIO append_str),Bug,Closed,Major,Fixed,A B,A B,A B,3/23/2012 15:06,,6/11/2012 20:01,5/18/2012 21:38,"1.6.0, 1.6.1, 1.6.2, 1.6.3",1.7.0,php,,0,2,,,,,,,,,"While attempting to encode large messages, our team found that the PHP run-time would exceed its memory limit and die. Profiling and use of memory_get_usage showed us that we were spending a lot of time in append_str and that the PHP process grew after every call to this method, resulting in the leak-like behavior that caused the process to grow and then crash. We rewrote append_str to use the string concatenation operator instead of the somewhat elaborate scheme in place today (str_split, followed by the copying of one byte at a time from the latter array to the final string) and the memory usage issues disappeared with no loss of functionality. We would like to provide the patch to fix this issue."
+Avro,AVRO-1063,Ruby client should use multi_json rather than being locked down to yajl,Improvement,Closed,Minor,Fixed,Duke,Paul Dlug,Paul Dlug,4/17/2012 12:49,,2/4/2016 22:53,12/19/2013 20:28,,1.7.6,ruby,,1,10,,,,,,,AVRO-1459,,The avro ruby client uses yajl for JSON serialization which is just one of many suitable JSON implementations for ruby. The multi_json gem provides a wrapper for JSON serialization selecting the fastest library available (Oj is now even faster than Yajl) and falling back to a pure ruby implementation bundled with multi_json. Requiring yajl also precludes the ruby gem from being used under jruby since it requires a C extension.
+Avro,AVRO-1073,JSON encoder doesn't encode binary data properly,Improvement,Open,Major,Unresolved,Unassigned,Zhihong Zhang,Zhihong Zhang,4/26/2012 22:22,,9/10/2014 10:45,,1.6.3,,java,,0,2,,,,,,,,"uname -a 
+Darwin zmac 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun 7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386 
+
+java -version 
+java version ""1.6.0_29"" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11-402-10M3527) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02-402, mixed mode) 
+
+","The JSON encoder doesn't encode binary data (bytes or ByteBuffer) properly. It treats the data as Latin-1 and encode it as text. But there is a bug in text encoding of non-Roman characters so the binary encoding doesn't work at all. 
+
+The binary should be encoded into ASCII (Base64 or 85) before it's encoded in JSON. The text encoding of binary data is very inefficient even it works. For example, the 0 is encoded as ""\\u0000"" in JSON (7 bytes)."
+Avro,AVRO-1074,Suggested optimization for Utf8.length(),Improvement,Closed,Major,Fixed,Doug Cutting,Hernan Otero,Hernan Otero,4/27/2012 19:23,,6/11/2012 20:01,5/17/2012 22:30,1.6.3,1.7.0,java,,0,2,,,,,,,,,"Wanted to suggest a small optimization. It is quite common for applications to do a quick check (along with null-ness) for 0-length of string-typed fields. Today's Utf8.length() implementation is: 
+{code}return toString().length;{code} 
+I believe this could easily get optimized to return this instead: 
+{code}return length == 0 ? 0 : toString().length();{code} 
+Thus avoiding the need to create the string representation for this common use case (and scenario)."
+Avro,AVRO-1079,"C++ Generator, improve include guard generation",Improvement,Closed,Minor,Fixed,Thiruvalluvan M. G.,Falk.Tristram@cae.de,Falk.Tristram@cae.de,5/4/2012 12:53,,9/25/2012 21:24,5/16/2012 8:32,"1.6.3, 1.7.0",1.7.0,c++,,0,1,,18000,18000,,0%,,,,"We integrated avro into our cmake build system. So we have json -> c++ header build step which is quite similar to the QT moc-compiler. This build step will overwrite the target header-files if the json schema file was modified or when the generated header files are different. 
+In addition to that we want to put the generated header files under version control. 
+However, the generated include-guards contains some random parts. This random part troubles the version control system. In addition to that this random part leads to unnecessary rebuilds as cmake 'thinks' important files have been changed and triggers a rebuild of the corresponding dependencies. 
+
+Suggestion: 
+Add an additional command line parameter to either switch off the random part of the string, or to take a string from the command line and use this as include guard."
+Avro,AVRO-1088,Avro-C - Add performance tests for schema resolution and arrays.,Improvement,Closed,Major,Fixed,Unassigned,Vivek Nadkarni,Vivek Nadkarni,5/14/2012 8:12,,6/11/2012 20:01,5/20/2012 14:14,1.7.0,1.7.0,c,,0,2,,86400,86400,,0%,,,Ubuntu Linux 11.10,"The current performance test in Avro-C measures the performance while 
+reading and writing of Avro values using a complex record schema, 
+which does not contain any arrays. 
+
+We add tests to measure the performance for simple and nested 
+arrays. We also replicate all tests to measure the performance of the 
+schema resolution using a resolved reader and a resolved writer. 
+
+Specifically we add the following performance tests: 
+
+Nested Record 
+1. Replicating the test ""nested record value by index"", using a helper 
+function. Using helper functions adds a little overhead, but it 
+allows us to test various schemas, as well as different modes of 
+schema resolution much more easily. 
+2. Using a resolved writer to resolve between (identical) reader and 
+writer schemas, while reading a complex record. 
+3. Using a resolved reader to resolve between (identical) reader and 
+writer schemas, while writing a complex record. 
+
+Simple Array 
+4. Test the performance for reading and writing a simple array. 
+5. Using a resolved writer to resolve between (identical) reader and 
+writer schemas, while reading a simple array. 
+6. Using a resolved reader to resolve between (identical) reader and 
+writer schemas, while writing a simple array. 
+
+Nested Array 
+7. Test the performance for reading and writing a nested array. 
+8. Using a resolved writer to resolve between (identical) reader and 
+writer schemas, while reading a nested array. 
+9. Using a resolved reader to resolve between (identical) reader and 
+writer schemas, while writing a nested array. 
+
+Additionally we fix a minor bug: 
+1. The return value of avro_value_equal_fast() was not being 
+tested. Test this return value, and fail if it is FALSE. 
+
+"
+Avro,AVRO-1089,Avro-C - Penalty 30x to 50x for using resolved writer on arrays,Bug,Closed,Major,Fixed,Unassigned,Vivek Nadkarni,Vivek Nadkarni,5/14/2012 8:28,,12/10/2012 17:57,12/1/2012 17:04,"1.6.3, 1.7.0",1.7.3,c,,0,1,,172800,172800,,0%,,,Ubuntu Linux,"The new performance tests created in AVRO-1088 show that using the 
+resolved writer takes 30 to 50 times longer than using no schema 
+resolution or using the resolved reader for simple and nested arrays. 
+
+For a simple array, using the resolved writer took ~30x longer than 
+using the memory reader that assumed a matching schema. For the nested 
+array, using the resolved writer took ~50x longer. 
+
+These results suggest that there is a bug in resolved writer. I do not 
+have a proposed fix at this time. 
+
+
+**** Running simple array matched schemas **** 
+250000 tests per run 
+Run 1 
+Run 2 
+Run 3 
+Average time: 2.123s 
+Tests/sec: 117739 
+**** Running simple array resolved writer **** 
+10000 tests per run 
+Run 1 
+Run 2 
+Run 3 
+Average time: 2.747s 
+Tests/sec: 3641 
+
+
+**** Running nested array matched schemas **** 
+250000 tests per run 
+Run 1 
+Run 2 
+Run 3 
+Average time: 3.030s 
+Tests/sec: 82508 
+**** Running nested array resolved writer **** 
+10000 tests per run 
+Run 1 
+Run 2 
+Run 3 
+Average time: 6.650s 
+Tests/sec: 1504 
+
+"
+Avro,AVRO-1090,"DataFileWriter should expose ""sync marker"" to allow concurrent writes to same .avro file",Bug,Closed,Major,Fixed,Doug Cutting,Catalin Alexandru Zamfir,Catalin Alexandru Zamfir,5/14/2012 11:34,,6/11/2012 20:01,5/17/2012 20:16,1.6.3,1.7.0,,,0,3,,,,,,,,,"We're writing to Hadoop via DataFileWriter (FSDataOutputStream). We're doing this with two threads per node, on 8 nodes. Some of the nodes share the same path. For example, our: TimestampedWriter class, takes a path argument and appends the timestamp to it (ex: SomePath/2012/05/14). Thus, two threads or two nodes can access the same path. The ""race"" condition when these streams are written, is resolved with a check to see if the file exists (has been created) by a faster thread. If that's so, it appends, instead of creating the file on the HDFS. 
+
+The problem is that DataFileWriter, generates a 16-byte, random string for each instance. So, two threads with 2 different writer instances, have a different sync marker. That means that data, when trying to read it back, will get an IOException (""Invalid sync!""). 
+
+There's a big performance penalty here. Because only one writer can write at once to one given path, it becomes a bottleneck. For 1B (billion) rows, it took us 4 hours to generate & load. With 20 concurrent threads, it took only 12.5 minutes. 
+
+If DataFileWriter would expose the ""sync"" marker, a developer could read that and make sure that the next thread that appends to the file, uses the same sync marker. Don't know if it's even possible to expose the sync marker so as other instances of ""DataFileWriter"" can share the sync marker, from the file. We have a fix for this, making sure each writer is an ""unique"" instance and generating a path based on that uniqueness. But instead of having ""SomePath/2012/05/14/Shard.avro"" we'd now have ""SomePath/2012/05/14/Shard-some-random-UUID.avro"" for each of the writers that write the data in. 
+
+If it can be done, it would be a huge fix for a bottleneck problem. The bottleneck being the single writer that can write to a single path. 
+
+THIS HAS ALSO been requested on the avro-user thread: http://grokbase.com/t/avro/user/122m4sjm1y/is-it-possible-to-append-to-an-already-existing-avro-file 
+I just could not find the JIRA ticket for this request."
+Avro,AVRO-1093,"DataFileWriter, appendEncoded causes AvroRuntimeException when read back",Bug,Closed,Major,Invalid,Unassigned,Catalin Alexandru Zamfir,Catalin Alexandru Zamfir,5/16/2012 14:37,,9/25/2012 21:22,5/17/2012 18:33,"1.6.3, 1.7.0",,,,0,2,,,,,,,,,"We're doing this: 
+{code} 
+// Check 
+if (!(objRecordsBuffer 
+.containsKey (objShardPath))) { 
+// Set 
+objRecordsBuffer.put (objShardPath, 
+new ByteBufferOutputStream ()); 
+} 
+
+// Set 
+Encoder objEncoder = EncoderFactory.get () 
+.binaryEncoder (objRecordsBuffer 
+.get (objShardPath), null); 
+
+// Write 
+objGenericDatumWriter.write (objRecordConstructor.build (), objEncoder); 
+objEncoder.flush (); 
+
+// For 
+for (ByteBuffer objRecord : objRecordsBuffer 
+.get (objKey).getBufferList ()) { 
+// Append 
+objRecordWriter.appendEncoded (objRecord); 
+} 
+
+// Erase 
+objRecordWriter.flush (); 
+objRecordWriter.close (); 
+{code} 
+
+It writes the data to HDFS. Reading it back outputs the follosing exception: 
+{code} 
+Caused by: org.apache.avro.AvroRuntimeException: java.io.IOException: Block read partially, the data may be corrupt 
+at org.apache.avro.file.DataFileStream.hasNext(DataFileStream.java:210) 
+at net.RnD.FileUtils.TimestampedReader.hasNext(TimestampedReader.java:113) 
+at net.RnD.Hadoop.App.read1BAvros(App.java:131) 
+at net.RnD.Hadoop.App.executeCode(App.java:534) 
+at net.RnD.Hadoop.App.main(App.java:453) 
+... 5 more 
+Caused by: java.io.IOException: Block read partially, the data may be corrupt 
+at org.apache.avro.file.DataFileStream.hasNext(DataFileStream.java:194) 
+... 9 more 
+{code} 
+
+The objRecordWriter is an instance of DataFileWriter.create or DataFileWriter.appendto (SeekableInput). In relation to AVRO-1090 ticket. 
+Instead of having big ""hashmaps"" in memory, we've decided to serialize the data in ""byte buffers"" in memory. Because it's faster. Using ""appendEncoded"" although seems to write something to HDFS, reading the data back, exposes this error. 
+Help would be appreciated. I've looked @ appendEncoded in DataFileWriter but could not figure out if it's our job to add a sync marker, or does appendEncoded does that for us. 
+Must the ""ByteBuffer"" we give, be the length of one exact record? 
+Examples and documentation on this method is welcomed. 
+
+Files are getting created because: 
+{code} 
+-rw-r--r-- 3 root supergroup 124901360 2012-05-17 10:09 /Streams/Timestamped/Threads/2012/05/17/10/09/Shard.avro 
+-rw-r--r-- 3 root supergroup 124845625 2012-05-17 10:10 /Streams/Timestamped/Threads/2012/05/17/10/10/Shard.avro 
+-rw-r--r-- 3 root supergroup 62378307 2012-05-17 10:11 /Streams/Timestamped/Threads/2012/05/17/10/11/Shard.avro 
+{code}"
+Avro,AVRO-1126,Upgrade to Jackson 2+,Task,Open,Critical,Unresolved,Charles Honton,James Tyrrell,James Tyrrell,7/13/2012 4:11,,1/28/2017 10:37,,,1.9.0,java,,15,23,,,,,,"AVRO-1585, AVRO-1605",,,"Quite annoyingly with Jackson 2+ the base package name has changed from org.codehaus.jackson to com.fasterxml.jackson so in addition to changing the dependencies from: 
+
+{code:xml} 
+<dependency> 
+<groupId>org.codehaus.jackson</groupId> 
+<artifactId>jackson-core-asl</artifactId> 
+<version>${jackson.version}</version> 
+</dependency> 
+<dependency> 
+<groupId>org.codehaus.jackson</groupId> 
+<artifactId>jackson-mapper-asl</artifactId> 
+<version>${jackson.version}</version> 
+</dependency> 
+{code} 
+
+to: 
+{code:xml} 
+<dependency> 
+<groupId>com.fasterxml.jackson.core</groupId> 
+<artifactId>jackson-core</artifactId> 
+<version>${jackson.version}</version> 
+</dependency> 
+<dependency> 
+<groupId>com.fasterxml.jackson.core</groupId> 
+<artifactId>jackson-databind</artifactId> 
+<version>${jackson.version}</version> 
+</dependency> 
+{code} 
+
+the base package in the code needs to be updated. More info can be found [here|http://wiki.fasterxml.com/JacksonUpgradeFrom19To20], I am happy to do the work just let me know what is preferable i.e. should I just attach a patch to this issue?"
+Avro,AVRO-1147,Allow Stringable Map keys in addition to pure String keys (avro reflection),Improvement,Closed,Major,Fixed,Alexandre Normand,Alexandre Normand,Alexandre Normand,9/5/2012 19:38,,9/25/2012 21:16,9/10/2012 23:42,1.7.0,1.7.2,java,,0,2,,,,,,,,,"I'm using avro reflection for some serialization that doesn't require the best performance for some short-lived data. 
+
+However, the object I'm trying to serialize uses a {{Map}} with non-String keys (the key class is {{Integer}}) and, because of the strict restriction on Map keys being Strings, it fails. 
+
+Could we consider allowing Map keys to be *{{Stringable}}* classes (I'm thinking of something similar to Doug's solution in https://issues.apache.org/jira/browse/AVRO-1146)"
+Avro,AVRO-1167,Avro-C: avro_schema_copy() does not copy AVRO_LINKs properly.,Bug,Open,Major,Unresolved,Unassigned,Vivek Nadkarni,Vivek Nadkarni,9/14/2012 22:25,,4/15/2017 20:33,,1.7.1,,c,,0,3,,604800,604800,,0%,,AVRO-766,Ubuntu Linux 11.10,"When avro_schema_copy() encounters an AVRO_LINK from an old_schema to a new_schema, it sets the target of the new_link to the target of the old_link in the old_schema. Thus, the AVRO_LINK in the new_schema points to an element in the old_schema. 
+
+While this is currently safe, since the reference count of the target in the old_schema is incremented, we are not really making a ""copy"" of the schema. 
+
+There is a ""TODO"" in the code, which says that we should make a avro_schema_copy() of the target in old_schema instead of linking directly to it. However, this solution of making a copy would result in a few problems: 
+
+1. Avro schemas are intended to be self-contained. That implies that AVRO_LINKs are intended to be internal links inside a self-contained schema. The code introduces unnecessary (and potentially disallowed) external dependencies in an Avro schema. 
+
+2. The purpose of copying a schema that we want to decouple the old_schema from the new_schema. The two copies may have different owners, we may want to deallocate old schema etc. 
+
+3. If the schema is recursive, then the code would enter an infinite recursion loop. 
+
+It appears to me that the ""correct"" solution would be to replicate the entire structure of the current schema, including the internal links. This means that if old_link_A points to old_target_B, then new_link_A should point to new_target_B in the new schema. Note that there should only be one copy of new_target_B in the new schema, even if there are multiple links pointing to new_target_B - i.e. we should not make a new copy for each link. 
+
+In order to implement this proper copying of links, we would need to keep a lookup table of pairs of old and new schemas as they are being created, as well as a list of all the AVRO_LINKs that are copied. Then as a post-copy step, we would go and fix up all the AVRO_LINKs to point to the appropriate targets. This is the way the schema is constructed in the first place in avro_schema_from_json(). 
+
+An inefficient way to obtain the correct result from avro_schema_copy() would be to perform an avro_schema_to_json() followed by an avro_schema_from_json(). 
+
+Note: I have not implemented a fix for this issue, but I am documenting this issue in AVRO-JIRA because this issue needs to be resolved before AVRO-766 can be fixed. 
+"
+Avro,AVRO-1184,GenericDatumReader throws an error when it tries to cache a resolver,Bug,Open,Major,Unresolved,Unassigned,Ruma Nair,Ruma Nair,10/26/2012 22:21,,10/26/2012 22:21,,1.6.3,,java,,0,1,,14400,14400,,0%,,,,"When the GenericDatumReader tries to create a resolver with the reader schema which contains a union where the default value is incompatible with the first field. It throws an error. As the resolvers are cached, when the resolver is not created, it is not pushed in the cache which results in an attempt to create a resolver whenever it tries to read a message. A possible fix is to not have a lazy initialization of the resolver but to have it at time of the creation of GenericDatumReader and handle the error at start. This ensures that the datumReader fails fast and will not try to create the resolver everytime it tries to read a message. An example of the reader schema 
+
+String readerSchemaDescription = "" { \n"" 
++ "" \""name\"": \""User\"", \n"" 
++ "" \""type\"": \""record\"",\n"" + "" \""fields\"": [\n"" 
++ "" {\""name\"": \""id\"", \""type\"": \""int\""},\n"" 
++ "" {\""name\"": \""temp\"", \""type\"": [\""null\"",\""string\""], \""default\"":\""foo\""},\n"" 
++ "" {\""name\"": \""name\"", \""type\"": \""string\"", \""default\"":\""avro\""} ]\n"" + ""}""; 
+"
+Avro,AVRO-1208,Improve Trevni's performance on row-oriented data access,Improvement,Patch Available,Major,Unresolved,Yin Huai,Yin Huai,Yin Huai,11/19/2012 14:33,,3/15/2013 14:30,,1.7.3,,,,1,8,,,,,,,,,"Trevni uses an 64KB internal buffer to store values of a column. When accessing a column, it reads 64KB (if we do not consider compression and checksum) data from the storage layer. However, when the table is accessed in a row-oriented fashion (a entire row needs to be handed over to the upper layer), in the worst case (a full table scan and values of this table are all the same size), every 64KB data read can cause a seek. 
+
+This jira is used to discuss if we should consider the data access pattern mentioned above and if so, how to improve the performance of Trevni. Row-oriented data processing engines, e.g. Hive, can benefit from this work."
+Avro,AVRO-1241,improve trevni performance on string deserialization,Improvement,Closed,Major,Fixed,Joseph Adler,Joseph Adler,Joseph Adler,2/1/2013 20:38,,2/27/2013 0:54,2/4/2013 21:59,1.7.3,1.7.4,java,,1,6,,,,,,,"PIG-3015, HIVE-3585",,"I have been trying to implement a storage function for Apache Pig that writes data in Trevni format. I found that the storage function was very slow when reading whole records. 
+
+I did some profiling (with Yourkit) and found that most of the CPU time was being spent in org.apache.trevni.InputBuffer$readString() (specifically in the String() method). I changed to java.nio.charset.CharsetDecoder.decode for deserialization and saw a big improvement. Changes are included in the patch."
+Avro,AVRO-1243,Avro support for all compression codecs,Improvement,Closed,Minor,Fixed,Theodore michael Malaska,Theodore michael Malaska,Theodore michael Malaska,2/7/2013 12:22,,2/27/2013 0:54,2/12/2013 23:23,1.7.3,1.7.4,java,,0,4,,,,,,,,,"I may be reading this wrong but at this time org.apache.avro.file.CodecFactory only supports null, deflate, and snappy compression codecs. 
+
+I would like to change the fromString method to use Class.forName(codec).newInstance(); after the codec was not found in the REGISTERED map but before the AvroRuntimeException is thrown. 
+
+Here are some of my supporting thoughts 
+1. This should not interduce much slowness because it will only be called initialize. 
+2. This will allow for support for GZip, BZip2, and LZO with out adding more dependances to the maven pom file. 
+3. This will allow for a future Jiri I would like to do that would allow AvroOutputFormat to be able to use the following configs: mapred.output.compress and mapred.output.compression.codec 
+
+
+"
+Avro,AVRO-1250,Add a Tool that Efficiently Concatenates Avro Files,New Feature,Closed,Major,Fixed,Nick White,Nick White,Nick White,2/11/2013 15:27,,2/27/2013 0:54,2/12/2013 22:28,1.7.3,1.7.4,java,,0,3,,,,,,,,,"It'd be useful to have a Tool that uses appendAllFrom (with recompress set to false) to concatenate one or more of avro files to either another file or stdout. The Tool would fail if any input files had a different schema or metadata to ensure the tool doesn't try to decompress the contents. 
+
+I've attached a patch that does this."
+Avro,AVRO-1260,Ruby: Performance improvements for parsing,Improvement,Closed,Major,Fixed,Martin Kleppmann,Martin Kleppmann,Martin Kleppmann,2/20/2013 1:38,,8/20/2013 17:46,3/1/2013 19:03,1.7.3,1.7.5,ruby,,0,2,,,,,,,,,"I've made a few performance improvements to the Ruby Avro decoder. In my tests (decoding a complex record with many fields and nested records), I saw a 40% speedup on MRI 1.8.7 and a 20% speedup on MRI 1.9.3. The improved code also makes about half as many object allocations as before. 
+
+Main changes are: 
+
+* Using symbols instead of strings for the various schema types (there was actually a FIXME in the code for this, now fixed) 
+* Added a few memoizations to avoid unnecessarily recomputing values 
+
+I've tried to keep the API unchanged — {{Avro::Schema#type}} still returns a string, as users may be relying on the type ({{Avro::Schema#type_sym}} has the symbolized version). So I don't think this patch introduces any compatibility problems (as long as apps aren't relying on internals of the Avro library)."
+Avro,AVRO-1262,Provide access to the writer schema from the mapper,New Feature,Open,Major,Unresolved,Doug Cutting,Josh Spiegel,Josh Spiegel,2/27/2013 19:50,,8/7/2013 19:24,,1.7.4,,java,,0,3,,,,,,,,,"When using an Avro InputFormat like AvroKeyInputFormat, the writer schema of the container file should be accessible from the mapper. This is useful in cases where a reader schema is not specified. 
+
+A workaround is to use FileSplit#getPath() to access the container file and manually pull out the schema. This workaround is not ideal because internally the writer schema has already been read (see AvroRecordReaderBase#createAvroFileReader(...)) - it is awkward and inefficient for the user to repeat this work. 
+
+See also: 
+http://mail-archives.apache.org/mod_mbox/avro-user/201302.mbox/%3CCAOF3b61nFw4ztOo9Q5pHHtoUDFZ3sRrvEdRGbXGV_cscTqd5LA%40mail.gmail.com%3E 
+"
+Avro,AVRO-1265,Python: schema objects should support builder() default-filling behavior,Improvement,Patch Available,Minor,Unresolved,Jeremy Kahn,Jeremy Kahn,Jeremy Kahn,2/28/2013 18:28,,1/29/2016 12:35,,,1.9.0,python,,0,1,,,,,,,,,"There seems to be no way to easily use the avro libraries in Python (where I feel most qualified to comment) to encode generics with ""missing default values"" and have them transmitted in well-formed avro binary. 
+
+If you fill in the ""missing"" default values, the Python libraries will transmit correctly. 
+
+I'd be happy to add methods to the avro.RecordSchema objects (in the Python libraries) that ""fill defaults"" on missing member fields of a record, recursively (which probably means method extension of other schema classes as well). 
+
+For backwards compatibility (and probably to avoid unnecessary data traversal), clients probably want to explicitly ask the schema to fill in defaults before transmission in the cases where you'd like to set only the non-default values. 
+"
+Avro,AVRO-1277,Improve performance of reflection-based serializers,Improvement,Resolved,Minor,Duplicate,Unassigned,Leo Romanoff,Leo Romanoff,3/21/2013 16:51,,4/23/2013 16:42,4/23/2013 16:42,1.7.4,,java,,0,3,,,,,,,"AVRO-1283, AVRO-1268, AVRO-1282",,"I've played a bit with Avro serialization based on reflection, i.e. with the classes from org.apache.avro.generic package. 
+
+It works fine in this mode, but is rather slow compared to such frameworks like protostuff or kryo. 
+
+Quick look at the source code has shown that a lot of reflection-based operations and class lookups are not cached. And such operations are usually pretty expensive when executed by a JVM. 
+
+So I changed some of org.apache.avro.generic classes, introduced caching and a few other optimizations. Now it seems to perform much better."
+Avro,AVRO-1282,Make use of the sun.misc.Unsafe class during serialization if a JDK supports it,Improvement,Closed,Minor,Fixed,Unassigned,Leo Romanoff,Leo Romanoff,3/22/2013 16:57,,8/20/2013 17:46,4/30/2013 16:19,1.7.4,"1.7.5, 1.8.0",java,,0,4,,,,,,,"AVRO-1283, AVRO-1277",,"Unsafe can be used to significantly speed up serialization process, if a JDK implementation supports java.misc.Unsafe properly. Most JDKs running on PCs support it. Some platforms like Android lack a proper support for Unsafe yet. 
+
+There are two possibilities to use Unsafe for serialization: 
+1) Very quick access to the fields of objects. It is way faster than with the reflection-based approach using Field.get/set 
+
+2) Input and Output streams can be using Unsafe to perform very quick input/output. 
+
+3) More over, Unsafe makes it possible to serialize to/deserialize from off-heap memory directly and very quickly, without any intermediate buffers allocated on heap. There is virtually no overhead compared to the usual byte arrays."
+Avro,AVRO-1283,"remove static caches from GenericData, SpecificData and ReflectData",Improvement,Open,Major,Unresolved,Unassigned,Doug Cutting,Doug Cutting,3/22/2013 23:13,,4/30/2017 15:42,,,,,,0,2,,,,,,,"AVRO-1277, AVRO-1282",,"Currently GenericData, ReflectData and SpecificData are often treated as singletons, through an instance returned by a static get() method. Because of this, the caches they have must be thread-safe and are also memory leaks. 
+
+Increasingly of late, new instances of these are allocated for use by a given DatumReader or DatumWriter. This issue explores whether we can: 
+- Change the static get() methods to always return new instances, so that each DatumReader and DatumWriter has its own instance. Since DatumReader and DatumWriter are not thread-safe, the thread safety requirement could then be removed from caches, increasing their performance; and 
+- Change caches to be non-static, to remove potential memory leaks. 
+"
+Avro,AVRO-1289,Python: Schema objects should polymorphically interact with data-walker interface,Improvement,Open,Minor,Unresolved,Jeremy Kahn,Jeremy Kahn,Jeremy Kahn,4/4/2013 18:14,,1/29/2016 12:35,,1.7.5,1.9.0,python,,0,1,,,,,,,,,"Python {{avro.schema}} objects should be able to call back to a general data-and-schema parallel-walker (""validate"" would be one of those, but so could be ""default-filler""). 
+
+There should be an {{avro.walker}} interface that owns the parallel state (a datum-reader/deserializer, a datum-writer/serializer, a validator, or a default-filler -- see AVRO-1265). Schema polymorphism would allow us to eliminate the large (and highly redundant) function-dispatch methods in {{avro.io}} by making the {{avro.schema.Schema}} subclass responsible for calling back to the {{avro.walker}} object. 
+
+Assigning this to v1.8.0 because it may be difficult to duplicate *every* behavior of 1.7.* with the same function signatures, especially where this refactor may be eliminate entire classes. 
+
+This factoring ought to make it easier to improve or extend objects that meet this {{walker}} interface -- validators & serializers might be able to store more state about their position within a record, for example, to yield more informative error messages upon mismatch (as requested by Jonathan Coveney on the user mailing list)."
+Avro,AVRO-1292,NettyTransceiver: Client threads can block under certain connection failure scenarios,Bug,Closed,Major,Fixed,James Baldassari,James Baldassari,James Baldassari,4/9/2013 21:23,,8/20/2013 17:46,7/2/2013 18:00,1.7.4,1.7.5,java,,0,4,,,,,,,,,"I've recently found a couple of different failure scenarios with NettyTransceiver that result in: 
+* Client threads blocking for long periods of time (uninterruptibly at that) while holding the {{stateLock}} write lock 
+* RPCs (either sync or async) never returning because a failure in sending the RPC was not propagated back up to the caller 
+
+The patch I'm going to submit will probably be a lot easier to understand, but I'll try to explain the main problems I found. There is a single type of underlying connectivity issue that seems to trigger both of these problems in NettyTransceiver: a failure at the network layer causes all packets to be dropped somewhere between the RPC client and server. You might think this would be a rare scenario, but it has happened several times in our production environment and usually occurs after the RPC server machine becomes unresponsive and needs to be physically rebooted. The only way I've been able to reproduce this scenario for testing purposes has been to set up an iptables rule on the RPC server that simply drops all incoming packets from the client. For example, if the client's IP is 10.0.0.1 I would use the following iptables rule on the server to reproduce the failure: 
+
+{code} 
+iptables -t mangle -A INPUT --source 10.0.0.1 -j DROP 
+{code} 
+
+After looking through a lot of stack traces I think I've identified 2 main problems: 
+
+*Problem 1:* NettyTransceiver calls {{ChannelFuture#awaitUninterruptibly(long)}} in a couple places, {{getChannel()}} and {{disconnect(boolean,boolean,Throwable)}}. Under the dropped packet scenario I outlined above, the client thread ends up blocking uninterruptibly for the entire connection timeout duration while holding the {{stateLock}} write lock. The stack trace for this situation looks like this: 
+
+{code} 
+""RPC Executor - 11 - 1363627762930"" daemon prio=10 tid=0x00002aaad005f000 nid=0x56cf in Object.wait() [0x0000000049344000] 
+java.lang.Thread.State: TIMED_WAITING (on object monitor) 
+at java.lang.Object.wait(Native Method) 
+at java.lang.Object.wait(Object.java:443) 
+at org.jboss.netty.channel.DefaultChannelFuture.await0(DefaultChannelFuture.java:265) 
+- locked <0x0000000703acfa00> (a org.jboss.netty.channel.DefaultChannelFuture) 
+at org.jboss.netty.channel.DefaultChannelFuture.awaitUninterruptibly(DefaultChannelFuture.java:237) 
+at org.apache.avro.ipc.NettyTransceiver.getChannel(NettyTransceiver.java:248) 
+at org.apache.avro.ipc.NettyTransceiver.<init>(NettyTransceiver.java:199) 
+at org.apache.avro.ipc.NettyTransceiver.<init>(NettyTransceiver.java:148) 
+{code} 
+
+At a minimum it should be possible to interrupt these connection attempts. 
+
+*Problem 2:* When an error occurs writing to the Netty channel the error is not passed back up the stack or callback chain (whether it's a sync or async RPC), so the client can end up waiting indefinitely for an RPC that will never return because an error occurred sending the Netty packet (i.e. it was never sent to the server in the first place). This scenario might yield a stack trace like the following: 
+
+{code} 
+""main"" prio=10 tid=0x00007f9400008800 nid=0x379b waiting on condition [0x00007f9406bc6000] 
+java.lang.Thread.State: WAITING (parking) 
+at sun.misc.Unsafe.park(Native Method) 
+- parking to wait for <0x00000007af677960> (a java.util.concurrent.CountDownLatch$Sync) 
+at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156) 
+at java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:811) 
+at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:969) 
+at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1281) 
+at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:207) 
+at org.apache.avro.ipc.CallFuture.await(CallFuture.java:141) 
+at org.apache.avro.ipc.Requestor.request(Requestor.java:150) 
+at org.apache.avro.ipc.Requestor.request(Requestor.java:101) 
+at org.apache.avro.ipc.specific.SpecificRequestor.invoke(SpecificRequestor.java:88) 
+at $Proxy9.send(Unknown Source) 
+
+{code} 
+
+It's difficult to provide a unit test for these issues because a connection refused error alone will not trigger it. The only way I've been able to reliably reproduce it is by setting the iptables rule I mentioned above. Hopefully a code review will be sufficient, but if necessary I can try to find a way to create a unit test."
+Avro,AVRO-1304,Python Avro match_schemas called redundantly,Bug,Patch Available,Major,Unresolved,Unassigned,Uri Laserson,Uri Laserson,4/20/2013 0:26,,4/23/2013 20:18,,1.7.4,,python,,1,3,,,,,,,,,"DatumReader.match_schemas(writers_schema, readers_schema) is called on every single read from the DatumReader. However, for almost every read, the schemas used are the object members self.writers_schema and self.readers_schema. match_schemas should be checked only once in this case, and only when the object members are modified. This takes up 20% of my parse time upon profiling."
+Avro,AVRO-1305,BinaryDecoder is bottleneck for python avro deserialization,Bug,Open,Major,Unresolved,Unassigned,Uri Laserson,Uri Laserson,4/20/2013 0:30,,4/20/2013 0:30,,,,python,,1,3,,,,,,,,,The BinaryDecoder deserialization is performing things like bit manipulation in pure python that would be much faster pushed to C. Probably a good place to implement in Cython.
+Avro,AVRO-1312,Make use of the sun.misc.Unsafe class in the IO streams implementation if a JDK supports it,Bug,Open,Minor,Unresolved,Unassigned,Leo Romanoff,Leo Romanoff,4/30/2013 6:34,,4/30/2013 6:34,,,,java,,0,1,,,,,,,,,"This is a follow-up of the AVRO-1282 issue. 
+
+AVRO-1282 has used Unsafe to significantly improve performance of Reflection-based serialization. But Unsafe can be also used to improve performance of IO streams, which would be beneficial not only for Reflection-based, but for all kinds of serializers. Experience with Kryo shows that it can boost performance even higher that the speedups provided by AVRO-1282. 
+
+Pros: 
+- Overall performance boost 
+- Biggest speedups of this optimizations are expected for the arrays of primitive types, as they can be very efficiently written using bulk operations instead of writing their elements one by one. 
+- It is possible to write directly into the off-heap memory buffers at the native speed, without using intermediate byte arrays. This can be interesting for Big Data apps, which often keep a lot of data off-heap 
+
+Cons: 
+- Unsafe can efficiently write only primitive types in their native byte order and using their fixed size. This is not quite compatible with Avro's format. 
+(While one can still use Unsafe to more efficiently write single elements even using their variable length encoding, the biggest benefits of bulk array serialization would be lost.) 
+- Introducing this feature may require a definition of a new format for Avro. This format would be very fast, but not very space efficient as it would use fixed-size representation. 
+
+BTW, initial tests where a sketch of the proposed optimization is applied only to Floats and Doubles has shown immediate boost of 35%."
+Avro,AVRO-1327,Having GenericEnumSymbol implement Comparable (mimic'ing java's Enum),Improvement,Closed,Major,Fixed,Doug Cutting,Hernan Otero,Hernan Otero,5/8/2013 17:05,,8/20/2013 17:46,5/9/2013 21:00,1.7.4,1.7.5,java,,0,3,,86400,86400,,0%,,,,"It would be great if we could have GenericEnumSymbol implementing Comparable (either using int or String rep). 
+This is mainly because GenericEnumSymbol is trying to mimic the java.lang.Enum and enums are inherently comparable that's why java.lang.Enum is Comparable. 
+Sorting Enum and GenericEnumSymbol is an action that we perform a lot. Making it Comparable frees us from explicit type checking and improves general code clarity and performance."
+Avro,AVRO-1332,Improve C# DatumReader performance,Improvement,Closed,Minor,Fixed,David McIntosh,David McIntosh,David McIntosh,5/18/2013 20:13,,1/23/2014 21:58,11/8/2013 22:16,1.7.5,1.7.6,csharp,,0,4,,,,,,,,,The current implementations of the C# datum readers perform resolution of the reader and writer schema on every call to Read. In my tests this was causing it to perform poorly when reading a large number of records (slower than parsing the same data from delimited text files). It would be more efficient if the reader only needed to resolve the schemas once.
+Avro,AVRO-1348,Improve Utf8 to String conversion,Bug,Closed,Major,Fixed,Doug Cutting,Mark Wagner,Mark Wagner,6/19/2013 1:19,,1/23/2014 21:58,12/19/2013 20:33,,1.7.6,,,1,9,,,,,,,,,"AVRO-1241 found that the existing method of creating Strings from Utf8 byte arrays could be made faster. The same method is being used in the Utf8.toString(), and could likely be sped up by doing the same thing."
+Avro,AVRO-1391,NettyTransceiver await called in IO thread,Bug,Open,Major,Unresolved,Unassigned,Jan Van Besien,Jan Van Besien,10/31/2013 14:06,,11/5/2013 7:42,,1.7.5,,java,,1,3,,,,,,,,,"The NettyTransceiver does a call to channelFuture.await() in the getChannel() method (line 271). This fails with the following exception if avro ipc is used from within an IO thread from another avro-ipc call. 
+
+Caused by: java.lang.IllegalStateException: await*() in I/O thread causes a dead lock or sudden performance drop. Use addListener() instead or call await*() from a different thread. 
+at org.jboss.netty.channel.DefaultChannelFuture.checkDeadLock(DefaultChannelFuture.java:314) 
+at org.jboss.netty.channel.DefaultChannelFuture.await0(DefaultChannelFuture.java:278) 
+... 
+
+The use case where I was able to reproduce this is when apache flume's avro source is coupled with a custom flume sink that also uses avro-ipc to talk to something else. In that case, the thread that ultimately does the above getChannel() call is an ""avro io thread""."
+Avro,AVRO-1407,NettyTransceiver can cause a infinite loop when slow to connect,Bug,Closed,Major,Fixed,Gareth Davis,Gareth Davis,Gareth Davis,11/29/2013 11:00,,2/1/2016 14:55,11/26/2014 19:30,"1.7.5, 1.7.6","1.7.8, 1.8.0",java,,0,5,,,,,,,,,"When a new {{NettyTransceiver}} is created it forces the channel to be allocated and connected to the remote host. it waits for the connectTimeout ms on the [connect channel future|https://github.com/apache/avro/blob/1579ab1ac95731630af58fc303a07c9bf28541d6/lang/java/ipc/src/main/java/org/apache/avro/ipc/NettyTransceiver.java#L271] this is obivously a good thing it's only that on being unsuccessful, ie {{!channelFuture.isSuccess()}} an exception is thrown and the call to the constructor fails with an {{IOException}}, but has the potential to leave a active channel associated with the {{ChannelFactory}} 
+
+The problem is that a Netty {{NioClientSocketChannelFactory}} will not shutdown if there are active channels still around and if you have supplied the {{ChannelFactory}} to the {{NettyTransceiver}} then you will not be able to cancel it by calling {{ChannelFactory.releaseExternalResources()}} like the [Flume Avro RPC client does|https://github.com/apache/flume/blob/b8cf789b8509b1e5be05dd0b0b16c5d9af9698ae/flume-ng-sdk/src/main/java/org/apache/flume/api/NettyAvroRpcClient.java#L158]. In order to recreate this you need a very laggy network, where the connect attempt takes longer than the connect timeout but does actually work, this very hard to organise in a test case, although I do have a test setup using vagrant VM's that recreates this everytime, using the Flume RPC client and server. 
+
+The following stack is from a production system, it won't ever leave recover until the channel is disconnected (by forcing a disconnect at the remote host) or restarting the JVM. 
+
+{noformat:title=Production stack trace} 
+""TLOG-0"" daemon prio=10 tid=0x00007f581c7be800 nid=0x39a1 waiting on condition [0x00007f57ef9f2000] 
+java.lang.Thread.State: TIMED_WAITING (parking) 
+at sun.misc.Unsafe.park(Native Method) 
+parking to wait for <0x00000007218b16e0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject) 
+at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:196) 
+at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2025) 
+at java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1253) 
+at org.jboss.netty.util.internal.ExecutorUtil.terminate(ExecutorUtil.java:103) 
+at org.jboss.netty.channel.socket.nio.AbstractNioWorkerPool.releaseExternalResources(AbstractNioWorkerPool.java:80) 
+at org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory.releaseExternalResources(NioClientSocketChannelFactory.java:181) 
+at org.apache.flume.api.NettyAvroRpcClient.connect(NettyAvroRpcClient.java:142) 
+at org.apache.flume.api.NettyAvroRpcClient.connect(NettyAvroRpcClient.java:101) 
+at org.apache.flume.api.NettyAvroRpcClient.configure(NettyAvroRpcClient.java:564) 
+locked <0x00000006c30ae7b0> (a org.apache.flume.api.NettyAvroRpcClient) 
+at org.apache.flume.api.RpcClientFactory.getInstance(RpcClientFactory.java:88) 
+at org.apache.flume.api.LoadBalancingRpcClient.createClient(LoadBalancingRpcClient.java:214) 
+at org.apache.flume.api.LoadBalancingRpcClient.getClient(LoadBalancingRpcClient.java:205) 
+locked <0x00000006a97b18e8> (a org.apache.flume.api.LoadBalancingRpcClient) 
+at org.apache.flume.api.LoadBalancingRpcClient.appendBatch(LoadBalancingRpcClient.java:95) 
+at com.ean.platform.components.tlog.client.service.AvroRpcEventRouter$1.call(AvroRpcEventRouter.java:45) 
+at com.ean.platform.components.tlog.client.service.AvroRpcEventRouter$1.call(AvroRpcEventRouter.java:43) 
+{noformat} 
+
+The solution is very simple, and a patch should be along in a moment."
+Avro,AVRO-1411,org.apache.avro.util.Utf8 performance improvement by remove private Charset in class,Improvement,Resolved,Minor,Duplicate,Unassigned,Tie Liu,Tie Liu,12/12/2013 16:14,,12/12/2013 18:49,12/12/2013 18:49,1.7.5,,java,,0,3,,,,,,,,,"Inside org.apache.avro.util.Utf8 class, it has a private member field defined as: private static final Charset UTF8 = Charset.forName(""UTF-8""); 
+
+and it's used as: 
+public static final byte[] getBytesFor(String str) { 
+return str.getBytes(UTF8); 
+} 
+
+I guess the intention of create this object is to save object creation, but when we dive into the string.getBytes code, when it's called with Charset, it actually create a new StringEncoder in java.lang.StringCoding: 
+static byte[] encode(Charset cs, char[] ca, int off, int len) { 
+StringEncoder se = new StringEncoder(cs, cs.name()); 
+char[] c = Arrays.copyOf(ca, ca.length); 
+return se.encode(c, off, len); 
+} 
+
+If instead we just call it with string literal ""UTF-8"", it will just reuse the threadlocal StringEncoder. 
+
+We tried overwrite this class with passing string literal and proved those short lived StringEncoder objects is not created any more. Would like apache to fix this so we don't need to overwrite it anymore. 
+
+
+
+"
+Avro,AVRO-1419,java.io.IOException: Invalid sync! throw after random number of sync() calls.,Bug,Open,Major,Unresolved,Unassigned,Deepak Kumar V,Deepak Kumar V,12/24/2013 6:56,,9/19/2016 16:50,,1.7.5,,java,,0,6,,,,,,,,,"I have a 340 MB avro data file that contains records sorted and identified by unique id (duplicate records exists). At the beginning of every unique record a synchronization point is created with DataFileWriter.sync(). (I cannot or do not want to save the sync points and i do not want to use SortedKeyValueFile as output format for M/R job) 
+
+There are at-least 25k synchronization points in a 340 MB file. 
+
+Ex: 
+Marker1_RecordA1_RecordA2_RecordA3_Marker2_RecordB1_RecordB2 
+
+
+As records are sorted and marked, for efficient retrieval, binary search is performed. Most of the times the search is successful, at times the code throws the following exception 
+------ 
+org.apache.avro.AvroRuntimeException: java.io.IOException: Invalid sync! at org.apache.avro.file.DataFileStream.hasNext(DataFileStream.java:210 
+------ 
+I note down the position that was used to invoke fileReader.sync(mid); and catch AvroRuntimeException, close and open the file and sync(mid) i do not see exception. 
+
+Why should Avro throw exception before and not later ? 
+1.7.5v of library is throwing this error. Raising a major defect, adjust the priority at your convenience."
+Avro,AVRO-1428,Schema.computeHash() to add if check to avoid unnecessary hashcode computation,Improvement,Open,Major,Unresolved,Unassigned,Tie Liu,Tie Liu,1/6/2014 19:47,,1/16/2014 19:43,,,,java,,0,2,,,,,,,,,"In current Schma.java we have following implementation: 
+public final int hashCode() { 
+if (hashCode == NO_HASHCODE) 
+hashCode = computeHash(); 
+return hashCode; 
+} 
+
+int computeHash() { return getType().hashCode() + props.hashCode(); } 
+
+While hashCode is doing the checking of ""if (hashCode == NO_HASHCODE)"", the computeHash method is not. But the computeHash method is being called from Schema$Field.hashCode and the subclasses hashCode implementation like following: 
+public int hashCode() { return name.hashCode() + schema.computeHash(); } //this is from Schema$Field class 
+
+This is causing the the calculation of hashCode getting called unnecessarily extensively. The proposed changed is to add the ""if"" check inside the computeHash method instead: 
+
+int computeHash() 
+{ 
+if (hashCode == NO_HASHCODE) 
+{ 
+hashCode = getType().hashCode() + props.hashCode(); 
+} 
+return hashCode; 
+} 
+
+
+We did a simple test to compare the performance difference, below is a summary of the heap snapshot of comparing the difference: 
+
+As a test I wrote a small program that creates a HashMap<Schema.Field, Integer>() and enters a loop simply identifying whether various Schema.Field instances are keys in the map. Obviously this is a pathological test case, but when running with the current implementation of Schema.Field it has (in about 30 seconds) used up nearly 8 GBytes of heap in instantiating intermediate objects associated with calling Schema.computeHash(): 
+
+Heap 
+PSYoungGen total 17432576K, used 8666481K [0x0000000340000000, 0x0000000800000000, 0x0000000800000000) 
+eden space 14942208K, 58% used [0x0000000340000000,0x0000000550f5c650,0x00000006d0000000) 
+from space 2490368K, 0% used [0x0000000768000000,0x0000000768000000,0x0000000800000000) 
+to space 2490368K, 0% used [0x00000006d0000000,0x00000006d0000000,0x0000000768000000) 
+ParOldGen total 1048576K, used 0K [0x0000000300000000, 0x0000000340000000, 0x0000000340000000) 
+object space 1048576K, 0% used [0x0000000300000000,0x0000000300000000,0x0000000340000000) 
+PSPermGen total 21504K, used 5782K [0x00000002fae00000, 0x00000002fc300000, 0x0000000300000000) 
+object space 21504K, 26% used [0x00000002fae00000,0x00000002fb3a5818,0x00000002fc300000) 
+
+When running with the modified implementation (and no other change) all the object allocation vanishes: 
+
+Heap 
+PSYoungGen total 17432576K, used 896532K [0x0000000340000000, 0x0000000800000000, 0x0000000800000000) 
+eden space 14942208K, 6% used [0x0000000340000000,0x0000000376b852d0,0x00000006d0000000) 
+from space 2490368K, 0% used [0x0000000768000000,0x0000000768000000,0x0000000800000000) 
+to space 2490368K, 0% used [0x00000006d0000000,0x00000006d0000000,0x0000000768000000) 
+ParOldGen total 1048576K, used 0K [0x0000000300000000, 0x0000000340000000, 0x0000000340000000) 
+object space 1048576K, 0% used [0x0000000300000000,0x0000000300000000,0x0000000340000000) 
+PSPermGen total 21504K, used 5768K [0x00000002fae00000, 0x00000002fc300000, 0x0000000300000000) 
+object space 21504K, 26% used [0x00000002fae00000,0x00000002fb3a2240,0x00000002fc300000) 
+
+As a side-effect the test runs x3 faster with the modified hashCode() implementation. 
+"
+Avro,AVRO-1434,ObjectCreator.cs is not thread safe,Bug,Closed,Major,Fixed,David Taylor,David Taylor,David Taylor,1/10/2014 16:01,,1/23/2014 21:58,1/10/2014 20:52,1.7.5,1.7.6,csharp,,0,4,,,,,,,,Windows,"Public methods ObjectCreator.GetType() assign to shared fields without locks. This causes unpredictable behaviour in a multi-threaded application. The easiest fix is to simply remove the shared variables as they appear to exist as a potential performance improvement but constructing local variables seems to add no significant overhead. 
+"
+Avro,AVRO-1438,C# reader performance improvement,Improvement,Open,Minor,Unresolved,Unassigned,David Taylor,David Taylor,1/14/2014 14:39,,1/14/2014 14:40,,1.7.5,,csharp,,0,1,,,,,,,,,GenericReader/SpecificReader spend a lot of time comparing the reader/writer schema. Remembering the last good match speeds things up about 15% in my tests using the avro.pref project for timings. This does not impact the DatumReader implementation.
+Avro,AVRO-1455,Deep copy does not need to create new instances for primitives,Bug,Closed,Major,Fixed,Tom White,Tom White,Tom White,2/12/2014 11:53,,6/3/2015 16:49,3/3/2014 15:26,1.7.6,1.7.7,java,,0,5,,,,,,,,,"Java Boolean, Integer, Long, Float and Double are immutable so there's no need to create new instances for them in GenericData#deepCopy. Note that this optimization is already present for String."
+Avro,AVRO-1472,Usage of Parser is Wrong in Getting Started Guide,Improvement,Closed,Minor,Fixed,Doug Cutting,Michael Knapp,Michael Knapp,3/2/2014 17:41,,7/24/2014 20:16,3/13/2014 18:04,"1.7.4, 1.7.5, 1.7.6",1.7.7,,,0,4,,,,,,,,,"In the Getting Started Guide for java, in the ""Serializing and deserializing without code generation"" section, for versions 1.7.3 and later, I still see this: 
+
+Schema schema = new Parser().parse(new File(""user.avsc"")); 
+
+This is COMPLETELY confusing to people, I am assuming now that you have imported org.apache.avro.Schema.Parser, but that is not clear to the users. 
+
+There is also a class in avro called org.apache.avro.io.parsing.Parser, most users would look at your ""Parser"" in the example and think you are talking about ""org.apache.avro.io.parsing.Parser"", when you are actually talking about ""org.apache.avro.Schema.Parser"" 
+
+I just wasted the last hour of my life trying to figure this out. Please fix your documentation. Either tell people exactly what parser you are importing, or explicitly state it like this: 
+
+Schema schema = new Schema.Parser().parse(in);"
+Avro,AVRO-1479,JavaScript encoder,Improvement,Open,Trivial,Unresolved,Unassigned,Sal Zsosn,Sal Zsosn,3/8/2014 3:43,,3/13/2014 16:37,,,,,,0,2,,,,,,,,,"I've been working on an encoder for JavaScript. 
+From the other JavaScript implementations I've seen out there, this one is different in that it supports all Avro types and not only works in node.js but also in the browser. Also the Java implementation is able to parse the resulting file formats. 
+I've included examples. It's only able to encode, not decode yet. 
+
+Maybe that's something worth including in future releases. 
+
+http://www.speedyshare.com/CAwTj/avro-encoder.7z"
+Avro,AVRO-1504,Improve python implementation performance,Improvement,Patch Available,Major,Unresolved,Unassigned,Steven Moy,Steven Moy,5/6/2014 23:09,,2/12/2015 0:31,,1.7.6,,python,,1,4,,,,,,,AVRO-217,,"Inspired by https://www.python.org/doc/essays/list2str/, there are some low hanging fruit to increase the performance for python implementation. 
+
+Patch soon follow: 
+
+https://github.com/smoy/avro/commits/smoy_reader_performance 
+
+relevant commits 
+
+* 71220bb4a84c7aa4d42b593a2c0f7cefa8cda82d 
+* 542139ce1a40492c9234ee5f84a4410515877af4 
+* 2f7a0ef8d02148cf69269f5b59f89481e7c86d34"
+Avro,AVRO-1536,Remove monkeypatching of Enumerable,Improvement,Closed,Major,Fixed,Martin Kleppmann,Martin Kleppmann,Martin Kleppmann,7/2/2014 8:44,,7/24/2014 20:16,7/3/2014 15:02,1.7.6,1.7.7,ruby,,0,4,,,,,,,,,"The Avro Ruby gem adds a method {{collect_hash}} to the core module {{Enumerable}}. It's bad form for a library to extend core modules like this, and it's also unnecessary (stdlib methods can do the job perfectly well)."
+Avro,AVRO-1563,"when server use Netty server , clients can't use Http protocal to connect",New Feature,Open,Major,Unresolved,Unassigned,wu zhi hui,wu zhi hui,8/8/2014 6:55,,8/8/2014 6:55,,1.7.7,,,,0,1,,,,,,,,,"when server use Netty server , clients can't use Http protocal to connect 
+if server use Http server ,the performance is bad!"
+Avro,AVRO-1607,Minor performance enhancement,Improvement,Open,Minor,Unresolved,Unassigned,Zoltan Farkas,Zoltan Farkas,11/18/2014 16:22,,12/16/2014 18:58,,1.8.0,,java,,0,2,,300,300,,0%,,,,"In SpecificData.getClass, line 164: 
+
+case UNION: 
+List<Schema> types = schema.getTypes(); // elide unions with null 
+if ((types.size() == 2) && types.contains(NULL_SCHEMA)) 
+return getWrapper(types.get(types.get(0).equals(NULL_SCHEMA) ? 1 : 0)); 
+return Object.class; 
+
+can be written more efficiently as: 
+
+case UNION: 
+List<Schema> types = schema.getTypes(); // elide unions with null 
+if ((types.size() == 2)) { 
+if (NULL_SCHEMA.equals(types.get(0))) { 
+return getWrapper(types.get(1)); 
+} else if (NULL_SCHEMA.equals(types.get(1))) { 
+return getWrapper(types.get(0)); 
+} 
+} 
+return Object.class; 
+
+
+"
+Avro,AVRO-1611,Avro-mapred should provide CombineAvroKeyInputFormat,Improvement,Open,Minor,Unresolved,Unassigned,Bart?omiej Roma?ski,Bart?omiej Roma?ski,11/25/2014 15:33,,11/26/2014 19:20,,,,,,2,4,,,,,,,,,"A serious issue with Hadoop is dealing with a huge number of small files (they slow down processing, overload namenode etc...). 
+
+A common remedy for this is to use CombineFileInputFormat. However, this is an abstract class to need to be concretized for each InputFormat it is wrapping. I believe Avro should provide CombineAvroKeyInputFormat like Hadoop is providing CombineSequenceFileInputFormat and CombineTextInputFormat. 
+
+I've attached a basic implementation. 
+"
+Avro,AVRO-1613,Support for non-standard JSON when reading schemas,Wish,Resolved,Minor,Not A Problem,Unassigned,Alfonso Nishikawa,Alfonso Nishikawa,11/26/2014 11:24,,3/18/2015 20:50,12/3/2014 13:35,,,java,,0,3,,,,,,,,,"It would be good to: 
+* Allow unquoted field names 
+* Allow single quotes 
+* Allow comments 
+
+when reading a schema. The proper extensions ([shown here|http://wiki.fasterxml.com/JacksonFeaturesNonStandard]) of Jackson could be enabled in {{Schema$Parser.parse(JsonParser)}}. 
+"
+Avro,AVRO-1625,Adding Microsoft C# Implementation to the project,New Feature,Open,Major,Unresolved,Unassigned,Alexey Orlov,Alexey Orlov,12/25/2014 17:37,,11/24/2015 20:01,,,,csharp,,0,9,,,,,,,,,"In April 2014 Microsoft released to the public its own C# implementation of Avro. The code is completely new. The reasoning for the project was to overcome the limitations of C# implementation available as a component of Apache project at the time we have commenced the effort (early 2013). In particular: 
+
+- Low performance 
+- Missing support of serialization using Reflection 
+
+Our implementation is called Microsoft Avro Library and available here https://hadoopsdk.codeplex.com/wikipage?title=Avro%20Library (together with the code) 
+
+Throughout 2014 we have released some updates, fixed bugs, added a feature and now would like to start a conversation about contributing our library to the project. 
+
+Doug Cutting suggested I start a Jira issue for this conversation, so I’m following the advice (see http://mail-archives.apache.org/mod_mbox/avro-dev/201406.mbox/%3c50937B33CDF7CA46AFCC1F1D04C6551A0A01B213@DB3EX14MBXC327.europe.corp.microsoft.com%3e) 
+
+Some background information on today’s state of the library: 
+
+- The library supports binary serialization only 
+- RPC support is NOT implemented 
+- The library is compiled vs Microsoft .NET Framework 4.0. We have NOT tested it on other platforms (e.g. with Mono). 
+
+And about me. I’m a Microsoft employee and Program Manager responsible for the project. 
+
+Looking forward getting the feedback. 
+
+Thank you, 
+Alexey"
+Avro,AVRO-1704,Standardized format for encoding messages with Avro,Improvement,Resolved,Major,Fixed,Niels Basjes,Daniel Schierbeck,Daniel Schierbeck,7/16/2015 8:38,,6/1/2017 14:36,9/4/2016 20:45,,"1.9.0, 1.8.2","java, spec",,1,18,,,,,,,"AVRO-1888, AVRO-1885",,"I'm currently using the Datafile format for encoding messages that are written to Kafka and Cassandra. This seems rather wasteful: 
+
+1. I only encode a single record at a time, so there's no need for sync markers and other metadata related to multi-record files. 
+2. The entire schema is inlined every time. 
+
+However, the Datafile format is the only one that has been standardized, meaning that I can read and write data with minimal effort across the various languages in use in my organization. If there was a standardized format for encoding single values that was optimized for out-of-band schema transfer, I would much rather use that. 
+
+I think the necessary pieces of the format would be: 
+
+1. A format version number. 
+2. A schema fingerprint type identifier, i.e. Rabin, MD5, SHA256, etc. 
+3. The actual schema fingerprint (according to the type.) 
+4. Optional metadata map. 
+5. The encoded datum. 
+
+The language libraries would implement a MessageWriter that would encode datums in this format, as well as a MessageReader that, given a SchemaStore, would be able to decode datums. The reader would decode the fingerprint and ask its SchemaStore to return the corresponding writer's schema. 
+
+The idea is that SchemaStore would be an abstract interface that allowed library users to inject custom backends. A simple, file system based one could be provided out of the box."
+Avro,AVRO-1747,JavaScript implementation,Improvement,Closed,Major,Fixed,Matthieu Monsch,Matthieu Monsch,Matthieu Monsch,10/14/2015 0:13,,2/1/2016 14:55,12/10/2015 3:47,,1.8.0,javascript,,0,7,,,,,,,AVRO-1734,,"Hello, 
+
+I'm not sure if there is still interest in a JavaScript implementation of the Avro spec, or if this is the right place for this message (apologies if not), but in case it's useful here is one: https://github.com/mtth/avsc 
+
+It's pretty fast, fully featured aside from protocols (AFAIK), and runs in the browser. 
+
+Disclaimer: I wrote this library. (I initially searched around for existing implementations, and even saw a few tickets on this board about JavaScript decoders, but couldn't find one to support the schemas I have to process.) 
+
+Best, 
+-Matthieu"
+Avro,AVRO-1756,Python implementations,Improvement,Open,Major,Unresolved,Unassigned,Ryan Blue,Ryan Blue,11/10/2015 18:21,,12/15/2015 14:04,,,,python,,0,3,,,,,,,,,"Fastavro supports python 2 and 3, is fast, and its author is open to working with the Apache community. This issue is to track importing fastavro as a new lang/python implementation. Follow-on issues can track unifying the py and py3 APIs."
+Avro,AVRO-1788,python api differs unnecessarily between python2 and python3,Wish,Patch Available,Minor,Unresolved,Unassigned,Alexander Hasha,Alexander Hasha,1/29/2016 4:58,,3/18/2017 19:10,,,,python,,2,6,,,,,,,,,"It is difficult to use the python avro module in projects that maintain simultaneous compatibility between python 2 and python 3, because there are small differences in the API between the two versions in the module that seem unnecessary. 
+
+For example, to parse a schema string in python 2: 
+
+{code} 
+from avro.schema import parse 
+{code} 
+
+and in python 3: 
+
+{code} 
+from avro.schema import Parse 
+{code} 
+
+In Python2, DatumReader's constructor has keyword argument ""writers_schema"", and in Python 3 it becomes ""writer_schema"" (no s). 
+
+Would it be possible to align method names and arguments across the two modules?"
+Avro,AVRO-1809,I wish to remove optimization from GenericDatumReader.getResolver,Wish,Resolved,Minor,Won't Fix,Unassigned,Konstantin Usachev,Konstantin Usachev,3/10/2016 16:15,,4/2/2016 9:13,4/2/2016 9:13,,,java,,0,3,,,,,,,,,"There is an optimization at org.apache.avro.generic.GenericDatumReader.getResolver, when we cache creator thread and it's first returned value. At first, It looks redundant, because it saves three calls to Map.get, which is unmeasurable, especially after Schema's hashcode calculation optimization, made by the same author [~cutting], it's not obvious and adds additional complexity. Also caching of current thread whould be a source of bugs in case of different green threads libraries integration (which, actually, occurred during integration with Quasar)."
+Avro,AVRO-1818,Avoid buffer copy in DeflateCodec.compress and decompress,Improvement,Open,Major,Unresolved,Nandor Kollar,Rohini Palaniswamy,Rohini Palaniswamy,3/31/2016 21:39,,1/4/2017 12:04,,,,,,0,4,,,,,,,,,"One of our jobs reading avro hit OOM due to the buffer copy in compress and decompress methods which is very inefficient. 
+
+https://github.com/apache/avro/blob/master/lang/java/avro/src/main/java/org/apache/avro/file/DeflateCodec.java#L71-L86 
+
+{code} 
+java.lang.OutOfMemoryError: Java heap space 
+at java.util.Arrays.copyOf(Arrays.java:3236) 
+at java.io.ByteArrayOutputStream.toByteArray(ByteArrayOutputStream.java:191) 
+at org.apache.avro.file.DeflateCodec.decompress(DeflateCodec.java:84) 
+{code} 
+
+
+
+I would suggest using a class that extends ByteArrrayOutputStream like https://github.com/apache/hadoop/blob/trunk/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/DataOutputBuffer.java#L51-L53 
+
+and do 
+ByteBuffer result = ByteBuffer.wrap(buf.getData(), 0, buf.getLength());"
+Avro,AVRO-1861,Avro Schema parser treats Avro float type as Java Double for default values,Bug,Resolved,Major,Fixed,Gabor Szadovszky,Andy Mok,Andy Mok,6/7/2016 0:03,,10/10/2016 8:11,10/10/2016 8:11,1.8.1,"1.9.0, 1.8.2",java,,0,3,,,,,,,AVRO-1860,,"The following code snippet in the [Schema class|https://github.com/apache/avro/blob/master/lang/java/avro/src/main/java/org/apache/avro/Schema.java] shows that we explicitly treat Avro {{FLOAT}} and {{DOUBLE}} as a Java {{Double}}. 
+{code:java} 
+JsonNode defaultValue = field.get(""default""); 
+if (defaultValue != null 
+&& (Type.FLOAT.equals(fieldSchema.getType()) 
+|| Type.DOUBLE.equals(fieldSchema.getType())) 
+&& defaultValue.isTextual()) 
+defaultValue = 
+new DoubleNode(Double.valueOf(defaultValue.getTextValue())); 
+{code} 
+Jackson has support for [FloatNode|https://fasterxml.github.io/jackson-databind/javadoc/2.3.0/com/fasterxml/jackson/databind/node/FloatNode.html] so why don't we use that? 
+
+This is a problem when someone calls [Schema.Field#defaultVal|https://avro.apache.org/docs/1.8.1/api/java/org/apache/avro/Schema.Field.html#defaultVal()] for an Avro field with Avro type {{FLOAT}} and they try to typecast the object to a Java {{float}}. 
+"
+Avro,AVRO-1868,Increase precision digits of JSON encodeNumber(double),Improvement,Resolved,Minor,Duplicate,Thiruvalluvan M. G.,Jirapat Jirasirikul,Jirapat Jirasirikul,6/26/2016 23:40,,2/4/2017 6:14,2/4/2017 6:14,,,c++,,0,2,,,,,,,,,"The JSON encodeNumber(double) function writes value to output string stream. The default precision is 6 which is not sufficient for many applications for encoding a double. 
+
+std::setprecision(16) should be used to set max precision to 16 digits. Note that doing this would not unnecessarily append zeros to force 16 digits."
+Avro,AVRO-1873,avro gem doesn't compatible with other languages with snappy compression,Bug,Resolved,Blocker,Fixed,Ryan Blue,Pumsuk Cho,Pumsuk Cho,6/30/2016 8:15,,9/12/2016 16:09,9/12/2016 16:09,1.8.1,1.8.2,ruby,,0,4,,,,,,,AVRO-1885,"CentOS 6.8 64bit, Snappy 1.1.0, Python 3.5, Ruby 2.2.3","I've tested avro gem today, then found some weird result. 
+
+With python library like ""fastavro"", generated an avro file snappy compressed. This file works fine with avro-tools-1.8.1.jar. 
+
+java -jar avro-tools-1.8.1.jar tojson testing.avro returns what I expected. 
+
+But NOT compatible with ruby using avro gem returns ""Invalid Input"" message. And snappy compressed avro file made with avro gem doesn't work with avro-tools nor in python with avro-python3 and fastavro. 
+
+my ruby codes are below: 
+
+schema = Avro::Schema.paese(File.open('test.avsc', 'r').read) 
+avrofile = File.open('test.avro', 'wb') 
+writer = Avro::IO::DatumWriter.new(schema) 
+datawriter = Avro::DataFile::Writer.new file, writer, schema, 'snappy' 
+datawriter<< {""title"" => ""Avro"", ""author"" => ""Apache Foundation""} 
+datawriter.close 
+
+"
+Avro,AVRO-1921,Slow build time because of unreachable codehaus website,Bug,Resolved,Major,Fixed,Gabor Szadovszky,Gabor Szadovszky,Gabor Szadovszky,9/19/2016 14:13,,9/19/2016 23:19,9/19/2016 23:19,,"1.9.0, 1.8.2",,,0,3,,,,,,,,,"There is a broken link in lang/java/pom.xml for javadoc generation: {{jackson.codehaus.org/1.9.4/javadoc/}} 
+
+Build started by {{./build.sh dist}} hangs for a while. Agreed to remove the link as Jackson interfaces are not used publicly from Avro."
+Avro,AVRO-1928,Python double/float encoding implementation should use built-in struct support for little endian,Improvement,Open,Minor,Unresolved,Unassigned,Shalabh Chaturvedi,Shalabh Chaturvedi,9/26/2016 21:13,,4/13/2017 3:36,,"1.8.1, 1.8.2, 1.8.3",,python,,0,2,,,,,,,,,"The encoding and decoding of double and float types in Python uses unnecessary bit operations and packing/unpacking. Python's {{struct}} module supports little-endian encoding and could be used directly, instead of using the big-endian and then bit-fiddling to reverse the endianness. 
+
+This could have a big impact of encoding/decoding speed of large buffers."
+Avro,AVRO-1931,SchemaCompatibility fails to recognize reader compatible with all branches of a union,Bug,Patch Available,Minor,Unresolved,Unassigned,Anders Sundelin,Anders Sundelin,10/7/2016 15:59,,3/2/2017 12:24,,"1.7.7, 1.8.1",,java,,0,4,,3600,3600,,0%,,AVRO-2003,Java,"It is stated in the Avro spec 
+""if writer's is a union, but reader's is not: 
+If the reader's schema matches the selected writer's schema, it is recursively resolved against it. If they do not match, an error is signalled."" 
+
+In case a the chosen reader is compatible with all branches of the union in the writer, then the class SchemaCompatibility should reflect this. Currently it does not. 
+The submitted patch corrects this (also added tests showing this behaviour in Avro) 
+The new tests, in the class TestReadingWritingDataInEvolvedSchemas, could be redundant, but they were very useful when exploring how Avro actually works during de-/serialization 
+
+I will try to continue working a little bit on the SchemaCompatibility class, adding more user-friendly error messages (suitable for deeper structures than todays error message). Feel free to contact me if you have any ideas or pointers to existing work."
+Avro,AVRO-1959,DataFileReader does not complain on broken file,Bug,Open,Major,Unresolved,Unassigned,Ivan Balashov,Ivan Balashov,11/12/2016 19:44,,11/12/2016 19:44,,1.8.1,,java,,0,2,,,,,,,,,"Reading broken avro files with DataFileReader does not produce any exception. fastavro duly complains. 
+
+Obviously, throwing exception is necessary, as it can prevent silent data loss in come cases. 
+
+https://gist.github.com/ibalashov/e337e8d7e43c5780665e66fa4fd35a88 
+
+
+
+
+
+"
+Avro,AVRO-1963,SchemaBuilder: Redefined records should fail fast,Bug,Open,Minor,Unresolved,Unassigned,Elliot West,Elliot West,11/29/2016 17:05,,3/20/2017 11:41,,"1.7.7, 1.8.1",,java,,0,1,,,,,,,,,"h2. Overview 
+It is currently possible to build an invalid {{Schema}} instance using the {{SchemaBuilder}}, without any error being thrown. The schema in question is invalid because of redefined record types. These are not picked up by the {{SchemaBuilder}}. Failure eventually occurs when calling the {{Schema.toString()}} method. 
+
+I suggest that failure should occur much earlier such as at the point of introduction of the redeclared record name in the case of {{SchemaBuilder}}. This would make it easier for users to better determine the point of origin of their schema issues. 
+
+Note that there does not appear to be a similar issue with the {{Schema.parse(String)}} method which fails fast as expected. 
+
+h2. Test case 
+{code:title=Test case} 
+Schema a = SchemaBuilder.record(""A"").fields().optionalInt(""y"").endRecord(); 
+Schema b = SchemaBuilder.record(""A"").fields().optionalString(""x"").endRecord(); 
+Schema s = SchemaBuilder 
+.record(""S"") 
+.fields() 
+.name(""a"") 
+.type(a) 
+.noDefault() 
+.name(""b"") 
+.type(b) 
+.noDefault() 
+.endRecord(); 
+// Does not fail 
+
+s.toString(); 
+// Fails with org.apache.avro.SchemaParseException: Can't redefine: A 
+{code}"
+Avro,AVRO-1976,Add Input/OutputFormat to read/write encoded objects,Improvement,Open,Minor,Unresolved,Unassigned,Marius Posta,Marius Posta,1/3/2017 18:50,,4/28/2017 1:08,,,,java,,0,3,,3600,3600,,0%,,,hadoop,"In certain cases, performance of some Avro map-reduce jobs can be considerably improved by de-coupling Avro encoding from actual Avro container file IO. 
+
+In my case, a complex schema (100+ record fields) and large HDFS blocks resulted in Spark jobs where a lot of workers were idling while a couple of them were busy decoding their input splits.Furthermore, the objects then needed to be re-encoded in order to be shuffled about, which crippled performance further. 
+
+I propose the addition of an InputFormat which reads a container file input split as key-value pairs in which the key is the file header and the value is the decompressed file data block. Also, an OutputFormat which follows the same logic for writing."
+Avro,AVRO-1978,Update snappy version to 1.1.2.6,Task,Resolved,Major,Duplicate,Bharat Viswanadham,Bharat Viswanadham,Bharat Viswanadham,1/6/2017 18:04,,2/9/2017 3:55,2/9/2017 3:55,1.8.1,,java,,0,2,,,,,,,AVRO-1975,,Update snappy version to 1.1.2.6 which has improved performance and also resolved snappy compression errors
+Avro,AVRO-2037,Use std::any where available,Improvement,Open,Major,Unresolved,Unassigned,Darryl Green,Darryl Green,5/25/2017 11:40,,5/25/2017 11:41,,,,c++,,0,1,,,,,,,,,"The use of boost::any to hold union types causes a significant performance hit especially for small types - in particular the when using [null,primitive] for optional primitive type elements of a schema. Most (all?) implementations of std::any include a small value optimisation that avoids allocation overhead for scalars and other small types. Its a little unfortunate that the performance of a C++ binding of a notionally high performance serialization format performs so poorly in this case (note - I had previously proposed using boost::variant which would address this problem but would fail to support recursive types or truly huge numbers of distinct types in a union). Obviously this requires C++ 17 but could fall back to boost::any for older compilers."
+Avro,AVRO-2039,Ruby encoding performance improvement,Improvement,Patch Available,Major,Unresolved,Unassigned,Tim Perkins,Tim Perkins,6/12/2017 17:14,,6/12/2017 17:16,,,,,,0,1,,,,,,,,,"For a use case with a few levels of nesting and unions in several places within the schema we saw a 5x improvement in encoding performance with these changes to encoding using Ruby. 
+
+1. Avoid the exhaustive validation of schemas in a union 
+
+2. Avoid the repeated validation of nested schemas 
+
+https://github.com/apache/avro/pull/230"

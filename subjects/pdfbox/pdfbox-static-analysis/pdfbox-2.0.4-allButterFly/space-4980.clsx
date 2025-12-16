@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.getEmbeddedDate(String, COSName, Calendar)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getEmbeddedDate(String, COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getEmbeddedDate(String, String, Calendar)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getEmbeddedDate(String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDate(COSName, Calendar)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDate(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(COSString)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseSimpleDate(String, String[], ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.util.DateConverter.newGreg()" />
+<item name="org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)" />
+<item name="org.apache.pdfbox.util.DateConverter.updateZoneId(TimeZone)" />
+<item name="org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)" />
+</group>
+</group>
+</group>
+</cluster>

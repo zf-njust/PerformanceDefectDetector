@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.operator.text.SetTextRenderingMode.process(Operator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.setRenderingMode(RenderingMode)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.RenderingMode.fromInt(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+</group>
+</group>
+</group>
+</cluster>

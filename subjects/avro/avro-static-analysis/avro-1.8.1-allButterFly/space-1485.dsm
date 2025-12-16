@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfigurationWithAvroSerialization()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfiguration()
+org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getBufferSizeBytes()
+org.apache.avro.Schema.toString()
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)

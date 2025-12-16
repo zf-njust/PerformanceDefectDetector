@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.setName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RepositoryHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.BundleRepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.setLastModified(String)" />
+<item name="org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.getInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.EditableRepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

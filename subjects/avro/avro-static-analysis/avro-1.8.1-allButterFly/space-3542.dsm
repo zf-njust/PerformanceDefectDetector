@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 1 0 1 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decodePackHeader(ChannelHandlerContext, Channel, ChannelBuffer)
+org.apache.avro.ipc.NettyTransceiver.getChannel()
+org.apache.avro.ipc.NettyTransceiver.writeDataPack(NettyDataPack)
+org.apache.avro.ipc.NettyTransceiver.writeBuffers(List)
+org.apache.avro.ipc.NettyTransceiver.isChannelReady(Channel)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.ipc.NettyTransceiver.transceive(List, Callback)
+org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.NettyDataPack(int, List)

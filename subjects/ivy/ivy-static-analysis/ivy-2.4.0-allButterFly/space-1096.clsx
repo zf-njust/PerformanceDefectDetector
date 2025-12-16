@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.getCurrentElementIdentifier()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+</group>
+</group>
+</group>
+</cluster>

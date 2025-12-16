@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleRevisionId, boolean, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleRevisionId, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleDescriptor, ModuleRevisionId, ModuleRevisionId, boolean, boolean, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

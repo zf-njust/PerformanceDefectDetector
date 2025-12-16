@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+org.apache.avro.thrift.test.Foo.Client.ping()
+org.apache.avro.thrift.test.Foo.Client.Client(org.apache.thrift.protocol.TProtocol)
+org.apache.avro.thrift.test.Foo.Client.recv_ping()
+org.apache.avro.thrift.test.Foo.ping_result.ping_result()
+org.apache.avro.thrift.test.Foo.AsyncClient.ping_call.getResult()
+org.apache.avro.thrift.test.Foo.ping_args.ping_args()
+org.apache.avro.thrift.test.Foo.Client.send_ping()

@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport.setSignature(byte[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeExternalSignature(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.util.Hex.getBytes(byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+</group>
+</group>
+</group>
+</cluster>

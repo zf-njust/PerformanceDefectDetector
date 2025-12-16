@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.endPath()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.EndPath.process(PDFOperator, List)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentClippingPath(Shape)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+</group>
+</group>
+</cluster>

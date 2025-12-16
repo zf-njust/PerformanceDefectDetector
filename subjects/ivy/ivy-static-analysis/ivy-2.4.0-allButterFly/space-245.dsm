@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 0 1 1 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.search.RevisionEntry.RevisionEntry(ModuleEntry, String)
+org.apache.ivy.core.search.SearchEngine.listRevisionEntries(ModuleEntry)
+org.apache.ivy.core.search.ModuleEntry.getOrganisation()
+org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)
+org.apache.ivy.core.search.OrganisationEntry.getOrganisation()
+org.apache.ivy.core.search.ModuleEntry.getModule()
+org.apache.ivy.plugins.resolver.BasicResolver.listRevisions(ModuleEntry)
+org.apache.ivy.plugins.resolver.DependencyResolver.listTokenValues(String, Map)
+org.apache.ivy.core.settings.IvySettings.getResolvers()

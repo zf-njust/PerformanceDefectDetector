@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.generic.GenericResponder.getDatumWriter(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.generic.GenericResponder.writeResponse(Schema, Object, Encoder)" />
+<item name="org.apache.avro.ipc.generic.GenericResponder.writeError(Schema, Object, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.AvroRemoteException.getValue()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

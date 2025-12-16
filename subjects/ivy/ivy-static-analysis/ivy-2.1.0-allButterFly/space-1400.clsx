@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getDownloadOptions(ResolveOptions)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getCacheOptions(ResolveData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.setNamespace(Namespace)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.isRefresh()" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.setCheckmodified(Boolean)" />
+<item name="org.apache.ivy.core.cache.CacheDownloadOptions.setListener(DownloadListener)" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.setChangingMatcherName(String)" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.setChangingPattern(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getChangingPattern()" />
+<item name="org.apache.ivy.core.cache.CacheDownloadOptions.setForce(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getNamespace()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getOptions()" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.setValidate(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.doValidate(ResolveData)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getDownloadListener(DownloadOptions)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getChangingMatcherName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initNamespaceFromSettings()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isValidate()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getSystemNamespace()" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.isValidate()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getNamespace(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.LogOptions.getLog()" />
+<item name="org.apache.ivy.core.LogOptions.setLog(String)" />
+<item name="org.apache.ivy.core.resolve.DownloadOptions.DownloadOptions()" />
+</group>
+</group>
+</group>
+</cluster>

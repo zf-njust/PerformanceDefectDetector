@@ -1,0 +1,114 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.equals(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.appendAllFrom(DataFileStream, boolean)" />
+<item name="org.apache.avro.Schema.ArraySchema.equals(Object)" />
+<item name="org.apache.avro.Schema.NamedSchema.writeNameRef(Names, JsonGenerator)" />
+<item name="org.apache.avro.Protocol.Message.equals(Object)" />
+<item name="org.apache.avro.generic.GenericData.Array.equals(Object)" />
+<item name="org.apache.avro.generic.GenericData.induce(Object)" />
+<item name="org.apache.avro.Schema.Field.equals(Object)" />
+<item name="org.apache.avro.Schema.MapSchema.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileWriter.writeRawBlock(DataBlock)" />
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.generic.GenericData.Array.compareTo(Array)" />
+<item name="org.apache.avro.file.DataFileStream.hasNextBlock()" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+<item name="org.apache.avro.Schema.createFixed(String, String, String, int)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.file.Codec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.Schema.Names.space()" />
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+<item name="org.apache.avro.Schema.createMap(Schema)" />
+<item name="org.apache.avro.file.DataFileStream.getSchema()" />
+<item name="org.apache.avro.file.DataFileStream.nextBlock(DataBlock)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.Names.put(Name, Schema)" />
+<item name="org.apache.avro.file.Codec.equals(Object)" />
+<item name="org.apache.avro.file.DataFileStream.resolveCodec()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.file.DataFileStream.skipSync()" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.file.DataFileStream.getMetaString(String)" />
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.readLong()" />
+<item name="org.apache.avro.generic.GenericData.Array.getSchema()" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.Schema.Name.toString()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.BinaryDecoder.isEnd()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(long, int)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[])" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.file.DataFileStream.getMeta(String)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.isEof()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

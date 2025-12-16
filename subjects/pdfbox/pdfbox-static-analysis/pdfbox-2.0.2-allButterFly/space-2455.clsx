@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.colorpane.CSSeparation.updateColorBar()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.colorpane.CSSeparation.actionPerformed(ActionEvent)" />
+<item name="org.apache.pdfbox.debugger.colorpane.CSSeparation.stateChanged(ChangeEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.colorpane.CSSeparation.getIntRepresentation(float)" />
+<item name="org.apache.pdfbox.debugger.colorpane.CSSeparation.getFloatRepresentation(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDSeparation.toRGB(float[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.eval(float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGB(float[])" />
+</group>
+</group>
+</group>
+</cluster>

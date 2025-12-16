@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 
+org.apache.ivy.osgi.core.BundleInfo.getVersion()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.getCapabilityValues(String)
+org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)
+org.apache.ivy.osgi.core.BundleInfo.getArtifacts()
+org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()
+org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)
+org.apache.ivy.osgi.p2.P2Descriptor.finish()

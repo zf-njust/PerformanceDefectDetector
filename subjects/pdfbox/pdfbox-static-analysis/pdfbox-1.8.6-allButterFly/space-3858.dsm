@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+1 0 1 0 1 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSFloat.setValue(float)
+org.apache.pdfbox.ConvertColorspace.convertRGBToCMYK(float, float, float)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.ConvertColorspace.replaceRGBTokensWithCMYKTokens(List, List, int, Hashtable)

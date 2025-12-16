@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 
+0 1 1 0 0 0 0 
+0 1 0 0 0 0 0 
+org.apache.avro.ipc.trace.TraceNode.getResponsePayloadSize()
+org.apache.avro.ipc.trace.Util.printableBytes(long)
+org.apache.avro.ipc.trace.TraceCollection.getLongAverage(Collection)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMinBytes(List)
+org.apache.avro.ipc.trace.TraceNode.getRequestPayloadSize()
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageBytes(List)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMaxBytes(List)

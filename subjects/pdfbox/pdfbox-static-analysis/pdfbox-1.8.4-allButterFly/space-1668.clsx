@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface.sign(InputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteSignature(COSDocument)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.cos.COSString.getHexString()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getSignatureInterface()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(byte[])" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setPos(long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.checkPos()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

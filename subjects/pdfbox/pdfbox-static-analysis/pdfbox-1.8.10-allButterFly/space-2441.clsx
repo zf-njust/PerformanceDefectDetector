@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.getHighlightMode()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPageLayout()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.getHighlightingMode()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPageMode()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.measurement.PDMeasureDictionary.getSubtype()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDExternalDataDictionary.getType()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDExternalDataDictionary.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.measurement.PDMeasureDictionary.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 
+org.apache.ivy.plugins.repository.file.FileRepository.FileRepository()
+org.apache.ivy.plugins.repository.sftp.SFTPRepository.SFTPRepository()
+org.apache.ivy.plugins.repository.vfs.VfsRepository.VfsRepository()
+org.apache.ivy.plugins.resolver.VsftpResolver.VsftpResolver()
+org.apache.ivy.plugins.resolver.SshResolver.SshResolver()
+org.apache.ivy.plugins.resolver.RepositoryResolver.setRepository(Repository)
+org.apache.ivy.plugins.resolver.URLResolver.URLResolver()
+org.apache.ivy.plugins.resolver.FileSystemResolver.FileSystemResolver()
+org.apache.ivy.plugins.resolver.SFTPResolver.SFTPResolver()
+org.apache.ivy.plugins.resolver.VfsResolver.VfsResolver()

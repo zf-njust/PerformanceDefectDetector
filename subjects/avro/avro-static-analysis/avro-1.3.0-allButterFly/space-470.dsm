@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+org.apache.avro.ipc.stats.Histogram.toString()
+org.apache.avro.Protocol.Message.getName()
+org.apache.avro.ipc.stats.Histogram.entries()
+org.apache.avro.ipc.stats.StatsServlet.formatMillis(float)
+org.apache.avro.ipc.stats.FloatHistogram.getMean()
+org.apache.avro.ipc.stats.StatsServlet.writeMethod(Writer, Message, FloatHistogram)
+org.apache.avro.ipc.stats.Histogram.getCount()
+org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()

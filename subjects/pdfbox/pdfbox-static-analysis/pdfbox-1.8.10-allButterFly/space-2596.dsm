@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.operator.pagedrawer.CloseFillNonZeroAndStrokePath.process(PDFOperator, List)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.operator.CloseAndStrokePath.process(PDFOperator, List)
+org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.getOperator(String)
+org.apache.pdfbox.util.operator.MoveTextSetLeading.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.PDFOperator(String)
+org.apache.pdfbox.cos.COSFloat.setValue(float)
+org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.processOperator(String, List)
+org.apache.pdfbox.pdfviewer.PageDrawer.setLinePath(GeneralPath)
+org.apache.pdfbox.util.operator.pagedrawer.FillNonZeroAndStrokePath.process(PDFOperator, List)
+org.apache.pdfbox.util.operator.pagedrawer.CloseFillEvenOddAndStrokePath.process(PDFOperator, List)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.operator.MoveAndShow.process(PDFOperator, List)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)
+org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddAndStrokePath.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.getOperation()

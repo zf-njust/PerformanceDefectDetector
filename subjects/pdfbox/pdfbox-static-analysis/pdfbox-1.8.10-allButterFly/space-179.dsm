@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 1 1 
+1 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.xobject.AbstractXObjValidator.AbstractXObjValidator(PreflightContext, COSStream)
+org.apache.pdfbox.preflight.xobject.XObjFormValidator.XObjFormValidator(PreflightContext, PDXObjectForm)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()
+org.apache.pdfbox.pdmodel.common.PDStream.getStream()
+org.apache.pdfbox.preflight.xobject.XObjImageValidator.XObjImageValidator(PreflightContext, PDXObjectImage)
+org.apache.pdfbox.preflight.xobject.XObjPostscriptValidator.XObjPostscriptValidator(PreflightContext, COSStream)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

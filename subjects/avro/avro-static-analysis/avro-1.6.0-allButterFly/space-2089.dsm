@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 0 1 0 0 
+1 0 0 0 0 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()
+org.apache.avro.ipc.trace.TraceCollection.recursiveProcess(TraceNode, TraceNodeStats)
+org.apache.avro.ipc.trace.TraceCollection.TraceComparotor.compare(Trace, Trace)
+org.apache.avro.ipc.trace.Trace.printBriefRecurse(List)
+org.apache.avro.ipc.trace.TraceCollection.TraceTiming.TraceTiming(Long, Long, Long)
+org.apache.avro.ipc.trace.TraceNode.getProcessTime()
+org.apache.avro.ipc.trace.TraceCollection.addTrace(Trace)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.TraceNodeStats(TraceNode)
+org.apache.avro.ipc.trace.TraceCollection.TraceCollection(Trace)
+org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)
+org.apache.avro.ipc.trace.Trace.printBrief()
+org.apache.avro.ipc.trace.TraceNode.getPostLinkTime()
+org.apache.avro.ipc.trace.Trace.getRoot()
+org.apache.avro.ipc.trace.Trace.executionPathHash()

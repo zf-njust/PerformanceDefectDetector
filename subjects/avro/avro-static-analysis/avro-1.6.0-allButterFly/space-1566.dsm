@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+1 1 0 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.JsonEncoder.flush()
+org.apache.avro.io.parsing.Parser.processImplicitActions()
+org.apache.avro.io.ResolvingDecoder.drain()
+org.apache.avro.io.parsing.Parser.expandStack()

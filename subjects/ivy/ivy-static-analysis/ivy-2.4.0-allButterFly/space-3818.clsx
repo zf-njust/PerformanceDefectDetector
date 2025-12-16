@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.addConfigured(ArchivePacking)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.pack.PackingRegistry.register(ArchivePacking)" />
+<item name="org.apache.ivy.core.settings.IvySettings.init(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.core.pack.ArchivePacking.getNames()" />
+<item name="org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)" />
+</group>
+</group>
+</group>
+</cluster>

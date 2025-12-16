@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getDatumReader(Schema, Schema)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

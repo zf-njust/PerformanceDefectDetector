@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.form.PDButton.getExportValues()
+org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getItemsFromPair(COSBase, int)
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getInheritableAttribute(COSName)
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()
+org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSStringCOSArrayToList(COSArray)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.fdf.FDFField.getValue()
+org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getPairableItems(COSBase, int)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getCOSObject()
+org.apache.pdfbox.pdmodel.interactive.form.PDChoice.getValueFor(COSName)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.util.PrintTextColors.PrintTextColors()" />
+<item name="org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.PDFGraphicsStreamEngine(PDPage)" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.PreflightStreamEngine(PreflightContext, PDPage)" />
+<item name="org.apache.pdfbox.text.PDFTextStreamEngine.PDFTextStreamEngine()" />
+<item name="org.apache.pdfbox.examples.util.PrintImageLocations.PrintImageLocations()" />
+<item name="org.apache.pdfbox.text.PDFMarkedContentExtractor.PDFMarkedContentExtractor(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.StubOperator(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.GlyphList(GlyphList, InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.loadList(InputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.event.IvyEvent.addModuleIdAttributes(ModuleId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.event.IvyEvent.addMridAttributes(ModuleRevisionId)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.event.IvyEvent.addAttributes(Map)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getExtraAttributes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

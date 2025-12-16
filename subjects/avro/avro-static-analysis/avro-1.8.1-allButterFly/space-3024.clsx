@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.tool.TrevniToJsonTool.toJson(Input, PrintStream, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.TrevniToJsonTool.run(InputStream, PrintStream, PrintStream, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.tool.TrevniUtil.input(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.trevni.avro.HadoopInput.HadoopInput(Path, Configuration)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.TrevniToJsonTool.shortName(ColumnMetaData)" />
+<item name="org.apache.avro.tool.TrevniToJsonTool.valueToJson(ColumnMetaData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.tool.TrevniToJsonTool.primitiveToJson(ColumnMetaData, Object)" />
+</group>
+</group>
+</group>
+</cluster>

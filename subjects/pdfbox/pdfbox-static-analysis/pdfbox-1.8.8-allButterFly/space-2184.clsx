@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(Format, PreflightConfiguration)" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.createPdfADocument(Format, PreflightConfiguration)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, BaseParser)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.ccitt.FillOrderChangeInputStream.FillOrderChangeInputStream(InputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.TIFFFaxDecoder(int, int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decode2D(byte[], byte[], int, int, long)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.invertBitmap(byte[])" />
+<item name="org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CCITTFaxG31DDecodeInputStream(InputStream, int, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decodeT6(byte[], byte[], int, int, long, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.updatePointer(int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.readEOL()" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.getNextChangingElement(int, boolean, int[])" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.setToBlack(byte[], int, int, int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decodeWhiteCodeWord()" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decodeBlackCodeWord()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CCITTFaxG31DDecodeInputStream(InputStream, int, int, boolean)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decodeNextScanline(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.nextLesserThan8Bits(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.nextNBits(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.advancePointer()" />
+<item name="org.apache.pdfbox.io.ccitt.PackedBitArray.getByteCount()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.io.ccitt.PackedBitArray.PackedBitArray(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

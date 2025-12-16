@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.AvroRemoteException.getValue()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.SpecificErrorBuilderBase(T)" />
+<item name="org.apache.avro.ipc.generic.GenericResponder.writeError(Schema, Object, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.ipc.generic.GenericResponder.getDatumWriter(Schema)" />
+<item name="org.apache.avro.data.RecordBuilderBase.RecordBuilderBase(Schema, GenericData)" />
+<item name="org.apache.avro.specific.SpecificExceptionBase.getSchema()" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.setCause(Throwable)" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.setValue(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.Schema.getFields()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

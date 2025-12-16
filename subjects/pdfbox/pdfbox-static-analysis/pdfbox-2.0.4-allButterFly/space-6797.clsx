@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.getPDDocument()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.getPreflightDocument()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.setResult(ValidationResult)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.mergeResult(ValidationResult)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.ValidationResult.isValid()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.getErrorsList()" />
+</group>
+</group>
+</group>
+</cluster>

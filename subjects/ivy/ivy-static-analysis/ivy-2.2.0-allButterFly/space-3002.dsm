@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+1 0 1 1 1 0 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.AbstractResolver.setEventManager(EventManager)
+org.apache.ivy.Ivy.postConfigure()
+org.apache.ivy.plugins.trigger.Trigger.getEventFilter()
+org.apache.ivy.core.settings.IvySettings.getTriggers()
+org.apache.ivy.core.event.EventManager.addIvyListener(IvyListener, Filter)
+org.apache.ivy.core.event.FilteredIvyListener.FilteredIvyListener(IvyListener, Filter)
+org.apache.ivy.core.settings.IvySettings.getResolvers()

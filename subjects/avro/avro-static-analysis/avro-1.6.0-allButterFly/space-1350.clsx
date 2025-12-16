@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Nested.read(org.apache.thrift.protocol.TProtocol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Nested.readObject(java.io.ObjectInputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Nested.validate()" />
+<item name="org.apache.avro.thrift.test.Nested.setXIsSet(boolean)" />
+</group>
+</group>
+</group>
+</cluster>

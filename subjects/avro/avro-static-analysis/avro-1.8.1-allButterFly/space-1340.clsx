@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.getStringType(JsonNode)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.javaType(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.getConversionFor(LogicalType)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Conversion.getConvertedType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getLogicalType()" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, boolean)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.LogicalType.getName()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

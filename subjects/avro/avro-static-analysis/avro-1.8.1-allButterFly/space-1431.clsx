@@ -1,0 +1,87 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.wrap(Completion)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.record(String)" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.fixed(String)" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.bytesBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.array()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.nullBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.intBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.floatBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.map()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.booleanBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.enumeration(String)" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.longBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.doubleBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.stringBuilder()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.BytesBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.BooleanBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.MapDefault.MapDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.NullDefault.NullDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.FloatBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.DoubleDefault.DoubleDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.FixedDefault.FixedDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.EnumDefault.EnumDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.BytesDefault.BytesDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.create(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.LongDefault.LongDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.ArrayBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.ArrayDefault.ArrayDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.RecordDefault.RecordDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.StringBldr.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.create(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.FloatDefault.FloatDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.StringDefault.StringDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.BooleanDefault.BooleanDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.NullBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.IntDefault.IntDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.DoubleBuilder.create(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.RecordBuilder.create(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.LongBuilder.create(Completion, NameContext)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.FloatBuilder.FloatBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.FixedBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.DoubleBuilder.DoubleBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.BooleanBuilder.BooleanBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.MapBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.StringBldr.StringBldr(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.EnumBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.RecordBuilder.RecordBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.IntBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.NullBuilder.NullBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.ArrayBuilder.ArrayBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.BytesBuilder.BytesBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.LongBuilder.LongBuilder(Completion, NameContext)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.NamespacedBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.PrimitiveBuilder.PrimitiveBuilder(Completion, NameContext, Schema.Type)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.NamedBuilder(NameContext, String)" />
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.getFullname(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.SchemaBuilder.checkRequired(Object, String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.CompletionWrapper.wrap(Completion)" />
+</group>
+</group>
+</group>
+</cluster>

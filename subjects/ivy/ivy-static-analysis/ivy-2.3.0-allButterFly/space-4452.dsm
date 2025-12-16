@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 1 1 0 
+0 0 1 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+0 0 1 0 0 0 
+org.apache.ivy.plugins.repository.ssh.Scp.put(String, String, String, String)
+org.apache.ivy.plugins.repository.ssh.Scp.readResponse(InputStream)
+org.apache.ivy.plugins.repository.ssh.RemoteScpException.RemoteScpException(String)
+org.apache.ivy.plugins.repository.ssh.Scp.getExecChannel()
+org.apache.ivy.plugins.repository.ssh.Scp.sendFile(Channel, String, String, String)
+org.apache.ivy.plugins.repository.ssh.Scp.receiveLine(InputStream)

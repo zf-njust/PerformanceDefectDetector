@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.UpdaterHandler(URL, PrintWriter, UpdateOptions)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.update(URL, InputStream, OutputStream, UpdateOptions)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getConfsToExclude()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getStatus()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getResolvedRevisions()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.isGenerateRevConstraint()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getRevision()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getResolvedBranches()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getNamespace()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getPubdate()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.isReplaceInclude()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getSettings()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.Util.createEventlessSpan(ID, ID, ID)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TracePlugin.clientStartConnect(RPCContext)" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.serverConnecting(RPCContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.RPCContext.requestHandshakeMeta()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.SetLineMiterLimit.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getMiterLimit()" />
+<item name="org.apache.pdfbox.util.operator.SetLineMiterLimit.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.doubleValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setMiterLimit(double)" />
+</group>
+</group>
+</group>
+</cluster>

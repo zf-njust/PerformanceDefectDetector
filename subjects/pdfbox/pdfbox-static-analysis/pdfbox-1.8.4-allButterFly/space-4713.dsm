@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.util.TextPosition.getCharacter()
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getTitle()
+org.apache.pdfbox.encoding.Encoding.getCharacter(int)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation()
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.util.PDFTextStripper.writeString(String)
+org.apache.pdfbox.util.TextPosition.getFontSize()
+org.apache.pdfbox.util.PDFText2HTML.writeHeader()
+org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()
+org.apache.pdfbox.cos.COSDictionary.getString(COSName)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.util.PDFTextStripper.getCharactersByArticle()
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.encoding.Encoding.getCharacter(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.PDFText2HTML.getTitle()
+org.apache.pdfbox.util.PDFText2HTML.escape(String)
+org.apache.pdfbox.cos.COSDocument.getTrailer()
+org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary)
+org.apache.pdfbox.util.PDFText2HTML.appendEscaped(StringBuilder, char)

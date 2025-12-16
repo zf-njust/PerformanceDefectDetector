@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.generic.GenericData.getSchemaName(Object)" />
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.specific.SpecificData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.validate(Schema, Object)" />
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.getArrayAsCollection(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.generic.GenericData.writeEscapedString(CharSequence, StringBuilder)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.generic.GenericData.getFixedSchema(Object)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.generic.GenericData.getEnumSchema(Object)" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFloat(Object)" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.generic.GenericData.isInteger(Object)" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.generic.GenericData.isDouble(Object)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.generic.GenericData.isLong(Object)" />
+<item name="org.apache.avro.generic.GenericData.isBoolean(Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getIndexNamed(String)" />
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.UnresolvedUnionException.UnresolvedUnionException(Schema, Object)" />
+<item name="org.apache.avro.LogicalType.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

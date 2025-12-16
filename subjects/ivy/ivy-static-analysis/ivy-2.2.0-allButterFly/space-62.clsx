@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.event.IvyListener.progress(IvyEvent)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.event.EventManager.fireIvyEvent(IvyEvent)" />
+<item name="org.apache.ivy.core.event.FilteredIvyListener.progress(IvyEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

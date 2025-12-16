@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getNames(COSName)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPropertiesNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getFontNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getXObjectNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getShadingNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getExtGStateNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getColorSpaceNames()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPatternNames()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.Client.recv_add()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.AsyncClient.add_call.getResult()" />
+<item name="org.apache.avro.thrift.test.Foo.Client.add(int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.Client.Client(org.apache.thrift.protocol.TProtocol)" />
+<item name="org.apache.avro.thrift.test.Foo.Client.send_add(int, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1(int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum2(int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_args()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1IsSet(boolean)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum2IsSet(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_result.add_result()" />
+<item name="org.apache.avro.thrift.test.Foo.add_result.isSetSuccess()" />
+</group>
+</group>
+</group>
+</cluster>

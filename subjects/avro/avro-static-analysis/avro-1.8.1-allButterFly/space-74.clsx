@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.data.Json.writeObject(Object, Encoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.data.Json.ObjectWriter.write(Object, Encoder)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.internal.JacksonUtils.toJsonNode(Object)" />
+<item name="org.apache.avro.data.Json.write(JsonNode, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.Encoder.writeString(String)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+</group>
+</group>
+</group>
+</cluster>

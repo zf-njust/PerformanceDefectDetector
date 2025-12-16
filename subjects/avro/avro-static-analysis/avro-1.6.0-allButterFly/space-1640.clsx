@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.Histogram.Histogram(Segmenter)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.FloatHistogram.FloatHistogram(Segmenter)" />
+<item name="org.apache.avro.ipc.stats.IntegerHistogram.IntegerHistogram(Segmenter)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.Histogram.Segmenter.size()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.util.URLLister.listAll(URL)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.util.ResolverHelper.listAll(URLLister, URL)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolverHelper.listTokenValues(URLLister, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.getTokenString(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolverHelper.standardize(String)" />
+<item name="org.apache.ivy.plugins.resolver.util.URLLister.accept(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteToken(String, String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteToken(StringBuffer, String, String)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

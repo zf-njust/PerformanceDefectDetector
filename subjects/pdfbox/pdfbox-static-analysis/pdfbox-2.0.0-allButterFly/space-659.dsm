@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 1 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 1 
+1 0 0 0 0 0 
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage()
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.createTmpFile(InputStream)
+org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)
+org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.RandomAccessBufferedFileInputStream(InputStream)
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long)

@@ -1,0 +1,18 @@
+[Call]
+8
+0 1 1 1 1 0 0 1 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.Type3FontValidator.Type3FontValidator(PreflightContext, PDType3Font)
+org.apache.pdfbox.preflight.font.container.Type3Container.Type3Container(PDType3Font)
+org.apache.pdfbox.preflight.font.FontValidator.FontValidator(PreflightContext, COSDictionary, T)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()
+org.apache.pdfbox.preflight.font.container.FontContainer.FontContainer(T)
+org.apache.pdfbox.preflight.PreflightContext.addFontContainer(COSBase, FontContainer)
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

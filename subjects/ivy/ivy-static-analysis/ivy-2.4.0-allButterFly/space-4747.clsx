@@ -1,0 +1,149 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.ManifestAndLocation.getManifest()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.populate(Iterator)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.writeManifests(Iterable, ContentHandler, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.addBundle(BundleInfo)" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.parseManifest(Manifest)" />
+<item name="org.apache.ivy.osgi.repo.ManifestAndLocation.getSourceURI()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.osgi.repo.ManifestAndLocation.getUri()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.osgi.core.BundleArtifact.BundleArtifact(boolean, URI, String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.MessageLogger.log(String, int)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxBundleInfo(BundleInfo, ContentHandler)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.core.BundleInfo.setClasspath(List)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setSource(boolean)" />
+<item name="org.apache.ivy.osgi.core.BundleArtifact.isSource()" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.addAttr(AttributesImpl, String, String)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.startElement(ContentHandler, String)" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.addUse(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.parseCapability(BundleInfo, Attributes, String, String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setDescription(String)" />
+<item name="org.apache.ivy.osgi.core.BundleArtifact.getUri()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getType()" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.versionOf(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setExecutionEnvironments(List)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.addAttr(AttributesImpl, String, Object)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.getSingleValue()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setSymbolicNameTarget(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getValues()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxRequirement(BundleRequirement, ContentHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.endElement(ContentHandler, String)" />
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderValue(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.parseRequirement(BundleInfo, Attributes, String, String, String)" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getName()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.getValues()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getAttributes()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.getElements()" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.ModuleDescriptorWrapper(BundleInfo, URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getRawVersion()" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.ExportPackage(String, Version)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.BundleInfo(String, Version)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getCapabilities()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getDirectives()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.characters(ContentHandler, String)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addCapability(BundleCapability)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getArtifacts()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setVersionTarget(Version)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapability(BundleCapability, ContentHandler)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getRequirements()" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.add(String, String, ModuleDescriptorWrapper)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setHasInnerClasspath(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.buildFilter(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getResolution()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parse()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.BundleCapability(String, String, Version)" />
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.ManifestHeaderParser(String)" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.getUses()" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getType()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getRawVersion()" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.versionRangeOf(String)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, ContentHandler)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String, int)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.appendVersion(StringBuffer, VersionRange)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, String, ContentHandler)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseElement()" />
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.addElement(ManifestHeaderElement)" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getName()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getVersion()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.osgi.util.VersionRange.getStartVersion()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(int, int, int, String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parse()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isEndExclusive()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isStartExclusive()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.VersionRangeParser(String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.getEndVersion()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseValueOrParameter()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersion()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseEnd()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.readNext()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersionSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseStart()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseSeparator()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterName()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseParameterValue()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endValue()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseQualifier()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendEscaped()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addValue(String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.skipWhiteSpace()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumberSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.readNext()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterValue()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendQuoted(boolean)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumber()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.unread()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addDirective(String, String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

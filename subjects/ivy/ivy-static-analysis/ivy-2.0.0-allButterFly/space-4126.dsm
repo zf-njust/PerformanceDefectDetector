@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 1 1 0 0 1 1 1 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResource()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.retrieve.RetrieveEngine.getConfs(ModuleRevisionId, RetrieveOptions)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.cache.ResolutionCacheManager.getResolvedModuleDescriptor(ModuleRevisionId)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()
+org.apache.ivy.plugins.repository.Resource.getName()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.parser.ParserSettings.getResolutionCacheManager()
+org.apache.ivy.core.retrieve.RetrieveOptions.setConfs(String[])
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.core.retrieve.RetrieveOptions.getConfs()
+org.apache.ivy.core.retrieve.RetrieveEngine.getCache()
+org.apache.ivy.core.IvyContext.peekIvy()

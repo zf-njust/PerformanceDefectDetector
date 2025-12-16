@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getConfs()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.getConfs(ModuleRevisionId, RetrieveOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResource()" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.setConfs(String[])" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getResolvedModuleDescriptor(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.getCache()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolutionCacheManager()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

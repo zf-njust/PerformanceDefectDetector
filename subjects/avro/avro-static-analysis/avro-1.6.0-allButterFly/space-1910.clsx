@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.HadoopMapper.MapCollector.MapCollector(OutputCollector)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.HadoopMapper.map(AvroWrapper, NullWritable, OutputCollector, Reporter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroMapper.map(IN, AvroCollector, Reporter)" />
+<item name="org.apache.avro.mapred.AvroWrapper.datum()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapred.AvroCollector.collect(T)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

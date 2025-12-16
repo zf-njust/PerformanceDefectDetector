@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.ui.MapEntry.setValue(COSBase)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)
+org.apache.pdfbox.debugger.ui.ArrayEntry.setValue(COSBase)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSDictionary.containsKey(String)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.debugger.ui.MapEntry.getValue()
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.debugger.ui.ArrayEntry.setIndex(int)
+org.apache.pdfbox.cos.COSDictionary.getItem(String)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.debugger.treestatus.TreeStatus.generatePath(String)
+org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()
+org.apache.pdfbox.debugger.ui.MapEntry.setKey(COSName)
+org.apache.pdfbox.debugger.ui.ArrayEntry.setItem(COSBase)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.debugger.treestatus.TreeStatus.searchNode(Object, String)
+org.apache.pdfbox.debugger.treestatus.TreeStatus.parsePathString(String)

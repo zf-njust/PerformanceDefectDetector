@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.setEmbeddedDate(String, COSName, Calendar)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.setEmbeddedDate(String, String, Calendar)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setDate(COSName, Calendar)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.util.DateConverter.toString(Calendar)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.DateConverter.formatTZoffset(long, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.getBytes(String)" />
+<item name="org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.containsChar(char)" />
+</group>
+</group>
+</group>
+</cluster>

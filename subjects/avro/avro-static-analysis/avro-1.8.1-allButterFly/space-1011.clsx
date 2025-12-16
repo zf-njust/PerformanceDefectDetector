@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Protocol.Message.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Protocol.Message.toJson(JsonGenerator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.fieldsToJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Protocol.Message.toJson1(JsonGenerator)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

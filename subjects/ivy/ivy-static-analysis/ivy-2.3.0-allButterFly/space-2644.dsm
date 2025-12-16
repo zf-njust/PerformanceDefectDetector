@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.resolver.AbstractResolver.getName()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.resolver.ResolverSettings.getLatestStrategy(String)
+org.apache.ivy.plugins.latest.LatestStrategy.sort(ArtifactInfo[])
+org.apache.ivy.plugins.resolver.AbstractResolver.initLatestStrategyFromSettings()
+org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultLatestStrategy()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.repository.RepositoryManagementEngine.getAllRevisions.(Anon_1).compare(Object, Object)
+org.apache.ivy.core.IvyContext.peekIvy()

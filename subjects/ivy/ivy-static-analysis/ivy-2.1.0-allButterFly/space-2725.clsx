@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.setBaseDir(File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.FileRepository(File)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Checks.checkAbsolute(File, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isFontDescriptor(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isFlagNode(Object, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isEncrypt(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getKey()" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isAnnot(Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.getUnderneathObject(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getDict()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

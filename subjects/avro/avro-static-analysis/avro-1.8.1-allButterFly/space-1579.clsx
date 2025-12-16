@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Nested.setXIsSet(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Nested.clear()" />
+<item name="org.apache.avro.thrift.test.Nested.NestedTupleScheme.read(org.apache.thrift.protocol.TProtocol, Nested)" />
+<item name="org.apache.avro.thrift.test.Nested.setX(int)" />
+<item name="org.apache.avro.thrift.test.Nested.Nested(int)" />
+<item name="org.apache.avro.thrift.test.Nested.NestedStandardScheme.read(org.apache.thrift.protocol.TProtocol, Nested)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Nested.validate()" />
+<item name="org.apache.avro.thrift.test.Nested.Nested()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,63 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultIncludeRule.DefaultIncludeRule(ArtifactId, PatternMatcher, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.parseRule(String, Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyId()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItemHelper.getExtraAttributes(ParserSettings, Attributes, String[])" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.addConfiguration(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultExcludeRule.DefaultExcludeRule(ArtifactId, PatternMatcher, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.DefaultDependencyArtifactDescriptor(DependencyDescriptor, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.getPatternMatcher(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getMatcher(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.initStandardAttributes()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addIncludeRule(String, IncludeRule)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addDependencyArtifact(String, DependencyArtifactDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addExcludeRule(String, ExcludeRule)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationAware.addConfiguration(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyArtifacts()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addObjectToConfiguration(String, Object, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getIncludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.getExt()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.AbstractIncludeExcludeRule.AbstractIncludeExcludeRule(ArtifactId, PatternMatcher, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.AbstractIncludeExcludeRule.initStandardAttributes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+</group>
+</group>
+</group>
+</cluster>

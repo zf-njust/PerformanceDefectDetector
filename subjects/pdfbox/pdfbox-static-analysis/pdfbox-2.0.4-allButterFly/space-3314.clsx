@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addType1Font(File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.scanFonts(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeCollection(File)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFont(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFontImpl(TrueTypeFont, File)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.CIDSystemInfo(String, String, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSIgnored.FSIgnored(File, FontFormat, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.FSFontInfo(File, FontFormat, String, CIDSystemInfo, int, int, int, int, int, byte[], FileSystemFontProvider)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.PDPanoseClassification(byte[])" />
+</group>
+</group>
+</group>
+</cluster>

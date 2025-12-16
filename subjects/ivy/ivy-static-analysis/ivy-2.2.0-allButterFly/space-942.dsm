@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 1 1 1 1 1 1 0 0 1 1 0 
+org.apache.ivy.plugins.matcher.PatternMatcher.getName()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExcludeRules(String[])
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.containsAny(String[], String[])
+org.apache.ivy.core.module.descriptor.ExcludeRule.getConfigurations()
+org.apache.ivy.core.module.descriptor.ExcludeRule.getId()
+org.apache.ivy.core.module.id.ArtifactId.getType()
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.core.module.id.ArtifactId.getModuleId()
+org.apache.ivy.core.module.descriptor.ExcludeRule.getMatcher()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()
+org.apache.ivy.util.XMLHelper.escape(String)
+org.apache.ivy.core.module.id.ArtifactId.getName()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printAllExcludes(ModuleDescriptor, PrintWriter)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllExcludeRules()
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.core.module.id.ArtifactId.getExt()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyExcludeRules(ModuleDescriptor, PrintWriter, ExcludeRule[])

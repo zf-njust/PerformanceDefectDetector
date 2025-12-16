@@ -1,0 +1,47 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultResolver(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.endDocument()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultLockStrategy(LockStrategy)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getConflictManager(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setCircularDependencyStrategy(CircularDependencyStrategy)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getRepositoryCacheManager(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultConflictManager(ConflictManager)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getCircularDependencyStrategy(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultRepositoryCacheManager(RepositoryCacheManager)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getLatestStrategy(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getLockStrategy(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.substitute(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultLatestStrategy(LatestStrategy)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLockStrategy()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)" />
+<item name="org.apache.ivy.plugins.lock.NoLockStrategy.NoLockStrategy()" />
+<item name="org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()" />
+<item name="org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.lock.AbstractLockStrategy.setName(String)" />
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.checkResolverName(String)" />
+</group>
+</group>
+</group>
+</cluster>

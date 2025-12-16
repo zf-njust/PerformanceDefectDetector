@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyContext.pop(String, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyTask.finalizeTask()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyContext.popContext()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

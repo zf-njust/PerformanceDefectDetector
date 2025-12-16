@@ -1,0 +1,83 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getStructParents()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFMergerUtility.updateStructParentEntries(PDPage, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPage.setAnnotations(List)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setStructParents(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setStructParent(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getStructParent()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getAnnotations()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.createAnnotation(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationSquareCircle.PDAnnotationSquareCircle(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.PDAnnotationLink(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup.PDAnnotationPopup(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown.PDAnnotationUnknown(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.PDAnnotationLine(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationFileAttachment.PDAnnotationFileAttachment(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup.PDAnnotationMarkup(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText.PDAnnotationText(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp.PDAnnotationRubberStamp(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationTextMarkup.PDAnnotationTextMarkup(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

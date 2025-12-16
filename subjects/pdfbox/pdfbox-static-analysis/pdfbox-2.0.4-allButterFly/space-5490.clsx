@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getProperties(COSName)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.getProperties(COSObject)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDPropertyList)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList.create(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList.PDPropertyList(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

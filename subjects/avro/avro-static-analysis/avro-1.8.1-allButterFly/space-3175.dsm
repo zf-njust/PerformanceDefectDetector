@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 1 0 
+org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)
+org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int)
+org.apache.avro.io.BufferedBinaryEncoder.writeInt(int)
+org.apache.avro.io.BufferedBinaryEncoder.writeBoolean(boolean)
+org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)
+org.apache.avro.io.BlockingBinaryEncoder.writeBoolean(boolean)
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BlockingBinaryEncoder.check()
+org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int)
+org.apache.avro.io.BinaryData.encodeBoolean(boolean, byte[], int)
+org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)
+org.apache.avro.io.BlockingBinaryEncoder.compact()

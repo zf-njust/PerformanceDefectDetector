@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.setPublicationsDefaultConf(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.publicationsStarted(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.checkConfigurations()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConfiguration(Configuration)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Map, Map, String, Visibility, String, String[], boolean, String, ModuleRevisionId)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.extendable.DefaultExtendableItem.DefaultExtendableItem(Map, Map)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

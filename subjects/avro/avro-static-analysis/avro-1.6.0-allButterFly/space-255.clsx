@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.SequenceFileRecordReader.SequenceFileRecordReader(JobConf, FileSplit)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.SequenceFileInputFormat.getRecordReader(InputSplit, JobConf, Reporter)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroRecordReader.AvroRecordReader(FileReader, FileSplit)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.FileReader.tell()" />
+<item name="org.apache.avro.file.FileReader.sync(long)" />
+</group>
+</group>
+</group>
+</cluster>

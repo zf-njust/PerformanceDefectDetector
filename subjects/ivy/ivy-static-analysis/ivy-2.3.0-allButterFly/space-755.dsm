@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 1 1 0 1 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 1 0 1 1 0 0 0 1 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.RequiresHandler.RequiresHandler()
+org.apache.ivy.osgi.repo.RepoDescriptor.RepoDescriptor(URI, ExecutionEnvironmentProfileProvider)
+org.apache.ivy.osgi.updatesite.xml.UpdateSiteDigestParser.DigestHandler.DigestHandler(UpdateSite)
+org.apache.ivy.osgi.updatesite.UpdateSiteDescriptor.UpdateSiteDescriptor(URI, ExecutionEnvironmentProfileProvider)
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.CopyrightHandler.CopyrightHandler()
+org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)
+org.apache.ivy.osgi.util.DelegetingHandler.setBufferingChar(boolean)
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.DescriptionHandler.DescriptionHandler()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.PluginHandler.PluginHandler()
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.getUri()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.getInstance()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.ImportHandler.ImportHandler()
+org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.UpdateHandler.UpdateHandler()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.parse(InputStream)
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.DiscoveryHandler.DiscoveryHandler()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.LicenseHandler.LicenseHandler()
+org.apache.ivy.osgi.updatesite.xml.FeatureParser.UrlHandler.UrlHandler()
+org.apache.ivy.osgi.util.DelegetingHandler.getName()

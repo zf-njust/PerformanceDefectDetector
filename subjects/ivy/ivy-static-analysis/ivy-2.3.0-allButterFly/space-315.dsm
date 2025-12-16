@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 0 0 1 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadDetails()
+org.apache.ivy.core.report.ArtifactDownloadReport.getName()
+org.apache.ivy.core.module.descriptor.Artifact.getExt()
+org.apache.ivy.core.report.ArtifactDownloadReport.getExt()
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.core.report.ArtifactDownloadReport.getType()
+org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()
+org.apache.ivy.core.report.ArtifactDownloadReport.getSize()
+org.apache.ivy.core.module.descriptor.Artifact.getType()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.plugins.report.XmlReportWriter.outputArtifacts(ConfigurationResolveReport, PrintWriter, IvyNode)
+org.apache.ivy.core.report.DownloadStatus.toString()
+org.apache.ivy.core.cache.ArtifactOrigin.isLocal()
+org.apache.ivy.util.XMLHelper.escape(String)
+org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.report.ConfigurationResolveReport.getDownloadReports(ModuleRevisionId)
+org.apache.ivy.core.report.ConfigurationResolveReport.getDependency(ModuleRevisionId)
+org.apache.ivy.core.report.ArtifactDownloadReport.getArtifact()
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadTimeMillis()
+org.apache.ivy.core.cache.ArtifactOrigin.getLocation()
+org.apache.ivy.core.resolve.IvyNode.getResolvedId()
+org.apache.ivy.core.module.descriptor.Artifact.getName()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

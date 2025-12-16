@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 1 0 0 1 0 1 
+0 0 0 1 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 1 0 0 0 
+0 0 0 1 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.filter.TIFFFaxDecoder.getNextChangingElement(int, boolean, int[])
+org.apache.pdfbox.filter.TIFFFaxDecoder.decode2D(byte[], byte[], int, int, long)
+org.apache.pdfbox.filter.TIFFFaxDecoder.setToBlack(byte[], int, int, int)
+org.apache.pdfbox.filter.TIFFFaxDecoder.updatePointer(int)
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeNextScanline(byte[], int, int)
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeBlackCodeWord()
+org.apache.pdfbox.filter.TIFFFaxDecoder.nextLesserThan8Bits(int)
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeT6(byte[], byte[], int, int, long)
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeWhiteCodeWord()
+org.apache.pdfbox.filter.TIFFFaxDecoder.nextNBits(int)
+org.apache.pdfbox.filter.TIFFFaxDecoder.readEOL()
+org.apache.pdfbox.filter.TIFFFaxDecoder.advancePointer()

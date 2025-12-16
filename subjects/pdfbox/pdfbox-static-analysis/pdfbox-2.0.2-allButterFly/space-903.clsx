@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.reshapeControlPoints(Point2D[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.TensorPatch(Point2D[], float[][])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.Patch(Point2D[], float[][])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.calcLevel()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getTriangles()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getShadedTriangles(CoordinateColorPair[][])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideCC(Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideDD(Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.isEdgeALine(Point2D[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getPatchCoordinatesColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getLen(Point2D, Point2D)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.overlaps(Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.edgeEquationValue(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.ShadedTriangle(Point2D[], float[][])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.CoordinateColorPair.CoordinateColorPair(Point2D, float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getBernsteinPolynomials(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.Line(Point, Point, float[], float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.overlaps(Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.calcDeg(Point2D[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.getArea(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.edgeEquationValue(Point2D, Point2D, Point2D)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.calcLine(int, int, int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

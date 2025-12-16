@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.ResolvingDecoder.readEnum()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Decoder.readEnum()" />
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

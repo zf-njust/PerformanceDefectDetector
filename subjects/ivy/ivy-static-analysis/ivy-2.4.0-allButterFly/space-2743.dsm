@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 0 1 0 
+0 0 0 0 0 
+0 0 0 1 0 
+0 0 0 0 1 
+0 0 0 0 0 
+org.apache.ivy.core.pack.OsgiBundlePacking.writeFile(InputStream, File)
+org.apache.ivy.core.pack.ZipPacking.writeFile(InputStream, File)
+org.apache.ivy.core.pack.Pack200Packing.unpack(InputStream)
+org.apache.ivy.util.FileUtil.unwrapPack200(InputStream)
+org.apache.ivy.util.FileUtil.UncloseInputStream.UncloseInputStream(InputStream)

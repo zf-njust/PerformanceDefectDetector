@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.VfsResolver.prepareForDisplay(String)" />
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.getName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.normalize(String)" />
+</group>
+</group>
+</group>
+</cluster>

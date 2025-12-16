@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.setPattern(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+</group>
+</group>
+</group>
+</cluster>

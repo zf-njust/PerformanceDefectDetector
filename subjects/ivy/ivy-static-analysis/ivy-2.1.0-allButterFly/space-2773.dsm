@@ -1,0 +1,38 @@
+[Call]
+18
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.MessageLogger.deprecated(String)
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getResolveEngine()
+org.apache.ivy.core.resolve.DownloadOptions.DownloadOptions()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.util.Message.deprecated(String)
+org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)
+org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)
+org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()
+org.apache.ivy.core.resolve.ResolveEngine.download(Artifact, DownloadOptions)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.Ivy14.download(Artifact, File, boolean)

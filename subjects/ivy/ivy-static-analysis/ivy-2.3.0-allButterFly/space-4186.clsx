@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveEngine, ResolveOptions, ConfigurationResolveReport, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveEngine, ResolveOptions)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveData, boolean)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveEngine, ResolveOptions, ConfigurationResolveReport)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.ResolveOptions.ResolveOptions(ResolveOptions)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.setCurrentVisitNode(VisitNode)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setValidate(boolean)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.setCurrentResolvedModuleRevision(ResolvedModuleRevision)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.LogOptions.LogOptions(LogOptions)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

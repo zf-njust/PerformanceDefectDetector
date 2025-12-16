@@ -1,0 +1,22 @@
+[Call]
+10
+0 1 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 
+org.apache.avro.io.parsing.Symbol.flatten(Symbol[], int, Symbol[], int, Map, Map)
+org.apache.avro.io.parsing.Symbol.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.Fixup.Fixup(Symbol[], int)
+org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])
+org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)
+org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()
+org.apache.avro.io.parsing.Symbol.Repeater.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.copyFixups(List, Symbol[], int, Symbol[])
+org.apache.avro.io.parsing.Symbol.Repeater.makeProduction(Symbol[])
+org.apache.avro.io.parsing.Symbol.Repeater.Repeater(Symbol, Symbol...)

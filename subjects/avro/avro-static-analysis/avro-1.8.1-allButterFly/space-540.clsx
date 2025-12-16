@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.GenericData(ClassLoader)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.SpecificData(ClassLoader)" />
+<item name="org.apache.avro.generic.GenericData.GenericData()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

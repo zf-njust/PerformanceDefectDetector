@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 1 0 0 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.filter.LZWDictionary.visit(byte)
+org.apache.pdfbox.filter.LZWDictionary.clear()
+org.apache.pdfbox.io.NBitInputStream.read()
+org.apache.pdfbox.filter.LZWNode.setNode(byte, LZWNode)
+org.apache.pdfbox.io.NBitInputStream.setBitsInChunk(int)
+org.apache.pdfbox.io.NBitInputStream.NBitInputStream(InputStream)
+org.apache.pdfbox.filter.LZWDictionary.resetCodeSize()
+org.apache.pdfbox.filter.LZWFilter.decode(InputStream, OutputStream, COSDictionary, int)
+org.apache.pdfbox.filter.LZWDictionary.getData(long)
+org.apache.pdfbox.filter.LZWDictionary.addRootNode(byte)
+org.apache.pdfbox.filter.LZWDictionary.visit(byte[])
+org.apache.pdfbox.filter.LZWNode.getNode(byte)
+org.apache.pdfbox.filter.LZWNode.LZWNode(long)
+org.apache.pdfbox.filter.LZWDictionary.getNextCode()

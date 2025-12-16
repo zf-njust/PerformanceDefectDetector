@@ -1,0 +1,62 @@
+[Call]
+30
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.DependencyResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.core.resolve.ResolveEngine.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.resolver.ChainResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.plugins.resolver.BasicResolver.getResource(String)
+org.apache.ivy.plugins.resolver.DualResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.cache.CacheDownloadOptions.setListener(DownloadListener)
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()
+org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.ArtifactDownloadReport(Artifact)
+org.apache.ivy.plugins.resolver.AbstractResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)
+org.apache.ivy.core.report.ArtifactDownloadReport.setDownloadStatus(DownloadStatus)
+org.apache.ivy.plugins.resolver.AbstractResolver.getDownloadListener(DownloadOptions)
+org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)
+org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()
+org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()
+org.apache.ivy.plugins.resolver.BasicResolver.download.(Anon_4).resolve(Artifact)
+org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()
+org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)
+org.apache.ivy.core.cache.ArtifactOrigin.getLocation()
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)
+org.apache.ivy.plugins.resolver.BasicResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.cache.RepositoryCacheManager.download(Artifact, ArtifactResourceResolver, ResourceDownloader, CacheDownloadOptions)
+org.apache.ivy.plugins.resolver.AbstractResolver.getCacheDownloadOptions(DownloadOptions)
+org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()
+org.apache.ivy.core.module.descriptor.Artifact.isMetadata()

@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificDatumReader.createFixed(Object, Schema)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.createEnum(String, Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.getClass(Schema)" />
+<item name="org.apache.avro.specific.SpecificResponder.respond(Message, Object)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.newRecord(Object, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.Schema.getProp(String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.newInstance(Class)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalTypes.decimal(int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalTypes.decimal(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalTypes.Decimal.Decimal(int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.LogicalType.LogicalType(String)" />
+</group>
+</group>
+</group>
+</cluster>

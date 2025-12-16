@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.Decoder.readFixed(byte[])
+org.apache.avro.mapred.tether.TetherKeySerialization.TetherDataDeserializer.close()
+org.apache.avro.io.DecoderFactory.get()
+org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.close()
+org.apache.avro.file.DataFileReader.blockFinished()
+org.apache.avro.file.DataFileReader.SeekableInputStream.seek(long)
+org.apache.avro.file.DataFileReader.SeekableInputStream.tell()
+org.apache.avro.file.DataFileReader.sync(long)
+org.apache.avro.io.Decoder.readFixed(byte[], int, int)
+org.apache.avro.file.SeekableInput.tell()
+org.apache.avro.file.DataFileStream.close()
+org.apache.avro.file.DataFileReader.seek(long)
+org.apache.avro.io.BinaryDecoder.inputStream()
+org.apache.avro.file.DataFileStream.getHeader()
+org.apache.avro.file.SeekableInput.seek(long)

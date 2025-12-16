@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 1 0 1 0 
+1 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+org.apache.avro.mapred.tether.TetherTaskRunner.close()
+org.apache.avro.mapred.tether.TetherTaskRunner.complete()
+org.apache.avro.mapred.tether.TetherTask.fail(String)
+org.apache.avro.mapred.tether.TetherTask.reduceFlush(MID, Collector)
+org.apache.avro.mapred.tether.TetherTask.close()
+org.apache.avro.ipc.Transceiver.close()
+org.apache.avro.ipc.SocketServer.close()
+org.apache.avro.mapred.tether.TetherTask.complete()

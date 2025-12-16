@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDInlineImage.getStencilImage(Paint)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDInlineImage.isStencil()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getStencilImage(PDImage, Paint)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getRGBImage(PDImage, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getDefaultDecode(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from1Bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isEmpty()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getBitsPerComponent()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.fromAny(PDImage, WritableRaster, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getDecodeArray(PDImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from8bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getHeight()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getDecode()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isStencil()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.applyColorKeyMask(BufferedImage, BufferedImage)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.createInputStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGBImage(WritableRaster)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

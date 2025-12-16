@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.rendering.Type1Glyph2D.Type1Glyph2D(PDSimpleFont)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.PageDrawer.createGlyph2D(PDFont)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(PDTrueTypeFont)" />
+<item name="org.apache.pdfbox.rendering.CIDType0Glyph2D.CIDType0Glyph2D(PDCIDFontType0)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(PDType0Font)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getDescendantFont()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getTrueTypeFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getBaseFont()" />
+<item name="org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(TrueTypeFont, PDFont, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2.getTrueTypeFont()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

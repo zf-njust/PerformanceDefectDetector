@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.MDArtifact(ModuleDescriptor, String, String, String, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.newIvyArtifact(ModuleDescriptor)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.MDArtifact(ModuleDescriptor, String, String, String, URL, Map)" />
+</group>
+</group>
+</group>
+</cluster>

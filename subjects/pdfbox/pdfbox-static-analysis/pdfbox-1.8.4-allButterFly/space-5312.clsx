@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.create(COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPatterns()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPatternResources.PDShadingPatternResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources.PDTilingPatternResources(COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.PDPatternResources(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

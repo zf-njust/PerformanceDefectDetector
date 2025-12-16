@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.conversionInstance(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalTypes.timestampMillis()" />
+<item name="org.apache.avro.Schema.getLogicalType()" />
+<item name="org.apache.avro.LogicalTypes.date()" />
+<item name="org.apache.avro.LogicalTypes.timeMillis()" />
+</group>
+</group>
+</group>
+</cluster>

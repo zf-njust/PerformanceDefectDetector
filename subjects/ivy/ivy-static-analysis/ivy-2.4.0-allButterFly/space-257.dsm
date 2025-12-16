@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.core.BundleInfo.getVersion()
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.osgi.obr.xml.OBRXMLParser.RepositoryHandler.RepositoryHandler.(Anon_1).childHanlded(ResourceHandler)
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.osgi.core.BundleCapability.getType()
+org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.ModuleDescriptorWrapper(BundleInfo, URI, ExecutionEnvironmentProfileProvider)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.add(String, String, ModuleDescriptorWrapper)
+org.apache.ivy.osgi.util.Version.ensureToString()
+org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()
+org.apache.ivy.osgi.util.Version.equals(Object)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.addBundle(BundleInfo)
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()
+org.apache.ivy.osgi.core.BundleCapability.getName()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)
+org.apache.ivy.osgi.util.Version.ensureSplitted()
+org.apache.ivy.osgi.core.BundleInfo.getCapabilities()
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.IvyContext.peekIvy()

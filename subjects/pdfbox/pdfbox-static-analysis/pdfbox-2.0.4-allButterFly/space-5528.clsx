@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev56(byte[], boolean, byte[], byte[], byte[], byte[], int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKey(byte[], byte[], byte[], byte[], byte[], int, byte[], int, int, boolean, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev234(byte[], byte[], int, byte[], boolean, int, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncateOrPad(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getMD5()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2A(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.logIfStrongEncryptionMissing()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeSHA256(byte[], byte[], byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncate127(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.concat(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2B(byte[], byte[], byte[])" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 1 0 0 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.writeColorSpace(PDColorSpace)
+org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()
+org.apache.pdfbox.cos.COSName.writePDF(OutputStream)
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[])
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setNonStrokingColorSpace(PDColorSpace)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.PDResources.getCOSDictionary()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)
+org.apache.pdfbox.cos.COSDictionary.containsValue(Object)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSName.getName()

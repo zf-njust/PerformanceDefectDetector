@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.avro.Schema.getFixedSize()
+org.apache.avro.Conversions.DecimalConversion.toFixed(BigDecimal, Schema, LogicalType)
+org.apache.avro.Conversions.DecimalConversion.fromFixed(GenericFixed, Schema, LogicalType)
+org.apache.avro.Conversions.DecimalConversion.toBytes(BigDecimal, Schema, LogicalType)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Conversions.DecimalConversion.fromBytes(ByteBuffer, Schema, LogicalType)
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.LogicalTypes.Decimal.getScale()
+org.apache.avro.generic.GenericFixed.bytes()

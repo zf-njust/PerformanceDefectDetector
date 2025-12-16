@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 
+1 1 0 0 1 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont(COSDictionary)
+org.apache.pdfbox.pdmodel.font.PDFont.PDFont(COSDictionary)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.font.PDCIDFont.PDCIDFont(COSDictionary)
+org.apache.pdfbox.pdmodel.font.PDCIDFont.extractWidths()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.determineEncoding()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSNumber.intValue()

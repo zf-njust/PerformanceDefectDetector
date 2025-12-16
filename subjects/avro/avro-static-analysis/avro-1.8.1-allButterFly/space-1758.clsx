@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectData.isNonStringMap(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.isMap(Object)" />
+<item name="org.apache.avro.reflect.ReflectData.isArray(Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.isStringable(Class)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.isStringable(Class)" />
+</group>
+</group>
+</group>
+</cluster>

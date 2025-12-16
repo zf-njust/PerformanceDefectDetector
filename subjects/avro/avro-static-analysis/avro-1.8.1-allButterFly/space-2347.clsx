@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.NamespacedBuilder(Completion, NameContext, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.FixedBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.EnumBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.RecordBuilder.RecordBuilder(Completion, NameContext, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.NamedBuilder(NameContext, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.checkRequired(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

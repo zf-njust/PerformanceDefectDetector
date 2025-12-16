@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.SiteHandler.SiteHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.parse(InputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.FeatureHandler.FeatureHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.CategoryHandler.CategoryHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+</group>
+</group>
+</group>
+</cluster>

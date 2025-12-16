@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.pdfwriter.COSWriter.getDataToSign()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.COSFilterInputStream(byte[], int[])
+org.apache.pdfbox.io.RandomAccessRead.length()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport.getContent()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()
+org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)
+org.apache.pdfbox.util.Hex.getHighNibble(byte)
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface.sign(InputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteSignature()
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()
+org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.writeExternalSignature(byte[])
+org.apache.pdfbox.util.Hex.getLowNibble(byte)
+org.apache.pdfbox.util.Hex.getBytes(byte[])
+org.apache.pdfbox.cos.COSArray.set(int, COSBase)

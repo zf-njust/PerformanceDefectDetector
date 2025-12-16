@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyConvertPom.doExecute()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.getInstance()" />
+<item name="org.apache.ivy.ant.IvyConvertPom.getIvyFile()" />
+<item name="org.apache.ivy.ant.IvyTask.getSettings()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.Ivy.getSettings()" />
+<item name="org.apache.ivy.ant.IvyTask.getIvyInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+</group>
+</group>
+</group>
+</cluster>

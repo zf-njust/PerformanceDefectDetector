@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.flush()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.endBlockedValue()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.buffer()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.finishOverflow()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.length()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.ensure(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.check()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.compact()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)" />
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

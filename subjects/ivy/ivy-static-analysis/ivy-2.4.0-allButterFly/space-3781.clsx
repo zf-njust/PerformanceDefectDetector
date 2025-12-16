@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.LicenseHandler.LicenseHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.PluginHandler.PluginHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.RequiresHandler.RequiresHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.CopyrightHandler.CopyrightHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.DescriptionHandler.DescriptionHandler()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.ImportHandler.ImportHandler()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setBufferingChar(boolean)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+</group>
+</group>
+</group>
+</cluster>

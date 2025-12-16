@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 1 1 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.RPCMetaTestPlugin.clientFinishConnect(RPCContext)
+org.apache.avro.ipc.RPCContext.responseHandshakeMeta()
+org.apache.avro.ipc.RPCContext.getRequestPayload()
+org.apache.avro.ipc.RPCContext.getResponsePayload()
+org.apache.avro.RPCMetaTestPlugin.checkRPCMetaMap(Map)

@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 1 1 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+1 0 1 0 0 0 
+0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransition.getFlyScale()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)
+org.apache.pdfbox.cos.COSObject.getObject()

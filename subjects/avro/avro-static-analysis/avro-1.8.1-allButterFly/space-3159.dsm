@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 1 0 0 0 1 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getOutputPath()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getReplicationFactor()
+org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfigurationWithAvroSerialization()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getMetadataWithAvroSchemas()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getProgressable()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getFileSystem()
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfiguration()
+org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getBufferSizeBytes()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getBlockSizeBytes()
+org.apache.avro.Schema.toString()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getValueClass()
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Writer(Options)
+org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getKeyClass()
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)

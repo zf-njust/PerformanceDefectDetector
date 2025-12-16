@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.addAllVariables(Map, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.loadProperties(InputStream, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.addAllVariables(Map)" />
+<item name="org.apache.ivy.core.settings.IvySettings.configureRepositories(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getSettingsURL(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

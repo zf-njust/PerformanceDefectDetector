@@ -1,0 +1,71 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSArray.add(int, COSBase)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.insertBefore(COSBase, Object)" />
+<item name="org.apache.pdfbox.Overlay.mergePage(COSArray, PDPage)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.add(int, E)" />
+<item name="org.apache.pdfbox.util.LayerUtility.wrapInSaveRestore(PDPage)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPage.findResources()" />
+<item name="org.apache.pdfbox.cos.COSBase.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSStream.createUnfilteredStream()" />
+<item name="org.apache.pdfbox.util.LayerUtility.getDocument()" />
+<item name="org.apache.pdfbox.Overlay.mergeArray(COSName, COSDictionary, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSDictionary()" />
+<item name="org.apache.pdfbox.Overlay.mergeDictionary(COSName, COSDictionary, COSDictionary, Map)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.indexOfObject(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setResources(PDResources)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getParent()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getScratchFile()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findResources()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

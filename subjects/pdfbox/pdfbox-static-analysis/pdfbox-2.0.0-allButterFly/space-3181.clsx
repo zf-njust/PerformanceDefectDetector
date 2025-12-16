@@ -1,0 +1,157 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processTransparencyGroup(PDTransparencyGroup)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.showTransparencyGroup(PDTransparencyGroup)" />
+<item name="org.apache.pdfbox.rendering.PageDrawer.TransparencyGroup.TransparencyGroup(PDTransparencyGroup, boolean)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processSoftMask(PDTransparencyGroup)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.restoreGraphicsState()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.saveGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.setSoftMask(PDSoftMask)" />
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getMatrix()" />
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.clipToRect(PDRectangle)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.pushResources(PDContentStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.popResources(PDResources)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.saveGraphicsStack()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.restoreGraphicsStack(Stack)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getBBox()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDContentStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(PDContentStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.transform(Matrix)" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.parseNextToken()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.intersectClippingPath(GeneralPath)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix(COSArray)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(Operator, List)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.contentstream.PDContentStream.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.unsupportedOperator(Operator, List)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getOperator(String)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.process(Operator, List)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.hasNoFollowingBinData(SequentialSource)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.operatorException(Operator, List, IOException)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.intersectClippingPath(Area)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.setImageData(byte[])" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+<item name="org.apache.pdfbox.contentstream.PDContentStream.getContents()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.setImageParameters(COSDictionary)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSString()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.getInheritableAttribute(COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.util.Matrix.transformPoint(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.InputStreamSource.InputStreamSource(InputStream)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary, ResourceCache)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.readOperator()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.hasNextSpaceOrReturn()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getImageData()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.isSpaceOrReturn(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readExpectedChar(char)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseDirObject()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.remove(int)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.Operator(String)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readUntilEndOfCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryNameValuePair(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read(byte[], int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSFloat.checkMinMaxValues()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read(byte[])" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.readFully(int)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.toString()" />
+<item name="org.apache.pdfbox.cos.COSString.parseHex(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readExpectedString(String)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readExpectedString(char[], boolean)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(int)" />
+</group>
+</group>
+</group>
+</cluster>

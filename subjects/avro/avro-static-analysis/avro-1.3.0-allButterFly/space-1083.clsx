@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.writeString(Utf8)" />
+<item name="org.apache.avro.io.BinaryEncoder.writeString(Utf8)" />
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.check()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.writeBytes(byte[], int, int)" />
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)" />
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, byte[], int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.ensure(int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.doWriteBytes(byte[], int, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.write(byte[], int, int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.compact()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

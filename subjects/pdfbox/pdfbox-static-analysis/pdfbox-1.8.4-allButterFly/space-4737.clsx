@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSBase.accept(ICOSVisitor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromArray(COSArray)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSObject.accept(ICOSVisitor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(boolean)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.addObjectToWrite(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSNull.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getObjectKey(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSBase.isDirect()" />
+<item name="org.apache.pdfbox.cos.COSString.append(byte[])" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeReference(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSString.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.exceptions.COSVisitorException.COSVisitorException(Exception)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.addXRefEntry(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.COSWriterXRefEntry(long, COSBase, COSObjectKey)" />
+<item name="org.apache.pdfbox.cos.COSArray.iterator()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getXRefEntries()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.cos.ICOSVisitor.visitFromString(COSString)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.checkPos()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getNumber()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.setOffset(long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSBase.isNeedToBeUpdate()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setNumber(long)" />
+<item name="org.apache.pdfbox.cos.ICOSVisitor.visitFromNull(COSNull)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.setKey(COSObjectKey)" />
+<item name="org.apache.pdfbox.exceptions.WrappedException.WrappedException(Exception)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

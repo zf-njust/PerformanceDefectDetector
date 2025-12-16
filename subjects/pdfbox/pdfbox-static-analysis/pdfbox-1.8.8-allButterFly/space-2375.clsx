@@ -1,0 +1,93 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.examples.pdmodel.AddMetadataFromDocInfo.usage()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.pdmodel.AddMetadataFromDocInfo.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getSubject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreator()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getModificationDate()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMetadata.PDMetadata(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getKeywords()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getProducer()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.setMetadata(PDMetadata)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreationDate()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.load(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getTitle()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(String, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.clearResources()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDate(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(File)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.io.SequentialRead.close()" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(COSString)" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDocument.getScratchFile()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(RandomAccess)" />
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(String)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(String, String[])" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)" />
+<item name="org.apache.pdfbox.util.DateConverter.newGreg()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+<item name="org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseDate(String, String[], ParsePosition)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.util.DateConverter.parseSimpleDate(String, String[], ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)" />
+<item name="org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(COSString, OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSString.getForceHexForm()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.Hex.writeHexBytes(byte[], OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+</group>
+</group>
+</group>
+</cluster>

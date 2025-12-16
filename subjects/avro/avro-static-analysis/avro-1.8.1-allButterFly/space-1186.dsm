@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 
+org.apache.avro.mapred.TaggedInputSplit.getInputSplit()
+org.apache.avro.Schema.getName()
+org.apache.avro.mapred.TaggedInputSplit.getSchema()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.mapred.AvroJob.configureAvroInput(JobConf)
+org.apache.avro.mapred.TaggedInputSplit.getInputFormatClass()
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.mapred.DelegatingInputFormat.getRecordReader(InputSplit, JobConf, Reporter)
+org.apache.avro.mapred.AvroJob.setInputSchema(JobConf, Schema)
+org.apache.avro.Schema.toString()
+org.apache.avro.mapred.AvroJob.configureAvroShuffle(JobConf)
+org.apache.avro.Schema.toString(boolean)

@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.add_args.unsetNum2()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setFieldValue(_Fields, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1(int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum2(int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.unsetNum1()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1IsSet(boolean)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum2IsSet(boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

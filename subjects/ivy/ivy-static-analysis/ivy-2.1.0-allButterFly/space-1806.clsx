@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.status.Status.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.status.StatusManager.computeMaps()" />
+<item name="org.apache.ivy.core.module.status.StatusManager.getDefaultStatus()" />
+<item name="org.apache.ivy.core.module.status.StatusManager.getDeliveryStatusListString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.status.Status.isIntegration()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

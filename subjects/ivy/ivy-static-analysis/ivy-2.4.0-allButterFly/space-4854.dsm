@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 1 0 0 0 1 0 0 1 0 1 1 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.core.BundleInfo.isSource()
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.osgi.core.BundleInfo.getSymbolicNameTarget()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.osgi.core.BundleInfo.getVersionTarget()
+org.apache.ivy.osgi.core.ManifestParser.formatLines(String)
+org.apache.ivy.util.StringUtils.getStackTrace(Throwable)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.Message.verbose(String, Throwable)
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.core.BundleInfo.setSymbolicNameTarget(String)
+org.apache.ivy.util.Message.debug(Throwable)
+org.apache.ivy.osgi.core.BundleInfo.setVersionTarget(Version)
+org.apache.ivy.osgi.core.BundleInfo.setHasInnerClasspath(boolean)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()
+org.apache.ivy.osgi.p2.P2MetadataParser.UnitHandler.UnitHandler.(Anon_12).childHanlded(TouchpointDataHandler)
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.osgi.core.ManifestParser.parseManifest(String)

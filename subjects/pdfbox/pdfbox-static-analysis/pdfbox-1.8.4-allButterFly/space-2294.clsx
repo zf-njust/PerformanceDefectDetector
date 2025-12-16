@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, Object, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, String, int, int)" />
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, Object, int, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.ImageIOUtil.createMetadata(RenderedImage, ImageWriter, ImageWriteParam, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.ImageIOUtil.addResolution(IIOMetadata, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.ImageIOUtil.getChildNode(Node, String)" />
+</group>
+</group>
+</group>
+</cluster>

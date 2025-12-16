@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 1 0 0 1 0 1 0 1 1 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.hadoop.io.AvroSerialization.setKeyReaderSchema(Configuration, Schema)
+org.apache.avro.Schema.getName()
+org.apache.avro.hadoop.io.AvroSequenceFile.getMetadata(FileSystem, Path, Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getConfiguration()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getConfigurationWithAvroSerialization()
+org.apache.avro.mapreduce.AvroJob.setMapOutputValueSchema(Job, Schema)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getInputPath()
+org.apache.avro.Schema.toString()
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getFileSystem()
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.hadoop.io.AvroSerialization.setValueReaderSchema(Configuration, Schema)
+org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)

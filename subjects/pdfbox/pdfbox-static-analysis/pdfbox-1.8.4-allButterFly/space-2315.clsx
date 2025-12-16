@@ -1,0 +1,89 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.PositionWrapper.setLineStart()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFTextStripper.handleLineSeparation(PositionWrapper, PositionWrapper, PositionWrapper, float)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writePage()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.PDFTextStripper.getSpacingTolerance()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.setArticleStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeParagraphStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writePageStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getSortByPosition()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.getTextPosition()" />
+<item name="org.apache.pdfbox.util.TextPosition.getHeight()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.isArticleStart()" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidth()" />
+<item name="org.apache.pdfbox.util.TextPosition.getIndividualWidths()" />
+<item name="org.apache.pdfbox.util.TextPosition.getYDirAdj()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.isParagraphStart()" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidthOfSpace()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getAverageCharTolerance()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.normalize(List, boolean, boolean)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeParagraphSeparator()" />
+<item name="org.apache.pdfbox.util.TextPosition.getCharacter()" />
+<item name="org.apache.pdfbox.util.TextPosition.getY()" />
+<item name="org.apache.pdfbox.util.TextPosition.getXDirAdj()" />
+<item name="org.apache.pdfbox.util.TextPosition.getX()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.PositionWrapper(TextPosition)" />
+<item name="org.apache.pdfbox.util.TextPosition.getHeightDir()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.endArticle()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.overlap(float, float, float, float)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeLineSeparator()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writePageEnd()" />
+<item name="org.apache.pdfbox.util.TextPosition.getFont()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeLine(List, boolean)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.WordSeparator.getSeparator()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeParagraphEnd()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.startArticle(boolean)" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidthDirAdj()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.setParagraphStart()" />
+<item name="org.apache.pdfbox.util.TextPosition.getFontSize()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.isParagraphSeparation(PositionWrapper, PositionWrapper, PositionWrapper, float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.PDFTextStripper.getParagraphStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getLineSeparator()" />
+<item name="org.apache.pdfbox.util.TextPosition.getXRot(float)" />
+<item name="org.apache.pdfbox.util.TextPosition.getDir()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getPageStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getIndentThreshold()" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidthRot(float)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getParagraphEnd()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.isHangingIndent()" />
+<item name="org.apache.pdfbox.util.PositionWrapper.setHangingIndent()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeString(String, List)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.normalizeAdd(LinkedList, StringBuilder, List, TextPosition)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.WordWithTextPositions.getTextPositions()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getArticleEnd()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getPageEnd()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.within(float, float, float)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.matchListItemPattern(PositionWrapper)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getArticleStart()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeWordSeparator()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.WordWithTextPositions.getText()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getDropThreshold()" />
+<item name="org.apache.pdfbox.util.TextPosition.getYLowerLeftRot(float)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.createWord(String, List)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.TextNormalize.normalizePres(String)" />
+<item name="org.apache.pdfbox.util.Matrix.getXPosition()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getListItemPatterns()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.getWordSeparator()" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.WordWithTextPositions.WordWithTextPositions(String, List)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.writeString(String)" />
+<item name="org.apache.pdfbox.util.PDFTextStripper.matchPattern(String, List)" />
+<item name="org.apache.pdfbox.util.Matrix.getValue(int, int)" />
+<item name="org.apache.pdfbox.util.Matrix.getYPosition()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.ICU4JImpl.normalizePres(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

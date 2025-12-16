@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 0 
+0 1 0 0 1 
+0 1 0 0 1 
+1 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.PDPageNode.getDictionary()
+org.apache.pdfbox.pdmodel.PDPageNode.setParent(PDPageNode)
+org.apache.pdfbox.pdmodel.PDPage.setParent(PDPageNode)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)

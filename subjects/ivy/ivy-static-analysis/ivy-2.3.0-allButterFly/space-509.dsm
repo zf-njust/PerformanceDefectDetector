@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 
+0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.util.HasLatestStrategy.getLatestStrategy()
+org.apache.ivy.plugins.resolver.ChainResolver.getLatest(DependencyResolver)
+org.apache.ivy.plugins.resolver.ChainResolver.getLatestStrategyName(DependencyResolver)
+org.apache.ivy.plugins.resolver.ChainResolver.setLatest(DependencyResolver, LatestStrategy)
+org.apache.ivy.plugins.resolver.ChainResolver.setLatestIfRequired(DependencyResolver, LatestStrategy)
+org.apache.ivy.plugins.resolver.util.HasLatestStrategy.getLatest()
+org.apache.ivy.plugins.resolver.util.HasLatestStrategy.setLatestStrategy(LatestStrategy)

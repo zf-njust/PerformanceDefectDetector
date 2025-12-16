@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.drawString(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.showText(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.willBeSubset()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.addToSubset(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.Hex.writeHexBytes(byte[], OutputStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+</group>
+</group>
+</group>
+</cluster>

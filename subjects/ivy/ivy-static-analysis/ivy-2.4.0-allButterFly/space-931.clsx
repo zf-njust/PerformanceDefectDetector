@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.MultiOperatorFilter(OSGiFilter[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.filter.AndFilter.AndFilter(OSGiFilter[])" />
+<item name="org.apache.ivy.osgi.filter.OrFilter.OrFilter(OSGiFilter[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.add(OSGiFilter)" />
+</group>
+</group>
+</group>
+</cluster>

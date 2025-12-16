@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String, Throwable)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkGlyphWidth(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.hasGlyph(int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkWidthsConsistency(int, float, float)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markAsInvalid(int, GlyphException)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getWidthFromFont(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getWidth(int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isAlreadyProcessed(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.throwExceptionIfNotValid()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markAsValid(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

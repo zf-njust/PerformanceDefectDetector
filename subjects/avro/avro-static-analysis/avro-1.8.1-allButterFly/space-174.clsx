@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.Fixed.Fixed(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.Fixed.setSchema(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

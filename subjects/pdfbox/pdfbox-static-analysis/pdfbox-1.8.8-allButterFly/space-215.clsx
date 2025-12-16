@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSArray.retainAll(Collection)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.retainAll(Collection)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.toCOSObjectList(Collection)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

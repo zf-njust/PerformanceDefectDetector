@@ -1,0 +1,71 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getPatternName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDPattern.getPattern(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColor(PDColor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getComponents()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.getName(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColorSpaceStack(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColorSpaceStack(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPattern(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.create(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.getPattern(COSObject)" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDAbstractPattern)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.PDTilingPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.PDShadingPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

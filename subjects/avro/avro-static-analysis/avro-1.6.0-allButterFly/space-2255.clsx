@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectData.AllowNull.createFieldSchema(Field, Map)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.makeNullable(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.createFieldSchema(Field, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.createUnion(List)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

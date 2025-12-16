@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 1 0 0 
+0 0 0 0 1 
+0 0 0 0 0 
+1 1 0 0 0 
+0 0 0 0 0 
+org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decodePackBody(ChannelHandlerContext, Channel, ChannelBuffer)
+org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decodePackHeader(ChannelHandlerContext, Channel, ChannelBuffer)
+org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.getDatas()
+org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decode(ChannelHandlerContext, Channel, ChannelBuffer)
+org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.NettyDataPack(int, List)

@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 0 0 
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.Decoder.readBytes(ByteBuffer)
+org.apache.avro.util.Utf8.getByteLength()
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.Decoder.readString(Utf8)
+org.apache.avro.io.ResolvingDecoder.readBytes(ByteBuffer)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.AvroTypeException.AvroTypeException(String)

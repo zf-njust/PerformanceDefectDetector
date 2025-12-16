@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(COSArray, PDColorSpace)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getColor(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDDefaultAppearanceString.processSetFontColor(List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getColor(COSName)" />
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.process(Operator, List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getTextColor()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.growToSize(int, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.setColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDDefaultAppearanceString.setFontColor(PDColor)" />
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.getColorSpace()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+</group>
+</group>
+</cluster>

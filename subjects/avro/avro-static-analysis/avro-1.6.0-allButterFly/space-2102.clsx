@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.getData()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificDatumReader.getSpecificData()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.exception.PdfParseException.PdfParseException(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.exception.HeaderParseException.HeaderParseException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.TrailerParseException.TrailerParseException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.CrossRefParseException.CrossRefParseException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.BodyParseException.BodyParseException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.exception.PdfParseException.PdfParseException(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

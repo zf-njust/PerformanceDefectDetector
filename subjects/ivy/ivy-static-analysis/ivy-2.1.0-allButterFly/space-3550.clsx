@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyManagementMap(ModuleDescriptor)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.newInstance(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.intern(ModuleId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

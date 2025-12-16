@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.ModuleSettings.getBranch()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultBranch(ModuleId)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultBranch.(Anon_2).accept(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId, Filter)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultBranch()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getAttributes()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

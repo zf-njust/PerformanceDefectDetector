@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransceiver.getRemoteName()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransceiver.getChannel()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.NettyTransceiver.isChannelReady(Channel)" />
+</group>
+</group>
+</group>
+</cluster>

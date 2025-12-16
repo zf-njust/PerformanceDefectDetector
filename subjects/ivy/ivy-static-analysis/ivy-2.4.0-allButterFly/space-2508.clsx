@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.pack.Pack200Packing.unpack(InputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.FileUtil.unwrapPack200(InputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.FileUtil.UncloseInputStream.UncloseInputStream(InputStream)" />
+</group>
+</group>
+</group>
+</cluster>

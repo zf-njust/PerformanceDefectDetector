@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.compiler.specific.SpecificCompiler.mangle(String)
+org.apache.avro.compiler.specific.SpecificCompiler.getStringType()
+org.apache.avro.Schema.getType()
+org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, boolean)
+org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set, boolean)
+org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.getElementType()
+org.apache.avro.compiler.specific.SpecificCompiler.javaType(Schema)
+org.apache.avro.Schema.getTypes()
+org.apache.avro.Schema.getFullName()
+org.apache.avro.Schema.getValueType()
+org.apache.avro.compiler.specific.SpecificCompiler.javaUnbox(Schema)

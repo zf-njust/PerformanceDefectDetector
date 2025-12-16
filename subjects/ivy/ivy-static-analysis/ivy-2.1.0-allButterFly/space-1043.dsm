@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.core.settings.IvySettings.getClassLoader()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.Message.info(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.core.settings.IvySettings.typeDef(String, String)
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.settings.XmlSettingsParser.typedefStarted(Map)
+org.apache.ivy.core.settings.IvySettings.classForName(String, boolean)
+org.apache.ivy.core.settings.IvySettings.typeDef(String, String, boolean)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.MessageLogger.info(String)
+org.apache.ivy.util.Configurator.typeDef(String, Class)
+org.apache.ivy.core.IvyContext.peekIvy()

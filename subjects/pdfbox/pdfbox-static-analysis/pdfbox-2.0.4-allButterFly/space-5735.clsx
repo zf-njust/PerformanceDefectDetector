@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.subset()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.subset()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.willBeSubset()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.needsSubset()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.buildSubset(InputStream, String, Map)" />
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.getTag(Map)" />
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.getTrueTypeFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.isSubsettingPermitted(TrueTypeFont)" />
+</group>
+</group>
+</group>
+</cluster>

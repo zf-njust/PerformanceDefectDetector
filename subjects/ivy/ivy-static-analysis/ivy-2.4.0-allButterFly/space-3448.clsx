@@ -1,0 +1,101 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setMappingOverride(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.mergeConfigurations(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptorBuilder(ModuleDescriptorParser, Resource, ParserSettings)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.configurationStarted(Attributes)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.includeConfStarted(Attributes)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.dependenciesStarted(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.setDefaultConfMapping(String)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.setMd(DefaultModuleDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.isMappingOverride()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getModuleDescriptorParser()" />
+<item name="org.apache.ivy.plugins.repository.Resource.getLastModified()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.setInput(URL)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Configuration, ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getDefaultConf()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getDefaultConfMapping()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.DefaultModuleDescriptor(ModuleDescriptorParser, Resource)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getModuleDescriptor()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.checkConfigurations()" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getRelativeUrlResolver()" />
+<item name="org.apache.ivy.Ivy.getIvyHomeURL()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getDefaultConfMapping()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConfiguration(Configuration)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptor.PomModuleDescriptor(ModuleDescriptorParser, Resource)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getDefaultConf()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setResolvedPublicationDate(Date)" />
+<item name="org.apache.ivy.core.RelativeUrlResolver.getURL(URL, String, String)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.setDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addExtraAttributeNamespace(String, String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.Parser(ModuleDescriptorParser, ParserSettings)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.checkErrors()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Map, Map, String, Visibility, String, String[], boolean, String, ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.AbstractParser(ModuleDescriptorParser)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDescription()" />
+<item name="org.apache.ivy.core.RelativeUrlResolver.getURL(URL, String)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setDefaultConfMapping(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.extendable.DefaultExtendableItem.DefaultExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.XMLHelper.toSystemId(URL)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler, boolean)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.util.Message.warn(String, Throwable)" />
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream, boolean)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.XMLHelper.canDisableExternalDtds(SAXParserFactory)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 1 0 0 1 
+1 1 0 0 1 0 1 0 0 1 0 0 
+org.apache.ivy.osgi.util.VersionRange.getEndVersion()
+org.apache.ivy.osgi.util.VersionRange.getStartVersion()
+org.apache.ivy.osgi.core.BundleRequirement.getName()
+org.apache.ivy.osgi.util.Version.ensureToString()
+org.apache.ivy.osgi.util.VersionRange.isStartExclusive()
+org.apache.ivy.osgi.core.BundleRequirement.getVersion()
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.util.Version.ensureSplitted()
+org.apache.ivy.osgi.core.BundleRequirement.getType()
+org.apache.ivy.osgi.util.VersionRange.isEndExclusive()
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.buildFilter(BundleRequirement)
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.appendVersion(StringBuffer, VersionRange)

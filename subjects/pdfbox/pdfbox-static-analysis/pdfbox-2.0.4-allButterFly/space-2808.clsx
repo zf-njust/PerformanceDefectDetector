@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.COSParser.checkObjectKeys(COSObjectKey, long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.COSParser.checkXrefOffsets()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.getContainedObjectNumbers(int)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForObjects()" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.getXrefTable()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.COSParser.isString(char[])" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.readFully(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isEOF()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.peek()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.createObjectString(long, int)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

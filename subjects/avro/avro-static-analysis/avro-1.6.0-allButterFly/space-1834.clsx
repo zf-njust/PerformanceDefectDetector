@@ -1,0 +1,80 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.protobuf.ProtobufData.getDefault(FieldDescriptor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.protobuf.ProtobufData.getSchema(Descriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode)" />
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+<item name="org.apache.avro.protobuf.ProtobufData.getNamespace(FileDescriptor)" />
+<item name="org.apache.avro.protobuf.ProtobufData.getSchema(FieldDescriptor)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.createEnum(String, String, String, List)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.createUnion(List)" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.protobuf.ProtobufData.toCamelCase(String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.generic.GenericData.setStringType(Schema, StringType)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.protobuf.ProtobufData.cap(String)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.addProp(String, String)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.Props.add(String, String)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.toString(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericData.writeEscapedString(String, StringBuilder)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

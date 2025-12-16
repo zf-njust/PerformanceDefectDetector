@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Class)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.ThriftData.get()" />
+<item name="org.apache.avro.thrift.ThriftData.getSchema(Class)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.createEnum(String, String, String, List)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.thrift.ThriftData.nullable(Schema)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema, Schema, ThriftData)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.createUnion(List)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

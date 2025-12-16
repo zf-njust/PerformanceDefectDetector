@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 
+org.apache.avro.hadoop.io.AvroValueDeserializer.AvroValueDeserializer(Schema, Schema, DatumReader)
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)
+org.apache.avro.generic.GenericData.createDatumReader(Schema, Schema)
+org.apache.avro.hadoop.io.AvroSerialization.getValueReaderSchema(Configuration)
+org.apache.avro.generic.GenericData.createDatumWriter(Schema)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.generic.GenericData.createDatumReader(Schema)
+org.apache.avro.hadoop.io.AvroSerialization.getDeserializer(Class)
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.hadoop.io.AvroSerializer.AvroSerializer(Schema, DatumWriter)
+org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)
+org.apache.avro.hadoop.io.AvroDeserializer.AvroDeserializer(Schema, Schema, DatumReader)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.mapreduce.AvroJob.getMapOutputValueSchema(Configuration)
+org.apache.avro.Schema.parse(String)
+org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)
+org.apache.avro.hadoop.io.AvroKeyDeserializer.AvroKeyDeserializer(Schema, Schema, DatumReader)
+org.apache.avro.hadoop.io.AvroSerialization.getKeyReaderSchema(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.getValueWriterSchema(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.getSerializer(Class)

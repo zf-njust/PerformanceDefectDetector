@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner.getPageWidth()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.createPage(PDVisibleSignDesigner)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setMediaBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner.getPageHeight()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setPage(PDPage)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

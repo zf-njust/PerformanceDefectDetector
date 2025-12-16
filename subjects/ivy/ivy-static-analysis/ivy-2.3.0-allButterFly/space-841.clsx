@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.FileBasedLockStrategy(FileLocker, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.FileBasedLockStrategy(boolean)" />
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.FileBasedLockStrategy()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.CreateFileLocker.CreateFileLocker(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.lock.AbstractLockStrategy.AbstractLockStrategy(boolean)" />
+</group>
+</group>
+</group>
+</cluster>

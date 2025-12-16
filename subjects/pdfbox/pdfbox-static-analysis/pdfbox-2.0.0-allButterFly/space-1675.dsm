@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 0 1 
+0 0 0 1 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getRecipientsIterator()
+org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getNumberOfRecipients()
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientInfo(X509Certificate, byte[])
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)
+org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getX509()
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.createDERForRecipient(byte[], X509Certificate)
+org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getPermission()
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientsField(byte[])
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.getPermissionBytesForPublicKey()

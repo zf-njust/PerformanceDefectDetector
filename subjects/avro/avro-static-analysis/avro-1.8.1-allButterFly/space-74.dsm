@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 1 1 0 1 1 0 1 0 1 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.data.Json.writeObject(Object, Encoder)
+org.apache.avro.io.Encoder.writeString(Utf8)
+org.apache.avro.io.Encoder.startItem()
+org.apache.avro.io.Encoder.writeArrayStart()
+org.apache.avro.io.Encoder.writeBoolean(boolean)
+org.apache.avro.util.Utf8.getBytesFor(String)
+org.apache.avro.io.Encoder.writeArrayEnd()
+org.apache.avro.io.Encoder.writeNull()
+org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.io.Encoder.writeIndex(int)
+org.apache.avro.util.Utf8.Utf8(String)
+org.apache.avro.io.Encoder.setItemCount(long)
+org.apache.avro.data.Json.ObjectWriter.write(Object, Encoder)
+org.apache.avro.io.Encoder.writeString(String)
+org.apache.avro.io.Encoder.writeMapStart()
+org.apache.avro.io.Encoder.writeMapEnd()
+org.apache.avro.data.Json.write(JsonNode, Encoder)
+org.apache.avro.io.Encoder.writeDouble(double)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.util.internal.JacksonUtils.toJsonNode(Object)
+org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)

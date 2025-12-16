@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.P2ArtifactParser(P2Descriptor, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readArtifacts(URI, P2Descriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readJarOrXml(URI, String, XMLInputParser)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readCompositeArtifact(URI, String, P2Descriptor)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.findEntry(InputStream, String)" />
+<item name="org.apache.ivy.osgi.p2.XMLInputParser.parse(InputStream)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.osgi.p2.P2CompositeParser.getChildLocations()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

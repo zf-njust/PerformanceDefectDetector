@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeCellRenderer.toTreePostfix(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeCellRenderer.toTreeObject(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getKey()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getIndex()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.size()" />
+<item name="org.apache.pdfbox.cos.COSFloat.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getItem()" />
+<item name="org.apache.pdfbox.cos.COSString.toHexString()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getItem()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 
+org.apache.avro.io.BinaryDecoder.ensureBounds(int)
+org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)
+org.apache.avro.io.Decoder.readFixed(byte[])
+org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)
+org.apache.avro.io.Decoder.readFixed(byte[], int, int)
+org.apache.avro.file.DataFileStream.hasNextBlock()
+org.apache.avro.io.BinaryDecoder.isEnd()
+org.apache.avro.file.DataFileStream.DataBlock.DataBlock(long, int)
+org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)
+org.apache.avro.io.BinaryDecoder.innerLongDecode(long)
+org.apache.avro.io.BinaryDecoder.ByteSource.isEof()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)
+org.apache.avro.io.BinaryDecoder.readLong()
+org.apache.avro.file.DataFileStream.nextRawBlock(DataBlock)

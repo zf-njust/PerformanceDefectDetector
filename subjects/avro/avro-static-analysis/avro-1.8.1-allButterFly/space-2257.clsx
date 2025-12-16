@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.XZCodec.getOutputBuffer(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.XZCodec.compress(ByteBuffer)" />
+<item name="org.apache.avro.file.XZCodec.decompress(ByteBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.XZCodec.writeAndClose(ByteBuffer, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

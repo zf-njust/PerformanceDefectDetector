@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfviewer.PDFPagePanel.PDFPagePanel()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageWrapper.PageWrapper(PDFReader)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.PageDrawer()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.ResourceLoader.loadResource(String)" />
+<item name="org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+</group>
+</group>
+</group>
+</cluster>

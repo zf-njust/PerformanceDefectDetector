@@ -1,0 +1,128 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.setResource(Resource)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.parseDescriptor(ParserSettings, InputStream, Resource, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.newParser(ParserSettings)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getModuleDescriptor()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.setInput(URL)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.parse()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.setInput(InputStream)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.setValidate(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.MDArtifact(ModuleDescriptor, String, String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.check()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.replaceConfigurationWildcards()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.checkErrors()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.newIvyArtifact(ModuleRevisionId, Date)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setModuleArtifact(Artifact)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.checkConfigurations()" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addArtifact(String, Artifact)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.getSchemaURL()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getPublicationDate()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.Parser(ModuleDescriptorParser, ParserSettings)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()" />
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.MDArtifact(ModuleDescriptor, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationGroup.getMembersConfigurationNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.checkConf(Stack, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConfiguration(Configuration)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getShortDescription()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, boolean)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.replaceWildcards(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.AbstractParser(ModuleDescriptorParser)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfiguration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationIntersection.ConfigurationIntersection(String, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationGroup.ConfigurationGroup(String, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttribute(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.addOther(Configuration[], Visibility, Set)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.ResourceHelper.getLastModifiedOrDefault(Resource)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.DefaultModuleDescriptor(ModuleDescriptorParser, Resource)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setLastModified(long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.getLastModified()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

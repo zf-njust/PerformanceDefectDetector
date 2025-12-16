@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSArray.setInt(int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.setRight(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.setBottom(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.setLeft(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.setTop(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setUpperLimit(Integer)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination.setLeft(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination.setTop(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setLowerLimit(Integer)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination.setTop(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination.setLeft(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.growToSize(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.growToSize(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+</group>
+</cluster>

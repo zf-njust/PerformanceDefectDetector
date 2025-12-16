@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.sort.MessageBasedNonMatchingVersionReporter.reportNonMatchingVersion(DependencyDescriptor, ModuleDescriptor)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.sort.MessageBasedNonMatchingVersionReporter.reportMessage(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getParentRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+</group>
+</group>
+</cluster>

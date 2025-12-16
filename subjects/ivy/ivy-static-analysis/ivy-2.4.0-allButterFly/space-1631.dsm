@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 1 0 1 1 0 1 
+0 0 1 0 0 0 0 
+org.apache.ivy.ant.IvyDependencyTree.addDependency(ModuleRevisionId, IvyNode)
+org.apache.ivy.ant.IvyDependencyTree.registerNodeIfNecessary(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeCallers.getAllCallers()
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()
+org.apache.ivy.ant.IvyDependencyTree.populateDependencyTree(IvyNode, ModuleRevisionId, ResolveReport)
+org.apache.ivy.core.resolve.IvyNode.getAllCallers()

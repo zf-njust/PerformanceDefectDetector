@@ -1,0 +1,78 @@
+<cluster>
+<group name="root">
+<item name="org.apache.trevni.avro.RandomData.iterator.(Anon_1).next()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.trevni.avro.RandomData.generate(Schema, Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericData.getDefaultValue(Field)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericRecord.put(String, Object)" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.encode(Encoder, Schema, JsonNode)" />
+<item name="org.apache.avro.generic.GenericData.createDatumReader(Schema)" />
+<item name="org.apache.avro.io.EncoderFactory.get()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+<item name="org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)" />
+<item name="org.apache.avro.io.Encoder.writeFloat(float)" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)" />
+<item name="org.apache.avro.io.Encoder.writeString(String)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+</group>
+</group>
+</group>
+</cluster>

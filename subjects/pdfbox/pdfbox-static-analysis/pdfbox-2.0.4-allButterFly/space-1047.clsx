@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.CryptFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream(List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDInlineImage.createInputStream(List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDInlineImage.PDInlineImage(COSDictionary, byte[], PDResources)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.DecodeResult(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDInlineImage.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getParameters()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawInputStream()" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSNameCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

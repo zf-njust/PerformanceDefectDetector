@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.getRootModuleConf()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.markEvicted(EvictionData)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.markEvicted(EvictionData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.updateDataFrom(IvyNode, String, boolean)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.getSelected()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNode.updateConfsToFetch(Collection)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.IvyNodeUsage(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getAllUsages()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.updateFrom(IvyNodeCallers, String, boolean)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateDataFrom(Collection, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.setRealCaller(boolean)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateDataFrom(IvyNodeUsage, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateMapOfSet(Map, Map)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateMapOfSetForKey(Map, Map, Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

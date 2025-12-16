@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.MatcherLookup.get(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.MatcherLookup.key(Map)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+</group>
+</cluster>

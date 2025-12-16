@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileReader.sync(long)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.tell()" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[])" />
+<item name="org.apache.avro.file.DataFileReader.seek(long)" />
+<item name="org.apache.avro.io.BinaryDecoder.inputStream()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.seek(long)" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.DecoderFactory.defaultFactory()" />
+<item name="org.apache.avro.file.SeekableInput.tell()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.file.SeekableInput.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

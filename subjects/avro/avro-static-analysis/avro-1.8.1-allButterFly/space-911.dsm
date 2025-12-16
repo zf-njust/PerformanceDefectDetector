@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 1 1 1 1 1 1 0 1 1 0 1 1 0 0 
+org.apache.avro.generic.GenericData.writeEscapedString(CharSequence, StringBuilder)
+org.apache.avro.generic.GenericData.toString(Object)
+org.apache.avro.generic.GenericData.isArray(Object)
+org.apache.avro.generic.GenericData.isBytes(Object)
+org.apache.avro.specific.SpecificRecordBase.toString()
+org.apache.avro.specific.SpecificData.get()
+org.apache.avro.generic.GenericData.isString(Object)
+org.apache.avro.Schema.Field.name()
+org.apache.avro.generic.GenericData.getField(Object, String, int)
+org.apache.avro.generic.GenericData.isEnum(Object)
+org.apache.avro.Schema.getFields()
+org.apache.avro.generic.GenericData.getArrayAsCollection(Object)
+org.apache.avro.generic.GenericContainer.getSchema()
+org.apache.avro.Schema.Field.pos()
+org.apache.avro.generic.GenericData.isMap(Object)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.generic.GenericData.getRecordSchema(Object)
+org.apache.avro.generic.GenericData.isRecord(Object)
+org.apache.avro.generic.IndexedRecord.get(int)
+org.apache.avro.generic.GenericData.toString(Object, StringBuilder)

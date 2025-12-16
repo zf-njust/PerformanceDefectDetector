@@ -1,0 +1,56 @@
+[Call]
+27
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 
+1 1 0 1 0 0 0 1 1 0 1 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.text.TextPosition.getYDirAdj()
+org.apache.pdfbox.text.PDFTextStripper.matchListItemPattern(PositionWrapper)
+org.apache.pdfbox.text.PDFTextStripper.isParagraphSeparation(PositionWrapper, PositionWrapper, PositionWrapper, float)
+org.apache.pdfbox.text.PDFTextStripper.PositionWrapper.setHangingIndent()
+org.apache.pdfbox.text.PDFTextStripper.getListItemPatterns()
+org.apache.pdfbox.util.Matrix.getScaleY()
+org.apache.pdfbox.util.Matrix.getShearX()
+org.apache.pdfbox.text.PDFTextStripper.PositionWrapper.isHangingIndent()
+org.apache.pdfbox.text.PDFTextStripper.getIndentThreshold()
+org.apache.pdfbox.util.Matrix.getScaleX()
+org.apache.pdfbox.text.PDFTextStripper.multiplyFloat(float, float)
+org.apache.pdfbox.text.TextPosition.getYLowerLeftRot(float)
+org.apache.pdfbox.util.Matrix.getTranslateY()
+org.apache.pdfbox.text.TextPosition.getWidthOfSpace()
+org.apache.pdfbox.util.Matrix.getTranslateX()
+org.apache.pdfbox.text.TextPosition.getWidth()
+org.apache.pdfbox.text.PDFTextStripper.PositionWrapper.isParagraphStart()
+org.apache.pdfbox.text.PDFTextStripper.matchPattern(String, List)
+org.apache.pdfbox.util.Matrix.getShearY()
+org.apache.pdfbox.text.TextPosition.getWidthRot(float)
+org.apache.pdfbox.text.PDFTextStripper.PositionWrapper.getTextPosition()
+org.apache.pdfbox.text.TextPosition.getDir()
+org.apache.pdfbox.text.PDFTextStripper.PositionWrapper.setParagraphStart()
+org.apache.pdfbox.text.TextPosition.getXRot(float)
+org.apache.pdfbox.text.PDFTextStripper.getDropThreshold()
+org.apache.pdfbox.text.TextPosition.getXDirAdj()
+org.apache.pdfbox.text.TextPosition.getUnicode()

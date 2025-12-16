@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.parse(String)" />
+<item name="org.apache.avro.Schema.parse(String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Parser.setValidate(boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+0 0 1 1 
+0 0 0 0 
+1 0 0 0 
+org.apache.avro.ipc.ByteBufferOutputStream.write(byte[], int, int)
+org.apache.avro.io.BinaryEncoder.ReuseByteWriter.write(ByteBuffer)
+org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)
+org.apache.avro.ipc.ByteBufferOutputStream.writeBuffer(ByteBuffer)

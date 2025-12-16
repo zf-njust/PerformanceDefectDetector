@@ -1,0 +1,59 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.print(PrinterJob)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.print()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.print(PrinterJob, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageable.PDPageable(PDDocument, PrinterJob)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getCurrentAccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.canPrint()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getAllKids(List)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.getCurrentAccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getOwnerAccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.isPermissionBitOn(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getAllKids(List, COSDictionary, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModify(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrintDegraded(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanFillInForm(boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModifyAnnotations(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanAssembleDocument(boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractContent(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrint(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractForAccessibility(boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

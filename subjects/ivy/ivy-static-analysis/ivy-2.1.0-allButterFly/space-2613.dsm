@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.url.ApacheURLLister.listAll(URL)
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.FileUtil.readEntirely(BufferedReader)
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.url.ApacheURLLister.retrieveListing(URL, boolean, boolean)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.util.url.URLHandlerRegistry.getDefault()
+org.apache.ivy.util.url.URLHandler.openStream(URL)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.resolver.util.ApacheHttpURLLister.listAll(URL)
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.IvyContext.peekIvy()

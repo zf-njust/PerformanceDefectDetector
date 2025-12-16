@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.MockMessageLogger.assertLogContains(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MockMessageLogger.assertLogVerboseContains(String)" />
+<item name="org.apache.ivy.util.MockMessageLogger.assertLogWarningContains(String)" />
+<item name="org.apache.ivy.util.MockMessageLogger.assertLogErrorContains(String)" />
+<item name="org.apache.ivy.util.MockMessageLogger.assertLogInfoContains(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.sumupProblems()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.sumupProblems()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MockMessageLogger.join(List)" />
+</group>
+</group>
+</group>
+</cluster>

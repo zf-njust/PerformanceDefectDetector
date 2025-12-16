@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.ping_result.write(org.apache.thrift.protocol.TProtocol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.ping_result.writeObject(java.io.ObjectOutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

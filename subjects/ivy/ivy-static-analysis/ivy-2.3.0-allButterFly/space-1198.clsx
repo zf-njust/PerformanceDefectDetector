@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addObjectToConfiguration(String, Object, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addIncludeRule(String, IncludeRule)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addDependencyArtifact(String, DependencyArtifactDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addExcludeRule(String, ExcludeRule)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyArtifacts()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getIncludeRules()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

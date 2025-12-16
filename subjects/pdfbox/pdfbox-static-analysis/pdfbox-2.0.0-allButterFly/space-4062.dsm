@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSArray.clear()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSArray.setFloatArray(float[])
+org.apache.pdfbox.pdmodel.interactive.measurement.PDMeasureDictionary.getCOSObject()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.setItem(String, COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.pdmodel.interactive.measurement.PDRectlinearMeasureDictionary.setCoordSystemOrigin(float[])
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)

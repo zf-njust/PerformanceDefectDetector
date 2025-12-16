@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Conversion.fromRecord(IndexedRecord, Schema, LogicalType)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.convert(Object, Schema, LogicalType, Conversion)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Conversion.fromFixed(GenericFixed, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericData.getArrayAsCollection(Object)" />
+<item name="org.apache.avro.Conversion.fromArray(Collection, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromCharSequence(CharSequence, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromInt(Integer, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericDatumReader.getData()" />
+<item name="org.apache.avro.Conversion.fromMap(Map, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromFloat(Float, Schema, LogicalType)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.Conversion.fromBoolean(Boolean, Schema, LogicalType)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Conversion.fromDouble(Double, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromBytes(ByteBuffer, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromLong(Long, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromEnumSymbol(GenericEnumSymbol, Schema, LogicalType)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalType.getName()" />
+</group>
+</group>
+</group>
+</cluster>

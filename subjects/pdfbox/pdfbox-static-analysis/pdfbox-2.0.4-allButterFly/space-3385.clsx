@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.createHolderForm(PDResources, PDStream, PDRectangle)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setResources(PDResources)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setFormType(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.PDFormXObject(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setHolderForm(PDFormXObject)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(PDStream, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

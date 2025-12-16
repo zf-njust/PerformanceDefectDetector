@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 1 1 
+0 0 1 0 0 0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 1 0 0 
+1 0 1 0 0 0 1 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.repository.TransferEvent.getTotalLength()
+org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferStarted(long)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferCompleted(long)
+org.apache.ivy.plugins.repository.TransferListener.transferProgress(TransferEvent)
+org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferCompleted()
+org.apache.ivy.plugins.repository.TransferEvent.isTotalLengthSet()
+org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)
+org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)
+org.apache.ivy.plugins.repository.TransferEvent.setTotalLengthSet(boolean)
+org.apache.ivy.plugins.repository.TransferEvent.setTotalLength(long)

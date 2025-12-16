@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 1 1 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.util.Type1.addCidWithLabel(Integer, String)
+org.apache.pdfbox.preflight.font.util.Type1Parser.createParserWithEncodingName(InputStream, int, int, String)
+org.apache.pdfbox.encoding.WinAnsiEncoding.WinAnsiEncoding()
+org.apache.pdfbox.preflight.font.util.Type1Parser.getEncodingObject(String)
+org.apache.pdfbox.preflight.font.util.Type1Parser.createParserWithEncodingObject(InputStream, int, int, Encoding)
+org.apache.pdfbox.preflight.font.util.Type1.Type1(Encoding)
+org.apache.pdfbox.preflight.font.util.Type1Parser.Type1Parser(InputStream, int, int, Encoding)
+org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()
+org.apache.pdfbox.encoding.MacRomanEncoding.MacRomanEncoding()
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.encoding.StandardEncoding.StandardEncoding()
+org.apache.pdfbox.preflight.font.util.PeekInputStream.PeekInputStream(InputStream)

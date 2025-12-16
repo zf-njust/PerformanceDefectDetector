@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getStrokingColorSpace()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.color.SetStrokingColor.getColorSpace()" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.getColorSpace(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getNonStrokingColorSpace()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

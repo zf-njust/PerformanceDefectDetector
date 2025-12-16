@@ -1,0 +1,117 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.getDestination()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.multipdf.Splitter.processAnnotations(PDPage)" />
+<item name="org.apache.pdfbox.preflight.annotation.LinkAnnotationValidator.checkDest()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo.getDestination()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.getAction()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setPage(PDPage)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageDestination.setPage(PDPage)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getAnnotations()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAction.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.createAnnotation(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionFactory.createAction(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationSquareCircle.PDAnnotationSquareCircle(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.PDAnnotationLink(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.PDAnnotationLine(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionThread.PDActionThread(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionJavaScript.PDActionJavaScript(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationFileAttachment.PDAnnotationFileAttachment(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionImportData.PDActionImportData(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionNamed.PDActionNamed(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionLaunch.PDActionLaunch(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.hasRecursion(PreflightContext, Object, PreflightPath)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo.PDActionGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionSubmitForm.PDActionSubmitForm(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionSound.PDActionSound(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText.PDAnnotationText(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup.PDAnnotationPopup(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionHide.PDActionHide(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionMovie.PDActionMovie(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown.PDAnnotationUnknown(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionURI.PDActionURI(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionRemoteGoTo.PDActionRemoteGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup.PDAnnotationMarkup(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionResetForm.PDActionResetForm(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp.PDAnnotationRubberStamp(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationTextMarkup.PDAnnotationTextMarkup(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAction.PDAction(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination.create(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination.PDPageFitHeightDestination(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSString)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination.PDPageFitWidthDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.PDPageFitRectangleDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination.PDPageFitDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination.PDPageXYZDestination(COSArray)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageDestination.PDPageDestination(COSArray)" />
+</group>
+</group>
+</group>
+</cluster>

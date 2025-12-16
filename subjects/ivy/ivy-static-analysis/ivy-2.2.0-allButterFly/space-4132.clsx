@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.ssh.SshCache.Entry.setChannelSftp(ChannelSftp)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.ssh.SshCache.attachChannelSftp(Session, ChannelSftp)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.ssh.SshCache.getCacheEntry(Session)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

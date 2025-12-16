@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.plugins.resolver.ChainResolver.resolvedRevision(ResolvedModuleRevision)
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getReport()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getDescriptor()
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.plugins.resolver.DependencyResolver.getName()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.resolver.AbstractResolver.getName()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.ResolvedModuleRevision(DependencyResolver, DependencyResolver, ModuleDescriptor, MetadataArtifactDownloadReport, boolean)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.resolver.ChainResolver.isReturnFirst()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getResolver()
+org.apache.ivy.plugins.resolver.ChainResolver.dumpSettings()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.isForce()
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.plugins.resolver.ChainResolver.isDual()
+org.apache.ivy.core.IvyContext.peekIvy()

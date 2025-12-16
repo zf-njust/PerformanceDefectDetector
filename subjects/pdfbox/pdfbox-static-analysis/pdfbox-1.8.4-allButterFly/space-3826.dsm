@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 1 0 1 0 0 1 
+0 0 1 0 0 0 1 1 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.util.Type1Parser.isBlankSperator(int)
+org.apache.pdfbox.preflight.font.util.PeekInputStream.read()
+org.apache.pdfbox.preflight.font.util.Type1Parser.isNotBlankSperator(int)
+org.apache.pdfbox.preflight.font.util.Type1Parser.isEndOfStream(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.readArray(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.readProcedure(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.readNextCharacter(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.convertListOfIntToByteArray(List)
+org.apache.pdfbox.preflight.font.util.Type1Parser.skipBlankSeparators(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.PeekInputStream.peek()
+org.apache.pdfbox.preflight.font.util.Type1Parser.readToken(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.readNameOrArgument(PeekInputStream)
+org.apache.pdfbox.preflight.font.util.Type1Parser.isNotBeginOfName(int)
+org.apache.pdfbox.preflight.font.util.Type1Parser.isNotSeparator(int)
+org.apache.pdfbox.preflight.font.util.Type1Parser.readStringLiteral(PeekInputStream)

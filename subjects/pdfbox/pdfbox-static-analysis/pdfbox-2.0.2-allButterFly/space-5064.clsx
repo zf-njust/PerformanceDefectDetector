@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getNullEntry()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteXRefTable()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getXRefEntries()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getXRefRanges(List)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeXrefRange(long, long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.addXRefEntry(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setStartxref(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getOffset()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.isFree()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getKey()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.tools.PDFText2HTML.FontState.clear()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.tools.PDFText2HTML.writeParagraphEnd()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeParagraphEnd()" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeString(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeParagraphStart()" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.getParagraphEnd()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.text.PDFTextStripper.getParagraphStart()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.tools.PDFText2HTML.FontState.closeUntil(StringBuilder, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.tools.PDFText2HTML.FontState.closeTag(String)" />
+</group>
+</group>
+</group>
+</cluster>

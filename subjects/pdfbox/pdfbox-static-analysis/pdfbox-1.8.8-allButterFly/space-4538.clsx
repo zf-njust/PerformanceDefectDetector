@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.Splitter.isNewDocNecessary()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.Splitter.createNewDocumentIfNecessary()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Splitter.createNewDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getViewerPreferences()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.setViewerPreferences(PDViewerPreferences)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.setDocumentInformation(PDDocumentInformation)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PDViewerPreferences(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDocument.setTrailer(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.requireInnerInfoElement(ModuleDescriptor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printInfoTag(ModuleDescriptor, PrintWriter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.isDefault()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.License.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.License.getUrl()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedPublicationDate()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getStatus()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.plugins.namespace.Namespace.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getNamespace()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getLicenses()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDescription()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+</group>
+</group>
+</group>
+</cluster>

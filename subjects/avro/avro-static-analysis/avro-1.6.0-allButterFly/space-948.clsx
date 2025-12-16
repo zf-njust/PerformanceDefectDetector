@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

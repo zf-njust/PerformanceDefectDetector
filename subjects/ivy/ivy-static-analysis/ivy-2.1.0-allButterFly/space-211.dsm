@@ -1,0 +1,60 @@
+[Call]
+29
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 0 1 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.id.ModuleRevisionId.toString()
+org.apache.ivy.core.resolve.IvyNode.getBlacklistData(String)
+org.apache.ivy.core.resolve.IvyNode.getAllRealCallers()
+org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.handleUnsolvableConflict(IvyNode, Collection, IvyNode, IvyNode)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(IvyNode, IvyNode)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.isRealCaller()
+org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.handleAllBlacklistedRevisions(DependencyDescriptor, Collection)
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.core.resolve.IvyNodeBlacklist.getEvictedNode()
+org.apache.ivy.core.module.id.ModuleId.toString()
+org.apache.ivy.core.resolve.ResolveProcessException.ResolveProcessException(String)
+org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()
+org.apache.ivy.core.resolve.ResolveData.getReport()
+org.apache.ivy.core.resolve.IvyNodeBlacklist.getConflictParent()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNode.toString()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.resolve.IvyNodeUsage.getBlacklistData(String)
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.IvyContext.getResolveData()
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.core.resolve.IvyNodeCallers.getAllRealCallers()
+org.apache.ivy.core.resolve.IvyNode.getResolvedId()
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()
+org.apache.ivy.core.resolve.IvyNodeBlacklist.getSelectedNode()

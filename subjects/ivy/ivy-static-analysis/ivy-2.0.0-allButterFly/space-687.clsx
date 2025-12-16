@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(Version)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.PluginAdapter.featureAsBundle(URI, EclipseFeature)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getDescription()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getId()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setDescription(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getVersion()" />
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.BundleInfo(String, Version)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setLicense(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getId()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getPlugins()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getRequires()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setUri(URI)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getPlugin()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getMatch()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getFeature()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getVersion()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getUrl()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getLicense()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getVersion()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.numbersAsString()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

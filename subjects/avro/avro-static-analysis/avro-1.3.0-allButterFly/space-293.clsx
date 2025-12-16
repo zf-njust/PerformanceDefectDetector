@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.file.DataFileWriter.generateSync()" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.file.DataFileWriter.init(OutputStream)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.BufferedFileOutputStream(OutputStream)" />
+<item name="org.apache.avro.io.DatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)" />
+<item name="org.apache.avro.io.BinaryEncoder.BinaryEncoder(OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryEncoder.ReuseByteWriter.ReuseByteWriter(ByteBufferOutputStream)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.PositionFilter.PositionFilter(OutputStream)" />
+<item name="org.apache.avro.io.BinaryEncoder.SimpleByteWriter.SimpleByteWriter(OutputStream)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.writeProps(JsonGenerator)" />
+</group>
+</group>
+</group>
+</cluster>

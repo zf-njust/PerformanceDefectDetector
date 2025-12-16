@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(Format, PreflightConfiguration)" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.createPdfADocument(Format, PreflightConfiguration)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead, AccessPermission)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.Requirement.Requirement(String, OSGiFilter)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.AbstractRequirementHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.Requirement.setMultiple(boolean)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.parse(String)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getRequiredAttribute(Attributes, String)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getOptionalBooleanAttribute(Attributes, String, Boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.Requirement.setOptional(boolean)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getLocator()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parse()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.parseBoolean(String, String)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.Parser(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseFilter()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.unread()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.skipWhiteSpace()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseOr()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.readNext()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseAnd()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseNot()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompare()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.osgi.filter.OrFilter.OrFilter()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseMultiOperator(MultiOperatorFilter)" />
+<item name="org.apache.ivy.osgi.filter.CompareFilter.CompareFilter(String, Operator, String)" />
+<item name="org.apache.ivy.osgi.filter.NotFilter.NotFilter(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareOperator()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareValue()" />
+<item name="org.apache.ivy.osgi.filter.AndFilter.AndFilter()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.add(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.isOperator(char)" />
+<item name="org.apache.ivy.osgi.filter.UniOperatorFilter.UniOperatorFilter(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.MultiOperatorFilter()" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.getSubFilters()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

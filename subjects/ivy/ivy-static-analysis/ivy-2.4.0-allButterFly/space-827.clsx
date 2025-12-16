@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.sort.ModuleInSort.match(DependencyDescriptor, VersionMatcher)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.sort.CollectionOfModulesToSort.getModuleDescriptorDependency(DependencyDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.sort.NonMatchingVersionReporter.reportNonMatchingVersion(DependencyDescriptor, ModuleDescriptor)" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.getSortedModuleDescriptor()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyId()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.getWorkingRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+</group>
+</group>
+</group>
+</cluster>

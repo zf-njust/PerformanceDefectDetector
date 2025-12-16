@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 0 1 1 1 1 0 1 0 0 0 0 0 1 0 1 1 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.JsonEncoder.writeString(String)
+org.apache.avro.io.Decoder.skipString()
+org.apache.avro.io.Decoder.readBoolean()
+org.apache.avro.io.JsonDecoder.error(String)
+org.apache.avro.io.parsing.Parser.depth()
+org.apache.avro.io.Decoder.readIndex()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.Decoder.skipBytes()
+org.apache.avro.io.Decoder.readNull()
+org.apache.avro.io.Decoder.skipArray()
+org.apache.avro.io.Decoder.readLong()
+org.apache.avro.io.ParsingDecoder.skipTopSymbol()
+org.apache.avro.io.Decoder.readFloat()
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.JsonDecoder.skipString()
+org.apache.avro.io.JsonDecoder.advance(Symbol)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.io.parsing.Parser.topSymbol()
+org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()
+org.apache.avro.io.ParsingDecoder.skipFixed()
+org.apache.avro.io.Decoder.readInt()
+org.apache.avro.io.Decoder.readEnum()
+org.apache.avro.io.Decoder.skipMap()
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.Decoder.readDouble()
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.io.JsonDecoder.readString()

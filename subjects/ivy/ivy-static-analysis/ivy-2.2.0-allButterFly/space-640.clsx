@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.FileRequestEntity.writeRequest(OutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.CopyProgressListener.start(CopyProgressEvent)" />
+<item name="org.apache.ivy.util.CopyProgressListener.end(CopyProgressEvent)" />
+<item name="org.apache.ivy.util.CopyProgressEvent.update(byte[], int, long)" />
+<item name="org.apache.ivy.util.CopyProgressEvent.CopyProgressEvent()" />
+<item name="org.apache.ivy.util.CopyProgressListener.progress(CopyProgressEvent)" />
+</group>
+</group>
+</group>
+</cluster>

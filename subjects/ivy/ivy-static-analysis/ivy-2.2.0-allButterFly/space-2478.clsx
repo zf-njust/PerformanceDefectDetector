@@ -1,0 +1,119 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.addDependency(IvyNode, DownloadReport)" />
+<item name="org.apache.ivy.core.resolve.ResolveEngine.download(Artifact, DownloadOptions)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.download(ArtifactOrigin, DownloadOptions)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.locate(Artifact)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getArtifacts(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)" />
+<item name="org.apache.ivy.core.resolve.DownloadOptions.DownloadOptions()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.isDefault()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getDependencyArtifactsSet(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.addAllIfNotNull(Collection, Collection)" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getId()" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.addArtifactsFromOwnUsage(Set, Set)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getArtifacts(String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.addArtifactsFromMergedUsage(String, Set)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getDependencyIncludesSet(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.findArtifactsMatching(IncludeRule, Map)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConfigurations(String)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getNode()" />
+<item name="org.apache.ivy.core.module.descriptor.MDArtifact.MDArtifact(ModuleDescriptor, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getUrl()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyArtifacts(String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ArtifactId, ArtifactId)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getShortDescription()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getMatcher()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getIncludeRules(String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getExt()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getConfigurations(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getType()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getParentRevisionId()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesExclude(ModuleDescriptor, String, String[], DependencyDescriptor, Artifact, Stack)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, String, String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ModuleId, ModuleId)" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleDescriptor()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

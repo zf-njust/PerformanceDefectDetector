@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonDecoder.JsonDecoder(Symbol, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonDecoder.JsonDecoder(Schema, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.JsonDecoder.getSymbol(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.root(Symbol...)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonDecoder.configure(String)" />
+<item name="org.apache.avro.io.ParsingDecoder.ParsingDecoder(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.SkipParser.SkipParser(Symbol, ActionHandler, SkipHandler)" />
+<item name="org.apache.avro.io.parsing.Parser.reset()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)" />
+</group>
+</group>
+</group>
+</cluster>

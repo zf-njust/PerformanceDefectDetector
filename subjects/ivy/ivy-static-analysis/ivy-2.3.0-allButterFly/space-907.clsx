@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.VersionRange.contains(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.contains(Version)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.compareUnqualified(Version)" />
+</group>
+</group>
+</group>
+</cluster>

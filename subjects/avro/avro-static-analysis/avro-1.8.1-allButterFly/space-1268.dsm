@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.ResolvingDecoder.readString()
+org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Schema, Decoder)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.Decoder.readBytes(ByteBuffer)
+org.apache.avro.util.Utf8.getByteLength()
+org.apache.avro.io.ValidatingDecoder.readBytes(ByteBuffer)
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.Decoder.readString(Utf8)
+org.apache.avro.io.ResolvingDecoder.readBytes(ByteBuffer)
+org.apache.avro.JsonProperties.getJsonProp(String)
+org.apache.avro.io.ResolvingDecoder.readString(Utf8)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)
+org.apache.avro.io.Decoder.readString()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.JsonProperties.getProp(String)
+org.apache.avro.generic.GenericDatumReader.readBytes(Object, Decoder)
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.util.ClassUtils.forName(String)

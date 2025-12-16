@@ -1,0 +1,94 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.ResolvingDecoder.readFieldOrder()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.readRecord(Object, Schema, ResolvingDecoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumReader.setField(Object, String, int, Object)" />
+<item name="org.apache.avro.generic.GenericDatumReader.newRecord(Object, Schema)" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericDatumReader.getField(Object, String, int)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericDatumReader.read(Object, Schema, ResolvingDecoder)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.ResolvingDecoder.readDouble()" />
+<item name="org.apache.avro.generic.GenericDatumReader.readFixed(Object, Schema, Decoder)" />
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readArray(Object, Schema, ResolvingDecoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readInt(Object, Schema, Decoder)" />
+<item name="org.apache.avro.io.ValidatingDecoder.readFloat()" />
+<item name="org.apache.avro.io.ValidatingDecoder.readNull()" />
+<item name="org.apache.avro.generic.GenericDatumReader.readBytes(Object, Decoder)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readLong()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)" />
+<item name="org.apache.avro.generic.IndexedRecord.put(int, Object)" />
+<item name="org.apache.avro.io.ValidatingDecoder.readBoolean()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.ResolvingDecoder.readIndex()" />
+<item name="org.apache.avro.generic.GenericDatumReader.readEnum(Schema, Decoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readMap(Object, Schema, ResolvingDecoder)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.generic.GenericDatumReader.newMap(Object, int)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.generic.GenericDatumReader.addToMap(Object, Object, Object)" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.generic.GenericDatumReader.addToArray(Object, long, Object)" />
+<item name="org.apache.avro.io.ValidatingDecoder.mapNext()" />
+<item name="org.apache.avro.io.Decoder.readLong()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.io.ValidatingDecoder.readArrayStart()" />
+<item name="org.apache.avro.io.ValidatingDecoder.arrayNext()" />
+<item name="org.apache.avro.generic.GenericDatumReader.createFixed(Object, Schema)" />
+<item name="org.apache.avro.io.Decoder.readBoolean()" />
+<item name="org.apache.avro.io.Decoder.readInt()" />
+<item name="org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)" />
+<item name="org.apache.avro.io.Decoder.readFloat()" />
+<item name="org.apache.avro.generic.GenericDatumReader.createEnum(String, Schema)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.generic.GenericDatumReader.peekArray(Object)" />
+<item name="org.apache.avro.io.Decoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.io.Decoder.readDouble()" />
+<item name="org.apache.avro.io.ValidatingDecoder.readMapStart()" />
+<item name="org.apache.avro.io.Decoder.readEnum()" />
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.io.Decoder.readNull()" />
+<item name="org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+<item name="org.apache.avro.io.Decoder.readMapStart()" />
+<item name="org.apache.avro.generic.GenericArray.clear()" />
+<item name="org.apache.avro.io.Decoder.arrayNext()" />
+<item name="org.apache.avro.generic.GenericArray.peek()" />
+<item name="org.apache.avro.io.Decoder.readArrayStart()" />
+<item name="org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()" />
+<item name="org.apache.avro.io.Decoder.mapNext()" />
+<item name="org.apache.avro.generic.GenericArray.add(T)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

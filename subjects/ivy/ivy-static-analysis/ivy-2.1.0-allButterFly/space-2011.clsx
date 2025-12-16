@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getHandler(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.isReachable(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getLastModified(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getLastModified(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getContentLength(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.openStream(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getURLInfo(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getContentLength(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getURLInfo(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.download(URL, File, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.upload(File, URL, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.isReachable(URL)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.URLHandler.getURLInfo(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandler.getContentLength(URL)" />
+<item name="org.apache.ivy.util.url.URLHandler.getContentLength(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandler.getURLInfo(URL)" />
+<item name="org.apache.ivy.util.url.URLHandler.getLastModified(URL)" />
+<item name="org.apache.ivy.util.url.URLHandler.isReachable(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.url.URLHandler.getLastModified(URL, int)" />
+<item name="org.apache.ivy.util.url.URLHandler.upload(File, URL, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.URLHandler.download(URL, File, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.URLHandler.isReachable(URL)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

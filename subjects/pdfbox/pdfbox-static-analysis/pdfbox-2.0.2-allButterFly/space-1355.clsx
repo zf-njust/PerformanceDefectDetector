@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.annotation.RubberStampAnnotationValidator.RubberStampAnnotationValidator(PreflightContext, COSDictionary)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.annotation.AnnotationValidator.AnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp.PDAnnotationRubberStamp(COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup.PDAnnotationMarkup(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

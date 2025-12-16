@@ -1,0 +1,98 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoice.getOptionsDisplayValues()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.insertGeneratedListboxAppearance(PDPageContentStream, PDAppearanceStream, PDRectangle, PDFont, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getAscent()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColor(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.endText()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.newLineAtOffset(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDListBox.getTopIndex()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.beginText()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.getQ()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStringWidth(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getBBox()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.showText(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getBoundingBox()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getInheritableAttribute(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.willBeSubset()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.readCode(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.isOutside255Interval(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.addToSubset(int)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidth(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColor(double)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getMissingWidth()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStandard14Width(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.hasMissingWidth()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.isOutsideOneInterval(double)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidths()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidthFromFont(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColorSpaceStack(PDColorSpace)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertFloatCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+<item name="org.apache.pdfbox.util.Hex.getBytes(byte)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getPairableItems(COSBase, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getItemsFromPair(COSBase, int)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSStringCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+</group>
+</group>
+</group>
+</cluster>

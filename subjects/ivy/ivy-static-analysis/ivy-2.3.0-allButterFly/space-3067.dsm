@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 1 0 0 1 
+0 0 0 1 0 0 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.plugins.latest.LatestLexicographicStrategy.LatestLexicographicStrategy()
+org.apache.ivy.plugins.latest.LatestTimeStrategy.LatestTimeStrategy()
+org.apache.ivy.osgi.core.OsgiLatestStrategy.OsgiLatestStrategy()
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.ComparatorLatestStrategy(Comparator)
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)

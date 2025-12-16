@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 
+org.apache.ivy.util.filter.Filter.accept(Object)
+org.apache.ivy.core.settings.IvySettings.getConflictManager(String)
+org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.module.id.ModuleId.getAttributes()
+org.apache.ivy.core.settings.IvySettings.ModuleSettings.getConflictManager()
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId, Filter)
+org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.core.settings.IvySettings.getConflictManager.(Anon_3).accept(Object)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)
+org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()
+org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)
+org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()
+org.apache.ivy.core.settings.IvySettings.getConflictManager(ModuleId)

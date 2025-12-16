@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.text.TextPosition.getDir()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.text.TextPosition.getYDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPosition.getXDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPosition.getWidthDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPositionComparator.compare(TextPosition, TextPosition)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.text.TextPosition.getXRot(float)" />
+<item name="org.apache.pdfbox.text.TextPosition.getYLowerLeftRot(float)" />
+<item name="org.apache.pdfbox.text.TextPosition.getHeightDir()" />
+<item name="org.apache.pdfbox.text.TextPosition.getWidthRot(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.Matrix.getTranslateY()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateX()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.Matrix.getScaleY()" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleX()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearX()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearY()" />
+</group>
+</group>
+</group>
+</cluster>

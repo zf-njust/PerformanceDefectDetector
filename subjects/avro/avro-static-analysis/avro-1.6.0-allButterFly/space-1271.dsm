@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.file.DataFileStream.getMeta(String)
+org.apache.avro.io.Decoder.readFixed(byte[])
+org.apache.avro.file.DataFileStream.resolveCodec()
+org.apache.avro.file.DataFileReader.DataFileReader(SeekableInput, DatumReader, Header)
+org.apache.avro.io.DecoderFactory.get()
+org.apache.avro.file.DataFileReader.SeekableInputStream.seek(long)
+org.apache.avro.file.DataFileReader.SeekableInputStream.tell()
+org.apache.avro.file.CodecFactory.createInstance()
+org.apache.avro.file.DataFileReader.SeekableInputStream.SeekableInputStream(SeekableInput)
+org.apache.avro.file.CodecFactory.nullCodec()
+org.apache.avro.file.DataFileReader.sync(long)
+org.apache.avro.io.Decoder.readFixed(byte[], int, int)
+org.apache.avro.file.DataFileStream.initialize(InputStream, Header)
+org.apache.avro.file.CodecFactory.fromString(String)
+org.apache.avro.file.SeekableInput.tell()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.file.DataFileReader.openReader(SeekableInput, DatumReader, Header, boolean)
+org.apache.avro.file.DataFileReader.seek(long)
+org.apache.avro.io.BinaryDecoder.inputStream()
+org.apache.avro.file.DataFileStream.getHeader()
+org.apache.avro.file.SeekableInput.seek(long)
+org.apache.avro.file.DataFileStream.DataFileStream(DatumReader)
+org.apache.avro.io.DatumReader.setSchema(Schema)
+org.apache.avro.file.DataFileStream.getMetaString(String)

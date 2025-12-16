@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.OBRResolver.loadRepoFromFile(URI, File, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.OBRResolver.init()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getEventManager()" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.addTransferListener(TransferListener)" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.getRepository()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+<item name="org.apache.ivy.core.cache.CacheResourceOptions.setTtl(long)" />
+<item name="org.apache.ivy.core.cache.CacheDownloadOptions.setForce(boolean)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.removeTransferListener(TransferListener)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.parse(URI, InputStream)" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.setRepoDescriptor(RepoDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RepositoryHandler.RepositoryHandler(URI)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSourceHandler.ResourceSourceHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceLicenseHandler.ResourceLicenseHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setSkipOnError(boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDocumentationHandler.ResourceDocumentationHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityHandler.CapabilityHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RequireHandler.RequireHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDescriptionHandler.ResourceDescriptionHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ExtendHandler.ExtendHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSizeHandler.ResourceSizeHandler()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setBufferingChar(boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.AbstractRequirementHandler.AbstractRequirementHandler(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityPropertyHandler.CapabilityPropertyHandler()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 0 1 0 
+0 0 0 0 1 
+1 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.ipc.SaslSocketTransceiver.readFrameAndUnwrap()
+org.apache.avro.ipc.SaslSocketTransceiver.readFrame()
+org.apache.avro.ipc.SaslSocketTransceiver.readBuffers()
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.unwrap(byte[])
+org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)

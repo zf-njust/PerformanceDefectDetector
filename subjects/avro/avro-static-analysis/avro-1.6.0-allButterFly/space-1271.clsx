@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileReader.openReader(SeekableInput, DatumReader, Header, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileReader.DataFileReader(SeekableInput, DatumReader, Header)" />
+<item name="org.apache.avro.file.DataFileReader.seek(long)" />
+<item name="org.apache.avro.file.DataFileReader.sync(long)" />
+<item name="org.apache.avro.file.SeekableInput.tell()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.tell()" />
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.SeekableInputStream(SeekableInput)" />
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[])" />
+<item name="org.apache.avro.file.DataFileStream.getHeader()" />
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.seek(long)" />
+<item name="org.apache.avro.file.DataFileStream.DataFileStream(DatumReader)" />
+<item name="org.apache.avro.file.DataFileStream.initialize(InputStream, Header)" />
+<item name="org.apache.avro.io.BinaryDecoder.inputStream()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.file.SeekableInput.seek(long)" />
+<item name="org.apache.avro.io.DatumReader.setSchema(Schema)" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileStream.resolveCodec()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.file.DataFileStream.getMetaString(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileStream.getMeta(String)" />
+</group>
+</group>
+</group>
+</cluster>

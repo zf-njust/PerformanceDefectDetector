@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 1 
+1 0 0 1 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.filter.CompareFilter.getLeftValue()
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.extractFilter(OSGiFilter)
+org.apache.ivy.osgi.filter.MultiOperatorFilter.getSubFilters()
+org.apache.ivy.osgi.obr.xml.UnsupportedFilterException.UnsupportedFilterException(String)
+org.apache.ivy.osgi.filter.OSGiFilter.eval(Map)
+org.apache.ivy.osgi.filter.CompareFilter.getOperator()
+org.apache.ivy.osgi.filter.NotFilter.eval(Map)
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.parseCompareFilter(CompareFilter, boolean)
+org.apache.ivy.osgi.util.Version.Version(String)
+org.apache.ivy.osgi.filter.CompareFilter.getRightValue()
+org.apache.ivy.osgi.filter.UniOperatorFilter.getSubFilter()

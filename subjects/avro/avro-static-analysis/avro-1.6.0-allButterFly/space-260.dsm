@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 1 0 0 1 1 1 
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.stats.Stopwatch.start()
+org.apache.avro.ipc.stats.Histogram.Segmenter.size()
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext)
+org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram()
+org.apache.avro.ipc.stats.IntegerHistogram.IntegerHistogram(Segmenter)
+org.apache.avro.ipc.RPCContext.getRequestPayload()
+org.apache.avro.ipc.stats.Histogram.Histogram(Segmenter)
+org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()
+org.apache.avro.ipc.stats.Stopwatch.Stopwatch(Ticks)
+org.apache.avro.ipc.RPCContext.getMessage()
+org.apache.avro.ipc.stats.StatsPlugin.getPayloadSize(List)

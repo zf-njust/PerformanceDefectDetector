@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFontBoxFont(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFontBoxFont(String, PDFontDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFallbackFontName(PDFontDescriptor)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapping.FontMapping(T, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isItalic()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSerif()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFixedPitch()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFont(FontFormat, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getProvider()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getSubstitutes(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFont(FontFormat, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.setProvider(FontProvider)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getFormat()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.createFontInfoByName(List)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontProvider.getFontInfo()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getPostScriptName()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getPostScriptNames(String)" />
+</group>
+</group>
+</group>
+</cluster>

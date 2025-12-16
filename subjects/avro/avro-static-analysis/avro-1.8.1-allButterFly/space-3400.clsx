@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.create(Completion, NameContext, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.enumeration(String)" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.enumeration(String)" />
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.enumeration(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.wrap(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.EnumDefault.EnumDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.completion(Completion)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)" />
+<item name="org.apache.avro.SchemaBuilder.CompletionWrapper.wrap(Completion)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.EnumBuilder(Completion, NameContext, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.NamespacedBuilder(Completion, NameContext, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.NamedBuilder(NameContext, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.SchemaBuilder.checkRequired(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

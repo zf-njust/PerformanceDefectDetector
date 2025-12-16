@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericRecordBuilder.has(Field)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericRecordBuilder.has(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.data.RecordBuilderBase.schema()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericRecordBuilder.has(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.data.RecordBuilderBase.fieldSetFlags()" />
+</group>
+</group>
+</group>
+</cluster>

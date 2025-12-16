@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getCOSObject()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.findSignatureField(List, PDSignature)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.getSignature()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.getValue()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.PDSignature(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

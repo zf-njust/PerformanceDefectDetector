@@ -1,0 +1,34 @@
+[Call]
+16
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 1 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.resolve.IvyNodeUsage.addAndGetConfigurations(String)
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.module.descriptor.Configuration.getName()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)
+org.apache.ivy.core.resolve.IvyNode.discardConf(String, String)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.core.module.descriptor.Configuration.getExtends()
+org.apache.ivy.core.IvyContext.peekIvy()

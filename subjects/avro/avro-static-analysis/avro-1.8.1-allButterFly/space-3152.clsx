@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryEncoder.writeBytes(ByteBuffer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherKeySerialization.TetherDataSerializer.serialize(TetherData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherData.buffer()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryEncoder.writeZero()" />
+<item name="org.apache.avro.io.Encoder.writeFixed(ByteBuffer)" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,14 @@
+[Call]
+6
+0 1 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+1 0 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.blend.BlendMode.getInstance(COSBase)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState.getBlendMode()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()

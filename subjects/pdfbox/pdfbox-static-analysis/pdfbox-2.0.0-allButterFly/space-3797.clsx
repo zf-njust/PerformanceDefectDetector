@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSInputStream.getDecodeResult()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.repair(PDStream, COSInputStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources, COSInputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getParameters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(PDStream, COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getJPXColorSpace()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

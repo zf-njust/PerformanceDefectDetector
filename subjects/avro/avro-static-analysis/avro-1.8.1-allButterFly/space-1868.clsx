@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mojo.AbstractAvroMojo.execute()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mojo.AbstractAvroMojo.compileFiles(String[], File, File)" />
+<item name="org.apache.avro.mojo.AbstractAvroMojo.getIncludes()" />
+<item name="org.apache.avro.mojo.AbstractAvroMojo.getIncludedFiles(String, String[], String[])" />
+<item name="org.apache.avro.mojo.AbstractAvroMojo.getTestIncludes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mojo.AbstractAvroMojo.doCompile(String, File, File)" />
+</group>
+</group>
+</group>
+</cluster>

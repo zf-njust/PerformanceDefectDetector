@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.HttpClientHandler.useAuthentication(URL)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.HttpClientHandler.doGet(URL, int)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.doHead(URL, int)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.upload(File, URL, CopyProgressListener)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.HttpClientHandler.FileRequestEntity.FileRequestEntity(File)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.getClient()" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(URL, int, String)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxyAuthentication()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getUserAgent()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.createCredentials(String, String)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxy()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.CredentialsStore.hasCredentials(String)" />
+</group>
+</group>
+</group>
+</cluster>

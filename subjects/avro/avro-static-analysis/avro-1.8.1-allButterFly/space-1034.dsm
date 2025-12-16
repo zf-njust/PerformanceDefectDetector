@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.mapred.AvroJob.configureAvroInput(JobConf)
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.mapred.AvroJob.setInputSchema(JobConf, Schema)
+org.apache.avro.Schema.toString()
+org.apache.avro.mapred.AvroJob.configureAvroShuffle(JobConf)
+org.apache.avro.Schema.toString(boolean)

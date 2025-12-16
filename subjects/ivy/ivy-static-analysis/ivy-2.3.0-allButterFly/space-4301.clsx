@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setPatch(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.FeatureHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setURL(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setLabel(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setArch(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setWS(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.EclipseFeature(String, Version)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setType(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setNL(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setOS(String)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.util.Version.numbersAsString()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

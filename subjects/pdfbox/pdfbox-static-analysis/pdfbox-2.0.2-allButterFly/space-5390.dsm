@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+1 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 1 1 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setViewArea(String)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)

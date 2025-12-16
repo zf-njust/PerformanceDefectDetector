@@ -1,0 +1,74 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.createFileMenu.(Anon_5).actionPerformed(ActionEvent)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.readPDFurl(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.addRecentFileItems()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.addFile(String)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.initTree()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeModel.PDFTreeModel(DocumentEntry)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatusPane.updateTreeStatus(TreeStatus)" />
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeModel.PDFTreeModel(PDDocument)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.getInstance()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.resetZoom()" />
+<item name="org.apache.pdfbox.debugger.ui.DocumentEntry.DocumentEntry(PDDocument, String)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.TreeStatus(Object)" />
+<item name="org.apache.pdfbox.cos.COSDocument.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.getFiles()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.isEmpty()" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.getPathForString(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatusPane.updateText(String)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.changeZoomSelection(float)" />
+<item name="org.apache.pdfbox.io.ScratchFile.close()" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.generatePath(String)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenu()" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.setPageZoomScale(float)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.setImageZoomScale(float)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.debugger.ui.MenuBase.setMenu(JMenu)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.searchNode(Object, String)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenuItem.ZoomMenuItem(String, int)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.parsePathString(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(String)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setIndex(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.setKey(COSName)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setValue(COSBase)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.setValue(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setItem(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

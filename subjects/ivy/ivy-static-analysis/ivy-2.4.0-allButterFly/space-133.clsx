@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getTTL(ModuleRevisionId)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultTTL()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.parseDuration(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getGroupIntValue(java.util.regex.Matcher, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId, Filter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.MatcherLookup.get(Map)" />
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<item name="org.apache.ivy.core.module.id.MatcherLookup.key(Map)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+</group>
+</cluster>

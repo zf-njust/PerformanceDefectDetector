@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getAskedDependencyId(ResolveData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.blackListIncompatibleCaller(VersionMatcher, IvyNode, IvyNode, IvyNode, Stack)" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputCallers(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.findNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.IvyNodeBlacklist(IvyNode, IvyNode, IvyNode, IvyNode, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isBlacklisted(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getReport()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.toString(String[])" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.isBlacklisted(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+</group>
+</group>
+</group>
+</cluster>

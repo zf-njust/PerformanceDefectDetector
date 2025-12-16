@@ -1,0 +1,66 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.TextConverter.TextConverter()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.create(Class)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapreduce.AvroJob.getMapOutputKeySchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.ByteWritableConverter.ByteWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.LongWritableConverter.LongWritableConverter()" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputKeySchema(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getMapOutputValueSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.BytesWritableConverter.BytesWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.BooleanWritableConverter.BooleanWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.AvroWrapperConverter.AvroWrapperConverter(Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.IntWritableConverter.IntWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.FloatWritableConverter.FloatWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.DoubleWritableConverter.DoubleWritableConverter()" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputValueSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.NullWritableConverter.NullWritableConverter()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+<item name="org.apache.avro.Schema.createFixed(String, String, String, int)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getValueWriterSchema(Configuration)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

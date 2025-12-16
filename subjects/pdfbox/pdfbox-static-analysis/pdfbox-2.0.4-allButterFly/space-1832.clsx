@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.isFree()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfparser.PDFXRefStream.addEntry(COSWriterXRefEntry)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getOffset()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getKey()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.jar.JarResource.JarResource(JarFile, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.jar.JarRepository.getResource(String)" />
+<item name="org.apache.ivy.plugins.repository.jar.JarResource.clone(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

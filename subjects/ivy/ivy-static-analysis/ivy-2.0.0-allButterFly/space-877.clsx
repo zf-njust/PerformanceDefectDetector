@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.XMLHelper.parse(InputStream, URL, DefaultHandler, LexicalHandler)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+</group>
+</group>
+</group>
+</cluster>

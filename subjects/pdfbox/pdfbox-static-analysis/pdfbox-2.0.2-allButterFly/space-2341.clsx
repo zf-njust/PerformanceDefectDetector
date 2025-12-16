@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFDocument.getDocument()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.write(FDFDocument)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteHeader(COSDocument)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getVersion()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.ICOSVisitor.visitFromDocument(COSDocument)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileWriter.sync()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.flush()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.tell()" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+</group>
+</group>
+</group>
+</cluster>

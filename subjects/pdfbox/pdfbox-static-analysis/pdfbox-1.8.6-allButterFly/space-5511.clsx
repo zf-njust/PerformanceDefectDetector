@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.getC()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionFactory.createAction(COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo.PDActionRemoteGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDActionGoTo.PDActionGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDActionLaunch.PDActionLaunch(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDActionJavaScript.PDActionJavaScript(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDActionURI.PDActionURI(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.PDAction(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+</group>
+</group>
+</cluster>

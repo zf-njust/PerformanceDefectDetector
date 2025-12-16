@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 1 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+org.apache.avro.ipc.stats.IntegerHistogram.add(Integer)
+org.apache.avro.ipc.stats.FloatHistogram.add(Float)
+org.apache.avro.ipc.stats.Histogram.add(T)
+org.apache.avro.ipc.stats.Histogram.Segmenter.segment(T)

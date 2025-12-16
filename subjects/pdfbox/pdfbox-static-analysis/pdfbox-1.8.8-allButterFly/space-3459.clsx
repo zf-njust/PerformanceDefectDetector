@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.setSeedValue(PDSeedValue)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getDictionary()" />
+</group>
+</group>
+</group>
+</cluster>

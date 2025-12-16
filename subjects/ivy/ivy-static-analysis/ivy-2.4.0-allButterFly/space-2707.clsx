@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLockStrategy()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getLockStrategy()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getLockStrategy(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.lock.NoLockStrategy.NoLockStrategy()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.lock.AbstractLockStrategy.setName(String)" />
+</group>
+</group>
+</group>
+</cluster>

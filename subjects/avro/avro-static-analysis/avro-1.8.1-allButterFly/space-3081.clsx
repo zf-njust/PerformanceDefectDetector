@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroKeyDeserializer.createAvroWrapper()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+</group>
+</group>
+</group>
+</cluster>

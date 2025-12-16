@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.addPolygon(float[], float[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.drawPolygon(float[], float[])" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.fillPolygon(float[], float[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.fill()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.stroke()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.lineTo(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.closeSubPath()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.moveTo(float, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.closePath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatFloatFast(float, int, byte[])" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.NumberFormatUtil.getExponent(long)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatPositiveNumber(long, int, boolean, byte[], int)" />
+</group>
+</group>
+</group>
+</cluster>

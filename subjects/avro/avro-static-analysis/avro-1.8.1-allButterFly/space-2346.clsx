@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeString(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeString(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

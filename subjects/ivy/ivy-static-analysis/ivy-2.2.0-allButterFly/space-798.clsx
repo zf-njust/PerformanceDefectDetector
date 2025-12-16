@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.DualResolver.publish(Artifact, File, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.publish(Artifact, File, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

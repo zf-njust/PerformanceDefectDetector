@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, ArtifactOrigin)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.createFontInfoByName(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.setProvider(FontProvider)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FontProvider.getFontInfo()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getPostScriptName()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getPostScriptNames(String)" />
+</group>
+</group>
+</group>
+</cluster>

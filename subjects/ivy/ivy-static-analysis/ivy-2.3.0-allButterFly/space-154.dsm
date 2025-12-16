@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.repository.file.FileRepository.getProgressListener()
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent)
+org.apache.ivy.plugins.repository.file.FileRepository.copy(File, File, boolean)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.plugins.repository.RepositoryCopyProgressListener.setTotalLength(Long)
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.plugins.repository.TransferListener.transferProgress(TransferEvent)
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)
+org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)
+org.apache.ivy.plugins.repository.TransferEvent.setException(Exception)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferError(Exception)
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.util.FileUtil.copy(File, File, CopyProgressListener, boolean)
+org.apache.ivy.core.IvyContext.peekIvy()

@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.encrypt(String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.protect(ProtectionPolicy)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy.StandardProtectionPolicy(String, String, AccessPermission)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getSecurityHandler(ProtectionPolicy)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.SecurityHandlersManager()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.registerHandler(String, Class, Class)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(Exception)" />
+</group>
+</group>
+</group>
+</cluster>

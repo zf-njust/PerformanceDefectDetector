@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.acquireLock(File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.lock.ArtifactLockStrategy.lockArtifact(Artifact, File)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.FileLocker.tryLock(File)" />
+<item name="org.apache.ivy.plugins.lock.AbstractLockStrategy.isDebugLocking()" />
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.incrementLock(File, Thread)" />
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.debugLocking(String)" />
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.hasLock(File, Thread)" />
+<item name="org.apache.ivy.plugins.lock.FileBasedLockStrategy.getCurrentLockHolderNames(File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.info(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

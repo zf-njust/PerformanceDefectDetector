@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.AbstractRequirementHandler.AbstractRequirementHandler(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.MetaRequirementsHandler.MetaRequirementsHandler()" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.HostRequirementsHandler.HostRequirementsHandler()" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.RequiresHandler.RequiresHandler()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.RequiredHandler.RequiredHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+</group>
+</group>
+</group>
+</cluster>

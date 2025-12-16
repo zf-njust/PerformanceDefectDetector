@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 1 0 0 1 1 1 0 1 1 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadDetails()
+org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)
+org.apache.ivy.plugins.resolver.AbstractResolver.getName()
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.plugins.repository.jar.JarRepository.setJarFile(JarFile)
+org.apache.ivy.plugins.repository.Repository.removeTransferListener(TransferListener)
+org.apache.ivy.plugins.repository.Repository.addTransferListener(TransferListener)
+org.apache.ivy.plugins.resolver.JarResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()
+org.apache.ivy.plugins.resolver.AbstractResolver.getEventManager()
+org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()
+org.apache.ivy.plugins.resolver.RepositoryResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.resolver.JarResolver.getJarRepository()
+org.apache.ivy.plugins.resolver.JarResolver.setJarFile(File)
+org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()
+org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()
+org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()
+org.apache.ivy.plugins.resolver.AbstractResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)
+org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)
+org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)

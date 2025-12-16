@@ -1,0 +1,64 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getBufferedChars()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.InstructionsHandler.InstructionsHandler.(Anon_17).childHanlded(InstructionHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler.(Anon_3).childHanlded(CopyrightHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_6).childHanlded(ResourceSizeHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_5).childHanlded(ResourceLicenseHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_2).childHanlded(ResourceSourceHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_4).childHanlded(ResourceDocumentationHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler.(Anon_2).childHanlded(LicenseHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_3).childHanlded(ResourceDescriptionHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler.(Anon_1).childHanlded(DescriptionHandler)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.BundleInfo.setSize(Integer)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setDescription(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setLicense(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setDocumentation(String)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.log(int, String)" />
+<item name="org.apache.ivy.osgi.core.BundleArtifact.BundleArtifact(boolean, URI, String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setLicense(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setDescription(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setCopyright(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Message.log(int, String)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getLocation(Locator)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getLocator()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 0 0 1 0 0 0 0 0 
+org.apache.ivy.osgi.core.BundleInfo.getVersion()
+org.apache.ivy.osgi.p2.P2Descriptor.addArtifact(BundleInfo, BundleArtifact)
+org.apache.ivy.osgi.core.BundleArtifact.BundleArtifact(boolean, URI, String)
+org.apache.ivy.osgi.core.BundleArtifact.getFormat()
+org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()
+org.apache.ivy.osgi.util.Version.equals(Object)
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)
+org.apache.ivy.osgi.core.BundleInfo.getArtifacts()
+org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)
+org.apache.ivy.osgi.util.Version.ensureSplitted()
+org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)
+org.apache.ivy.osgi.core.BundleInfo.removeArtifact(BundleArtifact)
+org.apache.ivy.osgi.core.BundleArtifact.isSource()
+org.apache.ivy.osgi.p2.P2Descriptor.addArtifactUrl(String, String, Version, URI, String)

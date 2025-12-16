@@ -1,0 +1,62 @@
+[Call]
+30
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 1 1 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 1 1 1 0 0 1 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.Type3FontValidator.checkFontMatrix()
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.preflight.font.Type3FontValidator.checkFontBBox()
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)
+org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)
+org.apache.pdfbox.cos.COSInteger.longValue()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)
+org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()
+org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)
+org.apache.pdfbox.preflight.utils.COSUtils.isArray(COSBase, COSDocument)
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)
+org.apache.pdfbox.cos.COSObject.getObjectNumber()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)
+org.apache.pdfbox.preflight.utils.COSUtils.isNumeric(COSBase, COSDocument)
+org.apache.pdfbox.cos.COSObject.setObject(COSBase)
+org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)
+org.apache.pdfbox.cos.COSObject.COSObject(COSBase)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.preflight.font.container.FontContainer.push(ValidationError)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.preflight.utils.COSUtils.getAsArray(COSBase, COSDocument)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSObject.getGenerationNumber()
+org.apache.pdfbox.preflight.utils.COSUtils.isInteger(COSBase, COSDocument)
+org.apache.pdfbox.preflight.utils.COSUtils.isFloat(COSBase, COSDocument)
+org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)

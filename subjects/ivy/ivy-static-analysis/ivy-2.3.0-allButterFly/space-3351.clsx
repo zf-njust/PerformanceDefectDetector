@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.BuildBundleRepoDescriptorTask.doExecute.AntMessageLogger2.AntMessageLogger2()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

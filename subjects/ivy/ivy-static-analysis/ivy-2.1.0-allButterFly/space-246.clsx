@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.listTokenValues(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.resolveTokenValues(String[], String, Map, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.exist(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.filterNames(Collection)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.getFirstToken(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.filterIgnore(Collection)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

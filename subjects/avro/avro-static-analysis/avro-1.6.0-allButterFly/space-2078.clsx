@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.finishOverflow()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.write(byte[], int, int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.flush()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.compact()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flush()" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.check()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.writeInt(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerFlush()" />
+<item name="org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+</group>
+</group>
+</group>
+</cluster>

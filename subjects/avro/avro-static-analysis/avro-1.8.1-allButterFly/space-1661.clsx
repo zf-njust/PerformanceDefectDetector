@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.ReflectRequestor(Protocol, Transceiver)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.ReflectRequestor(Protocol, Transceiver, ReflectData)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.SpecificRequestor(Protocol, Transceiver, SpecificData)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.Requestor.Requestor(Protocol, Transceiver)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.toCOSObjectList(Collection)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.retainAll(Collection)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.addAll(int, Collection)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.removeAll(Collection)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.addAll(Collection)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.retainAll(Collection)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.removeAll(Collection)" />
+<item name="org.apache.pdfbox.cos.COSArray.addAll(int, Collection)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+</group>
+</group>
+</group>
+</cluster>

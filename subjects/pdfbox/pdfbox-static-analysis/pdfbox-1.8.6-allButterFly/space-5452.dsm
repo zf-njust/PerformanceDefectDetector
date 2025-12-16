@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.pdmodel.font.PDFont.getSubType()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.PDFontDescriptorDictionary(COSDictionary)
+org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.isType1Font()
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.PDFontDescriptorAFM(FontMetric)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontBoundingBox()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.getAFM()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getFontBoundingBox()

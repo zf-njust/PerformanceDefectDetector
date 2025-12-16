@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyMakePom.getArtifactPackaging()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyMakePom.getPomWriterOptions()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setArtifactPackaging(String)" />
+<item name="org.apache.ivy.ant.IvyMakePom.getHeaderFile()" />
+<item name="org.apache.ivy.ant.IvyMakePom.getDescription()" />
+<item name="org.apache.ivy.ant.IvyTask.splitConfs(String)" />
+<item name="org.apache.ivy.ant.IvyMakePom.getTemplateFile()" />
+<item name="org.apache.ivy.util.FileUtil.readEntirely(File)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setConfs(String[])" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setPrintIvyInfo(boolean)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setDescription(String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setTemplate(File)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setMapping(ConfigurationScopeMapping)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setLicenseHeader(String)" />
+<item name="org.apache.ivy.ant.IvyMakePom.isPrintIvyInfo()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setArtifactName(String)" />
+<item name="org.apache.ivy.ant.IvyMakePom.getMappingsMap()" />
+<item name="org.apache.ivy.ant.IvyMakePom.getDependencies()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.setExtraDependencies(List)" />
+<item name="org.apache.ivy.ant.IvyMakePom.getArtifactName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getArtifact()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getOptional()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Mapping.getConf()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getType()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Mapping.getScope()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getVersion()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getGroup()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getClassifier()" />
+<item name="org.apache.ivy.ant.IvyMakePom.Dependency.getScope()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

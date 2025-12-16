@@ -1,0 +1,151 @@
+method,Time,Count
+org.apache.pdfbox.util.PDFStreamEngine.processSubStream(COSStream),72132,67
+"org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)",53663,162271
+sun.java2d.SunGraphics2D.setClip(Shape),40862,34592
+"java.lang.String.format(String, Object[])",28394,335774
+org.apache.fontbox.afm.AFMParser.readString(),25545,153626
+org.apache.pdfbox.pdfparser.PDFStreamParser$1.hasNext(),22472,681062
+org.apache.pdfbox.pdfparser.PDFStreamParser$1.tryNext(),22375,1362057
+org.apache.pdfbox.pdfviewer.PageDrawer.fillPath(int),22202,18124
+org.apache.pdfbox.pdfparser.PDFStreamParser.parseNextToken(),21988,681274
+org.apache.pdfbox.util.PDFStreamEngine.processEncodedText(byte[]),21624,7393
+org.apache.pdfbox.pdfviewer.PageDrawer.processTextPosition(TextPosition),20780,15184
+"org.apache.fontbox.ttf.GlyfCompositeDescript.<init>(TTFDataStream, GlyphTable)",17974,23
+java.lang.StringBuffer.append(char),15993,22563960
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.appendChild(PDOutlineItem),15790,5
+org.apache.fontbox.ttf.GlyfCompositeComp.<init>(TTFDataStream),14688,3579582
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getNextSibling(),14410,8005985
+java.lang.ClassLoader.loadClass(String),11949,10026
+org.apache.fontbox.ttf.MemoryTTFDataStream.readSignedShort(),8843,14326513
+org.apache.pdfbox.io.PushBackInputStream.read(),8373,10066324
+org.apache.pdfbox.io.PushBackInputStream.peek(),8128,4299134
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName),7816,8043545
+"org.apache.pdfbox.util.operator.ShowTextGlyph.process(PDFOperator, List)",7433,227
+java.util.regex.Matcher.matches(),6592,45910
+sun.print.Win32PrintServiceLookup$PrinterChangeListener.run(),6106,1
+"org.apache.pdfbox.filter.LZWFilter.encode(InputStream, OutputStream, COSDictionary, int)",4761,20
+org.apache.pdfbox.filter.LZWDictionary.visit(byte),4625,1369864
+org.apache.fontbox.ttf.MemoryTTFDataStream.read(),3885,36622219
+org.apache.pdfbox.pdmodel.graphics.xobject.CompositeImage.createMaskedImage(COSArray),3794,4
+java.io.ByteArrayInputStream.read(),3484,21527424
+java.lang.StringBuilder.append(String),3311,2304181
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.<init>(COSDictionary),3116,8006002
+org.apache.fontbox.ttf.MemoryTTFDataStream.readUnsignedShort(),3017,3747756
+"java.awt.image.BufferedImage.getRGB(int, int)",2945,1152162
+java.lang.String.charAt(int),2882,28277125
+java.util.ArrayList.add(Object),2876,4482709
+org.apache.xmpbox.type.TypeMapping.initialize(),2513,1607
+org.apache.fontbox.afm.AFMParser.parseFontMetric(),2423,28
+org.apache.xmpbox.type.TypeMapping.<init>(XMPMetadata),2321,1576
+"org.apache.xmpbox.XMPMetadata.<init>(String, String, String, String)",2297,1552
+org.apache.xmpbox.type.TypeMapping.initializePropMapping(Class),2219,30666
+java.util.regex.Pattern.compile(String),1762,49360
+org.apache.xmpbox.XMPMetadata.<init>(),1555,1025
+org.apache.xmpbox.XMPMetadata.createXMPMetadata(),1541,1014
+"java.util.logging.Logger.logp(Level, String, String, String)",1459,938
+"org.apache.pdfbox.lucene.IndexFiles.index(File, boolean, String)",1397,3
+org.apache.pdfbox.lucene.IndexFiles.main(String[]),1356,8
+"org.apache.lucene.index.IndexWriter.<init>(String, Analyzer, boolean, IndexWriter$MaxFieldLength)",1319,3
+org.apache.xmpbox.type.TypeMapping.addNameSpace(Class),1300,14292
+"org.apache.lucene.index.IndexWriter.init(Directory, Analyzer, boolean, boolean, IndexDeletionPolicy, boolean, int)",1265,3
+"java.lang.String.<init>(byte[], int, int, String)",1234,140133
+"java.lang.String.<init>(byte[], String)",1232,131648
+org.apache.fontbox.afm.AFMParser.parseCharMetric(),1182,8344
+org.apache.fontbox.afm.AFMParser.parseKernData(FontMetric),1174,16
+org.apache.fontbox.afm.AFMParser.parseKernPair(),1128,38092
+com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl.newDocumentBuilder(),1086,621
+org.slf4j.LoggerFactory.getLogger(Class),1026,13
+org.apache.lucene.store.Lock.obtain(long),1002,3
+java.lang.Thread.sleep(long) Thread.java,1000,1
+"sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String)",919,9
+org.apache.jempbox.xmp.XMPMetadata.<init>(),837,282
+org.apache.jempbox.impl.XMLUtil.newDocument(),778,283
+"org.apache.xmpbox.XMPMetadata.createXMPMetadata(String, String, String, String)",693,491
+org.apache.xmpbox.xml.DomXmpParser.<init>(),603,300
+"java.lang.String.substring(int, int)",558,1014938
+"java.util.HashMap.put(Object, Object)",490,369895
+org.apache.fontbox.afm.AFMParser.readLine(),471,8680
+org.apache.xmpbox.schema.AbstractSchemaTester.before(),439,150
+java.lang.Class.forName(String),413,170
+java.io.BufferedInputStream.read(),400,1302517
+org.apache.xmpbox.type.AbstractStructuredTypeTester.before(),398,124
+"java.net.URL.<init>(URL, String, URLStreamHandler)",397,13422
+javax.xml.parsers.DocumentBuilderFactory.newInstance(),382,606
+"org.apache.xmpbox.type.PropertiesDescription.addNewProperty(String, PropertyType)",372,204155
+java.util.StringTokenizer.nextToken(),352,135390
+"java.lang.Class.getMethod(String, Class[])",330,1153
+java.lang.Class.getFields(),306,30765
+org.apache.xmpbox.xml.DomXmpParser.parse(InputStream),295,25
+org.apache.fontbox.afm.AFMParser.readFloat(),294,38468
+"org.apache.pdfbox.preflight.action.pdfa1b.AbstractTestAction.valid(COSDictionary, boolean, String)",291,33
+java.io.File.exists(),290,7602
+org.apache.pdfbox.pdmodel.font.PDType1Font.<init>(String),290,31
+java.awt.Color.<clinit>(),288,4
+org.apache.pdfbox.preflight.action.pdfa1b.AbstractTestAction.createContext(),284,33
+java.lang.String.length(),276,2939689
+java.security.KeyStore.getInstance(String),275,11
+org.apache.xmpbox.schema.PhotoshopSchemaTest.before(),273,90
+"org.apache.pdfbox.pdmodel.PDDocument.load(InputStream, RandomAccess)",265,34
+java.io.PrintStream.println(String),264,5258
+org.apache.pdfbox.pdfparser.PDFParser.parse(),230,33
+"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Source, Result)",214,12
+java.lang.reflect.Field.get(Object),212,207656
+org.apache.pdfbox.pdfparser.PDFParser.parseObject(),201,330
+org.apache.xmpbox.type.TestResourceRefType.before(),191,60
+org.apache.xmpbox.schema.DublinCoreTest.before(),172,60
+org.apache.xmpbox.schema.PhotoshopSchema_ESTest.test019(),167,1
+java.lang.String.startsWith(String),146,288447
+"org.apache.pdfbox.cos.COSDocument.<init>(File, boolean)",145,53
+org.apache.lucene.index.SegmentInfos.finishCommit(Directory),140,2
+org.apache.lucene.store.FSDirectory.sync(String),136,2
+java.io.FileDescriptor.sync() FileDescriptor.java,135,2
+com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(InputSource),131,6
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(),122,363
+org.apache.pdfbox.pdfparser.BaseParser.parseDirObject(),120,2805
+javax.xml.parsers.DocumentBuilder.parse(InputStream),117,25
+org.apache.jempbox.xmp.XMPSchemaTest.testIntegerProperty(),112,1
+org.apache.pdfbox.encoding.Encoding.<clinit>(),108,1
+java.lang.Float.parseFloat(String),106,40098
+"org.apache.xmpbox.xml.DomXmpParser.parseDescriptionRoot(XMPMetadata, Element)",100,50
+org.apache.pdfbox.encoding.Encoding.loadGlyphList(String),95,2
+java.util.HashMap.get(Object),88,32635
+org.apache.xmpbox.type.TypeTestingHelper.getJavaValue(Types),87,162
+"org.apache.xmpbox.xml.DomXmpParser.createProperty(XMPMetadata, Element, PropertyType, ComplexPropertyContainer)",86,138
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue(),86,1353
+org.apache.jempbox.impl.DateConverter.<clinit>(),83,2
+org.apache.xmpbox.schema.AbstractSchemaTester.testPropertySetterInArray(),82,30
+org.apache.pdfbox.ant.PDFToTextTask_ESTest.test0(),78,1
+java.util.UUID.randomUUID(),77,141
+org.apache.jempbox.xmp.XMPSchemaTest.testDateConversionNegativeTimeZone(),75,1
+java.util.ArrayList.<init>(),75,119848
+java.text.SimpleDateFormat.<init>(String),72,22
+org.apache.xmpbox.type.TestResourceEventType.before(),72,24
+"com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(String, Object, QName)",62,9
+"org.apache.xmpbox.type.TypeMapping.instanciateSimpleProperty(String, String, String, Object, Types)",60,615
+java.lang.StringBuilder.toString(),57,82541
+org.apache.pdfbox.preflight.parser.TestXmlResultParser.testSameCodeWithDifferentMessages(),57,1
+org.apache.xmpbox.type.TestThumbnailType.before(),57,16
+java.lang.String.substring(int),53,79776
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray(),52,297
+org.apache.xmpbox.schema.AbstractXMPSchemaTest.testGetSetProperty(),47,33
+org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration(),46,45
+java.io.PushbackInputStream.read(),44,70455
+"org.apache.xmpbox.type.AbstractSimpleProperty.<init>(XMPMetadata, String, String, String, Object)",42,810
+"org.apache.xmpbox.xml.DomXmpParser.manageSimpleType(XMPMetadata, Element, Types, ComplexPropertyContainer)",42,93
+org.apache.xmpbox.type.DateType.setValue(Object),40,53
+java.lang.Class.getAnnotation(Class),39,9122
+"org.apache.xmpbox.xml.DomXmpParser.manageArray(XMPMetadata, Element, PropertyType, ComplexPropertyContainer)",39,43
+java.io.File.<init>(String),38,220
+org.apache.xmpbox.xml.XmpSerializer.<init>(),38,20
+"org.apache.xmpbox.xml.DomXmpParser.parseLiElement(XMPMetadata, QName, Element)",36,113
+org.apache.xmpbox.type.DateType.isGoodType(Object),36,53
+java.util.Calendar.getInstance(),35,3
+"org.apache.xmpbox.xml.DomXmpParser.parseLiDescription(XMPMetadata, QName, Element)",35,83
+org.apache.xmpbox.parser.DeserializationTest.init(),34,17
+org.apache.xmpbox.xml.DomXmpParser.parseInitialXpacket(ProcessingInstruction),34,24
+java.util.HashMap.containsKey(Object),33,37591
+java.lang.Integer.toString(int),32,35549
+org.apache.fontbox.cmap.TestCMapParser.testLookup(),24,1
+com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.newDocument(),20,7
+"org.apache.fontbox.cmap.CMapParser.parse(String, InputStream)",19,1
+org.apache.fontbox.cmap.CMapParser.parseNextToken(PushbackInputStream),13,62

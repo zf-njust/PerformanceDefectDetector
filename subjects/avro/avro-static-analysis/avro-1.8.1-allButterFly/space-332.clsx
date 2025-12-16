@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalTypes.fromSchemaImpl(Schema, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalTypes.fromSchema(Schema)" />
+<item name="org.apache.avro.LogicalTypes.fromSchemaIgnoreInvalid(Schema)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.LogicalType.validate(Schema)" />
+<item name="org.apache.avro.LogicalTypes.Decimal.Decimal(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.LogicalTypes.Decimal.hasProperty(Schema, String)" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.LogicalTypes.Decimal.getInt(Schema, String)" />
+<item name="org.apache.avro.LogicalType.LogicalType(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.JsonProperties.getObjectProp(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.equals(Object)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.Schema.equalCachedHash(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

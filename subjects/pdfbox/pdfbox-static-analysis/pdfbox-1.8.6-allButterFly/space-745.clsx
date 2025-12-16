@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent.create(COSName, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFMarkedContentExtractor.beginMarkedContentSequence(COSName, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent.addMarkedContent(PDMarkedContent)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent.getContents()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDArtifactMarkedContent.PDArtifactMarkedContent(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent.PDMarkedContent(COSName, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+</group>
+</cluster>

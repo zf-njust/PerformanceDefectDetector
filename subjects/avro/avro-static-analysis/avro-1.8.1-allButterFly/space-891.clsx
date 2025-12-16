@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Schema, Decoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Decoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.ClassUtils.forName(String)" />
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+</group>
+</group>
+</group>
+</cluster>

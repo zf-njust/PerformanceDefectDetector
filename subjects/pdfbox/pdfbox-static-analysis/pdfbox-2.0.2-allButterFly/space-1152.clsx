@@ -1,0 +1,71 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag1Color()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.collectPatches(PDShadingType6, AffineTransform, Matrix, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag1Edge()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShading.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeForParameter(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag2Color()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag3Color()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.readPatch(ImageInputStream, boolean, Point2D[], float[][], long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag3Edge()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag2Edge()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType4.getBitsPerFlag()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.generatePatch(Point2D[], float[][])" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeValues()" />
+<item name="org.apache.pdfbox.util.Matrix.transformPoint(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.interpolate(float, long, float, float)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

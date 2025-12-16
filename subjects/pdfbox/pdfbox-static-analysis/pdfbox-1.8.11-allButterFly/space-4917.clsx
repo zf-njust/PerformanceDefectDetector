@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignature.PDSignature(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDPushButton.PDPushButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoiceButton.PDChoiceButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.PDSignatureField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDUnknownField.PDUnknownField(PDAcroForm, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

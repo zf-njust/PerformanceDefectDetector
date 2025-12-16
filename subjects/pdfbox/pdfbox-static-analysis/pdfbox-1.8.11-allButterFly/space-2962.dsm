@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.Matrix.reset()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentTransformationMatrix(Matrix)
+org.apache.pdfbox.util.operator.Concatenate.process(PDFOperator, List)
+org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)
+org.apache.pdfbox.util.Matrix.multiply(Matrix)
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.util.Matrix.Matrix()
+org.apache.pdfbox.util.Matrix.setValue(int, int, float)

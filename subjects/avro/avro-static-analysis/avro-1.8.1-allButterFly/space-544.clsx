@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.add_args.isSetNum1()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_argsTupleScheme.write(org.apache.thrift.protocol.TProtocol, add_args)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.isSet(_Fields)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.compareTo(add_args)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.add_args.isSetNum2()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

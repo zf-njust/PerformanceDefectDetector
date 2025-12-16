@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUseMavenMetadata()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.shouldUseMavenMetadata(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.SelectEvent(int, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.keyTyped(KeyEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.keyPressed(KeyEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.mouseClicked(MouseEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.createJumpDialog.(Anon_3).actionPerformed(ActionEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireSelectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getByte(char[])" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireHexValueChanged(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.getByte(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.isHexChar(char)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getIndexForPoint(Point)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getChars(byte)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.size()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.selectionChanged(SelectEvent)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectionChangeListener.selectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.HexChangedEvent(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.getHexIndex()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.getNavigation()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.AddressPane.setSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.setSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangeListener.hexChanged(HexChangedEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.ASCIIPane.setSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.updateStatus(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.putInSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.lineNumber(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.elementIndexInLine(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getPointForIndex(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

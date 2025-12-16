@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.init()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.exists()" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.getContentLength()" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.getLastModified()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.getContentLength()" />
+<item name="org.apache.ivy.util.url.URLHandler.getURLInfo(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.isReachable()" />
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.getLastModified()" />
+</group>
+</group>
+</group>
+</cluster>

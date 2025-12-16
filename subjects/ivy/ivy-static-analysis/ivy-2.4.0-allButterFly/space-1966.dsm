@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.p2.P2MetadataParser.namespace2Type(String)
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.osgi.p2.P2MetadataParser.AbstractRequirementHandler.AbstractRequirementHandler.(Anon_14).childHanlded(RequiredHandler)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.util.VersionRange.toString()
+org.apache.ivy.osgi.util.Version.ensureToString()
+org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.util.Version.ensureSplitted()
+org.apache.ivy.osgi.core.BundleRequirement.toString()
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.IvyContext.peekIvy()

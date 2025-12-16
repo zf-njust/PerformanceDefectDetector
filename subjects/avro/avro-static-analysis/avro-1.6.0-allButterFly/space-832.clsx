@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decodePackHeader(ChannelHandlerContext, Channel, ChannelBuffer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decode(ChannelHandlerContext, Channel, ChannelBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.decodePackBody(ChannelHandlerContext, Channel, ChannelBuffer)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.getDatas()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.NettyDataPack(int, List)" />
+</group>
+</group>
+</group>
+</cluster>

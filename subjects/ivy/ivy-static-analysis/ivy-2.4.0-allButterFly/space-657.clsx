@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getExt()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputArtifacts(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getUnpackedLocalFile()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getType()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getName()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifact()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.isLocal()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadTimeMillis()" />
+<item name="org.apache.ivy.core.report.DownloadStatus.toString()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getLocation()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getSize()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadDetails()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getDownloadReports(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getDependency(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+</group>
+</group>
+</group>
+</cluster>

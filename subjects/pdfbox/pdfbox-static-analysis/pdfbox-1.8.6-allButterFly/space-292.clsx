@@ -1,0 +1,108 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeForOutput(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.eval(float[])" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType4.eval(float[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.clipToRange(float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getDecodeForParameter(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getEncodeForParameter(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.ExecutionContext(Operators)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popReal()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.Rinterpol.rinterpolate()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.Rinterpol.Rinterpol(float[], int[], int[])" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getStack()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getSize()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainForInput(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getBitsPerSample()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.interpolate(float, float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfOutputParameters()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getDecodeValues()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Operators.getOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getEncodeValues()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Operator.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.Rinterpol.rinterpol(int[], int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getOperators()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainValues()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.calcSampleIndex(int[])" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getSamples()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getPDStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfInputParameters()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSStream.getUnfilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeValues()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

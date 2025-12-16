@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.addExtraInfo(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.addProperty(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.addExtraInfos(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getPropertyExtraInfoKey(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addExtraInfo(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfo()" />
+</group>
+</group>
+</group>
+</cluster>

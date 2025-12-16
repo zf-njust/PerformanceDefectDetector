@@ -1,0 +1,159 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.createHeaderPanel(List, String, ActionListener)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.StreamPane(COSStream, boolean, boolean, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexView.HexView()" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getFilterList()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPaneView.getStreamPanel()" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.requestStreamText(String)" />
+<item name="org.apache.pdfbox.debugger.streampane.tooltip.ToolTipController.ToolTipController(PDResources)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.Stream(COSStream, boolean)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexView.getPane()" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPaneView.StreamPaneView()" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.requestImageShowing()" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.isImage()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.DocumentCreator.DocumentCreator(String)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getImage(PDResources)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.createFilterList(COSStream)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexView.changeData(byte[])" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.isImageStream(COSDictionary, boolean)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPaneView.showStreamImage(BufferedImage)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getStream(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getImage()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createThumbnail(COSStream)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getStopFilterList(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.HexModel(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getFilteredLabel()" />
+<item name="org.apache.pdfbox.debugger.streampane.Stream.getPartialStreamCommand(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.getView()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream(List)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.HexEditor(HexModel)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.StreamImageView(BufferedImage)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getColorKeyMask()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getSoftMask()" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getRGBImage(PDImage, COSArray)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.initUI()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.isStencil()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getOpaqueImage()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getMask()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.createView()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources, COSInputStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.applyMask(BufferedImage, BufferedImage, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.repair(PDStream, COSInputStream)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isEmpty()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.UpperPane.UpperPane()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.getDecodeResult()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.scaleImage(BufferedImage, int, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.StatusPane()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getBitsPerComponent()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.addSelectionChangeListener(SelectionChangeListener)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.fromAny(PDImage, WritableRaster, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getDecodeArray(PDImage)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.HexPane(HexModel)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.AddressPane.AddressPane(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.ASCIIPane.ASCIIPane(HexModel)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from8bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getHeight()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getDefaultDecode(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.getScrollPane()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from1Bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.addHexModelChangeListener(HexModelChangeListener)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(PDStream, COSName)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getJPXColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getWidth()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.totalLine()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.addHexChangeListeners(HexChangeListener)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isStencil()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.createInputStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getParameters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getDecode()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.applyColorKeyMask(BufferedImage, BufferedImage)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.createView()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGBImage(WritableRaster)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.size()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.PDShadingPattern()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.PDTilingPattern()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

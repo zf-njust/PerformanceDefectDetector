@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.StatsPlugin.publish(RPCContext, Stopwatch)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsPlugin.serverSendResponse(RPCContext)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.clientReceiveResponse(RPCContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.stats.Stopwatch.stop()" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.getPayloadSize(List)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram()" />
+<item name="org.apache.avro.ipc.RPCContext.getRequestPayload()" />
+<item name="org.apache.avro.ipc.RPCContext.getResponsePayload()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.stats.IntegerHistogram.IntegerHistogram(Segmenter)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.createNewFloatHistogram()" />
+<item name="org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()" />
+<item name="org.apache.avro.ipc.RPCContext.getMessage()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.FloatHistogram(Segmenter)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.stats.Histogram.Histogram(Segmenter)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.ipc.stats.Histogram.Segmenter.size()" />
+</group>
+</group>
+</group>
+</cluster>

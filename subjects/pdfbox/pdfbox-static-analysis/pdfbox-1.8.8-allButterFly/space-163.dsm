@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 1 1 1 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.ResourceLoader.loadResource(String)
+org.apache.pdfbox.util.TextNormalize.findICU4J()
+org.apache.pdfbox.util.PDFTextStripper.setPageEnd(String)
+org.apache.pdfbox.util.PDFText2HTML.PDFText2HTML(String)
+org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)
+org.apache.pdfbox.util.PDFTextStripper.setArticleEnd(String)
+org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)
+org.apache.pdfbox.util.PDFTextStripper.setLineSeparator(String)
+org.apache.pdfbox.util.PDFTextStripper.setPageStart(String)
+org.apache.pdfbox.util.PDFTextStripper.setArticleStart(String)
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper(String)
+org.apache.pdfbox.util.PDFTextStripper.setParagraphStart(String)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.ICU4JImpl.ICU4JImpl()
+org.apache.pdfbox.util.PDFTextStripper.setParagraphEnd(String)
+org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)
+org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)
+org.apache.pdfbox.util.TextNormalize.TextNormalize(String)

@@ -1,0 +1,636 @@
+method,Time,Count
+java.lang.Thread.sleep(long) Thread.java,2290934,22756
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(),1743928,19402
+"java.io.FileInputStream.read(byte[], int, int)",521376,15626
+java.io.FilterInputStream.read(byte[]),521320,8308
+java.lang.ClassLoader.loadClass(String),489504,439244
+java.io.BufferedInputStream.read(),340340,9335126
+java.lang.ProcessImpl.waitFor(),249346,6
+java.io.FileInputStream.read(byte[]),249024,156
+java.lang.Thread.run(),222462,20
+"org.apache.catalina.startup.ContextConfig.processAnnotationsStream(InputStream, WebXml, boolean)",164188,90534
+org.apache.tomcat.util.bcel.classfile.ClassParser.parse(),163256,90534
+"org.apache.derby.impl.store.raw.data.RAFContainer.writeRAFHeader(StorageRandomAccessFile, boolean,",135256,1134
+sun.nio.ch.FileChannelImpl.force(boolean),132394,1164
+"org.apache.derby.impl.store.raw.data.BaseDataFileFactory.addContainer(RawTransaction, long, long, int, Properties,",104232,578
+java.io.DataInputStream.readByte(),90514,63558
+"org.apache.derby.impl.services.cache.Clock.addEntry(CachedItem, Object, boolean,",87650,4836
+"org.apache.derby.impl.services.cache.CachedItem.takeOnIdentity(CacheManager, CacheableFactory, Object, boolean,",87594,4836
+org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(DataInputStream),87270,90534
+"org.apache.derby.impl.services.cache.Clock.create(Object,",84942,2840
+org.apache.tomcat.util.bcel.classfile.Constant.readConstant(DataInputStream),84740,11544860
+java.io.File.exists(),71148,1607114
+"org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Activation, boolean,",64412,752
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass(),58336,690
+"org.apache.tomcat.util.bcel.classfile.FieldOrMethod.<init>(DataInputStream, ConstantPool)",57818,1078210
+java.lang.ClassLoader.getResource(String),57580,75738
+org.apache.tomcat.util.bcel.classfile.ClassParser.readMethods(),55224,90534
+"org.apache.tomcat.util.bcel.classfile.Method.<init>(DataInputStream, ConstantPool)",54860,763832
+org.apache.tomcat.util.bcel.classfile.ConstantUtf8.getInstance(DataInputStream),54814,6278016
+"java.net.URL.<init>(URL, String)",54536,2260856
+"org.apache.tomcat.util.bcel.classfile.Attribute.readAttribute(DataInputStream, ConstantPool)",52566,2404296
+java.io.DataInputStream.readUnsignedShort(),49654,38998986
+java.lang.StringBuilder.append(String),43784,23262574
+"org.apache.tomcat.util.bcel.classfile.Code.<init>(int, int, DataInputStream, ConstantPool)",43470,688398
+"java.io.RandomAccessFile.write(byte[], int, int)",38798,3654
+org.apache.cxf.sts.token.provider.SAMLTokenProvider.createToken(TokenProviderParameters),36738,332
+"org.apache.derby.impl.store.access.RAMTransaction.createConglomerate(String, DataValueDescriptor[], ColumnOrdering[], Properties,",36524,274
+"org.apache.derby.impl.sql.GenericPreparedStatement.execute(Activation, boolean,",34186,752
+java.net.URLClassLoader.getResourceAsStream(String),34182,17330
+sun.misc.CompoundEnumeration.hasMoreElements(),34062,47444
+"org.apache.derby.jdbc.InternalDriver.connect(String,",33952,148
+"org.apache.derby.impl.jdbc.EmbedConnection.<init>(InternalDriver, String,",33870,148
+org.apache.cxf.bus.extension.ExtensionManagerImpl.loadAndRegister(Extension),33614,10474
+org.apache.cxf.bus.extension.ExtensionManagerBus.getExtension(Class),31700,31072
+org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(SoapMessage),29030,198
+org.apache.cxf.workqueue.AutomaticWorkQueueTest$TestWorkItem.run(),28356,4822
+org.apache.cxf.workqueue.AutomaticWorkQueueImpl$3.run(),28088,4710
+"org.apache.derby.impl.store.raw.data.FileContainer.createIdent(ContainerKey,",27446,274
+"org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(Map, Map, ClassLoader)",26758,1266
+java.io.DataInputStream.readUTF(),26736,6279284
+org.apache.cxf.tools.wadlto.jaxrs.JAXRSContainer.processWadl(),25866,54
+org.apache.tomcat.util.bcel.classfile.ConstantUtf8.getInstance(String),25190,6278016
+com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl.newTransformer(Source),25060,186
+"org.apache.derby.impl.store.access.heap.Heap.create(Transaction, int, long, DataValueDescriptor[], Properties,",25014,184
+java.lang.String.charAt(int),23824,205614166
+org.apache.tomcat.util.bcel.classfile.ConstantUtf8.getCachedInstance(String),23472,6278016
+"org.apache.wss4j.dom.WSSecurityEngine.processSecurityHeader(Element, RequestData)",22608,198
+org.apache.cxf.aegis.databinding.AegisDatabinding.initialize(Service),22256,244
+"org.apache.cxf.bus.extension.Extension.load(ClassLoader, Bus)",22210,9490
+"org.apache.derby.impl.store.raw.log.LogToFile.flush(long,",21722,2930
+java.io.DataInputStream.readInt(),20492,3253376
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL(String),20226,118
+"java.util.ResourceBundle.getBundle(String, Locale, ClassLoader)",20172,10154
+java.lang.String.startsWith(String),20040,42390776
+"org.apache.cxf.bus.spring.SpringBusFactory.createBus(String[], boolean)",19612,46
+"org.apache.derby.impl.store.raw.log.FileLogger.undo(RawTransaction, TransactionId, LogInstant,",19496,142
+org.apache.pdfbox.util.PDFStreamEngine.processSubStream(COSStream),19140,40
+"org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)",18992,52980
+java.security.Signature.sign(),18498,326
+org.apache.cxf.jaxb.JAXBDataBinding.initialize(Service),18184,514
+org.apache.cxf.wsdl11.WSDLManagerImpl.loadDefinition(String),17468,316
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createOperation(ServiceInfo, InterfaceInfo, Method)",17368,1904
+"org.apache.cxf.bus.extension.ExtensionManagerImpl.getBeanOfType(String, Class)",17334,7804
+org.apache.cxf.bus.extension.ExtensionManagerImpl.getBeansOfType(Class),17132,9200
+"org.apache.derby.impl.store.raw.log.LogAccessFile.writeToLog(byte[], int,",17100,822
+"org.apache.derby.impl.store.raw.log.FileLogger.logAndUndo(RawTransaction, Compensation, LogInstant,",16896,538
+"org.apache.cxf.bus.extension.ExtensionManagerImpl.load(String, ClassLoader)",16438,1164
+org.apache.cxf.aegis.AegisContext.initialize(),15996,638
+"org.apache.cxf.helpers.XPathUtils.getValue(String, Node, QName)",15930,7220
+"org.apache.xerces.impl.xs.XMLSchemaValidator.handleStartElement(QName, XMLAttributes,",15612,1826
+"org.apache.cxf.aegis.databinding.AegisDatabinding.initializeMessage(Service, TypeMapping, AbstractMessageContainer, int, Set)",15500,2322
+org.apache.cxf.tools.corba.processors.idl.IDLToWSDLProcessor.parseIDL(AST),14352,134
+"org.apache.cxf.staxutils.StaxUtils.readDocElements(Document, Node, XMLStreamReader, boolean, boolean, boolean)",14220,1098
+org.apache.cxf.tools.validator.WSDLValidator.execute(boolean),14098,36
+java.lang.Class.getResourceAsStream(String),13926,6850
+java.net.DatagramSocket.receive(DatagramPacket),13698,570
+java.lang.Class.forName(String),13462,20580
+"org.apache.cxf.aegis.type.DefaultTypeMapping.createDefaultTypeMapping(boolean, boolean, boolean)",13436,608
+"java.net.SocketInputStream.read(byte[], int, int)",13434,60
+"org.apache.tomcat.util.bcel.classfile.LineNumberTable.<init>(int, int, DataInputStream, ConstantPool)",13418,655034
+org.apache.cxf.tools.common.ClassUtils.compile(ToolContext),13320,12
+"org.apache.derby.impl.sql.GenericStatement.prepMinion(LanguageConnectionContext, boolean, Object[], SchemaDescriptor,",13224,800
+"org.apache.cxf.aegis.databinding.AegisDatabinding.getParameterType(Service, TypeMapping, MessagePartInfo, int)",13148,1582
+javax.xml.datatype.DatatypeFactory.newInstance(),12958,5454
+java.util.HashSet.isEmpty(),12916,24960
+"org.apache.cxf.common.util.ReflectionInvokationHandler.invoke(Object, Method, Object[])",12812,27648
+"org.apache.cxf.common.classloader.ClassLoaderUtils.loadClass(String, Class)",12752,7950
+sun.net.www.protocol.http.HttpURLConnection.getInputStream(),12724,752
+org.apache.cxf.aegis.type.AbstractTypeCreator.createTypeForClass(TypeClassInfo),12694,3878
+com.sun.tools.javac.api.JavacTaskImpl.call(),12442,14
+"org.apache.cxf.common.annotation.AnnotationProcessor.processMethods(AnnotationVisitor, Class)",12404,5526
+"javax.xml.bind.JAXBContext.newInstance(Class[], Map)",12168,1204
+org.apache.cxf.tools.validator.internal.WSDL11Validator.isValid(),12100,38
+"org.apache.cxf.staxutils.StaxUtils.read(XMLStreamReader, boolean)",11462,662
+"org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(EmbedConnection, String, boolean, int, int, int, int, int[],",11358,616
+org.apache.cxf.aegis.type.java5.XMLGregorianCalendarType.<init>(),10806,4528
+"org.apache.cxf.common.logging.LogUtils.createLogger(Class, String, String)",10588,2430
+"org.apache.cxf.management.web.logging.ReadOnlyFileStorageTest.readPage(int, SearchCondition, int, int)",10432,86
+"org.apache.cxf.management.web.logging.ReadOnlyFileStorage.load(List, SearchCondition, int, int)",10430,86
+java.net.HttpURLConnection.getResponseCode(),10342,326
+org.apache.cxf.management.web.logging.ReadOnlyFileStorage.readRecord(ReadOnlyFileStorage$FileInfo),10330,1238
+"java.lang.String.format(String, Object[])",9954,93728
+"org.apache.cxf.management.web.logging.ReadOnlyFileStorage.readTheLine(RandomAccessFile, Map, int)",9478,2720
+"org.apache.cxf.bus.spring.TunedDocumentLoader.loadDocument(InputSource, EntityResolver, ErrorHandler, int, boolean)",9458,94
+java.io.RandomAccessFile.readLine(),9426,2682
+org.apache.cxf.bus.spring.ControlledValidationXmlBeanDefinitionReader.loadBeanDefinitions(EncodedResource),9422,70
+"org.apache.cxf.bus.spring.ControlledValidationXmlBeanDefinitionReader.doLoadBeanDefinitions(InputSource, Resource)",9364,70
+"org.apache.cxf.common.jaxb.JAXBContextCache.addJaxbObjectFactory(JAXBException, Set)",9188,824
+"org.apache.wss4j.dom.processor.EncryptedKeyProcessor.handleToken(Element, RequestData, WSDocInfo, AlgorithmSuite)",9112,80
+"org.apache.cxf.bus.CXFBusFactory.createBus(Map, Map)",9092,432
+org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(Message),8974,460
+org.apache.cxf.tools.common.toolspec.parser.CommandDocument.getParameters(String),8754,1432
+org.apache.cxf.tools.common.toolspec.ToolSpec.getParameterDefault(String),8696,680
+org.apache.cxf.tools.common.toolspec.ToolSpec.getElementById(String),8674,680
+"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Source, Result)",8670,876
+"java.io.File.<init>(File, String)",8538,417816
+"org.apache.cxf.common.classloader.ClassLoaderUtils.getResource(String, Class)",8482,1196
+org.apache.cxf.aegis.type.XMLTypeCreator.findMapping(Type),8294,6200
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createInterface(ServiceInfo),7804,276
+java.net.URL.openStream(),7726,12682
+org.apache.cxf.bus.extension.ExtensionManagerImpl$1.run(),7674,14436
+com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(InputSource),7504,436
+"org.apache.pdfbox.util.operator.SetTextFont.process(PDFOperator, List)",7494,2820
+org.apache.pdfbox.util.PDFStreamEngine.getFonts(),7482,2820
+"com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(String, Object, QName)",7444,536
+"org.bouncycastle.crypto.engines.RSABlindedEngine.processBlock(byte[], int,",7308,270
+org.apache.cxf.common.i18n.BundleUtils.getBundle(Class),7256,1732
+org.apache.cxf.common.injection.ResourceInjector.inject(Object),7218,7248
+"org.apache.cxf.common.injection.ResourceInjector.inject(Object, Class)",7214,7248
+org.apache.cxf.tools.common.toolspec.parser.CommandDocument.hasParameter(String),7162,760
+"sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String)",7156,58
+"java.math.BigInteger.modPow(BigInteger, BigInteger)",7072,580
+"org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine.addServant(URL, JettyHTTPHandler)",7068,26
+java.util.regex.Matcher.find(),6788,118064
+"java.beans.Introspector.getBeanInfo(Class, Class)",6762,618
+javax.xml.parsers.DocumentBuilder.parse(InputStream),6516,528
+"org.apache.cxf.xmlbeans.XmlBeansSchemaInitializer.mapClass(MessagePartInfo, Class)",6446,350
+"org.apache.cxf.aegis.type.XMLTypeCreator.createClassInfo(Method, int)",6426,1556
+"org.apache.cxf.common.jaxb.JAXBContextCache.getCachedContextAndSchemas(Set, String, Map, Collection, boolean)",6402,338
+org.apache.cxf.sdo.SDODataBinding.initialize(Service),6382,16
+"java.lang.reflect.Proxy.newProxyInstance(ClassLoader, Class[], InvocationHandler)",6348,27336
+java.io.DataInputStream.readBoolean(),6336,1700
+org.apache.cxf.jaxws.support.JaxWsServiceConfiguration.getResponseWrapper(Method),6248,1802
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createOutputWrappedMessageParts(OperationInfo, Method, MessageInfo)",6226,1670
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createInputWrappedMessageParts(OperationInfo, Method, MessageInfo)",6206,1690
+"org.apache.cxf.common.annotation.AnnotationProcessor.accept(AnnotationVisitor, Class)",6188,1906
+java.net.URL.openConnection(),6158,15926
+org.apache.cxf.tools.common.toolspec.parser.CommandLineParser.parseArguments(String[]),6058,100
+org.apache.cxf.ws.security.wss4j.AbstractSecurityTest.getSoapMessageForDom(Document),5670,180
+org.apache.cxf.aegis.type.AbstractTypeCreator.createType(Type),5638,884
+"org.apache.cxf.wsdl.JAXBExtensionHelper.createExtensionClass(Class, QName)",5562,654
+javax.crypto.Cipher.getInstance(String),5560,32
+"org.apache.cxf.tools.wadlto.jaxrs.SourceGenerator.createCodeModel(List, Set)",5446,40
+java.lang.Class.getResource(String),5426,3378
+java.lang.reflect.Method.getParameterAnnotations(),5378,32500
+org.apache.cxf.ws.rm.persistence.jdbc.RMTxStoreConfigurationTest.testTxStoreBean(),5124,2
+com.sun.xml.internal.messaging.saaj.soap.MessageImpl.saveChanges(),5108,236
+javax.crypto.KeyGenerator.getInstance(String),5056,44
+"org.apache.cxf.ws.rm.persistence.jdbc.RMTxStore.verifyTable(Connection, String, String[][])",5056,132
+org.apache.cxf.bus.extension.TextExtensionFragmentParser.getExtensions(InputStream),4964,10558
+org.apache.cxf.management.jmx.BusRegistrationTest.testRegisterMultipleBuses(String),4962,4
+"org.apache.cxf.wsdl11.WSDLServiceBuilder.buildServices(Definition, Service, QName, DescriptionInfo)",4950,258
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.initializeWSDLOperations(),4850,108
+"java.lang.Class.getMethod(String, Class[])",4772,29412
+"org.apache.cxf.aegis.type.XMLTypeCreator.getMatch(Node, String)",4682,4894
+java.lang.Class.getConstructor(Class[]),4596,34184
+"org.apache.cxf.wsdl.JAXBExtensionHelper.addExtensions(ExtensionRegistry, Class, Class, String)",4548,634
+org.apache.cxf.aegis.type.XMLTypeCreator.getDocument(Class),4534,6198
+org.apache.cxf.common.logging.LogUtils.getL7dLogger(Class),4488,970
+"org.apache.cxf.tools.common.toolspec.ToolSpec.transform(InputStream, OutputStream)",4458,24
+org.apache.cxf.tools.corba.processors.idl.IDLProcessor.process(),4388,134
+"org.apache.ws.commons.schema.SchemaBuilder.handleXmlSchemaElement(Element, String)",4376,184
+org.apache.cxf.bus.spring.BusApplicationContext.loadBeanDefinitions(DefaultListableBeanFactory),4342,10
+"org.apache.ws.commons.schema.SchemaBuilder.handleSchemaElementChild(Element, Element)",4234,1862
+"org.apache.derby.impl.store.raw.data.RAFContainer.padFile(StorageRandomAccessFile,",4228,158
+"org.apache.cxf.tools.corba.processors.idl.WSDLASTVisitor.<init>(String, String, String, String)",4088,134
+"org.apache.derby.impl.sql.catalog.DataDictionaryImpl.getDescriptorViaIndex(int, ExecIndexRow, ScanQualifier[][], TabInfoImpl, TupleDescriptor, List,",4084,2874
+org.apache.cxf.tools.corba.processors.idl.WSDLASTVisitor.visit(AST),3936,134
+org.apache.cxf.bus.spring.ControlledValidationXmlBeanDefinitionReader$1.run(),3932,40
+org.apache.cxf.aegis.type.basic.BeanTypeInfo.getType(QName),3742,4684
+java.security.KeyPairGenerator$Delegate.generateKeyPair(),3738,4
+org.apache.cxf.aegis.type.AbstractTypeCreator.createType(PropertyDescriptor),3730,1188
+org.apache.cxf.bus.extension.Extension.getClassObject(ClassLoader),3730,32952
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.getResponseWrapper(Method),3704,1528
+"org.apache.cxf.common.injection.ResourceInjector.visitMethod(Method, Annotation)",3680,212
+org.apache.cxf.tools.corba.processors.idl.WSDLSchemaManager.createWSDLDefinition(String),3672,168
+org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessage(SoapMessage),3642,72
+"org.apache.wss4j.dom.handler.WSHandler.doSenderAction(Document, RequestData, List, boolean)",3610,68
+org.apache.cxf.tools.wadlto.jaxrs.SourceGenerator.getSchemaElements(SourceGenerator$Application),3542,56
+org.apache.cxf.binding.soap.SoapBindingFactory.createSoapBinding(SoapBindingInfo),3512,300
+com.sun.xml.internal.messaging.saaj.soap.SOAPPartImpl.getEnvelope(),3460,3018
+"org.apache.cxf.tools.wadlto.jaxrs.SourceGenerator.createSchemaInfo(Element, String)",3442,46
+org.opensaml.xml.io.AbstractXMLObjectMarshaller.<init>(),3442,2124
+"org.apache.ws.commons.schema.XmlSchemaCollection.read(Element, String)",3430,46
+org.apache.cxf.frontend.AbstractWSDLBasedEndpointFactory.createEndpoint(),3392,26
+"org.bouncycastle.crypto.encodings.PKCS1Encoding.decodeBlock(byte[], int,",3388,164
+"org.apache.cxf.wsdl11.SchemaUtil.extractSchema(Definition, SchemaCollection, List)",3384,276
+org.apache.cxf.aegis.type.XMLTypeCreator.isEnum(Class),3334,2586
+org.apache.jcp.xml.dsig.internal.dom.DOMXMLSignature.sign(XMLSignContext),3328,56
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine.shutdown(),3320,70
+org.apache.cxf.tools.corba.processors.idl.IDLParser.specification(),3304,134
+java.lang.String.length(),3228,26045532
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createMessageParts(InterfaceInfo, OperationInfo, Method)",3226,1256
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineTest.testaddServants(),3198,2
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.create(),3198,36
+java.lang.System.gc(),3156,142
+"org.apache.derby.impl.jdbc.EmbedDatabaseMetaData.prepareSPS(String, String,",3144,134
+java.beans.Introspector.getBeanInfo(Class),3128,370
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.getRequestWrapper(Method),3122,1628
+org.apache.cxf.jaxws.support.JaxWsServiceConfiguration.getRequestWrapper(Method),3116,1616
+com.ibm.wsdl.factory.WSDLFactoryImpl.newPopulatedExtensionRegistry(),3094,416
+org.apache.cxf.jaxrs.client.JAXRSClientFactoryBeanTest.testCreateClientWithTwoUserResources(),3084,2
+"org.apache.cxf.wsdl11.SchemaUtil.getSchemas(Definition, SchemaCollection, List)",3082,244
+org.apache.activemq.thread.PooledTaskRunner$1.run(),2966,1684
+org.apache.activemq.thread.PooledTaskRunner.runTask(),2962,1684
+"org.mozilla.javascript.Context.evaluateReader(Scriptable, Reader, String, int, Object)",2960,18
+org.apache.neethi.PolicyBuilder.getPolicyOperator(Object),2832,1182
+org.apache.cxf.tools.corba.processors.idl.IDLLexer.nextToken(),2818,16966
+"org.apache.neethi.PolicyBuilder.processOperationElement(Object, PolicyOperator)",2796,1668
+javax.net.ssl.SSLContext.getInstance(String),2776,8
+org.apache.neethi.AssertionBuilderFactoryImpl.build(Object),2776,2028
+org.apache.activemq.transport.ResponseCorrelator.onCommand(Object),2768,1136
+org.apache.cxf.ws.rm.soap.RMSoapInInterceptorTest.setUpInboundMessage(String),2730,8
+"org.eclipse.xsd.util.XSDResourceImpl.load(InputSource, Map)",2698,12
+org.apache.cxf.rs.security.oauth2.utils.crypto.CryptoUtilsTest.testBearerTokenJSONCertificate(),2688,2
+com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl.newDocumentBuilder(),2678,776
+"org.apache.cxf.common.util.ReflectionUtil.getPropertyDescriptorsAvoidSunBug(Class, BeanInfo, Class, PropertyDescriptor[])",2634,542
+"org.apache.cxf.helpers.FileUtils.removeDir(File, boolean)",2614,70
+"org.apache.cxf.helpers.FileUtils.delete(File, boolean)",2580,112
+"org.apache.cxf.jaxrs.model.ClassResourceInfo.<init>(Class, Class, boolean, boolean, Bus)",2570,454
+"org.apache.cxf.transport.http_jetty.JettyHTTPDestinationTest.setUpDestination(boolean, boolean)",2562,30
+java.lang.StringBuffer.append(char),2526,3862588
+org.apache.cxf.aegis.type.basic.BeanType.getDependencies(),2506,436
+org.apache.cxf.rs.security.oauth2.tokens.hawk.HawkAccessTokenValidatorTest.testValidateAccessToken(),2504,2
+org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(),2496,78
+javax.xml.bind.JAXBException.printStackTrace(PrintStream),2462,536
+"org.apache.cxf.binding.xml.interceptor.TestBase.common(String, QName, Class[])",2458,14
+"org.apache.cxf.wsdl11.WSDLServiceBuilder.getSchemas(Definition, ServiceInfo)",2426,208
+"org.apache.cxf.wsdl.service.factory.DefaultServiceConfiguration.getDefaultLocalName(OperationInfo, Method, int, String)",2400,2544
+org.apache.cxf.ws.rm.DestinationSequenceTest.testMonitor(),2400,2
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.getInParameterName(OperationInfo, Method, int)",2378,1362
+org.apache.cxf.wsdl.service.factory.ParamReader.getParameterNamesFromDebugInfo(Method),2342,1168
+"java.io.BufferedInputStream.read(byte[], int, int)",2322,9278
+org.apache.cxf.bus.extension.ExtensionManagerBus.initialize(),2290,72
+"org.apache.cxf.aegis.databinding.AegisDatabinding.addDependencies(Set, AegisType)",2276,2578
+org.apache.cxf.transport.http.HTTPConduit.prepare(Message),2276,34
+org.apache.cxf.tools.corba.processors.idl.DefinitionVisitor.visit(AST),2254,942
+"org.apache.cxf.jaxrs.model.AbstractResourceInfo.findContexts(Class, Object, Map)",2246,534
+java.io.File.<init>(String),2222,19720
+"org.apache.cxf.transport.http.URLConnectionHTTPConduit.setupConnection(Message, URI, HTTPClientPolicy)",2194,34
+"org.apache.cxf.transport.http.URLConnectionHTTPConduit.createConnection(Message, URI, HTTPClientPolicy)",2184,34
+"org.apache.cxf.jaxrs.model.BeanResourceInfo.<init>(Class, Class, boolean, boolean, Bus)",2150,364
+javax.xml.transform.TransformerFactory.newInstance(),2138,674
+"org.apache.cxf.binding.soap.SoapBindingFactory.createBindingInfo(ServiceInfo, String, Object)",2122,244
+org.apache.cxf.bus.spring.SpringBus.setApplicationContext(ApplicationContext),2082,34
+"org.apache.cxf.jaxrs.utils.ResourceUtils.evaluateResourceClass(ClassResourceInfo, boolean)",2074,302
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineTest.testHttpAndHttps(),2070,2
+org.apache.cxf.tools.corba.processors.idl.IDLParser.definition(),2060,942
+"org.apache.cxf.aegis.type.XMLTypeCreator.getMatches(Node, String)",2044,1476
+org.apache.cxf.jaxrs.provider.aegis.AbstractAegisProvider.getClassContext(Type),2038,38
+org.apache.cxf.ws.rm.SourceSequenceTest.testSetExpires(),2020,2
+org.apache.cxf.management.jmx.MBServerConnectorTest.testMBServerConnector(),2010,2
+org.apache.cxf.tools.corba.IDLToWSDL.checkParams(ErrorVisitor),2010,32
+"org.apache.cxf.rs.security.oauth2.jwe.JweCompactReaderWriterTest.decrypt(String, String, boolean)",2006,4
+org.apache.xml.resolver.CatalogManager.readProperties(),1994,516
+org.eclipse.jetty.server.Server.addConnector(Connector),1994,14
+org.apache.cxf.rs.security.oauth2.jwe.AbstractJweDecryption.doDecrypt(JweCompactConsumer),1990,6
+org.apache.cxf.rs.security.oauth2.jwe.WrappedKeyJweDecryption.getContentEncryptionKey(JweCompactConsumer),1978,4
+"org.apache.cxf.jaxrs.model.AbstractResourceInfo.findContextFields(Class, Object)",1968,1316
+org.apache.cxf.ws.rm.soap.RetransmissionQueueImplTest.createMock(Class),1920,188
+org.apache.cxf.tools.wsdlto.core.WSDLDefinitionBuilder.registerWSDLExtensibilityPlugins(ExtensionRegistry),1914,58
+org.apache.cxf.tools.corba.IDLToWSDLTest.tearDown(),1912,40
+org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.setResourceClasses(List),1892,124
+javax.xml.validation.SchemaFactory.newSchema(Source),1882,38
+org.apache.cxf.jaxrs.provider.ServerProviderFactory.createInstance(Bus),1882,500
+"org.apache.cxf.jaxrs.utils.ResourceUtils.createClassResourceInfo(Class, Class, ClassResourceInfo, boolean, boolean, Bus)",1870,264
+"java.net.URL.<init>(URL, String, URLStreamHandler)",1868,72826
+org.apache.cxf.wsdl11.WSDLServiceBuilder.buildMockServices(Definition),1864,88
+org.apache.cxf.aegis.type.XMLTypeCreator.createClassInfo(PropertyDescriptor),1856,1174
+org.apache.activemq.transport.vm.VMTransportFactory.doCompositeConnect(URI),1844,28
+org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWithValues(Object[]),1840,34
+"org.apache.cxf.aegis.type.java5.Java5TypeCreator.getOrCreateParameterizedType(TypeClassInfo, int, boolean)",1822,740
+"org.apache.cxf.jaxrs.model.AbstractResourceInfo.getFieldThreadLocalProxy(Field, Object)",1796,1858
+org.apache.cxf.bus.extension.ExtensionManagerImpl.activateAllByType(Class),1796,114
+java.util.Properties.loadFromXML(InputStream),1794,108
+"org.apache.xerces.impl.XMLEntityScanner.scanData(String,",1770,76684
+java.lang.ClassLoader.getSystemResource(String),1766,856
+sun.nio.ch.WindowsSelectorProvider.openSelector(),1762,576
+java.lang.ClassLoader.getSystemResourceAsStream(String),1754,848
+"org.apache.xerces.impl.xs.traversers.XSDElementTraverser.traverseNamedElement(Element, Object[], XSDocumentInfo, SchemaGrammar, boolean,",1738,7220
+org.apache.cxf.jaxrs.utils.InjectionUtils.createThreadLocalProxy(Class),1722,2424
+"org.springframework.core.io.support.PropertiesLoaderUtils.loadAllProperties(String, ClassLoader)",1714,152
+"com.sun.org.apache.xml.internal.serialize.DOMSerializerImpl.write(Node, LSOutput)",1706,164
+org.apache.cxf.rs.security.oauth2.jwe.JweCompactReaderWriterTest.testEncryptDecryptJwsToken(),1700,2
+"org.apache.cxf.wsdl11.WSDLServiceBuilder.buildMockService(Definition, PortType)",1678,98
+"org.apache.cxf.bus.extension.Extension.tryClass(String, ClassLoader)",1670,4464
+"org.apache.xerces.impl.xs.traversers.XSAttributeChecker.checkAttributes(Element, boolean,",1664,84796
+org.apache.cxf.binding.soap.TestBase.getMockedServiceModel(String),1660,12
+"org.apache.xerces.impl.xs.traversers.XSAttributeChecker.checkAttributes(Element, boolean, XSDocumentInfo,",1654,86884
+"org.apache.cxf.rs.security.oauth2.utils.crypto.CryptoUtils.processBytes(byte[], Key, KeyProperties, int)",1648,76
+org.apache.cxf.BusFactory.getThreadDefaultBus(boolean),1640,1042
+org.apache.cxf.BusFactory.getThreadDefaultBus(),1640,812
+org.apache.cxf.xkms.x509.repo.ldap.LDAPCertificateRepoTest.testSaveServiceCert(),1636,2
+"org.apache.cxf.tools.corba.processors.idl.WSDLSchemaManager.attachSchemaToWSDL(Definition, XmlSchema, boolean)",1634,132
+"org.apache.cxf.wsdl11.ServiceWSDLBuilderTest.setupWSDL(String, boolean)",1624,22
+com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl.newTemplates(Source),1614,26
+com.ibm.wsdl.xml.WSDLReaderImpl.readWSDL(String),1580,28
+org.apache.cxf.ws.rm.policy.PolicyUtilsTest.testGetRMConfiguration(),1564,2
+org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean.getExtraClass(),1554,242
+org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean.generatedWrapperBeanClass(),1542,242
+"org.apache.cxf.wsdl11.SchemaSerializer.writeXml(Node, PrintWriter)",1526,190
+javax.wsdl.factory.WSDLFactory.newInstance(),1516,596
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.generateWADL(String, List, boolean, Message, UriInfo)",1514,20
+"org.apache.xerces.impl.xs.opti.SchemaDOMParser.startElement(QName, XMLAttributes,",1508,71864
+org.apache.cxf.rs.security.oauth2.utils.crypto.CryptoUtilsTest.testBearerTokenCertAndSecretKey(),1502,2
+org.apache.cxf.test.AbstractCXFTest.setUpBus(),1490,56
+org.apache.cxf.tools.corba.processors.idl.ModuleVisitor.visit(AST),1482,176
+org.apache.cxf.bus.spring.SpringBeanLocator.getBeansOfType(Class),1472,74
+org.apache.cxf.bus.managers.CXFBusLifeCycleManager.initComplete(),1460,26
+org.apache.cxf.jaxws.WrapperClassGenerator.generate(),1426,210
+org.apache.cxf.tools.validator.internal.Stax2DOM.getDocument(String),1414,64
+"org.apache.cxf.jaxws.WrapperClassGenerator.createWrapperClass(MessagePartInfo, MessageInfo, OperationInfo, Method, boolean)",1408,348
+org.apache.cxf.transport.http_jetty.JettyHTTPDestinationTest.testMultiplexGetAddressWithId(),1392,2
+"org.apache.ws.commons.schema.XmlSchemaSerializer.serializeSchemaElement(XmlSchema, boolean)",1376,132
+org.apache.cxf.tools.validator.internal.Stax2DOM.getDocument(URL),1366,66
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.traverseComplexTypeDecl(Element, String, Object[], XSDocumentInfo,",1358,5210
+"org.apache.cxf.jaxrs.provider.aegis.AegisJSONProvider.writeTo(Object, Class, Type, Annotation[], MediaType, MultivaluedMap, OutputStream)",1350,24
+org.apache.cxf.tools.corba.processors.idl.PortTypeVisitor.visitInterface(AST),1348,186
+java.lang.Throwable.printStackTrace(PrintStream),1336,268
+javax.xml.parsers.DocumentBuilderFactory.newInstance(),1332,422
+"org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(Object, Class, Type, Annotation[], MediaType, MultivaluedMap, OutputStream)",1320,114
+org.apache.cxf.rs.security.oauth2.jws.JwsCompactProducer.signWith(JwsSignatureProvider),1318,8
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineTest.testJmxSupport(),1304,2
+org.apache.cxf.rs.security.oauth2.jws.JwsCompactReaderWriterTest.testWriteReadJwsSignedByPrivateKey(),1302,2
+"org.apache.cxf.common.injection.ResourceInjector.invokeSetter(Method, Object)",1292,44
+org.apache.cxf.wsdl11.WSDLManagerImpl.setBus(Bus),1290,44
+"org.apache.cxf.staxutils.StaxUtils.copy(Source, XMLStreamWriter)",1288,210
+org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpMessage(MAPAggregatorTest$SetupMessageArgs),1286,56
+org.apache.cxf.test.XPathAssertTest.testAssert(),1268,2
+"javax.crypto.Cipher.doFinal(byte[], int, int)",1258,2
+org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.setUserResources(List),1252,6
+org.apache.cxf.management.jmx.InstrumentationManagerImpl.init(),1250,36
+org.eclipse.jetty.server.handler.HandlerCollection.addHandler(Handler),1246,24
+"org.apache.cxf.staxutils.StaxUtils.copy(XMLStreamReader, XMLStreamWriter, boolean, boolean)",1232,210
+org.apache.cxf.tools.corba.processors.wsdl.WSDLToCorbaBinding.generateCORBABinding(Definition),1228,84
+"org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(Class, Type)",1222,158
+org.apache.cxf.common.injection.ResourceInjector.construct(Object),1212,90
+org.apache.cxf.common.injection.ResourceInjector.invokePostConstruct(),1210,38
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.traverseLocal(Element, XSDocumentInfo,",1202,3566
+"org.apache.cxf.wsdl.JAXBExtensionHelper.addExtensions(ExtensionRegistry, Class, Class)",1198,272
+"org.apache.cxf.tools.corba.processors.wsdl.WSDLToCorbaBinding.generateCORBABinding(Definition, PortType)",1198,84
+java.util.UUID.randomUUID(),1196,68
+"java.security.MessageDigest.update(byte[], int, int)",1184,762
+"org.apache.xerces.impl.xs.traversers.XSDAbstractTraverser.traverseAttrsAndAttrGrps(Element, XSAttributeGroupDecl, XSDocumentInfo, SchemaGrammar,",1182,4482
+org.apache.cxf.management.web.logging.ReadOnlyFileStorageTest.testReadRecordsWithMultipleFiles2(),1174,2
+java.lang.Class.getMethods(),1170,4730
+org.springframework.core.io.ClassPathResource.getInputStream(),1170,494
+"org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.validate(String, ValidationContext,",1170,58064
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpMessage(boolean, boolean, boolean, boolean, boolean, boolean, boolean)",1168,48
+"org.apache.cxf.jaxrs.utils.ResourceUtils.createOperationInfo(Method, Method, ClassResourceInfo, Path, String)",1164,1184
+"org.apache.cxf.staxutils.StaxUtils.readDocElements(Document, Node, XMLStreamReader, boolean, boolean)",1160,122
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.processComplexContent(Element, boolean, boolean, XSDocumentInfo,",1156,5210
+"org.apache.cxf.resource.DefaultResourceManager.findResource(String, Class, boolean, List)",1146,384
+org.apache.cxf.service.ServiceModelVisitor.walk(),1138,250
+"org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.getActualValue(Object, ValidationContext, ValidatedInfo,",1126,60944
+com.ctc.wstx.stax.WstxInputFactory.createXMLStreamReader(Source),1116,98
+"org.apache.cxf.wsdl11.SchemaUtil.getSchemas(Definition, SchemaCollection, ServiceInfo)",1112,88
+"org.apache.xerces.impl.xs.traversers.XSDAttributeTraverser.traverseLocal(Element, XSDocumentInfo, SchemaGrammar,",1112,12628
+"org.apache.xerces.impl.xs.opti.SchemaDOM.startAnnotation(QName, XMLAttributes,",1110,19028
+org.apache.cxf.binding.coloc.ColocMessageObserverTest.setUp(),1106,4
+"org.apache.xerces.impl.xs.opti.SchemaDOM.startAnnotation(String, XMLAttributes,",1104,19028
+org.apache.cxf.tools.common.AbstractCXFToolContainer.hasInfoOption(),1102,72
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine.stop(),1080,24
+org.apache.cxf.aegis.type.XMLTypeCreator.createDefaultType(TypeClassInfo),1074,70
+"org.apache.cxf.common.util.ReflectionInvokationHandler.getParameterTypes(Method, Object[])",1074,4886
+org.eclipse.jetty.util.component.AbstractLifeCycle.stop(),1072,166
+org.apache.cxf.tools.common.AbstractCXFToolContainer.execute(boolean),1068,36
+org.apache.cxf.aegis.type.java5.Java5TypeCreator.createDefaultType(TypeClassInfo),1060,70
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.handleResource(StringBuilder, Set, ElementQNameResolver, Map, ClassResourceInfo, Set, boolean)",1050,62
+"org.apache.cxf.tools.validator.internal.WSDLRefValidator.<init>(Definition, Document, Bus)",1046,50
+"org.apache.cxf.jaxrs.model.wadl.WadlGeneratorTest.mockMessage(String, String, String, List)",1016,20
+org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.getBus(),1008,72
+"org.apache.cxf.jaxrs.provider.atom.AbstractAtomProvider.readFrom(Class, Type, Annotation[], MediaType, MultivaluedMap, InputStream)",1004,16
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.handleOperation(StringBuilder, Set, ElementQNameResolver, Map, OperationResourceInfo, Map, OperationResourceInfo, boolean, boolean, int)",1004,286
+org.easymock.EasyMock.createMock(Class),1002,380
+"org.apache.cxf.aegis.type.basic.BeanTypeInfo.<init>(Class, String)",978,70
+org.apache.cxf.aegis.AegisContext.processRootTypes(),978,44
+org.apache.cxf.aegis.type.basic.BeanTypeInfo.initializeProperties(),976,70
+"org.apache.cxf.jaxrs.provider.aegis.AegisJSONProviderTest.writeCollection(boolean, boolean, String, boolean, boolean)",964,16
+com.ctc.wstx.stax.WstxInputFactory.createXMLStreamReader(InputStream),950,48
+java.util.HashMap.get(Object),928,642720
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineTest.testJettyHTTPHandler(),928,2
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineFactory.destroyForPort(int),906,28
+"org.apache.cxf.jaxrs.model.OperationResourceInfo.<init>(Method, Method, ClassResourceInfo)",900,1310
+org.apache.cxf.transport.http.HTTPConduitTest.testAuthPolicyPrecedence(),866,2
+"org.apache.cxf.management.web.logging.ReadOnlyFileStorage.createRecord(Map, ReadOnlyFileStorage$FileInfo)",842,1238
+"org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(OperationResourceInfo, MultivaluedMap, Message)",832,100
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpUsingAddressing(Message, Exchange, boolean)",828,28
+org.apache.cxf.transport.http.CXFAuthenticatorCleanupTest.runCleanupTestWeakRef(),828,2
+"org.apache.xerces.jaxp.DocumentBuilderImpl.<init>(DocumentBuilderFactoryImpl, Hashtable, Hashtable,",822,106
+"org.apache.cxf.js.rhino.ProviderFactory.publishImpl(File, String, boolean)",812,14
+org.apache.cxf.wsdl11.WSDLManagerImpl.<init>(Bus),810,36
+"org.apache.cxf.wsdl.JAXBExtensionHelper.unmarshall(Class, QName, Element, Definition, ExtensionRegistry)",798,32
+"org.apache.cxf.transport.http_jetty.JettyHTTPDestinationTest.setUpDoService(boolean, boolean, boolean, String, String, int)",790,18
+org.apache.cxf.jaxrs.provider.ServerProviderFactory.initBaseFactory(Bus),784,496
+org.apache.cxf.tools.common.ProcessorTestBase$1.before(),770,18
+"org.apache.cxf.common.util.ProxyHelper.getProxy(ClassLoader, Class[], InvocationHandler)",768,52
+"org.apache.cxf.common.util.CglibProxyHelper.getProxyInternal(ClassLoader, Class[], InvocationHandler)",768,52
+org.apache.cxf.tools.validator.internal.WSDLRefValidator.processSchemas(Bus),764,50
+"org.apache.xerces.parsers.DOMParser.<init>(SymbolTable,",762,106
+"org.apache.cxf.tools.util.ToolsStaxUtils.getTagTree(InputStream, List, Map)",762,6
+org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineTest.testGetContextHandler(),758,2
+org.junit.rules.TemporaryFolder.before(),746,18
+org.apache.cxf.tools.wsdlto.frontend.jaxws.customization.CustomizationParserTest.getDocumentElement(String),746,24
+org.apache.cxf.tools.validator.internal.WSDLRefValidator.getSchemas(Bus),738,46
+java.lang.Class.getDeclaredMethods(),734,2898
+org.apache.cxf.rs.security.oauth2.jwe.JweCompactReaderWriterTest.testEncryptDecryptSpecExample(),732,2
+"org.apache.cxf.resource.URIResolver.tryFileSystem(String, String)",726,150
+"org.apache.cxf.resource.ExtendedURIResolver.resolve(String, String)",726,150
+org.apache.cxf.jaxrs.model.URITemplate.<init>(String),724,2452
+"org.apache.xerces.parsers.ObjectFactory.createObject(String, String,",716,106
+"org.apache.cxf.rs.security.oauth2.utils.crypto.CryptoUtils.unwrapKey(byte[], String, Key, KeyProperties, int)",716,2
+"javax.crypto.Cipher.unwrap(byte[], String, int)",714,2
+net.sf.ehcache.config.ConfigurationFactory.parseConfiguration(URL),708,4
+org.apache.cxf.binding.corba.wsdl.WSDLExtensionRegister.registerCXFExtensors(WSDLManager),700,22
+org.apache.abdera.i18n.iri.IRI.preinit(),684,20
+"org.apache.ws.commons.schema.SchemaBuilder.handleElement(XmlSchema, Element, Element, boolean)",672,2450
+org.apache.cxf.management.web.logging.ReadOnlyFileStorageTest.testReadRecordsWithMultipleFiles(),666,2
+"org.apache.cxf.test.XPathAssert.assertValid(String, Node, Map)",660,40
+java.lang.StringBuilder.toString(),644,819592
+org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(SoapMessage),644,52
+"org.apache.wss4j.common.saml.OpenSAMLUtil.toDom(XMLObject, Document, boolean)",636,26
+"org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getPackageContext(Class, Type)",588,178
+org.apache.cxf.transport.http.DestinationRegistryImplTest.setUpDestinations(),586,4
+java.security.cert.CertificateFactory.generateCertificate(InputStream),582,40
+"org.apache.neethi.AssertionBuilderFactoryImpl.invokeBuilder(Object, AssertionBuilder)",562,282
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorImpl.mediate(Message, boolean)",562,58
+org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.objectFactoryOrIndexAvailable(Class),558,202
+java.util.regex.Matcher.matches(),554,7636
+org.apache.cxf.staxutils.StaxUtils.read(InputStream),548,36
+org.apache.cxf.wsdl11.WSDLServiceBuilderTest.buildService(QName),540,36
+"org.apache.ws.commons.schema.XmlSchema.serializeInternal(Writer, Map)",538,12
+"org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader.createExtensor(WSDLManager, Class, Class)",528,42
+org.apache.wss4j.common.saml.SamlAssertionWrapper.parseCallback(SAMLCallback),528,8
+java.lang.reflect.AccessibleObject.getAnnotations(),528,11972
+org.apache.cxf.binding.soap.MustUnderstandInterceptorTest.prepareSoapMessage(String),522,8
+org.apache.cxf.bus.extension.ExtensionManagerImpl.initialize(),510,72
+"org.terracotta.statistics.StatisticsManager.createOperationStatistic(Object, String, Set, Map, Class)",510,60
+org.opensaml.xml.XMLConfigurator.validateConfiguration(Document),506,66
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.writeParam(StringBuilder, Parameter, OperationResourceInfo, boolean)",492,476
+"org.apache.xerces.parsers.XIncludeAwareParserConfiguration.<init>(SymbolTable, XMLGrammarPool,",488,106
+"java.lang.Class.forName(String, boolean, ClassLoader)",474,852
+"org.apache.cxf.transport.http.HTTPConduitURLEasyMockTest.setUpConduit(boolean, boolean, String)",460,18
+org.apache.cxf.ws.policy.attachment.external.URIDomainExpressionTest.mockInfoObjects(),460,14
+"org.apache.xerces.parsers.XML11Configuration.<init>(SymbolTable, XMLGrammarPool,",458,106
+"org.apache.neethi.builders.converters.ConverterRegistry.convert(Object, Class)",458,282
+org.apache.neethi.builders.converters.StaxToDOMConverter.convert(XMLStreamReader),456,150
+org.apache.cxf.jaxrs.AbstractJAXRSFactoryBean.createEndpoint(),448,96
+org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.createEndpoints(),446,12
+"org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.initClient(AbstractClient, Endpoint, boolean)",440,96
+org.apache.cxf.jaxrs.utils.AnnotationUtils.doGetAnnotatedMethod(Method),434,3478
+org.apache.cxf.jaxrs.utils.AnnotationUtils.getAnnotatedMethod(Method),434,3344
+org.apache.cxf.xkms.service.XKMSService.register(RegisterRequestType),432,8
+"org.apache.cxf.jaxws.support.JaxWsEndpointImpl.<init>(Bus, Service, EndpointInfo, JaxWsImplementorInfo, List, List, boolean)",432,12
+"org.terracotta.context.ContextManager.associate(Object, Object)",430,74
+"org.apache.cxf.rs.security.oauth2.jwe.JweCompactReaderWriterTest.encryptContent(String, boolean)",426,4
+org.terracotta.context.ContextManager.getOrCreateTreeNode(Object),424,150
+"org.apache.cxf.ws.rm.soap.RMSoapInInterceptor.decodeHeaders(SoapMessage, List, RMProperties)",418,8
+org.apache.cxf.binding.soap.MustUnderstandInterceptorTest.setUp(),418,8
+java.lang.Class.getAnnotation(Class),402,21682
+org.apache.cxf.jaxrs.utils.ResourceUtils.getParameters(Method),402,1304
+javax.xml.validation.Validator.validate(Source),394,66
+org.apache.cxf.rs.security.oauth2.grants.TokenGrantHandlerTest.testSimpleGrantSupported(),394,2
+org.apache.cxf.ws.rm.persistence.RMMessageTest.testContentCachedOutputStream(),392,4
+org.apache.cxf.configuration.spring.AbstractBeanDefinitionParser.getContext(Class),392,12
+org.apache.cxf.tools.common.dom.ExtendedDocumentBuilder.getParser(),388,62
+"org.apache.cxf.jaxrs.utils.ResourceUtils.getResourceURL(String, Bus)",388,64
+java.lang.StringBuilder.append(char),388,511746
+org.apache.cxf.helpers.DOMUtils.createDocument(),388,20
+org.apache.cxf.binding.corba.runtime.CorbaObjectReaderTest.setUp(),384,42
+"org.apache.cxf.transport.http_jetty.spring.JettyHTTPServerEngineFactoryBeanDefinitionParser.doParse(Element, ParserContext, BeanDefinitionBuilder)",382,4
+java.io.ObjectInputStream.<clinit>(),378,4
+"javax.net.ssl.SSLContext.init(KeyManager[], TrustManager[], SecureRandom)",376,2
+org.apache.cxf.jaxrs.client.ClientProviderFactory.createInstance(Bus),374,98
+"org.apache.cxf.ws.policy.PolicyInterceptorsTest.doTestBasics(Interceptor, boolean, boolean)",374,24
+javax.xml.validation.SchemaFactory.newInstance(String),370,54
+org.apache.cxf.jaxrs.client.ClientProviderFactory.initBaseFactory(Bus),368,98
+"org.apache.cxf.tools.wsdlto.frontend.jaxws.customization.CustomizationParser.internalizeBinding(Element, Element, String)",368,68
+org.apache.cxf.jaxrs.model.URITemplate.createTemplate(Path),360,958
+org.apache.cxf.jaxrs.model.URITemplate.createTemplate(String),358,966
+org.apache.cxf.ws.rm.policy.PolicyUtilsTest.testRMAssertionEquals(),352,2
+org.apache.cxf.jaxrs.provider.ServerProviderFactory.setProviders(Object[]),346,130
+"org.apache.cxf.jaxrs.impl.UriBuilderImpl.doBuild(boolean, boolean, Object[])",346,438
+"java.security.KeyStore.load(InputStream, char[])",336,10
+org.terracotta.context.extractor.ObjectContextExtractor.extract(Object),334,80
+java.lang.reflect.Method.getDeclaredAnnotations(),328,5560
+com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl.newSAXParser(),318,22
+org.apache.cxf.helpers.DOMUtils.getDocumentBuilder(),316,20
+"org.apache.cxf.tools.wsdlto.frontend.jaxws.customization.CustomNodeSelector.queryNodes(Node, String)",316,28
+org.apache.cxf.jaxrs.SelectMethodCandidatesTest.createMessage(boolean),316,84
+org.apache.cxf.transport.http.CXFAuthenticator.addAuthenticator(),312,114
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.handleParameter(StringBuilder, Set, ElementQNameResolver, Map, OperationResourceInfo, Parameter, boolean)",312,492
+"org.apache.cxf.rs.security.oauth2.jwe.AbstractJweEncryption.encrypt(byte[], String)",306,6
+org.apache.cxf.bus.extension.ExtensionManagerImpl.load(String),304,32
+"org.apache.cxf.transport.http.HTTPConduitURLEasyMockTest.verifySentMessage(HTTPConduit, Message, boolean, HTTPConduitURLEasyMockTest$ResponseStyle, HTTPConduitURLEasyMockTest$ResponseDelimiter, boolean, String)",304,18
+org.apache.cxf.binding.coloc.ColocMessageObserverTest.testObserverOnMessage(),302,2
+javax.xml.bind.JAXBException.printStackTrace(PrintWriter),302,160
+"org.apache.cxf.js.rhino.ProviderFactory.compileScript(Context, String, Scriptable, File)",302,12
+"org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(Map, Message, String, MultivaluedMap, String, List, boolean)",300,142
+org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.setResourceClass(Class),294,34
+"org.apache.cxf.ws.policy.PolicyInterceptorsTest.setupMessage(boolean, boolean, boolean, boolean, Boolean, Boolean)",290,122
+java.lang.reflect.Method.getAnnotation(Class),288,33756
+"org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.createResourceInfo(Class, boolean)",288,30
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorImpl.aggregate(Message, boolean)",286,36
+org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionStart(Exception),286,144
+"org.apache.cxf.jaxrs.model.wadl.WadlGenerator.handleFormRepresentation(StringBuilder, Set, ElementQNameResolver, Map, OperationResourceInfo, Class, boolean)",286,112
+org.apache.cxf.js.rhino.AbstractDOMProviderTest.testIllegalInvoke(),286,2
+org.apache.cxf.xkms.service.CheckXKRSS.createXKMSService(boolean),284,14
+"org.apache.cxf.jaxrs.impl.UriBuilderImpl.doBuildUriParts(boolean, boolean, boolean, Object[])",280,434
+org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getStackTrace(Exception),280,144
+"org.apache.cxf.xkms.service.XKMSResponseFactory.createResponse(RequestAbstractType, ResultType)",280,16
+org.apache.cxf.service.model.ServiceInfo.<init>(),276,40
+org.apache.cxf.xkms.service.XKMSResponseFactory.generateUniqueID(),276,14
+"org.apache.cxf.jaxrs.model.AbstractResourceInfo.findContextSetterMethods(Class, Object)",276,1216
+org.apache.cxf.jaxrs.client.ClientProviderFactory.setProviders(Object[]),276,100
+org.mozilla.javascript.ContextFactory.enterContext(),274,12
+org.apache.cxf.ws.rm.policy.RMPolicyUtilities.<clinit>(),272,4
+org.apache.cxf.staxutils.StaxUtils.<clinit>(),272,4
+"java.lang.String.<init>(char[], int, int)",272,540850
+org.apache.cxf.ws.addressing.impl.ContextUtilsTest.testGetActionFromMessage(),266,2
+org.apache.cxf.transport.http.HTTPWSDLExtensionLoader.<init>(Bus),266,24
+"org.apache.cxf.ws.addressing.soap.MAPCodecTest.setUpMessage(boolean, boolean, boolean, boolean, Boolean, String)",258,34
+org.apache.cxf.binding.corba.runtime.CorbaObjectWriterTest.setUp(),256,36
+org.apache.cxf.staxutils.StaxUtils.createXMLStreamReader(InputStream),256,36
+org.apache.cxf.binding.coloc.ColocMessageObserverTest.testSetExchangeProperties(),248,2
+org.apache.cxf.rs.security.oauth2.utils.OAuthUtils.generateRandomTokenKey(String),248,16
+"org.apache.cxf.rs.security.oauth2.tokens.bearer.BearerAccessToken.<init>(Client, long)",246,12
+org.apache.cxf.xkms.x509.handlers.X509LocatorTest.getAliceCert(),246,2
+org.apache.cxf.xkms.x509.repo.ldap.LDAPCertificateRepoTest.getTestCert(),246,4
+"org.apache.cxf.rs.security.oauth2.grants.AbstractGrantHandler.doCreateAccessToken(Client, UserSubject, String, List, String)",244,4
+org.apache.cxf.tools.wsdlto.frontend.jaxws.customization.CustomizationParser.parse(ToolContext),238,6
+"org.apache.cxf.jaxrs.SelectMethodCandidatesTest.doTestProducesResource(Class, String, String, String, String)",224,36
+org.apache.cxf.ws.addressing.impl.MAPAggregatorImpl.assembleGeneric(Message),224,36
+org.apache.cxf.io.CachedOutputStream.createFileOutputStream(),218,4
+com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(Source[]),216,16
+org.apache.cxf.binding.soap.interceptor.SoapFaultSerializerTest.testCXF4181(),216,2
+"org.apache.cxf.jca.core.classloader.PlugInClassLoader.getProperties(ClassLoader, String)",212,60
+java.io.ByteArrayOutputStream.write(int),212,494428
+"org.apache.cxf.helpers.FileUtils.createTempFile(String, String, File, boolean)",206,4
+org.apache.cxf.xkms.x509.handlers.X509LocatorTest.setGenericRequestParams(MessageAbstractType),206,2
+"org.apache.cxf.rs.security.oauth2.utils.crypto.CryptoUtils.initCipher(Key, KeyProperties, int)",204,20
+java.util.regex.Pattern.compile(String),204,2850
+org.apache.cxf.service.ServiceModelVisitor.visitOperation(OperationInfo),200,312
+org.apache.cxf.jca.cxf.ManagedConnectionFactoryImplTest.setUp(),200,64
+java.nio.charset.Charset.forName(String),198,3578
+"org.apache.cxf.jaxrs.utils.JAXRSUtils.intersectMimeTypes(List, List, boolean, boolean)",196,1240
+"java.io.File.createTempFile(String, String, File)",196,4
+javax.xml.bind.JAXBContext.newInstance(Class[]),194,74
+org.apache.cxf.ws.addressing.soap.MAPCodec.mediate(SoapMessage),194,34
+org.apache.cxf.jaxb.JAXBContextInitializer.begin(MessagePartInfo),192,642
+java.net.URI.<init>(String),190,1454
+org.apache.cxf.ws.rm.policy.PolicyUtilsTest.setUp(),190,6
+"org.apache.cxf.binding.soap.interceptor.SoapFaultSerializerTest.assertValid(String, Document)",188,22
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpMethod(Message, Exchange, Method)",188,28
+"java.util.HashMap.put(Object, Object)",182,35558
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpRequestor(Message, Exchange, boolean, boolean, boolean, boolean)",180,20
+"org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.setUpBindingOperationInfo(String, String, String, String, Method)",180,28
+org.apache.cxf.transport.local.LocalTransportFactoryTest.testInvocation(boolean),178,4
+org.apache.cxf.ws.addressing.ContextUtils.generateUUID(),176,34
+"org.apache.cxf.jaxrs.model.OperationResourceInfo.checkMediaTypes(String, String)",174,900
+java.util.ArrayList.get(int),170,416814
+"org.apache.cxf.jaxrs.utils.HttpUtils.encodePartiallyEncoded(String, boolean)",168,3204
+org.apache.cxf.staxutils.StaxUtils.createXMLStreamReader(InputSource),168,16
+com.ctc.wstx.sr.BasicStreamReader.next(),164,15228
+"java.io.File.createTempFile(String, String)",164,2
+"org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.initializeClassInfo(OperationInfo, Method, List)",158,126
+"org.apache.cxf.common.util.PropertiesLoaderUtils.loadAllProperties(String, ClassLoader, Logger, Level, String)",158,10
+"org.apache.cxf.jca.core.classloader.PlugInClassLoader.getFilterList(ClassLoader, String)",154,40
+"javax.crypto.Cipher.init(int, Key, AlgorithmParameterSpec)",154,12
+org.apache.cxf.common.xmlschema.SchemaCollection.<init>(),154,28
+org.apache.cxf.jaxrs.provider.ProviderFactory.setCommonProviders(List),152,130
+org.apache.cxf.binding.coloc.ColocOutInterceptorTest.testColocOutIsColocatedPropertySet(),152,2
+java.util.ArrayList.add(Object),150,163138
+org.easymock.EasyMock.createNiceControl(),150,6
+java.security.Signature.verify(byte[]),150,32
+org.apache.cxf.xkms.x509.validator.TrustedAuthorityValidatorTest.<init>(),144,10
+"org.apache.cxf.test.XPathAssert.assertInvalid(String, Node, Map)",144,4
+org.apache.cxf.jaxrs.utils.JAXRSUtils.parseMediaTypes(String),144,2636
+org.apache.cxf.xkms.x509.validator.TrustedAuthorityValidatorTest.readCertificate(String),144,20
+org.apache.cxf.jaxrs.utils.JAXRSUtils.toMediaType(String),136,2974
+"java.lang.String.substring(int, int)",136,310086
+org.apache.cxf.jaxrs.utils.JAXRSUtils.getMediaTypes(String[]),134,1266
+org.apache.ws.commons.schema.XmlSchemaCollection.init(),134,30
+org.apache.cxf.jaxrs.impl.UriBuilderImpl.buildPath(),132,464
+"org.apache.cxf.jaxrs.utils.InjectionUtils.handleBean(Class, Annotation[], MultivaluedMap, ParameterType, Message, boolean)",132,70
+org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.create(),132,124
+org.apache.cxf.jaxrs.utils.HttpUtils.pathEncode(String),130,3384
+org.apache.cxf.rs.security.oauth.utils.OAuthUtilsTest.testCheckRequestURI(),128,2
+"org.apache.cxf.ws.addressing.soap.MAPCodec.encodeAsExposed(AddressingProperties, SoapMessage, Object, QName, Class, JAXBContext)",126,96
+"org.apache.cxf.ws.addressing.soap.MAPCodec.encode(SoapMessage, AddressingProperties)",126,16
+java.lang.StringBuilder.<init>(),126,277714
+"org.apache.cxf.ws.addressing.soap.VersionTransformer.encodeAsExposed(SoapMessage, String, Object, String, Class, JAXBContext, boolean)",124,90
+"org.apache.cxf.ws.addressing.impl.InternalContextUtils.rebaseResponse(EndpointReferenceType, AddressingProperties, Message)",124,8
+org.apache.cxf.rs.security.saml.DeflateEncoderDecoderTest.testInvalidContentAfterBase64(),124,2
+"org.apache.cxf.ws.addressing.soap.MAPCodec.encodeMAP(SoapMessage, Object, QName, Class, JAXBContext, boolean)",124,90
+"java.text.SimpleDateFormat.<init>(String, Locale)",122,36
+org.apache.cxf.staxutils.StaxUtils.toString(Source),122,6
+org.apache.cxf.binding.coloc.ColocOutInterceptorTest.verifyIsColocatedWithDifferentOperation(),122,2
+org.apache.cxf.ws.addressing.impl.ContextUtilsTest.testGetActionFromExtensible(),120,2
+"org.apache.cxf.jaxrs.utils.HttpUtils.componentEncode(String, String)",120,3536
+org.apache.cxf.test.XPathAssert.createXPath(Map),118,14
+"org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(String, boolean, Class, Annotation[], ParameterType, Message)",118,394
+"org.apache.cxf.jaxrs.provider.ProviderFactory.matchesReaderCriterias(ProviderInfo, Class, Type, Annotation[], MediaType, Message)",118,160
+java.lang.String.indexOf(int),116,299590
+"org.apache.cxf.jaxrs.model.OperationResourceInfoComparator.compare(OperationResourceInfo, OperationResourceInfo)",116,226
+org.apache.cxf.ws.addressing.impl.MAPAggregatorTest.getExchange(),112,56
+javax.xml.xpath.XPathFactory.newInstance(),104,14
+"org.apache.cxf.rs.security.oauth.utils.OAuthUtils.checkRequestURI(String, String)",102,16
+org.apache.cxf.ws.rm.persistence.PersistenceUtilsTest.testSerialiseDeserialiseAcknowledgement(),100,2
+java.security.cert.CertificateFactory.getInstance(String),94,42
+javax.xml.bind.JAXBContext.newInstance(String),88,18
+com.intellij.rt.execution.application.AppMain.<clinit>(),84,2
+org.apache.cxf.common.logging.LogUtils.<clinit>(),36,4
+org.apache.cxf.ws.rm.blueprint.RMBPHandlerTest.testGetSchemaLocation(),22,2
+org.apache.cxf.clustering.blueprint.ClusteringBPNamespaceHandlerTest.testGetSchemaLocation(),20,2
+java.lang.Class.getName(),20,2238

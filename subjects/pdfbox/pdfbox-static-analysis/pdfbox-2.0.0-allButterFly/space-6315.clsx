@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read(byte[])" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSString.parseHex(String)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+</group>
+</group>
+</group>
+</cluster>

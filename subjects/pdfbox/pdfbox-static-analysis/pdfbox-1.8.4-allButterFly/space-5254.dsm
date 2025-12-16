@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.clear()
+org.apache.pdfbox.cos.COSDocument.close()
+org.apache.pdfbox.io.SequentialRead.close()
+org.apache.pdfbox.cos.COSDocument.getObjects()
+org.apache.pdfbox.cos.COSDictionary.clear()
+org.apache.pdfbox.ExportFDF.close(FDFDocument)
+org.apache.pdfbox.ImportXFDF.close(FDFDocument)
+org.apache.pdfbox.ImportFDF.close(FDFDocument)
+org.apache.pdfbox.ExportXFDF.close(FDFDocument)
+org.apache.pdfbox.cos.COSStream.close()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.fdf.FDFDocument.close()

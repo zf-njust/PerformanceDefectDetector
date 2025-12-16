@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyRepositoryReport.gen(ResolutionCacheManager, String, String, String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyRepositoryReport.gengraph(ResolutionCacheManager, String, String)" />
+<item name="org.apache.ivy.ant.IvyRepositoryReport.gendot(ResolutionCacheManager, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyRepositoryReport.getGraphStylePath(File)" />
+<item name="org.apache.ivy.ant.IvyRepositoryReport.getDotStylePath(File)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getConfigurationResolveReportInCache(String, String)" />
+<item name="org.apache.ivy.ant.IvyRepositoryReport.getTodir()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getDefaultResolveId(ModuleId)" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getResolutionCacheRoot()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.logResolvedRevision()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+</group>
+</group>
+</group>
+</cluster>

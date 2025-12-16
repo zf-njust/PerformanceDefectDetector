@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.checkModuleDescriptorRevision(ModuleDescriptor, ModuleRevisionId)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.checkModuleDescriptorRevision(ModuleDescriptor, ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVersionMatcher()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.UnresolvedDependencyException.UnresolvedDependencyException(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.UnresolvedDependencyException.UnresolvedDependencyException(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

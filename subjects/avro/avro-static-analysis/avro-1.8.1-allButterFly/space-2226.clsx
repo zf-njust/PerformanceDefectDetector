@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumReader.readString(Object, Decoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumReader.newInstanceFromString(Class, String)" />
+<item name="org.apache.avro.generic.GenericDatumReader.getStringClass(Schema)" />
+<item name="org.apache.avro.io.Decoder.readString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.findStringClass(Schema)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.generic.GenericData.StringType.valueOf()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+</group>
+</group>
+</group>
+</cluster>

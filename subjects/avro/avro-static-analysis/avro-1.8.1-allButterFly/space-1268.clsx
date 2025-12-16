@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Decoder.readBytes(ByteBuffer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ValidatingDecoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readBytes(Object, Decoder)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readString()" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Schema, Decoder)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readString(Utf8)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+<item name="org.apache.avro.io.Decoder.readString()" />
+<item name="org.apache.avro.util.Utf8.getByteLength()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.util.ClassUtils.forName(String)" />
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

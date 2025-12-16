@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.LongBuilder.create(Completion, NameContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.longBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.longBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.longBuilder()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.LongDefault.LongDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.wrap(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.completion(Completion)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)" />
+<item name="org.apache.avro.SchemaBuilder.CompletionWrapper.wrap(Completion)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.LongBuilder.LongBuilder(Completion, NameContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.PrimitiveBuilder.PrimitiveBuilder(Completion, NameContext, Schema.Type)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.getFullname(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.transceive(List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readStatus()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.toString(ByteBuffer)" />
+<item name="org.apache.avro.ipc.Transceiver.transceive(List)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readFrame()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.Transceiver.lockChannel()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.Status.values()" />
+<item name="org.apache.avro.ipc.Transceiver.writeBuffers(List)" />
+<item name="org.apache.avro.ipc.Transceiver.unlockChannel()" />
+<item name="org.apache.avro.ipc.Transceiver.readBuffers()" />
+</group>
+</group>
+</group>
+</cluster>

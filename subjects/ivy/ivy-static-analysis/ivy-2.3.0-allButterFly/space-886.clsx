@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.VisitData.addVisitNodes(String, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.ResolveData.replaceNode(ModuleRevisionId, IvyNode, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.updateDependency(ModuleRevisionId, IvyNode)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.VisitData.getVisitNodes(String)" />
+</group>
+</group>
+</group>
+</cluster>

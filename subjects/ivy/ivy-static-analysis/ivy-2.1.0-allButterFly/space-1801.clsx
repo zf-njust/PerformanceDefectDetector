@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.getFirstResolver()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.beginPublishTransaction(ModuleRevisionId, boolean)" />
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.publish(Artifact, File, boolean)" />
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.abortPublishTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.commitPublishTransaction()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.commitPublishTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.beginPublishTransaction(ModuleRevisionId, boolean)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.abortPublishTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.publish(Artifact, File, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeIvyPattern()
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.plugins.resolver.BasicResolver.listOrganisations()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)
+org.apache.ivy.util.url.URLHandlerRegistry.getDefault()
+org.apache.ivy.util.url.URLHandler.openStream(URL)
+org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)
+org.apache.ivy.util.XMLHelper.toSystemId(URL)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.resolver.IvyRepResolver.ensureIvyConfigured(ResolverSettings)
+org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)
+org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeIvyPattern()
+org.apache.ivy.plugins.resolver.IvyRepResolver.listOrganisations()
+org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler)
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.core.search.OrganisationEntry.OrganisationEntry(DependencyResolver, String)
+org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler, LexicalHandler)
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)

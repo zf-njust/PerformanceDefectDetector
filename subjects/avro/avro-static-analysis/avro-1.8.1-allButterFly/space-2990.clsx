@@ -1,0 +1,68 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalType.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Conversion.toBytes(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromFixed(GenericFixed, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromCharSequence(CharSequence, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromMap(Map, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromFloat(Float, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericData.getConversionFor(LogicalType)" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.Conversion.toDouble(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toFixed(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromBytes(ByteBuffer, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromLong(Long, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toBoolean(T, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericData.getConversionByClass(Class, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromArray(Collection, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toMap(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toArray(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromInt(Integer, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toInt(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toEnumSymbol(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromBoolean(Boolean, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromDouble(Double, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toLong(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromRecord(IndexedRecord, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toFloat(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toRecord(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toCharSequence(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.fromEnumSymbol(GenericEnumSymbol, Schema, LogicalType)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getIndexNamed(String)" />
+<item name="org.apache.avro.generic.GenericData.getSchemaName(Object)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.UnresolvedUnionException.UnresolvedUnionException(Schema, Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.getEnumSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFloat(Object)" />
+<item name="org.apache.avro.generic.GenericData.isInteger(Object)" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.generic.GenericData.isDouble(Object)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.isLong(Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.generic.GenericData.getFixedSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.isBoolean(Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

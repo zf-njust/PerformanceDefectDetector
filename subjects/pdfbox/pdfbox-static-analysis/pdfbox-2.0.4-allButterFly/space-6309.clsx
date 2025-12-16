@@ -1,0 +1,66 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSArray.getName(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDArtifactMarkedContent.isAttached(String)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotationPolyline.getStartPointEndingStyle()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination.fitBoundingBox()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination.fitBoundingBox()" />
+<item name="org.apache.pdfbox.preflight.process.reflect.DestinationValidationProcess.validateExplicitDestination(PreflightContext, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getSubFilter()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotationLine.getStartPointEndingStyle()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotationLine.getEndPointEndingStyle()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination.fitBoundingBox()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotationPolyline.getEndPointEndingStyle()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuildDataDict.getOS()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getDigestMethod()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.getEndPointEndingStyle()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.getStartPointEndingStyle()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent.getProperties()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination.create(COSBase)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination.PDPageFitHeightDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSString)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination.PDPageFitWidthDestination(COSArray)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.PDPageFitRectangleDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination.PDPageXYZDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination.PDPageFitDestination(COSArray)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageDestination.PDPageDestination(COSArray)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.getName(int, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+</group>
+</cluster>

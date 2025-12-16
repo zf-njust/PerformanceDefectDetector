@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+</group>
+</cluster>

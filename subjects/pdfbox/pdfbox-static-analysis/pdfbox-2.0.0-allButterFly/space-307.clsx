@@ -1,0 +1,84 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.text.PDFTextStreamEngine.showGlyph(Matrix, PDFont, int, String, Vector)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isVertical()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getTrueTypeFont()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getCapHeight()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateY()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateX()" />
+<item name="org.apache.pdfbox.util.Vector.getY()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getHorizontalScaling()" />
+<item name="org.apache.pdfbox.util.Vector.getX()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getFontSize()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int, GlyphList)" />
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.text.TextPosition.TextPosition(int, float, float, Matrix, float, float, float, float, float, String, int[], PDFont, float, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getAverageFontWidth()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getBoundingBox()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getTextMatrix()" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getSpaceWidth()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateInstance(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.util.Matrix.getScalingFactorY()" />
+<item name="org.apache.pdfbox.util.Matrix.getScalingFactorX()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2.getTrueTypeFont()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.text.PDFTextStreamEngine.processTextPosition(TextPosition)" />
+<item name="org.apache.pdfbox.util.Matrix.transformPoint(float, float)" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleX()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidth(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getDescendantFont()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getMissingWidth()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.text.TextPosition.getXRot(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.text.TextPosition.getYLowerLeftRot(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStandard14Width(int)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.hasMissingWidth()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidths()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidthFromFont(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertFloatCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

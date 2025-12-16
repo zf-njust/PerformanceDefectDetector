@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.Requestor.Requestor(Protocol, Transceiver)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericRequestor.GenericRequestor(Protocol, Transceiver)" />
+<item name="org.apache.avro.specific.SpecificRequestor.SpecificRequestor(Protocol, Transceiver)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

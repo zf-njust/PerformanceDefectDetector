@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.getMainConf(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealConfs(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConfiguration(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.resolveSpecialConfigurations(String[])" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getPublicConfigurationsNames()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isLoaded()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDescriptor()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getawtFont()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontManager.getStandardFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getawtFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isFontSubstituted()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.setIsFontSubstituted(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.PDFontDescriptorAFM(FontMetric)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontManager.getAwtFont(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.PDFontDescriptorDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getAFM()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontManager.normalizeFontname(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isType1Font()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getSubType()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

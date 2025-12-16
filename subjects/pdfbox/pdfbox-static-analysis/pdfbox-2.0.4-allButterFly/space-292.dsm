@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.pdmodel.common.COSDictionaryMap.convertBasicTypesToMap(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.keySet()
+org.apache.pdfbox.cos.COSFloat.floatValue()
+org.apache.pdfbox.pdmodel.common.PDStream.getDecodeParms()
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.common.COSDictionaryMap.COSDictionaryMap(Map, COSDictionary)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureTreeRoot.getRoleMap()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)
+org.apache.pdfbox.cos.COSInteger.intValue()
+org.apache.pdfbox.pdmodel.common.PDStream.getFileDecodeParams()
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSBoolean.getValue()

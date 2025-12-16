@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getEvictionDataInRoot(String, IvyNode)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.getEvictionDataInRoot(String, IvyNode)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRoot()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConflictManager(ModuleId)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getModuleId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.EvictionData(String, IvyNode, ConflictManager, Collection)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedNodes(ModuleId, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.ResolveEngineSettings.getConflictManager(ModuleId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedNodes(ModuleId, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConflictManager(ModuleId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.EvictionData(String, IvyNode, ConflictManager, Collection, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.ModuleIdConf(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealNode()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+</group>
+</cluster>

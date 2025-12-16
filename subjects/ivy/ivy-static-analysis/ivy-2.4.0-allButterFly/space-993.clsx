@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.addConfiguredSpecialMeaning(SpecialMeaning)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.getSpecialMeanings()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.getName()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.getValue()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.validate()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.isUsedefaultspecialmeanings()" />
+</group>
+</group>
+</group>
+</cluster>

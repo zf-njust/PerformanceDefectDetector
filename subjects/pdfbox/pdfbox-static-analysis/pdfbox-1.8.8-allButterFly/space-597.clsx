@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.LabelGenerator.getNumber(int, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.LabelGenerator.next()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getStyle()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.LabelGenerator.hasNext()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getPrefix()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getStart()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.LabelGenerator.makeRomanLabel(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.LabelGenerator.makeLetterLabel(int)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 1 1 0 0 1 1 1 
+0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyId()
+org.apache.ivy.core.module.id.ModuleId.equals(Object)
+org.apache.ivy.ant.IvyBuildList.processFilterNodeFromLeaf(ModuleDescriptor, Set, Map)
+org.apache.ivy.ant.IvyBuildList.processFilterNodeFromRoot(ModuleDescriptor, Set, Map)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()
+org.apache.ivy.ant.IvyBuildList.getOnlydirectdep()

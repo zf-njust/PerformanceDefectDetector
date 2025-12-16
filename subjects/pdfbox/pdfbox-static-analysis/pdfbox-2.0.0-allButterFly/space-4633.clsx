@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.colorpane.DeviceNColorant.DeviceNColorant()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.colorpane.CSDeviceN.getColorantData()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setName(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGB(float[])" />
+<item name="org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setMaximum(Color)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getColorantNames()" />
+<item name="org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setMinimum(Color)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.debugger.colorpane.CSDeviceN.getColorObj(float[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGBWithAttributes(float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGBWithTintTransform(float[])" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSNameCOSArrayToList(COSArray)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.eval(float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGB(float[])" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

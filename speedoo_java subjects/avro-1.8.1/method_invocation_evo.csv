@@ -1,0 +1,669 @@
+method,method,invocation counts
+org.apache.avro.io.BlockingBinaryEncoder.writeIndex(int),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),2
+org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",157381186
+"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),157381189
+"org.apache.avro.io.BlockingBinaryEncoder.<init>(OutputStream, int, int)","org.apache.avro.io.BufferedBinaryEncoder.<init>(OutputStream, int)",37
+"org.apache.avro.io.BufferedBinaryEncoder.<init>(OutputStream, int)","org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)",79
+"org.apache.avro.io.BufferedBinaryEncoder.<init>(OutputStream, int)",org.apache.avro.io.BinaryEncoder.<init>(),79
+org.apache.avro.io.BinaryEncoder.<init>(),org.apache.avro.io.Encoder.<init>(),114
+"org.apache.avro.io.BlockingBinaryEncoder.<init>(OutputStream, int, int)",org.apache.avro.io.BlockingBinaryEncoder.expandStack(),35
+"org.apache.avro.io.BlockingBinaryEncoder.<init>(OutputStream, int, int)",org.apache.avro.io.BlockingBinaryEncoder.check(),35
+"org.apache.avro.io.BlockingBinaryEncoder.configure(OutputStream, int, int)","org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)",16
+"org.apache.avro.io.BlockingBinaryEncoder.configure(OutputStream, int, int)",org.apache.avro.io.BlockingBinaryEncoder.check(),14
+org.apache.avro.io.BlockingBinaryEncoder.writeDouble(double),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),3
+org.apache.avro.io.BlockingBinaryEncoder.writeFloat(float),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),2
+org.apache.avro.io.BlockingBinaryEncoder.writeBoolean(boolean),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),1
+org.apache.avro.io.BlockingBinaryEncoder.startItem(),org.apache.avro.io.BlockingBinaryEncoder.check(),3
+org.apache.avro.io.parsing.Parser.processImplicitActions(),org.apache.avro.io.parsing.Parser.pushProduction(Symbol),45471427
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol),org.apache.avro.io.parsing.Parser.expandStack(),4
+org.apache.avro.io.parsing.Symbol.<init>(Symbol$Kind),"org.apache.avro.io.parsing.Symbol.<init>(Symbol$Kind, Symbol[])",136
+org.apache.avro.io.BinaryEncoder.writeString(String),org.apache.avro.io.BlockingBinaryEncoder.writeZero(),2
+org.apache.avro.io.BlockingBinaryEncoder.writeZero(),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),5
+org.apache.avro.io.BinaryEncoder.writeString(String),org.apache.avro.io.BlockingBinaryEncoder.writeInt(int),3
+org.apache.avro.io.BlockingBinaryEncoder.writeInt(int),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),4
+org.apache.avro.io.parsing.SkipParser.skipSymbol(Symbol),org.apache.avro.io.parsing.SkipParser.skipTo(int),2
+org.apache.avro.io.parsing.SkipParser.skipTo(int),org.apache.avro.io.parsing.Parser.pushProduction(Symbol),8174350
+org.apache.avro.io.parsing.SkipParser.skipSymbol(Symbol),org.apache.avro.io.parsing.Parser.pushSymbol(Symbol),3
+"org.apache.avro.io.parsing.SkipParser.<init>(Symbol, Parser$ActionHandler, SkipParser$SkipHandler)","org.apache.avro.io.parsing.Parser.<init>(Symbol, Parser$ActionHandler)",85
+"org.apache.avro.file.DataFileWriter.appendTo(SeekableInput, OutputStream)",org.apache.avro.generic.GenericDatumReader.<init>(),1
+org.apache.avro.generic.GenericData.<init>(),org.apache.avro.generic.GenericData.<init>(ClassLoader),9
+org.apache.avro.Schema.<init>(Schema$Type),org.apache.avro.JsonProperties.<init>(Set),28
+org.apache.avro.generic.GenericDatumReader.<init>(),"org.apache.avro.generic.GenericDatumReader.<init>(Schema, Schema, GenericData)",1
+"org.apache.avro.generic.GenericDatumReader.<init>(Schema, Schema, GenericData)",org.apache.avro.generic.GenericDatumReader.<init>(GenericData),2
+"org.apache.avro.file.DataFileWriter.appendTo(SeekableInput, OutputStream)","org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader)",1
+"org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader)",org.apache.avro.file.DataFileStream.initialize(InputStream),4
+org.apache.avro.file.DataFileStream.initialize(InputStream),"org.apache.avro.io.DecoderFactory.binaryDecoder(InputStream, BinaryDecoder)",4
+"org.apache.avro.io.DecoderFactory.binaryDecoder(InputStream, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.<init>(InputStream, int)",10
+"org.apache.avro.io.BinaryDecoder.<init>(InputStream, int)","org.apache.avro.io.BinaryDecoder.configure(InputStream, int)",30
+"org.apache.avro.io.BinaryDecoder.configure(InputStream, int)","org.apache.avro.io.BinaryDecoder.configureSource(int, BinaryDecoder$ByteSource)",52
+"org.apache.avro.io.BinaryDecoder.<init>(InputStream, int)",org.apache.avro.io.Decoder.<init>(),30
+"org.apache.avro.io.BinaryDecoder.<init>(InputStream, int)",org.apache.avro.util.Utf8.<init>(),30
+org.apache.avro.file.DataFileStream.initialize(InputStream),org.apache.avro.io.Decoder.readFixed(byte[]),4
+org.apache.avro.io.Decoder.readFixed(byte[]),"org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)",12
+"org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)","org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)",15
+"org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader)",org.apache.avro.file.DataFileStream.<init>(DatumReader),4
+"org.apache.avro.file.DataFileWriter.appendTo(SeekableInput, OutputStream)",org.apache.avro.file.DataFileWriter.assertNotOpen(),1
+org.apache.avro.io.BlockingBinaryEncoder.writeArrayStart(),org.apache.avro.io.BlockingBinaryEncoder.check(),7
+"org.apache.avro.io.DecoderFactory.jsonDecoder(Schema, InputStream)","org.apache.avro.io.JsonDecoder.<init>(Schema, InputStream)",1
+"org.apache.avro.io.JsonDecoder.<init>(Schema, InputStream)",org.apache.avro.io.JsonDecoder.getSymbol(Schema),2
+"org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream, boolean)","org.apache.avro.io.JsonEncoder.getJsonGenerator(OutputStream, boolean)",4
+"org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream, boolean)","org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",2
+"org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema),5
+org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema),"org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema, Map)",6
+"org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",org.apache.avro.io.ParsingEncoder.<init>(),7
+org.apache.avro.io.ParsingEncoder.<init>(),org.apache.avro.io.Encoder.<init>(),82
+"org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",org.apache.avro.io.JsonEncoder.configure(JsonGenerator),7
+"org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",org.apache.avro.io.parsing.JsonGrammarGenerator.<init>(),5
+org.apache.avro.io.parsing.JsonGrammarGenerator.<init>(),org.apache.avro.io.parsing.ValidatingGrammarGenerator.<init>(),7
+"org.apache.avro.reflect.ReflectDatumWriter.<init>(Schema, ReflectData)","org.apache.avro.specific.SpecificDatumWriter.<init>(Schema, SpecificData)",1
+"org.apache.avro.specific.SpecificDatumWriter.<init>(Schema, SpecificData)","org.apache.avro.generic.GenericDatumWriter.<init>(Schema, GenericData)",1
+"org.apache.avro.generic.GenericDatumWriter.<init>(Schema, GenericData)",org.apache.avro.generic.GenericDatumWriter.<init>(GenericData),2
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory),org.apache.avro.file.DataFileWriter.assertNotOpen(),3
+"org.apache.avro.util.ClassUtils.forName(ClassLoader, String)","org.apache.avro.util.ClassUtils.forName(String, ClassLoader)",3
+"org.apache.avro.io.ValidatingEncoder.<init>(Symbol, Encoder)","org.apache.avro.io.parsing.Parser.<init>(Symbol, Parser$ActionHandler)",75
+"org.apache.avro.io.ValidatingEncoder.<init>(Symbol, Encoder)",org.apache.avro.io.ParsingEncoder.<init>(),75
+org.apache.avro.file.NullCodec.<init>(),org.apache.avro.file.Codec.<init>(),13
+org.apache.avro.file.BZip2Codec.<init>(),org.apache.avro.file.Codec.<init>(),15
+"org.apache.avro.ValidateCanBeRead.validate(Schema, Schema)","org.apache.avro.ValidateMutualRead.canRead(Schema, Schema)",2
+"org.apache.avro.ValidateMutualRead.canRead(Schema, Schema)","org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(Schema, Schema)",4
+"org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(Schema, Schema)","org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(Schema, Schema, Map)",5
+"org.apache.avro.ValidateMutualRead.canRead(Schema, Schema)",org.apache.avro.io.parsing.ResolvingGrammarGenerator.<init>(),4
+org.apache.avro.io.parsing.ResolvingGrammarGenerator.<init>(),org.apache.avro.io.parsing.ValidatingGrammarGenerator.<init>(),6
+org.apache.avro.LogicalTypes.decimal(int),"org.apache.avro.LogicalTypes.decimal(int, int)",6
+org.apache.avro.SchemaParseException.<init>(Throwable),org.apache.avro.AvroRuntimeException.<init>(Throwable),2
+org.apache.avro.file.XZCodec.<init>(int),org.apache.avro.file.Codec.<init>(),16
+org.apache.avro.Schema.validateName(String),org.apache.avro.SchemaParseException.<init>(String),2
+org.apache.avro.SchemaParseException.<init>(String),org.apache.avro.AvroRuntimeException.<init>(String),3
+"org.apache.avro.io.EncoderFactory.blockingBinaryEncoder(OutputStream, BinaryEncoder)","org.apache.avro.io.BlockingBinaryEncoder.<init>(OutputStream, int, int)",4
+"org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)","org.apache.avro.io.BufferedBinaryEncoder.<init>(OutputStream, int)",5
+"org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)",org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream),1
+org.apache.avro.io.DirectBinaryEncoder.<init>(OutputStream),org.apache.avro.io.BinaryEncoder.<init>(),35
+org.apache.avro.io.DirectBinaryEncoder.<init>(OutputStream),org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream),35
+org.apache.avro.reflect.ReflectionUtil.resetFieldAccess(),org.apache.avro.reflect.ReflectionUtil.validate(FieldAccess),3
+org.apache.avro.reflect.ReflectionUtil.resetFieldAccess(),"org.apache.avro.reflect.ReflectionUtil.load(String, Class)",2
+org.apache.avro.reflect.FieldAccessUnsafe.<init>(),org.apache.avro.reflect.FieldAccess.<init>(),3
+org.apache.avro.io.ValidatingEncoder.writeArrayStart(),org.apache.avro.io.BlockingBinaryEncoder.writeArrayStart(),3
+org.apache.avro.io.ValidatingEncoder.writeArrayStart(),org.apache.avro.io.parsing.Parser.advance(Symbol),6
+org.apache.avro.io.ValidatingEncoder.writeArrayStart(),org.apache.avro.io.ParsingEncoder.push(),6
+org.apache.avro.io.ValidatingEncoder.startItem(),org.apache.avro.io.BlockingBinaryEncoder.startItem(),1
+org.apache.avro.io.ValidatingEncoder.writeString(CharSequence),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.parsing.Parser.advance(Symbol),org.apache.avro.io.parsing.Parser.pushProduction(Symbol),14
+org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode),"org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)",2
+"org.apache.avro.io.BinaryDecoder.<init>(byte[], int, int)","org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)",35
+"org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)","org.apache.avro.io.BinaryDecoder.configureSource(int, BinaryDecoder$ByteSource)",33
+"org.apache.avro.io.BinaryDecoder.<init>(byte[], int, int)",org.apache.avro.io.Decoder.<init>(),35
+"org.apache.avro.io.BinaryDecoder.<init>(byte[], int, int)",org.apache.avro.util.Utf8.<init>(),35
+org.apache.avro.io.BinaryDecoder.readIndex(),org.apache.avro.io.BinaryDecoder.readInt(),14
+org.apache.avro.io.BinaryDecoder.readInt(),org.apache.avro.io.BinaryDecoder.ensureBounds(int),39
+"org.apache.avro.io.ValidatingEncoder.<init>(Schema, Encoder)",org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema),1
+org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema),"org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema, Map)",2
+"org.apache.avro.io.ValidatingEncoder.<init>(Schema, Encoder)",org.apache.avro.io.parsing.ValidatingGrammarGenerator.<init>(),1
+org.apache.avro.SchemaBuilderException.<init>(Throwable),org.apache.avro.AvroRuntimeException.<init>(Throwable),1
+org.apache.avro.util.Utf8.setLength(int),org.apache.avro.util.Utf8.setByteLength(int),11
+"org.apache.avro.io.EncoderFactory.jsonEncoder(Schema, JsonGenerator)","org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",2
+org.apache.avro.util.Utf8.compareTo(Utf8),"org.apache.avro.io.BinaryData.compareBytes(byte[], int, int, byte[], int, int)",3
+org.apache.avro.util.Utf8.<init>(String),org.apache.avro.util.Utf8.getBytesFor(String),19
+"org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)","org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)",4
+"org.apache.avro.reflect.ArrayAccessor.writeArray(int[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),1
+org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),org.apache.avro.io.LegacyBinaryEncoder.writeLong(long),12
+org.apache.avro.io.LegacyBinaryEncoder.writeLong(long),"org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)",12
+"org.apache.avro.reflect.ArrayAccessor.writeArray(int[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.writeInt(int),4
+org.apache.avro.io.LegacyBinaryEncoder.writeInt(int),"org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)",6
+org.apache.avro.io.LegacyBinaryEncoder.<init>(OutputStream),org.apache.avro.io.Encoder.<init>(),34
+org.apache.avro.util.WeakIdentityHashMap.entrySet(),org.apache.avro.util.WeakIdentityHashMap.reap(),1
+"org.apache.avro.util.WeakIdentityHashMap.put(Object, Object)",org.apache.avro.util.WeakIdentityHashMap.reap(),14
+"org.apache.avro.io.BinaryData.compare(byte[], int, int, byte[], int, int, Schema)","org.apache.avro.io.BinaryData.compare(BinaryData$Decoders, Schema)",2
+"org.apache.avro.file.DataFileReader.<init>(File, DatumReader)",org.apache.avro.file.SeekableFileInput.<init>(File),2
+org.apache.avro.reflect.ReflectDatumReader.<init>(ReflectData),org.apache.avro.specific.SpecificDatumReader.<init>(SpecificData),1
+org.apache.avro.specific.SpecificDatumReader.<init>(SpecificData),org.apache.avro.generic.GenericDatumReader.<init>(GenericData),2
+org.apache.avro.reflect.FieldAccessReflect.<init>(),org.apache.avro.reflect.FieldAccess.<init>(),2
+org.apache.avro.reflect.DateAsLongEncoding.<init>(),org.apache.avro.Schema.create(Schema$Type),1
+org.apache.avro.reflect.DateAsLongEncoding.<init>(),"org.apache.avro.JsonProperties.addProp(String, String)",1
+"org.apache.avro.JsonProperties.addProp(String, String)","org.apache.avro.Schema.addProp(String, JsonNode)",2
+"org.apache.avro.Schema.addProp(String, JsonNode)","org.apache.avro.JsonProperties.addProp(String, JsonNode)",4
+org.apache.avro.reflect.DateAsLongEncoding.<init>(),org.apache.avro.reflect.CustomEncoding.<init>(),1
+"org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], BinaryDecoder)","org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)",2
+"org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.<init>(byte[], int, int)",5
+"org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)",2
+org.apache.avro.io.DirectBinaryDecoder.<init>(InputStream),org.apache.avro.io.BinaryDecoder.<init>(),72
+org.apache.avro.io.BinaryDecoder.<init>(),org.apache.avro.io.Decoder.<init>(),156
+org.apache.avro.io.BinaryDecoder.<init>(),org.apache.avro.util.Utf8.<init>(),156
+org.apache.avro.io.DirectBinaryDecoder.<init>(InputStream),org.apache.avro.io.DirectBinaryDecoder.configure(InputStream),72
+org.apache.avro.file.LengthLimitedInputStream.read(byte[]),"org.apache.avro.file.LengthLimitedInputStream.read(byte[], int, int)",5
+"org.apache.avro.file.DataFileReader.openReader(SeekableInput, DatumReader)",org.apache.avro.file.SeekableByteArrayInput.seek(long),2
+org.apache.avro.io.BinaryDecoder.skipString(),org.apache.avro.io.DirectBinaryDecoder.readInt(),1
+"org.apache.avro.reflect.ArrayAccessor.writeArray(char[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),2
+"org.apache.avro.reflect.ArrayAccessor.writeArray(char[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.writeInt(int),2
+"org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream)","org.apache.avro.io.JsonEncoder.getJsonGenerator(OutputStream, boolean)",3
+"org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream)","org.apache.avro.io.JsonEncoder.<init>(Schema, JsonGenerator)",1
+org.apache.avro.io.ValidatingDecoder.arrayNext(),org.apache.avro.io.BinaryDecoder.arrayNext(),3
+org.apache.avro.io.BinaryDecoder.arrayNext(),org.apache.avro.io.BinaryDecoder.doReadItemCount(),9
+org.apache.avro.io.BinaryDecoder.doReadItemCount(),org.apache.avro.io.BinaryDecoder.readLong(),28
+org.apache.avro.io.BinaryDecoder.readLong(),org.apache.avro.io.BinaryDecoder.ensureBounds(int),44
+org.apache.avro.io.ValidatingDecoder.arrayNext(),org.apache.avro.io.parsing.Parser.processTrailingImplicitActions(),3
+"org.apache.avro.io.ValidatingDecoder.<init>(Symbol, Decoder)",org.apache.avro.io.ParsingDecoder.<init>(Symbol),73
+org.apache.avro.io.ParsingDecoder.<init>(Symbol),"org.apache.avro.io.parsing.SkipParser.<init>(Symbol, Parser$ActionHandler, SkipParser$SkipHandler)",73
+org.apache.avro.io.ParsingDecoder.<init>(Symbol),org.apache.avro.io.Decoder.<init>(),73
+"org.apache.avro.io.ValidatingDecoder.<init>(Symbol, Decoder)",org.apache.avro.io.ValidatingDecoder.configure(Decoder),73
+org.apache.avro.util.ByteBufferOutputStream.getBufferList(),org.apache.avro.util.ByteBufferOutputStream.reset(),6
+org.apache.avro.util.ByteBufferOutputStream.<init>(),org.apache.avro.util.ByteBufferOutputStream.reset(),14
+org.apache.avro.io.ValidatingEncoder.writeInt(int),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.DirectBinaryEncoder.writeFloat(float),"org.apache.avro.io.BinaryData.encodeFloat(float, byte[], int)",3
+org.apache.avro.io.BinaryEncoder.writeIndex(int),org.apache.avro.io.DirectBinaryEncoder.writeInt(int),1
+org.apache.avro.io.BinaryEncoder.writeMapEnd(),org.apache.avro.io.DirectBinaryEncoder.writeZero(),2
+org.apache.avro.file.DataFileWriter.fSync(),org.apache.avro.file.DataFileWriter.flush(),1
+org.apache.avro.file.DataFileWriter.flush(),org.apache.avro.file.DataFileWriter.sync(),2
+org.apache.avro.file.DataFileWriter.sync(),org.apache.avro.file.DataFileWriter.assertOpen(),3
+org.apache.avro.file.DataFileWriter.assertOpen(),org.apache.avro.AvroRuntimeException.<init>(String),6
+"org.apache.avro.ValidateCanRead.validate(Schema, Schema)","org.apache.avro.ValidateMutualRead.canRead(Schema, Schema)",1
+"org.apache.avro.SchemaValidationException.<init>(Schema, Schema)","org.apache.avro.SchemaValidationException.getMessage(Schema, Schema)",1
+org.apache.avro.io.BinaryEncoder.writeIndex(int),org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),2
+org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),"org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)",10
+org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),11
+org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),12
+org.apache.avro.util.ClassUtils.forName(String),"org.apache.avro.util.ClassUtils.forName(Class, String)",1
+"org.apache.avro.util.ClassUtils.forName(Class, String)","org.apache.avro.util.ClassUtils.forName(String, ClassLoader)",5
+org.apache.avro.io.Encoder.writeFixed(byte[]),"org.apache.avro.io.BlockingBinaryEncoder.writeFixed(byte[], int, int)",1
+"org.apache.avro.io.BlockingBinaryEncoder.writeFixed(byte[], int, int)","org.apache.avro.io.BlockingBinaryEncoder.doWriteBytes(byte[], int, int)",4
+"org.apache.avro.io.BlockingBinaryEncoder.doWriteBytes(byte[], int, int)",org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),4
+org.apache.avro.io.BlockingBinaryEncoder.writeDouble(double),"org.apache.avro.io.BinaryData.encodeDouble(double, byte[], int)",2
+"org.apache.avro.io.BinaryData.hashCode(byte[], int, int, Schema)","org.apache.avro.io.BinaryData.hashCode(BinaryData$HashData, Schema)",1
+org.apache.avro.SchemaValidatorBuilder.canBeReadStrategy(),org.apache.avro.ValidateCanBeRead.<init>(),2
+org.apache.avro.SchemaValidatorBuilder.validateAll(),org.apache.avro.SchemaValidatorBuilder.valid(),2
+org.apache.avro.SchemaValidatorBuilder.validateAll(),org.apache.avro.ValidateAll.<init>(SchemaValidationStrategy),1
+org.apache.avro.io.parsing.Symbol.hasErrors(Symbol),"org.apache.avro.io.parsing.Symbol.hasErrors(Symbol, Symbol[])",5
+"org.apache.avro.io.parsing.Symbol.hasErrors(Symbol, Symbol[])",org.apache.avro.io.parsing.Symbol.hasErrors(Symbol),11
+org.apache.avro.io.parsing.Symbol.hasErrors(Symbol),org.apache.avro.io.parsing.Symbol.hasErrors(Symbol),2
+"org.apache.avro.io.EncoderFactory.jsonEncoder(Schema, OutputStream, boolean)","org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream, boolean)",2
+"org.apache.avro.io.LegacyBinaryEncoder.writeBytes(byte[], int, int)","org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)",2
+org.apache.avro.io.BinaryEncoder.writeString(String),org.apache.avro.io.DirectBinaryEncoder.writeZero(),1
+org.apache.avro.io.BinaryEncoder.writeEnum(int),org.apache.avro.io.DirectBinaryEncoder.writeInt(int),2
+org.apache.avro.io.ValidatingDecoder.readInt(),org.apache.avro.io.parsing.Parser.advance(Symbol),5
+org.apache.avro.io.BlockingBinaryEncoder.writeMapStart(),org.apache.avro.io.BlockingBinaryEncoder.check(),5
+org.apache.avro.io.BlockingBinaryEncoder.setItemCount(long),org.apache.avro.io.BlockingBinaryEncoder.check(),1
+"org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)",org.apache.avro.io.DirectBinaryEncoder.<init>(OutputStream),2
+org.apache.avro.file.DeflateCodec.<init>(int),org.apache.avro.file.Codec.<init>(),13
+org.apache.avro.io.DirectBinaryEncoder.writeInt(int),"org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)",3
+org.apache.avro.io.LegacyBinaryEncoder.writeDouble(double),"org.apache.avro.io.LegacyBinaryEncoder.encodeDouble(double, OutputStream)",7
+org.apache.avro.io.Encoder.writeBytes(byte[]),"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)",1
+"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)",org.apache.avro.io.DirectBinaryEncoder.writeInt(int),2
+"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)","org.apache.avro.io.DirectBinaryEncoder.writeFixed(byte[], int, int)",2
+"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)","org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",1
+"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),5
+"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)",org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),1
+org.apache.avro.io.ValidatingEncoder.writeArrayEnd(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingEncoder.flush(),org.apache.avro.io.BlockingBinaryEncoder.flush(),2
+org.apache.avro.io.BlockingBinaryEncoder.flush(),org.apache.avro.io.BlockingBinaryEncoder.compact(),1
+org.apache.avro.io.BlockingBinaryEncoder.compact(),"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",2
+org.apache.avro.io.BlockingBinaryEncoder.compact(),org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),2
+org.apache.avro.io.BlockingBinaryEncoder.compact(),org.apache.avro.io.BlockingBinaryEncoder.check(),2
+org.apache.avro.io.BufferedBinaryEncoder.writeLong(long),"org.apache.avro.io.BinaryData.encodeLong(long, byte[], int)",2
+org.apache.avro.io.BufferedBinaryEncoder.writeLong(long),org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),2
+"org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)","org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)",1
+org.apache.avro.LogicalType.addToSchema(Schema),org.apache.avro.LogicalType.validate(Schema),2
+org.apache.avro.util.WeakIdentityHashMap.hashCode(),org.apache.avro.util.WeakIdentityHashMap.reap(),2
+org.apache.avro.util.WeakIdentityHashMap.keySet(),org.apache.avro.util.WeakIdentityHashMap.reap(),2
+org.apache.avro.io.BlockingBinaryEncoder.flush(),org.apache.avro.io.BufferedBinaryEncoder.flush(),2
+org.apache.avro.io.BufferedBinaryEncoder.flush(),org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),3
+org.apache.avro.io.BlockingBinaryEncoder.flush(),"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",2
+org.apache.avro.io.BlockingBinaryEncoder.flush(),org.apache.avro.io.BlockingBinaryEncoder.check(),2
+org.apache.avro.io.Encoder.writeFixed(byte[]),"org.apache.avro.io.LegacyBinaryEncoder.writeFixed(byte[], int, int)",2
+org.apache.avro.io.BufferedBinaryEncoder.writeBoolean(boolean),org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),2
+org.apache.avro.io.BufferedBinaryEncoder.writeDouble(double),"org.apache.avro.io.BinaryData.encodeDouble(double, byte[], int)",2
+org.apache.avro.io.BufferedBinaryEncoder.writeDouble(double),org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),2
+org.apache.avro.io.parsing.Parser.advance(Symbol),org.apache.avro.AvroTypeException.<init>(String),36
+org.apache.avro.AvroTypeException.<init>(String),org.apache.avro.AvroRuntimeException.<init>(String),42
+org.apache.avro.io.DirectBinaryDecoder.readBytes(ByteBuffer),org.apache.avro.io.DirectBinaryDecoder.readInt(),1
+org.apache.avro.util.ByteBufferInputStream.readBuffer(int),org.apache.avro.util.ByteBufferInputStream.getBuffer(),2
+org.apache.avro.io.BufferedBinaryEncoder.writeZero(),org.apache.avro.io.BufferedBinaryEncoder.writeByte(int),3
+org.apache.avro.io.ValidatingEncoder.writeDouble(double),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.file.SnappyCodec.<init>(SnappyCodec$1),org.apache.avro.file.SnappyCodec.<init>(),9
+org.apache.avro.file.SnappyCodec.<init>(),org.apache.avro.file.Codec.<init>(),9
+org.apache.avro.io.DirectBinaryEncoder.writeLong(long),"org.apache.avro.io.BinaryData.encodeLong(long, byte[], int)",2
+org.apache.avro.io.DirectBinaryEncoder.writeDouble(double),"org.apache.avro.io.BinaryData.encodeDouble(double, byte[], int)",2
+org.apache.avro.util.ByteBufferInputStream.read(),org.apache.avro.util.ByteBufferInputStream.getBuffer(),2
+"org.apache.avro.util.ByteBufferInputStream.read(byte[], int, int)",org.apache.avro.util.ByteBufferInputStream.getBuffer(),3
+org.apache.avro.io.LegacyBinaryEncoder.writeEnum(int),"org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)",1
+"org.apache.avro.io.EncoderFactory.blockingBinaryEncoder(OutputStream, BinaryEncoder)","org.apache.avro.io.BlockingBinaryEncoder.configure(OutputStream, int, int)",3
+org.apache.avro.util.WeakIdentityHashMap.containsValue(Object),org.apache.avro.util.WeakIdentityHashMap.reap(),4
+org.apache.avro.io.ValidatingEncoder.setItemCount(long),org.apache.avro.io.ParsingEncoder.setItemCount(long),5
+org.apache.avro.io.ParsingEncoder.setItemCount(long),org.apache.avro.AvroTypeException.<init>(String),1
+org.apache.avro.io.ParsingEncoder.pop(),org.apache.avro.AvroTypeException.<init>(String),2
+org.apache.avro.io.ValidatingEncoder.setItemCount(long),org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),1
+"org.apache.avro.file.LengthLimitedInputStream.read(byte[], int, int)",org.apache.avro.file.LengthLimitedInputStream.remainingInt(),3
+org.apache.avro.io.BinaryDecoder.skipFixed(int),org.apache.avro.io.BinaryDecoder.doSkipBytes(long),10
+"org.apache.avro.io.EncoderFactory.jsonEncoder(Schema, OutputStream)","org.apache.avro.io.JsonEncoder.<init>(Schema, OutputStream)",1
+org.apache.avro.io.BinaryDecoder.skipString(),org.apache.avro.io.BinaryDecoder.readInt(),3
+"org.apache.avro.reflect.ArrayAccessor.writeArray(double[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.writeDouble(double),6
+"org.apache.avro.reflect.ArrayAccessor.writeArray(double[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),1
+org.apache.avro.io.BinaryDecoder.readMapStart(),org.apache.avro.io.BinaryDecoder.doReadItemCount(),7
+org.apache.avro.io.BinaryDecoder.doReadItemCount(),org.apache.avro.io.DirectBinaryDecoder.readLong(),4
+org.apache.avro.io.BinaryEncoder.writeEnum(int),org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),1
+org.apache.avro.io.ValidatingDecoder.skipFixed(),org.apache.avro.io.parsing.Parser.advance(Symbol),6
+org.apache.avro.file.CodecFactory.fromString(String),org.apache.avro.AvroRuntimeException.<init>(String),1
+org.apache.avro.io.BinaryEncoder.setItemCount(long),org.apache.avro.io.BufferedBinaryEncoder.writeLong(long),1
+org.apache.avro.io.Encoder.writeBytes(byte[]),"org.apache.avro.io.LegacyBinaryEncoder.writeBytes(byte[], int, int)",1
+"org.apache.avro.file.DataFileReader.openReader(File, DatumReader)",org.apache.avro.file.SeekableFileInput.<init>(File),2
+org.apache.avro.util.internal.JacksonUtils.toJsonNode(Object),"org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)",1
+"org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)",org.apache.avro.AvroRuntimeException.<init>(String),2
+org.apache.avro.LogicalType.addToSchema(Schema),"org.apache.avro.JsonProperties.addProp(String, String)",1
+org.apache.avro.LogicalType.validate(Schema),org.apache.avro.JsonProperties.getProp(String),4
+org.apache.avro.JsonProperties.getProp(String),org.apache.avro.JsonProperties.getJsonProp(String),8
+org.apache.avro.file.DataFileWriter.appendTo(File),org.apache.avro.file.SeekableFileInput.<init>(File),2
+org.apache.avro.SchemaNormalization.toParsingForm(Schema),"org.apache.avro.SchemaNormalization.build(Map, Schema, Appendable)",3
+"org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader, DataFileStream$Header)","org.apache.avro.file.DataFileStream.initialize(InputStream, DataFileStream$Header)",2
+"org.apache.avro.file.DataFileStream.initialize(InputStream, DataFileStream$Header)",org.apache.avro.file.DataFileStream.resolveCodec(),2
+org.apache.avro.file.DataFileStream.resolveCodec(),org.apache.avro.file.DataFileStream.getMetaString(String),2
+org.apache.avro.file.DataFileStream.getMetaString(String),org.apache.avro.file.DataFileStream.getMeta(String),2
+"org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader, DataFileStream$Header)",org.apache.avro.file.DataFileStream.<init>(DatumReader),2
+org.apache.avro.SchemaNormalization.parsingFingerprint64(Schema),org.apache.avro.SchemaNormalization.toParsingForm(Schema),1
+"org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)","org.apache.avro.AvroRuntimeException.<init>(String, Throwable)",1
+"org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)",org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),2
+org.apache.avro.io.BinaryDecoder.readString(),org.apache.avro.io.BinaryDecoder.readString(Utf8),3
+org.apache.avro.io.BinaryDecoder.readString(Utf8),org.apache.avro.io.BinaryDecoder.readInt(),4
+org.apache.avro.io.BinaryDecoder.skipBytes(),org.apache.avro.io.BinaryDecoder.readInt(),4
+"org.apache.avro.io.BinaryData.compare(byte[], int, byte[], int, Schema)","org.apache.avro.io.BinaryData.compare(byte[], int, int, byte[], int, int, Schema)",1
+org.apache.avro.io.ValidatingEncoder.writeIndex(int),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.BinaryDecoder.skipMap(),org.apache.avro.io.BinaryDecoder.doSkipItems(),7
+org.apache.avro.io.BinaryDecoder.doSkipItems(),org.apache.avro.io.DirectBinaryDecoder.readInt(),4
+org.apache.avro.SchemaValidatorBuilder.validateLatest(),org.apache.avro.SchemaValidatorBuilder.valid(),2
+org.apache.avro.SchemaValidatorBuilder.valid(),org.apache.avro.AvroRuntimeException.<init>(String),2
+"org.apache.avro.io.ResolvingDecoder.<init>(Schema, Schema, Decoder)","org.apache.avro.io.ResolvingDecoder.resolve(Schema, Schema)",2
+"org.apache.avro.file.DataFileWriter.create(Schema, File)",org.apache.avro.file.SyncableFileOutputStream.<init>(File),1
+org.apache.avro.io.BinaryEncoder.writeArrayEnd(),org.apache.avro.io.BufferedBinaryEncoder.writeZero(),1
+"org.apache.avro.io.DecoderFactory.resolvingDecoder(Schema, Schema, Decoder)","org.apache.avro.io.ResolvingDecoder.<init>(Schema, Schema, Decoder)",1
+"org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], BinaryDecoder)","org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)",1
+org.apache.avro.io.ValidatingDecoder.skipString(),org.apache.avro.io.parsing.Parser.advance(Symbol),4
+org.apache.avro.io.BinaryEncoder.writeEnum(int),org.apache.avro.io.BlockingBinaryEncoder.writeInt(int),1
+org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),org.apache.avro.io.BlockingBinaryEncoder.compact(),1
+"org.apache.avro.io.BlockingBinaryEncoder.doWriteBytes(byte[], int, int)","org.apache.avro.io.BlockingBinaryEncoder.write(byte[], int, int)",1
+"org.apache.avro.io.BlockingBinaryEncoder.write(byte[], int, int)","org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",1
+"org.apache.avro.UnresolvedUnionException.<init>(Schema, Object)",org.apache.avro.AvroRuntimeException.<init>(String),3
+org.apache.avro.io.BlockingBinaryEncoder.writeInt(int),"org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)",2
+org.apache.avro.io.BinaryEncoder.writeString(String),"org.apache.avro.io.BlockingBinaryEncoder.writeFixed(byte[], int, int)",2
+"org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)","org.apache.avro.file.DataFileWriter.create(Schema, OutputStream, byte[])",1
+"org.apache.avro.file.DataFileWriter.create(Schema, OutputStream, byte[])",org.apache.avro.file.DataFileWriter.assertNotOpen(),1
+"org.apache.avro.file.DataFileWriter.setMeta(String, long)","org.apache.avro.file.DataFileWriter.setMeta(String, String)",3
+"org.apache.avro.file.DataFileWriter.setMeta(String, String)","org.apache.avro.file.DataFileWriter.setMeta(String, byte[])",6
+"org.apache.avro.file.DataFileWriter.setMeta(String, byte[])",org.apache.avro.AvroRuntimeException.<init>(String),3
+"org.apache.avro.file.DataFileWriter.setMeta(String, byte[])",org.apache.avro.file.DataFileWriter.isReservedMeta(String),10
+"org.apache.avro.util.Utf8.subSequence(int, int)",org.apache.avro.util.Utf8.toString(),3
+org.apache.avro.io.BufferedBinaryEncoder.writeFloat(float),"org.apache.avro.io.BinaryData.encodeFloat(float, byte[], int)",2
+org.apache.avro.io.BufferedBinaryEncoder.writeFloat(float),org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),2
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.skipMap(),1
+org.apache.avro.io.ValidatingDecoder.skipMap(),org.apache.avro.io.BinaryDecoder.skipMap(),1
+org.apache.avro.io.ValidatingDecoder.skipMap(),org.apache.avro.io.parsing.Parser.advance(Symbol),4
+org.apache.avro.io.BinaryDecoder.readDouble(),org.apache.avro.io.BinaryDecoder.ensureBounds(int),4
+org.apache.avro.io.ValidatingEncoder.writeString(Utf8),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.file.DataFileReader.openReader(SeekableInput, DatumReader, DataFileStream$Header, boolean)","org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader, DataFileStream$Header)",1
+org.apache.avro.io.BlockingBinaryEncoder.writeFloat(float),"org.apache.avro.io.BinaryData.encodeFloat(float, byte[], int)",1
+"org.apache.avro.SchemaNormalization.parsingFingerprint(String, Schema)",org.apache.avro.SchemaNormalization.toParsingForm(Schema),1
+org.apache.avro.io.BinaryDecoder.readBytes(ByteBuffer),org.apache.avro.io.BinaryDecoder.readInt(),2
+org.apache.avro.io.BinaryDecoder.readArrayStart(),org.apache.avro.io.BinaryDecoder.doReadItemCount(),5
+"org.apache.avro.SchemaValidationException.<init>(Schema, Schema, Throwable)","org.apache.avro.SchemaValidationException.getMessage(Schema, Schema)",1
+org.apache.avro.io.BinaryDecoder.doSkipItems(),org.apache.avro.io.BinaryDecoder.readInt(),7
+"org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)",org.apache.avro.io.DirectBinaryEncoder.writeZero(),1
+org.apache.avro.io.BufferedBinaryEncoder.writeByte(int),org.apache.avro.io.BufferedBinaryEncoder.flushBuffer(),1
+org.apache.avro.io.BinaryDecoder.skipArray(),org.apache.avro.io.BinaryDecoder.doSkipItems(),4
+org.apache.avro.io.BinaryDecoder.mapNext(),org.apache.avro.io.BinaryDecoder.doReadItemCount(),6
+org.apache.avro.io.BlockingBinaryEncoder.writeLong(long),"org.apache.avro.io.BinaryData.encodeLong(long, byte[], int)",2
+org.apache.avro.io.BlockingBinaryEncoder.writeLong(long),org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),2
+org.apache.avro.io.ValidatingEncoder.writeLong(long),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.BinaryEncoder.writeString(String),org.apache.avro.io.BufferedBinaryEncoder.writeInt(int),1
+org.apache.avro.io.BinaryEncoder.writeString(String),"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",1
+"org.apache.avro.io.DecoderFactory.createBinaryDecoder(InputStream, BinaryDecoder)","org.apache.avro.io.DecoderFactory.binaryDecoder(InputStream, BinaryDecoder)",2
+org.apache.avro.file.DataFileWriter.append(Object),org.apache.avro.file.DataFileWriter.assertOpen(),1
+org.apache.avro.file.DataFileWriter.appendEncoded(ByteBuffer),org.apache.avro.file.DataFileWriter.assertOpen(),1
+org.apache.avro.io.BinaryDecoder.readEnum(),org.apache.avro.io.BinaryDecoder.readInt(),2
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.readInt(),1
+org.apache.avro.io.ValidatingDecoder.readInt(),org.apache.avro.io.DirectBinaryDecoder.readInt(),1
+org.apache.avro.io.BinaryDecoder.readLong(),org.apache.avro.io.BinaryDecoder.innerLongDecode(long),1
+org.apache.avro.util.Utf8.set(String),org.apache.avro.util.Utf8.getBytesFor(String),4
+org.apache.avro.util.Utf8.charAt(int),org.apache.avro.util.Utf8.toString(),4
+"org.apache.avro.ValidateMutualRead.validate(Schema, Schema)","org.apache.avro.ValidateMutualRead.canRead(Schema, Schema)",1
+org.apache.avro.io.BinaryDecoder.readFloat(),org.apache.avro.io.BinaryDecoder.ensureBounds(int),2
+"org.apache.avro.io.DecoderFactory.jsonDecoder(Schema, String)","org.apache.avro.io.JsonDecoder.<init>(Schema, String)",1
+"org.apache.avro.io.JsonDecoder.<init>(Schema, String)",org.apache.avro.io.JsonDecoder.getSymbol(Schema),2
+"org.apache.avro.io.ValidatingDecoder.readFixed(byte[], int, int)",org.apache.avro.io.ValidatingDecoder.checkFixed(int),3
+org.apache.avro.io.ValidatingDecoder.checkFixed(int),org.apache.avro.io.parsing.Parser.advance(Symbol),6
+"org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)",org.apache.avro.AvroRuntimeException.<init>(String),2
+org.apache.avro.AvroRemoteException.<init>(Throwable),org.apache.avro.AvroRemoteException.<init>(Object),1
+"org.apache.avro.file.DataFileWriter.appendAllFrom(DataFileStream, boolean)",org.apache.avro.file.DataFileWriter.assertOpen(),1
+org.apache.avro.LogicalTypes.fromSchemaIgnoreInvalid(Schema),"org.apache.avro.LogicalTypes.fromSchemaImpl(Schema, boolean)",5
+org.apache.avro.io.ValidatingEncoder.writeMapEnd(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.LogicalTypes.fromSchema(Schema),"org.apache.avro.LogicalTypes.fromSchemaImpl(Schema, boolean)",1
+"org.apache.avro.SchemaNormalization.fingerprint(String, byte[])",org.apache.avro.SchemaNormalization.fingerprint64(byte[]),1
+org.apache.avro.io.ValidatingDecoder.readDouble(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.BlockingBinaryEncoder.writeArrayEnd(),org.apache.avro.AvroTypeException.<init>(String),1
+"org.apache.avro.reflect.ArrayAccessor.writeArray(boolean[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.writeBoolean(boolean),6
+"org.apache.avro.reflect.ArrayAccessor.writeArray(boolean[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),2
+org.apache.avro.io.ValidatingDecoder.readString(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingDecoder.skipArray(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingDecoder.mapNext(),org.apache.avro.io.parsing.Parser.advance(Symbol),1
+org.apache.avro.io.ValidatingDecoder.mapNext(),org.apache.avro.io.BinaryDecoder.mapNext(),2
+org.apache.avro.io.ValidatingDecoder.mapNext(),org.apache.avro.io.parsing.Parser.processTrailingImplicitActions(),2
+org.apache.avro.io.ValidatingDecoder.readMapStart(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingDecoder.readNull(),org.apache.avro.io.parsing.Parser.advance(Symbol),4
+org.apache.avro.io.ValidatingDecoder.readFloat(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.file.DataFileWriter.setMeta(String, byte[])","org.apache.avro.file.DataFileWriter.setMetaInternal(String, byte[])",5
+"org.apache.avro.file.DataFileWriter.setMetaInternal(String, byte[])",org.apache.avro.file.DataFileWriter.assertNotOpen(),7
+org.apache.avro.io.ValidatingDecoder.readEnum(),org.apache.avro.io.parsing.Parser.advance(Symbol),4
+org.apache.avro.io.BlockingBinaryEncoder.writeMapEnd(),org.apache.avro.AvroTypeException.<init>(String),1
+org.apache.avro.io.ValidatingEncoder.writeEnum(int),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory),"org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)",2
+"org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)","org.apache.avro.file.DataFileWriter.setMetaInternal(String, byte[])",2
+org.apache.avro.io.ValidatingEncoder.writeFloat(float),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.file.CodecFactory.toString(),org.apache.avro.file.XZCodec.toString(),1
+org.apache.avro.io.ValidatingEncoder.writeBoolean(boolean),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingEncoder.writeString(String),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.util.WeakIdentityHashMap.get(Object),org.apache.avro.util.WeakIdentityHashMap.reap(),2
+org.apache.avro.io.ValidatingDecoder.readLong(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.util.Utf8.length(),org.apache.avro.util.Utf8.toString(),3
+org.apache.avro.util.WeakIdentityHashMap.containsKey(Object),org.apache.avro.util.WeakIdentityHashMap.reap(),1
+org.apache.avro.file.CodecFactory.toString(),org.apache.avro.file.DeflateCodec.toString(),2
+org.apache.avro.util.WeakIdentityHashMap.size(),org.apache.avro.util.WeakIdentityHashMap.reap(),2
+org.apache.avro.io.ValidatingDecoder.skipFixed(int),org.apache.avro.io.ValidatingDecoder.checkFixed(int),3
+org.apache.avro.io.ValidatingDecoder.skipBytes(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingDecoder.readIndex(),org.apache.avro.io.parsing.Parser.advance(Symbol),2
+org.apache.avro.io.ValidatingEncoder.writeBytes(ByteBuffer),org.apache.avro.io.parsing.Parser.advance(Symbol),2
+"org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)","org.apache.avro.io.DirectBinaryDecoder.doReadBytes(byte[], int, int)",2
+org.apache.avro.io.ValidatingDecoder.readArrayStart(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.AvroTypeException.<init>(String, Throwable)","org.apache.avro.AvroRuntimeException.<init>(String, Throwable)",1
+"org.apache.avro.io.ValidatingEncoder.writeFixed(byte[], int, int)",org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.io.DecoderFactory.directBinaryDecoder(InputStream, BinaryDecoder)",org.apache.avro.io.DirectBinaryDecoder.<init>(InputStream),3
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.readDouble(),1
+org.apache.avro.io.ValidatingDecoder.readDouble(),org.apache.avro.io.DirectBinaryDecoder.readDouble(),1
+org.apache.avro.io.DirectBinaryDecoder.readDouble(),"org.apache.avro.io.DirectBinaryDecoder.doReadBytes(byte[], int, int)",1
+org.apache.avro.io.ValidatingEncoder.writeMapStart(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+org.apache.avro.io.ValidatingEncoder.writeMapStart(),org.apache.avro.io.ParsingEncoder.push(),3
+"org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], int, int, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)",2
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.skipFixed(),1
+org.apache.avro.io.ValidatingEncoder.writeNull(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.io.DecoderFactory.binaryDecoder(InputStream, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.configure(InputStream, int)",1
+org.apache.avro.io.BlockingBinaryEncoder.writeIndex(int),"org.apache.avro.io.BinaryData.encodeInt(int, byte[], int)",1
+"org.apache.avro.reflect.ArrayAccessor.writeArray(long[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),2
+org.apache.avro.file.LengthLimitedInputStream.available(),org.apache.avro.file.LengthLimitedInputStream.remainingInt(),3
+org.apache.avro.util.WeakIdentityHashMap.values(),org.apache.avro.util.WeakIdentityHashMap.reap(),1
+"org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], int, int, BinaryDecoder)","org.apache.avro.io.BinaryDecoder.<init>(byte[], int, int)",3
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.readEnum(),1
+org.apache.avro.io.ValidatingDecoder.readBoolean(),org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.io.ValidatingEncoder.writeBytes(byte[], int, int)",org.apache.avro.io.parsing.Parser.advance(Symbol),3
+"org.apache.avro.reflect.ArrayAccessor.writeArray(short[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),2
+org.apache.avro.io.ValidatingDecoder.readBytes(ByteBuffer),org.apache.avro.io.parsing.Parser.advance(Symbol),1
+org.apache.avro.util.WeakIdentityHashMap.isEmpty(),org.apache.avro.util.WeakIdentityHashMap.reap(),2
+org.apache.avro.io.ValidatingDecoder.readString(Utf8),org.apache.avro.io.parsing.Parser.advance(Symbol),1
+"org.apache.avro.io.DecoderFactory.validatingDecoder(Schema, Decoder)","org.apache.avro.io.ValidatingDecoder.<init>(Schema, Decoder)",1
+"org.apache.avro.io.ValidatingDecoder.<init>(Schema, Decoder)",org.apache.avro.io.ValidatingDecoder.getSymbol(Schema),2
+"org.apache.avro.reflect.ArrayAccessor.writeArray(float[], Encoder)",org.apache.avro.io.LegacyBinaryEncoder.setItemCount(long),1
+org.apache.avro.util.WeakIdentityHashMap.remove(Object),org.apache.avro.util.WeakIdentityHashMap.reap(),1
+org.apache.avro.io.BinaryDecoder.skipFixed(int),org.apache.avro.io.DirectBinaryDecoder.doSkipBytes(long),1
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.skipString(),1
+org.apache.avro.io.ParsingDecoder.skipTopSymbol(),org.apache.avro.io.ValidatingDecoder.readNull(),1
+org.apache.avro.util.WeakIdentityHashMap.clear(),org.apache.avro.util.WeakIdentityHashMap.reap(),1
+"org.apache.avro.io.DecoderFactory.directBinaryDecoder(InputStream, BinaryDecoder)",org.apache.avro.io.DirectBinaryDecoder.configure(InputStream),1
+org.apache.avro.SchemaBuilderException.<init>(String),org.apache.avro.AvroRuntimeException.<init>(String),1
+org.apache.avro.SchemaValidatorBuilder.validateLatest(),org.apache.avro.ValidateLatest.<init>(SchemaValidationStrategy),1
+org.apache.avro.SchemaValidatorBuilder.mutualReadStrategy(),org.apache.avro.ValidateMutualRead.<init>(),1
+org.apache.avro.SchemaValidatorBuilder.canReadStrategy(),org.apache.avro.ValidateCanRead.<init>(),1
+org.apache.avro.io.parsing.Parser.pushSymbol(Symbol),org.apache.avro.io.parsing.Parser.expandStack(),1
+org.apache.avro.ipc.DatagramServer.run(),org.apache.avro.ipc.DatagramTransceiver.readBuffers(),1
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)","org.apache.avro.Schema.parse(JsonNode, Schema$Names)",9
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)",org.apache.avro.Schema.create(Schema$Type),1
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)","org.apache.avro.Schema.addProp(String, JsonNode)",2
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)",org.apache.avro.LogicalTypes.fromSchemaIgnoreInvalid(Schema),4
+"org.apache.avro.LogicalTypes.fromSchemaImpl(Schema, boolean)",org.apache.avro.JsonProperties.getProp(String),4
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)","org.apache.avro.Schema.getRequiredText(JsonNode, String, String)",10
+"org.apache.avro.Schema.getRequiredText(JsonNode, String, String)","org.apache.avro.Schema.getOptionalText(JsonNode, String)",10
+org.apache.avro.Schema.getFullName(),org.apache.avro.Schema.getName(),4
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)",org.apache.avro.Schema.parseAliases(JsonNode),6
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)","org.apache.avro.Schema.getOptionalText(JsonNode, String)",8
+org.apache.avro.specific.SpecificData.<init>(),org.apache.avro.generic.GenericData.<init>(),2
+org.apache.avro.specific.SpecificDatumWriter.<init>(Schema),"org.apache.avro.generic.GenericDatumWriter.<init>(Schema, GenericData)",1
+org.apache.avro.specific.SpecificDatumReader.<init>(Schema),"org.apache.avro.specific.SpecificDatumReader.<init>(Schema, Schema, SpecificData)",1
+"org.apache.avro.specific.SpecificDatumReader.<init>(Schema, Schema, SpecificData)","org.apache.avro.generic.GenericDatumReader.<init>(Schema, Schema, GenericData)",1
+org.apache.avro.specific.SpecificRecordBuilderBase.<init>(Schema),"org.apache.avro.data.RecordBuilderBase.<init>(Schema, GenericData)",1
+org.apache.avro.ipc.stats.StatsPlugin.<init>(),"org.apache.avro.ipc.stats.StatsPlugin.<init>(Stopwatch$Ticks, Histogram$Segmenter, Histogram$Segmenter)",20
+"org.apache.avro.ipc.stats.StatsPlugin.<init>(Stopwatch$Ticks, Histogram$Segmenter, Histogram$Segmenter)",org.apache.avro.ipc.RPCPlugin.<init>(),24
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext),org.apache.avro.ipc.stats.IntegerHistogram.add(Integer),6
+org.apache.avro.ipc.stats.IntegerHistogram.add(Integer),org.apache.avro.ipc.stats.Histogram.add(Object),15
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext),org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram(),7
+org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram(),org.apache.avro.ipc.stats.IntegerHistogram.<init>(Histogram$Segmenter),12
+org.apache.avro.ipc.stats.IntegerHistogram.<init>(Histogram$Segmenter),org.apache.avro.ipc.stats.Histogram.<init>(Histogram$Segmenter),21
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext),org.apache.avro.ipc.stats.Stopwatch.start(),9
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext),org.apache.avro.ipc.stats.StatsPlugin.getPayloadSize(List),7
+org.apache.avro.ipc.stats.StatsPlugin.clientSendRequest(RPCContext),org.apache.avro.ipc.stats.Stopwatch.<init>(Stopwatch$Ticks),9
+org.apache.avro.ipc.SocketTransceiver.<init>(SocketChannel),org.apache.avro.ipc.Transceiver.<init>(),2
+"org.apache.avro.ipc.stats.StatsServer.<init>(StatsPlugin, int)",org.apache.avro.ipc.stats.StatsServlet.<init>(StatsPlugin),1
+"org.apache.avro.ipc.stats.StatsServer.<init>(StatsPlugin, int)",org.apache.avro.ipc.stats.StaticServlet.<init>(),1
+"org.apache.avro.ipc.Ipc.createServer(Responder, URI)","org.apache.avro.ipc.HttpServer.<init>(Responder, int)",1
+"org.apache.avro.ipc.HttpServer.<init>(Responder, int)","org.apache.avro.ipc.HttpServer.<init>(ResponderServlet, String, int)",2
+"org.apache.avro.ipc.HttpServer.<init>(Responder, int)",org.apache.avro.ipc.ResponderServlet.<init>(Responder),2
+"org.apache.avro.ipc.HttpTransceiver.<init>(URL, Proxy)",org.apache.avro.ipc.HttpTransceiver.<init>(URL),4
+org.apache.avro.ipc.HttpTransceiver.<init>(URL),org.apache.avro.ipc.Transceiver.<init>(),9
+"org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketAddress, SaslClient)",org.apache.avro.ipc.Transceiver.<init>(),4
+org.apache.avro.ipc.stats.StatsPlugin.serverReceiveRequest(RPCContext),org.apache.avro.ipc.stats.IntegerHistogram.add(Integer),5
+org.apache.avro.ipc.stats.StatsPlugin.serverReceiveRequest(RPCContext),org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram(),5
+org.apache.avro.ipc.stats.StatsPlugin.serverReceiveRequest(RPCContext),org.apache.avro.ipc.stats.Stopwatch.start(),7
+org.apache.avro.ipc.stats.StatsPlugin.serverReceiveRequest(RPCContext),org.apache.avro.ipc.stats.StatsPlugin.getPayloadSize(List),5
+org.apache.avro.ipc.stats.StatsPlugin.serverReceiveRequest(RPCContext),org.apache.avro.ipc.stats.Stopwatch.<init>(Stopwatch$Ticks),7
+"org.apache.avro.ipc.HttpServer.<init>(Responder, String, int)","org.apache.avro.ipc.HttpServer.<init>(ResponderServlet, String, int)",1
+"org.apache.avro.ipc.HttpServer.<init>(Responder, String, int)",org.apache.avro.ipc.ResponderServlet.<init>(Responder),1
+"org.apache.avro.ipc.SaslSocketServer.<init>(Responder, SocketAddress)","org.apache.avro.ipc.SaslSocketServer.<init>(Responder, SocketAddress, SaslSocketServer$SaslServerFactory)",1
+"org.apache.avro.ipc.SaslSocketServer.<init>(Responder, SocketAddress, SaslSocketServer$SaslServerFactory)","org.apache.avro.ipc.SocketServer.<init>(Responder, SocketAddress)",2
+"org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketChannel, SaslServer)",org.apache.avro.ipc.SaslSocketTransceiver.getRemoteName(),1
+"org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketChannel, SaslServer)",org.apache.avro.ipc.Transceiver.<init>(),1
+org.apache.avro.ipc.stats.FloatHistogram.add(Float),org.apache.avro.ipc.stats.Histogram.add(Object),4
+org.apache.avro.ipc.stats.FloatHistogram.<init>(Histogram$Segmenter),org.apache.avro.ipc.stats.Histogram.<init>(Histogram$Segmenter),9
+org.apache.avro.ipc.CallFuture.<init>(),org.apache.avro.ipc.CallFuture.<init>(Callback),13
+"org.apache.avro.ipc.Transceiver.transceive(List, Callback)",org.apache.avro.ipc.Transceiver.transceive(List),1
+org.apache.avro.ipc.Transceiver.transceive(List),org.apache.avro.ipc.Transceiver.unlockChannel(),1
+org.apache.avro.ipc.Transceiver.transceive(List),org.apache.avro.ipc.HttpTransceiver.writeBuffers(List),1
+org.apache.avro.ipc.Transceiver.transceive(List),org.apache.avro.ipc.Transceiver.lockChannel(),1
+"org.apache.avro.ipc.HttpServer.<init>(Responder, Connector)","org.apache.avro.ipc.HttpServer.<init>(ResponderServlet, Connector)",2
+"org.apache.avro.ipc.HttpServer.<init>(Responder, Connector)",org.apache.avro.ipc.ResponderServlet.<init>(Responder),2
+org.apache.avro.ipc.DatagramServer.main(String[]),"org.apache.avro.ipc.DatagramServer.<init>(Responder, SocketAddress)",1
+"org.apache.avro.ipc.DatagramServer.<init>(Responder, SocketAddress)",org.apache.avro.ipc.DatagramTransceiver.<init>(DatagramChannel),1
+org.apache.avro.ipc.DatagramTransceiver.<init>(DatagramChannel),org.apache.avro.ipc.Transceiver.<init>(),5
+org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev(),org.apache.avro.ipc.stats.FloatHistogram.getMean(),2
+org.apache.avro.ipc.Ipc.createTransceiver(URI),org.apache.avro.ipc.HttpTransceiver.<init>(URL),1
+org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketAddress),"org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketAddress, SaslClient)",2
+org.apache.avro.ipc.SocketTransceiver.<init>(SocketChannel),org.apache.avro.ipc.SocketTransceiver.getRemoteName(),1
+org.apache.avro.ipc.LocalTransceiver.<init>(Responder),org.apache.avro.ipc.Transceiver.<init>(),4
+"org.apache.avro.ipc.HttpServer.<init>(ResponderServlet, int)","org.apache.avro.ipc.HttpServer.<init>(ResponderServlet, String, int)",1
+org.apache.avro.ipc.DatagramTransceiver.<init>(SocketAddress),org.apache.avro.ipc.DatagramTransceiver.<init>(DatagramChannel),1
+org.apache.avro.ipc.stats.StatsPlugin.serverSendResponse(RPCContext),"org.apache.avro.ipc.stats.StatsPlugin.publish(RPCContext, Stopwatch)",1
+org.apache.avro.ipc.stats.StatsPlugin.serverSendResponse(RPCContext),org.apache.avro.ipc.stats.Stopwatch.stop(),1
+org.apache.avro.ipc.stats.StatsPlugin.clientReceiveResponse(RPCContext),"org.apache.avro.ipc.stats.StatsPlugin.publish(RPCContext, Stopwatch)",1
+org.apache.avro.ipc.stats.StatsPlugin.clientReceiveResponse(RPCContext),org.apache.avro.ipc.stats.Stopwatch.stop(),1
+"org.apache.avro.ipc.SaslSocketServer.<init>(Responder, SocketAddress, String, String, String, Map, CallbackHandler)","org.apache.avro.ipc.SaslSocketServer.<init>(Responder, SocketAddress, SaslSocketServer$SaslServerFactory)",1
+org.apache.avro.ipc.stats.IntegerHistogram.getUnbiasedStdDev(),org.apache.avro.ipc.stats.IntegerHistogram.getMean(),2
+org.apache.avro.mapreduce.AvroKeyRecordReader.<init>(Schema),org.apache.avro.mapreduce.AvroRecordReaderBase.<init>(Schema),9
+org.apache.avro.mapreduce.AvroKeyRecordReader.<init>(Schema),org.apache.avro.mapred.AvroKey.<init>(Object),9
+org.apache.avro.mapred.AvroKey.<init>(Object),org.apache.avro.mapred.AvroWrapper.<init>(Object),29
+org.apache.avro.mapreduce.AvroKeyValueOutputFormat.<init>(),org.apache.avro.mapreduce.AvroOutputFormatBase.<init>(),1
+"org.apache.avro.mapreduce.AvroRecordReaderBase.createAvroFileReader(SeekableInput, DatumReader)","org.apache.avro.file.DataFileReader.<init>(SeekableInput, DatumReader)",1
+"org.apache.avro.mapred.MapCollector.<init>(OutputCollector, boolean)",org.apache.avro.mapred.AvroCollector.<init>(),6
+"org.apache.avro.mapred.MapCollector.<init>(OutputCollector, boolean)",org.apache.avro.mapred.AvroWrapper.<init>(Object),6
+"org.apache.avro.mapred.MapCollector.<init>(OutputCollector, boolean)",org.apache.avro.mapred.AvroKey.<init>(Object),6
+"org.apache.avro.mapred.MapCollector.<init>(OutputCollector, boolean)",org.apache.avro.mapred.AvroValue.<init>(Object),6
+org.apache.avro.mapred.AvroValue.<init>(Object),org.apache.avro.mapred.AvroWrapper.<init>(Object),12
+"org.apache.avro.hadoop.io.AvroKeyDeserializer.<init>(Schema, Schema, ClassLoader)","org.apache.avro.hadoop.io.AvroDeserializer.<init>(Schema, Schema, ClassLoader)",2
+"org.apache.avro.mapred.tether.TetheredProcess.<init>(JobConf, OutputCollector, Reporter)",org.apache.avro.mapred.tether.TetheredProcess.close(),1
+"org.apache.avro.mapred.tether.TetheredProcess.<init>(JobConf, OutputCollector, Reporter)",org.apache.avro.mapred.tether.TetherJob.getProtocol(JobConf),1
+"org.apache.avro.mapred.tether.TetheredProcess.<init>(JobConf, OutputCollector, Reporter)","org.apache.avro.mapred.tether.TetherOutputService.<init>(OutputCollector, Reporter)",1
+org.apache.avro.mapred.TaggedInputSplit.readFields(DataInput),org.apache.avro.mapred.TaggedInputSplit.readClass(DataInput),1
+org.apache.avro.mapred.TaggedInputSplit.toString(),org.apache.avro.mapred.TaggedInputSplit.toString(),1
+"org.apache.avro.mapreduce.AvroRecordReaderBase.createSeekableInput(Configuration, Path)","org.apache.avro.mapred.FsInput.<init>(Path, Configuration)",1
+org.apache.avro.mapred.tether.TetherJob.submitJob(JobConf),org.apache.avro.mapred.tether.TetherJob.setupTetherJob(JobConf),1
+"org.apache.avro.hadoop.io.AvroKeyDeserializer.<init>(Schema, Schema, DatumReader)","org.apache.avro.hadoop.io.AvroDeserializer.<init>(Schema, Schema, DatumReader)",6
+org.apache.avro.hadoop.io.AvroKeyDeserializer.createAvroWrapper(),org.apache.avro.mapred.AvroKey.<init>(Object),4
+org.apache.avro.mapred.HadoopCombiner.<init>(),org.apache.avro.mapred.HadoopReducerBase.<init>(),6
+org.apache.avro.hadoop.io.AvroDeserializer.open(InputStream),"org.apache.avro.io.DecoderFactory.directBinaryDecoder(InputStream, BinaryDecoder)",1
+org.apache.avro.mapred.AvroWrapper.<init>(),org.apache.avro.mapred.AvroWrapper.<init>(Object),17
+"org.apache.avro.hadoop.io.AvroValueDeserializer.<init>(Schema, Schema, ClassLoader)","org.apache.avro.hadoop.io.AvroDeserializer.<init>(Schema, Schema, ClassLoader)",1
+org.apache.avro.mapred.HadoopReducer.<init>(),org.apache.avro.mapred.HadoopReducerBase.<init>(),6
+"org.apache.avro.hadoop.io.AvroValueDeserializer.<init>(Schema, Schema, DatumReader)","org.apache.avro.hadoop.io.AvroDeserializer.<init>(Schema, Schema, DatumReader)",1
+org.apache.avro.hadoop.io.AvroValueDeserializer.createAvroWrapper(),org.apache.avro.mapred.AvroValue.<init>(Object),1
+"org.apache.avro.hadoop.util.AvroCharSequenceComparator.compare(Object, Object)","org.apache.avro.hadoop.util.AvroCharSequenceComparator.compareCharSequence(CharSequence, CharSequence)",3
+"org.apache.avro.hadoop.util.AvroCharSequenceComparator.compareCharSequence(CharSequence, CharSequence)","org.apache.avro.hadoop.util.AvroCharSequenceComparator.compareCharacter(CharSequence, CharSequence, int)",148
+"org.apache.avro.mapreduce.AvroKeyRecordWriter.<init>(Schema, GenericData, CodecFactory, OutputStream)","org.apache.avro.mapreduce.AvroKeyRecordWriter.<init>(Schema, GenericData, CodecFactory, OutputStream, int)",1
+org.apache.avro.hadoop.io.AvroDeserializer.deserialize(AvroWrapper),org.apache.avro.hadoop.io.AvroKeyDeserializer.createAvroWrapper(),1
+org.apache.avro.mapreduce.AvroKeyRecordReader.nextKeyValue(),org.apache.avro.mapreduce.AvroRecordReaderBase.nextKeyValue(),2
+"org.apache.avro.mapred.HadoopReducerBase.reduce(AvroKey, Iterator, OutputCollector, Reporter)",org.apache.avro.mapred.HadoopCombiner.getCollector(OutputCollector),1
+"org.apache.avro.mapred.HadoopMapper.map(AvroWrapper, NullWritable, OutputCollector, Reporter)","org.apache.avro.mapred.MapCollector.<init>(OutputCollector, boolean)",1
+org.apache.avro.mapred.HadoopReducerBase.configure(JobConf),org.apache.avro.mapred.HadoopReducer.getReducer(JobConf),1
+"org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File)","org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File, List, boolean)",1
+org.apache.avro.mapred.tether.TetherJob.runJob(JobConf),org.apache.avro.mapred.tether.TetherJob.setupTetherJob(JobConf),1
+org.apache.avro.hadoop.file.HadoopCodecFactory.fromHadoopString(String),org.apache.avro.file.CodecFactory.fromString(String),1
+org.apache.avro.mapred.AvroWrapper.equals(Object),org.apache.avro.mapred.AvroWrapper.equals(Object),3
+"org.apache.avro.mapred.AvroMultipleInputs.addInputPath(JobConf, Path, Class, Schema)","org.apache.avro.mapred.AvroMultipleInputs.addInputPath(JobConf, Path, Schema)",1
+org.apache.avro.mapred.AvroKey.<init>(),org.apache.avro.mapred.AvroKey.<init>(Object),7
+org.apache.avro.mojo.SchemaMojo.<init>(),org.apache.avro.mojo.AbstractAvroMojo.<init>(),8
+org.apache.avro.mojo.IDLProtocolMojo.<init>(),org.apache.avro.mojo.AbstractAvroMojo.<init>(),1
+org.apache.avro.mojo.ProtocolMojo.<init>(),org.apache.avro.mojo.AbstractAvroMojo.<init>(),3
+"org.apache.avro.tool.ConcatTool.run(InputStream, PrintStream, PrintStream, List)",org.apache.avro.generic.GenericDatumWriter.<init>(),2
+org.apache.avro.generic.GenericDatumWriter.<init>(),org.apache.avro.generic.GenericDatumWriter.<init>(GenericData),1
+"org.apache.avro.tool.ConcatTool.run(InputStream, PrintStream, PrintStream, List)",org.apache.avro.file.DataFileWriter.<init>(DatumWriter),1
+"org.apache.avro.tool.TrevniMetadataTool.dump(Input, PrintStream, boolean)",org.apache.trevni.ColumnFileReader.<init>(Input),3
+org.apache.trevni.ColumnFileReader.<init>(Input),org.apache.trevni.ColumnFileReader.readHeader(),20
+org.apache.trevni.ColumnFileReader.readHeader(),"org.apache.trevni.InputBuffer.<init>(Input, long)",19
+org.apache.avro.tool.Main.main(String[]),org.apache.avro.tool.Main.<init>(),1
+"org.apache.avro.tool.ConcatTool.run(InputStream, PrintStream, PrintStream, List)",org.apache.avro.tool.ConcatTool.printHelp(PrintStream),2
+"org.apache.avro.tool.TrevniToJsonTool.toJson(Input, PrintStream, boolean)",org.apache.trevni.ColumnFileReader.<init>(Input),2
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueOutputFormat.getRecordWriter(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordWriter.<init>(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordWriter.<init>(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.<init>(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.<init>(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordWriter.initSchema(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordReader.<init>(),org.apache.avro.mapred.AvroKey.<init>(),3
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordReader.<init>(),org.apache.trevni.avro.mapreduce.AvroTrevniRecordReaderBase.<init>(),3
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordReader.<init>(),org.apache.avro.mapred.AvroKey.<init>(),3
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordReader.<init>(),org.apache.avro.mapred.AvroValue.<init>(),3
+org.apache.avro.mapred.AvroValue.<init>(),org.apache.avro.mapred.AvroValue.<init>(Object),3
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordReader.<init>(),org.apache.trevni.avro.mapreduce.AvroTrevniRecordReaderBase.<init>(),3
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordReader.nextKeyValue(),org.apache.trevni.avro.mapreduce.AvroTrevniRecordReaderBase.nextKeyValue(),1
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyOutputFormat.getRecordWriter(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter.<init>(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter.<init>(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.<init>(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.<init>(TaskAttemptContext),org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter.initSchema(TaskAttemptContext),1
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordReader.nextKeyValue(),org.apache.trevni.avro.mapreduce.AvroTrevniRecordReaderBase.nextKeyValue(),1
+org.apache.trevni.InputBuffer.readBytes(ByteBuffer),"org.apache.trevni.InputBuffer.readFully(byte[], int, int)",11
+"org.apache.trevni.InputBuffer.readFully(byte[], int, int)","org.apache.trevni.InputBuffer.readInput(byte[], int, int)",7
+"org.apache.trevni.InputBuffer.readInput(byte[], int, int)","org.apache.trevni.InputBytes.read(long, byte[], int, int)",29
+org.apache.trevni.InputBuffer.readBytes(ByteBuffer),org.apache.trevni.InputBuffer.readInt(),16
+org.apache.trevni.InputBuffer.<init>(Input),"org.apache.trevni.InputBuffer.<init>(Input, long)",96
+org.apache.trevni.InputBuffer.readLength(),org.apache.trevni.InputBuffer.readInt(),26
+org.apache.trevni.BZip2Codec.compress(ByteBuffer),org.apache.trevni.BZip2Codec.getOutputBuffer(int),9
+org.apache.trevni.BZip2Codec.<init>(),org.apache.trevni.Codec.<init>(),13
+org.apache.trevni.DeflateCodec.decompress(ByteBuffer),org.apache.trevni.DeflateCodec.getInflater(),2
+org.apache.trevni.DeflateCodec.decompress(ByteBuffer),"org.apache.trevni.DeflateCodec.writeAndClose(ByteBuffer, OutputStream)",2
+org.apache.trevni.DeflateCodec.decompress(ByteBuffer),org.apache.trevni.DeflateCodec.getOutputBuffer(int),2
+org.apache.trevni.DeflateCodec.<init>(),org.apache.trevni.Codec.<init>(),1
+org.apache.trevni.InputBuffer.readFully(byte[]),"org.apache.trevni.InputBuffer.readFully(byte[], int, int)",22
+org.apache.trevni.InputBuffer.readInt(),org.apache.trevni.InputBuffer.read(),37
+"org.apache.trevni.ColumnOutputBuffer.<init>(ColumnFileWriter, ColumnMetaData)",org.apache.trevni.Codec.get(MetaData),2
+org.apache.trevni.Crc32Checksum.<init>(),org.apache.trevni.Checksum.<init>(),3
+"org.apache.trevni.InputBuffer.<init>(Input, long)",org.apache.trevni.InputFile.length(),1
+org.apache.trevni.ColumnFileMetaData.read(InputBuffer),"org.apache.trevni.MetaData.read(InputBuffer, MetaData)",23
+"org.apache.trevni.MetaData.read(InputBuffer, MetaData)",org.apache.trevni.InputBuffer.readInt(),28
+org.apache.trevni.InputBuffer.read(),"org.apache.trevni.InputBuffer.readInput(byte[], int, int)",23
+"org.apache.trevni.InputBuffer.readInput(byte[], int, int)","org.apache.trevni.InputFile.read(long, byte[], int, int)",1
+org.apache.trevni.ColumnFileMetaData.read(InputBuffer),org.apache.trevni.ColumnFileMetaData.<init>(),23
+org.apache.trevni.ColumnFileMetaData.<init>(),org.apache.trevni.MetaData.<init>(),42
+org.apache.trevni.NullCodec.<init>(),org.apache.trevni.Codec.<init>(),2
+"org.apache.trevni.ColumnFileWriter.<init>(ColumnFileMetaData, ColumnMetaData[])",org.apache.trevni.ColumnFileWriter.checkColumns(ColumnMetaData[]),21
+org.apache.trevni.ColumnFileReader.<init>(File),org.apache.trevni.InputFile.<init>(File),2
+org.apache.trevni.ColumnFileWriter.writeTo(OutputStream),org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),3
+org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),org.apache.trevni.MetaData.write(OutputBuffer),3
+org.apache.trevni.MetaData.write(OutputBuffer),org.apache.trevni.OutputBuffer.writeString(String),1
+org.apache.trevni.OutputBuffer.writeString(String),org.apache.trevni.OutputBuffer.writeInt(int),2
+org.apache.trevni.OutputBuffer.writeInt(int),org.apache.trevni.OutputBuffer.ensure(int),25
+org.apache.trevni.MetaData.write(OutputBuffer),org.apache.trevni.OutputBuffer.writeBytes(byte[]),1
+org.apache.trevni.MetaData.write(OutputBuffer),org.apache.trevni.OutputBuffer.writeInt(int),3
+org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),org.apache.trevni.OutputBuffer.<init>(),3
+org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),org.apache.trevni.OutputBuffer.writeFixed64(long),3
+org.apache.trevni.OutputBuffer.writeFixed64(long),org.apache.trevni.OutputBuffer.ensure(int),6
+org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),org.apache.trevni.OutputBuffer.writeFixed32(int),3
+org.apache.trevni.OutputBuffer.writeFixed32(int),org.apache.trevni.OutputBuffer.ensure(int),12
+org.apache.trevni.InputBuffer.skipValue(ValueType),org.apache.trevni.InputBuffer.skip(long),7
+org.apache.trevni.InputBuffer.skip(long),org.apache.trevni.InputBuffer.seek(long),11
+org.apache.trevni.OutputBuffer.writeLong(long),org.apache.trevni.OutputBuffer.ensure(int),13
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.ColumnFileReader.readMagic(InputBuffer),15
+org.apache.trevni.ColumnFileReader.readMagic(InputBuffer),org.apache.trevni.InputBuffer.readFully(byte[]),15
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.ColumnFileMetaData.read(InputBuffer),13
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.InputBuffer.readFixed64(),14
+org.apache.trevni.InputBuffer.readFixed64(),org.apache.trevni.InputBuffer.readFixed32(),50
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.ColumnFileReader.readColumnMetaData(InputBuffer),12
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.ColumnFileReader.readColumnStarts(InputBuffer),11
+org.apache.trevni.ColumnFileReader.readHeader(),org.apache.trevni.InputBuffer.readFixed32(),13
+"org.apache.trevni.OutputBuffer.size(Object, ValueType)",org.apache.trevni.OutputBuffer.size(byte[]),2
+"org.apache.trevni.ArrayColumnOutputBuffer.<init>(ColumnFileWriter, ColumnMetaData)","org.apache.trevni.ColumnOutputBuffer.<init>(ColumnFileWriter, ColumnMetaData)",1
+org.apache.trevni.ColumnMetaData.setParent(ColumnMetaData),org.apache.trevni.TrevniRuntimeException.<init>(String),1
+"org.apache.trevni.ColumnMetaData.<init>(String, ValueType)","org.apache.trevni.MetaData.setReserved(String, String)",61
+"org.apache.trevni.ColumnMetaData.<init>(String, ValueType)",org.apache.trevni.MetaData.<init>(),31
+org.apache.trevni.SnappyCodec.<init>(),org.apache.trevni.Codec.<init>(),7
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readString(),2
+org.apache.trevni.InputBuffer.readString(),org.apache.trevni.InputBuffer.readInt(),15
+"org.apache.trevni.MetaData.read(InputBuffer, MetaData)",org.apache.trevni.InputBuffer.readString(),5
+org.apache.trevni.ColumnMetaData.hasIndexValues(boolean),org.apache.trevni.TrevniRuntimeException.<init>(String),1
+org.apache.trevni.ColumnMetaData.isArray(boolean),"org.apache.trevni.MetaData.setReservedBoolean(String, boolean)",10
+"org.apache.trevni.MetaData.setReservedBoolean(String, boolean)","org.apache.trevni.MetaData.setReserved(String, String)",12
+org.apache.trevni.ColumnMetaData.hasIndexValues(boolean),"org.apache.trevni.MetaData.setReservedBoolean(String, boolean)",6
+org.apache.trevni.BlockDescriptor.writeTo(OutputBuffer),org.apache.trevni.OutputBuffer.writeFixed32(int),6
+org.apache.trevni.InputBuffer.readDouble(),org.apache.trevni.InputBuffer.readFixed64(),6
+org.apache.trevni.ColumnFileWriter.writeHeader(OutputStream),org.apache.trevni.ColumnFileWriter.computeStarts(long),2
+org.apache.trevni.InputBuffer.skipBytes(),org.apache.trevni.InputBuffer.skip(long),4
+org.apache.trevni.InputBuffer.skipBytes(),org.apache.trevni.InputBuffer.readInt(),8
+org.apache.trevni.InputBuffer.readLong(),org.apache.trevni.InputBuffer.read(),6
+org.apache.trevni.OutputBuffer.size(ByteBuffer),org.apache.trevni.OutputBuffer.size(int),2
+org.apache.trevni.ColumnMetaData.isArray(boolean),org.apache.trevni.TrevniRuntimeException.<init>(String),1
+"org.apache.trevni.OutputBuffer.size(Object, ValueType)",org.apache.trevni.TrevniRuntimeException.<init>(String),1
+"org.apache.trevni.ColumnMetaData.read(InputBuffer, ColumnFileReader)",org.apache.trevni.ValueType.forName(String),2
+"org.apache.trevni.ColumnMetaData.read(InputBuffer, ColumnFileReader)","org.apache.trevni.MetaData.read(InputBuffer, MetaData)",6
+"org.apache.trevni.ColumnMetaData.read(InputBuffer, ColumnFileReader)",org.apache.trevni.MetaData.getString(String),4
+"org.apache.trevni.ColumnMetaData.read(InputBuffer, ColumnFileReader)",org.apache.trevni.ColumnMetaData.<init>(),6
+org.apache.trevni.ColumnMetaData.<init>(),org.apache.trevni.MetaData.<init>(),6
+org.apache.trevni.OutputBuffer.writeBytes(ByteBuffer),"org.apache.trevni.OutputBuffer.writeBytes(byte[], int, int)",8
+"org.apache.trevni.OutputBuffer.writeBytes(byte[], int, int)",org.apache.trevni.OutputBuffer.writeInt(int),13
+org.apache.trevni.ColumnMetaData.hasIndexValues(),org.apache.trevni.MetaData.getBoolean(String),2
+org.apache.trevni.OutputBuffer.writeDouble(double),org.apache.trevni.OutputBuffer.writeFixed64(long),2
+org.apache.trevni.OutputBuffer.writeBoolean(boolean),org.apache.trevni.OutputBuffer.ensure(int),5
+org.apache.trevni.BlockDescriptor.read(InputBuffer),org.apache.trevni.BlockDescriptor.<init>(),4
+org.apache.trevni.BlockDescriptor.read(InputBuffer),org.apache.trevni.InputBuffer.readFixed32(),5
+org.apache.trevni.InputBuffer.readBoolean(),org.apache.trevni.InputBuffer.read(),7
+org.apache.trevni.ColumnMetaData.setParent(ColumnMetaData),"org.apache.trevni.MetaData.setReserved(String, String)",5
+org.apache.trevni.InputBuffer.readBytes(),org.apache.trevni.InputBuffer.readInt(),8
+"org.apache.trevni.MetaData.read(InputBuffer, MetaData)",org.apache.trevni.InputBuffer.readBytes(),2
+org.apache.trevni.InputBuffer.readBytes(),org.apache.trevni.InputBuffer.readFully(byte[]),3
+org.apache.trevni.InputBuffer.readFloat(),org.apache.trevni.InputBuffer.readFixed32(),6
+"org.apache.trevni.OutputBuffer.writeValue(Object, ValueType)",org.apache.trevni.OutputBuffer.writeDouble(double),1
+org.apache.trevni.InputBuffer.skipValue(ValueType),org.apache.trevni.InputBuffer.readBoolean(),2
+org.apache.trevni.InputBuffer.readFixed32(),org.apache.trevni.InputBuffer.read(),26
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readDouble(),1
+org.apache.trevni.NullChecksum.<init>(),org.apache.trevni.Checksum.<init>(),3
+org.apache.trevni.OutputBuffer.writeLength(int),org.apache.trevni.OutputBuffer.writeInt(int),1
+org.apache.trevni.OutputBuffer.size(String),org.apache.trevni.OutputBuffer.utf8Length(String),2
+org.apache.trevni.OutputBuffer.writeBytes(byte[]),"org.apache.trevni.OutputBuffer.writeBytes(byte[], int, int)",2
+org.apache.trevni.InputBuffer.skipValue(ValueType),org.apache.trevni.InputBuffer.readInt(),5
+org.apache.trevni.ColumnFileReader.readColumnMetaData(InputBuffer),"org.apache.trevni.ColumnMetaData.read(InputBuffer, ColumnFileReader)",1
+org.apache.trevni.OutputBuffer.size(String),org.apache.trevni.OutputBuffer.size(int),1
+"org.apache.trevni.OutputBuffer.writeValue(Object, ValueType)",org.apache.trevni.OutputBuffer.writeFixed32(int),1
+org.apache.trevni.ColumnDescriptor.ensureBlocksRead(),"org.apache.trevni.InputBuffer.<init>(Input, long)",4
+org.apache.trevni.ColumnDescriptor.ensureBlocksRead(),org.apache.trevni.InputBuffer.readFixed32(),4
+org.apache.trevni.ColumnFileReader.getValues(String),org.apache.trevni.ColumnFileReader.getColumn(String),1
+org.apache.trevni.ColumnFileReader.getColumn(String),org.apache.trevni.TrevniRuntimeException.<init>(String),2
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readInt(),1
+"org.apache.trevni.OutputBuffer.writeValue(Object, ValueType)",org.apache.trevni.OutputBuffer.writeBytes(ByteBuffer),1
+org.apache.trevni.ColumnFileReader.getColumnMetaData(String),org.apache.trevni.ColumnFileReader.getColumn(String),1
+org.apache.trevni.ValueType.forName(String),org.apache.trevni.ValueType.valueOf(String),3
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readLong(),1
+org.apache.trevni.InputBuffer.skipValue(ValueType),org.apache.trevni.InputBuffer.skipBytes(),2
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readFixed64(),1
+org.apache.trevni.InputBuffer.readString(),"org.apache.trevni.InputBuffer.readFully(byte[], int, int)",1
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readBytes(ByteBuffer),2
+org.apache.trevni.OutputBuffer.size(byte[]),org.apache.trevni.OutputBuffer.size(int),2
+org.apache.trevni.InputBuffer.readLong(),org.apache.trevni.InputBuffer.innerLongDecode(long),5
+org.apache.trevni.InputBuffer.readValue(ValueType),org.apache.trevni.InputBuffer.readBoolean(),1
+org.apache.trevni.OutputBuffer.writeFloat(float),org.apache.trevni.OutputBuffer.writeFixed32(int),1
+"org.apache.trevni.OutputBuffer.size(Object, ValueType)",org.apache.trevni.OutputBuffer.size(ByteBuffer),1
+org.apache.trevni.InputBuffer.skipValue(ValueType),org.apache.trevni.InputBuffer.readLong(),1
+"org.apache.trevni.OutputBuffer.writeValue(Object, ValueType)",org.apache.trevni.OutputBuffer.writeBytes(byte[]),1
+org.apache.trevni.ColumnFileWriter.writeRow(Object[]),org.apache.trevni.ColumnFileWriter.endRow(),1
+org.apache.trevni.ColumnFileWriter.writeRow(Object[]),org.apache.trevni.ColumnFileWriter.startRow(),1

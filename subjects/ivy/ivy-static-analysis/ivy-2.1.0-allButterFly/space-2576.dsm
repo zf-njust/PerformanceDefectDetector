@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+org.apache.ivy.core.cache.RepositoryCacheManager.getName()
+org.apache.ivy.plugins.resolver.ChainResolver.getResolvers()
+org.apache.ivy.core.settings.IvySettings.addVersionMatcher(VersionMatcher)
+org.apache.ivy.core.settings.IvySettings.addResolver(DependencyResolver)
+org.apache.ivy.plugins.matcher.PatternMatcher.getName()
+org.apache.ivy.plugins.resolver.DualResolver.getArtifactResolver()
+org.apache.ivy.core.settings.IvySettings.addReportOutputter(ReportOutputter)
+org.apache.ivy.plugins.resolver.DependencyResolver.getName()
+org.apache.ivy.core.settings.IvySettings.addMatcher(PatternMatcher)
+org.apache.ivy.core.settings.IvySettings.addRepositoryCacheManager(RepositoryCacheManager)
+org.apache.ivy.plugins.version.ChainVersionMatcher.ChainVersionMatcher()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher)
+org.apache.ivy.plugins.version.VersionMatcher.getName()
+org.apache.ivy.plugins.namespace.Namespace.getName()
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.core.settings.IvySettings.addLatestStrategy(String, LatestStrategy)
+org.apache.ivy.plugins.resolver.DualResolver.getIvyResolver()
+org.apache.ivy.core.settings.IvySettings.addConflictManager(String, ConflictManager)
+org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.core.settings.IvySettings.addNamespace(Namespace)
+org.apache.ivy.plugins.report.ReportOutputter.getName()
+org.apache.ivy.core.settings.IvySettings.init(Object)
+org.apache.ivy.plugins.version.AbstractVersionMatcher.AbstractVersionMatcher(String)
+org.apache.ivy.core.settings.IvySettings.addTrigger(Trigger)
+org.apache.ivy.core.settings.IvySettings.addLockStrategy(String, LockStrategy)
+org.apache.ivy.plugins.version.ExactVersionMatcher.ExactVersionMatcher()

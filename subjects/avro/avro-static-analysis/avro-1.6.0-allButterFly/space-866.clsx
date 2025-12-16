@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.HadoopMapper.close()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroMapper.close()" />
+</group>
+</group>
+</group>
+</cluster>

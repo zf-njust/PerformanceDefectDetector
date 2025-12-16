@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.add_result.write(org.apache.thrift.protocol.TProtocol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_result.writeObject(java.io.ObjectOutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_result.isSetSuccess()" />
+</group>
+</group>
+</group>
+</cluster>

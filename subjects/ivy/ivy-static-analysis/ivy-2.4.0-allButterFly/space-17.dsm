@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.obr.xml.CapabilityAdapter.adapt(BundleInfo, Capability)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.osgi.obr.xml.Capability.getName()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.obr.xml.CapabilityAdapter.getOSGiService(BundleInfo, Capability)
+org.apache.ivy.osgi.core.ExportPackage.ExportPackage(String, Version)
+org.apache.ivy.osgi.obr.xml.CapabilityAdapter.getExportPackage(BundleInfo, Capability)
+org.apache.ivy.osgi.core.ExportPackage.addUse(String)
+org.apache.ivy.osgi.obr.xml.CapabilityProperty.getValue()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.core.BundleInfo.addCapability(BundleCapability)
+org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_7).childHanlded(CapabilityHandler)
+org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()
+org.apache.ivy.osgi.core.BundleCapability.BundleCapability(String, String, Version)
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.osgi.util.Version.Version(String)
+org.apache.ivy.osgi.util.DelegatingHandler.getLocator()
+org.apache.ivy.osgi.obr.xml.Capability.getProperties()
+org.apache.ivy.osgi.obr.xml.CapabilityProperty.getName()
+org.apache.ivy.core.IvyContext.peekIvy()

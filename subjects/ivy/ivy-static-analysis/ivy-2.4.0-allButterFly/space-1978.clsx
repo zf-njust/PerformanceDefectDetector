@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRules(ModuleRevisionId, Filter)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRules(Map, Filter)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.MatcherLookup.get(Map)" />
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<item name="org.apache.ivy.core.module.id.MatcherLookup.key(Map)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+</group>
+</cluster>

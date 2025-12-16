@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.SequenceFileReader.next(Pair)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.SequenceFileReader.next()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.SequenceFileReader.Converter.convert(Writable)" />
+<item name="org.apache.avro.mapred.Pair.Pair(Schema)" />
+<item name="org.apache.avro.mapred.Pair.value(V)" />
+<item name="org.apache.avro.mapred.SequenceFileReader.hasNext()" />
+<item name="org.apache.avro.mapred.SequenceFileReader.prepare()" />
+<item name="org.apache.avro.mapred.Pair.key(K)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getFullName()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

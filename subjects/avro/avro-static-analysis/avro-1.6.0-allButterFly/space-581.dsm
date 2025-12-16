@@ -1,0 +1,18 @@
+[Call]
+8
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+1 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+org.apache.avro.mapred.AvroValue.AvroValue(T)
+org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)
+org.apache.avro.mapred.AvroKey.AvroKey(T)
+org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.deserialize(AvroWrapper)
+org.apache.avro.mapred.AvroWrapper.datum()
+org.apache.avro.mapred.AvroWrapper.datum(T)
+org.apache.avro.io.DatumReader.read(D, Decoder)
+org.apache.avro.mapred.AvroKey.AvroKey()

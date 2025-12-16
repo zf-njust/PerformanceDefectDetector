@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 1 1 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseMultiOperator(MultiOperatorFilter)
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareOperator()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.readNext()
+org.apache.ivy.osgi.obr.filter.AndFilter.AndFilter()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseAnd()
+org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.add(RequirementFilter)
+org.apache.ivy.osgi.obr.filter.NotFilter.NotFilter(RequirementFilter)
+org.apache.ivy.osgi.obr.filter.UniOperatorFilter.UniOperatorFilter(RequirementFilter)
+org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.MultiOperatorFilter()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompare()
+org.apache.ivy.osgi.obr.filter.OrFilter.OrFilter()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseOr()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseFilter()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareValue()
+org.apache.ivy.osgi.obr.filter.CompareFilter.CompareFilter(String, Operator, String)
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.unread()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseNot()
+org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.getSubFilters()
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.isOperator(char)
+org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.skipWhiteSpace()
+org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.MultiOperatorFilter(RequirementFilter[])

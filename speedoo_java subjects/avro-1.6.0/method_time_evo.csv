@@ -1,0 +1,521 @@
+class path,method name,method arguments,Time,OwnTime,count
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCPlugin.java,<init>,,0,0,26
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,doSkipItems,,0,0,21
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,parseAliases,JsonNode,0,0,14
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,put,"Object, Object",1,0,15
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,<init>,,0,0,255
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SaslSocketServer.java,<init>,"Responder, SocketAddress, SaslSocketServer$SaslServerFactory",10,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,<init>,,0,0,11
+lang\java\ipc\src\main\java\org\apache\avro\ipc\Transceiver.java,<init>,,0,0,32
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeInt,int,156931,0,16
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,getMeta,String,1,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherKeySerialization.java,getDeserializer,Class,1,0,1
+lang\java\maven-plugin\src\main\java\org\apache\avro\mojo\SchemaMojo.java,<init>,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeLong,long,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\file\DeflateCodec.java,decompress,ByteBuffer,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherKeySerialization.java,<init>,,0,0,5
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducer.java,getCollector,OutputCollector,0,0,2
+lang\java\tools\src\main\java\org\apache\avro\tool\IdlTool.java,run,"InputStream, PrintStream, PrintStream, List",19,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,doReadBytes,"byte[], int, int",0,0,22
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\SkipParser.java,<init>,"Symbol, Parser$ActionHandler, SkipParser$SkipHandler",0,0,88
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeZero,,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\SkipParser.java,skipSymbol,Symbol,8181,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeFixed,"byte[], int, int",0,0,10
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,getBytesFor,String,0,0,28
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,equals,Object,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,appendAllFrom,"DataFileStream, boolean",0,0,1
+lang\java\tools\src\main\java\org\apache\avro\tool\RpcSendTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,writeBuffer,ByteBuffer,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,skipString,,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readFixed,"byte[], int, int",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,doReadItemCount,,0,0,51
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,sync,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,GenericData,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,entrySet,,1,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,assertNotOpen,,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,containsKey,Object,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,<init>,,0,0,15
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readBytes,ByteBuffer,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,append,Object,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\AvroTypeException.java,<init>,String,0,0,27
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readString,Utf8,0,0,6
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,encodeString,"byte[], int, int",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,values,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readFloat,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,snappyCodec,,1,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readDouble,,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,setLength,int,0,0,8
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setMetaInternal,"String, String",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,containsValue,Object,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,setByteLength,int,0,0,24
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,await,,0,0,6
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileReadTool.java,run,"InputStream, PrintStream, PrintStream, List",5,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,<init>,,0,0,131
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,mapNext,,0,0,5
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,setItemCount,long,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroMapper.java,<init>,,0,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SaslSocketServer.java,<init>,"Responder, SocketAddress",10,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\Decoder.java,readFixed,byte[],0,0,13
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipArray,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,toJson,"Schema$Names, JsonGenerator",0,0,9
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetheredProcess.java,startSubprocess,JobConf,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeArrayStart,,0,0,12
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipString,,0,0,4
+lang\java\tools\src\main\java\org\apache\avro\tool\IdlTool.java,<init>,,0,0,10
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,arrayNext,,0,0,5
+lang\java\tools\src\main\java\org\apache\avro\tool\Main.java,main,String[],2,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readArrayStart,,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,remove,Object,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,createMap,Schema,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\AvroTypeException.java,<init>,"String, Throwable",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,<init>,SnappyCodec$1,0,0,11
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,binaryDecoder,"InputStream, BinaryDecoder",6,0,9
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeString,String,122677,0,13
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeBoolean,boolean,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,<init>,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryData.java,encodeLong,"long, byte[], int",0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryData.java,encodeFloat,"float, byte[], int",0,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,flush,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readEnum,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,write,"byte[], int, int",0,0,8
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherData.java,<init>,ByteBuffer,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,initialize,InputStream,14,0,5
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,createRecord,"String, String, String, boolean",1,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\ResolvingDecoder.java,<init>,"Schema, Schema, Decoder",0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherData.java,<init>,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,get,Object,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,setItemCount,long,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificFixed.java,<init>,,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsServlet.java,escapeStringArray,List,0,0,1
+lang\java\tools\src\main\java\org\apache\avro\tool\RpcReceiveTool.java,<init>,,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducer.java,<init>,,0,0,9
+lang\java\tools\src\main\java\org\apache\avro\tool\RecodecTool.java,<init>,,0,0,13
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,endBlockedValue,,28822,0,9
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,writeArrayEnd,,0,0,1
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,writeInt,int,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,toString,,0,0,14
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,writeBuffers,List,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeString,Utf8,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,<init>,,0,0,32
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\Trace.java,printBrief,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumReader.java,<init>,,458,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\LocalTransceiver.java,transceive,List,1,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,writeBuffers,"List, OutputStream",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,openReader,"SeekableInput, DatumReader, DataFileStream$Header, boolean",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,<init>,"OutputStream, int",524,0,72
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"byte[], BinaryDecoder",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,write,ByteBuffer,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeFloat,float,0,0,2
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileGetSchemaTool.java,run,"InputStream, PrintStream, PrintStream, List",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,configure,InputStream,0,0,72
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,resolveCodec,,1,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\Encoder.java,writeFixed,byte[],0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\TraceCollection.java,<init>,Trace,2,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,<init>,,0,0,18
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,getPayloadSize,List,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\file\Codec.java,<init>,,0,0,27
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readInt,,0,0,12
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,get,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,getName,,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,resolvingDecoder,"Schema, Schema, Decoder",3,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,isEnd,,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCContext.java,responseCallMeta,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,isEmpty,,0,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroMapper.java,map,"Object, AvroCollector, Reporter",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,parse,String,12,0,3
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,toString,,3,0,2
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,getMD5,,34,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\NullCodec.java,<init>,,0,0,14
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableByteArrayInput.java,<init>,byte[],0,0,22
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readNull,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,setItemCount,long,0,0,10
+lang\java\ipc\src\test\java\org\apache\avro\ipc\stats\FakeTicks.java,<init>,,0,0,10
+lang\java\ipc\src\main\java\org\apache\avro\ipc\DatagramTransceiver.java,writeBuffers,List,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parse,JsonNode,5,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\generic\GenericResponder.java,<init>,Protocol,61,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyServer.java,<init>,"Responder, InetSocketAddress",23,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setMetaInternal,"String, byte[]",0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,pushSymbol,Symbol,0,0,11
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\StaticServlet.java,getResource,String,1,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,prepend,List,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readMapStart,,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableByteArrayInput.java,seek,long,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,binaryDecoder,"byte[], BinaryDecoder",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,readBuffers,InputStream,395,0,5
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,<init>,"InetSocketAddress, ChannelFactory",47,0,5
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,validatingDecoder,"Schema, Decoder",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\LocalTransceiver.java,<init>,Responder,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readString,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,<init>,DatumReader,0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,<init>,,3,0,14
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,charAt,int,0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\DatagramTransceiver.java,readBuffers,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,<init>,ClassLoader,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,<init>,InetSocketAddress,70,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherOutputService.java,<init>,"OutputCollector, Reporter",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readBytes,ByteBuffer,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,<init>,,0,0,116
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingEncoder.java,<init>,"Symbol, Encoder",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryData.java,encodeDouble,"double, byte[], int",0,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,seq,Symbol[],0,0,8
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,serverSendResponse,RPCContext,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroAsTextRecordReader.java,<init>,"FileReader, FileSplit",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,<init>,"File, DatumReader",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,getProtocol,Class,83,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readBoolean,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableFileInput.java,<init>,FileDescriptor,0,0,7
+lang\java\ipc\src\main\java\org\apache\avro\ipc\specific\SpecificResponder.java,<init>,"Class, Object",149,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherJob.java,submitJob,JobConf,312,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\Trace.java,executionPathHash,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\AvroRuntimeException.java,<init>,"String, Throwable",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeMapStart,,1,0,13
+lang\java\ipc\src\main\java\org\apache\avro\ipc\specific\SpecificResponder.java,<init>,"Protocol, Object, SpecificData",61,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,<init>,"byte[], int, int",0,0,22
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,isDone,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,disconnect,"boolean, boolean",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,"Schema, GenericData",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\Responder.java,<init>,Protocol,61,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,fromString,String,0,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,<init>,Callback,0,0,27
+lang\java\avro\src\main\java\org\apache\avro\io\ParsingDecoder.java,<init>,Symbol,2,0,74
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readIndex,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,<init>,InputStream,0,0,69
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,arrayNext,,0,0,11
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeBoolean,boolean,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,subSequence,"int, int",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\DeflateCodec.java,<init>,int,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,<init>,,1,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,isEnd,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,compact,,0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,writeDataPack,NettyTransportCodec$NettyDataPack,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumReader.java,<init>,Schema,5,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\IntegerHistogram.java,<init>,Histogram$Segmenter,0,0,16
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducerBase.java,<init>,,0,0,12
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Stopwatch.java,elapsedNanos,,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,flushBuffer,,0,0,28
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,parse,"JsonNode, Schema$Names",2,0,39
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,configure,"OutputStream, int",525,524,100
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeEnum,int,56661,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,jsonDecoder,"Schema, String",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeBytes,ByteBuffer,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,<init>,"InputStream, int",3,0,84
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,getSchema,Type,19,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,clientSendRequest,RPCContext,3,0,6
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,readBuffers,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,<init>,"SeekableInput, DatumReader, DataFileStream$Header",1,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readBoolean,,0,0,5
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Stopwatch.java,<init>,Stopwatch$Ticks,0,0,24
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,flattenedSize,"Symbol[], int",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\StaticServlet.java,<init>,,0,0,3
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileGetSchemaTool.java,<init>,,0,0,8
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseMessages,JsonNode,5,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,finishOverflow,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,create,"Schema, OutputStream",3,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\IntegerHistogram.java,getUnbiasedStdDev,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericData.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parse,JsonParser,45,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,configureSource,"int, BinaryDecoder$ByteSource",2,0,118
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeLong,long,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,Schema,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\SequenceFileInputFormat.java,<init>,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,expandStack,,1,0,42
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,writeFixed,"byte[], int, int",0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroCollector.java,<init>,,0,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,serverReceiveRequest,RPCContext,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferInputStream.java,getBuffer,,0,0,10
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readDouble,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SaslSocketServer.java,<init>,"Responder, SocketAddress, String, String, String, Map, CallbackHandler",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketServer.java,close,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,createUnion,List,2,0,2
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseNamespace,JsonNode,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,<init>,Utf8,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\SchemaParseException.java,<init>,Throwable,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\FloatHistogram.java,getMean,,0,0,5
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Stopwatch.java,start,,0,0,21
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readIndex,,0,0,16
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,validateName,String,0,0,28
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,ensureBounds,int,0,0,161
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,mapNext,,0,0,25
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeFloat,float,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryData.java,encodeInt,"int, byte[], int",0,0,24
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferInputStream.java,read,"byte[], int, int",0,0,5
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,ensureBounds,int,110082,110082,315480731
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,processTrailingImplicitActions,,0,0,15
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Histogram.java,<init>,Histogram$Segmenter,0,0,25
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,disconnect,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,equals,Object,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,pushProduction,Symbol,5779,5779,11235279
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readDouble,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\ResolvingDecoder.java,resolve,"Schema, Schema",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,<init>,"Symbol, Decoder",3,0,74
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,hashCode,,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\DatagramTransceiver.java,<init>,SocketAddress,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,repeat,"Symbol, Symbol[]",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,addProp,"String, String",0,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeZero,,91722,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,checkFixed,int,0,0,6
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherKeySerialization.java,getSerializer,Class,2,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\SkipParser.java,skipRepeater,,0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,<init>,"Stopwatch$Ticks, Histogram$Segmenter, Histogram$Segmenter",0,0,19
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\TracePluginConfiguration.java,<init>,,1,0,32
+lang\java\tools\src\main\java\org\apache\avro\tool\InduceSchemaTool.java,<init>,,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroWrapper.java,equals,Object,0,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readFixed,"byte[], int, int",0,0,16
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,<init>,OutputStream,0,0,44
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,Schema,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,reap,,0,0,33
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,clientReceiveResponse,RPCContext,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readString,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,<init>,Schema$Type,2,0,60
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,configure,"byte[], int, int",0,0,35
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipBytes,,0,0,3
+lang\java\maven-plugin\src\main\java\org\apache\avro\mojo\SchemaMojo.java,doCompile,"String, File, File",497,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\Decoder.java,<init>,,0,0,311
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,doWriteBytes,"byte[], int, int",0,0,10
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,getLength,List,0,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketTransceiver.java,<init>,SocketChannel,180,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\Encoder.java,writeBytes,byte[],43045,0,7
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,decompress,ByteBuffer,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeIndex,int,82983,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,getBufferAccessor,,0,0,10
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,<init>,"Schema, Decoder",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableFileInput.java,<init>,File,0,0,7
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherJob.java,setupTetherJob,JobConf,18,0,4
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,createSchema,"Type, Map",19,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroWrapper.java,<init>,,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"byte[], int, int, BinaryDecoder",0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,<init>,URL,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, long",0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\IntegerHistogram.java,getMean,,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,bytesBuffered,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,binaryDecoder,"byte[], int, int, BinaryDecoder",0,0,6
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,nanosToMillis,long,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,skipArray,,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readInt,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Stopwatch.java,stop,,0,0,8
+lang\java\tools\src\main\java\org\apache\avro\tool\RecodecTool.java,run,"InputStream, PrintStream, PrintStream, List",572,0,9
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableFileInput.java,length,,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,get,"long, TimeUnit",0,0,4
+lang\java\avro\src\main\java\org\apache\avro\file\SnappyCodec.java,compress,ByteBuffer,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\ResponderServlet.java,<init>,Responder,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeMapEnd,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readBytes,ByteBuffer,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readLong,,0,0,11
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\SkipParser.java,skipTo,int,12289,6510,11
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,doReadBytes,"byte[], int, int",0,0,16
+lang\java\ipc\src\main\java\org\apache\avro\ipc\LocalTransceiver.java,readBuffers,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,configure,Decoder,0,0,75
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetheredProcess.java,<init>,"JobConf, OutputCollector, Reporter",195,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeIndex,int,0,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\FsInput.java,<init>,"Path, Configuration",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,getOptionalText,"JsonNode, String",0,0,48
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseTypes,JsonNode,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\FloatHistogram.java,add,Float,2,0,4
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificDatumWriter.java,<init>,Class,16,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,isReservedMeta,String,0,0,11
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherMapRunner.java,<init>,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\Encoder.java,<init>,,0,0,126
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,handleError,Throwable,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeBytes,"byte[], int, int",43046,0,12
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\FloatHistogram.java,getUnbiasedStdDev,,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopCombiner.java,getReducer,JobConf,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableFileInput.java,seek,long,5,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readBoolean,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setSyncInterval,int,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificData.java,getClassName,Schema,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketServer.java,<init>,"Responder, SocketAddress",10,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeFloat,float,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readInt,,0,0,82
+lang\java\ipc\src\main\java\org\apache\avro\ipc\DatagramTransceiver.java,getRemoteName,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readLong,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,<init>,,0,0,17
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipMap,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readString,Utf8,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,doSkipBytes,long,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,putAll,Map,0,0,1
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileWriteTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,toJson,JsonGenerator,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherJob.java,runJob,JobConf,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readLong,,0,0,62
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingEncoder.java,writeFixed,"byte[], int, int",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,openReader,"File, DatumReader",1,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCContext.java,<init>,,0,0,48
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeZero,,0,0,8
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,publish,"RPCContext, Stopwatch",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeFixed,"byte[], int, int",347107,237024,315480725
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,getRemote,,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroKey.java,<init>,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,toString,boolean,3,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,clear,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,size,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,doSkipBytes,long,0,0,23
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsServlet.java,<init>,StatsPlugin,44,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\Encoder.java,writeString,CharSequence,34984,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\DatagramTransceiver.java,<init>,DatagramChannel,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,toString,,0,0,2
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,<init>,OutputStream,1,0,7
+lang\java\tools\src\main\java\org\apache\avro\tool\ToTextTool.java,<init>,,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducerBase.java,configure,JobConf,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherMapRunner.java,run,"RecordReader, OutputCollector, Reporter",206,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,jsonDecoder,"Schema, InputStream",53,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readMapStart,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,initialize,"InputStream, DataFileStream$Header",1,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,<init>,Symbol$Kind,0,0,67
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,getMetaString,String,1,0,2
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,createRecord,List,1,0,7
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketServer.java,run,,2,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readFloat,,0,0,11
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,startItem,,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,<init>,"Symbol$Kind, Symbol[]",0,0,79
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducerBase.java,reduce,"AvroKey, Iterator, OutputCollector, Reporter",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\Histogram.java,add,Object,2,0,15
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferInputStream.java,<init>,List,0,0,11
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsServlet.java,writeStats,Writer,201,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setCodec,CodecFactory,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,expandStack,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,<init>,"Symbol, Parser$ActionHandler",0,0,123
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroWrapper.java,hashCode,,0,0,2
+lang\java\tools\src\main\java\org\apache\avro\tool\Main.java,<init>,,29,0,3
+lang\java\tools\src\main\java\org\apache\avro\tool\TetherTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,<init>,String,0,0,23
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,append,List,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,flush,,0,0,9
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroWrapper.java,<init>,Object,0,0,23
+lang\java\tools\src\main\java\org\apache\avro\tool\JsonToBinaryFragmentTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,deflateCodec,int,1,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\CodecFactory.java,addCodec,"String, CodecFactory",0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,configure,"InputStream, int",2,0,92
+lang\java\ipc\src\main\java\org\apache\avro\ipc\LocalTransceiver.java,writeBuffers,List,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\SchemaParseException.java,<init>,String,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\JsonDecoder.java,<init>,"Schema, InputStream",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\SeekableFileInput.java,tell,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeDouble,double,3,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroMapper.java,close,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DeflateCodec.java,compress,ByteBuffer,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,<init>,byte[],0,0,5
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,skipMap,,0,0,15
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopMapper.java,<init>,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeDouble,double,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,getBufferList,,1,0,7
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherRecordReader.java,<init>,"JobConf, FileSplit",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferInputStream.java,read,,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,flush,,0,0,11
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,writeLength,"int, OutputStream",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,hashCode,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,assertOpen,,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, String",0,0,6
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,length,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketTransceiver.java,<init>,SocketAddress,11,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\JsonDecoder.java,<init>,"Schema, String",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,handleResult,Object,0,0,9
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,<init>,DatumWriter,0,0,27
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,write,int,0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetheredProcess.java,close,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\AvroRuntimeException.java,<init>,Throwable,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,<init>,"SeekableInput, DatumReader",3,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,<init>,"OutputStream, int, int",1071,543,45
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\IntegerHistogram.java,add,Integer,0,0,11
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroValue.java,<init>,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,hashCode,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryData.java,compareBytes,"byte[], int, int, byte[], int, int",0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\ResponderServlet.java,doPost,"HttpServletRequest, HttpServletResponse",0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopMapper.java,configure,JobConf,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,advance,Symbol,0,0,73
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,equals,Object,0,0,6
+lang\java\ipc\src\main\java\org\apache\avro\ipc\specific\SpecificResponder.java,<init>,"Protocol, Object",61,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCContext.java,requestHandshakeMeta,,0,0,1
+lang\java\tools\src\main\java\org\apache\avro\tool\BinaryFragmentToJsonTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,<init>,,0,0,12
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseDoc,JsonNode,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\FloatHistogram.java,<init>,Histogram$Segmenter,0,0,9
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,getChannel,,38,0,6
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransportCodec.java,<init>,,0,0,1
+lang\java\maven-plugin\src\main\java\org\apache\avro\mojo\AbstractAvroMojo.java,<init>,,0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCContext.java,requestCallMeta,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\Trace.java,<init>,TraceNode,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\JsonDecoder.java,getSymbol,Schema,0,0,2
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopMapper.java,close,,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroReducer.java,<init>,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,create,"Schema, File",0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,flatten,"Symbol[], int, Symbol[], int, Map, Map",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileStream.java,<init>,"InputStream, DatumReader",11,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,setRemote,Protocol,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ParsingEncoder.java,<init>,,0,0,3
+lang\java\tools\src\main\java\org\apache\avro\tool\SpecificCompilerTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,configure,"OutputStream, int, int",0,0,21
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,getRemoteName,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\AvroRuntimeException.java,<init>,String,0,0,41
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileReader.java,openReader,"SeekableInput, DatumReader",2,0,5
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,create,Schema$Type,6,0,40
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parse,String,73,0,2
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,Class,2,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,directBinaryDecoder,"InputStream, BinaryDecoder",0,0,4
+lang\java\avro\src\main\java\org\apache\avro\Schema.java,getRequiredText,"JsonNode, String, String",0,0,28
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseDocNode,JsonNode,0,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,defaultFactory,,0,0,4
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroKey.java,<init>,Object,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeFixed,"byte[], int, int",1,0,12
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,isChannelReady,Channel,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,readEnum,,0,0,12
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, byte[]",0,0,8
+lang\java\ipc\src\main\java\org\apache\avro\ipc\stats\StatsPlugin.java,createNewIntegerHistogram,,1,0,8
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeMapEnd,,16411,0,7
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,appendEncoded,ByteBuffer,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,check,,1,0,141
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,close,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,getSymbol,Schema,0,0,2
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileGetMetaTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseMessage,"String, JsonNode",5,0,7
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\AvroValue.java,<init>,Object,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\generic\GenericDatumReader.java,<init>,"Schema, Schema, GenericData",0,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipFixed,int,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\file\Codec.java,toString,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferOutputStream.java,reset,,0,0,23
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,readBuffers,,0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\SequenceFileRecordReader.java,<init>,"JobConf, FileSplit",519,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\NullCodec.java,equals,Object,0,0,6
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,appendTo,File,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeLong,long,22215,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,skipFixed,,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\RPCContext.java,responseHandshakeMeta,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,skipBytes,,0,0,4
+lang\java\tools\src\main\java\org\apache\avro\tool\FromTextTool.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeDouble,double,0,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\CallFuture.java,await,"long, TimeUnit",0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingEncoder.java,writeBytes,"byte[], int, int",0,0,1
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopCombiner.java,<init>,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeArrayEnd,,12411,0,7
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,encodeLong,"long, OutputStream",0,0,3
+lang\java\mapred\src\main\java\org\apache\avro\mapred\HadoopReducer.java,getReducer,JobConf,2,0,6
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeInt,int,0,0,9
+lang\java\mapred\src\main\java\org\apache\avro\mapred\tether\TetherKeySerialization.java,accept,Class,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,<init>,,0,0,10
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,configure,OutputStream,0,0,50
+lang\java\avro\src\main\java\org\apache\avro\io\ValidatingDecoder.java,readArrayStart,,0,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,write,"byte[], int, int",0,0,4
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,close,,0,0,1
+lang\java\avro\src\test\java\org\apache\avro\io\LegacyBinaryEncoder.java,writeString,String,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryDecoder.java,readFloat,,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\util\Utf8.java,compareTo,Utf8,0,0,4
+lang\java\avro\src\main\java\org\apache\avro\util\WeakIdentityHashMap.java,keySet,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryDecoder.java,skipFixed,int,0,0,8
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyServer.java,<init>,"Responder, InetSocketAddress, ChannelFactory",19,0,3
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Symbol.java,root,Symbol[],0,0,1
+lang\java\tools\src\main\java\org\apache\avro\tool\DataFileReadTool.java,<init>,,0,0,8
+lang\java\avro\src\main\java\org\apache\avro\Protocol.java,parseName,JsonNode,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BinaryEncoder.java,writeArrayEnd,,0,0,5
+lang\java\avro\src\main\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,"Schema, Schema, SpecificData",0,0,1
+lang\java\avro\src\main\java\org\apache\avro\io\BufferedBinaryEncoder.java,writeByte,int,0,0,7
+lang\java\avro\src\main\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"InputStream, BinaryDecoder",0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\NettyTransceiver.java,isConnected,,0,0,1
+lang\java\avro\src\main\java\org\apache\avro\file\DataFileWriter.java,flush,,0,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\parsing\Parser.java,processImplicitActions,,0,0,5
+lang\java\ipc\src\main\java\org\apache\avro\ipc\SocketTransceiver.java,getRemoteName,,0,0,1
+lang\java\ipc\src\main\java\org\apache\avro\ipc\trace\TracePluginConfiguration.java,equals,Object,0,0,19
+lang\java\tools\src\main\java\org\apache\avro\tool\Main.java,run,String[],2,0,2
+lang\java\avro\src\main\java\org\apache\avro\io\DirectBinaryEncoder.java,writeInt,int,0,0,14
+lang\java\avro\src\main\java\org\apache\avro\io\BlockingBinaryEncoder.java,ensureBounds,int,382674,35567,56
+lang\java\avro\src\main\java\org\apache\avro\util\ByteBufferInputStream.java,readBuffer,int,0,0,3
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,writeBuffers,List,1,0,2
+lang\java\ipc\src\main\java\org\apache\avro\ipc\HttpTransceiver.java,getRemoteName,,0,0,3

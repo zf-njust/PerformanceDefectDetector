@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 1 0 0 
+0 0 0 0 0 
+1 1 0 0 0 
+1 0 0 1 0 
+org.apache.avro.io.Encoder.writeEnum(int)
+org.apache.avro.Schema.getEnumOrdinal(String)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.generic.GenericDatumWriter.writeEnum(Schema, Object, Encoder)
+org.apache.avro.specific.SpecificDatumWriter.writeEnum(Schema, Object, Encoder)

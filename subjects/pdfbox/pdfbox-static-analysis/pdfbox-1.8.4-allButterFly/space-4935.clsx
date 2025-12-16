@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.clearResources()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.clearResources()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.clearResources()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.XrefTrailerObj.clearResources()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+</group>
+</group>
+</group>
+</cluster>

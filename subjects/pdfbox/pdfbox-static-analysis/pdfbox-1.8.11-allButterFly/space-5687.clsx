@@ -1,0 +1,107 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.validate(PreflightContext)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.checkNeedAppearences(PreflightContext, PDAcroForm)" />
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.exploreFields(PreflightContext, List)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getFields()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getAcroForm()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.valideField(PreflightContext, PDField)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(String, boolean)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.PDAcroForm(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationError(PreflightContext, ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioCollection.PDRadioCollection(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isButton(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.PDSignatureField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDUnknownField.PDUnknownField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isRadio(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTextbox.PDTextbox(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isChoiceField(PDField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isSignature(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getWidget()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getActions()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getKids()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getFieldFlags()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoiceField.PDChoiceField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDCheckbox.PDCheckbox(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDPushButton.PDPushButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isPushButton(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isTextbox(PDField)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getDictionary()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoiceButton.PDChoiceButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.PDFormFieldAdditionalActions(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.findFieldType()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.hasRecursion(PreflightContext, Object, PreflightPath)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.findFieldType(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+</group>
+</group>
+</cluster>

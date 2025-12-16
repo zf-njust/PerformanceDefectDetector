@@ -1,0 +1,57 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.PDFTextStripperByArea.processTextPosition(TextPosition)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFTextStripper.processTextPosition(TextPosition)" />
+<item name="org.apache.pdfbox.util.TextPosition.getY()" />
+<item name="org.apache.pdfbox.util.TextPosition.getX()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.TextPosition.isDiacritic()" />
+<item name="org.apache.pdfbox.util.TextPosition.getXRot(float)" />
+<item name="org.apache.pdfbox.util.TextPosition.mergeDiacritic(TextPosition, TextNormalize)" />
+<item name="org.apache.pdfbox.util.TextPosition.getCharacter()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.contains(float, float)" />
+<item name="org.apache.pdfbox.util.TextPosition.contains(TextPosition)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.util.TextPosition.getYLowerLeftRot(float)" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.getRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.TextPosition.getWidthRot(float)" />
+<item name="org.apache.pdfbox.util.Matrix.getValue(int, int)" />
+<item name="org.apache.pdfbox.util.TextPosition.getYDirAdj()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.util.TextPosition.getWidthDirAdj()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.util.TextPosition.getXDirAdj()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.util.TextPosition.insertDiacritic(int, TextPosition, TextNormalize)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.util.TextPosition.getHeightDir()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.Matrix.getXPosition()" />
+<item name="org.apache.pdfbox.util.TextNormalize.normalizeDiac(String)" />
+<item name="org.apache.pdfbox.util.TextPosition.getDir()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.util.Matrix.getYPosition()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.util.ICU4JImpl.normalizeDiac(String)" />
+</group>
+</group>
+</group>
+</cluster>

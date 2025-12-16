@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 1 0 0 1 
+0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.GlyphList(GlyphList, InputStream)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.loadList(InputStream)
+org.apache.pdfbox.text.PDFTextStreamEngine.PDFTextStreamEngine()
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)

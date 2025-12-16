@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.createFromHexString(String)
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.nextAvailable()
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.read(byte[], int, int)
+org.apache.pdfbox.cos.COSArray.getInt(int)
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.read(byte[])
+org.apache.pdfbox.cos.COSArray.getInt(int, int)
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.COSFilterInputStream(byte[], int[])
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getSignedContent(byte[])
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getByteRange()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getContents(COSFilterInputStream)
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.toByteArray()
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.inRange()
+org.apache.pdfbox.cos.COSString.append(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdfwriter.COSFilterInputStream.read()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getContents(byte[])
+org.apache.pdfbox.cos.COSString.COSString()

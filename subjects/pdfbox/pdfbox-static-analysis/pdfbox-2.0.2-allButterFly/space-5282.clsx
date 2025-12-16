@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readExpectedChar(char)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(int)" />
+<item name="org.apache.pdfbox.cos.COSString.parseHex(String)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+</group>
+</group>
+</group>
+</cluster>

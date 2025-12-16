@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.sort.ModuleInSort.ModuleInSort(ModuleDescriptor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.sort.CollectionOfModulesToSort.CollectionOfModulesToSort(Collection, VersionMatcher, NonMatchingVersionReporter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.sort.CollectionOfModulesToSort.addToModulesByModuleId(ModuleDescriptor, ModuleInSort)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

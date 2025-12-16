@@ -1,0 +1,52 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.progress()" />
+<item name="org.apache.ivy.util.Message.endProgress(String)" />
+<item name="org.apache.ivy.util.Message.rawinfo(String)" />
+<item name="org.apache.ivy.util.Message.getProblems()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.Message.setShowProgress(boolean)" />
+<item name="org.apache.ivy.util.Message.deprecated(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.Message.endProgress()" />
+<item name="org.apache.ivy.util.Message.sumupProblems()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.isShowProgress()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLogger.deprecated(String)" />
+<item name="org.apache.ivy.util.MessageLogger.sumupProblems()" />
+<item name="org.apache.ivy.util.MessageLogger.isShowProgress()" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.endProgress()" />
+<item name="org.apache.ivy.util.MessageLogger.rawinfo(String)" />
+<item name="org.apache.ivy.util.MessageLogger.getProblems()" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.MessageLogger.endProgress(String)" />
+<item name="org.apache.ivy.util.MessageLogger.progress()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+<item name="org.apache.ivy.util.MessageLogger.setShowProgress(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setNumber(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.prepareIncrement(PDDocument)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getObjectKey(COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getXrefTable()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

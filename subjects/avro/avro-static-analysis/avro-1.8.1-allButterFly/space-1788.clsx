@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Protocol.TwoWayMessage.toJson1(JsonGenerator)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

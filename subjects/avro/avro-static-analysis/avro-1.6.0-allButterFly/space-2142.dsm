@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMaxTime(List)
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()
+org.apache.avro.ipc.trace.TraceNode.getLatencyTimeString()
+org.apache.avro.ipc.trace.TraceNode.getProcessTime()
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageTime(List)
+org.apache.avro.ipc.trace.TraceNode.getProcessTimeString()
+org.apache.avro.ipc.trace.TraceCollection.TraceTiming.getTotalTime()
+org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)
+org.apache.avro.ipc.trace.TraceCollection.getTimingAverage(Collection)
+org.apache.avro.ipc.trace.TraceNode.getPostLinkTimeString()
+org.apache.avro.ipc.trace.TraceNode.getPostLinkTime()
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMinTime(List)
+org.apache.avro.ipc.trace.Util.printableTime(long)
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTimeString()

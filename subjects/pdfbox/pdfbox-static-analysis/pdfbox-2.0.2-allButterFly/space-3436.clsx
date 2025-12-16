@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.xobject.AbstractXObjValidator.AbstractXObjValidator(PreflightContext, COSStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.xobject.XObjPostscriptValidator.XObjPostscriptValidator(PreflightContext, PDPostScriptXObject)" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjFormValidator.XObjFormValidator(PreflightContext, PDFormXObject)" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjImageValidator.XObjImageValidator(PreflightContext, PDImageXObject)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+</group>
+</group>
+</cluster>

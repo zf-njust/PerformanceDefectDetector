@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getAppearanceState()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getNormalAppearanceStream()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry.getSubDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry.getAppearanceStream()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry.isSubDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getAppearance()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary.getNormalAppearance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSDictionaryMap.COSDictionaryMap(Map, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry.PDAppearanceEntry(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary.PDAppearanceDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry.isStream()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream.PDAppearanceStream(COSStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.PDFormXObject(COSStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(COSStream, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

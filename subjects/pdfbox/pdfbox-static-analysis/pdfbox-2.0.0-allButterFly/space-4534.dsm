@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncateOrPad(byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.getUserPassword(byte[], byte[], int, int)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKey(byte[], byte[], byte[], byte[], byte[], int, byte[], int, int, boolean, boolean)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncate127(byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.logIfStrongEncryptionMissing()
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeSHA256(byte[], byte[], byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2B(byte[], byte[], byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.isUserPassword(byte[], byte[], byte[], int, byte[], int, int, boolean)
+org.apache.pdfbox.pdmodel.encryption.MessageDigests.getMD5()
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2A(byte[], byte[], byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev56(byte[], boolean, byte[], byte[], byte[], byte[], int)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeRC4key(byte[], int, int)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.concat(byte[], byte[], byte[])
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.isOwnerPassword(byte[], byte[], byte[], int, byte[], int, int, boolean)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeUserPassword(byte[], byte[], int, byte[], int, int, boolean)
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev234(byte[], byte[], int, byte[], boolean, int, int)

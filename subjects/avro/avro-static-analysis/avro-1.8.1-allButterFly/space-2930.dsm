@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 1 0 
+org.apache.avro.RandomData.randomUtf8(Random, int)
+org.apache.avro.mapred.AvroWrapper.datum(T)
+org.apache.avro.util.Utf8.getLength()
+org.apache.avro.util.Utf8.setByteLength(int)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.util.Utf8.Utf8()
+org.apache.avro.util.Utf8.setLength(int)
+org.apache.avro.mapred.AvroUtf8InputFormat.Utf8LineRecordReader.next(AvroWrapper, NullWritable)

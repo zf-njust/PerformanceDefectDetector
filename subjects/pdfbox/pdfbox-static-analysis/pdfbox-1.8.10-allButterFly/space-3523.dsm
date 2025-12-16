@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 1 1 0 1 0 0 0 0 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isNonSymbolic()
+org.apache.pdfbox.pdmodel.font.PDFont.getSubType()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.PDFontDescriptorDictionary(COSDictionary)
+org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()
+org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)
+org.apache.pdfbox.preflight.font.TrueTypeFontValidator.checkEncoding()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.isType1Font()
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.preflight.font.container.FontContainer.push(ValidationError)
+org.apache.pdfbox.pdmodel.font.PDFont.getFontEncoding()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.PDFontDescriptorAFM(FontMetric)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.getAFM()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)

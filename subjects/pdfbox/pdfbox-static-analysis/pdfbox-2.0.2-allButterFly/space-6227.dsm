@@ -1,0 +1,22 @@
+[Call]
+10
+0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.ScratchFileBuffer.read(byte[], int, int)
+org.apache.pdfbox.io.ScratchFileBuffer.ensureAvailableBytesInPage(boolean)
+org.apache.pdfbox.io.ScratchFile.enlarge()
+org.apache.pdfbox.io.ScratchFileBuffer.checkClosed()
+org.apache.pdfbox.io.ScratchFile.getNewPage()
+org.apache.pdfbox.io.ScratchFile.writePage(int, byte[])
+org.apache.pdfbox.io.ScratchFile.readPage(int)
+org.apache.pdfbox.io.ScratchFileBuffer.addPage()
+org.apache.pdfbox.io.ScratchFileBuffer.read(byte[])
+org.apache.pdfbox.io.ScratchFile.checkClosed()

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.StringUtils.encrypt(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.EncrytedProperties.setProperty(String, String)" />
+<item name="org.apache.ivy.util.EncrytedProperties.getProperty(String, String)" />
+<item name="org.apache.ivy.util.EncrytedProperties.containsValue(Object)" />
+<item name="org.apache.ivy.util.EncrytedProperties.contains(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.StringUtils.decrypt(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

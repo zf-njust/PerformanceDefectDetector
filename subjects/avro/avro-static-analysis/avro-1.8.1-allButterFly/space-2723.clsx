@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getDatumWriter(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema, ReflectData)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getDatumWriter(Schema)" />
+<item name="org.apache.avro.specific.SpecificData.createDatumWriter(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getSpecificData()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.generic.GenericResponder.getGenericData()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

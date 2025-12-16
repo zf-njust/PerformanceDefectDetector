@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.ImageParameters.getNumberOrNegativeOne(COSName, COSName)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.ImageParameters.getWidth()" />
+<item name="org.apache.pdfbox.util.ImageParameters.getBitsPerComponent()" />
+<item name="org.apache.pdfbox.util.ImageParameters.getHeight()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.util.ImageParameters.getCOSObject(COSName, COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

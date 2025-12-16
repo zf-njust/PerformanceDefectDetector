@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 1 
+0 0 1 1 0 0 
+org.apache.ivy.plugins.namespace.Namespace.getName()
+org.apache.ivy.core.settings.IvySettings.addConfigured(Namespace)
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.core.settings.IvySettings.addNamespace(Namespace)
+org.apache.ivy.core.settings.IvySettings.init(Object)

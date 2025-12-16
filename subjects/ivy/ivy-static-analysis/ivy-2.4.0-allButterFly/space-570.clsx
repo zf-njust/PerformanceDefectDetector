@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.filter.OrFilter.eval(Map)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.filter.OSGiFilter.eval(Map)" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.getSubFilters()" />
+</group>
+</group>
+</group>
+</cluster>

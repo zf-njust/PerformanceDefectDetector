@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 0 0 0 
+0 0 1 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+1 0 0 1 0 
+org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int)
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BinaryData.encodeFloat(float, byte[], int)
+org.apache.avro.io.BufferedBinaryEncoder.writeFloat(float)

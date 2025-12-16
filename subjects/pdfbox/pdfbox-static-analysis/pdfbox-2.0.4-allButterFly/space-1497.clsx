@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getDiskCacheFile()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.loadDiskCache(List)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.saveDiskCache()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.FSFontInfo(File, FontFormat, String, CIDSystemInfo, int, int, int, int, int, byte[], FileSystemFontProvider)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.CIDSystemInfo(String, String, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getSupplement()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.PDPanoseClassification(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

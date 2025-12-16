@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RepositoryHandler.RepositoryHandler(URI)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.parse(URI, InputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSourceHandler.ResourceSourceHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceLicenseHandler.ResourceLicenseHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setSkipOnError(boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDocumentationHandler.ResourceDocumentationHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityHandler.CapabilityHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RequireHandler.RequireHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDescriptionHandler.ResourceDescriptionHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ExtendHandler.ExtendHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSizeHandler.ResourceSizeHandler()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setBufferingChar(boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.AbstractRequirementHandler.AbstractRequirementHandler(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityPropertyHandler.CapabilityPropertyHandler()" />
+</group>
+</group>
+</group>
+</cluster>

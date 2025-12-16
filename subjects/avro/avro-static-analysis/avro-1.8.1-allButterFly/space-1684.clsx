@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.Histogram.getCount()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsServlet.renderMethod(Message)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.stats.Histogram.getRecentAdditions()" />
+<item name="org.apache.avro.ipc.stats.Histogram.Segmenter.getBucketLabels()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getMean()" />
+<item name="org.apache.avro.ipc.stats.Histogram.getHistogram()" />
+<item name="org.apache.avro.ipc.stats.IntegerHistogram.getUnbiasedStdDev()" />
+<item name="org.apache.avro.ipc.stats.StatsServlet.escapeStringArray(List)" />
+<item name="org.apache.avro.ipc.stats.StatsServlet.RenderableMessage.RenderableMessage(String)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.ipc.stats.Histogram.getSegmenter()" />
+<item name="org.apache.avro.ipc.stats.Histogram.Segmenter.getBoundaryLabels()" />
+<item name="org.apache.avro.ipc.stats.IntegerHistogram.getMean()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

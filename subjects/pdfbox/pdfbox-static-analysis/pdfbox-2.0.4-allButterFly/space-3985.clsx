@@ -1,0 +1,52 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type3Font.getGlyphs(PDType3Font)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type3Font.Type3Font(PDType3Font)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type3Font.getEncodingName(PDSimpleFont)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.getName()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.FontEncodingView(Object[][], Map, String[], double[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.createView(JPanel, JTable)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getTable(Object[][], String[], double[])" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getHeaderPanel(Map)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.GlyphCellRenderer.GlyphCellRenderer(double[])" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

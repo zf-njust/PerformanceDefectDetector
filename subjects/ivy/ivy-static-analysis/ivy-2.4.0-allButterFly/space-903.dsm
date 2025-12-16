@@ -1,0 +1,46 @@
+[Call]
+22
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.report.ResolveReport.setProblemMessages(List)
+org.apache.ivy.plugins.report.ReportOutputter.output(ResolveReport, ResolutionCacheManager, ResolveOptions)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.resolve.ResolveEngineSettings.getReportOutputters()
+org.apache.ivy.core.LogOptions.getLog()
+org.apache.ivy.util.Message.info(String)
+org.apache.ivy.core.report.ResolveReport.getResolveTime()
+org.apache.ivy.core.report.ResolveReport.getDownloadTime()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getProblems()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.MessageLogger.info(String)
+org.apache.ivy.util.MessageLogger.getProblems()
+org.apache.ivy.core.resolve.ResolveEngine.outputReport(ResolveReport, ResolutionCacheManager, ResolveOptions)
+org.apache.ivy.core.report.ResolveReport.output(ReportOutputter[], ResolutionCacheManager, ResolveOptions)
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.core.IvyContext.peekIvy()

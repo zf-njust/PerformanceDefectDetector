@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 0 
+0 1 0 1 1 
+1 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.Decoder.readEnum()
+org.apache.avro.generic.GenericDatumReader.readEnum(Schema, Decoder)
+org.apache.avro.Schema.getEnumSymbols()
+org.apache.avro.generic.GenericDatumReader.createEnum(String, Schema)

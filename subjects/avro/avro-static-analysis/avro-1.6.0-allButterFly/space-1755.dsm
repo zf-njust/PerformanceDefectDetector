@@ -1,0 +1,14 @@
+[Call]
+6
+0 1 1 1 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 1 
+0 0 0 0 0 0 
+org.apache.avro.mapred.AvroRecordReader.next(AvroWrapper, NullWritable)
+org.apache.avro.file.FileReader.pastSync(long)
+org.apache.avro.mapred.AvroWrapper.datum()
+org.apache.avro.mapred.AvroWrapper.datum(T)
+org.apache.avro.mapred.AvroAsTextRecordReader.next(Text, Text)
+org.apache.avro.file.FileReader.next(D)

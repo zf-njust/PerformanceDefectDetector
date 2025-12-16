@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.checkStreamFilterUsage(PDDocument)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getMetadata()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMetadata.PDMetadata(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,72 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.content.PreflightContentStream.validateStringArray(Operator, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.PreflightContentStream.checkShowTextOperators(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.content.PreflightContentStream.validateStringDefinition(Operator, List)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.preflight.content.PreflightContentStream.validateText(byte[])" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isEmbeddedFont()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.readCode(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getRenderingMode()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationErrors(List)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.getAllErrors()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getFont()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getFontContainer(COSBase)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.setErrorsAlreadyMerged(boolean)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isValid()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.errorsAleadyMerged()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkGlyphWidth(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.getErrorCode()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.hasGlyph(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String, Throwable)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkWidthsConsistency(int, float, float)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markAsInvalid(int, GlyphException)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getWidthFromFont(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontLike.getWidth(int)" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String, boolean, Throwable)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isAlreadyProcessed(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.throwExceptionIfNotValid()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setWarning(boolean)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markAsValid(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int)" />
+</group>
+</group>
+</group>
+</cluster>

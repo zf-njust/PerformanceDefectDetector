@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.parse(InputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.RepositoryHandler.RepositoryHandler(P2Descriptor, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.ArtifactsHandler.ArtifactsHandler(P2Descriptor, Map, String)" />
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.MappingsHandler.MappingsHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.ArtifactHandler.ArtifactHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.RuleHandler.RuleHandler()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.p2.PropertiesParser.PropertiesHandler.PropertiesHandler(String...)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.p2.PropertiesParser.PropertyHandler.PropertyHandler()" />
+</group>
+</group>
+</group>
+</cluster>

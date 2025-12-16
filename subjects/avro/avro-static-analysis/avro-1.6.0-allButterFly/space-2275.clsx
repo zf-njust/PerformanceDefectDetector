@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.util.Utf8.setByteLength(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

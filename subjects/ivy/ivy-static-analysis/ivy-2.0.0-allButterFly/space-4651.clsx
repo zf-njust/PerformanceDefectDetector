@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.getConfs(ModuleDescriptor, Artifact)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printPublications(ModuleDescriptor, PrintWriter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllArtifacts()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getArtifacts(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+</group>
+</group>
+</group>
+</cluster>

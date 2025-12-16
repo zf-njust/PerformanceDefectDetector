@@ -1,0 +1,70 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPatternNames()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.reflect.ResourcesValidationProcess.validateTilingPattern(PreflightContext, PDResources)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPattern(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.create(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.getPattern(COSObject)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDAbstractPattern)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.PDTilingPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.hasRecursion(PreflightContext, Object, PreflightPath)" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.PDShadingPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getNames(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

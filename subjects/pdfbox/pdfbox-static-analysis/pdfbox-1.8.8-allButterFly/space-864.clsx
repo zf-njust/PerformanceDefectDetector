@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference.FDFNamedPageReference(COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFTemplate.getTemplateReference()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getAppearanceStreamReference()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

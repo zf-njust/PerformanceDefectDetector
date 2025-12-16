@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeArtPattern()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.setArtpattern(String)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.setArtroot(String)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.ensureArtifactConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeArtPattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+</group>
+</group>
+</group>
+</cluster>

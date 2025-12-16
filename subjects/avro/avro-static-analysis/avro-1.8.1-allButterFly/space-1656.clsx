@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.smallArraySize(Random)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Perf.populateFloatArray(Random, boolean)" />
+<item name="org.apache.avro.io.Perf.populateDoubleArray(Random)" />
+<item name="org.apache.avro.io.Perf.populateLongArray(Random)" />
+<item name="org.apache.avro.io.Perf.populateIntArray(Random)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Perf.largeArraySize(Random)" />
+<item name="org.apache.avro.io.Perf.populateFloatArray(Random, int)" />
+<item name="org.apache.avro.io.Perf.populateDoubleArray(Random, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

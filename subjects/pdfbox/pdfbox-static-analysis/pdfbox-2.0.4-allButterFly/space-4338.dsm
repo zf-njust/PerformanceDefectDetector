@@ -1,0 +1,60 @@
+[Call]
+29
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFont(FontFormat, String)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isItalic()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFontBoxFont(String)
+org.apache.pdfbox.pdmodel.font.FontInfo.getFormat()
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.setProvider(FontProvider)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getSubstitutes(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFont(FontFormat, String)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.pdmodel.font.FontProvider.getFontInfo()
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getProvider()
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSerif()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFallbackFontName(PDFontDescriptor)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.createFontInfoByName(List)
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getTrueTypeFont(String, PDFontDescriptor)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFixedPitch()
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFontBoxFont(String, PDFontDescriptor)
+org.apache.pdfbox.pdmodel.font.FontInfo.getFont()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.font.FontInfo.getPostScriptName()
+org.apache.pdfbox.pdmodel.font.FontMapping.FontMapping(T, boolean)
+org.apache.pdfbox.pdmodel.font.FontMapperImpl.getPostScriptNames(String)

@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)
+org.apache.avro.io.DirectBinaryDecoder.init(InputStream)
+org.apache.avro.io.BinaryDecoder.BinaryDecoder(int, InputStream)
+org.apache.avro.io.BinaryDecoder.BinaryDecoder()
+org.apache.avro.io.DecoderFactory.createBinaryDecoder(InputStream, BinaryDecoder)
+org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.ReuseByteReader(ByteBufferInputStream)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()
+org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)
+org.apache.avro.io.BinaryDecoder.ByteSource.detach()
+org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)
+org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()
+org.apache.avro.io.BinaryDecoder.InputStreamByteSource.InputStreamByteSource(InputStream)
+org.apache.avro.io.DirectBinaryDecoder.DirectBinaryDecoder(InputStream)
+org.apache.avro.io.BinaryDecoder.init(int, InputStream)
+org.apache.avro.io.BinaryDecoder.init(InputStream)

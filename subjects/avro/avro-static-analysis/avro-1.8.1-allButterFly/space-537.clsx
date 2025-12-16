@@ -1,0 +1,78 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.IdentityResponder.IdentityResponder(Protocol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.createServer(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.Responder.addRPCPlugin(RPCPlugin)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, int)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.StatsPlugin()" />
+<item name="org.apache.avro.ipc.HttpServer.start()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.ResponderServlet.ResponderServlet(Responder)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, String, int)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.StatsPlugin(Ticks, Segmenter, Segmenter)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.generic.GenericResponder.GenericResponder(Protocol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.generic.GenericResponder.GenericResponder(Protocol, GenericData)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.Responder.Responder(Protocol)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Protocol.getMD5()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Protocol.toString()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Protocol.toString(boolean)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.Protocol.toJson(JsonGenerator)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.Schema.Names.space(String)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.contains(Schema)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-12">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-13">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

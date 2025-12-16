@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.ConvertColorspace.convertRGBToCMYK(float, float, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.ConvertColorspace.replaceRGBTokensWithCMYKTokens(List, List, int, Hashtable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

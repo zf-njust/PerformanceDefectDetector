@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema, Schema, ThriftData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.ThriftData.get()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

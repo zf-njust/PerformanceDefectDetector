@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getEncodingName(PDSimpleFont)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.SimpleFont(PDSimpleFont)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontPane.getYBounds(Object[][], int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getGlyphs(PDSimpleFont)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.FontEncodingView(Object[][], Map, String[], double[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDVectorFont.getPath(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.createView(JPanel, JTable)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getPath(String)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getTable(Object[][], String[], double[])" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getHeaderPanel(Map)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.GlyphCellRenderer.GlyphCellRenderer(double[])" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+</group>
+</group>
+</group>
+</cluster>

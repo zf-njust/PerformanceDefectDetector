@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.getNewValue()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.hexChanged(HexChangedEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.getByte(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.getByteIndex()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.fireModelChanged(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModelChangeListener.hexModelChanged(HexModelChangedEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModelChangedEvent.HexModelChangedEvent(int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.UpdateHandler.UpdateHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.UrlHandler.UrlHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.DiscoveryHandler.DiscoveryHandler()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)" />
+</group>
+</group>
+</group>
+</cluster>

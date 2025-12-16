@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.write(byte[], int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.write(byte[])" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer(InputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ensureAvailableBytesInPage(boolean)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.checkClosed()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.ScratchFile.writePage(int, byte[])" />
+<item name="org.apache.pdfbox.io.ScratchFile.readPage(int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,69 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.getName(PDColorSpace)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColorSpace(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColorSpace(PDColorSpace)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getComponents()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getPatternName()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColorSpaceStack(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColorSpaceStack(PDColorSpace)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatFloatFast(float, int, byte[])" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.NumberFormatUtil.getExponent(long)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatPositiveNumber(long, int, boolean, byte[], int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

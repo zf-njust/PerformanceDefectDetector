@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setExcludeRules(Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.transformInstance(DependencyDescriptor, NamespaceTransformer, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setIncludeRules(Map)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isForce()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyArtifacts(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyArtifacts()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isChanging()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyConfigurations(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getExcludeRules(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getIncludeRules(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isTransitive()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleDescriptor, ModuleRevisionId, ModuleRevisionId, boolean, boolean, boolean)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setDependencyArtifacts(Map)" />
+<item name="org.apache.ivy.core.module.descriptor.InheritableItem.getSourceModule()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getParentRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getIncludeRules()" />
+<item name="org.apache.ivy.plugins.namespace.NamespaceTransformer.transform(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

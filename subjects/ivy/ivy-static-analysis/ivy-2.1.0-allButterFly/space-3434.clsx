@@ -1,0 +1,80 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.ChecksumHelper.isKnownAlgorithm(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.check(Resource, File, String)" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.put(Artifact, File, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.get(Resource, File)" />
+<item name="org.apache.ivy.plugins.repository.Resource.clone(String)" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.putChecksum(Artifact, File, String, boolean, String)" />
+<item name="org.apache.ivy.util.ChecksumHelper.check(File, File, String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.exists()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.getChecksumAlgorithms()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.repository.Repository.put(Artifact, File, String, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.util.ChecksumHelper.computeAsString(File, String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.cloneWithAnotherTypeAndExt(Artifact, String, String)" />
+<item name="org.apache.ivy.util.FileUtil.readEntirely(BufferedReader)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getPublicationDate()" />
+<item name="org.apache.ivy.util.ChecksumHelper.byteArrayToHexString(byte[])" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getUrl()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.isMetadata()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+<item name="org.apache.ivy.util.ChecksumHelper.compute(File, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.util.ChecksumHelper.getMessageDigest(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

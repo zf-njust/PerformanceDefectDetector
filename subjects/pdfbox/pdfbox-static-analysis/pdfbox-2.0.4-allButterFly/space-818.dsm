@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(COSObject)
+org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)
+org.apache.pdfbox.cos.COSObject.setGenerationNumber(int)
+org.apache.pdfbox.preflight.font.DescendantFontValidator.checkCIDSystemInfo(COSBase)
+org.apache.pdfbox.preflight.font.DescendantFontValidator.checkCIDToGIDMap(COSBase)
+org.apache.pdfbox.cos.COSObjectKey.getGeneration()
+org.apache.pdfbox.cos.COSObject.getObjectNumber()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)
+org.apache.pdfbox.cos.COSObject.COSObject(COSBase)
+org.apache.pdfbox.preflight.font.container.FontContainer.push(ValidationError)
+org.apache.pdfbox.cos.COSObject.setObjectNumber(long)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.preflight.font.DescendantFontValidator.checkMandatoryField()
+org.apache.pdfbox.cos.COSObject.getGenerationNumber()
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)
+org.apache.pdfbox.pdmodel.font.PDFontLike.getName()
+org.apache.pdfbox.cos.COSObject.setObject(COSBase)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)
+org.apache.pdfbox.cos.COSObjectKey.getNumber()
+org.apache.pdfbox.preflight.utils.COSUtils.getAsDictionary(COSBase, COSDocument)
+org.apache.pdfbox.preflight.utils.COSUtils.isString(COSBase, COSDocument)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.preflight.utils.COSUtils.isInteger(COSBase, COSDocument)

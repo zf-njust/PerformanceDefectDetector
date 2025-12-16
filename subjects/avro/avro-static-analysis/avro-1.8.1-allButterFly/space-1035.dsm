@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+1 0 1 0 0 1 
+0 0 0 1 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.avro.mapred.AvroMultipleInputs.getMapperTypeMap(JobConf)
+org.apache.avro.mapred.DelegatingInputFormat.getSplits(JobConf, int)
+org.apache.avro.mapred.AvroMultipleInputs.getInputSchemaMap(JobConf)
+org.apache.avro.mapred.AvroMultipleInputs.fromBase64(String)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.mapred.TaggedInputSplit.TaggedInputSplit(InputSplit, Configuration, Class, Class, Schema)

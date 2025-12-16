@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.get(String, OutputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.receiveStream(Channel, String, OutputStream)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.getExecChannel()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.parseTLine(String, FileInfo)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.FileInfo.getLength()" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.receiveLine(InputStream)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.parseCLine(String, FileInfo)" />
+<item name="org.apache.ivy.plugins.repository.ssh.RemoteScpException.RemoteScpException(String)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.readResponse(InputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.FileInfo.setLastModified(long)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.FileInfo.setLength(long)" />
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.FileInfo.setFilename(String)" />
+</group>
+</group>
+</group>
+</cluster>

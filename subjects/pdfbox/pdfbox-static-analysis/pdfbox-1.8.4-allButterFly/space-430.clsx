@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getFileDos()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getFilename()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getUnicodeFile()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getFileMac()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getFileUnix()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getFile()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+</group>
+</cluster>

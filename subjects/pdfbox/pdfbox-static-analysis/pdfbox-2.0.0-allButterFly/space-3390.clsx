@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.ASCII85OutputStream.write(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ASCII85Filter.encode(InputStream, OutputStream, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.ASCII85OutputStream.close()" />
+<item name="org.apache.pdfbox.filter.ASCII85OutputStream.ASCII85OutputStream(OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.ASCII85OutputStream.flush()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ASCII85OutputStream.transformASCII85()" />
+</group>
+</group>
+</group>
+</cluster>

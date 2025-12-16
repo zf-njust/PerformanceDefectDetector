@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.ArtifactsHandler.ArtifactsHandler.(Anon_4).childHanlded(DelegetingHandler)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2Artifact.getClassifier()" />
+<item name="org.apache.ivy.osgi.p2.P2Artifact.getVersion()" />
+<item name="org.apache.ivy.osgi.p2.P2Artifact.getId()" />
+<item name="org.apache.ivy.osgi.p2.P2Descriptor.addArtifactUrl(String, String, Version, String)" />
+</group>
+</group>
+</group>
+</cluster>

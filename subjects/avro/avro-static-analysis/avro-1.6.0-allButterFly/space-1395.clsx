@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceNode.getPostLinkTime()" />
+<item name="org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()" />
+<item name="org.apache.avro.ipc.trace.Trace.NodeComparator.compare(TraceNode, TraceNode)" />
+<item name="org.apache.avro.ipc.trace.TraceNode.getProcessTime()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

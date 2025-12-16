@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setIncludeRules(Map)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyConfigurations(String)
+org.apache.ivy.plugins.namespace.NamespaceTransformer.transform(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeUsage.getDependencyIncludesSet(String)
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getIncludeRules()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleDescriptor, ModuleRevisionId, ModuleRevisionId, boolean, boolean, boolean)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setExcludeRules(Map)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.isForce()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.isChanging()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getExcludeRules()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyArtifacts()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.setDependencyArtifacts(Map)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyArtifacts(String)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.isTransitive()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.transformInstance(DependencyDescriptor, NamespaceTransformer, boolean)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getIncludeRules(String)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getParentRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getExcludeRules(String)

@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 1 1 0 0 1 0 0 
+org.apache.avro.io.BinaryDecoder.ensureBounds(int)
+org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.readInt()
+org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)
+org.apache.avro.io.BinaryDecoder.readBytes(ByteBuffer)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)
+org.apache.avro.util.Utf8.setByteLength(int)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)
+org.apache.avro.util.Utf8.Utf8()
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)
+org.apache.avro.io.BinaryDecoder.readString(Utf8)

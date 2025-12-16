@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 
+1 0 0 0 0 0 1 
+0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 
+org.apache.avro.tool.TrevniToJsonTool.valueToJson(ColumnMetaData)
+org.apache.avro.tool.TrevniToJsonTool.primitiveToJson(ColumnMetaData, Object)
+org.apache.trevni.avro.HadoopInput.HadoopInput(Path, Configuration)
+org.apache.avro.tool.TrevniUtil.input(String)
+org.apache.avro.tool.TrevniToJsonTool.toJson(Input, PrintStream, boolean)
+org.apache.avro.tool.TrevniToJsonTool.run(InputStream, PrintStream, PrintStream, List)
+org.apache.avro.tool.TrevniToJsonTool.shortName(ColumnMetaData)

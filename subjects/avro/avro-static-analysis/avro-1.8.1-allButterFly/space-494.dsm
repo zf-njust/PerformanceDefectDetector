@@ -1,0 +1,8 @@
+[Call]
+3
+0 1 1 
+0 0 0 
+0 0 0 
+org.apache.avro.hadoop.io.AvroSerializer.serialize(AvroWrapper)
+org.apache.avro.mapred.AvroWrapper.datum()
+org.apache.avro.io.DatumWriter.write(D, Encoder)

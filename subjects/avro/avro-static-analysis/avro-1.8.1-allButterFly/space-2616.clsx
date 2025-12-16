@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeInt(int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeLong(long)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeBytes(byte[], int, int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.SimpleByteWriter.write(ByteBuffer)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeEnum(int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeIndex(int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeString(byte[], int, int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeMapEnd()" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeArrayEnd()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

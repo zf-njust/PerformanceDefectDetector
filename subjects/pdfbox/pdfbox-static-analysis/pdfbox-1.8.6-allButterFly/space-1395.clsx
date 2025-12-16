@@ -1,0 +1,142 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createField(PDAcroForm, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getField(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getFields()" />
+<item name="org.apache.pdfbox.util.PDFMergerUtility.mergeAcroForm(PDFCloneUtility, PDAcroForm, PDAcroForm)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioCollection.getKids()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.findKid(String[], int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.setPartialName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(String)" />
+<item name="org.apache.pdfbox.util.PDFCloneUtility.cloneForNewDocument(Object)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.setFields(List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getFullyQualifiedName()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.COSStreamArray(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.getStreamCount()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getPartialName()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilteredStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument, InputStream, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.cos.COSStream.createFilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.createUnfilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSStream.doEncode()" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getScratchFile()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSStream.doEncode(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.encode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioCollection.PDRadioCollection(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isButton(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.PDSignatureField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getFieldFlags()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDUnknownField.PDUnknownField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isRadio(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTextbox.PDTextbox(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoiceField.PDChoiceField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isChoiceField(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDCheckbox.PDCheckbox(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDPushButton.PDPushButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isPushButton(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isSignature(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.isTextbox(PDField)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoiceButton.PDChoiceButton(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getKids()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.findFieldType()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getAcroForm()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.findFieldType(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+</group>
+</group>
+</cluster>

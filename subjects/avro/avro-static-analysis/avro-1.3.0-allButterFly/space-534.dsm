@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 1 0 1 0 
+org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.read(ByteBuffer, int)
+org.apache.avro.io.DirectBinaryDecoder.readInt()
+org.apache.avro.io.DirectBinaryDecoder.ByteReader.read(ByteBuffer, int)
+org.apache.avro.ipc.ByteBufferInputStream.getBuffer()
+org.apache.avro.io.DirectBinaryDecoder.readBytes(ByteBuffer)
+org.apache.avro.ipc.ByteBufferInputStream.read(byte[], int, int)
+org.apache.avro.ipc.ByteBufferInputStream.readBuffer(int)

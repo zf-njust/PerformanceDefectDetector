@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 0 0 1 
+0 0 0 0 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)
+org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDPropertyList)
+org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList.create(COSDictionary)
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(COSDictionary)
+org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList.PDPropertyList(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSName.toString()
+org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)
+org.apache.pdfbox.pdmodel.PDResources.getProperties(COSName)
+org.apache.pdfbox.pdmodel.ResourceCache.getProperties(COSObject)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSName.equals(Object)

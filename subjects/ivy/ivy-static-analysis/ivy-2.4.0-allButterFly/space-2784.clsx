@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.getWorkingRevision()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.createCredentials(String, String)" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.BasicResolver()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

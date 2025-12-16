@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.AbstractArtifact.equals(Object)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getPublicationDate()" />
+<item name="org.apache.ivy.core.module.descriptor.AbstractArtifact.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+</group>
+</group>
+</cluster>

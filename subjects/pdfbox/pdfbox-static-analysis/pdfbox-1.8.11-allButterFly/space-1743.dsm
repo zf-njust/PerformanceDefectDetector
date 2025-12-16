@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setHidden(boolean)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isHidden()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isEntryChanged(Object, Object)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)
+org.apache.pdfbox.cos.COSBoolean.getValue()
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.userPropertyChanged(PDUserProperty)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.potentiallyNotifyChanged(Object, Object)
+org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)

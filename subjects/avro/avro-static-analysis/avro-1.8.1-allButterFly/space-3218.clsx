@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.ImplicitAction.ImplicitAction(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.ImplicitAction.ImplicitAction()" />
+<item name="org.apache.avro.io.parsing.Symbol.SkipAction.SkipAction(Symbol)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+</group>
+</group>
+</cluster>

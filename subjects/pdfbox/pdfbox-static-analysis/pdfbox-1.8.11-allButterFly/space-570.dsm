@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.ResourceLoader.loadResource(String)
+org.apache.pdfbox.util.TextNormalize.findICU4J()
+org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)
+org.apache.pdfbox.util.PDFMarkedContentExtractor.PDFMarkedContentExtractor()
+org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper(Properties)
+org.apache.pdfbox.util.PDFMarkedContentExtractor.PDFMarkedContentExtractor(Properties)
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper(String)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.ICU4JImpl.ICU4JImpl()
+org.apache.pdfbox.util.PDFMarkedContentExtractor.PDFMarkedContentExtractor(String)
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper()
+org.apache.pdfbox.util.PDFImageWriter.PDFImageWriter(Properties)
+org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)
+org.apache.pdfbox.examples.util.PrintImageLocations.PrintImageLocations()
+org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)
+org.apache.pdfbox.pdfviewer.PageDrawer.PageDrawer()
+org.apache.pdfbox.util.TextNormalize.TextNormalize(String)

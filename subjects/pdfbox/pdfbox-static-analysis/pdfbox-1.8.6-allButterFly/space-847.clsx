@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(PreflightContext, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.validate()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightContext.setConfig(PreflightConfiguration)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getProcessNames()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+</group>
+</group>
+</group>
+</cluster>

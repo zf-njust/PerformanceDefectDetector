@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.ModuleDescriptorParserRegistry.accept(Resource)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.ModuleDescriptorParserRegistry.getParser(Resource)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.ModuleDescriptorParser.accept(Resource)" />
+</group>
+</group>
+</group>
+</cluster>

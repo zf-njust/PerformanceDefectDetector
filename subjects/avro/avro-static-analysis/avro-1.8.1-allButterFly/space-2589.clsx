@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getCollector(String, String, Reporter)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getCollector(String, String, Reporter, String, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getRecordWriter(String, String, Reporter, Schema)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.isMultiNamedOutput(JobConf, String)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.checkNamedOutputName(String)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.checkTokenName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.checkNamedOutput(JobConf, String, boolean)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.RecordWriterWithCounter.RecordWriterWithCounter(RecordWriter, String, Reporter)" />
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getNamedOutputsList(JobConf)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

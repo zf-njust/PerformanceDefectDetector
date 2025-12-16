@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.Processor.Processor(I)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.Processor.getProcessMap(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.Processor.ping.ping()" />
+<item name="org.apache.avro.thrift.test.Foo.Processor.zip.zip()" />
+<item name="org.apache.avro.thrift.test.Foo.Processor.add.add()" />
+</group>
+</group>
+</group>
+</cluster>

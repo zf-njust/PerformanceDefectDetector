@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.PDFormXObject(PDStream)
+org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources, COSInputStream)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.entrySet()
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.filter.DecodeResult.getJPXColorSpace()
+org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(PDStream, COSName)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSInputStream.getDecodeResult()
+org.apache.pdfbox.filter.DecodeResult.getParameters()
+org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.repair(PDStream, COSInputStream)
+org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)

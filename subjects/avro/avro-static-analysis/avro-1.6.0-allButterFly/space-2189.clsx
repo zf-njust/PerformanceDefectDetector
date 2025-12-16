@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroAsTextRecordReader.getPos()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroAsTextRecordReader.getProgress()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.FileReader.tell()" />
+</group>
+</group>
+</group>
+</cluster>

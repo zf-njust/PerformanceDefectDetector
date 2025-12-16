@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+</group>
+</group>
+</group>
+</cluster>

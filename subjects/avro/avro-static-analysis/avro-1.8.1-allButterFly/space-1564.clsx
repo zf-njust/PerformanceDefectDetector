@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.FieldAssembler.addField(Field)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.FieldBuilder.completeField(Schema, JsonNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.doc()" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.name()" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.addAliasesTo(Field)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+<item name="org.apache.avro.Schema.Field.addAlias(String)" />
+<item name="org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.isValidDefault(Schema, JsonNode)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

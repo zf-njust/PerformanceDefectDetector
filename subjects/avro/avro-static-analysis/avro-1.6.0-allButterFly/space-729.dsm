@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 
+0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 1 0 0 
+org.apache.avro.io.EncoderFactory.configureBlockSize(int)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)
+org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.open(OutputStream)
+org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)
+org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)
+org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)

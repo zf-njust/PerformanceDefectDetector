@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getValue(Integer)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getUpperLimit()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getLowerLimit()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getNumbers()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getKids()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.convertCOSToPD(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.createChildNode(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.PDNumberTreeNode(COSDictionary, Class)" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+</group>
+</group>
+</group>
+</cluster>

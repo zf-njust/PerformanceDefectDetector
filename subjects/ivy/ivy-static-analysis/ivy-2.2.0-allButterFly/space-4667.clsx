@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.Ivy14.download(Artifact, File, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.getResolveEngine()" />
+<item name="org.apache.ivy.core.resolve.ResolveEngine.download(Artifact, DownloadOptions)" />
+<item name="org.apache.ivy.util.Message.deprecated(String)" />
+<item name="org.apache.ivy.core.resolve.DownloadOptions.DownloadOptions()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLogger.deprecated(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

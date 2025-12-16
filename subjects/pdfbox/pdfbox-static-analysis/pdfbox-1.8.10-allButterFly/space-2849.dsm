@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 1 1 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()
+org.apache.pdfbox.pdfparser.BaseParser.setDocument(COSDocument)
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.init(File, RandomAccess, String)
+org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.setEOFLookupRange(int)
+org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)

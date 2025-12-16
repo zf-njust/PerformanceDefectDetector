@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File, List, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File)" />
+<item name="org.apache.avro.tool.TetherTool.run(InputStream, PrintStream, PrintStream, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherJob.setProtocol(JobConf, String)" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.avro.Schema.parse(File)" />
+<item name="org.apache.avro.mapred.tether.TetherJob.runJob(JobConf)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.Schema.Parser.parse(File)" />
+<item name="org.apache.avro.mapred.tether.TetherJob.setupTetherJob(JobConf)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.mapred.tether.TetherJob.getExecutable(JobConf)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

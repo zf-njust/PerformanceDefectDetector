@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.ValidatingEncoder.init(OutputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Encoder.init(OutputStream)" />
+<item name="org.apache.avro.io.parsing.Parser.reset()" />
+<item name="org.apache.avro.io.ValidatingEncoder.flush()" />
+</group>
+</group>
+</group>
+</cluster>

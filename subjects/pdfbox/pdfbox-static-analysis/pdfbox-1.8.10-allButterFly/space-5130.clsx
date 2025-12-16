@@ -1,0 +1,170 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.examples.signature.ShowSignature.ShowSignature()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.signature.ShowSignature.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.examples.signature.ShowSignature.showSignature(String[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.decrypt(String)" />
+<item name="org.apache.pdfbox.examples.signature.ShowSignature.usage()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.load(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial.StandardDecryptionMaterial(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.openProtection(DecryptionMaterial)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.clearResources()" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.SequentialRead.close()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getInstance()" />
+<item name="org.apache.pdfbox.cos.COSDocument.setEncryptionDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decryptDocument(PDDocument, DecryptionMaterial)" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getSecurityHandler(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getFilter()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.cos.COSDocument.dereferenceObjectStreams()" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdfparser.PDFObjectStreamParser.PDFObjectStreamParser(COSStream, COSDocument, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.SecurityHandlersManager()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.PDEncryptionDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdfparser.PDFObjectStreamParser.getObjects()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.pdfparser.PDFObjectStreamParser.parse()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectsByType(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.registerHandler(String, Class, Class)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(InputStream, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber()" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSStream.getUnfilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseDirObject()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLine()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.setDocument(COSDocument)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+<item name="org.apache.pdfbox.cos.COSObject.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.isEOF()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.readFully(int)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSString()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(Exception)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.getOffset()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<item name="org.apache.pdfbox.cos.COSArray.remove(int)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSString.append(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue()" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[])" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-12">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

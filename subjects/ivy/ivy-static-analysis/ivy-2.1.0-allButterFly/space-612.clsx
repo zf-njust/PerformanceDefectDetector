@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getAllChilds(Element)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getPomProperties()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getLicenses()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.License.License(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getTextContent(Element)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildText(Element, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

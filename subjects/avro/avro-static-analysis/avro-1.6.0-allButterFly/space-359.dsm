@@ -1,0 +1,30 @@
+[Call]
+14
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 1 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.generic.GenericRecordBuilder.set(Field, int, Object)
+org.apache.avro.data.RecordBuilderBase.validate(Field, Object)
+org.apache.avro.data.RecordBuilderBase.isValidValue(Field, Object)
+org.apache.avro.Schema.Field.toString()
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.Schema.getType()
+avro.examples.baseball.Player.Builder.setFirstName(java.lang.CharSequence)
+avro.examples.baseball.Player.Builder.setNumber(int)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.getTypes()
+org.apache.avro.Schema.Field.defaultValue()
+org.apache.avro.generic.GenericData.Record.put(int, Object)
+avro.examples.baseball.Player.Builder.setLastName(java.lang.CharSequence)
+avro.examples.baseball.Player.Builder.setPosition(java.util.List)

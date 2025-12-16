@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.flatten(Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.flatten(Symbol[], int, Symbol[], int, Map, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.Repeater(Symbol, Symbol...)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Fixup.Fixup(Symbol[], int)" />
+<item name="org.apache.avro.io.parsing.Symbol.flatten(Map, Map)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+</group>
+</cluster>

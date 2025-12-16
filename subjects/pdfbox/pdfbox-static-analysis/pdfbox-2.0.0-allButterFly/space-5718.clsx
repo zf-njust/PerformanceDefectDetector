@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.hasAnyRevision3PermissionSet()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeRevisionNumber(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy.getPermissions()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.canPrintDegraded()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.canExtractForAccessibility()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.canAssembleDocument()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.canFillInForm()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.isPermissionBitOn(int)" />
+</group>
+</group>
+</group>
+</cluster>

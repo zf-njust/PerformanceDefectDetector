@@ -1,0 +1,56 @@
+[Call]
+27
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 1 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)
+org.apache.avro.JsonProperties.JsonProperties(Set)
+org.apache.avro.Schema.validateName(String)
+org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode)
+org.apache.avro.Schema.getType()
+org.apache.avro.Schema.getElementType()
+org.apache.avro.mapred.Pair.makePairSchema(Schema, Schema)
+org.apache.avro.Schema.createRecord(String, String, String, boolean)
+org.apache.avro.Schema.getTypes()
+org.apache.avro.Schema.Field.defaultValue()
+org.apache.avro.Schema.getValueType()
+org.apache.avro.Schema.isValidDefault(Schema, JsonNode)
+org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)
+org.apache.avro.Schema.Field.name()
+org.apache.avro.Schema.setFields(List)
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.Schema.getFields()
+org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)
+org.apache.avro.mapred.Pair.Pair(K, Schema, V, Schema)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.mapred.Pair.Pair(Double, Integer)
+org.apache.avro.Schema.Schema(Type)
+org.apache.avro.SchemaParseException.SchemaParseException(String)
+org.apache.avro.mapred.Pair.getPairSchema(Schema, Schema)
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)
+org.apache.avro.Schema.Name.Name(String, String)

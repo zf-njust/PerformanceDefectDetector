@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 1 0 1 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+org.apache.pdfbox.contentstream.operator.state.SetRenderingIntent.process(Operator, List)
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.setRenderingIntent(RenderingIntent)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent.fromString(String)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)

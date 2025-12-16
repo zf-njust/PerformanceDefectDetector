@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

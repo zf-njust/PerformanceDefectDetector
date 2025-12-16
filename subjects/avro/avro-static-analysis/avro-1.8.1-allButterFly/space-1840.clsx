@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.protobuf.ProtobufDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.encode(Encoder, Schema, JsonNode)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.ValidatingEncoder.writeEnum(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeFloat(float)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.io.Encoder.writeString(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

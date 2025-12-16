@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 1 0 1 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.cache.RepositoryCacheManager.saveResolvedRevision(ModuleRevisionId, String)
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()
+org.apache.ivy.plugins.resolver.ResolverSettings.getVersionMatcher()
+org.apache.ivy.plugins.resolver.AbstractResolver.saveModuleRevisionIfNeeded(DependencyDescriptor, ResolvedModuleRevision)
+org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()
+org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)
+org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

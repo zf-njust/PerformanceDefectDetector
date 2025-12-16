@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.parser.ParserSettings.substitute(String)
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.cache.ParserSettingsMonitor.hasChanged(ParserSettings)
+org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getFromCache(File, ParserSettings, boolean)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.CacheEntry.isStale(boolean, ParserSettings)
+org.apache.ivy.core.IvyContext.peekIvy()

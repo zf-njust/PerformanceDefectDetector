@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 
+0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.keySet()
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.cos.COSDictionary.containsKey(String)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()
+org.apache.pdfbox.pdmodel.PDResources.add(PDImageXObject)
+org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)
+org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)
+org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.examples.pdmodel.RubberStampWithImage.drawXObject(PDImageXObject, PDResources, OutputStream, float, float, float, float)
+org.apache.pdfbox.examples.pdmodel.RubberStampWithImage.appendRawCommands(OutputStream, String)
+org.apache.pdfbox.cos.COSDictionary.containsValue(Object)
+org.apache.pdfbox.cos.COSObject.getObject()

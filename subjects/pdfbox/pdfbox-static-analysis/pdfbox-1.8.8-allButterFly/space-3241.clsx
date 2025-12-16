@@ -1,0 +1,64 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.decryptDictionary(COSDictionary, long, long)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.decrypt(Object, long, long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.decryptStream(COSStream, long, long)" />
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.decryptArray(COSArray, long, long)" />
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.decryptString(COSString, long, long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSStream.createFilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSString.reset()" />
+<item name="org.apache.pdfbox.encryption.PDFEncryption.encryptData(long, long, byte[], InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.setKey(byte[])" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSStream.doEncode()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+<item name="org.apache.pdfbox.encryption.ARCFour.write(InputStream, OutputStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.fixByte(byte)" />
+<item name="org.apache.pdfbox.cos.COSStream.doEncode(COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte[], int, int, OutputStream)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.Filter.encode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte, OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+</group>
+</cluster>

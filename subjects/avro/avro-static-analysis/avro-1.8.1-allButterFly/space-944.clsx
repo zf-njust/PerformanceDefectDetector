@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalTypes.TimestampMillis.validate(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalType.validate(Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+</group>
+</group>
+</group>
+</cluster>

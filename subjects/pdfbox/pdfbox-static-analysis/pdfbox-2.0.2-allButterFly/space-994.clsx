@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.PreflightStreamEngine(PreflightContext, PDPage)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.PreflightContentStream.PreflightContentStream(PreflightContext, PDPage)" />
+<item name="org.apache.pdfbox.preflight.font.util.PreflightType3Stream.PreflightType3Stream(PreflightContext, PDPage, PDType3CharProc)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.StubOperator.StubOperator(String)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()" />
+</group>
+</group>
+</group>
+</cluster>

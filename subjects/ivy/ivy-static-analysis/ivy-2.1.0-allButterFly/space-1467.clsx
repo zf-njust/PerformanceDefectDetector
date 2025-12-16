@@ -1,0 +1,51 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultBranch(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.settingsStarted(String, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getHttp()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setValidate(boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setCheckUpToDate(boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultResolveMode(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCacheIvyPattern(String)" />
+<item name="org.apache.ivy.util.Message.deprecated(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCacheArtifactPattern(String)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setUseRemoteConfig(boolean)" />
+<item name="org.apache.ivy.util.url.URLHandler.setRequestMethod(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.deprecated(String)" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.core.cache.CacheUtil.checkCachePattern(String)" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.BasicURLHandler()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

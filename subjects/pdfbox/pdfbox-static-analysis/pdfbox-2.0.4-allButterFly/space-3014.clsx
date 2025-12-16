@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.appendObjectableKid(COSObjectable)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.appendKid(PDStructureElement)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.appendKid(PDMarkedContentReference)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.appendKid(PDObjectReference)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.setParent(PDStructureNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.appendKid(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

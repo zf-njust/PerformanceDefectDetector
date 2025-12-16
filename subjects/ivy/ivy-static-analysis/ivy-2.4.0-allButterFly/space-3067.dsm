@@ -1,0 +1,26 @@
+[Call]
+12
+0 1 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.resolver.AbstractResolver.getName()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.resolver.BasicResolver.reportFailure(Artifact)
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.core.IvyContext.peekIvy()

@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.writeColorSpace(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeObject(Object)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendCOSName(COSName)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromName(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.util.ImageParameters.getDictionary()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageData()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageParameters()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSString.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.exceptions.COSVisitorException.COSVisitorException(Exception)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.exceptions.WrappedException.WrappedException(Exception)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+</group>
+</cluster>

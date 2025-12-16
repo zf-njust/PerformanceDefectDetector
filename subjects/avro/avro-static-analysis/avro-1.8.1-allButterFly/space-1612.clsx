@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.TypeBuilder(Completion, NameContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.ArrayBuilder.items()" />
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.values()" />
+<item name="org.apache.avro.SchemaBuilder.builder(String)" />
+<item name="org.apache.avro.SchemaBuilder.builder()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.ArrayCompletion.ArrayCompletion(ArrayBuilder, Completion)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.namespace(String)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext()" />
+<item name="org.apache.avro.SchemaBuilder.MapCompletion.MapCompletion(MapBuilder, Completion)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.NestedCompletion.NestedCompletion(PropBuilder, Completion)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext(HashMap, String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.BaseTypeBuilder(Completion, NameContext)" />
+</group>
+</group>
+</group>
+</cluster>

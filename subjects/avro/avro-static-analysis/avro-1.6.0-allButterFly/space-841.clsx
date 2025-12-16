@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageTime(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.printBrief()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageBytes(List)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.trace.Util.printableBytes(long)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.getLongAverage(Collection)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.Util.printableTime(long)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.getTimingAverage(Collection)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceTiming.getTotalTime()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+[Call]
+8
+0 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 
+0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSName.writePDF(OutputStream)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.util.Hex.getHighNibble(byte)
+org.apache.pdfbox.pdmodel.PDPageContentStream.beginMarkedContentSequence(COSName, COSName)
+org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)
+org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)
+org.apache.pdfbox.util.Hex.getLowNibble(byte)
+org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(COSName)

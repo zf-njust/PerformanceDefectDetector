@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.HttpServer.start()
+org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, String, int)
+org.apache.avro.ipc.trace.TracePlugin.initializeClientServer()
+org.apache.avro.ipc.HttpServer.HttpServer(Responder, int)
+org.apache.avro.ipc.trace.SpanStorage.setMaxSpans(long)
+org.apache.avro.ipc.trace.TraceClientServlet.TraceClientServlet()
+org.apache.avro.ipc.ResponderServlet.ResponderServlet(Responder)
+org.apache.avro.ipc.trace.InMemorySpanStorage.InMemorySpanStorage()
+org.apache.avro.ipc.trace.TracePlugin.TracePlugin(TracePluginConfiguration)
+org.apache.avro.ipc.trace.FileSpanStorage.FileSpanStorage(boolean, TracePluginConfiguration)
+org.apache.avro.ipc.trace.TracePlugin.TraceResponder.TraceResponder(SpanStorage)
+org.apache.avro.ipc.trace.FileSpanStorage.DiskWriterThread.DiskWriterThread(BlockingQueue, TreeMap, boolean, int)

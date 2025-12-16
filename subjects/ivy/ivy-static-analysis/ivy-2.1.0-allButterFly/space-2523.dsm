@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+1 0 0 0 1 0 
+0 0 1 0 0 1 
+0 0 0 0 0 0 
+org.apache.ivy.plugins.repository.file.FileResource.FileResource(FileRepository, File)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.util.Checks.checkAbsolute(String, String)
+org.apache.ivy.plugins.repository.file.FileResource.clone(String)
+org.apache.ivy.plugins.repository.file.FileRepository.getFile(String)
+org.apache.ivy.util.FileUtil.resolveFile(File, String)

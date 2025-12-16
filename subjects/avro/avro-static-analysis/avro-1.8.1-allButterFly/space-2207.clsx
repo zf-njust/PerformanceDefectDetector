@@ -1,0 +1,61 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withKeyClass(Class)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withKeySchema(Schema)" />
+<item name="org.apache.avro.mapreduce.AvroSequenceFileOutputFormat.getRecordWriter(TaskAttemptContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withCompressionCodec(CompressionCodec)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withProgressable(Progressable)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withOutputPath(Path)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withCompressionType(CompressionType)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withConfiguration(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.createWriter(Writer.Options)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withValueClass(Class)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputKeySchema(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroSequenceFileOutputFormat.getOutputCompressionType(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withFileSystem(FileSystem)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputValueSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.withValueSchema(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfigurationWithAvroSerialization()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getProgressable()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getFileSystem()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getValueClass()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getBufferSizeBytes()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getCompressionCodec()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getBlockSizeBytes()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getReplicationFactor()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getOutputPath()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getKeyClass()" />
+<item name="org.apache.avro.Schema.parse(String)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getCompressionType()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getMetadataWithAvroSchemas()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfiguration()" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.SimpleFontValidator.SimpleFontValidator(PreflightContext, PDFont, T)
+org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()
+org.apache.pdfbox.preflight.font.Type1FontValidator.Type1FontValidator(PreflightContext, PDFont)
+org.apache.pdfbox.preflight.font.TrueTypeFontValidator.TrueTypeFontValidator(PreflightContext, PDFont)
+org.apache.pdfbox.preflight.font.container.TrueTypeContainer.TrueTypeContainer(PDFont)
+org.apache.pdfbox.preflight.PreflightContext.addFontContainer(COSBase, FontContainer)
+org.apache.pdfbox.preflight.font.container.Type1Container.Type1Container(PDFont)
+org.apache.pdfbox.preflight.font.container.FontContainer.FontContainer(PDFont)
+org.apache.pdfbox.preflight.font.FontValidator.FontValidator(PreflightContext, PDFont, T)
+org.apache.pdfbox.preflight.font.DescendantFontValidator.DescendantFontValidator(PreflightContext, PDFont, T)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

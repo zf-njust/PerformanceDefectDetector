@@ -1,0 +1,177 @@
+method1,method2,method_score1,method_score2
+"org.apache.ivy.util.Checks.checkNotNull(Object, String)","org.apache.ivy.util.Checks.checkNotNull(Object, String)",0.03233229114731535,0.01529261016726273
+"org.apache.ivy.util.Checks.checkAbsolute(String, String)","org.apache.ivy.util.Checks.checkAbsolute(String, String)",0.028292578098349012,0.025625672862165036
+"org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId, Filter)","org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId, Filter)",0.01212866914806755,0.008943425480716163
+org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent),org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent),0.007190019301363357,0.005828129789147765
+org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger),org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger),0.006437909593788217,0.0058278681541370034
+org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher),org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher),0.014860282719095971,0.011663617993863035
+org.apache.ivy.plugins.version.AbstractVersionMatcher.setSettings(IvySettings),org.apache.ivy.plugins.version.AbstractVersionMatcher.setSettings(IvySettings),0.005247724424908629,0.004260030953062665
+"org.apache.ivy.core.resolve.VisitNode.VisitNode(ResolveData, IvyNode, VisitNode, String, String, IvyNodeUsage)","org.apache.ivy.core.resolve.VisitNode.VisitNode(ResolveData, IvyNode, VisitNode, String, String, IvyNodeUsage)",0.025334962601650014,0.0203894965085193
+org.apache.ivy.util.Configurator.setFileResolver(FileResolver),org.apache.ivy.util.Configurator.setFileResolver(FileResolver),0.0053025884023502915,0.004263539238332502
+"org.apache.ivy.core.cache.ArtifactOrigin.ArtifactOrigin(Artifact, boolean, String)","org.apache.ivy.core.cache.ArtifactOrigin.ArtifactOrigin(Artifact, boolean, String)",0.018656026237421224,0.01321217150895506
+org.apache.ivy.plugins.version.ChainVersionMatcher.isDynamic(ModuleRevisionId),org.apache.ivy.plugins.version.ChainVersionMatcher.isDynamic(ModuleRevisionId),0.03482537538977617,0.02768120808905614
+"org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleDescriptor, ModuleRevisionId, ModuleRevisionId, boolean, boolean, boolean)","org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(ModuleDescriptor, ModuleRevisionId, ModuleRevisionId, boolean, boolean, boolean)",0.023809059160790208,0.02431466206311733
+"org.apache.ivy.plugins.version.ChainVersionMatcher.needModuleDescriptor(ModuleRevisionId, ModuleRevisionId)","org.apache.ivy.plugins.version.ChainVersionMatcher.needModuleDescriptor(ModuleRevisionId, ModuleRevisionId)",0.03714528562728968,0.029686253623191366
+"org.apache.ivy.plugins.version.ChainVersionMatcher.accept(ModuleRevisionId, ModuleRevisionId)","org.apache.ivy.plugins.version.ChainVersionMatcher.accept(ModuleRevisionId, ModuleRevisionId)",0.037149828106311775,0.029692855751086565
+"org.apache.ivy.plugins.version.ChainVersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)","org.apache.ivy.plugins.version.ChainVersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)",0.0372038518197217,0.02970373794638771
+"org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId, Filter)","org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId, Filter)",0.011024756257327786,0.008873872061607278
+"org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.DefaultDependencyArtifactDescriptor(DependencyDescriptor, String, String, String, URL, Map)","org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor.DefaultDependencyArtifactDescriptor(DependencyDescriptor, String, String, String, URL, Map)",0.02547071954388853,0.02088490855797512
+"org.apache.ivy.plugins.version.ChainVersionMatcher.compare(ModuleRevisionId, ModuleRevisionId, Comparator)","org.apache.ivy.plugins.version.ChainVersionMatcher.compare(ModuleRevisionId, ModuleRevisionId, Comparator)",0.04129733242005424,0.03295881819448245
+"org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)","org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)",0.008626259147324223,0.009009323071633654
+org.apache.ivy.util.Message.setDefaultLogger(MessageLogger),org.apache.ivy.util.Message.setDefaultLogger(MessageLogger),0.007477341875831627,0.007768562542538165
+"org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(DefaultDependencyDescriptor, ModuleRevisionId)","org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.DefaultDependencyDescriptor(DefaultDependencyDescriptor, ModuleRevisionId)",0.06472534303539668,0.053702544556225855
+"org.apache.ivy.util.Checks.checkAbsolute(File, String)","org.apache.ivy.util.Checks.checkAbsolute(File, String)",0.01616976018689462,0.014481273702599674
+"org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)","org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)",0.048262665588961584,0.031503564010294256
+org.apache.ivy.core.module.id.ModuleRules.ModuleRules(Map),org.apache.ivy.core.module.id.ModuleRules.ModuleRules(Map),0.005940140445684795,0.025239193120283474
+"org.apache.ivy.core.module.id.ModuleRules.getRules(Map, Filter)","org.apache.ivy.core.module.id.ModuleRules.getRules(Map, Filter)",0.052196245575638726,0.035251153252589436
+org.apache.ivy.ant.IvyAntVariableContainer.getVariable(String),org.apache.ivy.ant.IvyAntVariableContainer.getVariable(String),0.02092728040089407,0.016238443716570187
+org.apache.ivy.core.settings.IvySettings.getVariable(String),org.apache.ivy.core.settings.IvySettings.getVariable(String),0.015048653383013954,0.010762340092929954
+"org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)","org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)",0.11954050885102097,0.08240296947933679
+org.apache.ivy.core.settings.IvyVariableContainerImpl.getVariable(String),org.apache.ivy.core.settings.IvyVariableContainerImpl.getVariable(String),0.019738526415770605,0.01564526519962684
+"org.apache.ivy.core.IvyPatternHelper.substituteParams(String, IvyVariableContainer, Stack)","org.apache.ivy.core.IvyPatternHelper.substituteParams(String, IvyVariableContainer, Stack)",0.08079033965913295,0.06342143797492866
+"org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)","org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)",0.040392123160486834,0.01765068778556522
+org.apache.ivy.core.event.EventManager.removeIvyListener(IvyListener),org.apache.ivy.core.event.EventManager.removeIvyListener(IvyListener),0.03732802911277248,0.029330491973714318
+org.apache.ivy.core.report.ConfigurationResolveReport.getSearchedNodes(),org.apache.ivy.core.report.ConfigurationResolveReport.getSearchedNodes(),0.04166167279750838,0.029263312482081513
+org.apache.ivy.plugins.report.LogReportOutputter.output(ConfigurationResolveReport),org.apache.ivy.plugins.report.LogReportOutputter.output(ConfigurationResolveReport),0.029143221267927392,0.023825970324184712
+org.apache.ivy.core.report.ConfigurationResolveReport.filterOutMergedArtifacts(ArtifactDownloadReport[]),org.apache.ivy.core.report.ConfigurationResolveReport.filterOutMergedArtifacts(ArtifactDownloadReport[]),0.043251066662766985,0.03536583085719789
+org.apache.ivy.core.module.id.ModuleId.equals(Object),org.apache.ivy.core.module.id.ModuleId.equals(Object),0.03424492812878932,0.02224610050141315
+org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object),org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object),0.05631481938118659,0.04134034247432882
+"org.apache.ivy.core.resolve.ResolveEngine.computeConflicts(VisitNode, VisitNode, String, Collection, Collection)","org.apache.ivy.core.resolve.ResolveEngine.computeConflicts(VisitNode, VisitNode, String, Collection, Collection)",0.10165583021566617,0.09240443129194137
+org.apache.ivy.core.resolve.VisitNode.isCircular(),org.apache.ivy.core.resolve.VisitNode.isCircular(),0.05501417848407505,0.04330129719975476
+org.apache.ivy.core.resolve.VisitNode.gotoNode(IvyNode),org.apache.ivy.core.resolve.VisitNode.gotoNode(IvyNode),0.07098112866259106,0.056781472882383714
+org.apache.ivy.core.module.id.ArtifactId.equals(Object),org.apache.ivy.core.module.id.ArtifactId.equals(Object),0.01988662648723142,0.016023933466747683
+"org.apache.ivy.ant.IvyBuildList.processFilterNodeFromLeaf(ModuleDescriptor, Set, Map)","org.apache.ivy.ant.IvyBuildList.processFilterNodeFromLeaf(ModuleDescriptor, Set, Map)",0.06712674870263553,0.05369082786224967
+"org.apache.ivy.core.resolve.IvyNode.findPath(ModuleId, IvyNode, List)","org.apache.ivy.core.resolve.IvyNode.findPath(ModuleId, IvyNode, List)",0.043764289269625126,0.033502451324167834
+"org.apache.ivy.plugins.namespace.NameSpaceHelper.transform(ArtifactId, NamespaceTransformer)","org.apache.ivy.plugins.namespace.NameSpaceHelper.transform(ArtifactId, NamespaceTransformer)",0.02859905886255133,0.02289703732921629
+org.apache.ivy.plugins.resolver.AbstractResolver.validate(),org.apache.ivy.plugins.resolver.AbstractResolver.validate(),0.008023244313601718,0.006530122205227233
+org.apache.ivy.core.settings.IvySettings.validateAll(Collection),org.apache.ivy.core.settings.IvySettings.validateAll(Collection),0.03245286649926472,0.024812913485454516
+"org.apache.ivy.core.settings.XmlSettingsParser.versionMatchersStarted(String, Map)","org.apache.ivy.core.settings.XmlSettingsParser.versionMatchersStarted(String, Map)",0.014303748583319901,0.011375930027700822
+org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL),org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL),0.06872785071946567,0.06010344997970654
+"org.apache.ivy.core.settings.XmlSettingsParser.startElement(String, String, String, Attributes)","org.apache.ivy.core.settings.XmlSettingsParser.startElement(String, String, String, Attributes)",0.16692864984674524,0.13102318451554157
+org.apache.ivy.core.settings.XmlSettingsParser.includeStarted(Map),org.apache.ivy.core.settings.XmlSettingsParser.includeStarted(Map),0.07281085393939184,0.07652681549026873
+"org.apache.ivy.core.settings.XmlSettingsParser.parse(Configurator, URL)","org.apache.ivy.core.settings.XmlSettingsParser.parse(Configurator, URL)",0.008146838965862364,0.007892244982418325
+org.apache.ivy.util.Message.verbose(String),org.apache.ivy.util.Message.verbose(String),0.05290692610955164,0.0422362051483222
+"org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(VisitNode, String, boolean)","org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(VisitNode, String, boolean)",0.21454222852944096,0.17190313767448456
+"org.apache.ivy.core.resolve.ResolveEngine.resolve(ModuleDescriptor, ResolveOptions)","org.apache.ivy.core.resolve.ResolveEngine.resolve(ModuleDescriptor, ResolveOptions)",0.28630689041630353,0.307885443032117
+org.apache.ivy.plugins.resolver.AbstractResolver.dumpSettings(),org.apache.ivy.plugins.resolver.AbstractResolver.dumpSettings(),0.008282628725282345,0.0068281555506561715
+org.apache.ivy.core.settings.IvySettings.dumpSettings(),org.apache.ivy.core.settings.IvySettings.dumpSettings(),0.08205611748501652,0.06598570317160296
+org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir(),org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir(),0.02915847086781826,0.022774977767968815
+"org.apache.ivy.plugins.resolver.RepositoryResolver.get(Resource, File)","org.apache.ivy.plugins.resolver.RepositoryResolver.get(Resource, File)",0.024527732868126446,0.01959550056676881
+"org.apache.ivy.plugins.resolver.BasicResolver.parse(ResolvedResource, DependencyDescriptor, ResolveData)","org.apache.ivy.plugins.resolver.BasicResolver.parse(ResolvedResource, DependencyDescriptor, ResolveData)",0.10520515044412779,0.0877501991683409
+org.apache.ivy.plugins.resolver.BasicResolver.logIvyAttempt(String),org.apache.ivy.plugins.resolver.BasicResolver.logIvyAttempt(String),0.005719404714337244,0.004580110971431446
+"org.apache.ivy.plugins.resolver.BasicResolver.logArtifactAttempt(Artifact, String)","org.apache.ivy.plugins.resolver.BasicResolver.logArtifactAttempt(Artifact, String)",0.018799206545474623,0.015080803010987754
+org.apache.ivy.plugins.resolver.ChainResolver.dumpSettings(),org.apache.ivy.plugins.resolver.ChainResolver.dumpSettings(),0.03549452168619492,0.02893360845580292
+"org.apache.ivy.core.sort.ModuleInSort.checkLoop(ModuleInSort, CircularDependencyStrategy)","org.apache.ivy.core.sort.ModuleInSort.checkLoop(ModuleInSort, CircularDependencyStrategy)",0.04673420985586149,0.03653109848145053
+"org.apache.ivy.core.sort.SortEngine.sortNodes(Collection, SortOptions)","org.apache.ivy.core.sort.SortEngine.sortNodes(Collection<IvyNode>, SortOptions)",0.0848997368761171,0.06374686090631605
+org.apache.ivy.plugins.report.XmlReportParser.getArtifacts(),org.apache.ivy.plugins.report.XmlReportParser.getArtifacts(),0.008169935150452758,0.006219518375649932
+org.apache.ivy.plugins.report.XmlReportParser.getArtifactReports(),org.apache.ivy.plugins.report.XmlReportParser.getArtifactReports(),0.009297355452811077,0.007668301858536899
+org.apache.ivy.plugins.report.XmlReportParser.getRealDependencyRevisionIds(),org.apache.ivy.plugins.report.XmlReportParser.getRealDependencyRevisionIds(),0.008170294939299435,0.006790955599753009
+org.apache.ivy.plugins.report.XmlReportParser.getDependencyRevisionIds(),org.apache.ivy.plugins.report.XmlReportParser.getDependencyRevisionIds(),0.008170194839173842,0.006790969822664661
+org.apache.ivy.util.ChecksumHelper.byteArrayToHexString(byte[]),org.apache.ivy.util.ChecksumHelper.byteArrayToHexString(byte[]),0.03713699287326129,0.02910141932623867
+"org.apache.ivy.util.filter.FilterHelper.filter(Collection, Filter)","org.apache.ivy.util.filter.FilterHelper.filter(Collection, Filter)",0.04279651822855244,0.033790006718601204
+org.apache.ivy.core.resolve.IvyNode.getSelectedArtifacts(Filter),org.apache.ivy.core.resolve.IvyNode.getSelectedArtifacts(Filter),0.04818972585874757,0.03905591123398415
+"org.apache.ivy.util.url.HttpClientHandler.upload(File, URL, CopyProgressListener)","org.apache.ivy.util.url.HttpClientHandler.upload(File, URL, CopyProgressListener)",0.038464153058379004,0.022060582730649585
+"org.apache.ivy.plugins.resolver.IBiblioResolver.listResources(Repository, ModuleRevisionId, String, Artifact)","org.apache.ivy.plugins.resolver.IBiblioResolver.listResources(Repository, ModuleRevisionId, String, Artifact)",0.08756134726024029,0.08142671895756995
+"org.apache.ivy.plugins.parser.m2.PomReader.setProperty(String, String)","org.apache.ivy.plugins.parser.m2.PomReader.setProperty(String, String)",0.010646384971585952,0.008287154597440264
+"org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)","org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)",0.3597624875392621,0.36286653346980496
+"org.apache.ivy.plugins.repository.file.FileRepository.get(String, File)","org.apache.ivy.plugins.repository.file.FileRepository.get(String, File)",0.009503781217142444,0.008028842193021237
+"org.apache.ivy.plugins.repository.file.FileRepository.copy(File, File, boolean)","org.apache.ivy.plugins.repository.file.FileRepository.copy(File, File, boolean)",0.047891278333744375,0.03752391178710626
+"org.apache.ivy.util.FileUtil.copy(File, File, CopyProgressListener, boolean)","org.apache.ivy.util.FileUtil.copy(File, File, CopyProgressListener, boolean)",0.06554185345909035,0.041437868466819384
+"org.apache.ivy.util.FileUtil.copy(InputStream, File, CopyProgressListener)","org.apache.ivy.util.FileUtil.copy(InputStream, File, CopyProgressListener)",0.02088093047701874,0.025313634102488172
+"org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)","org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)",0.10637706794307876,0.005966306501972562
+org.apache.ivy.plugins.repository.RepositoryCopyProgressListener.end(CopyProgressEvent),org.apache.ivy.plugins.repository.RepositoryCopyProgressListener.end(CopyProgressEvent),0.006733221493775742,0.00553616559315576
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferCompleted(),org.apache.ivy.plugins.repository.AbstractRepository.fireTransferCompleted(),0.01621407965717526,0.01293400681064285
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent),org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent),0.03163469141505739,0.02415646262364918
+org.apache.ivy.core.event.EventManager.transferProgress(TransferEvent),org.apache.ivy.core.event.EventManager.transferProgress(TransferEvent),0.004883825185810489,0.003975524746195808
+org.apache.ivy.core.event.EventManager.fireIvyEvent(IvyEvent),org.apache.ivy.core.event.EventManager.fireIvyEvent(IvyEvent),0.03293726938167668,0.02461413381894499
+org.apache.ivy.core.event.FilteredIvyListener.progress(IvyEvent),org.apache.ivy.core.event.FilteredIvyListener.progress(IvyEvent),0.010252210959361832,0.007990913003848587
+org.apache.ivy.ant.AntBuildTrigger.progress(IvyEvent),org.apache.ivy.ant.AntBuildTrigger.progress(IvyEvent),0.11679751785564361,0.09026952533993199
+org.apache.ivy.ant.IvyTask.execute(),org.apache.ivy.ant.IvyTask.execute(),0.10684178763177957,0.09142123049584311
+org.apache.ivy.ant.IvyResolve.doExecute(),org.apache.ivy.ant.IvyResolve.doExecute(),0.2787571688029414,0.334578041863333
+"org.apache.ivy.Ivy.resolve(URL, ResolveOptions)","org.apache.ivy.Ivy.resolve(URL, ResolveOptions)",0.13749061119375755,0.06744379005457139
+"org.apache.ivy.core.resolve.ResolveEngine.resolve(URL, ResolveOptions)","org.apache.ivy.core.resolve.ResolveEngine.resolve(URL, ResolveOptions)",0.08631189547956342,0.07044104178194746
+"org.apache.ivy.core.resolve.ResolveEngine.getDependencies(ModuleDescriptor, ResolveOptions, ResolveReport)","org.apache.ivy.core.resolve.ResolveEngine.getDependencies(ModuleDescriptor, ResolveOptions, ResolveReport)",0.2908501610470123,0.23265785327089983
+"org.apache.ivy.core.resolve.VisitNode.loadData(String, boolean)","org.apache.ivy.core.resolve.VisitNode.loadData(String, boolean)",0.07169583699258175,0.05762151070641293
+"org.apache.ivy.core.resolve.IvyNode.loadData(String, IvyNode, String, String, boolean, IvyNodeUsage)","org.apache.ivy.core.resolve.IvyNode.loadData(String, IvyNode, String, String, boolean, IvyNodeUsage)",0.2894818384954294,0.23049262682695815
+"org.apache.ivy.plugins.resolver.BasicResolver.getDependency(DependencyDescriptor, ResolveData)","org.apache.ivy.plugins.resolver.BasicResolver.getDependency(DependencyDescriptor, ResolveData)",0.31882269626405946,0.2814416917276511
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.cacheModuleDescriptor(DependencyResolver, ResolvedResource, DependencyDescriptor, Artifact, ResourceDownloader, CacheMetadataOptions)","org.apache.ivy.core.cache.DefaultRepositoryCacheManager.cacheModuleDescriptor(DependencyResolver, ResolvedResource, DependencyDescriptor, Artifact, ResourceDownloader, CacheMetadataOptions)",0.278976379119022,0.26423779841443396
+"org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getStale(File, ParserSettings, boolean, ModuleDescriptorProvider)","org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getStale(File, ParserSettings, boolean, ModuleDescriptorProvider)",0.021355884195708733,0.017524860795571494
+"org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseDescriptor(ParserSettings, URL, boolean)","org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseDescriptor(ParserSettings, URL, boolean)",0.02437891613669628,0.024928421915901052
+"org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.addSourcesAndJavadocArtifactsIfPresent(PomModuleDescriptorBuilder, ParserSettings)","org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.addSourcesAndJavadocArtifactsIfPresent(PomModuleDescriptorBuilder, ParserSettings)",0.06596427278526774,0.06055952718087276
+org.apache.ivy.plugins.resolver.BasicResolver.locate(Artifact),org.apache.ivy.plugins.resolver.BasicResolver.locate(Artifact),0.034545562823060975,0.028753803282346484
+"org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef(Artifact, Date)","org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef(Artifact, Date)",0.05739793204882353,0.05679169869107212
+"org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findArtifactRef(Artifact, Date)","org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findArtifactRef(Artifact, Date)",0.02139908242501018,0.017455375282736798
+"org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findResourceUsingPatterns(ModuleRevisionId, List, Artifact, ResourceMDParser, Date)","org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findResourceUsingPatterns(ModuleRevisionId, List, Artifact, ResourceMDParser, Date)",0.08169688524761039,0.06686973510294576
+"org.apache.ivy.plugins.resolver.RepositoryResolver.findResourceUsingPattern(ModuleRevisionId, String, Artifact, ResourceMDParser, Date)","org.apache.ivy.plugins.resolver.RepositoryResolver.findResourceUsingPattern(ModuleRevisionId, String, Artifact, ResourceMDParser, Date)",0.12611420373851948,0.10102941720892773
+"org.apache.ivy.plugins.parser.m2.PomReader.PomReader(URL, Resource)","org.apache.ivy.plugins.parser.m2.PomReader.PomReader(URL, Resource)",0.05382394578503703,0.046129895855238204
+"org.apache.ivy.plugins.resolver.RepositoryResolver.findDynamicResourceUsingPattern(ResourceMDParser, ModuleRevisionId, String, Artifact, Date)","org.apache.ivy.plugins.resolver.RepositoryResolver.findDynamicResourceUsingPattern(ResourceMDParser, ModuleRevisionId, String, Artifact, Date)",0.03955107895204336,0.03099066020383541
+"org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findResource(ResolvedResource[], ResourceMDParser, ModuleRevisionId, Date)","org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findResource(ResolvedResource[], ResourceMDParser, ModuleRevisionId, Date)",0.1908244459049333,0.012870294346023766
+"org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseOtherPom(ParserSettings, ModuleRevisionId)","org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseOtherPom(ParserSettings, ModuleRevisionId)",0.03759532845888285,0.033432631661896334
+"org.apache.ivy.plugins.resolver.ChainResolver.getDependency(DependencyDescriptor, ResolveData)","org.apache.ivy.plugins.resolver.ChainResolver.getDependency(DependencyDescriptor, ResolveData)",0.1886943868790123,0.14274466786295945
+"org.apache.ivy.plugins.resolver.DualResolver.getDependency(DependencyDescriptor, ResolveData)","org.apache.ivy.plugins.resolver.DualResolver.getDependency(DependencyDescriptor, ResolveData)",0.0619887262283696,0.0466842406035183
+"org.apache.ivy.plugins.resolver.AbstractResolver.findModuleInCache(DependencyDescriptor, ResolveData, boolean)","org.apache.ivy.plugins.resolver.AbstractResolver.findModuleInCache(DependencyDescriptor, ResolveData, boolean)",0.02560182982010566,0.03709136625487992
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.findModuleInCache(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions, String)","org.apache.ivy.core.cache.DefaultRepositoryCacheManager.findModuleInCache(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions, String)",0.029878752275492897,0.0229611227667484
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.doFindModuleInCache(ModuleRevisionId, CacheMetadataOptions, String)","org.apache.ivy.core.cache.DefaultRepositoryCacheManager.doFindModuleInCache(ModuleRevisionId, CacheMetadataOptions, String)",0.15768319671779676,0.15297060299366042
+"org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.get(File, ParserSettings, boolean, ModuleDescriptorProvider)","org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.get(File, ParserSettings, boolean, ModuleDescriptorProvider)",0.020210283929941696,0.015035872740990693
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getDependencies(),org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getDependencies(),0.0063247580795700855,0.005232723158126262
+"org.apache.ivy.core.deliver.DeliverEngine.deliver(ModuleRevisionId, String, String, DeliverOptions)","org.apache.ivy.core.deliver.DeliverEngine.deliver(ModuleRevisionId, String, String, DeliverOptions)",0.22289377605139635,0.20301085039563488
+"org.apache.ivy.core.resolve.IvyNode.getDependencies(String, String, String)","org.apache.ivy.core.resolve.IvyNode.getDependencies(String, String, String)",0.09820225015643677,0.08376875126962724
+"org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencies(ModuleDescriptor, PrintWriter)","org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencies(ModuleDescriptor, PrintWriter)",0.19106796748751476,0.030536480100933003
+org.apache.ivy.core.sort.ModuleInSort.getDependencies(),org.apache.ivy.core.sort.ModuleInSort.getDependencies(),0.004609399231627696,0.003707262788216233
+"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.transformInstance(ModuleDescriptor, Namespace)","org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.transformInstance(ModuleDescriptor, Namespace)",0.15541594141411555,0.15205733092825618
+"org.apache.ivy.ant.IvyBuildList.processFilterNodeFromRoot(ModuleDescriptor, Set, Map)","org.apache.ivy.ant.IvyBuildList.processFilterNodeFromRoot(ModuleDescriptor, Set, Map)",0.04257668969896126,0.03300498113574207
+org.apache.ivy.core.repository.RepositoryManagementEngine.analyze(),org.apache.ivy.core.repository.RepositoryManagementEngine.analyze(),0.07002003818289163,0.05506624511001637
+"org.apache.ivy.plugins.repository.url.URLRepository.get(String, File)","org.apache.ivy.plugins.repository.url.URLRepository.get(String, File)",0.042064014782372365,0.06483665371005769
+"org.apache.ivy.util.FileUtil.copy(URL, File, CopyProgressListener)","org.apache.ivy.util.FileUtil.copy(URL, File, CopyProgressListener)",0.00895718112515793,0.020565256271485102
+"org.apache.ivy.util.url.URLHandlerDispatcher.download(URL, File, CopyProgressListener)","org.apache.ivy.util.url.URLHandlerDispatcher.download(URL, File, CopyProgressListener)",0.006504607553097916,0.005276579952710888
+"org.apache.ivy.util.url.BasicURLHandler.download(URL, File, CopyProgressListener)","org.apache.ivy.util.url.BasicURLHandler.download(URL, File, CopyProgressListener)",0.05892811583753017,0.06672734176687636
+"org.apache.ivy.Main.run(CommandLineParser, String[])","org.apache.ivy.Main.run(CommandLineParser, String[])",0.27411771417818936,0.26245183307120146
+org.apache.ivy.ant.IvyPublish.doExecute(),org.apache.ivy.ant.IvyPublish.doExecute(),0.2508836779258307,0.19992669479129394
+org.apache.ivy.ant.IvyTask.prepareTask(),org.apache.ivy.ant.IvyTask.prepareTask(),0.018982866899226018,0.016694131104258436
+org.apache.ivy.ant.IvyReport.doExecute(),org.apache.ivy.ant.IvyReport.doExecute(),0.14828626869510417,0.11167418236211421
+org.apache.ivy.ant.IvyRetrieve.doExecute(),org.apache.ivy.ant.IvyRetrieve.doExecute(),0.0712974375474087,0.12750042322653163
+org.apache.ivy.ant.IvyInstall.doExecute(),org.apache.ivy.ant.IvyInstall.doExecute(),0.11812798056097254,0.09527762334575046
+org.apache.ivy.ant.IvyArtifactProperty.doExecute(),org.apache.ivy.ant.IvyArtifactProperty.doExecute(),0.08345682506803226,0.0662800427805244
+org.apache.ivy.ant.IvyCachePath.doExecute(),org.apache.ivy.ant.IvyCachePath.doExecute(),0.06216661642057382,0.053137084798412906
+org.apache.ivy.ant.IvyBuildList.doExecute(),org.apache.ivy.ant.IvyBuildList.doExecute(),0.38375704874075595,0.3023596858059959
+org.apache.ivy.ant.IvyArtifactReport.doExecute(),org.apache.ivy.ant.IvyArtifactReport.doExecute(),0.12754040113903922,0.10488353170577008
+org.apache.ivy.ant.IvyTask.getIvyInstance(),org.apache.ivy.ant.IvyTask.getIvyInstance(),0.06736778435183378,0.05398740464719968
+org.apache.ivy.core.IvyContext.getContext(),org.apache.ivy.core.IvyContext.getContext(),0.09052315327086044,0.03784476472658926
+org.apache.ivy.core.event.IvyEvent.IvyEvent(String),org.apache.ivy.core.event.IvyEvent.IvyEvent(String),0.013929190794960335,0.011334280287122547
+org.apache.ivy.util.Message.getLogger(),org.apache.ivy.util.Message.getLogger(),0.03264389584385168,0.012181919284094034
+"org.apache.ivy.core.publish.PublishEngine.publish(Artifact, File, DependencyResolver, boolean)","org.apache.ivy.core.publish.PublishEngine.publish(Artifact, File, DependencyResolver, boolean)",0.027354019419631212,0.021687843158852298
+"org.apache.ivy.core.module.id.ModuleRevisionId.ModuleRevisionId(ModuleId, String, String, Map)","org.apache.ivy.core.module.id.ModuleRevisionId.ModuleRevisionId(ModuleId, String, String, Map)",0.04964715835339385,0.006489059483504452
+org.apache.ivy.core.module.status.StatusManager.getCurrent(),org.apache.ivy.core.module.status.StatusManager.getCurrent(),0.013981676334699334,0.014376571346387715
+org.apache.ivy.Ivy.pushContext(),org.apache.ivy.Ivy.pushContext(),0.03214511476098994,0.0251694075838995
+org.apache.ivy.core.IvyContext.pushNewCopyContext(),org.apache.ivy.core.IvyContext.pushNewCopyContext(),0.008341746327072963,0.006659024694643698
+org.apache.ivy.ant.IvyTask.finalizeTask(),org.apache.ivy.ant.IvyTask.finalizeTask(),0.01507257619522426,0.012066229921313482
+"org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.toIvyFile(InputStream, Resource, File, ModuleDescriptor)","org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.toIvyFile(InputStream, Resource, File, ModuleDescriptor)",0.059969809594713076,0.048847268571405277
+"org.apache.ivy.plugins.report.LogReportOutputter.output(ResolveReport, ResolutionCacheManager, ResolveOptions)","org.apache.ivy.plugins.report.LogReportOutputter.output(ResolveReport, ResolutionCacheManager, ResolveOptions)",0.30979605165096713,0.24235066460960616
+org.apache.ivy.core.resolve.ResolveEngine.checkInterrupted(),org.apache.ivy.core.resolve.ResolveEngine.checkInterrupted(),0.0065162084011232396,0.0051307466515288095
+org.apache.ivy.plugins.resolver.BasicResolver.logAttempt(String),org.apache.ivy.plugins.resolver.BasicResolver.logAttempt(String),0.017975441644075482,0.014053411138792002
+org.apache.ivy.plugins.resolver.AbstractResolver.checkInterrupted(),org.apache.ivy.plugins.resolver.AbstractResolver.checkInterrupted(),0.009026764343696139,0.008815247997718597
+"org.apache.ivy.core.retrieve.RetrieveEngine.retrieve(ModuleRevisionId, String, RetrieveOptions)","org.apache.ivy.core.retrieve.RetrieveEngine.retrieve(ModuleRevisionId, String, RetrieveOptions)",0.2498194497740094,0.010449935993736052
+org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.getCircularDependencyId(ModuleRevisionId[]),org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.getCircularDependencyId(ModuleRevisionId[]),0.01950853212683261,0.015731786674495474
+"org.apache.ivy.util.FileUtil.symlink(File, File, CopyProgressListener, boolean)","org.apache.ivy.util.FileUtil.symlink(File, File, CopyProgressListener, boolean)",0.11930200098502944,0.07997615296710138
+org.apache.ivy.ant.IvyCacheFileset.doExecute(),org.apache.ivy.ant.IvyCacheFileset.doExecute(),0.09892193608305823,0.0748423671578895
+org.apache.ivy.core.settings.XmlSettingsParser.anyConfiguratorStarted(String),org.apache.ivy.core.settings.XmlSettingsParser.anyConfiguratorStarted(String),0.007325269928440294,0.006050155355753825
+"org.apache.ivy.core.settings.XmlSettingsParser.cachesStarted(String, Map)","org.apache.ivy.core.settings.XmlSettingsParser.cachesStarted(String, Map)",0.07299937120996543,0.05997314667475879
+"org.apache.ivy.core.settings.XmlSettingsParser.settingsStarted(String, Map)","org.apache.ivy.core.settings.XmlSettingsParser.settingsStarted(String, Map)",0.13071458303004366,0.09963001576042994
+org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern(),org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern(),0.0176726196316021,0.015664926376058062
+org.apache.ivy.util.url.BasicURLHandler.disconnect(URLConnection),org.apache.ivy.util.url.BasicURLHandler.disconnect(URLConnection),0.030258606879873105,0.02720526893052425
+org.apache.ivy.util.url.BasicURLHandler.openStream(URL),org.apache.ivy.util.url.BasicURLHandler.openStream(URL),0.07176055153590898,0.05290651604435464
+"org.apache.ivy.util.url.BasicURLHandler.getURLInfo(URL, int)","org.apache.ivy.util.url.BasicURLHandler.getURLInfo(URL, int)",0.07429928361242216,0.07350779547991929
+"org.apache.ivy.util.url.BasicURLHandler.upload(File, URL, CopyProgressListener)","org.apache.ivy.util.url.BasicURLHandler.upload(File, URL, CopyProgressListener)",0.05976619744287032,0.04974544375980269
+org.apache.ivy.ant.IvyBuildNumber.doExecute(),org.apache.ivy.ant.IvyBuildNumber.doExecute(),0.08228572735065316,0.1533027724115734
+org.apache.ivy.plugins.repository.file.FileResource.getName(),org.apache.ivy.plugins.repository.file.FileResource.getName(),0.004541280153907297,0.003693531407097837
+org.apache.ivy.plugins.repository.TransferEvent.setResource(Resource),org.apache.ivy.plugins.repository.TransferEvent.setResource(Resource),0.007253722583909259,0.00584884523672454
+org.apache.ivy.plugins.repository.file.FileResource.toString(),org.apache.ivy.plugins.repository.file.FileResource.toString(),0.0037258656003755397,0.0031037183069908183
+"org.apache.ivy.plugins.resolver.BasicResolver.check(Resource, File, String)","org.apache.ivy.plugins.resolver.BasicResolver.check(Resource, File, String)",0.04156560897126209,0.039876743076246265
+"org.apache.ivy.plugins.repository.ResourceHelper.equals(Resource, File)","org.apache.ivy.plugins.repository.ResourceHelper.equals(Resource, File)",0.04451549796800168,0.03447495099540016
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.download(Artifact, ArtifactResourceResolver, ResourceDownloader, CacheDownloadOptions)","org.apache.ivy.core.cache.DefaultRepositoryCacheManager.download(Artifact, ArtifactResourceResolver, ResourceDownloader, CacheDownloadOptions)",0.1587015627276806,0.1401214380893756
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.accept(Resource),org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.accept(Resource),0.006715972784809331,0.005531170661427206
+"org.apache.ivy.plugins.resolver.util.ResolverHelper.findAll(Repository, ModuleRevisionId, String, Artifact)","org.apache.ivy.plugins.resolver.util.ResolverHelper.findAll(Repository, ModuleRevisionId, String, Artifact)",0.11109999407917279,0.08719178200916892
+org.apache.ivy.plugins.repository.file.FileResource.exists(),org.apache.ivy.plugins.repository.file.FileResource.exists(),0.0040849390750451724,0.0033954718018875717
+org.apache.ivy.plugins.resolver.RepositoryResolver.exist(String),org.apache.ivy.plugins.resolver.RepositoryResolver.exist(String),0.013623242476181838,0.012798679114531497
+org.apache.ivy.plugins.repository.url.URLResource.getName(),org.apache.ivy.plugins.repository.url.URLResource.getName(),0.004477604904923579,0.003693401369134334
+org.apache.ivy.plugins.repository.url.URLResource.toString(),org.apache.ivy.plugins.repository.url.URLResource.toString(),0.0037122782657202265,0.0031034765486515014

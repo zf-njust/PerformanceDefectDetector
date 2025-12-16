@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.constructAppearances()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.refreshAppearances(List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.applyChange()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.refreshAppearances()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getNeedAppearances()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getAcroForm()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getFieldTree()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree.PDFieldTree(PDAcroForm)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 0 0 0 1 0 1 1 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printDependencies(ModuleDescriptor, ConfigurationScopeMapping, PrintWriter)
+org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()
+org.apache.ivy.core.module.id.ModuleRevisionId.getName()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.util.StringUtils.join(Object[], String)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.write(ModuleDescriptor, String, ConfigurationScopeMapping, File)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.ConfigurationScopeMapping.getScope(String[])
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.ConfigurationScopeMapping.isOptional(String[])
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printModuleId(ModuleDescriptor, PrintWriter)
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.Ivy.getIvyVersion()
+org.apache.ivy.Ivy.getIvyHomeURL()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()
+org.apache.ivy.Ivy.getIvyDate()

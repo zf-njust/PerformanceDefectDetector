@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.font.util.PeekInputStream.peek()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.skipSingleBlankSeparator(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readLine(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.skipComments(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readToken(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.skipBlankSeparators(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readNameOrArgument(PeekInputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readNextCharacter(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.isNotBlankSperator(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.isBlankSperator(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readProcedure(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.convertListOfIntToByteArray(List)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.isNotBeginOfName(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readStringLiteral(PeekInputStream)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.isNotSeparator(int)" />
+<item name="org.apache.pdfbox.preflight.font.util.Type1Parser.readArray(PeekInputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.util.PeekInputStream.read()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

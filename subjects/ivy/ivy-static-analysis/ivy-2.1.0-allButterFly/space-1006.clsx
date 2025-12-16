@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.getResource(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.download.(Anon_4).resolve(Artifact)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getLocation()" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

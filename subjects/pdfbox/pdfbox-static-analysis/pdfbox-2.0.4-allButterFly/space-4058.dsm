@@ -1,0 +1,26 @@
+[Call]
+12
+0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.getAppearanceCharacteristics()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.PDAppearanceCharacteristicsDictionary(COSDictionary)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.resolveRotation(PDAnnotationWidget)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getRotation()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getCOSObject()
+org.apache.pdfbox.cos.COSObject.getObject()

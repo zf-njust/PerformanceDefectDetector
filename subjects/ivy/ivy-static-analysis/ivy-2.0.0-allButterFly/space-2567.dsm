@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 1 0 1 
+0 0 0 0 0 0 
+0 0 1 1 0 0 
+0 0 0 0 0 0 
+org.apache.ivy.util.filter.NotFilter.NotFilter(Filter)
+org.apache.ivy.util.filter.AndFilter.AndFilter(Filter, Filter)
+org.apache.ivy.core.event.IvyEventFilter.parseExpression(String)
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.core.event.IvyEventFilter.IvyEventFilter(String, String, PatternMatcher)
+org.apache.ivy.util.filter.OrFilter.OrFilter(Filter, Filter)

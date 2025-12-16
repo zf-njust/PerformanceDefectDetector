@@ -1,0 +1,66 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.sort.ModuleInSort.addToSortedListIfRequired(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.sort.ModuleDescriptorSorter.sortModuleDescriptorsHelp(ModuleInSort, ModuleInSort)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.sort.ModuleInSort.getDependencies()" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.toString()" />
+<item name="org.apache.ivy.core.sort.CollectionOfModulesToSort.getModuleDescriptorDependency(DependencyDescriptor)" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.checkLoop(ModuleInSort, CircularDependencyStrategy)" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.endOfCall()" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.isProcessed()" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.setCaller(ModuleInSort)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.sort.ModuleInSort.match(DependencyDescriptor, VersionMatcher)" />
+<item name="org.apache.ivy.core.sort.NonMatchingVersionReporter.reportNonMatchingVersion(DependencyDescriptor, ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.circular.CircularDependencyStrategy.handleCircularDependency(ModuleRevisionId[])" />
+<item name="org.apache.ivy.core.sort.ModuleInSort.getSortedModuleDescriptor()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.Ivy.getWorkingRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.sort.ModuleInSort.addToSortList(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.sort.ModuleInSort.isSorted()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

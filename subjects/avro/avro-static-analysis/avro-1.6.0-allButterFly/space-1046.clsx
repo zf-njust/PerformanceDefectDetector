@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.equalCachedHash(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.equals(Object)" />
+<item name="org.apache.avro.Schema.FixedSchema.equals(Object)" />
+<item name="org.apache.avro.Schema.ArraySchema.equals(Object)" />
+<item name="org.apache.avro.Schema.RecordSchema.equals(Object)" />
+<item name="org.apache.avro.Schema.UnionSchema.equals(Object)" />
+<item name="org.apache.avro.Schema.EnumSchema.equals(Object)" />
+<item name="org.apache.avro.Schema.MapSchema.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.NamedSchema.equalNames(NamedSchema)" />
+<item name="org.apache.avro.Schema.SeenPair.SeenPair(Object, Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Name.equals(Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

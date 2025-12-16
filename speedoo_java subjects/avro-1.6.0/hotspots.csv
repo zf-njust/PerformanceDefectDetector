@@ -1,0 +1,168 @@
+method,Time,Count
+org.apache.avro.io.BlockingBinaryEncoder.ensureBounds(int),382674,56
+"org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)",347107,315480725
+java.lang.Thread.sleep(long) Thread.java,208276,150
+java.lang.Thread.run(),116192,32
+org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int),110082,315480731
+org.apache.avro.specific.SpecificRecordBase.equals(Object),56229,12502606
+org.apache.avro.specific.SpecificRecordBase.compareTo(SpecificRecord),54121,12502601
+"org.apache.avro.generic.GenericData.compare(Object, Object, Schema)",50573,12502601
+"org.apache.avro.specific.SpecificData.compare(Object, Object, Schema, boolean)",47949,25050412
+"org.apache.avro.generic.GenericData.compare(Object, Object, Schema, boolean)",46577,25729582
+java.lang.ClassLoader.loadClass(String),35456,33959
+"org.apache.avro.TestSchema.check(String, boolean)",27612,24
+org.apache.avro.ipc.Transceiver.transceive(List),15103,4084
+org.apache.avro.io.parsing.SkipParser.skipTo(int),12289,11
+"sun.security.ssl.AppInputStream.read(byte[], int, int)",9788,4049
+org.apache.velocity.runtime.parser.Parser.Reference(),9784,90539
+org.apache.avro.RandomData$1.next(),9180,365000
+"org.apache.avro.RandomData.generate(Schema, Random, int)",8999,1096793
+"org.apache.avro.generic.GenericData.getField(Object, String, int)",8670,25651360
+org.apache.velocity.runtime.parser.ParserTokenManager.getNextToken(),8027,651088
+org.apache.avro.ipc.HttpTransceiver.readBuffers(),7898,2021
+org.mortbay.jetty.HttpParser.parseNext(),7689,3157
+org.codehaus.jackson.map.ObjectMapper.<init>(JsonFactory),7668,24
+java.util.ArrayList.iterator(),7558,13570364
+org.apache.avro.generic.GenericData$Fixed.compareTo(Object),6889,12507630
+org.apache.avro.Schema.<clinit>(),6863,28
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol),5779,11235279
+org.mortbay.jetty.bio.SocketConnector$Connection.fill(Buffer),5641,2025
+org.mortbay.io.bio.StreamEndPoint.fill(Buffer),5640,2025
+"org.mortbay.io.ByteArrayBuffer.readFrom(InputStream, int)",5638,2025
+"org.apache.avro.RandomData.randomUtf8(Random, int)",5629,365000
+org.apache.velocity.runtime.parser.Parser.jj_ntk(),5019,449068
+sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(),5004,1012
+sun.nio.ch.SocketChannelImpl.read(ByteBuffer),4797,10611
+org.apache.velocity.runtime.parser.Parser.Method(),4568,80760
+org.xerial.snappy.SnappyLoader.md5sum(InputStream),4353,4
+java.util.Random.nextInt(int),4292,7349538
+com.sun.tools.javac.api.JavacTaskImpl.call(),4204,5
+sun.net.www.protocol.http.HttpURLConnection.getOutputStream(),4115,2029
+"org.apache.velocity.runtime.parser.Parser.jj_save(int, int)",4023,420419
+java.security.DigestInputStream.read(),3971,2582532
+org.apache.avro.ipc.SocketTransceiver.readBuffers(),3777,2119
+org.apache.velocity.Template.initDocument(),3687,690
+"org.apache.velocity.runtime.parser.node.SimpleNode.init(InternalContextAdapter, Object)",3662,301860
+org.apache.avro.ipc.HttpTransceiver.writeBuffers(List),3631,2028
+org.apache.velocity.runtime.RuntimeInstance.requireInitialization(),3539,9028
+org.apache.avro.file.DataFileStream.next(Object),3378,222353
+"org.apache.avro.generic.GenericDatumReader.read(Object, Decoder)",3364,235090
+"org.apache.velocity.runtime.parser.node.ASTReference.init(InternalContextAdapter, Object)",3311,90540
+org.apache.avro.ipc.DatagramTransceiver.readBuffers(),3310,2025
+"java.lang.String.format(String, Object[])",3022,39690
+sun.nio.ch.SocketAdaptor.setTcpNoDelay(boolean),2864,70
+sun.nio.ch.DatagramChannelImpl.receive(ByteBuffer),2843,2025
+org.apache.velocity.runtime.parser.Parser.jj_scan_token(int),2752,1696436
+"org.apache.avro.generic.GenericDatumReader.read(Object, Schema, ResolvingDecoder)",2632,713113
+"org.apache.avro.io.TestResolvingIO.testOnce(String, String, String, String, TestValidatingIO$Encoding, int)",2623,8159
+org.apache.avro.file.DataFileWriter.writeBlock(),2560,9841
+org.apache.avro.file.DataFileWriter.append(Object),2513,246505
+org.apache.avro.file.DataFileStream$DataBlock.compressUsing(Codec),2434,11940
+"org.apache.avro.ipc.Requestor.request(String, Object)",2411,1051
+sun.net.www.protocol.http.HttpURLConnection.getInputStream(),2373,3083
+"org.apache.avro.generic.GenericDatumReader.readRecord(Object, Schema, ResolvingDecoder)",2320,224978
+java.net.URLClassLoader.getResourceAsStream(String),2213,2134
+org.apache.avro.Schema$Parser.parse(String),2200,19194
+org.apache.avro.ipc.SocketTransceiver.<init>(SocketChannel),1870,22
+org.apache.avro.Schema$Parser.parse(JsonParser),1858,19187
+"sun.security.ssl.AppOutputStream.write(byte[], int, int)",1756,4048
+org.apache.avro.mapred.TestAvroTextSort.testSort(),1691,1
+sun.security.ssl.SSLSocketImpl.startHandshake(),1690,2
+org.apache.avro.Schema.parse(String),1601,17699
+org.apache.avro.generic.GenericData$Record.equals(Object),1523,220406
+"org.apache.avro.ipc.Requestor.request(Requestor$Request, Callback)",1502,1045
+org.apache.hadoop.conf.Configuration.get(String),1480,203
+sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(),1323,1012
+"org.apache.avro.generic.GenericDatumWriter.write(Object, Encoder)",1209,146642
+org.apache.avro.TestProtocolReflectMeta.testStartServer(),1189,6
+"org.apache.avro.generic.GenericDatumWriter.write(Schema, Object, Encoder)",1175,441720
+"org.apache.avro.ipc.specific.SpecificRequestor.invoke(Object, Method, Object[])",1145,1017
+org.codehaus.jackson.map.ObjectMapper.readTree(JsonParser),1141,19198
+"org.apache.avro.generic.GenericDatumWriter.writeRecord(Schema, Object, Encoder)",1132,146638
+org.apache.avro.compiler.specific.SpecificCompiler.compile(Schema),1120,15
+org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer),1061,96
+org.apache.avro.TestNamespaceSpecific.testStartServer(),1030,2
+"org.apache.avro.ipc.HttpTransceiver.writeBuffers(List, OutputStream)",1028,2024
+org.apache.avro.generic.GenericData.<clinit>(),986,4
+"org.apache.avro.ipc.HttpTransceiver.writeLength(int, OutputStream)",980,7082
+"org.apache.avro.generic.GenericData$Record.put(String, Object)",975,731206
+"sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String)",944,13
+org.apache.avro.protobuf.TestProtobuf.testMessage(),942,1
+org.apache.avro.ipc.SaslSocketTransceiver.readBuffers(),910,11
+org.apache.avro.ipc.SaslSocketTransceiver.readFrameAndUnwrap(),910,30
+org.apache.avro.ipc.SaslSocketTransceiver.readFrame(),903,43
+"org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)",817,224947
+org.apache.avro.Schema$RecordSchema.getField(String),810,744237
+org.apache.avro.mapred.SequenceFileRecordReader_ESTest.test0(),793,1
+org.apache.avro.mapred.WordCountUtil.writeLinesBytesFile(),758,2
+org.codehaus.jackson.map.ObjectMapper.<clinit>(),748,24
+org.apache.avro.ipc.SaslSocketTransceiver.writeBuffers(List),747,10
+"org.apache.avro.Schema.parse(JsonNode, Schema$Names)",744,39563
+"org.apache.avro.ipc.SaslSocketTransceiver$SaslParticipant.wrap(byte[], int, int)",743,19
+"com.sun.security.sasl.digest.DigestMD5Base.wrap(byte[], int, int)",743,19
+org.apache.avro.generic.TestDeepCopy.testDeepCopy(),736,1
+"org.apache.avro.io.TestResolvingIO.check(Schema, Schema, byte[], String, Object[], TestValidatingIO$Encoding, int)",695,8351
+org.apache.avro.specific.TestSpecificData.testSpecificWithinGeneric(),684,1
+org.apache.avro.TestProtocolParsing.parseMessage(String),674,4
+"org.apache.avro.io.TestValidatingIO.make(Schema, String, Object[], TestValidatingIO$Encoding)",672,9311
+org.apache.avro.file.DataFileStream.initialize(InputStream),663,1482
+org.jboss.netty.bootstrap.ServerBootstrap.bind(SocketAddress),644,5
+org.slf4j.impl.SimpleLogger.info(String),640,4048
+org.apache.velocity.runtime.parser.Parser.Statement(),598,3711
+org.apache.avro.Protocol.<clinit>(),589,2
+org.apache.avro.ipc.stats.StatsServlet.writeStats(Writer),580,6
+java.util.ArrayList$Itr.next(),579,1592969
+java.io.PrintStream.println(String),578,15049
+"org.apache.avro.tool.RecodecTool.run(InputStream, PrintStream, PrintStream, List)",572,9
+"org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(ChannelHandlerContext, ChannelEvent)",556,2036
+org.apache.avro.ipc.DatagramTransceiver.writeBuffers(List),555,2024
+org.apache.avro.thrift.TestThrift.testStruct(),540,1
+org.apache.avro.generic.GenericDatumWriter.<init>(),538,5
+org.apache.avro.mojo.SchemaMojo_ESTest.test0(),537,1
+org.apache.avro.ipc.SocketTransceiver.writeBuffers(List),532,2025
+"java.io.FileOutputStream.<init>(File, boolean)",527,1096
+org.apache.avro.mapred.SequenceFileReader.<clinit>(),512,2
+java.lang.StringBuilder.append(String),506,397430
+sun.nio.ch.SocketChannelImpl.write(ByteBuffer),505,10104
+org.apache.avro.file.DataFileWriter.writeIfBlockFull(),497,146414
+"org.apache.avro.mojo.SchemaMojo.doCompile(String, File, File)",497,2
+org.apache.avro.Schema$Parser.parse(File),487,1
+org.apache.avro.tool.RecodecTool_ESTest.test3(),486,1
+"org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)",470,224959
+org.apache.avro.generic.GenericDatumReader.<init>(),458,4
+java.lang.Class.forName(String),433,202
+java.nio.ByteBuffer.allocate(int),396,132
+java.nio.channels.Selector.open(),357,2
+"org.apache.avro.ipc.NettyServer.<init>(Responder, InetSocketAddress, ChannelFactory)",349,4
+org.apache.avro.ipc.SocketTransceiver.writeLength(int),333,6063
+org.apache.avro.mapred.tether.TetherJob_ESTest.test2(),314,1
+org.apache.avro.mapred.tether.TetherJob.submitJob(JobConf),312,3
+org.apache.avro.TestProtocolSpecific.testRepeatedAccess(),302,1
+org.apache.avro.ipc.SocketServer.getTransceiver(SocketChannel),276,6
+org.apache.avro.TestProtocolGenericMeta.testStartServer(),240,7
+org.apache.avro.mapred.tether.TetherMapRunner_ESTest.test1(),227,1
+"org.apache.avro.specific.SpecificData.createSchema(Type, Map)",214,22
+"org.apache.avro.mapred.tether.TetheredProcess.<init>(JobConf, OutputCollector, Reporter)",195,1
+org.apache.avro.ipc.SaslSocketTransceiver.open(boolean),179,6
+"org.apache.avro.ipc.SaslSocketTransceiver.<init>(SocketAddress, SaslClient)",176,3
+org.apache.avro.protobuf.ProtobufData.getSchema(Class),174,3
+"java.net.URL.<init>(URL, String, URLStreamHandler)",160,4661
+org.apache.avro.ipc.SaslSocketTransceiver.readStatus(),159,11
+org.apache.velocity.runtime.RuntimeInstance.init(),158,88
+org.apache.avro.protobuf.Test$Foo.getDescriptor(),142,4
+org.apache.avro.protobuf.Test.<clinit>(),140,2
+org.apache.avro.Protocol.parse(JsonParser),136,10
+org.apache.avro.specific.SpecificData.getSchema(Type),130,12
+org.apache.avro.TestProtocolGeneric.testResponseChange(),116,1
+org.apache.avro.tool.RecodecTool_ESTest.test0(),92,1
+org.apache.avro.specific.SpecificData.getProtocol(Class),87,2
+org.apache.avro.Protocol.parse(String),83,5
+"org.apache.velocity.runtime.parser.node.SimpleNode.render(InternalContextAdapter, Writer)",78,5
+org.apache.avro.Schema.toString(boolean),68,2
+org.apache.avro.ipc.Responder.<init>(Protocol),65,3
+org.apache.avro.thrift.TestThrift.check(Test),64,2
+java.lang.String.charAt(int),64,260885
+java.io.File.exists(),56,1489
+"org.apache.avro.TestSchema.checkBinary(Schema, Object, DatumWriter, DatumReader, Object)",50,2
+"org.apache.avro.ipc.Responder.respond(List, Transceiver)",49,9
+"org.apache.avro.Schema$RecordSchema.fieldsToJson(Schema$Names, JsonGenerator)",43,30

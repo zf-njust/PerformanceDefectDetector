@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.Pair.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.generic.GenericData.toString(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericData.writeEscapedString(String, StringBuilder)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

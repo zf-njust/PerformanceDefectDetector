@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.Matrix.Matrix(float, float, float, float, float, float)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.checkArrayTypesClass(List, Class)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.contentstream.operator.state.Concatenate.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)
+org.apache.pdfbox.util.Matrix.concatenate(Matrix)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)
+org.apache.pdfbox.util.Matrix.Matrix()

@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 1 1 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.pdfbox.util.operator.SetTextRise.process(PDFOperator, List)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.text.PDTextState.setRise(float)
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getTextState()

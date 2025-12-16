@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.nullable()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.builder()" />
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.nullable()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.nullable()" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext()" />
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.TypeBuilder(Completion, NameContext)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.NullableCompletion.NullableCompletion(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.BaseTypeBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

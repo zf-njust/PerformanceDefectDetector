@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 
+org.apache.ivy.plugins.resolver.ChainResolver.getResolvers()
+org.apache.ivy.core.settings.IvySettings.addResolver(DependencyResolver)
+org.apache.ivy.plugins.resolver.DualResolver.getArtifactResolver()
+org.apache.ivy.plugins.resolver.DependencyResolver.getName()
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.resolver.DualResolver.getIvyResolver()
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.core.settings.IvySettings.init(Object)

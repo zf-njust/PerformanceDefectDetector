@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.setPack200(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.SiteHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.setDigestUri(URI)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.setUri(URI)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.setAssociateSitesURL(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.setMirrorsURL(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

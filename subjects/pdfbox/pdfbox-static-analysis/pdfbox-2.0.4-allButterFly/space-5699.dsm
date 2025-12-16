@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSInteger.longValue()
+org.apache.pdfbox.cos.COSArray.getInt(int, int)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdfparser.SequentialSource.isEOF()
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdfparser.PDFXrefStreamParser.parse()
+org.apache.pdfbox.cos.COSArray.iterator()
+org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)
+org.apache.pdfbox.cos.COSArray.getInt(int)
+org.apache.pdfbox.cos.COSInteger.intValue()
+org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)
+org.apache.pdfbox.pdfparser.SequentialSource.read(byte[])
+org.apache.pdfbox.cos.COSObjectKey.getNumber()
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSObject.getObject()

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getDeserializer(Class)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroValueDeserializer.AvroValueDeserializer(Schema, Schema, DatumReader)" />
+<item name="org.apache.avro.hadoop.io.AvroKeyDeserializer.AvroKeyDeserializer(Schema, Schema, DatumReader)" />
+<item name="org.apache.avro.generic.GenericData.createDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getKeyReaderSchema(Configuration)" />
+<item name="org.apache.avro.generic.GenericData.createDatumReader(Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getValueReaderSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getValueWriterSchema(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.hadoop.io.AvroDeserializer.AvroDeserializer(Schema, Schema, DatumReader)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+</group>
+</group>
+</cluster>

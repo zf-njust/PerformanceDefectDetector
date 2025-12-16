@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.COSFilterInputStream(byte[], int[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getContents(byte[])" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getDataToSign()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getSignedContent(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.toByteArray()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getByteRange()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getContents(COSFilterInputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read(byte[])" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.cos.COSString.parseHex(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.nextAvailable()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.inRange()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

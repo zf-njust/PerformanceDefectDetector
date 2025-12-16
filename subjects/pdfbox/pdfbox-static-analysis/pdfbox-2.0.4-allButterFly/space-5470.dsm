@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 1 0 1 
+1 0 0 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentClippingPath()
+org.apache.pdfbox.rendering.PageDrawer.beginText()
+org.apache.pdfbox.rendering.PageDrawer.setClip()
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.rendering.PageDrawer.beginTextClip()

@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getSignedContent(InputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.toByteArray()" />
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.COSFilterInputStream(InputStream, int[])" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getByteRange()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.read(byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.read()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.nextAvailable()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdfwriter.COSFilterInputStream.inRange()" />
+</group>
+</group>
+</group>
+</cluster>

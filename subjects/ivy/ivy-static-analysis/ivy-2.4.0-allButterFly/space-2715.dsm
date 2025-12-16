@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 1 0 0 1 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.MessageLoggerEngine.peekLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)
+org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext(IvyContext)
+org.apache.ivy.core.IvyContext.pushNewCopyContext()
+org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()
+org.apache.ivy.core.IvyContext.push(String, Object)
+org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)
+org.apache.ivy.core.IvyContext.setIvy(Ivy)
+org.apache.ivy.ant.IvyTask.prepareTask()
+org.apache.ivy.core.IvyContext.pushContext(IvyContext)
+org.apache.ivy.Ivy.getIvyVersion()
+org.apache.ivy.ant.IvyTask.getIvyInstance()

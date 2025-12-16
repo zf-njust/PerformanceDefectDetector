@@ -1,0 +1,10 @@
+[Call]
+4
+0 1 0 1 
+0 0 0 0 
+0 1 0 0 
+0 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAES256(InputStream, OutputStream, boolean)
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.prepareAESInitializationVector(boolean, byte[], InputStream, OutputStream)
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAESother(byte[], InputStream, OutputStream, boolean)
+org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)

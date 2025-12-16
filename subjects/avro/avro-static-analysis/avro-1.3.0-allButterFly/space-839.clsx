@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryDecoder.readFloat()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

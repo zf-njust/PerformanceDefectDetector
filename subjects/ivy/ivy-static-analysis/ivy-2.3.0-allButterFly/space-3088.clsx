@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendEscaped()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseParameterValue()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterValue()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendQuoted(boolean)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addDirective(String, String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addAttribute(String, String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.readNext()" />
+</group>
+</group>
+</group>
+</cluster>

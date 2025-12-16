@@ -1,0 +1,74 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.pagepane.PagePane.PagePane(PDDocument, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.showPage(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.pagepane.PagePane.getPanel()" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.getUnderneathObject(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getDict()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.replaceRightComponent(Component)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getPages()" />
+<item name="org.apache.pdfbox.debugger.pagepane.PagePane.initUI()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.indexOf(PDPage)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.changeZoomSelection(float)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.debugger.pagepane.PagePane.RenderWorker.RenderWorker(float, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.SearchContext.SearchContext(PDPage)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.getInstance()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.getPageZoomScale()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.findPage(SearchContext, COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.getKids(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.isPageTreeNode(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.SearchContext.visitPage(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenu()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.PDPageTree(COSDictionary, PDDocument)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.debugger.ui.MenuBase.setMenu(JMenu)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenuItem.ZoomMenuItem(String, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+</group>
+</cluster>

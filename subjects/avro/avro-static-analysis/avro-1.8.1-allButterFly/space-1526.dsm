@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.SaslSocketTransceiver.readFrame()
+org.apache.avro.ipc.Transceiver.unlockChannel()
+org.apache.avro.ipc.Transceiver.readBuffers()
+org.apache.avro.ipc.Transceiver.lockChannel()
+org.apache.avro.ipc.SaslSocketTransceiver.toString(ByteBuffer)
+org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)
+org.apache.avro.ipc.SaslSocketTransceiver.transceive(List)
+org.apache.avro.ipc.SaslSocketTransceiver.Status.values()
+org.apache.avro.ipc.Transceiver.transceive(List)
+org.apache.avro.ipc.SaslSocketTransceiver.readStatus()
+org.apache.avro.ipc.Transceiver.writeBuffers(List)

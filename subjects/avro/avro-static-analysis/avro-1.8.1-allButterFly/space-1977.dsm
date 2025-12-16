@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 1 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.avro.mapred.AvroJob.getInputSchema(Configuration)
+org.apache.trevni.avro.AvroColumnReader.Params.setSchema(Schema)
+org.apache.trevni.avro.HadoopInput.HadoopInput(Path, Configuration)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.trevni.avro.AvroTrevniInputFormat.getRecordReader(InputSplit, JobConf, Reporter)
+org.apache.avro.reflect.ReflectData.get()
+org.apache.avro.Schema.parse(String)
+org.apache.trevni.avro.AvroColumnReader.Params.setModel(GenericData)

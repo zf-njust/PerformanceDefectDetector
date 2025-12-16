@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)" />
+</group>
+</group>
+</group>
+</cluster>

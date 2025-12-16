@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.search.RevisionEntry.RevisionEntry(ModuleEntry, String)
+org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)
+org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()
+org.apache.ivy.core.search.ModuleEntry.getOrganisation()
+org.apache.ivy.plugins.resolver.IBiblioResolver.listRevisions(ModuleEntry)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)
+org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()
+org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)
+org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()
+org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()
+org.apache.ivy.core.search.OrganisationEntry.getOrganisation()
+org.apache.ivy.core.search.ModuleEntry.getModule()
+org.apache.ivy.plugins.resolver.BasicResolver.listRevisions(ModuleEntry)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)

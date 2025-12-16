@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+1 0 1 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 1 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.sort.CollectionOfModulesToSort.addToModulesByModuleId(ModuleDescriptor, ModuleInSort)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.sort.CollectionOfModulesToSort.CollectionOfModulesToSort(Collection, VersionMatcher, NonMatchingVersionReporter)
+org.apache.ivy.core.sort.ModuleDescriptorSorter.ModuleDescriptorSorter(Collection, VersionMatcher, NonMatchingVersionReporter, CircularDependencyStrategy)
+org.apache.ivy.core.sort.ModuleInSort.ModuleInSort(ModuleDescriptor)

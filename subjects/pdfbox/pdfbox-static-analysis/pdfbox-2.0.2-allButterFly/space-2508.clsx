@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, ScratchFile)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, ScratchFile)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String, ScratchFile)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.COSParser(RandomAccessRead)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)" />
+<item name="org.apache.pdfbox.pdfparser.RandomAccessSource.RandomAccessSource(RandomAccessRead)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType2.getN()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getV()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDictionary()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

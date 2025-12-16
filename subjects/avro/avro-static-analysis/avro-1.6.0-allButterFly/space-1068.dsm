@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 1 0 0 0 1 0 
+org.apache.avro.io.Decoder.readFixed(byte[])
+org.apache.avro.io.parsing.Parser.popSymbol()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.Schema.getFixedSize()
+org.apache.avro.io.Decoder.readFixed(byte[], int, int)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.ValidatingDecoder.checkFixed(int)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.generic.GenericData.createFixed(Object, Schema)
+org.apache.avro.io.ValidatingDecoder.readFixed(byte[], int, int)
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.generic.GenericFixed.bytes()
+org.apache.avro.generic.GenericDatumReader.readFixed(Object, Schema, Decoder)

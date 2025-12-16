@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.processingInstruction(String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.doProcessingInstruction(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

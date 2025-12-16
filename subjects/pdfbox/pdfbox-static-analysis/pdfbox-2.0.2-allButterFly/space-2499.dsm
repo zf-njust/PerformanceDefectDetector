@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()
+org.apache.pdfbox.io.RandomAccessRead.length()
+org.apache.pdfbox.pdfparser.COSParser.COSParser(RandomAccessRead)
+org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String, ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()
+org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()
+org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String)
+org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)
+org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()
+org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()
+org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()
+org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()
+org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)
+org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()
+org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)
+org.apache.pdfbox.pdfparser.RandomAccessSource.RandomAccessSource(RandomAccessRead)
+org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)
+org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)

@@ -1,0 +1,72 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.examples.pdmodel.CreateBlankPDF.create(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.pdmodel.CreateBlankPDF.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.examples.pdmodel.CreateBlankPDF.usage()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.addPage(PDPage)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setParent(PDPageNode)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setMediaBox(PDRectangle)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.updateCount()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.clearResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getKids()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.cos.COSDocument.setTrailer(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.io.SequentialRead.close()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setLong(COSName, long)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getAllKids(List, COSDictionary, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+</group>
+</cluster>

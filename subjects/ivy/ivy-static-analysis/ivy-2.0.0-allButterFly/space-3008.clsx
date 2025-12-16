@@ -1,0 +1,134 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyResolve.setFile(File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyPostResolveTask.ensureResolved(IvySettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isUseOrigin()" />
+<item name="org.apache.ivy.ant.IvyResolve.setResolveId(String)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getFile()" />
+<item name="org.apache.ivy.ant.IvyTask.getProperty(String, IvySettings, String)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isTransitive()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getResolveId()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getOrganisation()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getConfsToResolve(String, String)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.setupResolve(boolean, boolean)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getConf()" />
+<item name="org.apache.ivy.ant.IvyResolve.setConf(String)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isHaltonfailure()" />
+<item name="org.apache.ivy.ant.IvyResolve.setTransitive(boolean)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getModule()" />
+<item name="org.apache.ivy.util.StringUtils.join(Object[], String)" />
+<item name="org.apache.ivy.ant.IvyTask.execute()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getConfsToResolve(String, String, String, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.ant.IvyTask.getSettingsRef()" />
+<item name="org.apache.ivy.ant.IvyTask.getResolvedDescriptor(String, boolean)" />
+<item name="org.apache.ivy.ant.IvyTask.getResolvedDescriptor(String, String, boolean)" />
+<item name="org.apache.ivy.ant.IvyResolve.setKeep(boolean)" />
+<item name="org.apache.ivy.ant.IvyResolve.setLog(String)" />
+<item name="org.apache.ivy.ant.IvyTask.setValidate(boolean)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isKeep()" />
+<item name="org.apache.ivy.ant.IvyTask.splitConfs(String)" />
+<item name="org.apache.ivy.ant.IvyResolve.setRefresh(boolean)" />
+<item name="org.apache.ivy.ant.IvyResolve.setResolveMode(String)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isRefresh()" />
+<item name="org.apache.ivy.core.settings.IvySettings.substitute(String)" />
+<item name="org.apache.ivy.ant.IvyResolve.setHaltonfailure(boolean)" />
+<item name="org.apache.ivy.ant.IvyTask.prepareTask()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getConfsToResolve(ModuleDescriptor, String, String[])" />
+<item name="org.apache.ivy.ant.IvyTask.doExecute()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getResolveMode()" />
+<item name="org.apache.ivy.ant.IvyTask.getProperty(IvySettings, String)" />
+<item name="org.apache.ivy.ant.IvyTask.getResolvedConfigurations(String, String, boolean)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.ant.IvyTask.getSettings()" />
+<item name="org.apache.ivy.ant.IvyTask.setSettingsRef(Reference)" />
+<item name="org.apache.ivy.ant.IvyResolve.setUseOrigin(boolean)" />
+<item name="org.apache.ivy.ant.IvyTask.doValidate(IvySettings)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getLog()" />
+<item name="org.apache.ivy.ant.IvyTask.finalizeTask()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.popContext()" />
+<item name="org.apache.ivy.core.IvyContext.pushNewCopyContext()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.IvyContext.setIvy(Ivy)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)" />
+<item name="org.apache.ivy.Ivy.getSettings()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.ant.IvyTask.getIvyInstance()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isInline()" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getConfigurationResolveReportInCache(String, String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getDefaultResolveId(ModuleDescriptor)" />
+<item name="org.apache.ivy.ant.IvyTask.getReference(String, String, String, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getResolutionCacheManager()" />
+<item name="org.apache.ivy.core.IvyContext.pop(String, Object)" />
+<item name="org.apache.ivy.core.IvyContext.push(String, Object)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.doValidate()" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.DefaultResolutionCacheManager(File)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext(IvyContext)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultResolutionCacheBasedir()" />
+<item name="org.apache.ivy.core.IvyContext.pushContext(IvyContext)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.settings.IvySettings.init(Object)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getDefaultResolveId(ModuleId)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCache()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.FileUtil.normalize(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.util.FileUtil.dissect(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

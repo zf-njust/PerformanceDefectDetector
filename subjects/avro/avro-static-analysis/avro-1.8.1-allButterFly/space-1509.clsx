@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroSerialization.getSerializer(Class)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroJob.createDataModel(Configuration)" />
+<item name="org.apache.avro.generic.GenericData.createDatumWriter(Schema)" />
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.mapred.Pair.getKeySchema(Schema)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.AvroWrapperSerializer(DatumWriter)" />
+<item name="org.apache.avro.mapred.Pair.getValueSchema(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)" />
+<item name="org.apache.avro.mapred.AvroJob.newDataModelInstance(Class, Configuration)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.mapred.AvroJob.getDataModelClass(Configuration)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

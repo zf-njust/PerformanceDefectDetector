@@ -1,0 +1,68 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.updateParentOpenCount(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.closeNode()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.appendChild(PDOutlineItem)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.openNode()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.insertSiblingAfter(PDOutlineItem)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.setParent(PDOutlineNode)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getNextSibling()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.setLastChild(PDOutlineNode)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.setFirstChild(PDOutlineNode)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.isNodeOpen()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getLastChild()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.setPreviousSibling(PDOutlineNode)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getFirstChild()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.setNextSibling(PDOutlineNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getOpenCount()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.setOpenCount(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getParent()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.PDOutlineItem(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDDocumentOutline.PDDocumentOutline(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(String, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(String, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.PDOutlineNode(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

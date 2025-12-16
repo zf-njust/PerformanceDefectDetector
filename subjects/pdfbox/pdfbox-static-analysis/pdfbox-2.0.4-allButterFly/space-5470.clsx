@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.rendering.PageDrawer.beginTextClip()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.PageDrawer.beginText()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.rendering.PageDrawer.setClip()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,63 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getFont()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFont(FontFormat, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getCIDFont(String, PDFontDescriptor, PDCIDSystemInfo)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getProvider()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDFontMapping.CIDFontMapping(OpenTypeFont, FontBoxFont, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getSubstitutes(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFont(FontFormat, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFontMatches(PDFontDescriptor, PDCIDSystemInfo)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getFamilyKind()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanose.getPanose()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapping.FontMapping(T, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.setProvider(FontProvider)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.isCharSetMatch(PDCIDSystemInfo, FontInfo)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getFormat()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getPanose()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getWeightClass()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.FontMatch.FontMatch(FontInfo)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getWeight()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getWeightClassAsPanose()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontWeight()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getSerifStyle()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getPanose()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCIDSystemInfo()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.PDPanoseClassification(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.createFontInfoByName(List)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontProvider.getFontInfo()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanose.PDPanose(byte[])" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getPostScriptName()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.getPostScriptNames(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange1()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange2()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

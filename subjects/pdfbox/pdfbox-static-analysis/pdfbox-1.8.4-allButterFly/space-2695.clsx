@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.parseCOSName()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

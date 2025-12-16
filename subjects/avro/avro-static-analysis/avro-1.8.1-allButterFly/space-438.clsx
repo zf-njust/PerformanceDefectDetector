@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.GenericNestedFake.writeInternal(Encoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+</group>
+</group>
+</cluster>

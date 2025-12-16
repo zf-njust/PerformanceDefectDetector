@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.thrift.ThriftData.newRecord(Object, Schema)
+org.apache.avro.protobuf.ProtobufData.newRecord(Object, Schema)
+org.apache.avro.generic.GenericData.createEnum(String, Schema)
+org.apache.avro.thrift.ThriftDatumReader.createEnum(String, Schema)
+org.apache.avro.Schema.getNamespace()
+org.apache.avro.specific.SpecificData.getClassName(Schema)
+org.apache.avro.JsonProperties.getJsonProp(String)
+org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.protobuf.ProtobufDatumReader.createEnum(String, Schema)
+org.apache.avro.JsonProperties.getProp(String)
+org.apache.avro.generic.GenericData.EnumSymbol.EnumSymbol(Schema, String)
+org.apache.avro.generic.GenericDatumReader.createEnum(String, Schema)
+org.apache.avro.util.ClassUtils.forName(String)

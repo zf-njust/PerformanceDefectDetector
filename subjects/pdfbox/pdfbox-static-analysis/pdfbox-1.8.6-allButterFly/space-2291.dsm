@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+0 1 0 1 0 0 0 1 
+1 0 1 0 0 0 1 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)
+org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)
+org.apache.pdfbox.preflight.annotation.TrapNetAnnotationValidator.checkMandatoryFields()
+org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)
+org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)

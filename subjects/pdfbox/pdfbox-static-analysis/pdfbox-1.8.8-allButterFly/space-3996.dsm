@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 1 0 0 1 0 0 0 
+1 0 1 0 0 0 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canAssembleDocument()
+org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy.getPermissions()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canFillInForm()
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeRevisionNumber()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.hasAnyRevision3PermissionSet()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.isPermissionBitOn(int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canExtractForAccessibility()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canPrintDegraded()

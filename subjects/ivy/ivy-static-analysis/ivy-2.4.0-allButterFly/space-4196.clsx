@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyRevisionId()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyId()" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.evaluateCondition(String, DefaultDependencyDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.addError(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getAttribute(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttribute(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

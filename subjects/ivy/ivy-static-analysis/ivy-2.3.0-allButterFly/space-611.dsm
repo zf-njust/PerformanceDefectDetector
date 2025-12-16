@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 0 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.osgi.repo.AbstractFSManifestIterable.getInputStream(Object)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.repo.ManifestAndLocation.ManifestAndLocation(Manifest, URI)
+org.apache.ivy.osgi.repo.AbstractFSManifestIterable.FSManifestIterator.hasNext()
+org.apache.ivy.osgi.repo.AbstractFSManifestIterable.listDirs(Object)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.repo.AbstractFSManifestIterable.buildBundleURI(Object)
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.osgi.repo.AbstractFSManifestIterable.listBundleFiles(Object)
+org.apache.ivy.core.IvyContext.peekIvy()

@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.LZWFilter.calculateChunk(int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.LZWFilter.encode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.LZWFilter.doLZWDecode(InputStream, OutputStream, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.LZWFilter.findPatternCode(ArrayList, byte[])" />
+<item name="org.apache.pdfbox.filter.LZWFilter.createCodeTable()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

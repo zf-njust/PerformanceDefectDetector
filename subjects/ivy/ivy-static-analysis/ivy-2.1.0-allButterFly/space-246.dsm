@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 1 0 
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.exist(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.listTokenValues(String, String)
+org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.filterNames(Collection)
+org.apache.ivy.plugins.resolver.ResolverSettings.filterIgnore(Collection)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.core.IvyPatternHelper.getFirstToken(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.resolveTokenValues(String[], String, Map, boolean)

@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 1 0 
+1 0 0 1 
+0 0 0 0 
+0 0 0 0 
+org.apache.avro.ipc.trace.TraceNode.getProcessTime()
+org.apache.avro.ipc.trace.TraceNode.getProcessTimeString()
+org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)
+org.apache.avro.ipc.trace.Util.printableTime(long)

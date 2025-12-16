@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.getSpecialMeanings()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.addConfiguredSpecialMeaning(SpecialMeaning)" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.MridComparator.compare(Object, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.MridComparator.isNumber(String)" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.getValue()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.getName()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.validate()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.isUsedefaultspecialmeanings()" />
+</group>
+</group>
+</group>
+</cluster>

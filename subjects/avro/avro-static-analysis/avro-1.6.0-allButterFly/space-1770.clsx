@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ValidatingEncoder.ValidatingEncoder(Schema, Encoder)" />
+<item name="org.apache.avro.io.ValidatingDecoder.getSymbol(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.ValidatingEncoder.ValidatingEncoder(Symbol, Encoder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.root(Symbol...)" />
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.LitS.LitS(Schema)" />
+<item name="org.apache.avro.io.parsing.Symbol.seq(Symbol...)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.parsing.Symbol.alt(Symbol[], String[])" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.parsing.Symbol.repeat(Symbol, Symbol...)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.Sequence(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.Repeater(Symbol, Symbol...)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.makeProduction(Symbol[])" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+</group>
+</cluster>

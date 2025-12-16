@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.validateName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.isValidDefault(Schema, JsonNode)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

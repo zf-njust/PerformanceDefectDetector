@@ -1,0 +1,226 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.SimpleFont(PDSimpleFont)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingPaneController.FontEncodingPaneController(COSName, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getDescendantFont()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type0Font.Type0Font(PDCIDFontType2, PDFont)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getFont(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.getFont(COSObject)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type0Font.readCIDToGIDMap(PDCIDFontType2, PDFont)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDFont)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.PDTrueTypeFont(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDMMType1Font.PDMMType1Font(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.PDType3Font(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getBaseFont()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.PDType0Font(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.PDType1CFont(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontFactory.createDescendantFont(COSDictionary, PDType0Font)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont(COSDictionary)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.getFontMatrix()" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.PDFont(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getBaseFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapper.getFontBoxFont(String, PDFontDescriptor)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.getBaseFont()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapping.isFallback()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.getFontMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.readEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.readEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.repairLength1(byte[], int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapper.getTrueTypeFont(String, PDFontDescriptor)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.toByteArray()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMappers.instance()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontFile()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapping.getFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.readEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontFile3()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.fetchCMapUCS2()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.getBaseFont()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontFile2()" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.getName()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getSymbolicFlag()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.readCMap(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.CMapManager.getPredefinedCMap(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getInstance(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.DictionaryEncoding(COSDictionary, boolean, Encoding)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix(float, float, float, float, float, float)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getCIDSystemInfo()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getZapfDingbats()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1FontEmbedder.buildFontDescriptor(FontMetrics)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getSupplement()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.getAFM(String)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.DictionaryEncoding(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.PDFontDescriptor(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.readEncodingFromFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2.PDCIDFontType2(COSDictionary, PDType0Font)" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.getMappedFontName(String)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType0.PDCIDFontType0(COSDictionary, PDType0Font)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setXHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setDescent(float)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.PDCIDFont(COSDictionary, PDType0Font)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(BoundingBox)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.applyDifferences()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.PDFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapper.getCIDFont(String, PDFontDescriptor, PDCIDSystemInfo)" />
+<item name="org.apache.pdfbox.pdmodel.font.CMapManager.parseCMap(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setStemV(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setSymbolic(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.PDCIDSystemInfo(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setCharacterSet(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setAscent(float)" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getBaseFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setNonSymbolic(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType0.getFontMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontBoundingBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDFontMapping.getTrueTypeFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2.PDCIDFontType2(COSDictionary, PDType0Font, TrueTypeFont)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontFamily(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setAverageWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setItalicAngle(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDFontMapping.isCIDFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setCapHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setFloat(COSName, float)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.add(int, String)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.readWidths()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.readVerticalDisplacements()" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFlagBit(int, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2.readCIDToGIDMap()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.getBytes(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.containsChar(char)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFlags(int)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.util.Vector.Vector(float, float)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+</group>
+<group name="Layer-12">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.FontEncodingView(Object[][], Map, String[])" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getEncodingName(PDSimpleFont)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getGlyphs(PDSimpleFont)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.createView(JPanel, JTable)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getTable(Object[][], String[])" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getHeaderPanel(Map)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

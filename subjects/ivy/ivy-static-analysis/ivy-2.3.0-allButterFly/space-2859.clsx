@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.signer.SignatureGenerator.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.addSignatureGenerator(SignatureGenerator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.init(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

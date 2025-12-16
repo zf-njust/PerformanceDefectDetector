@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParserTester.assertDependencyArtifactIncludeRules(DependencyDescriptor, String[], String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getIncludeRules(String[])" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+</group>
+</cluster>

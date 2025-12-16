@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.version.ChainVersionMatcher.needModuleDescriptor(ModuleRevisionId, ModuleRevisionId)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.needModuleDescriptor(ModuleRevisionId, ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+</group>
+</group>
+</cluster>

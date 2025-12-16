@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.setUsepoms(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BintrayResolver.BintrayResolver()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.setUseMavenMetadata(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.setRoot(String)" />
+<item name="org.apache.ivy.plugins.resolver.BintrayResolver.updateName(String)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.setM2compatible(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.BintrayResolver.isEmpty(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setName(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setM2compatible(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.setName(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.setName(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+</group>
+</group>
+</group>
+</cluster>

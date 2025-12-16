@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.setFragment(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.PluginHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.setVersion(Version)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.setId(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.setFilter(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.setUnpack(boolean)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

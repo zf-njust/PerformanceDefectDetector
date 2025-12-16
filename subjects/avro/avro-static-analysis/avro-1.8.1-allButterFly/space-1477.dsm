@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 1 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.mapred.AvroOutputFormat.configureDataFileWriter(DataFileWriter, JobConf)
+org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)
+org.apache.avro.file.CodecFactory.createInstance()
+org.apache.avro.file.DataFileWriter.assertNotOpen()
+org.apache.avro.file.CodecFactory.fromString(String)
+org.apache.avro.hadoop.file.HadoopCodecFactory.getAvroCodecName(String)
+org.apache.avro.mapred.AvroOutputFormat.getCodecFactory(JobConf)
+org.apache.avro.file.CodecFactory.xzCodec(int)
+org.apache.avro.file.Codec.getName()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.file.CodecFactory.deflateCodec(int)
+org.apache.avro.hadoop.file.HadoopCodecFactory.fromHadoopString(String)
+org.apache.avro.file.DataFileWriter.setSyncInterval(int)

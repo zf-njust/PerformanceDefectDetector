@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.IntBuilder(Completion, NameContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.create(Completion, NameContext)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.PrimitiveBuilder.PrimitiveBuilder(Completion, NameContext, Schema.Type)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.getFullname(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

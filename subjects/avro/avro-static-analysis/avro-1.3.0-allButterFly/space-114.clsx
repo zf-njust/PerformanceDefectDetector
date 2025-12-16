@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.DatagramServer.main(String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.DatagramServer.DatagramServer(Responder, SocketAddress)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.DatagramTransceiver.DatagramTransceiver(DatagramChannel)" />
+</group>
+</group>
+</group>
+</cluster>

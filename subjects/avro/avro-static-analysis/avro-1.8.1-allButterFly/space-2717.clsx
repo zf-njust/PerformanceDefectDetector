@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.ByteBufferInputStream.read(byte[], int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.util.ByteBufferInputStream.readBuffer(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.ByteBufferInputStream.getBuffer()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 
+1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.printBrief()
+org.apache.avro.ipc.trace.Util.printableBytes(long)
+org.apache.avro.ipc.trace.TraceCollection.getLongAverage(Collection)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageTime(List)
+org.apache.avro.ipc.trace.TraceCollection.printRecurse(TraceNodeStats, int)
+org.apache.avro.ipc.trace.TraceCollection.TraceTiming.getTotalTime()
+org.apache.avro.ipc.trace.TraceCollection.getTimingAverage(Collection)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getAverageBytes(List)
+org.apache.avro.ipc.trace.Util.printableTime(long)

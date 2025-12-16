@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.hasRecursion(PreflightContext, Object, PreflightPath)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+</group>
+</group>
+</group>
+</cluster>

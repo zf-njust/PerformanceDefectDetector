@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.willBeSubset()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setFont(PDFont, float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.showText(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(PDFont)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getFontsToSubset()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.addToSubset(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(int)" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)" />
+<item name="org.apache.pdfbox.util.Hex.getBytes(byte)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

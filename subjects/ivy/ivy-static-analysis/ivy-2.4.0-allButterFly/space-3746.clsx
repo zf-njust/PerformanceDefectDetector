@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setWS(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.handleAttributes(Attributes)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.FeatureHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setURL(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setArch(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setImage(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.EclipseFeature(String, Version)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setOS(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setColocationAffinity(String)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setPlugin(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setProviderName(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setLabel(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setExclusive(boolean)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setType(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setNL(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setApplication(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setPatch(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.setPrimary(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

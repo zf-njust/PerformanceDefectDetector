@@ -1,0 +1,233 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getOpaqueImage()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getImage()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.ValidateXImage.validate(PDImageXObject, int, int, int, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getSuffix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getBitsPerComponent()" />
+<item name="org.apache.pdfbox.cos.COSStream.getLength()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getColorKeyMask()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getSoftMask()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getMask()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.isStencil()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.getHeight()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.applyMask(BufferedImage, BufferedImage, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.scaleImage(BufferedImage, int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.create(COSBase, PDResources)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.create(COSBase, PDResources, boolean)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDStream, PDResources, COSInputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.repair(PDStream, COSInputStream)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.getDecodeResult()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.PDCalRGB(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.create(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDPattern.PDPattern(PDResources)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.MissingResourceException.MissingResourceException(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDPattern.PDPattern(PDResources, PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDIndexed.PDIndexed(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getColorSpace(COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDLab.PDLab(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(PDStream, COSName)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getJPXColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDSeparation.PDSeparation(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalGray.PDCalGray(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.PDICCBased(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.hasColorSpace(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.PDDeviceN(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getColorSpace(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.loadICCProfile()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.getColorSpace(COSObject)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.create(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes.PDDeviceNAttributes(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.initColorConversionCache()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDIndexed.initRgbColorTable()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getParameters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(float[], PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.PDCIEDictionaryBasedColorSpace(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDIndexed.readColorTable()" />
+<item name="org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType4.PDFunctionType4(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.fillWhitepointCache(PDTristimulus)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.getRangeForComponent(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDIndexed.getHival()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes.getColorants()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType2.PDFunctionType2(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNProcess.getComponents()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.PDFunctionType0(COSBase)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getInitialColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.getAlternateColorSpace()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.isNChannel()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDIndexed.getLookupData()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType3.PDFunctionType3(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.is_sRGB(ICC_Profile)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNProcess.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes.getProcess()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.getWhitepoint()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getColorantNames()" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionTypeIdentity.PDFunctionTypeIdentity(COSBase)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.PDTristimulus(COSArray)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.parse(CharSequence)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.PDFunction(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.toByteArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNProcess.PDDeviceNProcess(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSDictionaryMap.COSDictionaryMap(Map, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getX()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getY()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getPDStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes.isNChannel()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getZ()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSNameCOSArrayToList(COSArray)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.getInstructionSequence()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.InstructionSequenceBuilder()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.parse(CharSequence, SyntaxHandler)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.Tokenizer(CharSequence, SyntaxHandler)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.tokenize()" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.scanToken()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.nextState()" />
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.scanWhitespace()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.hasMore()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.scanNewLine()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.scanComment()" />
+</group>
+<group name="Layer-12">
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler.newLine(CharSequence)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler.comment(CharSequence)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.currentChar()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler.whitespace(CharSequence)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.nextChar()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.Tokenizer.peek()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler.token(CharSequence)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getRGBImage(PDImage, COSArray)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.fromAny(PDImage, WritableRaster, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getDefaultDecode(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.getDecodeArray(PDImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from1Bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isEmpty()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getBitsPerComponent()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.from8bit(PDImage, WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getHeight()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.getDecode()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.isStencil()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.SampledImageReader.applyColorKeyMask(BufferedImage, BufferedImage)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImage.createInputStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGBImage(WritableRaster)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 1 0 0 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsStack()
+org.apache.pdfbox.util.operator.EndText.process(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.PDGraphicsState()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.Matrix.reset()
+org.apache.pdfbox.preflight.content.ContentStreamWrapper.resetEnginContext()
+org.apache.pdfbox.util.operator.SetMatrix.process(PDFOperator, List)
+org.apache.pdfbox.util.operator.BeginText.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.setTextLineMatrix(Matrix)
+org.apache.pdfbox.util.operator.MoveText.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.getTextLineMatrix()
+org.apache.pdfbox.util.PDFStreamEngine.setGraphicsState(PDGraphicsState)
+org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)
+org.apache.pdfbox.util.Matrix.multiply(Matrix)
+org.apache.pdfbox.util.Matrix.copy()
+org.apache.pdfbox.util.Matrix.clone()
+org.apache.pdfbox.util.Matrix.Matrix()
+org.apache.pdfbox.util.PDFStreamEngine.setTextMatrix(Matrix)
+org.apache.pdfbox.util.Matrix.setValue(int, int, float)

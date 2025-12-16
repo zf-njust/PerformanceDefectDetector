@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.matcher.AbstractPatternMatcher.AbstractPatternMatcher(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.matcher.ExactOrRegexpPatternMatcher.ExactOrRegexpPatternMatcher()" />
+<item name="org.apache.ivy.plugins.matcher.RegexpPatternMatcher.RegexpPatternMatcher()" />
+<item name="org.apache.ivy.plugins.matcher.GlobPatternMatcher.GlobPatternMatcher()" />
+<item name="org.apache.ivy.plugins.matcher.ExactPatternMatcher.ExactPatternMatcher()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

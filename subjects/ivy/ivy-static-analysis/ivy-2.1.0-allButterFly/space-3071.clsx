@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ModuleId.hashCode()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.hashCode()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.hashCode()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.hashCode()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.getConf()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.getModuleId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

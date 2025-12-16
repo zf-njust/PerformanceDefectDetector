@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyTask.cacheAttributeNotSupported()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyDeliver.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyRepositoryReport.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyResolve.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyPublish.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyReport.setCache(File)" />
+<item name="org.apache.ivy.ant.IvyInstall.setCache(File)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransceiver.NettyClientAvroHandler.messageReceived(ChannelHandlerContext, MessageEvent)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.getSerial()" />
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.getDatas()" />
+<item name="org.apache.avro.ipc.Callback.handleResult(T)" />
+</group>
+</group>
+</group>
+</cluster>

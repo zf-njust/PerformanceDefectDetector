@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 
+1 1 0 1 0 0 0 
+org.apache.avro.io.Encoder.writeFixed(ByteBuffer)
+org.apache.avro.io.Encoder.writeInt(int)
+org.apache.avro.mapred.tether.TetherData.buffer()
+org.apache.avro.io.BinaryEncoder.writeZero()
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.mapred.tether.TetherKeySerialization.TetherDataSerializer.serialize(TetherData)
+org.apache.avro.io.BinaryEncoder.writeBytes(ByteBuffer)

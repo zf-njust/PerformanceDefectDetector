@@ -1,0 +1,59 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.getDestination(String, Artifact, ModuleRevisionId)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getDestination(String, Artifact, ModuleRevisionId)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact)" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.supportTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.isTransactionStarted()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.checkSupportTransaction()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.unsupportedTransaction(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getArtifactPatterns()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

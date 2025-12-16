@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 
+0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.debugger.stringpane.StringPane.getTextString(COSString)
+org.apache.pdfbox.debugger.stringpane.StringPane.createTextView(COSString)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.util.Hex.getHighNibble(byte)
+org.apache.pdfbox.util.Hex.getString(byte[])
+org.apache.pdfbox.cos.COSString.toHexString()
+org.apache.pdfbox.util.Hex.getLowNibble(byte)

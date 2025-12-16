@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDDocument, BufferedImage, float)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.PDXObjectImage(PDStream, String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.createImageStream(PDDocument, BufferedImage, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSStream.createFilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.setPropertiesFromAWT(BufferedImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(PDStream)" />
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, OutputStream, int, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.extractAlphaImage(BufferedImage)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.createAlphaFromImage(BufferedImage, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setBitsPerComponent(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setColorSpace(PDColorSpace)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.setCompressionType(ImageWriteParam, BufferedImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setWidth(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setHeight(int)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getScratchFile()" />
+<item name="org.apache.pdfbox.util.ImageIOUtil.setDPI(IIOMetadata, int, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(RandomAccess)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.updateMetadata(IIOMetadata, BufferedImage, int)" />
+<item name="org.apache.pdfbox.util.JPEGUtil.updateMetadata(IIOMetadata, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createAsciiField(int, String, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createLongField(int, String, long)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.util.ImageIOUtil.getOrCreateChildNode(IIOMetadataNode, String)" />
+<item name="org.apache.pdfbox.util.MetaUtil.debugLogMetadata(IIOMetadata, String)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createRationalField(int, String, int, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createShortField(int, String, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

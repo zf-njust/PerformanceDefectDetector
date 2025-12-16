@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getSerializer(Class)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)" />
+<item name="org.apache.avro.generic.GenericData.createDatumWriter(Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerializer.AvroSerializer(Schema, DatumWriter)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getValueWriterSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+</group>
+</group>
+</cluster>

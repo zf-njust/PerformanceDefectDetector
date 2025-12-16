@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.font.container.TrueTypeContainer.extractGlyphWidth(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.container.TrueTypeContainer.getFontProgramWidth(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.container.TrueTypeContainer.extractGlyphID(int, CMAPEncodingEntry)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontEncoding()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

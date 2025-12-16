@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyData.PomDependencyData(Element)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyData.PomDependencyData(PomDependencyData)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getDependencies()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.PomDependencyMgtElement(Element)" />
+</group>
+</group>
+</group>
+</cluster>

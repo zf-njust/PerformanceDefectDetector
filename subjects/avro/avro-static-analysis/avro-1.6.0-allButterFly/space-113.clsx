@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.Server.close()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.RpcReceiveTool.run2(PrintStream)" />
+<item name="org.apache.avro.mapred.tether.TetheredProcess.close()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

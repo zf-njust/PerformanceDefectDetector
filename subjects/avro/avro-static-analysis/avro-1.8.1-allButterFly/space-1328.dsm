@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.generic.GenericData.setField(Object, String, int, Object)
+org.apache.avro.io.Perf.GenericStrings.genSourceData()
+org.apache.avro.io.Perf.newRandom()
+org.apache.avro.io.Decoder.readInt()
+org.apache.avro.generic.IndexedRecord.put(int, Object)
+org.apache.avro.io.Perf.generateGenericNested(Schema, int)
+org.apache.avro.io.Decoder.readDouble()
+org.apache.avro.io.Perf.GenericNestedFake.readInternal(Decoder)
+org.apache.avro.Schema.getFields()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.Perf.randomString(Random)

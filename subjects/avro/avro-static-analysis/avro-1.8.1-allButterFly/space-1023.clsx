@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.AsyncProcessor(I, Map)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.getProcessMap(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.zip.zip()" />
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.add.add()" />
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.ping.ping()" />
+</group>
+</group>
+</group>
+</cluster>

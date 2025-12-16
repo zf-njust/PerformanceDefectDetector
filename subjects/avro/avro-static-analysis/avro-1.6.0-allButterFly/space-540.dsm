@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 1 0 0 0 1 1 0 0 
+org.apache.avro.Schema.parse(File)
+org.apache.avro.GenerateBlockingData.writeBlock(Encoder, FileOutputStream)
+org.apache.avro.RandomData.RandomData(Schema, int, long)
+org.apache.avro.Schema.Parser.parse(File)
+org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)
+org.apache.avro.io.DatumWriter.setSchema(Schema)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()
+org.apache.avro.io.DatumWriter.write(D, Encoder)
+org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)
+org.apache.avro.generic.GenericData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.RandomData.RandomData(Schema, int)
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)
+org.apache.avro.GenerateBlockingData.main(String[])

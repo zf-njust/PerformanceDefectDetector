@@ -1,0 +1,80 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.BitFlagHelper.setFlag(COSDictionary, COSName, int, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setNoRotate(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setNoRotate(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.setRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setToggleNoView(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setToggleNoView(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setPrinted(boolean)" />
+<item name="org.apache.pdfbox.util.BitFlagHelper.setFlag(COSDictionary, String, int, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setInvisible(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setVRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setNoView(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setComb(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setNoZoom(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setHidden(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setFileSelect(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setFilterRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.setNoExport(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setPrinted(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setNoView(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setInvisible(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setLocked(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setPassword(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setDoNotSpellCheck(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.setReadonly(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setReasonRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.setBold(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setDoNotScroll(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setMultiline(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setLocked(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setReadOnly(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setNoZoom(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.setItalic(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setDigestMethodRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setAddRevInfoRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setLegalAttestationRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setSubFilterRequired(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setReadOnly(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setRichText(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioCollection.setRadiosInUnison(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setHidden(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.exists(Artifact)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.exists(Artifact)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef(Artifact, Date)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolvedResource.getResource()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.exists()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getUrl()" />
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.FileRepository()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.findArtifactRef(Artifact, Date)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.plugins.repository.file.FileResource.FileResource(FileRepository, File)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.logArtifactAttempt(Artifact, String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.core.IvyContext.set(String, Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+</group>
+</group>
+</group>
+</cluster>

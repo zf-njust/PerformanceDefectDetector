@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.rendering.PageDrawer.endText()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.PageDrawer.endTextClip()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.RenderingMode.isClip()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getRenderingMode()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.intersectClippingPath(Area)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+</group>
+</group>
+</group>
+</cluster>

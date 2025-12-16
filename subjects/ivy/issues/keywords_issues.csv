@@ -1,0 +1,2429 @@
+Project,Key,Summary,Issue Type,Status,Priority,Resolution,Assignee,Reporter,Creator,Created,Last Viewed,Updated,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Watchers,Images,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Sub-Tasks,Linked Issues,Environment,Description
+Ivy,IVY-93,Ability to specify a root module in buildlist to filter out unnecessary build files,Improvement,Closed,Major,Fixed,Xavier Hanin,Kristian Cibulskis,Kristian Cibulskis,10/19/2005 12:10,,1/21/2006 15:32,11/26/2006 7:03,1.2,1.3-RC1,Ant,17-Nov-06,0,0,,,,,,,,,"A discussion of this can be found at http://www.jayasoft.org/node/293
+
+Quoting the relevant section:
+
+We have the same problem here. Basically, we have a directory like:
+
+sandbox
+-> ComponentA
+-> ComponentB
+-> ComponentC
+-> etc.
+
+and components depend upon one another. Each component has an ivy file that defines it's dependencies. So say I have ComponentJ which depends upon H and C (and C depends upon A). What I have to do now is create a separate list of build.xml files for the buildlist target so that the build for ComponentJ only tries to order J, H, C and A. Otherwise I spend time building all the other components when they're not needed. Quite a pain because basically I'm re-resolving what Ivy already knows about about the transitive dependencies.
+
+What would be great is if I could pass in the entire set of build.xmls for all the components and then say, effectively, ""Order this list of build.xml files as if I was building ComponentK"". It would then order the entire list, and drop off all components (except the 'root' one) upon which no other component was depending.
+
+
+"
+Ivy,IVY-122,Delivering files to cache only.,New Feature,Open,Major,Unresolved,Unassigned,Matt Inger,Matt Inger,1/5/2006 14:54,,2/29/2008 11:45,,1.3-RC1,,Core,17-Nov-06,0,0,,,,,,,,,"Unless i'm missing somethign, there seems to be no standard way to deliver ivy files and artifacts to just the
+user's local cache. Instead, you have to setup the cache as a resolver, and publish to that resolver. This seems
+rather innefficient. It would be more helpful to have an ivy task to this directly:
+
+<ivy:cache .... />
+
+This task would basically just place all the artifacts and the ivy file in your cache.
+
+This is helpful when you start a project, or when a developer does not have write access to the
+master repository. Consider this setup:
+
+1. Master Repository is on Node A
+2. Developers resolve dependencies using an url resolver (http) for the master repository
+3. Automated build server publishes via a file-system resolver to the master repository
+4. File System on Node A is NOT exported, and is unavailable to developers
+
+What you'd expect (and what you can, in fact, do with maven 1 or 2) is that a developer would
+publish to the cache while doign development for several reasons:
+
+1. There is no version yet in the master repository
+2. The developer is working on multiple modules, and needs to publish a module to
+the cache so that another module can see those changes when it builds.
+
+Seems like it should be an easy thing to do (though I don't know the ivy code well),
+and would be very beneficial.
+
+PS: I'm stuck on the development version, because 1.2a doesn't even let you use
+the cache directory as the base of a resolver.
+
+I'm willing to volunteer to do this, if someone points me in the right direction.
+"
+Ivy,IVY-135,Duplicate dependencies drastically slows down resolve,Bug,Closed,Major,Fixed,Xavier Hanin,Matt Inger,Matt Inger,1/17/2006 15:02,,8/28/2006 18:31,11/26/2006 7:03,1.3-RC1,1.4-RC1,Core,17-Nov-06,0,0,,,,,,,,,"It seems that if i have duplicates of the same dependency, the resolve task drastically slows down.
+I'm seeing anywhere from a 1 - 10x slowdown.
+
+Basically, I have:
+
+Module A
+depends on jar X
+
+Module B
+depends on jar X
+depends on Module A
+
+
+If i take out the B dependency on X, then the speed dramatically increases.
+I'll work on an isolated test case, but it seems to me that duplicate dependencies shouldn't slow down
+the system like that.
+"
+Ivy,IVY-138,Improve artifact d/l time,Improvement,Closed,Minor,Fixed,Xavier Hanin,Bernard Niset,Bernard Niset,1/18/2006 9:06,,1/22/2006 18:35,11/26/2006 7:03,1.2,1.3-RC1,Core,17-Nov-06,0,0,,,,,,,,N/A,"I found that ivy download time was very long especially when downloading from maven. While investigating that, I noticed for each artifact download was done 3 times. I could see that by checking the logs from the download done from my thanks to the facts that some artifacts are downloaded from one of my servers. See the following logs to illustrate this:
+
+81.188.70.167 - - [17/Jan/2006:13:04:23 -0500] ""GET /ivy-repository/jetty/org.mortbay.jetty-5.1.8.jar HTTP/1.1"" 200 676610 ""-"" ""Java/1.5.0_06""
+81.188.70.167 - - [17/Jan/2006:13:04:23 -0500] ""GET /ivy-repository/jetty/org.mortbay.jetty-5.1.8.jar HTTP/1.1"" 200 676610 ""-"" ""Java/1.5.0_06""
+81.188.70.167 - - [17/Jan/2006:13:04:23 -0500] ""GET /ivy-repository/jetty/org.mortbay.jetty-5.1.8.jar HTTP/1.1"" 200 676610 ""-"" ""Java/1.5.0_06""
+
+I then investigated the ivy sources (v 1.2a) to find out that this is due to the way BasicURLHandler is implemented. Indeed, each artifact is downloaded using 3 different requests:
+* to check the artifact is existing
+* to find the artifact size
+* to do the actual download.
+
+Not very efficient is it?
+
+Using commons-http-client improves a little bit by reducing the requests to 1 HEAD and 2 GETs.
+
+I've verified that using commons-http-client and a little bit refactoring, it can be reduced to something more ideal: 1 HEAD, 1 GET.
+
+The problem comes from the way the URLHandler.isReachable is used by the URLResource class. When an artifact exists it uses URLConnection just to obtain its size. I modified isReachable to return the size of the artifact. The implementation of the HEAD method in commons-http-client can obtain the size without doing a real download.
+Now I have a more efficient usage of the server, this is shown in the following log:
+
+81.188.70.167 - - [17/Jan/2006:14:13:53 -0500] ""HEAD /ivy-repository/hessian/hessian-3.0.13.jar HTTP/1.1"" 200 - ""-"" ""Jakarta Commons-HttpClient/3.0""
+81.188.70.167 - - [17/Jan/2006:14:13:54 -0500] ""GET /ivy-repository/hessian/hessian-3.0.13.jar HTTP/1.1"" 200 187171 ""-"" ""Jakarta Commons-HttpClient/3.0""
+
+I will post a patch to this issue.
+"
+Ivy,IVY-139,possibility to configure ivy so that special revisions are not queried as fixed one at all,Improvement,Closed,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,1/18/2006 14:55,,1/23/2006 15:27,11/26/2006 7:03,,1.3-RC1,,17-Nov-06,0,0,,,,,,,,,"For the moment when ivy tries to solve a revision, it first attempts with the revision as if it is a fixed one, and then if this fails check if it's a dynamic one and try to resolve it.
+
+Users using a lot of dynamic revisions suffer from this behaviour.
+
+Having the possibility to configure ivy so that this check is not done would be a good performance improvement in this case."
+Ivy,IVY-141,install modules found in one resolver into another resolver,New Feature,Closed,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,1/19/2006 12:08,,1/23/2006 20:07,11/26/2006 7:04,,1.3-RC1,,17-Nov-06,0,0,,,,,,,,,"Some people only use private repositories to avoid public repositories problems (latency, maintenance, accuracy, ...). The problem is that maintaining such private repositories can be quite time consuming.
+
+The purpose of this feature request is to allow users to define an access to a public resolver, which is only used to download modules in a private repository. Then the modules in the private repository can be checked to see if they meet the private repository constraints, but the initial download is much easier."
+Ivy,IVY-161,"possibility to select the matcher to use when including/excluding artifacts, or defining conflict manager rules",Improvement,Closed,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,1/31/2006 17:47,,2/15/2006 10:18,11/26/2006 7:04,,1.3-RC2,,17-Nov-06,0,0,,,,,,,,,"In ivy file one can use patterns to include or exclude artifacts, and to define conflict manager rules. The problem is that the pattern is always considered as being either an exact pattern or a regexp (two are tested). This causes some problems:
+- impossible to convert the rules from one namespace to another one (a regexp is not convertible), whereas it's often only an exat pattern which is used
+- regexp are used even if not necessary, which can cause performance issue
+- regexp are quite difficult to write for some people, having a pluggable matcher concept would greatly help, especially if a more simple matcher was part of ivy distribution"
+Ivy,IVY-187,ivy resolve slowdown,Improvement,Closed,Major,Fixed,Xavier Hanin,Karl Baum,Karl Baum,3/7/2006 10:24,,8/28/2006 12:07,11/26/2006 7:04,1.3-RC2,1.4-RC1,,17-Nov-06,0,0,,,,,,,,all,"I've noticed a slowdown in the resolve task since I've upgraded to ivy 1.3 and used some of ivy's new features. 
+
+Please see: http://www.jayasoft.org/node/513
+
+thx
+
+-karl"
+Ivy,IVY-211,Use file-system repository directly without cache,Improvement,Closed,Major,Fixed,Xavier Hanin,easyproglife,easyproglife,4/8/2006 18:01,,9/17/2006 18:13,11/26/2006 7:04,1.3.1,1.4-RC1,"Ant, Core",17-Nov-06,0,0,,,,,,,,N/A,"Currently, all dependencies from all repositories are downloaded into cache first. Only then they are copied to lib directory or referenced by the ""cachepath"" or ""cachefilset"" Ant tasks.
+
+I thought it would be better to refer file-system's artifacts directly without first copying them into cache. It saves disk space and copy time. It also doing maintainance easier, since all artifacts are managed in a network shared directory. No per-user additional unnecessary cache need to be used and maintained.
+
+The alternative is to use a shared network cache to be shared among all users, but I am not sure this is a good design. Anyway, keeping it all simple is a well-known and proven design :-) so how about making it simple by not using a cache for file system repositories?"
+Ivy,IVY-247,report Ant-task doesn't process the reports in batch,Improvement,Closed,Major,Fixed,Maarten Coene,Maarten Coene,Maarten Coene,5/15/2006 11:54,,8/28/2006 14:26,11/26/2006 7:04,1.3.1,1.4-RC1,Ant,17-Nov-06,0,0,,,,,,,,,"When you generate for instance a html report (or a graphml report), a new XSLT processor is created for every file-transformation. If you have a lot of configurations, this means a lot of unnecessary creations of XSLT processors.
+
+I'll upload a patch (which also fixes issue IVY-246)"
+Ivy,IVY-262,"Maven2 POM support can find groupId from ""parent"" element",Bug,Closed,Major,Fixed,Xavier Hanin,Colin Sampaleanu,Colin Sampaleanu,7/1/2006 17:25,,9/4/2006 8:38,11/26/2006 7:05,1.3.1,1.4-RC1,,17-Nov-06,0,0,,,,,,,,,"I've been trying to use Maven2 format repositories out there, and finding that Ivy breaks when it encounters POMs like this one:
+http://mirrors.dotsrc.org/maven2/org/apache/directory/server/apacheds-core/1.0-RC3/apacheds-core-1.0-RC3.pom
+
+which have a <parent> element specifying the groupId, but there is no groupId, but no main groupId element. This would seem to be legal, since I've encountered a number of them.
+
+This is pretty nasty as it basically breaks the build, and there appears to be no way to get around it except possibly to put the files in some other repo without the POM.
+
+This also points out that it should be possibly to use a repo in M2 format without automatically pickingup POM files. The M2 format is somewhat attractive as it is more hierarchical, and perhaps mroe efficient, but more important there are lots of files out there now in repos in that format (primarilly the ibiblio one), but that doesn't necessarilly imply that the user of those files wants to automatically pick up the info from the POMs."
+Ivy,IVY-273,SSH Resolver added and aligned with SFTP resolver,New Feature,Closed,Major,Fixed,Xavier Hanin,Andreas Sahlbach,Andreas Sahlbach,8/19/2006 15:04,,9/10/2006 13:52,11/26/2006 7:05,1.4-RC1,1.4-RC1,Core,17-Nov-06,0,0,,,,,,,,,"Here are my changes to the existing code to add SSH support and align with the existing SFTP support. The files are based on svn revision 463.
+
+I've added several abstract base classes for ssh connection handling. I added SshCache support for SFTP and added support for handling URLs inside the patterns (as addition to normal paths). 
+
+Oh yeah, and I've also made a small fix in the SFTP repository to honor the overwrite flag (which was totally ignored before). Hope that was ok.
+
+I've also added support for public key files. They can only be set via attributes and not via url, but that should be ok, because the keyfiles are not host specific and the same key can be used on several hosts. I've also included your prompting mechanism, so also normal passwords can be used pretty conveniently (very nice work btw.). Passwords of key files will be prompted, too, btw. 
+
+I've only included javadoc (especially in the resolvers) for documentation, hope this is enough. I would tell the user to choose sftp over ssh, because as a connection oriented protocol it is faster. If sftp is not available or does not work, the fallback should be ssh (which is based on using scp btw.). 
+
+Ok, looking forward for the next version so I can use it. :-) 
+
+And thanks for Ivy in general! Great work!"
+Ivy,IVY-274,and documentation for all,Improvement,Closed,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,8/21/2006 12:10,,10/6/2006 15:19,11/26/2006 7:05,,1.4-RC1,,17-Nov-06,0,0,,,,,,,,,"Ivy documentation suffers from several points which may slow down ivy adoption:
+- the offline is very poor, only a single html page with links only to the online version
+- the web site serving the documentation is slow
+- updates can only be done online with appropriate privileges, which prevent some people to contribute more
+- since the best (the least worse) documentation is online, update with latest feature are only done just before the release, to avoid users to get lost with features not yet released
+
+The objectives of this improvement are thus:
+- to deliver an offline documentation almost as good as the online one (but without comments)
+- allow people to contribute to documentation through patches to an xml version of the doc
+- investigate a way to improve web site performances
+- investigate a way to host several versions of the documentation online"
+Ivy,IVY-285,add failureproperty parameter to the resolve task,Improvement,Closed,Minor,Fixed,Xavier Hanin,Gilles Scokart,Gilles Scokart,9/1/2006 18:20,,10/6/2006 15:19,11/26/2006 7:05,1.3.1,1.4-RC1,Ant,17-Nov-06,0,0,,,,,,,,,"When haltonfailure is set to false and there is an ivy failure, the resolve task should set a property with the name given as a parameter failureproperty. (similar to the junit task behavior).
+
+
+This would allow to trigger some specific ant scripts when some dependency are missing.
+
+For a concrete example of applicability, I have a big project with a lot of submodules. I want to speed up the build by retrieving all the external dependencies once (when the build is launched at the root level), and then switch in an offline mode to only use the cache and the locally build module.
+To do that, I have an ivy file at the root level containing each submodule as dependency. When performing an 'online"" resolve, the ivy files of the submodules are taken from our continuous build repository, and the external ivy/jar dependant of this sub-module are also placed in the cache.
+
+That works correctly, except if the continuous repository is empty (or down). In that case, I should not switch to an offline mode."
+Ivy,IVY-353,ivy:retrieve should be able to create symlinks,Wish,Resolved,Major,Fixed,Gilles Scokart,John Williams,John Williams,12/12/2006 3:38,,8/30/2007 20:45,6/8/2007 11:16,1.4.1,2.0.0-alpha-2,Core,,0,1,,,,,,,,Linux,"It would be helpful if the ""retrieve"" task had an option to create symlinks on systems that support them. The symlinks could point to either the cache or a local repository (is useOrigin=true).
+
+My company has a very long number of small projects, many of which depend on some fairly large artifacts, so copying everything would be too slow and use up too much disk space to be practical. (We work around this now by using the ""cachepath"" task for instead of retrieve.)"
+Ivy,IVY-354,add option to cache results of ivy:resolve,Wish,Open,Major,Unresolved,Unassigned,John Williams,John Williams,12/12/2006 3:50,,2/1/2007 15:55,,1.4.1,,Core,,1,0,,,,,,,,all,"Using ivy:cachepath is a nice alternative to ivy:retrieve, but doing a resolve on every build is too slow. If there were some way to cache the result of resolving it would make cachepath much more pleasant to use.
+
+I've been experimenting with a poor man's version of this by saving the classpaths in a properties file to avoid needing to use Ivy so much, but this solution seems clumsy because it requires many steps."
+Ivy,IVY-356,Resolve Slowness in 1.4.1,Improvement,Open,Major,Unresolved,Unassigned,David R Robison,David R Robison,12/15/2006 15:51,,12/15/2006 15:51,,1.4.1,,Ant,,1,1,,,,,,,,Windows XP Ant 1.6.5,"Copied from e-mail log:
+
+On 12/14/06, David R Robison <drrobison@openroadsconsulting.com> wrote:
+>
+> Is there any plans to fix this in the next release? It is really causing
+> problems with time required to compile our system. Thanks, David Robison
+
+
+JIRA is now migrated on ASF infrastructure, so you can use it to file an
+improvement issue. Then we'll see if somebody in the community provide a fix
+for it. I can't say if it'll be part of the next release or not, the plan
+for the next release is more focused on apache migration, code cleaning and
+additional testing for the moment.
+
+Xavier
+
+Xavier Hanin wrote:
+> > On 11/21/06, David R Robison <drrobison@openroadsconsulting.com> wrote:
+> >>
+> >> I'm attaching the log from the ""ant -d"". The following, from the log,
+> >> looks interesting:
+> >>
+> >> [ivy:retrieve] using default-chain to resolve [ xmlBlaster |
+> >> xmlBlaster | 1.4 ]
+> >> [ivy:retrieve] default-chain: no latest strategy defined: using default
+> >> [ivy:retrieve] orci: no namespace defined: using system
+> >> [ivy:retrieve] pre 1.3 ivy file: using exactOrRegexp as default matcher
+> >> [ivy:retrieve] found ivy file in cache for [ xmlBlaster |
+> xmlBlaster
+> >> | 1.4 ] (resolved by orci):
+> >>
+> >>
+> C:\Workspaces\DataGateway\DataGateway-VDOT-OnCall-Task36\ivy\ivy-cache\xmlBlaster\xmlBlaster\ivy-
+> >>
+> >> 1.4.xml
+> >> [ivy:retrieve] orci: found revision in cache: [ xmlBlaster |
+> >> xmlBlaster | 1.4 ] (resolved by orci): but it's a default one, maybe we
+> >> can find a better one
+> >> [ivy:retrieve] orci: no latest strategy defined: using default
+> >> [ivy:retrieve] trying
+> >>
+> >>
+> http://www.openroadsconsulting.com/maven/xmlBlaster/jars/xmlBlaster-1.4.jar
+> >>
+> >> [ivy:retrieve] orci: no ivy file found for [ xmlBlaster |
+> xmlBlaster
+> >> | 1.4 ]: using default data
+> >> [ivy:retrieve] tried no ivy pattern => no attempt to find
+> module
+> >> descriptor file for [ xmlBlaster | xmlBlaster | 1.4 ]
+> >> [ivy:retrieve] checking [ xmlBlaster | xmlBlaster | 1.4 ][default]
+> >> from orci against null
+> >> [ivy:retrieve] module revision kept as first found: [ xmlBlaster |
+> >> xmlBlaster | 1.4 ][default] from orci
+> >> [ivy:retrieve] ibiblio: no namespace defined: using system
+> >> [ivy:retrieve] pre 1.3 ivy file: using exactOrRegexp as default matcher
+> >> [ivy:retrieve] found ivy file in cache for [ xmlBlaster |
+> xmlBlaster
+> >> | 1.4 ] (resolved by orci):
+> >>
+> >>
+> C:\Workspaces\DataGateway\DataGateway-VDOT-OnCall-Task36\ivy\ivy-cache\xmlBlaster\xmlBlaster\ivy-
+> >>
+> >> 1.4.xml
+> >> [ivy:retrieve] found module in cache but with a different resolver:
+> >> discarding: [ xmlBlaster | xmlBlaster | 1.4 ]
+> >>
+> >>
+> >> It finds it in the cache but thinks there may be a better one so it
+> >> keeps looking. It eventually scans through all the configured
+> >> repositories and ends up using the one in the cache. Does anyone know
+> >> why it would not just use the one in the cache? Does this help any?
+> >
+> >
+> > OK, the problem is due to a modification in Ivy 1.4 which has a bad side
+> > effect in your case. When Ivy find a default module descriptor (i.e. a
+> > module descriptor generated because there is no ivy file for a
+> > module), then
+> > in a chain it checks if there is no other element in the chain with a
+> > real
+> > ivy file. This is the cause of your performance problem I think, so
+> > the only
+> > workaround I see is to add an ivy file even for simple modules with
+> > only one
+> > artifact. I'd also suggest submitting an improvement request in jira,
+> but
+> > jira is currently in read only mode until it is migrated to apache.
+> >
+> > Xavier
+> >
+> > Thanks, David
+> >>
+> >>
+> >
+>
+> -- 
+>
+> David R Robison
+> Open Roads Consulting, Inc.
+> 708 S. Battlefield Blvd., Chesapeake, VA 23322
+> phone: (757) 546-3401
+> e-mail: drrobison@openroadsconsulting.com
+> web: http://openroadsconsulting.com
+> blog: http://therobe.blogspot.com
+> book: http://www.xulonpress.com/bookstore/titles/1597816523.htm
+>
+>
+>
+>
+>
+
+"
+Ivy,IVY-378,Downloads from filesystem repositories are slow,Improvement,Open,Minor,Unresolved,Unassigned,John Williams,John Williams,1/8/2007 17:06,,1/9/2007 19:48,,1.4,,Core,,0,1,,,,,,,,Linux 2.6.11 (Fedora Core 4) i686 + NFS,"I've found that Ivy takes a long time to download files via NFS. In particular, I tried downloading a large jar file through Ivy and then copied the same file using 'cp'; Ivy took about twice as long as 'cp'."
+Ivy,IVY-393,"Add ""transtive"" attribute to <cachepath>, <cachefileset> and <retrieve>",New Feature,Open,Minor,Unresolved,Unassigned,John Williams,John Williams,1/16/2007 16:54,,1/16/2007 20:39,,1.4.1,,"Ant, Core",,0,1,,,,,,,,all,"It would be useful to have a ""transitive"" option similar, but not identical, to the ""transitive"" attribute of configurations. Why not identical? If there are two configurations that are identical except that one is transitive and the other is not, the two configurations can choose different revisions for some modules due to conflict resolution. (For instance, if my module depends on modA-1.0 and modB-1.0, and modB-1.0 depends on modA-1.1, the transitive config will use modA-1.1 and the other config will use modA-1.0.) The option for <cachepath>, etc. should exclude indirect dependencies without affecting which revision is used.
+
+My rationale for this feature is that I would really like to have two classpaths--one for compile time and the other for run time--that are identical except that the compile-time classpath would have only direct dependencies. I like having only direct dependencies at compile time because it ensures that all the direct dependencies are declared to Ivy, but the versions of all modules *must* be the same as the run-time classpath in order to avoid causing a lot of confusion. (A lesser reason for preferring a classpath with only direct dependencies is that javac is much faster with a small classpath.)"
+Ivy,IVY-401,Ivy silently does the wrong thing when /tmp is full.,Improvement,Open,Minor,Unresolved,Unassigned,John Williams,John Williams,1/30/2007 16:27,,1/31/2007 17:05,,1.4.1,,Core,,0,0,,,,,,,,Linux,"I ran into a case where Ivy was mysteriously failing to consider revision 1.0.9999-local of a module called lcc.util.nlp. Inspecting the logs revealed that the problem was a lack of disk space:
+
+WARN: problem while downloading ivy file: /home/smcdaniel/.ivy/local/lcc/lcc.util.nlp/1.0.9999-local/ivys/ivy.xml to /tmp/ivy50398xml: No space left on device
+
+Unfortunately this warning was buried in all the output that Ivy generates! This suggests two possible improvements to me: fail loudly when there is an error saving downloaded data (as opposed to reading the data from the repository), and avoid using /tmp at all for ivy.xml files. (I assume a temp dir is used to avoid having partial ivy.xml files in the file system, but that's not 100% reliable on systems where /tmp is on a different physical volume than ~/.ivy, and it seems unnecessary to use a file at all since ivy.xml files are never very large.)"
+Ivy,IVY-421,useOrigin information should be self-contained in the resolved data,Improvement,Open,Minor,Unresolved,Unassigned,Stephane Bailliez,Stephane Bailliez,3/7/2007 22:01,,3/7/2007 22:14,,1.4.1,,Ant,,0,0,,,,,,,IVY-366,,"When using the 'useOrigin' attribute to yes, this property must be repeated over all post-resolve tasks which is quite unnecessary and prevent a flexible use of Ivy.
+For example if we want to define a specific usage in a common build file, this information must be repeated over many tasks calls.
+
+All the information should be self-contained in the resolved data."
+Ivy,IVY-461,IvyPostResolve Task unnecessarily performs a resolve,Bug,Open,Minor,Unresolved,Unassigned,Maarten Coene,Maarten Coene,4/1/2007 21:23,,6/25/2008 9:56,,1.4.1,,Ant,,0,0,,,,,,,,,"If you call an IvyPostResolve Task more than once with different configurations, a resolve is performed from the second post-resolve task.
+
+For instance:
+<ivy:resolve conf=""compile"" />
+<ivy:post-resolve conf=""default"" /> --> triggers a resolve of the 'default' conf. OK!
+<ivy:post-resolve conf=""compile"" /> --> triggers a resolve of the 'compile' conf. NOK!
+"
+Ivy,IVY-466,Make IBiblio resolver compatible with maven proxy,Improvement,Resolved,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,4/6/2007 6:46,,1/9/2008 9:08,1/9/2008 9:08,,2.0.0-beta-2,,,0,0,,,,,,,,,"Maven proxy (http://maven-proxy.codehaus.org/) is a commonly used proxy for maven repositories, with which the Ivy IBiblio resolver is not compatible for the moment. Indeed, it seems that the AapacheURLLister used by Ivy is not able to list the revisions on the proxy. Using maven metadata files when available should both make this works and improve performance on maven repositories directly."
+Ivy,IVY-468,Add a mirror repository resolver,New Feature,Resolved,Major,Fixed,Nicolas Lalevée,Gilles Scokart,Gilles Scokart,4/10/2007 6:59,,9/4/2011 21:27,9/4/2011 21:27,,2.3.0-RC1,Core,,3,2,,,,,,,IVY-735,,"we should have a mirror resolver. It's a resolver containing a set of equivalent repository resolver.
+
+The maven settings contain such a thing. 
+I don't know the details but I think that they have a special feature attached to it: the unavailable mirrors are black listed when they didn't answer correctly.
+
+I guess we could also add some load balancing features to it in order to only use the fastest one.
+"
+Ivy,IVY-469,Parallelize artifact downloading,Improvement,Open,Major,Unresolved,Unassigned,Xavier Hanin,Xavier Hanin,4/10/2007 9:13,,3/21/2015 17:39,,,,Core,,2,1,,,,,,,,,"For the moment artifact downloading during dependencies resolution happens sequentially, each artifact being downloaded one after the other.
+
+It would be nice to improve Ivy resolve engine to be able to parallelize downloading to optimize performance, especially when using a set of repositories with heterogeneous performance.
+
+We should see how load balancing feature of IVY-468 could be leveraged by this new downloading strategy."
+Ivy,IVY-514,Redundant warnings for circular dependencies,Bug,Resolved,Minor,Fixed,Xavier Hanin,John Williams,John Williams,5/22/2007 19:14,,12/2/2007 22:27,12/2/2007 22:27,2.0.0-alpha-1,2.0.0-beta-1,Core,,0,1,,,,,,,IVY-653,,"Circular dependencies cause Ivy to print a very large number of redundant warnings. You can see this behavior in the file IVY-400-johnw.zip which I've attached to (surprise!) IVY-400. In that test case, a single circular dependency causes 4 warnings to be printed."
+Ivy,IVY-551,File buffer should be increased to 64KB,Improvement,Resolved,Major,Fixed,Xavier Hanin,Testo Nakada,Testo Nakada,6/30/2007 1:56,,7/9/2007 16:31,7/9/2007 15:07,2.0.0-alpha-1,2.0.0-alpha-2,Core,,0,0,,,,,,,,,File copy is slow because the buffer is too small. Increasing file buffer should alleviate the problem while NIO should be explored as well.
+Ivy,IVY-580,organization and module seem redundant in ivy.xml in ivyrep,Improvement,Resolved,Minor,Won't Fix,Unassigned,Ignacio Coloma,Ignacio Coloma,7/23/2007 13:23,,9/12/2007 11:52,9/12/2007 11:52,,,,,0,0,,,,,,,,,"When Ivy is searching for a module in ivyrep, it already knows about the organization and module of a given file. It seems redundant to add them in the ivy.xml file. If they were optional attributes, it would be easier to add new modules. 
+
+OTOH, adding a DTD/XML Schema would make it easier to browse than the docs."
+Ivy,IVY-596,HOWTO - Resolve dependencies on demand,New Feature,Resolved,Minor,Fixed,Unassigned,John Wu,John Wu,8/24/2007 18:01,,8/24/2007 18:09,8/24/2007 18:08,1.4.1,1.4.1,Documentation,,0,0,,,,,,,,"Windows XP, Ant 1.6.5","Scenario: To run task A, B, C, etc, only a common set of jars/zips (the set D) is needed; to run task X, a large number of jars/zips (the set Y) is needed. In most cases, task A, B, C, etc will be run. And in very rare cases, task X needs to be performed.
+
+Issue: We don't want ivy to resolve (and may retrieve) the jars/zips in set D and Y every time we run the ant task, due to the performance concern and our internal network latency.
+"
+Ivy,IVY-640,Network resolvers timeout property,New Feature,Open,Major,Unresolved,Unassigned,Pavel Krupets,Pavel Krupets,11/13/2007 18:50,,4/28/2016 11:57,,,,Ant,,4,4,,,,,,,IVY-735,,Would be nice to have network resolvers timeout property. For instance Maven2 sometimes gets way too slow and instead of waiting for some time I get timeout error!
+Ivy,IVY-654,Share cache with locking,New Feature,Resolved,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,11/30/2007 22:19,,2/20/2017 17:32,12/2/2007 16:29,,2.0.0-beta-1,Core,,0,3,,,,,,,IVY-399,,"Currently it isn't possible use the same cache from multiple processes. This is a problem in some situations, especially for build servers, which have to use one cache per process, defeating some of the purpose of the cache. Adding an option allowing to use cache locking to ensure the repository cache can be used by concurrent build would be a nice improvement.
+
+To avoid degrading performance of local builds where the cache is not shared, this should only be an option."
+Ivy,IVY-655,Ease performance auditing,Improvement,Resolved,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,12/3/2007 16:29,,12/5/2007 22:03,12/5/2007 22:03,,2.0.0-beta-1,,,0,0,,,,,,,,,"Ivy currently provides some performance metrics (size and time when downloading a file), but their location in the log make it difficult to use. On the other hand, the trigger mechanism can be used to track how things are performed, but is lacking basic performance information such as the download time. Improving the events triggered during the resolution process with more performance related metrics would help to investigate performance issues and improve Ivy setup."
+Ivy,IVY-694,cache dynamic revision resolution,New Feature,Resolved,Major,Fixed,Xavier Hanin,Xavier Hanin,Xavier Hanin,1/5/2008 16:52,,2/29/2008 11:04,2/29/2008 11:04,,2.0.0-beta-2,Core,,0,0,,,,,,,IVY-399,,"Currently when one use dynamic revision like latest.integration, the resolution of which revision this actually refer to is done at each resolve. When using a slow resolver, it can be very troublesome, especially for revisions which don't change very often (think about using a version range only for revision compatibility while using a latest-compatible conflict manager).
+
+Adding an option to cache the resolution of a dynamic revision would be nice. Obviously we'd need a way to setup for how long the cached resolved revision should be trusted (similar to a TTL in DNS system). A parameter to force the refresh of all cached dynamic revisions would also be a nice option to make sure one can always easily ask Ivy to make a full resolve without cleaning the cache.
+
+Being able to define TTL per revision or module revision would be nice too. This would allow people to setup fine grain TTL depending on how their repository change. An alternative to implementing this fine grain TTL settings in the cache would be to use the flexibility of resolvers settings. Indeed one could configure two resolvers differing only by how the TTL of their cache is setup. Then by setting one resolver for some kind of revision and the other one for the other could make the trick. The problem with that is that Ivy would see it as different resolvers, which could lead to problem if you configure one resolver for latest.integration and another one for 1.0, when latest.integration is resolved to 1.0, Ivy would think it uses two different resolvers for the same physical module revision, which is strongly discouraged in the module rule set documentation because we actually don't know how it works. Hence it seems that allowing fine grain TTL settings in the cache would be better than trying to leverage fine grain resolver settings."
+Ivy,IVY-735,Timeout should be able to be specified,Improvement,Open,Major,Unresolved,Maarten Coene,Testo Nakada,Testo Nakada,2/14/2008 15:28,,7/4/2017 7:37,,2.0.0-beta-1,,Core,,15,10,,,,,,,"IVY-640, IVY-468, CAMEL-11506",,"It's currently not possible to provide timeout for resolver. For example, yesterday ibiblio is really slow. I waited almost forever just to know that there is something wrong with ibiblio. It would be nice if I can specify timeout so that i can fail over to some other resolvers in my chain resolver."
+Ivy,IVY-743,Ivy reports a conflict when the same file is supposed to be retrieved at the same location twice (or more),Bug,Resolved,Major,Fixed,Xavier Hanin,Neil Lott,Neil Lott,2/23/2008 16:05,,3/10/2008 21:10,3/10/2008 21:10,2.0.0-beta-1,2.0-RC1,Core,,0,0,,,,,,,,Mac OSX,"On Thu, Feb 14, 2008 at 11:35 AM, Neil Lott <neilmatthewlott@yahoo.com>
+wrote:
+
+I have three configurations:
+
+interface, server, test
+server extends interface
+test extends server
+
+Here's my ivy.xml dependencies:
+
+<dependencies>
+<dependency org=""log4j"" name=""log4j"" rev=""1.2.8""
+conf=""interface->default""/>
+
+<dependency org=""jacorb"" name=""jacorb"" rev=""2.2.2""
+conf=""server->default""/>
+<dependency org=""jacorb"" name=""avalon-framework"" rev=""4.1.5""
+conf=""server->default""/>
+<dependency org=""jacorb"" name=""logkit"" rev=""1.2"" conf=""server-
+default""/>
+<dependency org=""jacorb"" name=""antlr"" rev=""2.7.2"" conf=""server-
+default""/>
+<dependency org=""concurrent"" name=""concurrent"" rev=""1.3.2""
+conf=""server->default""/>
+<dependency org=""joda-time"" name=""joda-time"" rev=""1.5""
+conf=""server->default""/>
+<dependency org=""jaxb"" name=""jaxb-xjc"" rev=""2.1.3_2007_4_13
+""
+conf=""server->default""/>
+<dependency org=""jaxb"" name=""jaxb-impl"" rev=""
+2.1.3_2007_4_13""
+conf=""server->default""/>
+<dependency org=""jaxb"" name=""jaxb-activation"" rev=""
+2.1.3_2007_4_13""
+conf=""server->default""/>
+<dependency org=""jaxb"" name=""jaxb-jsr173"" rev=""
+2.1.3_2007_4_13""
+conf=""server->default""/>
+<dependency org=""jaxb"" name=""jaxb-api"" rev=""2.1.3_2007_4_13
+""
+conf=""server->default""/>
+
+<dependency org=""twc"" name=""msa4j"" rev=""1.0"" conf=""server-
+default""/>
+<dependency org=""twc"" name=""isa"" rev=""1.4.4"" conf=""server-
+default""/>
+<dependency org=""testng"" name=""testng"" rev=""5.7"" conf=""test-
+default""/>
+</dependencies>
+
+
+Here's my output:
+
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jaxb-
+xjc-2.1.3_2007_4_13.jar in [server, test]: 2.1.3_2007_4_13 won
+[ivy:retrieve] removing conflict looser artifact: jaxb#jaxb-xjc;
+2.1.3_2007_4_13!jaxb-xjc.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/log4j-1.2.8.jar in
+[interface, server, test]: 1.2.8 won
+[ivy:retrieve] removing conflict looser artifact:
+log4j#log4j;1.2.8!
+log4j.jar
+[ivy:retrieve] removing conflict looser artifact:
+log4j#log4j;1.2.8!
+log4j.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/joda-time-1.5.jar in
+[server, test]: 1.5 won
+[ivy:retrieve] removing conflict looser artifact: joda-time#joda-
+time;1.5!joda-time.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/logkit-1.2.jar in
+[server, test]: 1.2 won
+[ivy:retrieve] removing conflict looser artifact:
+jacorb#logkit;1.2!
+logkit.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/antlr-2.7.2.jar in
+[server, test]: 2.7.2 won
+[ivy:retrieve] removing conflict looser artifact:
+jacorb#antlr;2.7.2!
+antlr.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jaxb-
+impl-2.1.3_2007_4_13.jar in [server, test]: 2.1.3_2007_4_13 won
+[ivy:retrieve] removing conflict looser artifact: jaxb#jaxb-impl;
+2.1.3_2007_4_13!jaxb-impl.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/avalon-
+framework-4.1.5.jar in [server, test]: 4.1.5 won
+[ivy:retrieve] removing conflict looser artifact: jacorb#avalon-
+framework;4.1.5!avalon-framework.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/isa-1.4.4.jar in
+[server, test]: 1.4.4 won
+[ivy:retrieve] removing conflict looser artifact: twc#isa;1.4.4!
+isa.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jaxb-
+jsr173-2.1.3_2007_4_13.jar in [server, test]: 2.1.3_2007_4_13 won
+[ivy:retrieve] removing conflict looser artifact: jaxb#jaxb-
+jsr173;2.1.3_2007_4_13!jaxb-jsr173.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jacorb-2.2.2.jar in
+[server, test]: 2.2.2 won
+[ivy:retrieve] removing conflict looser artifact: jacorb#jacorb;
+2.2.2!jacorb.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jaxb-
+api-2.1.3_2007_4_13.jar in [server, test]: 2.1.3_2007_4_13 won
+[ivy:retrieve] removing conflict looser artifact: jaxb#jaxb-api;
+2.1.3_2007_4_13!jaxb-api.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/msa4j-1.0.jar in
+[server, test]: 1.0 won
+[ivy:retrieve] removing conflict looser artifact: twc#msa4j;1.0!
+msa4j.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/concurrent-1.3.2.jar in
+[server, test]: 1.3.2 won
+[ivy:retrieve] removing conflict looser artifact:
+concurrent#concurrent;1.3.2!concurrent.jar
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/jaxb-
+activation-2.1.3_2007_4_13.jar in [server, test]: 2.1.3_2007_4_13 won
+
+So for example log4j is part of all three configurations so what's the
+conflict?
+
+[ivy:retrieve] conflict on /Users/neil/Business/SnowyRangeConsulting/
+projects/twc/depot/server/releases/main/ivylib/log4j-1.2.8.jar in
+[interface, server, test]: 1.2.8 won
+
+My main concern is slowing down the build with multiple modules having
+to resolve conflicts given my configurations.
+
+This conflict is only a retrieve time conflict: Ivy finds that several files
+need to be copied at the same location. But in your case it's actually the
+same file, so it shouldn't be considered as a conflict at all. Could you
+open a bug in JIRA? BTW, you can safely ignore these messages, Ivy ends up
+with copying the right file at the right place.
+
+Xavier
+
+
+
+
+Thanks,
+
+Neil
+
+
+
+
+-- 
+Xavier Hanin - Independent Java Consultant
+http://xhab.blogspot.com/
+http://ant.apache.org/ivy/
+http://www.xoocode.org/"
+Ivy,IVY-796,Ivy downloads all tasks in a resolve even if we are filtering on type.,Improvement,Open,Minor,Unresolved,Unassigned,Alexander Foreman,Alexander Foreman,4/16/2008 14:52,,4/16/2008 14:52,,2.0.0-beta-2,,Core,,1,0,,,,,,,,,"When trying to filter on type we grab everything first then filter for the classpath.
+
+This in my opinion has 2 problems.
+1. If we want to filter on type but download everything, we waste time downloading files that we do not want.
+2. If we have a situation where files are in different places on different architectures and only available in one place we can not write an ivy file which can say get everything that is a .so file on unix and .dll on windows.
+
+number 2. Maybe more specific to my infrastructure so not high priority.
+
+
+On Thu, Apr 3, 2008 at 11:58 AM, Foreman, Alex (IT) < Alexander.Foreman@morganstanley.com> wrote:
+
+> Thanks for the reply,
+>
+> ON further examination it is doing as you describe.
+>
+> 1. Search for all artifacts in conf.
+> 2. Download all artifacts in conf.
+> 3. Filter by type and place only those artifacts on the classpath.
+>
+> Can this be modified so we only download the artifacts that are filtered.
+> Or at least have a attribute to turn it on?
+>
+> I can see this functionality being more obvious:
+>
+> 1. Search for all artifacts in conf of type=""x(,y...)""
+> 2. Download only these artifacts Completely ignoring any of the wrong 
+> type.
+>
+> What do you guys think?
+
+I agree it would be nice to improve this, but we'd have to think about all the side effects, since a resolve can be reused, possibly with a different filter. Maybe dependency resolution and metadata collection should be fully done, and only artifacts download would be skipped. Then later if an artifact is missing Ivy could simply download it. Please open an issue in JIRA to ask for that.
+
+Xavier
+
+
+>
+> Alex Foreman
+> Morgan Stanley | Technology
+> 20 Cabot Square | Canary Wharf | Floor 06 London, E14 4QW
+> Phone: +44 20 7677-5732
+> Alexander.Foreman@morganstanley.com
+>
+> -----Original Message-----
+> From: Xavier Hanin [mailto:xavier.hanin@gmail.com]
+> Sent: 28 March 2008 14:29
+> To: ivy-user@ant.apache.org
+> Subject: Re: IvyDE Accepted Types
+>
+> On Fri, Mar 28, 2008 at 11:29 AM, Foreman, Alex (IT) < 
+> Alexander.Foreman@morganstanley.com> wrote:
+>
+> > I have set Accepted types to:
+> > jar, zip, dll
+> >
+> > Within IvyDE
+> >
+> > I have a ivyfile which defines a list of .so files and .dll files.
+> > All in the same configuration.
+> >
+> > I want to grab stuff by type only.
+> >
+> > When building on unix I want to say:
+> > Give me this module and all its artifacts that are .so types only
+> >
+> > Eg
+> > Artifact -> x.dll
+> > Artifact -> y.dll
+> > Artifact -> z.so
+> >
+> > Would return just z.so as type=""jar,so""
+> >
+> > This doesn't seem to work in unix either or from the dos shell.
+> > <ivy:cachepath pathid=""tests"" conf=""jni"" type=""so"" useOrigin=""true"" 
+> > /> Grabs everything in the configuration regardless of type.
+> >
+> > Is this a bug? Missing functionality? As according to this page:
+> > http://ant.apache.org/ivy/history/latest-milestone/use/cachepath.htm
+> > l
+> > This is what 'type' does.
+> >
+> > This is a major blocker for me. If I can say grab everything that 
+> > is of types x and y and ignore everything else then I have pretty 
+> > much solved my problems with getting JNIs working
+>
+>
+> It should work. But note that the filter is applied by cachepath only, 
+> not by the resolve. So Ivy will actually download all artifacts, but 
+> only so should be in your path 'tests' after the call to cachepath. If 
+> it doesn't work like that, you can open an issue, describing precisely 
+> how you call cachepath, what is your ivy file for the dependency, and 
+> what you get in your path.
+>
+> Xavier
+>
+> > without hassle.
+> >
+> >
+> > Many thanks for your help,
+> >
+> > Alex Foreman
+> > Morgan Stanley | Technology
+> > 20 Cabot Square | Canary Wharf | Floor 06 London, E14 4QW
+> > Phone: +44 20 7677-5732
+> > Alexander.Foreman@morganstanley.com
+> > --------------------------------------------------------
+> >
+> > NOTICE: If received in error, please destroy and notify sender. 
+> > Sender does not intend to waive confidentiality or privilege. Use of 
+> > this email is prohibited when received in error.
+> >
+>
+>
+>
+> --
+> Xavier Hanin - Independent Java Consultant http://xhab.blogspot.com/ 
+> http://ant.apache.org/ivy/ http://www.xoocode.org/
+> --------------------------------------------------------
+>
+> NOTICE: If received in error, please destroy and notify sender. Sender 
+> does not intend to waive confidentiality or privilege. Use of this 
+> email is prohibited when received in error.
+>
+
+
+
+--
+Xavier Hanin - Independent Java Consultant http://xhab.blogspot.com/ http://ant.apache.org/ivy/ http://www.xoocode.org/
+"
+Ivy,IVY-866,Add support for Nexus Indexer,New Feature,Open,Major,Unresolved,Unassigned,Maarten Coene,Maarten Coene,7/25/2008 6:50,,12/4/2008 9:33,,,,Maven Compatibility,,1,2,,,,,,,"IVYDE-134, IVYDE-125",,"If we could add support for Nexus Indexer, it would really improve our performance for maven repositories.
+cfr http://docs.codehaus.org/display/M2ECLIPSE/Nexus+Indexer for more information"
+Ivy,IVY-872,Improve performance,Improvement,Closed,Major,Fixed,Gilles Scokart,Gilles Scokart,Gilles Scokart,8/5/2008 9:59,,9/15/2008 9:36,9/15/2008 9:36,2.0.0-beta-2,2.0-RC1,,,0,0,,,,,,"IVY-876, IVY-883",,,"On heavy multi-module build with important number of dependencies the part of ivy might be very important.
+
+On my benchmarked project, ivy take 50% of the time. This percentage is actually more than 80% when test are disbled.
+
+My script make a resolve, use artefactproperty, retrieve the dependencies, compile, jar and publish localy the result. The compilation is done using CachePath.
+This is done on +/- 100 interdependant modules, that use +/- 60 additional external dependencies.
+The build is launched from a root script that use BuildList.
+The dependencies that are not build are taken mostly from a shared drive, and occasionaly (a few that I still have to install on the shared repository) from the maven central repository.
+
+I will attach to this issue some performance enhancements."
+Ivy,IVY-911,Resolve failed on certain proxy environment,Bug,Resolved,Major,Fixed,Maarten Coene,rednix,rednix,9/18/2008 11:51,,10/21/2008 22:02,9/23/2008 19:56,"2.0-RC1, 2.3.0-RC1",2.0-RC2,Core,,0,0,,,,,,,,"2.0.0-rc1 (and tested with the latest trunk); checked using Eclipse 3.3 under Windows XP; Ant 1.7.0; jdk1.5.0_05
+access to the internet via at least 2 proxies (chained - internal and afterwards corporate proxy)","In the early incubating phase the URLInfo were retrieved via a full http GET request. In the latest codebase this has been changed to a faster HEAD request to optimize performance. For most network scenarios this is no problem. But in our company we are going through at least 2 proxies to access the internet. We have no control over the settings/configurations of all of these proxies. Using a full http GET request in the getURLInfo() method the retrieve is working in this scenario without any problems; but using only a HEAD request the retrieve failed with an exception ""Server access Error: Unexpected end of file from server "".
+
+So my suggestion is to add a configuration option to ivy which (if set) causes to fall back to the slower but working GET request in the method.
+
+I hope that I classified the issue correctly - for most users it might not be as important as it is for ourselves.
+
+The entry in ivy-user mailing list concerning this issue: http://www.nabble.com/.bundle-extension-in-ivy-retrieve...-im-so-confused-td18562574.html
+
+So here come my proposed patches for the involved classes (for both cases - when using the commons-httpclient or the basic handler).
+I've altered the following classes: AbstractURLHandler, BasicURLHandler, HttpClientHandler
+
+I've not changed the invocation/creation of the handler - it is created in URLHandlerRegistry#getHttp() via org.apache.ivy.Main#configureURLHandler(...) or org.apache.ivy.ant.IvyAntSettings#configureURLHandler(). Currently the getHttp() method takes no parameter - maybe this should be changed passing the introduced flag as an int. Or an alternative approach should be used to pass the new ivy-config parameter through to the getURLInfo() method. Hope you will manage the rest of it the way you handle such cases overall in the codebase."
+Ivy,IVY-973,[PATCH] SFTP repositories become very slow after a while,Improvement,Open,Minor,Unresolved,Unassigned,Johannes Rudolph,Johannes Rudolph,11/19/2008 10:08,,7/1/2012 23:00,,2.0-RC2,,Core,,0,1,,,,,,,,,"If many versions of a module live in a folder of an SFTP repository each resolve for dynamic versions becomes dreadfully slow because a roundtrip to the server is made to the server for every version which lies on the server. 
+
+The call sequence goes like that:
+
+org.apache.ivy.plugins.resolver.util.ResolverHelper.findAll calls
+1. org.apache.ivy.plugins.resolver.util.ResolverHelper.listTokenValues which calls
+SFTPRepository.list with the directory of the module as parameter (1. roundtrip)
+2. for every found file matching the pattern SFTPRepository.getResource(path).exists()
+In turn SFTPResource tries to initialize itself and calls SFTPRepository.resolveResource which does the second roundtrip to the server - for every version of the file
+
+Example: Having 20 versions of a module in a repository which is a roundtrip of 150ms away, leads to a lag of 20 * 150ms = 3s . Multiply that with any module having a dynamic version.
+
+The solution is to cache all the resources in SFTPRepository. You can use the information retrieved when calling SFTPRepository.list to fill the cache in advance.
+
+The disadvantage is that you may have stale data. IMO this is mostly no problem because every call to list updates the cache and files already available in the repository won't hopefully change any metadata in the time between."
+Ivy,IVY-993,latest-time strategy not compatible with version ranges in transitiv dependencies,Bug,Open,Major,Unresolved,Unassigned,K. Rekk,K. Rekk,1/6/2009 17:12,,7/1/2012 22:59,,2.0-RC2,,Core,,1,0,,,,,,,,"kubuntu 8.04, java 1.6, ant 1.7","Using latest-time as defaultLatestStrategy=""latest-time"" would give errors on first level transitiv dependency. Default strategy would do fine. It seems to be a similar problem as in https://issues.apache.org/jira/browse/IVY-966 .
+
+The ivy.xml of direct dependency to retrieve has:
+<dependencies>
+<dependency org=""javax.mail"" name=""javamail"" rev=""[1.4,2.0["" conf=""mail-&gt;default""/>
+<dependency org=""javax.jms"" name=""jms"" rev=""[1.1,2.0["" conf=""jms-&gt;default""/>
+<dependency org=""javax.management"" name=""jmx"" rev=""[1.2.1,2.0["" conf=""jmx-&gt;default,tools""/>
+
+</dependencies>
+
+Although I am far away from understanding what exactly is going on (some further developer docs would be great), here my observations:
+
+Watching debug shows that all this boils down to call :
+
+public class LatestTimeStrategy extends ComparatorLatestStrategy {
+private static final Comparator COMPARATOR = new Comparator() {
+public int compare(Object o1, Object o2) {
+long d1 = ((ArtifactInfo) o1).getLastModified();
+long d2 = ((ArtifactInfo) o2).getLastModified();
+return new Long(d1).compareTo(new Long(d2));
+}
+
+to try compare Infos for 1.2.1 and 2.0 for <dependency org=""javax.management"" name=""jmx"" rev=""[1.2.1,2.0["" conf=""jmx-&gt;default,tools""/> . But getLastModified will give 0. So sorting will fail.
+
+This interesting thing starts from VersionRangeMatcher
+
+private boolean isLower(ModuleRevisionId askedMrid, String revision,
+ModuleRevisionId foundMrid, boolean inclusive) {
+ModuleRevisionId mRevId = ModuleRevisionId.newInstance(askedMrid, revision);
+int result = comparator.compare(mRevId, foundMrid); 
+return result <= (inclusive ? 0 : -1);
+}
+
+with 
+
+foundMrid javax.management#jmx;1.2.1
+mRevId javax.management#jmx;2.0
+
+Also it would be nice to have some tests for org.apache.ivy.plugins.latest.LatestTimeStrategy .
+
+"
+Ivy,IVY-996,Remove excessive HEAD requests for URL repository,Improvement,Resolved,Major,Fixed,Xavier Hanin,Eric Anderson,Eric Anderson,1/7/2009 23:43,,3/17/2009 22:31,1/24/2009 13:02,2.0-RC2,2.1.0-RC1,Core,,1,0,,,,,,,,,"h3. Fixing useless extra HEAD requests
+
+When searching for an artifact named ""project"" version ""2.2.+"" for organization ""org"", Ivy attempts HEAD requests for completely not possible versions.
+
+IE: /org/project/0.9.2/ivy-0.9.2.xml
+
+This is not terribly painful unless you have thousands of builds and are not on the same network as your ivy server. 
+
+h3. Are HEAD requests even necessary?
+
+Simply getting a directory listing should be good enough to determine if there is an artifact (for choosing latest-release). Now, after one is chosen, if no ivy.xml file exists, I could understand trying the next one, but trying all of them, just to select the latest one anyways seems like a complete waste.
+"
+Ivy,IVY-1019,resolver attribute for buildnumber task,Improvement,Resolved,Major,Fixed,Maarten Coene,Martin Eigenbrodt,Martin Eigenbrodt,1/27/2009 10:14,,3/17/2009 22:31,1/27/2009 22:18,2,2.1.0-RC1,Ant,,0,1,,,,,,,,,"The BuildNumber Task should have an resolver Attribute that allows to specify a resovler used for searching existing versions. Currently the task looks at all configured resolvers. This is a performance issue in our environment where we have different ""views"" of the same repository (url, filesystem, ssh) and the correct view is picked depending on where the build happens."
+Ivy,IVY-1044,retrieve doesn't retrive files if the current one is more recent,Improvement,Resolved,Major,Fixed,Maarten Coene,Daniel Dekany,Daniel Dekany,3/9/2009 12:22,,9/20/2011 20:48,5/10/2010 20:10,2,2.2.0-RC1,"Ant, Core",,1,1,,,,,,,IVY-1316,"Win XP, J2SE 1.6.0_11-b03","The ""retrieve"" task will not retrieve files (artifacts) whose file modification date is greater than of the file in the repository (in the ""resolver""), not even if sync=""true"". This way the target directory goes out of sync if (a) the module is downgraded in the repository or (b) the developer has overwritten the artifact manually when experiencing with something. Thus the only way to keep the target directory in sync is deleting it before retrieving, but of course that means suboptimal performance, and makes sync=""true"" useless anyway. Simply, a file should be retrieved if the date (or size!) is *different* than in the repository."
+Ivy,IVY-1105,Excessive hits to missing URLs uses up all ports on Windows,Bug,Resolved,Major,Fixed,Maarten Coene,Ernest Pasour,Ernest Pasour,7/27/2009 19:27,,5/7/2010 20:13,7/29/2009 22:19,2.1.0-RC1,2.2.0-RC1,Core,,0,2,,,,,,,IVY-854,"windows xp sp3, running Ivy repository through http for remote resolving","Modified description to be clearer: 
+Ivy is extremely aggressive towards repositories . This can result in 
+failures to resolve, even against a healthy repository and with no network latency. 
+
+The symptom: 
+
+[ivy:resolve] 01-07-2008 13:16:24 
+org.apache.commons.httpclient.HttpMethodDirector executeWithRetry 
+[ivy:resolve] INFO: I/O exception (java.net.BindException) caught when 
+processing request: Address already in use: connect. 
+
+This is especially a problem with large repositories (lots of revisions) and resolving against latest.integration as this will fetch ivy.xml md5 and sha1 files for every revision. 
+
+As I've included in a comment, the problem appears to be Ivy's attempts to list URLs that don't actually exist. Ivy builds up URLs using the repository location and appending organizations and module names. We have ivy chains that contain 5 links or more. So for each successful attempt to list an URL, there are several attempts to list non-existent URLs. This is wasteful in terms of time, and can lead to using up all of the available Windows ports on the client machine."
+Ivy,IVY-1124,IbiblioResolver not always correctly configured when using JRE 1.5,Bug,Resolved,Major,Fixed,Maarten Coene,Flavio Coutinho da Costa,Flavio Coutinho da Costa,9/17/2009 4:33,,5/7/2010 20:13,9/29/2009 22:12,2.1.0-RC2,2.2.0-RC1,Core,,0,0,,,,,,,,Linux,"IBiblioResolver has a small bug due to a change in the behaviour between Java5 and Java6. 
+After spending quite a lot of time debugging this I finally found where the problem is. 
+
+I've added some debugging messages to the following methods so that I could keep track of what is happening behind the scenes. 
+* setM2compatible 
+* setUsepoms 
+* setPattern 
+* setRoot 
+All the debug does it print the name of the method that's getting called and print the hash code of the instance (just for the sake of identifying in which repository the call happened) 
+
+From the documentation and from the code we can see that the 'usepoms' property defaults to 'true'. 
+Now let's take a look the following snippet of code extracted from IBiblioResolver: 
+
+private void updateWholePattern() { 
+if (isM2compatible() && isUsepoms()) { 
+setIvyPatterns(Collections.singletonList(getWholePattern())); 
+} 
+setArtifactPatterns(Collections.singletonList(getWholePattern())); 
+} 
+
+Assuming that setM2compatible(true) happens before a setUsepoms(false) Ivy would end up calling setIvyPatterns(...) and therefore setting an invalid Ivy pattern (actually it's not invalid but a default one like this: http://repo1.maven.org/maven2/). After this happens Ivy won't have a chance to ever ""unset/reset"" the Ivy patterns list and because of that any artifact which type equals to ""ivy"" will (try) to be uploaded to Maven Central repository as this code extracted from RepositoryResolver highlights: 
+
+public void publish(Artifact artifact, File src, boolean overwrite) throws IOException { 
+String destPattern; 
+if (""ivy"".equals(artifact.getType()) && !getIvyPatterns().isEmpty()) { 
+destPattern = (String) getIvyPatterns().get(0); 
+} else if (!getArtifactPatterns().isEmpty()) { 
+destPattern = (String) getArtifactPatterns().get(0); 
+} 
+... 
+} 
+
+Instead of falling back to getArtifactPatterns (as desired and expected), Ivy sees that the List returned by getIvyPatterns() is not empty (due to the bug mentioned above) and tries to upload the ivy.xml file to Maven Central (where, most of the mortals, can't HTTP PUT) resulting on the following: 
+
+/home/flavio/workspace/IvyTestCase/build.xml:16: impossible to publish artifacts for my.test.case#ivy-test;1.0: java.io.IOException: PUT operation to URL http://repo1.maven.org/maven2/my/test/case/ivy-test/1.0/ivy-1.0.xml failed with status code 405 
+
+Enough of side effects, let's get back to the actual bug. 
+
+Like I said before this bug happens due to a difference in behaviour between Java5 and Java6. The following ant output shows that: 
+
+--- Running Java(TM) SE Runtime Environment - 1.6.0_16-b01 
+[ivy:configure] :: Ivy 2.2.x-local-20090917003317 - 20090917003317 :: http://ant.apache.org/ivy/ :: 
+[ivy:configure] :: loading settings :: file = /home/flavio/workspace/IvyTestCase/ivysettings.xml 
+[ivy:configure] setM2compatible called for repo: 9740137 
+[ivy:configure] setUsepoms called for repo: 13228332 
+[ivy:configure] setPattern called for repo: 13228332 
+[ivy:configure] setRoot called for repo: 13228332 
+[ivy:configure] setM2compatible called for repo: 13228332 
+
+setUsepoms(false) is called before setM2compatible(true) so the bug is never triggered because the condition in IBiblioResolver.updateWholePattern() evaluates to false and setIvyPatterns(...) is NEVER called thus resulting on getIvyPatterns() returning an empty List later on and because of that RepositoryResolver falls back to getArtifactPatterns(). Everything works just fine. 
+
+--- Running Java(TM) 2 Runtime Environment, Standard Edition - 1.5.0_21-b01 
+[ivy:configure] :: Ivy 2.2.x-local-20090917003317 - 20090917003317 :: http://ant.apache.org/ivy/ :: 
+[ivy:configure] :: loading settings :: file = /home/flavio/workspace/IvyTestCase/ivysettings.xml 
+[ivy:configure] setM2compatible called for repo: 18923308 
+[ivy:configure] setM2compatible called for repo: 13078969 
+[ivy:configure] setUsepoms called for repo: 13078969 
+[ivy:configure] setRoot called for repo: 13078969 
+[ivy:configure] setPattern called for repo: 13078969 
+
+setM2compatible(true) is called before setUsepoms(false) and the condition inside IBiblioResolver.updateWholePattern() evaluates to true causing a cascade effect (setIvyPatterns() is called and can't be reseted/unseted, RepositoryResolver never falls back to getArtifactPatterns(), etc, etc...). Everything falls apart! 
+
+So the fact of the XML parser interpreting the arguments in a different order totally screw up the logic. 
+
+I found a way around this by change the IBiblioResolver.updateWholePattern() to this: 
+private void updateWholePattern() { 
+if (isM2compatible() && isUsepoms()) { 
+setIvyPatterns(Collections.singletonList(getWholePattern())); 
+} else { 
+setIvyPatterns(Collections.EMPTY_LIST); 
+} 
+setArtifactPatterns(Collections.singletonList(getWholePattern())); 
+} 
+Basically resetting the list whenever the condition doesn't evaluates to true, giving Ivy the chance to ""recover"" from the wrong state it was set. Not sure if that's the right way but it did fix the problem since the IvyPatterns List is actually empty when it should, not counting on a weird behaviour of a specific JVM version. 
+
+I'll be attaching the diff of IBiblioRepository.java and also a sample project that can trigger this bug."
+Ivy,IVY-1182,Ability to install multiple modules with a single install task,Improvement,Open,Major,Unresolved,Unassigned,Andrew,Andrew,4/21/2010 1:43,,4/21/2010 1:43,,2.1.0,,Ant,,0,0,,,,,,,,"Ubuntu 9.10 AMD64, Ant 1.7.1, Java 1.6.0_15-b03 64-Bit","I would like the ability to specify multiple modules to install at once with the ivy:install task in Ant, and to say 'don't overwrite and don't fail if present', which achieves a few things. First, I'm installing more than one module here (roughly 20), and I'm not super-happy about the fact that I have to specify one install task for each, as that typically results in multiple versions of projects being installed (Apaches commons is especially prone to that). Now, this might sometimes be a good thing, but I know that all the modules I'm installing are going to be used by a single project, and it's just annoying to have more than one installed. The other problem is that each install task will install another copy of a library that already exists with the same version (e.g. commons-logging 1.1.1), and while that's not a problem while developing the repository, I'm not sure I'd like that to happen when installing to the company repository. It also means unnecessary downloads of artifacts."
+Ivy,IVY-1191,Allow configuration exclusion for resolve/retrieve/publish/etc,New Feature,Open,Minor,Unresolved,Unassigned,Phil Clay,Phil Clay,5/11/2010 14:47,,5/12/2010 13:58,,2.1.0,,,,0,0,,,,,,,,,"For specifying confs for resolve/retrieve/publish, you can either 
+* explicitly specify confs (e.g. ""build,deploy,test""), or 
+* specify all (e.g. ""*""), or 
+* specify all public (e.g. ""*(public)""), or 
+* specify all private (e.g. ""*(private)"") 
+
+All of these work on the principle of inclusion. i.e. only include those configurations I have specified. 
+
+I would like the ability to select confs based on exclusion. i.e. Include everything, except the ones I have explicitly stated. 
+
+The reason is that our build process, by default, builds a LOT of stuff. Our developers have the options of turning off certain things to make the builds faster. (For example, our build publishes instrumented artifacts for gathering code coverage data during qa cycles. It would be nice to be able to turn off the ""instrumented"" conf without having to know how to turn on everything but the ""instrumented"" conf) 
+
+I'll propose one option. (There are probably several ways to do this...) 
+
+In the conf string, use the - character to indicate exclusion. For example: 
+
+* conf=""*,-instrumented"" would include everything except the instrumented conf 
+* conf=""*(public),-instrumented"" would include all public confs except the instrumented conf 
+* conf=""build,deploy,test,instrumented,-instrumented"" would only include build, deploy, test. I'd like this case to be handled, so we can have a default inclusion string (which may include everything ""*"", or be a specific list of inclusions ""build,deploy,test,instrumented""), but also be able to negate certain confs simply by concatinating an exclusion string ""-instrumented"". 
+"
+Ivy,IVY-1209,Uptodate checking for Maven snapshot does not take build number into account.,Bug,Open,Major,Unresolved,Unassigned,Hans Dockter,Hans Dockter,7/16/2010 9:03,,7/16/2010 9:06,,2.2.0-RC1,,Maven Compatibility,,0,0,,,,,,,,,"When Ivy checks if their is a newer snapshot in the remote repository, it check only the timestamp, not the build number. So if the timestamp is the same, the newer snapshot is not retrieved. This is not a very common scenario. But I have run into it when doing integration tests and publishing in fast frequency to a local repo. 
+
+I have attached a screen shot of my repo structure where Ivy is not retrieving the newest snapshot. 
+
+"
+Ivy,IVY-1226,Single sign on conflict with IvyAuthonticator,Bug,Resolved,Major,Fixed,Unassigned,Alexey Kuznetsov,Alexey Kuznetsov,9/9/2010 13:07,,9/9/2010 15:34,9/9/2010 15:34,2.1.0,,Core,,0,0,,,,,,,,Linux / Windows,"For all http reqeuests ivy uses IvyAuthanticator class to catch all authancation requests. 
+
+That is correct until system is specialy configured to have single sign on feature. I got this error on my Debian sqeeuze box, and other users report about windows machines. 
+
+Here some forum links: 
+
+""In fact, if you are running on a Windows machine as a domain user, or, you are running on a Linux or Solaris machine that has already issued the kinit command and got the credential cache. The class MyAuthenticator will be completely ignored, and the output will be simply"" 
+
+http://download-llnw.oracle.com/javase/6/docs/technotes/guides/net/http-auth.html 
+
+""Hey, did you figure out that why getPasswordAuthentication does not get called on Unix? I'm facing same issue. I have observed that MyAuthenticator::getPasswordAuthentication() is getting called on my windows workstation but not on UNIX. any help would highly be appreciated!! "" 
+
+http://www.coderanch.com/t/470838/Linux-UNIX/NTLM-url-access-through-java 
+
+Probaby using credentials in settings file is not so good idea, or better to switch to Java Network security package instead Authonticator. 
+
+SSLContext sc = SSLContext.getInstance(""SSL""); 
+sc.init(keyManager, trustManager, new SecureRandom()); 
+this.oldFactory = HttpsURLConnection.getDefaultSSLSocketFactory(); 
+HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory()); 
+
+I'm still under development on this issue, but maybe you can help me and i get it faster."
+Ivy,IVY-1234,Ivy fails to publish to remote repository IF a proxy is set and the proxy has NO credential requirements.,Bug,Resolved,Critical,Fixed,Maarten Coene,David Harrigan,David Harrigan,9/27/2010 20:01,,9/29/2010 7:40,9/28/2010 22:05,2.2.0-RC1,2.3.0-RC1,Core,,0,1,,,,,,,,Snow Leopard 10.6.4 running Squid 3.0 and Artifactory 2.2.5,"I've just come across this problem and I believe it's critical. I've searched on JIRA for similar issues and I can't find anything. 
+
+I have this configured in my ivysettings.xml: 
+
+{code:xml|title=ivysettings.xml|borderStyle=solid} 
+<credentials host=""localhost"" realm=""Artifactory Realm"" username=""admin"" passwd=""password""/> 
+{code} 
+
+Which is the default credentials for Artifactory 2.2.5. 
+
+I have this resolver as a remote: 
+
+{code:xml|title=ivysettings.xml|borderStyle=solid} 
+<url name=""artifactory-snapshots""> 
+<ivy pattern=""http://localhost:8081/artifactory/libs-snapshots-local/[organisation]/[module]/[revision]/ivy-[revision].xml"" /> 
+<artifact pattern=""http://localhost:8081/artifactory/libs-snapshots-local/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"" /> 
+</url> 
+{code} 
+
+Whenever I attempt to publish, Ivy is reporting this issue: 
+
+{code:xml|title=build.xml|borderStyle=solid} 
+BUILD FAILED 
+/Users/david/development/tmp/ant/includes/ivy.xml:25: impossible to publish artifacts for com.as#xmltransformer;0.1.0-SNAPSHOT: java.io.IOException: Access to URL http://localhost:8081/artifactory/libs-snapshots-local/com.as/xmltransformer/0.1.0-SNAPSHOT/xmltransformer-0.1.0-SNAPSHOT.jar was refused by the server: User anonymous is not permitted to deploy 'com.as/xmltransformer/0.1.0-SNAPSHOT/xmltransformer-0.1.0-SNAPSHOT.jar' into 'libs-snapshots-local:com.as/xmltransformer/0.1.0-SNAPSHOT/xmltransformer-0.1.0-SNAPSHOT.jar'. 
+at org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(AbstractURLHandler.java:79) 
+at org.apache.ivy.util.url.BasicURLHandler.upload(BasicURLHandler.java:225) 
+at org.apache.ivy.util.url.URLHandlerDispatcher.upload(URLHandlerDispatcher.java:82) 
+at org.apache.ivy.util.FileUtil.copy(FileUtil.java:148) 
+at org.apache.ivy.plugins.repository.url.URLRepository.put(URLRepository.java:84) 
+at org.apache.ivy.plugins.repository.AbstractRepository.put(AbstractRepository.java:130) 
+at org.apache.ivy.plugins.resolver.RepositoryResolver.put(RepositoryResolver.java:234) 
+at org.apache.ivy.plugins.resolver.RepositoryResolver.publish(RepositoryResolver.java:216) 
+at org.apache.ivy.core.publish.PublishEngine.publish(PublishEngine.java:281) 
+at org.apache.ivy.core.publish.PublishEngine.publish(PublishEngine.java:260) 
+at org.apache.ivy.core.publish.PublishEngine.publish(PublishEngine.java:172) 
+at org.apache.ivy.Ivy.publish(Ivy.java:600) 
+at org.apache.ivy.ant.IvyPublish.doExecute(IvyPublish.java:311) 
+at org.apache.ivy.ant.IvyTask.execute(IvyTask.java:277) 
+at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291) 
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) 
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) 
+at java.lang.reflect.Method.invoke(Method.java:597) 
+at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106) 
+at org.apache.tools.ant.Task.perform(Task.java:348) 
+at org.apache.tools.ant.Target.execute(Target.java:390) 
+at org.apache.tools.ant.Target.performTasks(Target.java:411) 
+at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1397) 
+at org.apache.tools.ant.Project.executeTarget(Project.java:1366) 
+at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41) 
+at org.apache.tools.ant.Project.executeTargets(Project.java:1249) 
+at org.apache.tools.ant.Main.runBuild(Main.java:801) 
+at org.apache.tools.ant.Main.startAnt(Main.java:218) 
+at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280) 
+at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109) 
+{code} 
+
+Notice how it is attempting to publish using anonymous credentials. 
+
+I am running squid 3.0 on my machine to speed up internet access, but it is an anonymous proxy - there is no username or password required. 
+
+Looking at the latest source from svn, in IvyAuthenticator: 
+
+{code:title=IvyAuthenticator.java|borderStyle=solid} 
+String proxyHost = System.getProperty(""http.proxyHost""); 
+if (getRequestingHost().equals(proxyHost)) { 
+String proxyUser = System.getProperty(""http.proxyUser""); 
+if ((proxyUser != null) && (proxyUser.trim().length() > 0)) { 
+String proxyPass = System.getProperty(""http.proxyPassword"", """"); 
+Message.debug(""authenicating to proxy server with username ["" + proxyUser + ""]""); 
+result = new PasswordAuthentication(proxyUser, proxyPass.toCharArray()); 
+} 
+} else { 
+Credentials c = CredentialsStore.INSTANCE.getCredentials(getRequestingPrompt(), 
+getRequestingHost()); 
+Message.debug(""authentication: k='"" 
++ Credentials.buildKey(getRequestingPrompt(), getRequestingHost()) + ""' c='"" + c 
++ ""'""); 
+if (c != null) { 
+result = new PasswordAuthentication(c.getUserName(), c.getPasswd().toCharArray()); 
+} 
+} 
+{code} 
+
+What appears to be happening is that the requesting host == localhost, it attempts to get the proxy user, which is subsequently null, it then *completely* skips over the attempt at line 91 (Credentials c = ...) to retrieve the configured credentials, thus it then attempts to log in anonymously which fails... 
+
+I believe anyone running a proxy on their machine (or more seriously I suppose if their company has an anonymous proxy between the developer/build machine and the repository) then as it stands currently, any attempts to publish will fail. 
+
+If I can be of any further assistance, please do let me know. 
+
+-=david=- 
+
+
+
+
+"
+Ivy,IVY-1252,symlinkmass feature based on symlink feature of ivy:retrieve,New Feature,Resolved,Minor,Fixed,Nicolas Lalevée,Gene Smith,Gene Smith,12/2/2010 20:06,,3/26/2014 21:53,8/15/2012 17:34,2.2.0,2.4.0-RC1,"Ant, Core, Documentation",,0,1,,7200,7200,,0%,,,UNIX/Linux,"I have an improvement I have made in a locally built copy of Ivy, to speed up the making of symbolic links when retrieving dependencies. It was written based on: 
+apache-ivy-2.2.0-src.tar.gz 
+It changes existing files, but creates no new files. I have already made and am using the change in our local build system, and want to contribute back so that others can use it. 
+
+.... 
+
+The documentation for this feature would be added to: 
+http://ant.apache.org/ivy/history/latest-milestone/use/retrieve.html 
+in the main table: 
+Attribute 
+symlinkmass 
+Description 
+true to create symbolic links in mass, false to copy the artifacts. 
+symlinkmass overrides ""symlink"" if both are set to ""true"". 
+symlinkmass will create the same symbolic links ""symlink"" does, 
+but with a single process call to ""sh"" with batched ""ln"" commands passed in as standard input. 
+(works on UNIX/Linux, on other systems you may need to script it) 
+Far large lists of resolved jars, this can be dramatically faster. 
+The destination of the symbolic links depends on the value of the useOrigin attribute 
+The events ""StartRetrieveArtifactEvent"" and EndRetrieveEvent, 
+are NOT fired by this activity, because it is not clear when they should be called. 
+Required 
+No. Defaults to false 
+
+.... 
+
+Non trivial code changes are made in: 
+apache-ivy-2.2.0/src/java/org/apache/ivy/core/retrieve/RetrieveEngine.java 
+branching in the code based on the ""symlinkmass"" boolean 
+in existing retrieval loop (where fetching of files would normally occur) to collect destination and source paths 
+and after the loop to do the mass fetch 
+import added for java.util.HashMap 
+
+A non trivial method is added to handle linking of files based on a Map of destinations and sources. Existing methods are untouched. 
+apache-ivy-2.2.0/src/java/org/apache/ivy/util/FileUtil.java 
+a method to do the symlinking based of a Map of the destinations to sources 
+imports added for java.util.Iterator, java.util.LinkedList, java.util.Map, java.util.regex.Pattern 
+
+Trivial additions are made to pass the control parameter ""symlinkmass"" 
+apache-ivy-2.2.0/src/java/org/apache/ivy/core/retrieve/RetrieveOptions.java 
+apache-ivy-2.2.0/src/java/org/apache/ivy/ant/IvyRetrieve.java 
+apache-ivy-2.2.0/src/java/org/apache/ivy/Main.java 
+
+A unit test is added in 
+apache-ivy-2.2.0/test/java/org/apache/ivy/core/retrieve/RetrieveTest.java 
+basically a duplicate of the unit test for ""symlink"" with a few internal code comments 
+
+... 
+
+Notes on why we want this: 
+
+The build system I maintain (Ant + Ivy, with Linux scripts for Developer support) was using the ""symlink"" feature for ivy:retrieve, because over a complete build of our code modules (about 25 separate and growing) the sub-builds make a total of about 3000 dependency links and the file space savings made it complete worth it. The build system is not about speed. It is about modularity, and we use Ivy to link the modules in a dependency tree so that we can swap them out as we . We like Ivy very much for that. Thank you all. 
+
+But, while speed is a secondary consideration, it is not unimportant... and this improvement cuts about 8 minutes off an 18 minute build. 
+
+"
+Ivy,IVY-1255,Possible bug in Ivy's maven resolver is causing massive amounts of redundant traffic,Bug,Open,Major,Unresolved,Unassigned,Brian Fox,Brian Fox,12/15/2010 14:41,,12/21/2010 23:07,,2.1.0,,Maven Compatibility,,0,0,,,,,,,,,"We were investigating suspicious download trends of groovy as reported by the central statistics, and I found some odd behavior from Ivy. I see from many ips massively repeated Head requests spread across many groovy poms and in some cases repeated sequential hits on the same pom milliseconds apart. The attached log shows the behavior from one IP on one day in December. Obviously this is all using the same version of Ivy, but I did notice initially this occurring from many versions. 
+
+Since Maven release artifacts never change, the HEAD request should never be needed, since I assume the file is cached somewhere locally (or you would be doing a get). 
+
+If you need more info from the logs, I'd be glad to help."
+Ivy,IVY-1272,<cachefileset> on an empty configuration produces a very slow-to-evaluate fileset,Bug,Resolved,Minor,Fixed,Nicolas Lalevée,Oliver Jowett,Oliver Jowett,3/2/2011 4:01,,3/9/2011 10:48,3/9/2011 10:48,2.2.0-RC1,2.3.0-RC1,Core,,0,0,,,,,,,,"Ant 1.8.1 
+Ivy 2.2.0-rc1 
+","If I declare a <cachefileset> for a configuration that is present but empty, I get a fileset that (as expected) matches no files. 
+The problem is that when used, that fileset decides to match no files by recursively scanning all files starting from the current working directory (checked via strace and via a JVM thread dump) 
+In our case, often the CWD is the top of our build tree, so this takes a very long time to work out that the fileset is in fact empty. 
+
+Specifically, we're doing this (inside a macrodef) 
+
+<ivy:cachefileset setid=""@{module}.docdeps"" conf=""doc"" type=""javadoc.zip""/> 
+<unzip dest=""${target}/javadoc""> 
+<patternset> 
+<include name=""*/package-list""/> 
+</patternset> 
+<fileset refid=""@{module}.docdeps""/> 
+</unzip> 
+
+and the unzip step takes a very, very, long time to do nothing when the ""doc"" conf is empty. 
+If I replace the use of cachefileset with an explicit fileset that matches nothing, it runs fast as expected."
+Ivy,IVY-1280,Ivy does not keep track of HTTP session when BASIC authentication is used,Improvement,Open,Minor,Unresolved,Unassigned,Anders Jacobsson,Anders Jacobsson,3/31/2011 11:08,,3/31/2011 11:08,,2.2.0,,Core,,0,1,,,,,,,,Any,"When publishing through <ant:publish>, each PUT request towards the URL resolver (Artifactory, protected with BASIC authentication) seems to be duplicated, the first request without any authorization header and the second one with. This creates unnecessary network traffic and increases build time. Ivy should keep track of any established HTTP session and reuse that one, i.e. only the very first request is duplicated. 
+
+I am using Commons HttpClient. 
+
+An alternative would be to expose preemptive authentication so that it is configurable. It is less secure but still useful as it would probably mostly be used for internal resolvers."
+Ivy,IVY-1318,Faster symlink creation (avoid a JVM fork per symlink),New Feature,Open,Minor,Unresolved,Unassigned,Oliver Jowett,Oliver Jowett,10/3/2011 2:35,,8/15/2012 16:39,,2.2.0,,Core,,0,2,,,,,,,,,"We have a large project using Ivy with many large artifacts. 
+In theory we should benefit from symlink=""true"" (space savings and reduced I/O), but in practice the overhead of forking the Ant JVM for each individual symlink means that a build using symlink=""true"" actually runs a lot (30%+) slower, which is too much of a cost to justify using it. 
+
+To work around this I modified FileUtils to run a single long-lived shell process that reads instructions from stdin and performs symlinks accordingly. 
+This makes symlink=""true"" no slower than symlink=""false"". 
+
+I will attach a patch against 2.2.0. Tested only in a Linux environment, but in theory it should work on anything POSIX-y, and should fall back to file copy much as the existing code does if anything goes wrong. 
+
+Any interest in getting this included in an official version? 
+"
+Ivy,IVY-1337,Ivy should reuse HTTPS connection and reuse HTTP credentials,Bug,Open,Major,Unresolved,Unassigned,Elias Ross,Elias Ross,2/6/2012 21:18,,2/6/2012 21:18,,2.2.0,,Core,,0,0,,,,,,,,,"Using a HTTPS connection, a new SSL re-connect is required for every operation. This is very slow. 
+
+Also, basic auth credentials are ""forgotten"" for every new HTTP operation. This also slows down using repositories that are HTTPS and use authorization."
+Ivy,IVY-1346,Unnecessary warning when parent ivy.xml is located using resolvers rather than a location attribute on the extends element,Improvement,Resolved,Minor,Fixed,Maarten Coene,Matt Hurne,Matt Hurne,4/24/2012 19:12,,8/23/2012 8:42,8/19/2012 15:42,"2.2.0, 2.3.0-RC1",2.3.0-RC2,Core,,0,2,,,,,,,,,"When using an {{<extends>}} element without a {{location}} attribute an unnecessary warning is output stating that {{../ivy.xml}} could not be parsed (unless there is in fact a file {{../ivy.xml}} relative to the {{ivy.xml}} that contains the {{<extends>}}). 
+
+For example: 
+
+{noformat} 
+... 
+<info organisation=""foo"" module=""bar"" revision=""1.0"" status=""integration""> 
+<extends organisation=""foo"" module=""parent"" revision=""1.0.0"" /> 
+</info> 
+... 
+{noformat} 
+
+{noformat} 
+[ivy:resolve] Unable to parse included ivy file ../ivy.xml: D:\project\component\ivy.xml 
+(The system cannot find the file specified) in file:/D:/project/component/ivy.xml 
+{noformat} 
+
+{{XmlModuleDescriptorParser.extendsStarted()}} is the source of the warning. If no {{location}} was specified on the {{<extends>}} it uses a default location of {{../ivy.xml}}. It then attempts to find and use the {{../ivy.xml}} location, and only falls back to resolving the parent descriptor if {{../ivy.xml}} doesn't exist or if its {{ModuleId}} is not what is expected. 
+
+The behavior is sensible and I do not suggest that it be changed. However, it would be nice if the warning that {{../ivy.xml}} could not be parsed were suppressed when that file is being used as a default. The warning would still be appropriate if {{location=""../ivy.xml""}} were explicitly included in the {{<extends>}} element."
+Ivy,IVY-1376,IVY erratic behavior,Bug,Resolved,Major,Fixed,Maarten Coene,Edgardo Vega,Edgardo Vega,9/4/2012 13:08,,12/17/2012 22:19,12/10/2012 21:00,2.3.0-RC1,2.3.0,,,1,3,,,,,,,"IVY-1390, IVY-1394",Windows 7,"
+Using the following, we get erratic mixes of failure and success. 
+
+$ cat build.xml 
+<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?> 
+<project name=""project"" basedir=""."" default=""build"" 
+xmlns:tomcat=""antlib:org.apache.catalina.ant"" xmlns:ivy=""antlib:org.apache.ivy.ant""> 
+
+<!-- IVY stuff: used initially to fetch 3rd party jars --> 
+<!-- Pull in ivy tasks from either ANT library or local jar --> 
+<path id=""ivy.lib.path""> 
+<fileset dir=""${libdir}"" includes=""ivy*.jar"" /> 
+</path> 
+<taskdef resource=""org/apache/ivy/ant/antlib.xml"" uri=""antlib:org.apache.ivy.ant"" 
+classpathref=""ivy.lib.path"" /> 
+<!-- ivy: get 3rd party jars --> 
+<target name=""ivy"" description=""get 3rd party jars via ivy""> 
+<ivy:configure /> 
+<ivy:resolve file=""ivy.xml"" /> 
+<ivy:retrieve 
+pattern=""${warlibdir}/[artifact]-[revision](-[classifier]).[ext]"" /> 
+</target> 
+
+<!-- ivy-cleancache: delete the host cache --> 
+<target name=""ivy-cleancache"" description=""delete host cache""> 
+<ivy:cleancache /> 
+</target> 
+</project> 
+
+$ cat ivy.xml 
+<ivy-module version=""2.0""> 
+<info organisation=""com.usorg"" module=""hello-ivy"" /> 
+<dependencies> 
+
+<!-- Logging items --> 
+<dependency org=""org.slf4j"" name=""slf4j-log4j12"" rev=""1.6.6"" /> 
+
+<!-- JAX-RS items --> 
+<dependency org=""com.sun.jersey"" name=""jersey-bundle"" rev=""1.13"" /> 
+
+
+<override org=""org.jboss.weld"" module=""weld-api"" rev=""1.1.Final"" /> 
+<override org=""org.jboss.weld"" module=""weld-spi"" rev=""1.1.Final"" /> 
+
+</dependencies> 
+</ivy-module> 
+
+
+cat ivysettings.xml 
+<ivysettings> 
+<property name=""interceptor.api.version"" value=""1.0.1.Final"" /> 
+<property name=""jsr250.api.version"" value=""1.0"" /> 
+<property name=""atinject.api.version"" value=""1"" /> 
+
+<settings defaultResolver=""jaxws-chain"" /> 
+<resolvers> 
+<chain name=""jaxws-chain"" returnFirst=""true""> 
+<ibiblio name=""maven"" root=""http://mvnrepository.com/artifact/"" 
+m2compatible=""true"" /> 
+<ibiblio name=""ibiblio-maven2"" m2compatible=""true"" /> 
+<ibiblio name=""java-net-maven2"" root=""http://download.java.net/maven/2/"" 
+m2compatible=""true"" /> 
+<ibiblio name=""eclipse"" m2compatible=""true"" 
+root=""http://download.eclipse.org/rt/eclipselink/maven.repo/"" /> 
+<ibiblio name=""java-net"" m2compatible=""true"" usepoms=""true"" 
+pattern=""[organisation]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]"" 
+root=""http://download.java.net/maven/2"" /> 
+<ibiblio name=""maven2"" m2compatible=""true"" /> 
+<ibiblio name=""central"" m2compatible=""true"" /> 
+</chain> 
+</resolvers> 
+</ivysettings> 
+
+$ ant ivy 
+Buildfile: C:\Users\evega\workspace\project\build.xml 
+
+ivy: 
+[ivy:configure] :: Apache Ivy 2.3.0-rc1 - 20120416000235 :: http://ant.apache.org/ivy/ :: 
+[ivy:configure] :: loading settings :: file = C:\Users\evega\workspace\project\ivysettings.xml 
+[ivy:resolve] :: resolving dependencies ::project#hello-ivy;working@PC-1233-EV 
+[ivy:resolve] confs: [default] 
+[ivy:resolve] found org.slf4j#slf4j-log4j12;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-api;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found log4j#log4j;1.2.17 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-bundle;1.13 in ibiblio-maven2 
+[ivy:resolve] found javax.ws.rs#jsr311-api;1.1.1 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-grizzly;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-servlet-webserver;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-http;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-framework;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-utils;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-lzma;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-rcm;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-portunif;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-http-servlet;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found javax.servlet#servlet-api;2.5 in ibiblio-maven2 
+[ivy:resolve] found org.osgi#osgi_R4_core;1.0 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-client;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-atom;1.13 in ibiblio-maven2 
+[ivy:resolve] found rome#rome;0.9 in ibiblio-maven2 
+[ivy:resolve] found jdom#jdom;1.0 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-json;1.13 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jettison#jettison;1.1 in ibiblio-maven2 
+[ivy:resolve] found stax#stax-api;1.0.1 in ibiblio-maven2 
+[ivy:resolve] found com.sun.xml.bind#jaxb-impl;2.2.3-1 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-core-asl;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-mapper-asl;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-jaxrs;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-xc;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-fastinfoset;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.xml.fastinfoset#FastInfoset;1.2.9 in ibiblio-maven2 
+[ivy:resolve] found javax.xml#jsr173;1.0 in ibiblio-maven2 
+[ivy:resolve] found javax.persistence#persistence-api;1.0 in ibiblio-maven2 
+[ivy:resolve] found javax.mail#mail;1.4 in ibiblio-maven2 
+[ivy:resolve] found javax.activation#activation;1.1 in ibiblio-maven2 
+[ivy:resolve] found javax.xml.bind#jaxb-api;2.1 in ibiblio-maven2 
+[ivy:resolve] found javax.xml.stream#stax-api;1.0-2 in ibiblio-maven2 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.moxy;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.core;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.asm;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.antlr;2.3.2 in eclipse 
+[ivy:resolve] found javax.servlet#javax.servlet-api;3.0.1 in ibiblio-maven2 
+[ivy:resolve] found javax.servlet#jsp-api;2.0 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.ejb;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.transaction;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.annotation;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-osgi-bundle;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found javax.enterprise#cdi-api;1.0-SP4 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-api;1.1.Final in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-core;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-spi;1.1.Final in ibiblio-maven2 
+[ivy:resolve] found org.javassist#javassist;3.14.0-GA in ibiblio-maven2 
+[ivy:resolve] found com.google.guava#guava;r06 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.interceptor#jboss-interceptor-spi;2.0.0.CR1 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.interceptor#jboss-interceptor-core;2.0.0.CR1 in ibiblio-maven2 
+[ivy:resolve] found javassist#javassist;3.12.0.GA in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-ext;1.5.10 in ibiblio-maven2 
+[ivy:resolve] found ch.qos.cal10n#cal10n-api;0.7.2 in ibiblio-maven2 
+[ivy:resolve] found commons-lang#commons-lang;2.4 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-build-config;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found ant#ant;1.6.5 in ibiblio-maven2 
+[ivy:resolve] found com.sun.net.httpserver#http;20070405 in ibiblio-maven2 
+[ivy:resolve] found asm#asm;3.1 in ibiblio-maven2 
+[ivy:resolve] found net.sf.json-lib#json-lib;2.4 in ibiblio-maven2 
+[ivy:resolve] found commons-beanutils#commons-beanutils;1.8.0 in ibiblio-maven2 
+[ivy:resolve] found commons-logging#commons-logging;1.1.1 in ibiblio-maven2 
+[ivy:resolve] found commons-collections#commons-collections;3.2.1 in ibiblio-maven2 
+[ivy:resolve] found commons-lang#commons-lang;2.5 in ibiblio-maven2 
+[ivy:resolve] found net.sf.ezmorph#ezmorph;1.0.6 in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-ext;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found ch.qos.cal10n#cal10n-api;0.7.4 in ibiblio-maven2 
+[ivy:resolve] found com.potomacfusion.synapse#ses-server;2.4.3 in local 
+[ivy:resolve] found com.potomacfusion.synapse#cdm-core;2.4.3 in local 
+[ivy:resolve] :: resolution report :: resolve 7567ms :: artifacts dl 95ms 
+[ivy:resolve] :: evicted modules: 
+[ivy:resolve] javax.xml.bind#jaxb-api;2.2.2 by [javax.xml.bind#jaxb-api;2.1] in [default] 
+[ivy:resolve] javax.servlet#servlet-api;2.4 by [javax.servlet#servlet-api;2.5] in [default] 
+[ivy:resolve] org.slf4j#slf4j-api;1.5.10 by [org.slf4j#slf4j-api;1.6.6] in [default] 
+[ivy:resolve] org.slf4j#slf4j-ext;1.5.10 by [org.slf4j#slf4j-ext;1.6.6] in [default] 
+[ivy:resolve] ch.qos.cal10n#cal10n-api;0.7.2 by [ch.qos.cal10n#cal10n-api;0.7.4] in [default] 
+[ivy:resolve] javassist#javassist;3.4.GA by [javassist#javassist;3.12.0.GA] in [default] 
+[ivy:resolve] commons-lang#commons-lang;2.4 by [commons-lang#commons-lang;2.5] in [default] 
+[ivy:resolve] commons-lang#commons-lang;2.3 by [commons-lang#commons-lang;2.5] in [default] 
+--------------------------------------------------------------------- 
+| | modules || artifacts | 
+| conf | number| search|dwnlded|evicted|| number|dwnlded| 
+--------------------------------------------------------------------- 
+| default | 80 | 0 | 0 | 8 || 78 | 0 | 
+--------------------------------------------------------------------- 
+[ivy:resolve] 
+[ivy:resolve] :: problems summary :: 
+[ivy:resolve] :::: WARNINGS 
+[ivy:resolve] module not found: org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version} 
+[ivy:resolve] ==== ibiblio-maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== local: tried 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] C:\Users\evega\workspace\project\lib\jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== eclipse: tried 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== maven: tried 
+[ivy:resolve] http://mvnrepository.com/artifact/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://mvnrepository.com/artifact/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== java-net-maven2: tried 
+[ivy:resolve] http://download.java.net/maven/2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://download.java.net/maven/2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== java-net-maven1: tried 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://download.java.net/maven/1/${java.net.maven.pattern} 
+[ivy:resolve] ==== java-net: tried 
+[ivy:resolve] http://download.java.net/maven/2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://download.java.net/maven/2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] ==== central: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.pom 
+[ivy:resolve] -- artifact org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}!jboss-interceptors-api_1.1_spec.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/${interceptor.api.version}/jboss-interceptors-api_1.1_spec-${interceptor.api.version}.jar 
+[ivy:resolve] module not found: javax.annotation#jsr250-api;${jsr250.api.version} 
+[ivy:resolve] ==== ibiblio-maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== local: tried 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] C:\Users\evega\workspace\project\lib\jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== eclipse: tried 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== maven: tried 
+[ivy:resolve] http://mvnrepository.com/artifact/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://mvnrepository.com/artifact/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== java-net-maven2: tried 
+[ivy:resolve] http://download.java.net/maven/2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://download.java.net/maven/2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== java-net-maven1: tried 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://download.java.net/maven/1/${java.net.maven.pattern} 
+[ivy:resolve] ==== java-net: tried 
+[ivy:resolve] http://download.java.net/maven/2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://download.java.net/maven/2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] ==== central: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.pom 
+[ivy:resolve] -- artifact javax.annotation#jsr250-api;${jsr250.api.version}!jsr250-api.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/annotation/jsr250-api/${jsr250.api.version}/jsr250-api-${jsr250.api.version}.jar 
+[ivy:resolve] module not found: javax.inject#javax.inject;${atinject.api.version} 
+[ivy:resolve] ==== ibiblio-maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== local: tried 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] C:\Users\evega\workspace\project\lib\javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== eclipse: tried 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://download.eclipse.org/rt/eclipselink/maven.repo/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== maven: tried 
+[ivy:resolve] http://mvnrepository.com/artifact/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://mvnrepository.com/artifact/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== java-net-maven2: tried 
+[ivy:resolve] http://download.java.net/maven/2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://download.java.net/maven/2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== java-net-maven1: tried 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://download.java.net/maven/1/${java.net.maven.pattern} 
+[ivy:resolve] ==== java-net: tried 
+[ivy:resolve] http://download.java.net/maven/2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://download.java.net/maven/2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== maven2: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] ==== central: tried 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.pom 
+[ivy:resolve] -- artifact javax.inject#javax.inject;${atinject.api.version}!javax.inject.jar: 
+[ivy:resolve] http://repo1.maven.org/maven2/javax/inject/javax.inject/${atinject.api.version}/javax.inject-${atinject.api.version}.jar 
+[ivy:resolve] :::::::::::::::::::::::::::::::::::::::::::::: 
+[ivy:resolve] :: UNRESOLVED DEPENDENCIES :: 
+[ivy:resolve] :::::::::::::::::::::::::::::::::::::::::::::: 
+[ivy:resolve] :: org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;${interceptor.api.version}: not found 
+[ivy:resolve] :: javax.annotation#jsr250-api;${jsr250.api.version}: not found 
+[ivy:resolve] :: javax.inject#javax.inject;${atinject.api.version}: not found 
+[ivy:resolve] :::::::::::::::::::::::::::::::::::::::::::::: 
+[ivy:resolve] 
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS 
+
+BUILD FAILED 
+C:\Users\evega\workspace\project\build.xml:45: impossible to resolve dependencies: 
+resolve failed - see output for details 
+
+Total time: 8 seconds 
+
+Ran right after: 
+
+ant ivy 
+Buildfile: C:\Users\evega\workspace\project\build.xml 
+
+
+ivy: 
+[ivy:configure] :: Apache Ivy 2.3.0-rc1 - 20120416000235 :: http://ant.apache.org/ivy/ :: 
+[ivy:configure] :: loading settings :: file = C:\Users\evega\workspace\project\ivysettings.xml 
+[ivy:resolve] :: resolving dependencies :: com.uscorp#hello-ivy;working@PC-1233-EV 
+[ivy:resolve] confs: [default] 
+[ivy:resolve] found org.slf4j#slf4j-log4j12;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-api;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found log4j#log4j;1.2.17 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-bundle;1.13 in ibiblio-maven2 
+[ivy:resolve] found javax.ws.rs#jsr311-api;1.1.1 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-grizzly;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-servlet-webserver;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-http;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-framework;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-utils;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-lzma;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-rcm;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-portunif;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found com.sun.grizzly#grizzly-http-servlet;1.9.45 in ibiblio-maven2 
+[ivy:resolve] found javax.servlet#servlet-api;2.5 in ibiblio-maven2 
+[ivy:resolve] found org.osgi#osgi_R4_core;1.0 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-client;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-atom;1.13 in ibiblio-maven2 
+[ivy:resolve] found rome#rome;0.9 in ibiblio-maven2 
+[ivy:resolve] found jdom#jdom;1.0 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-json;1.13 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jettison#jettison;1.1 in ibiblio-maven2 
+[ivy:resolve] found stax#stax-api;1.0.1 in ibiblio-maven2 
+[ivy:resolve] found com.sun.xml.bind#jaxb-impl;2.2.3-1 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-core-asl;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-mapper-asl;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-jaxrs;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-xc;1.9.2 in ibiblio-maven2 
+[ivy:resolve] found com.sun.jersey#jersey-fastinfoset;1.13 in ibiblio-maven2 
+[ivy:resolve] found com.sun.xml.fastinfoset#FastInfoset;1.2.9 in ibiblio-maven2 
+[ivy:resolve] found javax.xml#jsr173;1.0 in ibiblio-maven2 
+[ivy:resolve] found javax.persistence#persistence-api;1.0 in ibiblio-maven2 
+[ivy:resolve] found javax.mail#mail;1.4 in ibiblio-maven2 
+[ivy:resolve] found javax.activation#activation;1.1 in ibiblio-maven2 
+[ivy:resolve] found javax.xml.bind#jaxb-api;2.1 in ibiblio-maven2 
+[ivy:resolve] found javax.xml.stream#stax-api;1.0-2 in ibiblio-maven2 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.moxy;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.core;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.asm;2.3.2 in eclipse 
+[ivy:resolve] found org.eclipse.persistence#org.eclipse.persistence.antlr;2.3.2 in eclipse 
+[ivy:resolve] found javax.servlet#javax.servlet-api;3.0.1 in ibiblio-maven2 
+[ivy:resolve] found javax.servlet#jsp-api;2.0 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.ejb;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.transaction;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.glassfish#javax.annotation;3.1 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-osgi-bundle;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found javax.enterprise#cdi-api;1.0-SP4 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;1.0.1.Final in ibiblio-maven2 
+[ivy:resolve] found javax.annotation#jsr250-api;1.0 in ibiblio-maven2 
+[ivy:resolve] found javax.inject#javax.inject;1 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-api;1.1.Final in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-core;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-spi;1.1.Final in ibiblio-maven2 
+[ivy:resolve] found org.javassist#javassist;3.14.0-GA in ibiblio-maven2 
+[ivy:resolve] found com.google.guava#guava;r06 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.interceptor#jboss-interceptor-spi;2.0.0.CR1 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.interceptor#jboss-interceptor-core;2.0.0.CR1 in ibiblio-maven2 
+[ivy:resolve] found javassist#javassist;3.12.0.GA in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-ext;1.5.10 in ibiblio-maven2 
+[ivy:resolve] found ch.qos.cal10n#cal10n-api;0.7.2 in ibiblio-maven2 
+[ivy:resolve] found commons-lang#commons-lang;2.4 in ibiblio-maven2 
+[ivy:resolve] found org.jboss.weld#weld-build-config;1.1.4.Final in ibiblio-maven2 
+[ivy:resolve] found ant#ant;1.6.5 in ibiblio-maven2 
+[ivy:resolve] found com.sun.net.httpserver#http;20070405 in ibiblio-maven2 
+[ivy:resolve] found asm#asm;3.1 in ibiblio-maven2 
+[ivy:resolve] found net.sf.json-lib#json-lib;2.4 in ibiblio-maven2 
+[ivy:resolve] found commons-beanutils#commons-beanutils;1.8.0 in ibiblio-maven2 
+[ivy:resolve] found commons-logging#commons-logging;1.1.1 in ibiblio-maven2 
+[ivy:resolve] found commons-collections#commons-collections;3.2.1 in ibiblio-maven2 
+[ivy:resolve] found commons-lang#commons-lang;2.5 in ibiblio-maven2 
+[ivy:resolve] found net.sf.ezmorph#ezmorph;1.0.6 in ibiblio-maven2 
+[ivy:resolve] found org.slf4j#slf4j-ext;1.6.6 in ibiblio-maven2 
+[ivy:resolve] found ch.qos.cal10n#cal10n-api;0.7.4 in ibiblio-maven2 
+[ivy:resolve] found com.potomacfusion.synapse#ses-server;2.4.3 in local 
+[ivy:resolve] found com.potomacfusion.synapse#cdm-core;2.4.3 in local 
+[ivy:resolve] downloading http://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ... 
+[ivy:resolve] .. (2kB) 
+[ivy:resolve] .. (0kB) 
+[ivy:resolve] [SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (75ms) 
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar ... 
+[ivy:resolve] .... (18kB) 
+[ivy:resolve] .. (0kB) 
+[ivy:resolve] [SUCCESSFUL ] org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;1.0.1.Final!jboss-interceptors-api_1.1_spec.jar (92ms) 
+[ivy:resolve] downloading http://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar ... 
+[ivy:resolve] .. (5kB) 
+[ivy:resolve] .. (0kB) 
+[ivy:resolve] [SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.jar (74ms) 
+[ivy:resolve] :: resolution report :: resolve 3790ms :: artifacts dl 329ms 
+[ivy:resolve] :: evicted modules: 
+[ivy:resolve] javax.xml.bind#jaxb-api;2.2.2 by [javax.xml.bind#jaxb-api;2.1] in [default] 
+[ivy:resolve] javax.servlet#servlet-api;2.4 by [javax.servlet#servlet-api;2.5] in [default] 
+[ivy:resolve] org.slf4j#slf4j-api;1.5.10 by [org.slf4j#slf4j-api;1.6.6] in [default] 
+[ivy:resolve] org.slf4j#slf4j-ext;1.5.10 by [org.slf4j#slf4j-ext;1.6.6] in [default] 
+[ivy:resolve] ch.qos.cal10n#cal10n-api;0.7.2 by [ch.qos.cal10n#cal10n-api;0.7.4] in [default] 
+[ivy:resolve] javassist#javassist;3.4.GA by [javassist#javassist;3.12.0.GA] in [default] 
+[ivy:resolve] commons-lang#commons-lang;2.4 by [commons-lang#commons-lang;2.5] in [default] 
+[ivy:resolve] commons-lang#commons-lang;2.3 by [commons-lang#commons-lang;2.5] in [default] 
+--------------------------------------------------------------------- 
+| | modules || artifacts | 
+| conf | number| search|dwnlded|evicted|| number|dwnlded| 
+--------------------------------------------------------------------- 
+| default | 80 | 3 | 3 | 8 || 81 | 3 | 
+--------------------------------------------------------------------- 
+[ivy:retrieve] :: retrieving :: com.uscorp#hello-ivy 
+[ivy:retrieve] confs: [default] 
+[ivy:retrieve] 81 artifacts copied, 0 already retrieved (27053kB/335ms) 
+
+BUILD SUCCESSFUL 
+Total time: 5 seconds 
+
+
+"
+Ivy,IVY-1384,Default existCommand might be slow in SshRepository when publishing,Improvement,Open,Minor,Unresolved,Unassigned,Vassili Jakovlev,Vassili Jakovlev,10/19/2012 20:25,,10/19/2012 20:25,,2.3.0-RC1,2.3.0-RC1,Core,,0,1,,,,,,,,,"Default command for checking directory or file existence in SshRepository is ""ls"". Execution of that command for checking directory existence might be very slow, if directory contains a lot of files - all because ""ls"" searches for all files in a directory and returns them as a list. 
+
+In our case we have a project that publishes 8 artifacts into a single ""jars"" directory. Since we publish a version after almost every commit, so in three years there are ~10000 artifacts published (and also two .md5 and .sha1 files for each artifact, totally ~30000 files) in that directory. Listing of that directory together with data transfer via ssh takes ~6 seconds. When I replaced ""ls"" command with ""test -e"" in repository configuration, then the same operation took ~0.15 seconds - 40x times faster! Taking in consideration the fact that result of this command in not cached and command is executed several times during the publishing process, our measurements show that we have decreased publishing time from 5 minutes to 1 minute. 
+
+So I suggest setting ""test -e"" as a default value for existCommand variable."
+Ivy,IVY-1388,"*.lck files created by ""artifact-lock"" lock strategy are not cleaned up if ivy quits abruptly",Bug,Resolved,Major,Fixed,Nicolas Lalevée,Wei Chen,Wei Chen,11/9/2012 15:54,,10/7/2016 14:07,12/16/2012 23:25,"2.2.0, 2.3.0-RC1, master",2.3.0,,,3,11,,30,30,,0%,,"IVY-1489, LUCENE-4636",,"We have a few build processes running in parallel, all of which share the same ivy cache. In order not to run into any parallel downloading problems, we enabled artifact-lock lock strategy. An annoying problem with the artifact-lock strategy is that the *.lck files which are created as a lock are not cleaned up if the build exits abruptly. For example, while ivy is downloading a big jar, if you Ctrl-C to quit that build process. Those lock files will remain in the metadatas folder. The same happens too if ivy encounters some error and fails the build. 
+
+Those uncleaned lock files will cause problem when you start the build again. The build process will hang while ivy waiting those ""locks"" to be released, which will never happen automatically. So eventually the build will fail with an ivy error ""impossible to acquire lock for xxxyyyzzzz"". What makes it worse is that ivy doesn't fail-fast on the default 2 miuntes lock timeout, it seems trying it a few times. In worst scenarios, we have seen the build hangs for 12 minutes and then timeout'd and failed. 
+
+We believe this can be fixed by setting deleteOnExit() for the FileBasedLockStrategy.java class. We have implemented the fix and it works well. 
+
+Patch is provided, could anyone quickly apply this one line change?"
+Ivy,IVY-1394,UNRESOLVED DEPENDENCIES with default.properties,Bug,Resolved,Major,Duplicate,Maarten Coene,Matti Linnanvuori,Matti Linnanvuori,12/14/2012 12:05,,12/17/2012 22:19,12/17/2012 22:19,"2.2.0, 2.3.0-RC2",2.3.0,Core,,0,2,,,,,,,IVY-1376,Linux Ubuntu & Debian 64-bit,"Skip to content 
+
+
+Jenkins 
+production 
+#151 
+Back to Project 
+Status 
+Changes 
+Console Output [raw] 
+Edit Build Information 
+Delete Build 
+Polling Log 
+Git Build Data 
+No Tags 
+Previous Build 
+Next BuildExecuted Ant Targets 
+init 
+copy-configuration 
+logger 
+check-xdoclet 
+run-xdoclet 
+generate-source-code 
+compile 
+k3-core 
+k3-ejbs 
+archive-ejbs 
+frontend-ejbs 
+check-cond 
+gis-ejbs 
+client-jar 
+copy-webstuff 
+ccagent-war 
+support-war 
+scheduler-sar 
+scripts 
+ear 
+build 
+init 
+copy-configuration 
+logger 
+check-xdoclet 
+run-xdoclet 
+generate-source-code 
+compile 
+k3-core 
+k3-ejbs 
+archive-ejbs 
+frontend-ejbs 
+check-cond 
+gis-ejbs 
+client-jar 
+copy-webstuff 
+ccagent-war 
+support-war 
+scheduler-sar 
+scripts 
+ear 
+build 
+deploy 
+download-ivy 
+init-ivy 
+compile-tests 
+Console Output 
+Started by an SCM change 
+Building in workspace /var/lib/jenkins/projects/k3 
+Checkout:k3 / /var/lib/jenkins/projects/k3 - hudson.remoting.LocalChannel@166f5ae2 
+Using strategy: Default 
+Last Built Revision: Revision 44f7bcfae9b88588814c3be42042f2a1425b895c (origin/HEAD, origin/master) 
+Fetching changes from 1 remote Git repository 
+Fetching upstream changes from ssh://cvs/data/git/k3.git 
+Seen branch in repository origin/HEAD 
+Seen branch in repository origin/ana 
+Seen branch in repository origin/arlington_build_39_branch 
+Seen branch in repository origin/b1ec90365e5143be68bc465ed990a263c8d61f80 
+Seen branch in repository origin/baco_build_14_branch 
+Seen branch in repository origin/build_4_0-12rc3_branch 
+Seen branch in repository origin/build_4_0-20_branch 
+Seen branch in repository origin/build_4_0-25_branch 
+Seen branch in repository origin/build_4_0-33_branch 
+Seen branch in repository origin/build_4_0-37_branch 
+Seen branch in repository origin/build_4_0-43_branch 
+Seen branch in repository origin/build_4_0-57_branch 
+Seen branch in repository origin/build_4_0-70_branch 
+Seen branch in repository origin/build_4_0-81_branch 
+Seen branch in repository origin/build_4_0-88_ivr2 
+Seen branch in repository origin/build_4_0-92_branch 
+Seen branch in repository origin/build_4_0-93_branch 
+Seen branch in repository origin/build_4_0-94_branch 
+Seen branch in repository origin/cvtd_build_27_branch 
+Seen branch in repository origin/ecolane_3_7_branch 
+Seen branch in repository origin/ecolane_3_8_0_branch 
+Seen branch in repository origin/ecolane_3_8_2_branch 
+Seen branch in repository origin/ecolane_3_8_5_branch 
+Seen branch in repository origin/ecolane_4_0_0_branch 
+Seen branch in repository origin/ecolane_4_0_1_branch 
+Seen branch in repository origin/ecolane_4_0_1_ivr2_branch 
+Seen branch in repository origin/estuary_build_23_branch 
+Seen branch in repository origin/foo 
+Seen branch in repository origin/frontend_development 
+Seen branch in repository origin/hkl_build_02_branch 
+Seen branch in repository origin/infinispan_query_testing 
+Seen branch in repository origin/master 
+Seen branch in repository origin/medstar_build_11_branch 
+Seen branch in repository origin/moutd_build_16_branch 
+Seen branch in repository origin/oravas_additional_passenger_fare_split_changes_branch 
+Seen branch in repository origin/origin 
+Seen branch in repository origin/wsos_build_02_branch 
+Seen branch in repository origin/zds_C_usage_reduction_work 
+Seen branch in repository origin/zds_C_usage_reduction_work_20121015 
+Seen branch in repository origin/zds_c_object_reduction_work_20111113 
+Seen branch in repository origin/zds_c_object_reduction_work_on_finalroute_forming_20111114 
+Seen branch in repository origin/zds_code_quality_work_20121026 
+Seen branch in repository origin/zds_code_quality_work_20121101 
+Seen branch in repository origin/zds_convert_run_rest_to_resteasy 
+Seen branch in repository origin/zds_ecolane_cache_disablement_test_20121022 
+Seen branch in repository origin/zds_new_javascript_libraries_20121031 
+Seen branch in repository origin/zds_performance_work_20120806 
+Seen branch in repository origin/zds_performance_work_20121022 
+Commencing build of Revision 3f4882f3e88af11f3ee62b12f77e6609a7624ba6 (origin/HEAD, origin/master) 
+Checking out Revision 3f4882f3e88af11f3ee62b12f77e6609a7624ba6 (origin/HEAD, origin/master) 
+Warning : There are multiple branch changesets here 
+[production] $ ant -f /var/lib/jenkins/projects/k3/conf/instances/production/build.xml build deploy test 
+Buildfile: /var/lib/jenkins/projects/k3/conf/instances/production/build.xml 
+
+init: 
+[echo] 
+[echo] ----------------------------------------------------- 
+[echo] instance name: production 
+[echo] JBoss version: ${jboss.version} 
+[echo] datasourcemapping: mySQL 
+[echo] datasource: java:/ProductionDS 
+[echo] archive datasource: java:/ProductionArchiveDS 
+[echo] frontend datasource: java:/ProductionFrontendDS 
+[echo] GIS datasource: java:/GisDS 
+[echo] routeserver host: localhost 
+[echo] routeserver port: 4350 
+[echo] 
+[echo] Java version: 20.0-b12 (Sun Microsystems Inc.) 
+[echo] ----------------------------------------------------- 
+[echo] 
+
+copy-configuration: 
+[copy] Copying 11 files to /var/lib/jenkins/projects/k3/build/production/conf 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-archive-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-frontend-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/gis-ejbmeta 
+[copy] Copying 3 files to /var/lib/jenkins/projects/k3/build/production/support-war-meta 
+
+logger: 
+[copy] Copying 4 files to /var/lib/jenkins/projects/k3/build/production/generated-src 
+
+check-xdoclet: 
+
+run-xdoclet: 
+
+generate-source-code: 
+
+compile: 
+[javac] Compiling 4 source files to /var/lib/jenkins/projects/k3/build/production/classes 
+
+k3-core: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/k3-core.jar 
+
+k3-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-k3-ejb.jar 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-k3-old-ejb.jar 
+
+archive-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-archive-ejb.jar 
+
+frontend-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-frontend-ejb.jar 
+
+check-cond: 
+
+gis-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-gis-ejb.jar 
+
+client-jar: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/client.jar 
+
+copy-webstuff: 
+[copy] Copying 1 file to /var/lib/jenkins/projects/k3/build/production/web 
+
+ccagent-war: 
+[war] Building war: /var/lib/jenkins/projects/k3/build/production/production-ccagent.war 
+
+support-war: 
+[war] Building war: /var/lib/jenkins/projects/k3/build/production/production-support.war 
+
+scheduler-sar: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-scheduler.sar 
+
+scripts: 
+[copy] Copying 14 files to /var/lib/jenkins/projects/k3/build/production/bin 
+[copy] Copying 7 files to /var/lib/jenkins/projects/k3/build/production/bin/bundled 
+
+ear: 
+[ear] Building ear: /var/lib/jenkins/projects/k3/build/production/production.ear 
+
+build: 
+
+init: 
+[echo] 
+[echo] ----------------------------------------------------- 
+[echo] instance name: production 
+[echo] JBoss version: ${jboss.version} 
+[echo] datasourcemapping: mySQL 
+[echo] datasource: java:/ProductionDS 
+[echo] archive datasource: java:/ProductionArchiveDS 
+[echo] frontend datasource: java:/ProductionFrontendDS 
+[echo] GIS datasource: java:/GisDS 
+[echo] routeserver host: localhost 
+[echo] routeserver port: 4350 
+[echo] 
+[echo] Java version: 20.0-b12 (Sun Microsystems Inc.) 
+[echo] ----------------------------------------------------- 
+[echo] 
+
+copy-configuration: 
+[copy] Copying 11 files to /var/lib/jenkins/projects/k3/build/production/conf 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-archive-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/k3-frontend-ejbmeta 
+[copy] Copying 2 files to /var/lib/jenkins/projects/k3/build/production/gis-ejbmeta 
+[copy] Copying 3 files to /var/lib/jenkins/projects/k3/build/production/support-war-meta 
+
+logger: 
+[copy] Copying 4 files to /var/lib/jenkins/projects/k3/build/production/generated-src 
+
+check-xdoclet: 
+
+run-xdoclet: 
+
+generate-source-code: 
+
+compile: 
+[javac] Compiling 4 source files to /var/lib/jenkins/projects/k3/build/production/classes 
+
+k3-core: 
+
+k3-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-k3-ejb.jar 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-k3-old-ejb.jar 
+
+archive-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-archive-ejb.jar 
+
+frontend-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-frontend-ejb.jar 
+
+check-cond: 
+
+gis-ejbs: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-gis-ejb.jar 
+
+client-jar: 
+
+copy-webstuff: 
+[copy] Copying 1 file to /var/lib/jenkins/projects/k3/build/production/web 
+
+ccagent-war: 
+[war] Building war: /var/lib/jenkins/projects/k3/build/production/production-ccagent.war 
+
+support-war: 
+[war] Building war: /var/lib/jenkins/projects/k3/build/production/production-support.war 
+
+scheduler-sar: 
+[jar] Building jar: /var/lib/jenkins/projects/k3/build/production/production-scheduler.sar 
+
+scripts: 
+[copy] Copying 14 files to /var/lib/jenkins/projects/k3/build/production/bin 
+[copy] Copying 7 files to /var/lib/jenkins/projects/k3/build/production/bin/bundled 
+
+ear: 
+[ear] Building ear: /var/lib/jenkins/projects/k3/build/production/production.ear 
+
+build: 
+
+deploy: 
+[copy] Copying 1 file to /opt/ecolane/jboss/server/default/deploy 
+
+download-ivy: 
+[mkdir] Created dir: /var/lib/jenkins/.ant/lib 
+[get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.3.0-rc2/ivy-2.3.0-rc2.jar 
+[get] To: /var/lib/jenkins/.ant/lib/ivy.jar 
+
+init-ivy: 
+
+compile-tests: 
+[ivy:resolve] :: Apache Ivy 2.3.0-rc2 - 20121105223351 :: http://ant.apache.org/ivy/ :: 
+[ivy:resolve] :: loading settings :: file = /var/lib/jenkins/projects/k3/ivysettings.xml 
+[ivy:resolve] :: resolving dependencies :: ecolane#k3;working@madmax1.ecolane.com 
+[ivy:resolve] confs: [default] 
+[ivy:resolve] found junit#junit;4.10 in maven2 
+[ivy:resolve] found org.hamcrest#hamcrest-core;1.1 in maven2 
+[ivy:resolve] found org.jboss.shrinkwrap.descriptors#shrinkwrap-descriptors-api-base;2.0.0-alpha-4 in maven2 
+[ivy:resolve] found org.jboss.shrinkwrap.descriptors#shrinkwrap-descriptors-spi;2.0.0-alpha-4 in maven2 
+[ivy:resolve] found org.jboss.shrinkwrap#shrinkwrap-api;1.0.1 in maven2 
+[ivy:resolve] found org.jboss.shrinkwrap#shrinkwrap-impl-base;1.0.1 in maven2 
+[ivy:resolve] found org.jboss.shrinkwrap#shrinkwrap-spi;1.0.1 in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-jbossas-managed-6;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-spi;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-spi;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-api;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-api;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-impl-base;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-spi;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-spi;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.protocol#arquillian-protocol-servlet;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-cdi;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-ejb;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-resource;1.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-initialcontext;1.0.0.CR3 in maven2 
+[ivy:resolve] found jboss.web#servlet-api;3.0.0.alpha-25 in jboss-public 
+[ivy:resolve] found javax.enterprise#cdi-api;1.0 in maven2 
+[ivy:resolve] found org.jboss.interceptor#jboss-interceptor-api;1.1 in maven2 
+[ivy:resolve] found javax.annotation#jsr250-api;1.0 in maven2 
+[ivy:resolve] found javax.ejb#ejb-api;3.0 in maven2 
+[ivy:resolve] found org.jboss.arquillian.junit#arquillian-junit-container;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.junit#arquillian-junit-core;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-spi;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-spi;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-api;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-api;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-api;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-spi;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-spi;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-api;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-impl-base;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-impl-base;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-impl-base;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-impl-base;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-impl-base;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.extension#arquillian-persistence-impl;1.0.0.Alpha5 in maven2 
+[ivy:resolve] found org.jboss.arquillian.extension#arquillian-persistence-api;1.0.0.Alpha5 in maven2 
+[ivy:resolve] found org.dbunit#dbunit;2.4.8 in maven2 
+[ivy:resolve] found commons-collections#commons-collections;3.2.1 in maven2 
+[ivy:resolve] found org.yaml#snakeyaml;1.9 in maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-mapper-asl;1.9.2 in maven2 
+[ivy:resolve] found org.codehaus.jackson#jackson-core-asl;1.9.2 in maven2 
+[ivy:resolve] found org.apache.poi#poi;3.2-FINAL in maven2 
+[ivy:resolve] found commons-logging#commons-logging;1.1 in maven2 
+[ivy:resolve] found log4j#log4j;1.2.12 in maven2 
+[ivy:resolve] found log4j#log4j;1.2.13 in maven2 
+[ivy:resolve] found javax.transaction#jta;1.1 in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-impl-base;1.0.2.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-impl-base;1.0.2.Final in maven2 
+[ivy:resolve] found org.slf4j#slf4j-api;1.7.2 in maven2 
+[ivy:resolve] found org.jboss.logmanager#jboss-logmanager-log4j;1.0.0.GA in maven2 
+[ivy:resolve] found org.jboss.logmanager#jboss-logmanager;1.2.0.GA in maven2 
+[ivy:resolve] found log4j#log4j;1.2.16 in maven2 
+[ivy:resolve] found org.jboss.slf4j#slf4j-jboss-logmanager;1.0.0.GA in jboss-public 
+[ivy:resolve] found commons-logging#commons-logging-adapters;1.1 in maven2 
+[ivy:resolve] found org.mozilla#rhino;1.7R4 in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-spi;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-spi;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.core#arquillian-core-api;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-api;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.config#arquillian-config-impl-base;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-spi;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-spi;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.test#arquillian-test-api;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.container#arquillian-container-test-api;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.protocol#arquillian-protocol-servlet;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-cdi;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-ejb;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.ejb#jboss-ejb-api_3.1_spec;1.0.2.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.xml.rpc#jboss-jaxrpc-api_1.1_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-resource;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.arquillian.testenricher#arquillian-testenricher-initialcontext;1.0.3.Final in maven2 
+[ivy:resolve] found org.jboss.metadata#jboss-metadata-ejb;7.0.5.Final in jboss-public 
+[ivy:resolve] found org.jboss.logging#jboss-logging;3.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-ext-api;2.0.0 in maven2 
+[ivy:resolve] found org.jboss.spec.javax.security.jacc#jboss-jacc-api_1.4_spec;1.0.2.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.resource#jboss-connector-api_1.5_spec;1.0.0.Final in maven2 
+[ivy:resolve] found org.jboss#jboss-common-core;2.2.17.GA in maven2 
+[ivy:resolve] found org.jboss.logging#jboss-logging-spi;2.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.spec.javax.jms#jboss-jms-api_1.1_spec;1.0.1.Final in maven2 
+[ivy:resolve] found javax.inject#javax.inject;1 in maven2 
+[ivy:resolve] found stax#stax-api;1.0.1 in maven2 
+[ivy:resolve] found org.jboss.spec.javax.security.auth.message#jboss-jaspi-api_1.0_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.ejb3.ejbref.resolver#ejbref-resolver-spi;1.0.0-alpha-4 in jboss-public 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-spi;2.0.9.GA in maven2 
+[ivy:resolve] found javax.validation#validation-api;1.0.0.GA in maven2 
+[ivy:resolve] found org.jboss.spec.javax.interceptor#jboss-interceptors-api_1.1_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.annotation#jboss-annotations-api_1.1_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.spec.javax.xml.soap#jboss-saaj-api_1.3_spec;1.0.1.Final in maven2 
+[ivy:resolve] found org.jboss.ejb3.sis#jboss-ejb3-sis;1.0.0-alpha-1 in jboss-public 
+[ivy:resolve] found org.jboss.javaee#jboss-ejb-api;3.0.0.CR1 in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-transaction-api;1.0.1.CR1 in maven2 
+[ivy:resolve] found jboss.jbossws#jboss-jaxrpc;1.0.4.GA in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.async#jboss-ejb3-async-impl;1.0.0-alpha-10 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.async#jboss-ejb3-async-spi;1.0.0-alpha-10 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.context#jboss-ejb3-context-spi;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.security#jboss-security-spi;2.0.2.SP6 in jboss-public 
+[ivy:resolve] found org.jboss.javaee#jboss-ejb-api_3.1;1.0-alpha-1 in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-transaction-api_1.0;1.0-alpha-1 in maven2 
+[ivy:resolve] found org.jboss.ws.native#jbossws-native-jaxrpc;3.0.4.GA in jboss-public 
+[ivy:resolve] found org.jboss.ws.native#jbossws-native-saaj;3.0.4.GA in jboss-public 
+[ivy:resolve] found javax.activation#activation;1.1 in maven2 
+[ivy:resolve] found org.jboss.aop#jboss-aop;2.1.1.GA in jboss-public 
+[ivy:resolve] found apache-xerces#xml-apis;2.9.1 in jboss-public 
+[ivy:resolve] found org.apache.ant#ant;1.7.0 in maven2 
+[ivy:resolve] found org.apache.ant#ant-launcher;1.7.0 in maven2 
+[ivy:resolve] found javassist#javassist;3.10.0.GA in maven2 
+[ivy:resolve] found org.jboss#jboss-reflect;2.0.2.GA in maven2 
+[ivy:resolve] found org.jboss#jboss-mdr;2.0.1.GA in maven2 
+[ivy:resolve] found qdox#qdox;1.6.1 in maven2 
+[ivy:resolve] found trove#trove;2.1.1 in jboss-deprecated-repository 
+[ivy:resolve] found org.jboss.logging#jboss-logging-log4j;2.0.5.GA in maven2 
+[ivy:resolve] found org.jboss.aspects#jboss-remoting-aspects;1.0.2 in jboss-public 
+[ivy:resolve] found jboss#jboss-serialization;1.0.3.GA in jboss-public 
+[ivy:resolve] found org.jboss.remoting#jboss-remoting;2.5.2 in jboss-public 
+[ivy:resolve] found org.jboss.aop#jboss-aop;2.0.0.CR11 in jboss-public 
+[ivy:resolve] found org.jboss.aspects#jboss-transaction-aspects;1.0.0.GA in jboss-public 
+[ivy:resolve] found org.jboss.integration#jboss-transaction-spi;5.0.0.CR2 in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-jca-api;1.5.0.CR1 in maven2 
+[ivy:resolve] found org.jboss.aspects#jboss-security-aspects;1.0.0.GA in jboss-public 
+[ivy:resolve] found org.jboss.microcontainer#jboss-kernel;2.0.0.Beta13 in maven2 
+[ivy:resolve] found org.jboss.microcontainer#jboss-dependency;2.0.0.Beta13 in maven2 
+[ivy:resolve] found org.jboss#jbossxb;2.0.0.CR8 in maven2 
+[ivy:resolve] found apache-xerces#xercesImpl;2.9.1 in jboss-public 
+[ivy:resolve] found wutka-dtdparser#dtdparser121;1.2.1 in jboss-public 
+[ivy:resolve] found javax.xml.bind#jaxb-api;2.1 in maven2 
+[ivy:resolve] found javax.xml.stream#stax-api;1.0-2 in maven2 
+[ivy:resolve] found org.jboss.security#jboss-security-spi;2.0.2.Beta5 in jboss-public 
+[ivy:resolve] found org.jboss.security#jbosssx;2.0.2.CR2 in jboss-public 
+[ivy:resolve] found org.jboss.javaee#jboss-jaspi-api;1.0.0.CR1 in maven2 
+[ivy:resolve] found javax.security#jacc;1.0 in maven2 
+[ivy:resolve] found org.jboss.ejb3.async#jboss-ejb3-async-deployer;1.0.0-alpha-10 in jboss-public 
+[ivy:resolve] found org.jboss.kernel#jboss-kernel;2.2.0.Alpha10 in jboss-public 
+[ivy:resolve] found org.jboss.kernel#jboss-dependency;2.2.0.Alpha10 in jboss-public 
+[ivy:resolve] found org.jboss#jboss-reflect;2.2.0.Alpha4 in maven2 
+[ivy:resolve] found org.jboss.logging#jboss-logging-spi;2.2.0.CR1 in maven2 
+[ivy:resolve] found org.jboss#jboss-mdr;2.2.0.Alpha2 in maven2 
+[ivy:resolve] found org.jboss#jbossxb;2.0.2.Beta6 in maven2 
+[ivy:resolve] found javax.activation#activation;1.1.1 in maven2 
+[ivy:resolve] found sun-jaxb#jaxb-api;2.1.9 in jboss-public 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-spi;2.2.0.Alpha4 in maven2 
+[ivy:resolve] found org.jboss.mcann#mcann-core;1.0.0.Alpha2 in jboss-public 
+[ivy:resolve] found org.jboss#jboss-vfs;3.0.0.CR3 in maven2 
+[ivy:resolve] found org.jboss.cl#jboss-classloading-vfs;2.2.0.Alpha4 in maven2 
+[ivy:resolve] found org.jboss.cl#jboss-classloader;2.2.0.Alpha4 in maven2 
+[ivy:resolve] found org.jboss.integration#jboss-classloading-spi;5.1.0.SP1 in maven2 
+[ivy:resolve] found javassist#javassist;3.11.0.GA in maven2 
+[ivy:resolve] found org.jboss.metadata#jboss-metadata;1.0.4 in jboss-public 
+[ivy:resolve] found org.jboss.javaee#jboss-ejb-api;3.0.0.GA in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-transaction-api;1.0.1.GA in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-jms-api;1.1.0.GA in maven2 
+[ivy:resolve] found org.hibernate#ejb3-persistence;1.0.2.GA in maven2 
+[ivy:resolve] found org.jboss.ws#jbossws-spi;1.0.6.GA in jboss-public 
+[ivy:resolve] found dom4j#dom4j;1.6.1 in maven2 
+[ivy:resolve] found xml-apis#xml-apis;1.0.b2 in maven2 
+[ivy:resolve] found gnu-getopt#getopt;1.0.13 in jboss-public 
+[ivy:resolve] found jboss.jbossws#jboss-jaxws;3.0.1-native-2.0.4.GA in jboss-public 
+[ivy:resolve] found org.jboss.threads#jboss-threads;2.0.0.CR4 in maven2 
+[ivy:resolve] found org.jboss.threads#jboss-threads-metadata;2.0.0.CR4 in maven2 
+[ivy:resolve] found org.jboss.microcontainer#jboss-kernel;2.0.9.GA in maven2 
+[ivy:resolve] found org.jboss.microcontainer#jboss-dependency;2.0.9.GA in maven2 
+[ivy:resolve] found org.jboss.microcontainer#jboss-aop-mc-int;2.0.9.GA in maven2 
+[ivy:resolve] found org.jboss.aop#jboss-aop;2.1.0.CR3 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-cache;1.0.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-common;1.0.3 in jboss-public 
+[ivy:resolve] found org.jboss.security#jboss-security-spi;2.0.2.SP1 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-core;1.7.9 in jboss-public 
+[ivy:resolve] found org.jboss.integration#jboss-jca-spi;5.0.3.GA in maven2 
+[ivy:resolve] found org.jboss.aop#jboss-aop-aspects;2.0.0.SP1 in jboss-public 
+[ivy:resolve] found bsh#bsh;1.3.0 in maven2 
+[ivy:resolve] found org.jboss.cluster#jboss-ha-client;1.1.1.GA in jboss-public 
+[ivy:resolve] found org.jboss.cluster#jboss-ha-server-api;1.1.1.GA in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-endpoint;0.1.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-security;1.0.2 in jboss-public 
+[ivy:resolve] found org.jboss.aspects#jboss-current-invocation-aspects;1.0.0.CR1 in jboss-public 
+[ivy:resolve] found org.jboss.javaee#jboss-jacc-api;1.1.0.CR1 in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-servlet-api;2.5.0.GA in maven2 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-metadata;1.0.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-timerservice-spi;1.0.4 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.context#jboss-ejb3-context-spi;0.3.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-ext-api-impl;1.1.1 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-proxy-spi;1.0.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.concurrency#jboss-ejb3-concurrency-aop;1.0.0-alpha-3 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.concurrency#jboss-ejb3-concurrency-impl;1.0.0-alpha-3 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.context#jboss-ejb3-context-base;0.3.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.effigy#jboss-ejb3-effigy-common;0.1.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.effigy#jboss-ejb3-effigy-api;0.1.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.timeout#jboss-ejb3-timeout-spi;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.vfs#jboss-ejb3-vfs-spi;1.0.0-alpha-1 in jboss-public 
+[ivy:resolve] found org.jboss.jpa#jboss-jpa-deployers;1.0.2-alpha-1 in jboss-public 
+[ivy:resolve] found org.jboss.integration#jboss-transaction-spi;5.0.3.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs;2.0.5.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs-spi;2.0.5.GA in maven2 
+[ivy:resolve] found org.jboss.cl#jboss-classloading;2.0.3.GA in maven2 
+[ivy:resolve] found org.jboss.jpa#jboss-jpa-impl;1.0.0 in jboss-public 
+[ivy:resolve] found org.jboss.jpa#jboss-jpa-spi;1.0.0 in jboss-public 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-core-spi;2.0.0.CR5 in maven2 
+[ivy:resolve] found org.jboss.injection#jboss-injection-manager;1.0.0-alpha-3 in jboss-public 
+[ivy:resolve] found org.jboss.injection#jboss-injection-injector;1.0.0-alpha-3 in jboss-public 
+[ivy:resolve] found org.jboss.injection#jboss-injection-mc-impl;1.0.0-alpha-3 in jboss-public 
+[ivy:resolve] found org.jboss.reloaded.naming#jboss-reloaded-naming-spi;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.reloaded.naming#jboss-reloaded-naming-deployers;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.reloaded.naming#jboss-reloaded-naming-impl;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.naming#jnpserver;5.0.0.CR1 in jboss-public 
+[ivy:resolve] found org.jboss.metadata#jboss-metadata-war;2.0.0.Alpha14 in jboss-public 
+[ivy:resolve] found org.jboss.metadata#jboss-metadata-common;2.0.0.Alpha14 in jboss-public 
+[ivy:resolve] found org.jboss.security#jboss-security-spi;2.0.3.SP1 in jboss-public 
+[ivy:resolve] found org.jboss.security#jbosssx;2.0.3.SP1 in jboss-public 
+[ivy:resolve] found quartz#quartz;1.6.0 in jboss-deprecated-repository 
+[ivy:resolve] found sun-jaxws#jaxws-api;2.1.1 in jboss-deprecated-repository 
+[ivy:resolve] found sun-jaxws#jsr181-api;2.1.1 in jboss-deprecated-repository 
+[ivy:resolve] found org.jboss.ejb3.context#jboss-ejb3-context-naming;0.3.0 in jboss-public 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-main;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.bootstrap#jboss-bootstrap;1.0.0-Beta-3 in jboss-public 
+[ivy:resolve] found org.jboss.man#jboss-managed;2.1.0.SP1 in maven2 
+[ivy:resolve] found org.jboss.man#jboss-metatype;2.1.0.SP1 in maven2 
+[ivy:resolve] found org.jboss.logbridge#jboss-logbridge;1.0.0.GA in jboss-public 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-system;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs-spi;2.0.7.GA in maven2 
+[ivy:resolve] found org.jboss.cl#jboss-classloading;2.0.6.GA in maven2 
+[ivy:resolve] found org.jboss.integration#jboss-profileservice-spi;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-client-spi;2.0.7.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-structure-spi;2.0.7.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs;2.0.7.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-impl;2.0.7.GA in maven2 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-system-jmx;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-j2se;5.1.0.GA in maven2 
+[ivy:resolve] found oswego-concurrent#concurrent;1.3.4-jboss-update1 in jboss-public 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-jmx;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-mbeans;5.1.0.GA in maven2 
+[ivy:resolve] found bcel#bcel;5.1 in maven2 
+[ivy:resolve] found regexp#regexp;1.2 in maven2 
+[ivy:resolve] found org.jboss.test#jboss-test;1.1.5-alpha-2 in maven2 
+[ivy:resolve] found org.apache.ant#ant;1.7.1 in maven2 
+[ivy:resolve] found org.apache.ant#ant-launcher;1.7.1 in maven2 
+[ivy:resolve] found org.apache.ant#ant-junit;1.7.0 in maven2 
+[ivy:resolve] found jboss.profiler.jvmti#jboss-profiler-jvmti;1.0.0.CR5 in jboss-public 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-server;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.jbossas#jboss-as-deployment;5.1.0.GA in maven2 
+[ivy:resolve] found javax.security#jaas;1.0.01 in maven2 
+[ivy:resolve] found org.jboss.javaee#jboss-jad-api;1.2.0.GA in maven2 
+[ivy:resolve] found org.jboss.ws.native#jbossws-native-saaj;3.1.2.GA in jboss-public 
+[ivy:resolve] found jpl-pattern#jpl-pattern;1.0 in jboss-deprecated-repository 
+[ivy:resolve] found jpl-util#jpl-util;1.0 in jboss-deprecated-repository 
+[ivy:resolve] found org.jboss.integration#jboss-transaction-spi;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.naming#jnp-client;5.0.3.GA in jboss-public 
+[ivy:resolve] found org.jboss.integration#jboss-deployment-spi;5.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.jpa#jboss-jpa-deployers;1.0.0 in jboss-public 
+[ivy:resolve] found org.hibernate#hibernate-entitymanager;3.4.0.GA in maven2 
+[ivy:resolve] found org.hibernate#hibernate-commons-annotations;3.1.0.GA in maven2 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-deployers;1.1.5 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.effigy#jboss-ejb3-effigy-int2;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.effigy#jboss-ejb3-effigy-api;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.effigy#jboss-ejb3-effigy-common;0.2.0 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.ejbref.resolver#ejbref-resolver-ejb31-impl;1.0.0-alpha-4 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.ejbref.resolver#ejbref-resolver-ejb30-impl;1.0.0-alpha-4 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3#jboss-ejb3-interceptors;1.1.3 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.heks#jboss-ejb3-heks;0.1.2 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.nointerface#jboss-ejb3-nointerface-impl;1.0.0-alpha-11 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.nointerface#jboss-ejb3-nointerface-spi;1.0.0-alpha-11 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.proxy#proxy-javassist;1.0.0-alpha-1 in jboss-public 
+[ivy:resolve] found org.jboss.ejb3.proxy#proxy-spi;1.0.0-alpha-1 in jboss-public 
+[ivy:resolve] found org.jboss.metadata#jboss-metadata-ear;2.0.0.Alpha in jboss-public 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-core-spi;2.0.8.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-impl;2.0.8.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs;2.0.8.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-vfs-spi;2.0.8.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-structure-spi;2.0.8.GA in maven2 
+[ivy:resolve] found org.jboss.deployers#jboss-deployers-client-spi;2.0.8.GA in maven2 
+[ivy:resolve] found"
+Ivy,IVY-1414,create possibility for easy transition from Maven,Improvement,Open,Major,Unresolved,Unassigned,Vyacheslav Sakhno,Vyacheslav Sakhno,3/28/2013 6:40,,4/10/2013 6:03,,2.3.0,,Core,,1,2,,,,,,,,,"Maven is declarative and not easy to understand build system. To build several target they must be sequenced and executed together as a part of lifecycle. That slowdown build speed by N times for N targets. The only functionality maven do well is dependency management which is equivalent to Ive functionality. So is does make sense to move to Ant+Ivy instead of Maven. 
+
+I suggest to improve support for that migration: 
+Make Ivy support maven dependency format: easy to implement for one developer but removes 1 hour hand work for thousands developers over the world. 
+Also make support of reading dependencies from maven repo and publishing the to it. 
+
+Though it is easy work to do it makes Ive more attractive for transition from Maven. 
+"
+Ivy,IVY-1425,Add an option to compress artifact in the FileSystemRepository,Improvement,Open,Minor,Unresolved,Unassigned,Marc Sanfacon,Marc Sanfacon,6/28/2013 17:34,,6/28/2013 17:35,,,,Core,,1,1,,86400,86400,,0%,,,,"We use Ivy to store components from C++ that are not compressed by default. We want to have our master repository compressed so that transferring content from it to developers machine will be faster as well as consuming less space on the server. 
+
+We added an attribute to the FileSystemReposiroty (i will include the patch) and we would really like this to be incorporated in the main trunk."
+Ivy,IVY-1465,ModuleRules.getRule is O(n) leading to resolution slowness,Bug,Resolved,Minor,Fixed,Unassigned,Joshua Suereth,Joshua Suereth,4/1/2014 19:47,,12/17/2014 10:22,12/17/2014 10:17,2.3.0,2.4.0,Core,,2,9,,,,,,,IVY-1496,"OpenJDK 6,7, MacOSX + Ubuntu","So, for the sbt project we noticed significant resolution time improvements with the following patch: 
+
+https://github.com/sbt/ivy/pull/1 
+
+The reasoning: 
+
+A lot of artifacts being resolved use Maven's ""dependencyManagement"" conventions 
+Ivy appears to turn these into ""exact matcher"" rules 
+A ton of resolution time is spent filtering through these rules 
+The existing solution is O(n) for all overrides 
+
+What the patch does: 
+
+Creates a key'd store for all ""exact matcher"" rules 
+When executing rules, ensure that we only traverse what we have to (non-exact, exact specific to our key and ""default""). 
+
+As I said, this represents a significant speed bump for sbt builds using Ivy. All existing tests pass, and I think they cover this aspect of ivy pretty well, from what I could see."
+Ivy,IVY-1508,Nullpointer in LatestCompatibleConflictManager,Bug,Open,Major,Unresolved,Unassigned,Jonathan Bunde-Pedersen,Jonathan Bunde-Pedersen,1/9/2015 12:24,,6/1/2015 12:59,,2.4.0,,Core,,2,3,,,,,,,,"Mac OSX. 
+
+java version ""1.7.0_45"" 
+Java(TM) SE Runtime Environment (build 1.7.0_45-b18) 
+Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode) 
+
+Apache Ant(TM) version 1.9.3 compiled on December 23 2013","I get the following trace when running Ivy (via an Ant target) - it's quite long but ends with a NullPointer: 
+
+{noformat} 
+Apache Ant(TM) version 1.9.3 compiled on December 23 2013 
+Buildfile: /Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy/build.xml 
+Detected Java version: 1.7 in: /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre 
+Detected OS: Mac OS X 
+parsing buildfile /Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy/build.xml with URI = file:/Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy/build.xml 
+Project base dir set to: /Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy 
+parsing buildfile jar:file:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file 
+Property ""env.IVY_HOME"" has not been set 
+Build sequence for target(s) `report' is [download-ivy, init-ivy, resolve, report] 
+Complete build sequence is [download-ivy, init-ivy, resolve, report, ] 
+
+download-ivy: 
+[mkdir] Skipping /Users/jonathan/.ant/lib because it already exists. 
+[get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar 
+[get] To: /Users/jonathan/.ant/lib/ivy.jar 
+[get] Not modified - so not downloaded 
+
+init-ivy: 
+parsing buildfile jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml with URI = jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml from a zip file 
+parsing buildfile jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml with URI = jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml from a zip file 
+
+resolve: 
+parsing buildfile jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml with URI = jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/ant/antlib.xml from a zip file 
+[ivy:configure] Loading jar:file:/Users/jonathan/.ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivy.properties 
+[ivy:configure] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ :: 
+[ivy:configure] jakarta commons httpclient not found: using jdk url handling 
+[ivy:configure] :: loading settings :: file = /Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy/ivysettings.xml 
+[ivy:configure] using ivy.default.ivy.user.dir variable for default ivy user dir: /Users/jonathan/.ant 
+[ivy:configure] loading properties: /Users/jonathan/Development/Projects/svn.c3a.dk/chums/ivy/ivysettings-file.properties 
+[ivy:configure] no default cache defined: set to /Users/jonathan/.ant/cache 
+[ivy:configure] settings loaded (635ms) 
+[ivy:configure] default cache: /Users/jonathan/.ant/cache 
+[ivy:configure] default resolver: internal 
+[ivy:configure] -- 1 resolvers: 
+[ivy:configure] internal [file] 
+[delete] Deleting directory /Users/jonathan/.ant/cache 
+[delete] Deleting /Users/jonathan/.ant/cache/--default.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivy-4.6.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivy-4.6.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivy-4.7.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivy-4.7.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivydata-4.6.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivydata-4.7.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/administrative/xmls/ivy-4.6.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/administrative/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/administrative 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/configurator 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/ivy-1.1.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/ivy-1.1.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/ivydata-1.1.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/xmls/ivy-1.1.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/coreadmin 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/ivy-2.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/ivy-2.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/ivydata-2.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/xmls/ivy-2.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/editablecontrols 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivy-5.1.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivy-5.1.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivy-5.4.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivy-5.4.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivydata-5.1.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivydata-5.4.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/xmls/ivy-5.1.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/genericlist 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/ivy-1.1.2.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/ivy-1.1.2.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/ivydata-1.1.2.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/xmls/ivy-1.1.2.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/screener 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/silverpuffin 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/ivy-1.0.4.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/ivy-1.0.4.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/ivydata-1.0.4.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/xmls/ivy-1.0.4.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/staticlists 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/ivy-1.1.3.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/ivy-1.1.3.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/ivydata-1.1.3.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/xmls/ivy-1.1.3.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/subitizer 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/ivy-2.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/ivy-2.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/ivydata-2.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/xmls/ivy-2.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/tracking 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/ivy-2.1.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/ivy-2.1.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/ivydata-2.1.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/xmls/ivy-2.1.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components/triage 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/components 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/core/ivy-5.5.5.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/core/ivy-5.5.5.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/core/ivydata-5.5.5.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/core/xmls/ivy-5.5.5.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/core/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/core 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/ivy-5.1.9.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/ivy-5.1.9.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/ivydata-5.1.9.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/xmls/ivy-5.1.9.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/editablecontrols 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/ivy-0.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/ivy-0.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/ivydata-0.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/xmls/ivy-0.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/genericlist 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/ivy-0.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/ivy-0.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/ivydata-0.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/xmls/ivy-0.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere/inboundpatients 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/anywhere 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/ivy-1.2.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/ivy-1.2.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/ivydata-1.2.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/xmls/ivy-1.2.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/backupanywhereclient 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/chums/ivy-1.7.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/chums/ivy-1.7.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/chums/ivydata-1.7.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/chums/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/chums/xmls/ivy-1.7.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/chums/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/chums 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivy-4.4.7.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivy-4.4.7.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivy-4.5.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivy-4.5.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivydata-4.4.7.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivydata-4.5.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivydata-[4.4,4.5[.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/ivydata-]4.5,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/core/xmls/ivy-4.4.7.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/core/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/core 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/ivy-4.4.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/ivy-4.4.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/ivydata-4.4.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/xmls/ivy-4.4.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/fapi/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/fapi 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/ivy-0.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/ivy-0.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/ivydata-0.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/xmls/ivy-0.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/iapi_modules 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring/mssql 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/mirroring 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/ivy-1.0.3.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/ivy-1.0.3.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/ivydata-1.0.3.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/xmls/ivy-1.0.3.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis/surveillancing 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/cis 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/configtool/ivy-4.7.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/configtool/ivy-4.7.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/configtool/ivydata-4.7.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/configtool/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/configtool/xmls/ivy-4.7.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/configtool/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/configtool 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/frontend/specs/ccow 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/frontend/specs 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/frontend 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/ivy-0.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/ivy-0.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/ivydata-0.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/xmls/ivy-0.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/mvuc 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/ivy-0.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/ivy-0.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/ivydata-0.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/xmls/ivy-0.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/architecture/performancecounters 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/architecture 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/ivy-1.0.5.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/ivy-1.0.5.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/ivydata-1.0.5.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/xmls/ivy-1.0.5.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/advis 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/ivy-1.0.4.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/ivy-1.0.4.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/ivydata-1.0.4.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/xmls/ivy-1.0.4.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/bedlist 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/blurscreenpicture 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/ivy-1.0.3.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/ivy-1.0.3.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/ivydata-1.0.3.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/xmls/ivy-1.0.3.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/calendar 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/ivy-1.0.1.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/ivy-1.0.1.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/ivydata-1.0.1.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/xmls/ivy-1.0.1.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/cancelledpatientitemgrid 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/ivy-1.0.2.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/ivy-1.0.2.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/ivydata-1.0.2.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/xmls/ivy-1.0.2.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/componentconfigurator 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/ivy-1.0.2.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/ivy-1.0.2.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/ivydata-1.0.2.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/xmls/ivy-1.0.2.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/autobedlist 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/ivy-1.0.6.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/ivy-1.0.6.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/ivydata-1.0.6.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/xmls/ivy-1.0.6.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/bedlist 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/ivy-1.0.1.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/ivy-1.0.1.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/ivydata-1.0.1.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/xmls/ivy-1.0.1.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/blurscreenpicture 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/ivy-1.0.4.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/ivy-1.0.4.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/ivydata-1.0.4.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/xmls/ivy-1.0.4.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/calendar 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/ivy-1.0.3.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/ivy-1.0.3.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/ivydata-1.0.3.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/xmls/ivy-1.0.3.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/cancelledpatientitemgrid 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/ivydata-[0.0.0,).properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/xmls/ivy-1.0.0.xml 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole/xmls 
+[delete] Deleting directory /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/communicationporthole 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/containerpicture/ivy-1.0.0.xml 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/containerpicture/ivy-1.0.0.xml.original 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/containerpicture/ivydata-1.0.0.properties 
+[delete] Deleting /Users/jonathan/.ant/cache/com.cetrea/idf/components/configurablepicture/containerpicture/ivydata-[0.0.0,).properties 
+[delete] Deleting /U"
+Ivy,IVY-1529,Edit PomModuleDescriptorParser disabled handle source and javadoc artifact for speed up...,Bug,Resolved,Major,Fixed,Nicolas Lalevée,qxo,qxo,8/12/2015 5:50,,8/30/2015 15:14,8/30/2015 15:14,,master,,,0,2,,,,,,,,,https://github.com/apache/ant-ivy/pull/6

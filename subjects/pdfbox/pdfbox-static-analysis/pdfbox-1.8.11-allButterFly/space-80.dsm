@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.setNextBead(PDThreadBead)
+org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.PDThreadBead()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.getNextBead()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.setPreviousBead(PDThreadBead)
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.appendBead(PDThreadBead)
+org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)
+org.apache.pdfbox.cos.COSDictionary.setName(String, String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.setItem(String, COSObjectable)
+org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead.PDThreadBead(COSDictionary)

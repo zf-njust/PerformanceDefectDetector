@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 1 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSArray.getInt(int, int)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSArray.remove(COSBase)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSArray.getInt(int)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.removeClassName(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSName.equals(Object)

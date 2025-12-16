@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.RepositoryCopyProgressListener.progress(CopyProgressEvent)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.CopyProgressEvent.getReadBytes()" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.fireTransferProgress(long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getTotalLength()" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent)" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.setLength(long)" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.setTotalLength(long)" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.isTotalLengthSet()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)" />
+<item name="org.apache.ivy.plugins.repository.TransferListener.transferProgress(TransferEvent)" />
+<item name="org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getNamedOutputsList(JobConf)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.AvroMultipleOutputs(JobConf)" />
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.checkNamedOutput(JobConf, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroMultipleOutputs.getCountersEnabled(JobConf)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

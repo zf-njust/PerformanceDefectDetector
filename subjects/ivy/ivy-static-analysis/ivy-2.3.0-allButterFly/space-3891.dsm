@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 1 0 0 1 
+0 1 0 0 0 0 0 0 0 0 1 0 0 
+org.apache.ivy.core.module.descriptor.ConfigurationGroup.getMembersConfigurationNames()
+org.apache.ivy.core.module.descriptor.Configuration.getName()
+org.apache.ivy.core.module.descriptor.ConfigurationIntersection.getIntersectedConfigurationNames()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceThisFallbackPattern(String, String)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyConfigurations(String)
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceFallbackConfigurationPattern(Pattern, String, String)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceSelfFallbackPattern(String, String)
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyConfigurations(String, String)
+org.apache.ivy.core.module.descriptor.Configuration.getExtends()
+org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyConfigurationsIncludingExtending(String, String)
+org.apache.ivy.core.module.descriptor.Configuration.findConfigurationExtending(String, Configuration[])

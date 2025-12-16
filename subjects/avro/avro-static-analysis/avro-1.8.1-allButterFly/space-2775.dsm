@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 
+org.apache.avro.io.BinaryDecoder.BinaryDecoder()
+org.apache.avro.specific.SpecificData.getDecoder(ObjectInput)
+org.apache.avro.io.DecoderFactory.get()
+org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.ReuseByteReader(ByteBufferInputStream)
+org.apache.avro.io.DecoderFactory.directBinaryDecoder(InputStream, BinaryDecoder)
+org.apache.avro.io.DatumReader.read(D, Decoder)
+org.apache.avro.FooBarSpecificRecord.readExternal(java.io.ObjectInput)
+org.apache.avro.specific.ExternalizableInput.ExternalizableInput(ObjectInput)
+org.apache.avro.io.DirectBinaryDecoder.configure(InputStream)
+org.apache.avro.io.DirectBinaryDecoder.DirectBinaryDecoder(InputStream)

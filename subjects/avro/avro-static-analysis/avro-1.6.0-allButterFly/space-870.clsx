@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Encoder.writeBytes(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonEncoder.writeBytes(ByteBuffer)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.writeBytes(Object, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumWriter.writeBytes(Object, Encoder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Encoder.writeBytes(ByteBuffer)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Encoder.writeBytes(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

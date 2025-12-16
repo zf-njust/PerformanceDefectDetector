@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 1 1 0 
+org.apache.ivy.core.module.descriptor.IncludeRule.getId()
+org.apache.ivy.core.module.id.ArtifactId.getName()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getIncludeRules(String[])
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParserTester.assertDependencyArtifactIncludeRules(DependencyDescriptor, String[], String[])

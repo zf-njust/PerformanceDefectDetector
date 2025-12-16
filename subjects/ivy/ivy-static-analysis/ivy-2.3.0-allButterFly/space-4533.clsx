@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.Ivy14.listRevisions(String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.listRevisions(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.Ivy.pushContext()" />
+<item name="org.apache.ivy.Ivy.popContext()" />
+<item name="org.apache.ivy.core.search.SearchEngine.listRevisions(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.popContext()" />
+<item name="org.apache.ivy.core.IvyContext.pushContext(IvyContext)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.setIvy(Ivy)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.listTokenValues(String, Map)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getResolvers()" />
+<item name="org.apache.ivy.core.IvyContext.pushNewContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

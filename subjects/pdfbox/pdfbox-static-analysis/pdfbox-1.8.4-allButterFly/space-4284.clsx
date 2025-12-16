@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.setContext(PreflightContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.createContext()" />
+<item name="org.apache.pdfbox.preflight.action.pdfa1b.AbstractTestAction.createContext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightContext.setXrefTableResolver(XrefTrailerResolver)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.setDocument(PreflightDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.PreflightContext(DataSource)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, BaseParser)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

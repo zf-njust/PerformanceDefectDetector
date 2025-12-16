@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.interpolate(float, long, float, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.readPatch(ImageInputStream, boolean, Point2D[], float[][], long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.transformPoint(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.generatePatch(Point2D[], float[][])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

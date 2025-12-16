@@ -1,0 +1,74 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.isAfter(ResolvedModuleRevision, ResolvedModuleRevision, Date)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.checkLatest(DependencyDescriptor, ResolvedModuleRevision, ResolveData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.isDefault()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.saveModuleRevisionIfNeeded(DependencyDescriptor, ResolvedModuleRevision)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getDate()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.describe(ResolvedModuleRevision)" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getDescriptor()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getCurrentResolvedModuleRevision()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVersionMatcher()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getResolver()" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.saveResolvedRevision(ModuleRevisionId, String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getDate()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.getName()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.LatestStrategy.findLatest(ArtifactInfo[], Date)" />
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.ResolvedModuleRevisionArtifactInfo.ResolvedModuleRevisionArtifactInfo(ResolvedModuleRevision)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getLatestStrategy()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initLatestStrategyFromSettings()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getLatestStrategy(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultLatestStrategy()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

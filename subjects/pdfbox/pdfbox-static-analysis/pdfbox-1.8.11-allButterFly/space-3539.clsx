@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.getGamma()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.createColorSpace()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.getBlackPoint()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.getWhitepoint()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCalRGB.ColorSpaceCalRGB(PDGamma, PDTristimulus, PDTristimulus, PDMatrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.getLinearInterpretation()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.PDTristimulus(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMatrix.PDMatrix(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCalRGB.ColorSpaceCalRGB()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.setLinearInterpretation(PDMatrix)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMatrix.PDMatrix()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.PDMatrix.getCOSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDGamma.PDGamma(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+</group>
+</cluster>

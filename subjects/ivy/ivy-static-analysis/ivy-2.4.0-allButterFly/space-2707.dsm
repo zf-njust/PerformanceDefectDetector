@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 1 1 0 
+0 0 0 0 1 
+0 0 0 1 0 
+0 1 0 0 0 
+0 0 0 0 0 
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getLockStrategy()
+org.apache.ivy.plugins.lock.NoLockStrategy.NoLockStrategy()
+org.apache.ivy.core.settings.IvySettings.getLockStrategy(String)
+org.apache.ivy.core.settings.IvySettings.getDefaultLockStrategy()
+org.apache.ivy.plugins.lock.AbstractLockStrategy.setName(String)

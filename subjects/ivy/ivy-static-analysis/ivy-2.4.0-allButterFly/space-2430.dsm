@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 1 
+0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.exist(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.listTokenValues(String[], Map)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findArtifactNames(Map, String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findIvyNames(Map, String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.listTokenValues(String, String)
+org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)
+org.apache.ivy.plugins.resolver.BasicResolver.filterNames(Collection)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getModuleDescriptorExtension()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.convertM2TokenValuesForResourceSearch(Map)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findTokenValues(Collection, List, Map, String)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.plugins.resolver.ResolverSettings.filterIgnore(Collection)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()
+org.apache.ivy.core.IvyPatternHelper.getFirstToken(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.resolveTokenValues(String[], String, Map, boolean)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getArtifactPatterns()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.convertM2OrganizationForResourceSearch(String)
+org.apache.ivy.plugins.resolver.BasicResolver.isAllownomd()

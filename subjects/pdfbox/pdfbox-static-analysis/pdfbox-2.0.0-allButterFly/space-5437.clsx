@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.DocumentCreator.writeOperand(Object, StyledDocument)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.DocumentCreator.writeToken(Object, StyledDocument)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.DocumentCreator.addOperators(Object, StyledDocument)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getImageParameters()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getImageData()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSFloat.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamPane.DocumentCreator.writeIndent(StyledDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+</group>
+</group>
+</cluster>

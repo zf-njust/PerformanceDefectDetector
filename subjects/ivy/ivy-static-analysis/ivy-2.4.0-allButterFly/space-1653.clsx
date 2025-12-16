@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.status.Status.Status(String, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.status.StatusManager.newDefaultInstance()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.status.StatusManager.StatusManager(Status[], String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.status.StatusManager.computeMaps()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.status.Status.getName()" />
+<item name="org.apache.ivy.core.module.status.Status.isIntegration()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

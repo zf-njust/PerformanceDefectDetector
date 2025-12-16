@@ -1,0 +1,134 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.parseNextToken()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForXRefs()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.PDFOperator.setImageData(byte[])" />
+<item name="org.apache.pdfbox.util.PDFOperator.setImageParameters(ImageParameters)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.util.ImageParameters.ImageParameters(COSDictionary)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSString()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.seek(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperator(String)" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.hasNoFollowingBinData(PushbackInputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageData()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.readOperator()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.isEOF()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.hasNextSpaceOrReturn()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.getOffset()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkBytesAtOffset(byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.isSpaceOrReturn(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseDirObject()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.util.PDFOperator.PDFOperator(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.remove(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[])" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilteredStream()" />
+<item name="org.apache.pdfbox.pdfparser.EndstreamOutputStream.EndstreamOutputStream(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+<item name="org.apache.pdfbox.cos.COSString.append(int)" />
+<item name="org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readUntilEndStream(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+<item name="org.apache.pdfbox.cos.COSStream.createFilteredStream(COSBase)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.setExpectedLength(COSBase)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.readFully(int)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[])" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSStream.doEncode()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSStream.doEncode(COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.encode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+</group>
+</group>
+</group>
+</cluster>

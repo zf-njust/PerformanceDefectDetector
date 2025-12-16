@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 1 0 0 0 
+0 0 0 1 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)
+org.apache.pdfbox.util.operator.SetLineWidth.process(PDFOperator, List)
+org.apache.pdfbox.pdfviewer.PageDrawer.calculateStroke()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineWidth()
+org.apache.pdfbox.cos.COSNumber.doubleValue()
+org.apache.pdfbox.util.operator.pagedrawer.SetLineWidth.process(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineWidth(double)
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.util.Matrix.getXScale()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()

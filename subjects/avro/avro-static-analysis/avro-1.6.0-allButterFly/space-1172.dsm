@@ -1,0 +1,62 @@
+[Call]
+30
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)
+org.apache.avro.io.BinaryEncoder.writeZero()
+org.apache.avro.file.DataFileWriter.writeBlock()
+org.apache.avro.io.parsing.Parser.popSymbol()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.BinaryEncoder.bytesBuffered()
+org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)
+org.apache.avro.file.DataFileWriter.writeIfBlockFull()
+org.apache.avro.file.Codec.compress(ByteBuffer)
+org.apache.avro.io.BinaryEncoder.writeString(String)
+org.apache.avro.file.DataFileWriter.appendEncoded(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()
+org.apache.avro.Schema.getFixedSize()
+org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()
+org.apache.avro.file.DataFileWriter.bufferInUse()
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.generic.GenericDatumWriter.writeFixed(Schema, Object, Encoder)
+org.apache.avro.io.Encoder.writeFixed(byte[])
+org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])
+org.apache.avro.io.Encoder.writeInt(int)
+org.apache.avro.io.ValidatingEncoder.writeFixed(byte[], int, int)
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.file.DataFileWriter.assertOpen()
+org.apache.avro.generic.GenericFixed.bytes()

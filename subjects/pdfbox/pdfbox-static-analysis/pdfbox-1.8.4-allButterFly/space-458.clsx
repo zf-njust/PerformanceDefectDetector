@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findCropBox()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getCropBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findMediaBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findParentCropBox(PDPageNode)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getMediaBox()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+</group>
+</group>
+</cluster>

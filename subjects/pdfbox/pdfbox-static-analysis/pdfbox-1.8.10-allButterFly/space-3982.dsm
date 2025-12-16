@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getBaselineShift()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getSpaceAfter()
+org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getEndIndent()
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getStartIndent()
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getSpaceBefore()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getFloat(String, float)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getNumber(String, float)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getTextIndent()

@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.findConfigurationExtending(String, Configuration[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyConfigurationsIncludingExtending(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getArtifactsIncludingExtending(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.getDependencyConfigurations(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceThisFallbackPattern(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationIntersection.getIntersectedConfigurationNames()" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationGroup.getMembersConfigurationNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceSelfFallbackPattern(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.replaceFallbackConfigurationPattern(Pattern, String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.JsonProperties.JsonProperties(Set)
+org.apache.avro.Schema.validateName(String)
+org.apache.avro.mapreduce.AvroRecordReaderBase.AvroRecordReaderBase(Schema)
+org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)
+org.apache.avro.mapred.AvroKey.AvroKey(T)
+org.apache.avro.Schema.createRecord(String, String, String, boolean)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withValueSchema(Schema)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.mapreduce.AvroKeyValueRecordReader.AvroKeyValueRecordReader(Schema, Schema)
+org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)
+org.apache.avro.mapred.AvroValue.AvroValue(T)
+org.apache.avro.mapreduce.AvroSequenceFileInputFormat.AvroSequenceFileRecordReader.initialize(InputSplit, TaskAttemptContext)
+org.apache.avro.Schema.setFields(List)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withConfiguration(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withInputPath(Path)
+org.apache.avro.mapreduce.AvroJob.getInputKeySchema(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withKeySchema(Schema)
+org.apache.avro.mapreduce.AvroKeyValueInputFormat.createRecordReader(InputSplit, TaskAttemptContext)
+org.apache.avro.mapreduce.AvroJob.getInputValueSchema(Configuration)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.parse(String)
+org.apache.avro.Schema.Schema(Type)
+org.apache.avro.SchemaParseException.SchemaParseException(String)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withFileSystem(FileSystem)
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)
+org.apache.avro.Schema.Name.Name(String, String)
+org.apache.avro.hadoop.io.AvroKeyValue.getSchema(Schema, Schema)

@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getConfigurations()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExcludeRules(String[])" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyExcludeRules(ModuleDescriptor, PrintWriter, ExcludeRule[])" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printAllExcludes(ModuleDescriptor, PrintWriter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.containsAny(String[], String[])" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getMatcher()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.SetNonStrokingPattern.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setPattern(PDPatternResources)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getPatterns()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getResources()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.getContext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.create(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPatternResources.PDShadingPatternResources(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources.PDTilingPatternResources(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.PDPatternResources(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

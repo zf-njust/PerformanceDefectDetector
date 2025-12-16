@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 
+org.apache.pdfbox.pdmodel.PDPage.setTrimBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPage.setCropBox(PDRectangle)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setFontBoundingBox(PDRectangle)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources.setBBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPage.setMediaBox(PDRectangle)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getCOSDictionary()
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()
+org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()
+org.apache.pdfbox.pdmodel.common.PDStream.getStream()
+org.apache.pdfbox.pdmodel.graphics.shading.PDShadingResources.setBBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPage.setArtBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPage.setBleedBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPageNode.setMediaBox(PDRectangle)
+org.apache.pdfbox.pdmodel.PDPageNode.setCropBox(PDRectangle)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream.setBoundingBox(PDRectangle)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setRectangle(PDRectangle)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setBBox(PDRectangle)

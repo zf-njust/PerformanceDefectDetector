@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.add_result.add_result()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_result.add_result(int)" />
+<item name="org.apache.avro.thrift.test.Foo.Client.recv_add()" />
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.add.getResultHandler.(Anon_2).onError(Exception)" />
+<item name="org.apache.avro.thrift.test.Foo.Processor.add.getResult(I, add_args)" />
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.add.getResultHandler.(Anon_2).onComplete(Integer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.Iface.add(int, int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_result.setSuccessIsSet(boolean)" />
+<item name="org.apache.avro.thrift.test.Foo.add_result.isSetSuccess()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

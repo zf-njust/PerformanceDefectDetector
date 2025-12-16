@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 1 
+0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedDependencies(ModuleDescriptor)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.module.descriptor.InheritableItem.getSourceModule()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()
+org.apache.ivy.core.module.id.ModuleId.equals(Object)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getMergedDescriptor()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedConfigurations(ModuleDescriptor)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getIndent()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.flushMergedElementsBefore(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.collateInheritedItems(ModuleDescriptor, InheritableItem[])
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritanceComment(String, Object)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.fillIndents(int)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ItemPrinter.print(ModuleDescriptor, Object, PrintWriter)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.isMerge()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedItems(ModuleDescriptor, InheritableItem[], ItemPrinter, String, boolean)

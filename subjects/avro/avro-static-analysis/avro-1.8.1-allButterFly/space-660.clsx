@@ -1,0 +1,54 @@
+<cluster>
+<group name="root">
+<item name="org.apache.trevni.avro.mapreduce.AvroTrevniKeyOutputFormat.getRecordWriter(TaskAttemptContext)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter.AvroTrevniKeyRecordWriter(TaskAttemptContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.AvroTrevniRecordWriterBase(TaskAttemptContext)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.filterMetadata(Configuration)" />
+<item name="org.apache.trevni.avro.AvroColumnWriter.AvroColumnWriter(Schema, ColumnFileMetaData, GenericData)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase.initSchema(TaskAttemptContext)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.trevni.avro.AvroColumnator.getColumns()" />
+<item name="org.apache.trevni.avro.AvroColumnator.AvroColumnator(Schema)" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.trevni.avro.AvroColumnator.getArrayWidths()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.trevni.avro.AvroColumnator.columnize(String, Schema, ColumnMetaData, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.trevni.avro.AvroColumnator.p(String, String, String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.trevni.avro.AvroColumnator.addArrayColumn(String, Schema, ColumnMetaData)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.trevni.avro.AvroColumnator.p(String, Schema, String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.trevni.avro.AvroColumnator.addColumn(String, ValueType, ColumnMetaData, boolean)" />
+<item name="org.apache.trevni.avro.AvroColumnator.simpleValueType(Schema)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.trevni.avro.AvroColumnator.isSimple(Schema)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

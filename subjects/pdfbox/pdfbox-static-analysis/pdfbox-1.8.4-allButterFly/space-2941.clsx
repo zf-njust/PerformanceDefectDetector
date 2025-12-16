@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte[], int, int, OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.encryption.ARCFour.write(InputStream, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte, OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

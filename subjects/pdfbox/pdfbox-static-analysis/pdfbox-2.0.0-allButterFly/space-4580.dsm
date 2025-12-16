@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 1 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getDefaultRangeArray()
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getARange()
+org.apache.pdfbox.pdmodel.common.PDRange.getMax()
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getDefaultDecode(int)
+org.apache.pdfbox.pdmodel.common.PDRange.getMin()
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)
+org.apache.pdfbox.cos.COSObject.getObject()

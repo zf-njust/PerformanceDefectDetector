@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyDependencyTree.registerNodeIfNecessary(ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyDependencyTree.populateDependencyTree(IvyNode, ModuleRevisionId, ResolveReport)" />
+<item name="org.apache.ivy.ant.IvyDependencyTree.addDependency(ModuleRevisionId, IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getAllCallers()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getAllCallers()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

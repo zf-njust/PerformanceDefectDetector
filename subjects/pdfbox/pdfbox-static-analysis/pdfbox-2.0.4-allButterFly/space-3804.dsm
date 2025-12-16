@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 1 0 0 1 
+1 0 0 1 0 0 
+0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getStack()
+org.apache.pdfbox.pdmodel.common.function.type4.Operator.execute(ExecutionContext)
+org.apache.pdfbox.pdmodel.common.function.type4.Operators.getOperator(String)
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.execute(ExecutionContext)
+org.apache.pdfbox.pdmodel.common.function.type4.ConditionalOperators.If.execute(ExecutionContext)
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getOperators()

@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.AbstractFSManifestIterable.AbstractFSManifestIterable(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.RepositoryManifestIterable.RepositoryManifestIterable(Repository)" />
+<item name="org.apache.ivy.osgi.repo.FSManifestIterable.FSManifestIterable(File)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

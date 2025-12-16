@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 1 0 0 
+org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema)
+org.apache.avro.mapred.tether.TetherTask.fail(String)
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)
+org.apache.avro.mapred.tether.TetherTaskRunner.configure(TaskType, String, String)
+org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)
+org.apache.avro.mapred.tether.TetherTask.close()
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.ipc.Transceiver.close()
+org.apache.avro.specific.SpecificData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.mapred.tether.TetherTask.Collector.Collector(Schema)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.mapred.tether.TetherTask.configure(TaskType, CharSequence, CharSequence)

@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 
+0 1 0 1 1 0 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.encoding.Encoding.getCharacter(int)
+org.apache.pdfbox.pdmodel.font.PDFont.encode(byte[], int, int)
+org.apache.pdfbox.pdmodel.font.PDFont.getStringFromArray(byte[], int, int)
+org.apache.pdfbox.pdmodel.font.PDFont.cmapEncoding(int, int, boolean, CMap)
+org.apache.pdfbox.encoding.Encoding.getCharacter(String)
+org.apache.pdfbox.pdmodel.font.PDFont.getCodeFromArray(byte[], int, int)

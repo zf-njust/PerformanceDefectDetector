@@ -1,0 +1,165 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.beginMarkedContentSequence(COSName, COSName)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.LayerUtility.appendFormAsLayer(PDPage, PDXObjectForm, AffineTransform, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPage.findResources()" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.getOptionalContentGroup(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.PDPropertyList()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.setProperties(PDPropertyList)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.close()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getProperties()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.setOCProperties(PDOptionalContentProperties)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.endMarkedContentSequence()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.hasGroup(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawXObject(PDXObject, AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.putMapping(COSName, PDOptionalContentGroup)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.addGroup(PDOptionalContentGroup)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.PDOptionalContentProperties()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.PDPageContentStream(PDDocument, PDPage, boolean, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getOCProperties()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getParent()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findResources()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.PDPageContentStream(PDDocument, PDPage, boolean, boolean, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.concatenate2CTM(AffineTransform)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.setName(String)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.restoreGraphicsState()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getOCGs()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getGroupNames()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.addXObject(PDXObject, String)" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.putMapping(COSName, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getD()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.saveGraphicsState()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.PDOptionalContentProperties(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.PDPropertyList(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.toDictionary(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setContents(PDStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.setFilters(List)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendMatrix(AffineTransform)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createOutputStream()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.addXObjectToDictionary(PDXObject, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.COSStreamArray(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getXObjects()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.appendStream(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.insertCOSStream(PDStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getContents()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setResources(PDResources)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.util.MapUtil.getNextUniqueKey(Map, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.createXObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSStream.createUnfilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.setXObjects(Map)" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createFromCOS(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.addAll(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(double)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDocument.getScratchFile()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.commonXObjectCreation(COSBase, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.reverseMap(Map, Class)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSDictionaryMap.convert(Map)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.PDCcitt(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.PDPixelMap(PDStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.PDXObjectForm(COSStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.PDXObjectImage(PDStream, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(PDStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendCOSName(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+</group>
+</cluster>

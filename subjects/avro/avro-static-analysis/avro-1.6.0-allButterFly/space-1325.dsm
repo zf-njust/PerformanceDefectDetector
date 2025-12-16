@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.Schema.getField(String)
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.mapred.AvroKeyComparator.setConf(Configuration)
+org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)
+org.apache.avro.Schema.getFullName()
+org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)
+org.apache.avro.mapred.Pair.getKeySchema(Schema)

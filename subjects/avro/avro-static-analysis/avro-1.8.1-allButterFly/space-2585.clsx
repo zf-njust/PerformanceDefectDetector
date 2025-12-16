@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroJob.setReflect(JobConf)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroJob.setMapOutputReflect(JobConf)" />
+<item name="org.apache.avro.mapred.AvroJob.setInputReflect(JobConf)" />
+</group>
+</group>
+</group>
+</cluster>

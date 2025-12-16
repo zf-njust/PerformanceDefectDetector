@@ -1,0 +1,73 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.getSummary()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.getHeaders()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.getScope()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.arrayToString(Object[])" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.getRowSpan()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.getColSpan()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.isSpecified(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.getOwner()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getInteger(String, int)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getArrayOfString(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getName(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(String, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getString(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+</group>
+</cluster>

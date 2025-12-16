@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 1 0 1 0 0 0 1 0 0 1 0 1 
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 1 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+org.apache.avro.ipc.stats.StatsServlet.writeActiveRpc(Writer, RPCContext, Stopwatch)
+org.apache.avro.ipc.stats.StatsServlet.writeStats(Writer)
+org.apache.avro.Protocol.Message.getName()
+org.apache.avro.ipc.stats.Histogram.entries()
+org.apache.avro.ipc.stats.StatsServlet.formatMillis(float)
+org.apache.avro.ipc.stats.StatsServlet.doGet(HttpServletRequest, HttpServletResponse)
+org.apache.avro.ipc.stats.FloatHistogram.getMean()
+org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()
+org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)
+org.apache.avro.ipc.stats.StatsServlet.writeMethod(Writer, Message, FloatHistogram)
+org.apache.avro.ipc.stats.Histogram.getCount()
+org.apache.avro.ipc.RPCContext.getMessage()
+org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()
+org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()

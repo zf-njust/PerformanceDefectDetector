@@ -1,0 +1,83 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ValidatingDecoder.readEnum()" />
+<item name="org.apache.avro.io.JsonDecoder.readEnum()" />
+<item name="org.apache.avro.io.ValidatingDecoder.skipFixed()" />
+<item name="org.apache.avro.io.JsonDecoder.readIndex()" />
+<item name="org.apache.avro.io.ResolvingDecoder.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.ParsingDecoder.skipAction()" />
+<item name="org.apache.avro.io.ValidatingEncoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.ValidatingEncoder.writeEnum(int)" />
+<item name="org.apache.avro.io.ResolvingDecoder.skipAction()" />
+<item name="org.apache.avro.io.ValidatingDecoder.checkFixed(int)" />
+<item name="org.apache.avro.io.JsonEncoder.writeIndex(int)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readEnum()" />
+<item name="org.apache.avro.io.JsonDecoder.checkFixed(int)" />
+<item name="org.apache.avro.io.JsonEncoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.ValidatingDecoder.readIndex()" />
+<item name="org.apache.avro.io.ValidatingEncoder.writeIndex(int)" />
+<item name="org.apache.avro.io.JsonEncoder.writeEnum(int)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readIndex()" />
+<item name="org.apache.avro.io.JsonDecoder.skipFixed()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.JsonDecoder.advance(Symbol)" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<item name="org.apache.avro.io.JsonDecoder.doSkipFixed(int)" />
+<item name="org.apache.avro.io.parsing.Symbol.EnumLabelsAction.getLabel(int)" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Decoder.readIndex()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.Decoder.skipFixed(int)" />
+<item name="org.apache.avro.io.parsing.SkipParser.skipSymbol(Symbol)" />
+<item name="org.apache.avro.io.parsing.Symbol.EnumLabelsAction.findLabel(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.getLabel(int)" />
+<item name="org.apache.avro.io.Decoder.readEnum()" />
+<item name="org.apache.avro.io.JsonEncoder.writeByteArray(byte[], int, int)" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.getSymbol(int)" />
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.findLabel(String)" />
+<item name="org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], BinaryDecoder)" />
+<item name="org.apache.avro.io.JsonDecoder.error(String)" />
+<item name="org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.SkipParser.skipTo(int)" />
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.JsonDecoder.readByteArray()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()" />
+<item name="org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)" />
+<item name="org.apache.avro.io.parsing.Parser.depth()" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)" />
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipAction()" />
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipTopSymbol()" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(byte[], int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.ByteArrayByteSource.ByteArrayByteSource(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

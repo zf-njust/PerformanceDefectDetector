@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.SshResolver.setFileSeparator(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.ssh.SshRepository.setFileSeparator(char)" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+</group>
+</group>
+</group>
+</cluster>

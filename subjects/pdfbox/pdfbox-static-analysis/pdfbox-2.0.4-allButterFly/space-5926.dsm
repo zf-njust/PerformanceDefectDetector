@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 
+1 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.util.Hex.writeHexBytes(byte[], OutputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)
+org.apache.pdfbox.util.Hex.getHighNibble(byte)
+org.apache.pdfbox.cos.COSString.getForceHexForm()
+org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.writeString(COSString, OutputStream)
+org.apache.pdfbox.util.Hex.getLowNibble(byte)
+org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)

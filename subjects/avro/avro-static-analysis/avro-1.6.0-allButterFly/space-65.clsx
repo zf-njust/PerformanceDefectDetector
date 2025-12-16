@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.tool.TetherTool.run(InputStream, PrintStream, PrintStream, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File)" />
+<item name="org.apache.avro.mapred.tether.TetherJob.runJob(JobConf)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File, List, boolean)" />
+<item name="org.apache.avro.mapred.tether.TetherJob.setupTetherJob(JobConf)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapred.tether.TetherJob.getExecutable(JobConf)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getTrueTypeFont()
+org.apache.pdfbox.pdmodel.font.PDCIDFontType2.getTrueTypeFont()
+org.apache.pdfbox.rendering.CIDType0Glyph2D.CIDType0Glyph2D(PDCIDFontType0)
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.rendering.PageDrawer.createGlyph2D(PDFont)
+org.apache.pdfbox.pdmodel.font.PDCIDFont.getBaseFont()
+org.apache.pdfbox.pdmodel.font.PDType0Font.getDescendantFont()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(PDTrueTypeFont)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(PDType0Font)
+org.apache.pdfbox.rendering.Type1Glyph2D.Type1Glyph2D(PDSimpleFont)
+org.apache.pdfbox.rendering.TTFGlyph2D.TTFGlyph2D(TrueTypeFont, PDFont, boolean)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.getName()

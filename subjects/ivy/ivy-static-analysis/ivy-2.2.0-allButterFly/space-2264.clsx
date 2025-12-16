@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.acceptLatest()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.getAndCheckIsDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVersionMatcher()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.UnresolvedDependencyException.UnresolvedDependencyException(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.UnresolvedDependencyException.UnresolvedDependencyException(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

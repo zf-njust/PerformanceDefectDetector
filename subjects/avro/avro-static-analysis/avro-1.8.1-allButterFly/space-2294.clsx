@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.FieldAccessReflect.ReflectionBasedAccessor.ReflectionBasedAccessor(Field)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.FieldAccessReflect.getAccessor(Field)" />
+<item name="org.apache.avro.reflect.FieldAccessReflect.ReflectionBasesAccessorCustomEncoded.ReflectionBasesAccessorCustomEncoded(Field, CustomEncoding)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.AvroEncode.using()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

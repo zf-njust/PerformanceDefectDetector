@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransceiver.disconnect(boolean, boolean, Throwable)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransceiver.NettyClientAvroHandler.handleUpstream(ChannelHandlerContext, ChannelEvent)" />
+<item name="org.apache.avro.ipc.NettyTransceiver.close(boolean)" />
+<item name="org.apache.avro.ipc.NettyTransceiver.NettyClientAvroHandler.exceptionCaught(ChannelHandlerContext, ExceptionEvent)" />
+<item name="org.apache.avro.ipc.NettyTransceiver.disconnect()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.Callback.handleError(Throwable)" />
+</group>
+</group>
+</group>
+</cluster>

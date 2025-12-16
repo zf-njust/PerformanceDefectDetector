@@ -1,0 +1,149 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.metadata.RDFAboutAttributeConcordanceValidation.validateRDFAboutAttributes(XMPMetadata)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.validate(PreflightContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.validatePDFAIdentifer(XMPMetadata)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.validateMetadataSynchronization(PDDocument, XMPMetadata)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationErrors(PreflightContext, List)" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationError(PreflightContext, ValidationError)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.preflight.metadata.XpacketParsingException.getError()" />
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.getXpacket(COSDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.setMetadata(XMPMetadata)" />
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.checkThumbnails(PreflightContext, XMPMetadata)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.preflight.metadata.XpacketParsingException.XpacketParsingException(String, ValidationError)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeCreationDateProperty(PDDocumentInformation, XMPBasicSchema, List)" />
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.checkThumbnail(ThumbnailType, PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.checkConformanceLevel(List, String)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeSubjectProperty(PDDocumentInformation, DublinCoreSchema, List)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeCreatorToolProperty(PDDocumentInformation, XMPBasicSchema, List)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeAuthorProperty(PDDocumentInformation, DublinCoreSchema, List)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeProducerProperty(PDDocumentInformation, AdobePDFSchema, List)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getCatalog()" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeKeywordsProperty(PDDocumentInformation, AdobePDFSchema, List)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation()" />
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.checkPartNumber(List, int)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeModifyDateProperty(PDDocumentInformation, XMPBasicSchema, List)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.unexpectedPrefixFoundError(String, String, String)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsDictionary(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeTitleProperty(PDDocumentInformation, DublinCoreSchema, List)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getAuthor()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getModificationDate()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(COSObject)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.absentXMPPropertyError(String, String)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreationDate()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getTitle()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectByType(COSName)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getSubject()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.unsynchronizedMetaDataError(String)" />
+<item name="org.apache.pdfbox.preflight.process.MetadataValidationProcess.hasJpegMagicNumber(byte[])" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.absentSchemaMetaDataError(String, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreator()" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getKeywords()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getProducer()" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.hasTimeZone(Object)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.removeTrailingNul(String)" />
+<item name="org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.isValidPDFDateFormat(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getPropertyStringValue(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDate(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(long)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(COSString)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.util.DateConverter.toCalendar(String)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseSimpleDate(String, String[], ParsePosition)" />
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.util.DateConverter.newGreg()" />
+<item name="org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)" />
+<item name="org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.metadata.RDFAboutAttributeConcordanceValidation.DifferentRDFAboutException.DifferentRDFAboutException()" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+</group>
+</group>
+</group>
+</cluster>

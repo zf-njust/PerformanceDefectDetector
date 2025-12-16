@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.addConfiguration(String, String[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.addCaller(String, IvyNode, String, String, String[], DependencyDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.Caller(ModuleDescriptor, ModuleRevisionId, DependencyDescriptor, boolean)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getAllCallersModuleIds()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealNode()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.canExclude(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getAllCallersModuleIds()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.updateConfs(String, String[])" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+</group>
+</group>
+</cluster>

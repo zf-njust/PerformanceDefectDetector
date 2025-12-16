@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.resolve.IvyNode.getDefaultConf(String)
+org.apache.ivy.core.module.descriptor.Configuration.isTransitive()
+org.apache.ivy.core.resolve.VisitNode.getNode()
+org.apache.ivy.core.resolve.IvyNode.getMainConf(String)
+org.apache.ivy.core.resolve.ResolveOptions.isTransitive()
+org.apache.ivy.core.resolve.IvyNode.hasAnyMergedUsageWithTransitiveDependency(String)
+org.apache.ivy.core.resolve.ResolveData.isTransitive()
+org.apache.ivy.core.resolve.VisitNode.isParentConfTransitive()
+org.apache.ivy.core.resolve.IvyNode.getDependencyDescriptor(IvyNode)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)
+org.apache.ivy.core.resolve.IvyNode.getConfiguration(String)
+org.apache.ivy.core.resolve.IvyNodeUsage.hasTransitiveDepender(String)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.isTransitive()
+org.apache.ivy.core.resolve.VisitNode.isTransitive()
+org.apache.ivy.core.resolve.VisitNode.getRequestedConf()
+org.apache.ivy.core.resolve.VisitNode.getParent()
+org.apache.ivy.core.resolve.VisitNode.getParentNode()

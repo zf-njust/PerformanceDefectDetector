@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.getStringForPath(TreePath)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatusPane.valueChanged(TreeSelectionEvent)" />
+<item name="org.apache.pdfbox.debugger.ui.Tree.getTreePathMenuItem.(Anon_1).actionPerformed(ActionEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatusPane.updateText(String)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.TreeStatus(Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.generatePathString(TreePath)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.getObjectName(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getKey()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getPath()" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getIndex()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.indexOfObject(COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

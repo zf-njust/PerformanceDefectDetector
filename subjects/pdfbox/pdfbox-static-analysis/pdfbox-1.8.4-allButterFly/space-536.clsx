@@ -1,0 +1,105 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.size()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.COSDictionaryMap.size()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.isEmpty()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.parseDirObject()" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkTagAndPropertyOperands(List)" />
+<item name="org.apache.pdfbox.pdfviewer.PDFTreeModel.getChildCount(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdfviewer.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSNumber.longValue()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.cos.COSNumber.doubleValue()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.createInvalidArgumentsError()" />
+<item name="org.apache.pdfbox.pdfviewer.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseDirObject()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.getOwner()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.createLimitError(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamException.ContentStreamException(String)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamException.setErrorCode(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSString(boolean)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.readFully(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSName()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.getOffset()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.remove(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue()" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+<item name="org.apache.pdfbox.cos.COSString.append(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

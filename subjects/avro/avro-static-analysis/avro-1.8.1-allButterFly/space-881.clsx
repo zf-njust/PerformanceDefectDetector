@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroJob.setInputValueSchema(Job, Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

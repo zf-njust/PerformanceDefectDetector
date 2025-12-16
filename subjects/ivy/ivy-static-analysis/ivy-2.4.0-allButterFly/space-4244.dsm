@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 1 0 0 1 1 1 1 1 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()
+org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)
+org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.doesExclude(String[], ArtifactId)
+org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact)
+org.apache.ivy.core.resolve.IvyNode.doesExclude(ModuleDescriptor, String, String[], DependencyDescriptor, Artifact, Stack)
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.doesCallersExclude(String, Artifact, Stack)
+org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()
+org.apache.ivy.core.resolve.IvyNode.getData()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude(String[], ArtifactId)
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleDescriptor()
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()
+org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact, Stack)
+org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)
+org.apache.ivy.core.module.descriptor.Artifact.getId()
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)

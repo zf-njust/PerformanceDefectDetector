@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 1 1 1 1 1 0 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.flagbitspane.FlagBitsPane.FlagBitsPane(COSDictionary, COSName)
+org.apache.pdfbox.debugger.flagbitspane.FlagBitsPaneView.FlagBitsPaneView(String, String, Object[][], String[])
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.debugger.flagbitspane.FlagBitsPaneView.createView()
+org.apache.pdfbox.debugger.flagbitspane.FlagBitsPane.createPane(COSDictionary, COSName)
+org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagValue()
+org.apache.pdfbox.debugger.flagbitspane.SigFlag.SigFlag(COSDictionary)
+org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagType()
+org.apache.pdfbox.debugger.flagbitspane.FieldFlag.FieldFlag(COSDictionary)
+org.apache.pdfbox.debugger.flagbitspane.FontFlag.FontFlag(COSDictionary)
+org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagBits()
+org.apache.pdfbox.debugger.flagbitspane.PanoseFlag.getPanoseBytes(COSDictionary)
+org.apache.pdfbox.debugger.flagbitspane.Flag.getColumnNames()
+org.apache.pdfbox.debugger.flagbitspane.EncryptFlag.EncryptFlag(COSDictionary)
+org.apache.pdfbox.debugger.flagbitspane.PanoseFlag.PanoseFlag(COSDictionary)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSName.equals(Object)
+org.apache.pdfbox.debugger.flagbitspane.AnnotFlag.AnnotFlag(COSDictionary)

@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.reflect.ReflectDatumReader.setField(Object, String, int, Object)
+org.apache.avro.specific.SpecificData.validate(Schema, Object)
+org.apache.avro.reflect.ReflectData.getField(Class, String)
+org.apache.avro.reflect.ReflectData.findField(Class, String)
+org.apache.avro.Schema.getElementType()
+org.apache.avro.reflect.ReflectDatumReader.getField(Object, String, int)
+org.apache.avro.reflect.ReflectData.validate(Schema, Object)
+org.apache.avro.generic.GenericData.isString(Object)
+org.apache.avro.Schema.getTypes()
+org.apache.avro.Schema.Field.name()
+org.apache.avro.generic.GenericData.validate(Schema, Object)
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.Schema.getEnumSymbols()
+org.apache.avro.Schema.getFields()
+org.apache.avro.Schema.getFixedSize()
+org.apache.avro.Schema.getType()
+org.apache.avro.generic.GenericData.isBytes(Object)
+org.apache.avro.Schema.getValueType()
+org.apache.avro.generic.IndexedRecord.get(int)
+org.apache.avro.reflect.ReflectDatumWriter.getField(Object, String, int)
+org.apache.avro.Schema.Field.pos()
+org.apache.avro.generic.GenericFixed.bytes()

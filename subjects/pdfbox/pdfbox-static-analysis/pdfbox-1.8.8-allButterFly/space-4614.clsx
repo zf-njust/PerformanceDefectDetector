@@ -1,0 +1,72 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.strokePath()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.endPath()" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.CurveTo.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.CurveToReplicateFinalPoint.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddAndStrokePath.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.FillNonZeroAndStrokePath.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.AppendRectangleToPath.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.LineTo.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.MoveTo.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.CurveToReplicateInitialPoint.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.fillPath(int)" />
+<item name="org.apache.pdfbox.util.operator.pagedrawer.ClosePath.process(PDFOperator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.doubleValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokeJavaComposite()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getPaint(int)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.calculateStroke()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(String, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokingColor()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.transformedPoint(double, double)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentClippingPath(Shape)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.setLinePath(GeneralPath)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokeJavaComposite()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getJavaColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineWidth()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperator(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.transformWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.createColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getPaint(int)" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.fixY(double)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toString()" />
+<item name="org.apache.pdfbox.util.PDFOperator.PDFOperator(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+<item name="org.apache.pdfbox.util.Matrix.getValue(int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.createColorSpace()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

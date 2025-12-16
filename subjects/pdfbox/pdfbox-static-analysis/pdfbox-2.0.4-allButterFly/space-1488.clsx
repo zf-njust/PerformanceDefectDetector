@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.exitMenuItemActionPerformed(ActionEvent)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.osxQuit()" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.createFileMenu.(Anon_8).actionPerformed(ActionEvent)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.close()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.addFile(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport.close()" />
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.writeHistoryToPref(Queue)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.ui.RecentFiles.breakString(String)" />
+<item name="org.apache.pdfbox.io.ScratchFile.close()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.close()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getOutput()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,137 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.LosslessFactory.createFromImage(PDDocument, BufferedImage)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createFromFileByExtension(File, PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createFromFileByContent(File, PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.createSignatureImage(PDDocument, BufferedImage)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory.createFromStream(PDDocument, InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setImage(PDImageXObject)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.createFromFile(PDDocument, File)" />
+<item name="org.apache.pdfbox.util.filetypedetector.FileTypeDetector.detectFileType(BufferedInputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.filetypedetector.ByteTrie.getMaxDepth()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.createFromRandomAccessImpl(PDDocument, RandomAccess, int)" />
+<item name="org.apache.pdfbox.util.filetypedetector.ByteTrie.find(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory.getColorSpaceFromAWT(BufferedImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory.readJPEG(InputStream)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessFile.close()" />
+<item name="org.apache.pdfbox.io.RandomAccessFile.RandomAccessFile(File, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.extractFromTiff(RandomAccess, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.util.filetypedetector.ByteTrie.ByteTrieNode.getValue()" />
+<item name="org.apache.pdfbox.filter.MissingImageReaderException.MissingImageReaderException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readlong(char, RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readshort(char, RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.LosslessFactory.createAlphaFromARGBImage(PDDocument, BufferedImage)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.LosslessFactory.prepareImageXObject(PDDocument, byte[], int, int, int, PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.LosslessFactory.createAlphaFromARGBImage2(PDDocument, BufferedImage)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.PDImageXObject(PDDocument, InputStream, COSBase, int, int, int, PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.filter.Filter.encode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.setBitsPerComponent(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.asUnmodifiableDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(COSStream, COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.encode(InputStream, OutputStream, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createRawStream(PDDocument, InputStream)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.setWidth(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.setColorSpace(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.setHeight(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawOutputStream()" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.UnmodifiableCOSDictionary.UnmodifiableCOSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+</group>
+</group>
+</group>
+</cluster>

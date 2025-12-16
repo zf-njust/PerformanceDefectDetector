@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToURL(URL)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.BasicURLHandler.getURLInfo(URL, int)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.upload(File, URL, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.download(URL, File, CopyProgressListener)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.IvyAuthenticator.install()" />
+<item name="org.apache.ivy.util.Message.error(String, Throwable)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getUserAgent()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.getCharSetFromContentType(String)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.checkStatusCode(URL, HttpURLConnection)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getDecodingInputStream(String, InputStream)" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.URLInfo(boolean, long, long, String)" />
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, File, CopyProgressListener)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getRequestMethod()" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(URL, int, String)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.disconnect(URLConnection)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener, boolean)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.readResponseBody(HttpURLConnection)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.url.IvyAuthenticator.IvyAuthenticator(Authenticator)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.CopyProgressListener.start(CopyProgressEvent)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+<item name="org.apache.ivy.util.CopyProgressListener.end(CopyProgressEvent)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.CopyProgressEvent.update(byte[], int, long)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.CopyProgressEvent.CopyProgressEvent()" />
+<item name="org.apache.ivy.util.CopyProgressListener.progress(CopyProgressEvent)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)" />
+</group>
+</group>
+</group>
+</cluster>

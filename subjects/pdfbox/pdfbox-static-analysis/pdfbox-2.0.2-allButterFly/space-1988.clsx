@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSStringCOSArrayToList(COSArray)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDButton.getExportValues()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoice.getValueFor(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getPairableItems(COSBase, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getInheritableAttribute(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.FieldUtils.getItemsFromPair(COSBase, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getCOSObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

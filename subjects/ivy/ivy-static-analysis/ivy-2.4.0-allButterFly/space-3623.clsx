@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ModuleId.intern(ModuleId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleId.newInstance(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

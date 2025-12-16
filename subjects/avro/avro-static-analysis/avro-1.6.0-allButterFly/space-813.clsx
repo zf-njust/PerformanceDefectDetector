@@ -1,0 +1,97 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroWrapper.datum()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroKeyComparator.compare(AvroWrapper, AvroWrapper)" />
+<item name="org.apache.avro.mapred.AvroRecordReader.next(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.mapred.AvroOutputFormat.getRecordWriter.(Anon_1).write(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.mapred.HadoopReducerBase.reduce(AvroKey, Iterator, OutputCollector, Reporter)" />
+<item name="org.apache.avro.mapred.HadoopMapper.map(AvroWrapper, NullWritable, OutputCollector, Reporter)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.deserialize(AvroWrapper)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.serialize(AvroWrapper)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.mapred.AvroWrapper.datum(T)" />
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.mapred.AvroReducer.reduce(K, Iterable, AvroCollector, Reporter)" />
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema)" />
+<item name="org.apache.avro.file.FileReader.pastSync(long)" />
+<item name="org.apache.avro.file.DataFileWriter.append(D)" />
+<item name="org.apache.avro.mapred.HadoopReducerBase.getCollector(OutputCollector)" />
+<item name="org.apache.avro.mapred.AvroValue.AvroValue(T)" />
+<item name="org.apache.avro.mapred.AvroMapper.map(IN, AvroCollector, Reporter)" />
+<item name="org.apache.avro.mapred.HadoopMapper.MapCollector.MapCollector(OutputCollector)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.avro.file.FileReader.next(D)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapred.Pair.set(K, V)" />
+<item name="org.apache.avro.file.DataFileWriter.resetBufferTo(int)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.mapred.AvroCollector.collect(T)" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema, boolean)" />
+<item name="org.apache.avro.mapred.Pair.Pair(Schema)" />
+<item name="org.apache.avro.file.DataFileWriter.writeIfBlockFull()" />
+<item name="org.apache.avro.file.DataFileWriter.bufferInUse()" />
+<item name="org.apache.avro.file.DataFileWriter.AppendWriteException.AppendWriteException(Exception)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.io.BinaryEncoder.bytesBuffered()" />
+<item name="org.apache.avro.util.Utf8.compareTo(Utf8)" />
+<item name="org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])" />
+<item name="org.apache.avro.UnresolvedUnionException.UnresolvedUnionException(Schema, Object)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)" />
+<item name="org.apache.avro.io.BinaryData.compareBytes(byte[], int, int, byte[], int, int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.generic.GenericData.getEnumSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.generic.GenericData.getFixedSchema(Object)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

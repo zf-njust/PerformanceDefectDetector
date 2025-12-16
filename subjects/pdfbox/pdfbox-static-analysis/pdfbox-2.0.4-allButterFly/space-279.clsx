@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightContext.setFileLen(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.createContext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightContext.setXrefTrailerResolver(XrefTrailerResolver)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.setContext(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.setDocument(PreflightDocument)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.PreflightContext(DataSource)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

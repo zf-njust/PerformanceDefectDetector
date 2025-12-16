@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.setRequirementStrategy(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.setRequirementStrategy(RequirementStrategy)" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.RequirementStrategy.valueOf(String)" />
+</group>
+</group>
+</group>
+</cluster>

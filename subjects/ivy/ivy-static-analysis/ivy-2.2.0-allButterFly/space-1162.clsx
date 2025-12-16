@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.CredentialsUtil.loadPassfile(Credentials, File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.CredentialsUtil.promptCredentials(Credentials, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.CredentialsUtil.CredentialPanel.CredentialPanel(Credentials, File)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Credentials.Credentials(String, String, String, String)" />
+<item name="org.apache.ivy.util.Credentials.getHost()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.Credentials.getUserName()" />
+<item name="org.apache.ivy.util.Credentials.getPasswd()" />
+<item name="org.apache.ivy.util.EncrytedProperties.EncrytedProperties()" />
+<item name="org.apache.ivy.util.Credentials.getRealm()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

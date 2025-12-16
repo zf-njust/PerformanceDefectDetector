@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.Type3FontValidator.getCharNameFromEncoding(int)
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.preflight.font.container.FontContainer.markCIDAsInvalid(int, GlyphException)
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)
+org.apache.pdfbox.preflight.font.Type3FontValidator.getCharacterStreamDescription(int, COSDictionary)
+org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)
+org.apache.pdfbox.cos.COSInteger.longValue()
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)
+org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()
+org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)
+org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)
+org.apache.pdfbox.cos.COSObject.getObjectNumber()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSObject.setObject(COSBase)
+org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.preflight.utils.COSUtils.getAsStream(COSBase, COSDocument)
+org.apache.pdfbox.cos.COSObject.COSObject(COSBase)
+org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)
+org.apache.pdfbox.cos.COSObject.getGenerationNumber()
+org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)

@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.generic.GenericDatumReader.getStringClass(Schema)
+org.apache.avro.generic.GenericDatumReader.findStringClass(Schema)
+org.apache.avro.io.Decoder.readString(Utf8)
+org.apache.avro.reflect.ReflectDatumReader.readString(Object, Decoder)
+org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)
+org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)
+org.apache.avro.JsonProperties.getJsonProp(String)
+org.apache.avro.io.Decoder.readString()
+org.apache.avro.generic.GenericDatumReader.newInstanceFromString(Class, String)
+org.apache.avro.generic.GenericData.StringType.valueOf()
+org.apache.avro.JsonProperties.getProp(String)

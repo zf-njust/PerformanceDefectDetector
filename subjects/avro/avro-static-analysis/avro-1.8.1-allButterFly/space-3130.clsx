@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherReducer.close()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherOutputService.waitForFinish()" />
+<item name="org.apache.avro.mapred.tether.TetheredProcess.close()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.Server.close()" />
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.isFinished()" />
+</group>
+</group>
+</group>
+</cluster>

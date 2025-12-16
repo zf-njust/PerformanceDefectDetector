@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)
+org.apache.pdfbox.pdmodel.common.PDStream.getStream()
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getDictionary()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.common.function.PDFunctionType2.getN()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getV()
+org.apache.pdfbox.cos.COSDictionary.getFloat(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()

@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 1 0 0 1 
+0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.mapred.AvroMultipleOutputs.getNamedOutputsList(JobConf)
+org.apache.avro.mapred.AvroMultipleOutputs.checkNamedOutput(JobConf, String, boolean)
+org.apache.avro.mapred.AvroMultipleOutputs.checkTokenName(String)
+org.apache.avro.mapred.AvroMultipleOutputs.addNamedOutput(JobConf, String, Class, Schema)
+org.apache.avro.Schema.toString()
+org.apache.avro.mapred.AvroMultipleOutputs.addNamedOutput(JobConf, String, boolean, Class, Schema)
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.mapred.AvroMultipleOutputs.checkNamedOutputName(String)

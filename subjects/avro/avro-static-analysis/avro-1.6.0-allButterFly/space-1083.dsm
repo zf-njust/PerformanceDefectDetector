@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.SaslSocketTransceiver.readStatus()
+org.apache.avro.ipc.SaslSocketTransceiver.write(ByteBuffer)
+org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String, ByteBuffer)
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.evaluate(byte[])
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.SaslParticipant(SaslClient)
+org.apache.avro.ipc.SaslSocketTransceiver.open(boolean)
+org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketAddress)
+org.apache.avro.ipc.Server.join()
+org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress, SaslServerFactory)
+org.apache.avro.mapred.tether.TetherTaskRunner.join()
+org.apache.avro.ipc.SaslSocketTransceiver.readFrame()
+org.apache.avro.mapred.tether.WordCountTask.main(String[])
+org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketAddress, SaslClient)
+org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String)
+org.apache.avro.ipc.Server.start()
+org.apache.avro.ipc.SaslSocketTransceiver.getRemoteName()
+org.apache.avro.ipc.SaslSocketTransceiver.toString(ByteBuffer)
+org.apache.avro.ipc.SocketServer.getPort()
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getNegotiatedProperty(String)
+org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)
+org.apache.avro.ipc.SaslSocketTransceiver.writeFully(ByteBuffer...)
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getMechanismName()
+org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress)
+org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.isComplete()
+org.apache.avro.mapred.tether.TetherTaskRunner.TetherTaskRunner(TetherTask)
+org.apache.avro.mapred.tether.TetherTask.open(int)
+org.apache.avro.ipc.SocketServer.SocketServer(Responder, SocketAddress)
+org.apache.avro.ipc.SaslSocketTransceiver.Status.values()

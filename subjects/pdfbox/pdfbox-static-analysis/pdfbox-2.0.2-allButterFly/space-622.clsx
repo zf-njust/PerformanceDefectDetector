@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getKey()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getXRefRanges(List)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteTrailer(COSDocument)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.compareTo(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry)" />
+<item name="org.apache.pdfbox.pdfparser.PDFXRefStream.addEntry(COSWriterXRefEntry)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getXRefEntries()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getOffset()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setLong(COSName, long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.isFree()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDocument.isXRefStream()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.cos.ICOSVisitor.visitFromDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

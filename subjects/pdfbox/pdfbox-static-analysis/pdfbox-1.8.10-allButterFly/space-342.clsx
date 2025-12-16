@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag2Edge()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.getPatchList(AffineTransform, Matrix, COSDictionary, PDRange, PDRange, PDRange[], int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag1Edge()" />
+<item name="org.apache.pdfbox.cos.COSStream.getUnfilteredStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag3Color()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag2Color()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.readPatch(ImageInputStream, boolean, Point2D[], float[][], long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag1Color()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getFlag3Edge()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.interpolate(double, long, float, float)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext.generatePatch(Point2D[], float[][])" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TriangleBasedShadingContext.transformPoint(Point2D, Matrix, AffineTransform)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

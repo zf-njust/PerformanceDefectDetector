@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)
+org.apache.avro.file.DataFileWriter.writeBlock()
+org.apache.avro.file.Codec.compress(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()
+org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)
+org.apache.avro.io.Encoder.writeFixed(byte[])
+org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])
+org.apache.avro.io.Encoder.writeLong(long)

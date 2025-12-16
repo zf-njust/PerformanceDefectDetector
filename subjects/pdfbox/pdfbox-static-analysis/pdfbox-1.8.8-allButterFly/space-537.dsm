@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 
+0 1 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdfparser.BaseParser.readInt()
+org.apache.pdfbox.io.PushBackInputStream.unread(int)
+org.apache.pdfbox.pdfparser.BaseParser.readGenerationNumber()
+org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()
+org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()
+org.apache.pdfbox.io.PushBackInputStream.getOffset()
+org.apache.pdfbox.io.PushBackInputStream.read()
+org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)

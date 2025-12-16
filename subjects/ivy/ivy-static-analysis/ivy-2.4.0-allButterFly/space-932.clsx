@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.pack.PackingRegistry.PackingRegistry()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.pack.PackingRegistry.register(ArchivePacking)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.pack.ArchivePacking.getNames()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 1 0 
+org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)
+org.apache.ivy.core.settings.IvySettings.setDefaultResolver(String)
+org.apache.ivy.plugins.matcher.MapMatcher.MapMatcher(Map, PatternMatcher)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.core.settings.IvySettings.checkResolverName(String)
+org.apache.ivy.core.settings.IvySettings.ModuleSettings.ModuleSettings(String, String, String, String)
+org.apache.ivy.core.settings.IvySettings.addModuleConfiguration(Map, PatternMatcher, String, String, String, String)

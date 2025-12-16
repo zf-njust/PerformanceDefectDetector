@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroKeyValueInputFormat.createRecordReader(InputSplit, TaskAttemptContext)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroJob.getInputValueSchema(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroKeyValueRecordReader.AvroKeyValueRecordReader(Schema, Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getInputKeySchema(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroKeyValue.getSchema(Schema, Schema)" />
+<item name="org.apache.avro.mapred.AvroValue.AvroValue(T)" />
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+<item name="org.apache.avro.mapreduce.AvroRecordReaderBase.AvroRecordReaderBase(Schema)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

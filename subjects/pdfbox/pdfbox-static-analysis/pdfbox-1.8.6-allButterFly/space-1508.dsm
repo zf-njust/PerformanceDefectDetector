@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 1 0 1 0 1 1 1 0 1 0 0 0 0 1 0 1 1 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSStream.createUnfilteredStream()
+org.apache.pdfbox.cos.COSStream.clone(RandomAccess)
+org.apache.pdfbox.cos.COSDocument.createCOSStream(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.util.LayerUtility.getDocument()
+org.apache.pdfbox.cos.COSArray.add(int, COSBase)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.io.RandomAccessRead.length()
+org.apache.pdfbox.pdmodel.PDPage.getCOSDictionary()
+org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)
+org.apache.pdfbox.util.LayerUtility.wrapInSaveRestore(PDPage)
+org.apache.pdfbox.io.RandomAccessBuffer.clone()
+org.apache.pdfbox.cos.COSDocument.getScratchFile()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

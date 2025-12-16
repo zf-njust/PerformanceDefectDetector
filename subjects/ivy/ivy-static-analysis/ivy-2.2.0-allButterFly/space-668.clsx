@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.RelativeURLRepository.encode(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.RelativeURLRepository.getResource(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

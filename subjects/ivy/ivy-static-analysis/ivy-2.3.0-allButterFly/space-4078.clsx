@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.id.ModuleId.compareTo(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.compareTo(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.getModuleId()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

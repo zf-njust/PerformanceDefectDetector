@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectData.ClassAccessorData.getAccessorsFor(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.getFieldAccessors(Class, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.ReflectData.getClassAccessorData(Class)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.reflect.ReflectData.ClassAccessorData.ClassAccessorData(Class)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.reflect.AvroName.value()" />
+<item name="org.apache.avro.reflect.ReflectData.getFields(Class, boolean)" />
+<item name="org.apache.avro.reflect.ReflectionUtil.getFieldAccess()" />
+<item name="org.apache.avro.reflect.FieldAccess.getAccessor(Field)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.ClassAccessorData.createAccessorsFor(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

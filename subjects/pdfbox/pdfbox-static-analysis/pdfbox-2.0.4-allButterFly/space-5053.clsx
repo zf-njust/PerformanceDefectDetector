@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setHolderFormStream(PDStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.createHolderFormStream(PDDocument)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDocument.createCOSStream()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(ScratchFile)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

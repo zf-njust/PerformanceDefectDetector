@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.reflect.ReflectResponder.getDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroDeserializer.AvroDeserializer(Schema, Schema, ClassLoader)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.createDatumReader(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.createDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.ReflectData.ReflectData(ClassLoader)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.avro.ipc.reflect.ReflectResponder.getReflectData()" />
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getReflectData()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getSpecificData()" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getSpecificData()" />
+<item name="org.apache.avro.specific.SpecificData.SpecificData(ClassLoader)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericData.GenericData(ClassLoader)" />
+<item name="org.apache.avro.ipc.generic.GenericResponder.getGenericData()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

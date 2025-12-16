@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.DualResolver.locate(Artifact)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.locate(Artifact)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.isMetadata()" />
+</group>
+</group>
+</group>
+</cluster>

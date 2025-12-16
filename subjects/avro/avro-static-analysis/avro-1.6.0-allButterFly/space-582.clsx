@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+<item name="org.apache.avro.protobuf.ProtobufDatumReader.ProtobufDatumReader(Schema, Schema, ProtobufData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.ThriftDatumReader(Schema, Schema, ThriftData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.get()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isForceBold()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.flagbitspane.FontFlag.getFlagBits()" />
+<item name="org.apache.pdfbox.tools.PDFText2HTML.FontState.isBold(PDFontDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSmallCap()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isNonSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isItalic()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.PDFontDescriptor(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isScript()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSerif()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isAllCap()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFixedPitch()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

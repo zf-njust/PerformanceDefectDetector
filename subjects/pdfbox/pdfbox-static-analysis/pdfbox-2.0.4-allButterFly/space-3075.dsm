@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+1 1 1 0 1 
+0 0 0 0 0 
+org.apache.pdfbox.io.RandomAccessRead.length()
+org.apache.pdfbox.pdfwriter.COSWriter.setOutput(OutputStream)
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.COSStandardOutputStream(OutputStream, long)
+org.apache.pdfbox.pdfwriter.COSWriter.COSWriter(OutputStream, RandomAccessRead)
+org.apache.pdfbox.pdfwriter.COSWriter.setStandardOutput(COSStandardOutputStream)

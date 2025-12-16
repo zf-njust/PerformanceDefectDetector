@@ -1,0 +1,109 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.font.FontValidator.validate()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.reflect.FontValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.font.Type0FontValidator.processDescendantFont()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightPath.peek()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.isEmpty()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.preflight.font.container.Type0Container.setDelegateFontContainer(FontContainer)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getFontContainer(COSBase)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.push(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.isExpectedType(Class)" />
+<item name="org.apache.pdfbox.preflight.font.Type0FontValidator.createDescendantValidator(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.font.FontValidator.getFontContainer()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.preflight.process.reflect.FontValidationProcess.getFontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsArray(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsDictionary(COSBase, COSDocument)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.Type1FontValidator.Type1FontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.font.TrueTypeFontValidator.TrueTypeFontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.font.Type3FontValidator.Type3FontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.preflight.font.Type0FontValidator.createCIDType0FontValidator(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getSubType()" />
+<item name="org.apache.pdfbox.preflight.font.Type0FontValidator.createCIDType2FontValidator(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.font.Type0FontValidator.Type0FontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.font.container.Type0Container.Type0Container(PDFont)" />
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.preflight.font.FontValidator.FontValidator(PreflightContext, PDFont, T)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType2Font.PDCIDFontType2Font(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.font.SimpleFontValidator.SimpleFontValidator(PreflightContext, PDFont, T)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.preflight.font.CIDType2FontValidator.CIDType2FontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.preflight.font.container.TrueTypeContainer.TrueTypeContainer(PDFont)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.font.container.Type3Container.Type3Container(PDFont)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.preflight.font.CIDType0FontValidator.CIDType0FontValidator(PreflightContext, PDFont)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFontType0Font.PDCIDFontType0Font(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.font.container.Type1Container.Type1Container(PDFont)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.PDCIDFont(COSDictionary)" />
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.preflight.font.container.CIDType2Container.CIDType2Container(PDFont)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addFontContainer(COSBase, FontContainer)" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.preflight.font.container.CIDType0Container.CIDType0Container(PDFont)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.FontContainer(PDFont)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.preflight.font.DescendantFontValidator.DescendantFontValidator(PreflightContext, PDFont, T)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.extractWidths()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont(COSDictionary)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.PDFont(COSDictionary)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.determineEncoding()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

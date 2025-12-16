@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.download(ArtifactOrigin, DownloadOptions)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.download(Artifact, ArtifactResourceResolver, ResourceDownloader, CacheDownloadOptions)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getCacheDownloadOptions(DownloadOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getDownloadListener(DownloadOptions)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+<item name="org.apache.ivy.core.cache.CacheDownloadOptions.setListener(DownloadListener)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+</group>
+</group>
+</group>
+</cluster>

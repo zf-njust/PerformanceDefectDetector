@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.setSchema(Job, Schema, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getContext(String)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.write(Object, Object, Schema, Schema, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.createTaskAttemptContext(Configuration, TaskAttemptID)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getRecordWriter(TaskAttemptContext, String)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getNamedOutputFormatClass(JobContext, String)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.checkBaseOutputPath(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.RecordWriterWithCounter.RecordWriterWithCounter(RecordWriter, String, TaskInputOutputContext)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getTaskAttemptContextClass()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroJob.setMapOutputKeySchema(Job, Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.setOutputValueSchema(Job, Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.setMapOutputValueSchema(Job, Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.setOutputKeySchema(Job, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setKeyReaderSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setValueReaderSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

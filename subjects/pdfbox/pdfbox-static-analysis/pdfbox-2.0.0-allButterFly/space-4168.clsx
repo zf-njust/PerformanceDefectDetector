@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.isHexChar(char)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.keyTyped(KeyEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.SelectEvent(int, String)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireSelectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getByte(char[])" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireHexValueChanged(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.getByte(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getChars(byte)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectionChangeListener.selectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.HexChangedEvent(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangeListener.hexChanged(HexChangedEvent)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

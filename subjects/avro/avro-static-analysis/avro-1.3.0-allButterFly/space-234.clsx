@@ -1,0 +1,103 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.GenerateBlockingData.main(String[])" />
+<item name="org.apache.avro.RandomData.main(String[])" />
+<item name="org.apache.avro.tool.DataFileWriteTool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.RandomData.RandomData(Schema, int)" />
+<item name="org.apache.avro.file.DataFileWriter.close()" />
+<item name="org.apache.avro.file.DataFileWriter.append(D)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+<item name="org.apache.avro.tool.Util.fileOrStdin(String, InputStream)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.GenerateBlockingData.writeBlock(Encoder, FileOutputStream)" />
+<item name="org.apache.avro.file.DataFileWriter.create(Schema, File)" />
+<item name="org.apache.avro.io.DatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.Schema.parse(File)" />
+<item name="org.apache.avro.io.BinaryEncoder.BinaryEncoder(OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.RandomData.RandomData(Schema, int, long)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.io.BinaryEncoder.ReuseByteWriter.ReuseByteWriter(ByteBufferOutputStream)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.io.BinaryEncoder.SimpleByteWriter.SimpleByteWriter(OutputStream)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.parse(JsonNode, Names)" />
+<item name="org.apache.avro.file.DataFileWriter.flush()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+<item name="org.apache.avro.Schema.Field.Order.valueOf()" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+<item name="org.apache.avro.Schema.addProp(String, String)" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Schema.Names.add(Schema)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList()" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+<item name="org.apache.avro.Schema.getRequiredText(JsonNode, String, String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.Schema.Names.space()" />
+<item name="org.apache.avro.file.DataFileWriter.sync()" />
+<item name="org.apache.avro.Schema.LockableArrayList.add(E)" />
+<item name="org.apache.avro.Schema.Names.space(String)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.getOptionalText(JsonNode, String)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.tell()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.LockableArrayList.ensureUnlocked()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.Schema.Names.put(Name, Schema)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.Name.toString()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+</group>
+</group>
+</group>
+</cluster>

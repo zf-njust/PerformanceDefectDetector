@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 1 0 1 0 0 0 1 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.ivy.core.settings.IvySettings.addVersionMatcher(VersionMatcher)
+org.apache.ivy.plugins.version.SubVersionMatcher.SubVersionMatcher()
+org.apache.ivy.plugins.version.VersionRangeMatcher.VersionRangeMatcher()
+org.apache.ivy.plugins.version.ChainVersionMatcher.ChainVersionMatcher()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher)
+org.apache.ivy.core.settings.IvySettings.addConfigured(VersionMatcher)
+org.apache.ivy.core.settings.IvySettings.configureDefaultVersionMatcher()
+org.apache.ivy.plugins.version.LatestVersionMatcher.LatestVersionMatcher()
+org.apache.ivy.plugins.version.VersionMatcher.getName()
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.core.settings.IvySettings.init(Object)
+org.apache.ivy.plugins.version.AbstractVersionMatcher.AbstractVersionMatcher(String)
+org.apache.ivy.plugins.version.ExactVersionMatcher.ExactVersionMatcher()

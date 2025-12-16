@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.PDFDocEncoding.getBytes(String)
+org.apache.pdfbox.cos.COSDictionary.setString(String, String)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSString.COSString(String)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.PDFDocEncoding.containsChar(char)
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.setUnits(String)
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.getCOSObject()
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)

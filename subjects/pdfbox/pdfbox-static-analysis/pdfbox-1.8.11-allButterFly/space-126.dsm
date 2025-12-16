@@ -1,0 +1,60 @@
+[Call]
+29
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isNoRotate()
+org.apache.pdfbox.preflight.annotation.AnnotationValidator.checkFlags()
+org.apache.pdfbox.util.BitFlagHelper.getFlag(COSDictionary, COSName, int)
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.preflight.annotation.TextAnnotationValidator.checkFlags()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isInvisible()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getSubtype()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isHidden()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isNoZoom()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isNoView()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.isPrinted()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)

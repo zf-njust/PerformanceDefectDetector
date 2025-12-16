@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.setFloat(COSName, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setCapHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setStemH(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setStemV(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setDescent(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setXHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setMaxWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setMissingWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setLeading(float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.setV(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setAscent(float)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFAnnotation.setOpacity(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setAverageWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setItalicAngle(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setFloat(String, float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setFontWeight(float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+</group>
+</cluster>

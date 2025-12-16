@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.createRGBBufferedImage(ColorSpace, byte[], int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.convertCMYK2RGB(Raster, PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.convertYCCK2RGB(Raster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.processTintTransformation(Raster, PDFunction, ColorSpace)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.eval(float[])" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfOutputParameters()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfInputParameters()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.createColorSpace()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeValues()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainValues()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

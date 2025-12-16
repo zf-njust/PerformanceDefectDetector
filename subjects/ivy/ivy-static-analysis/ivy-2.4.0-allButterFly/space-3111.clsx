@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.CacheParserSettings.substitute(Map)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.ResolverParserSettings.substitute(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

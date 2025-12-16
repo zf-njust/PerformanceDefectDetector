@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroDeserializer.AvroDeserializer(Schema, Schema, DatumReader)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroValueDeserializer.AvroValueDeserializer(Schema, Schema, DatumReader)" />
+<item name="org.apache.avro.hadoop.io.AvroKeyDeserializer.AvroKeyDeserializer(Schema, Schema, DatumReader)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

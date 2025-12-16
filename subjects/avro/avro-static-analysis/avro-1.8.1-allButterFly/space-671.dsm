@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.EncoderFactory.get()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)
+org.apache.avro.io.EncoderFactory.jsonEncoder(Schema, JsonGenerator)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.JsonEncoder.flush()
+org.apache.avro.io.JsonEncoder.configure(JsonGenerator)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.io.parsing.Symbol.root(Symbol...)
+org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema)
+org.apache.avro.io.JsonEncoder.JsonEncoder(Schema, JsonGenerator)
+org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)
+org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])
+org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)
+org.apache.avro.tool.RpcSendTool.dumpJson(PrintStream, Schema, Object)
+org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()
+org.apache.avro.io.DatumWriter.write(D, Encoder)
+org.apache.avro.io.parsing.Parser.processImplicitActions()
+org.apache.avro.generic.GenericData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema)

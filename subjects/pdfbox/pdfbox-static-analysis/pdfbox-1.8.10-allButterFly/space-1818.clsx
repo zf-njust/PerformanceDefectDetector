@@ -1,0 +1,130 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDResources.addXObject(PDXObject, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.createImageForm(PDResources, PDResources, PDStream, PDRectangle, AffineTransform, PDJpeg)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawXObject(PDXObject, AffineTransform)" />
+<item name="org.apache.pdfbox.examples.pdmodel.RubberStampWithImage.drawXObject(PDXObjectImage, PDResources, OutputStream, float, float, float, float)" />
+<item name="org.apache.pdfbox.util.Overlay.createOverlayXObject(PDPage, LayoutPage, COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder.insertInnerFormToHolerResources(PDXObjectForm, PDResources)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPage.findResources()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.PDXObjectForm(PDStream)" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setResources(PDResources)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.examples.pdmodel.RubberStampWithImage.appendRawCommands(OutputStream, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setImageName(String)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.concatenate2CTM(AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setFormType(int)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.saveGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setImageForm(PDXObjectForm)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setInnerFormName(String)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setMatrix(AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure.setImageFormName(String)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.restoreGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.createRetranslatedRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightY(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightX(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(String, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findResources()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendMatrix(AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(double)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDResources.addXObjectToDictionary(PDXObject, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getXObjects()" />
+<item name="org.apache.pdfbox.util.MapUtil.getNextUniqueKey(Map, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.createXObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.setXObjects(Map)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.commonXObjectCreation(COSBase, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSDictionaryMap.convert(Map)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.reverseMap(Map, Class)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.PDCcitt(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.PDPixelMap(PDStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.PDXObjectForm(COSStream)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.PDXObjectImage(PDStream, String)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(PDStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+</group>
+</group>
+</cluster>

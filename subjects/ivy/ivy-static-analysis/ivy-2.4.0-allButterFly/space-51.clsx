@@ -1,0 +1,70 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.getBaseUri()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteDescriptor.addFeature(EclipseFeature)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.addBundle(BundleInfo)" />
+<item name="org.apache.ivy.osgi.updatesite.PluginAdapter.featureAsBundle(URI, EclipseFeature)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getPlugins()" />
+<item name="org.apache.ivy.osgi.updatesite.PluginAdapter.pluginAsBundle(URI, EclipsePlugin)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getId()" />
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getName()" />
+<item name="org.apache.ivy.osgi.core.BundleArtifact.BundleArtifact(boolean, URI, String)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(Version)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getPlugin()" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.ModuleDescriptorWrapper(BundleInfo, URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersion()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getDescription()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setDescription(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.BundleInfo(String, Version)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setLicense(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getCapabilities()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getType()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getId()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getRequires()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getMatch()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.Require.getFeature()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getUrl()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getLicense()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getVersion()" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.add(String, String, ModuleDescriptorWrapper)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()" />
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeExternalSignature(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport.setSignature(byte[])" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteSignature()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface.sign(InputStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getDataToSign()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.COSFilterInputStream(byte[], int[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.util.Hex.getBytes(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+</group>
+</group>
+</group>
+</cluster>

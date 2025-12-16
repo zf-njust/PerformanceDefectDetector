@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.notifyChanged()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.removeUserProperty(PDUserProperty)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.potentiallyNotifyChanged(COSBase, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.addUserProperty(PDUserProperty)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.remove(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.isValueChanged(COSBase, COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.attributeChanged(PDAttributeObject)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.getStructureElement()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getRevisionNumber()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

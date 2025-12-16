@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.NBitInputStream.read()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.LZWFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.LZWDictionary.visit(byte[])" />
+<item name="org.apache.pdfbox.io.NBitInputStream.NBitInputStream(InputStream)" />
+<item name="org.apache.pdfbox.io.NBitInputStream.setBitsInChunk(int)" />
+<item name="org.apache.pdfbox.filter.LZWDictionary.clear()" />
+<item name="org.apache.pdfbox.filter.LZWDictionary.getData(long)" />
+<item name="org.apache.pdfbox.filter.LZWDictionary.getNextCode()" />
+<item name="org.apache.pdfbox.filter.LZWDictionary.visit(byte)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.LZWDictionary.resetCodeSize()" />
+<item name="org.apache.pdfbox.filter.LZWNode.setNode(byte, LZWNode)" />
+<item name="org.apache.pdfbox.filter.LZWNode.LZWNode(long)" />
+<item name="org.apache.pdfbox.filter.LZWDictionary.addRootNode(byte)" />
+<item name="org.apache.pdfbox.filter.LZWNode.getNode(byte)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineWidth()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.SetLineWidth.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.calculateStroke()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.getXScale()" />
+<item name="org.apache.pdfbox.util.operator.SetLineWidth.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineWidth(double)" />
+<item name="org.apache.pdfbox.cos.COSNumber.doubleValue()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

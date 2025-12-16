@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getMatcher()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyIncludeRules(ModuleDescriptor, PrintWriter, IncludeRule[])" />
+<item name="org.apache.ivy.core.resolve.IvyNode.findArtifactsMatching(IncludeRule, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ArtifactId, ArtifactId)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getConfigurations()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, String, String)" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ModuleId, ModuleId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

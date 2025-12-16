@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.self()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.doc(String)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.aliases(String...)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.namespace(String)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.prop(String, JsonNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

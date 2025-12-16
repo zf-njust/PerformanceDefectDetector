@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRules(Map, Filter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+</group>
+</cluster>

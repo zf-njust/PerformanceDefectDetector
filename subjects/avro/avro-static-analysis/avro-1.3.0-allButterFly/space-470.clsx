@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.Histogram.entries()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsServlet.writeMethod(Writer, Message, FloatHistogram)" />
+<item name="org.apache.avro.ipc.stats.Histogram.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getMean()" />
+<item name="org.apache.avro.ipc.stats.StatsServlet.formatMillis(float)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.ipc.stats.Histogram.getCount()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

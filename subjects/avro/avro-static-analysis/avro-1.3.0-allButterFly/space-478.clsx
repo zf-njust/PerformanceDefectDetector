@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.BufferedFileOutputStream(OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.init(OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.io.DatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)" />
+<item name="org.apache.avro.io.BinaryEncoder.BinaryEncoder(OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryEncoder.ReuseByteWriter.ReuseByteWriter(ByteBufferOutputStream)" />
+<item name="org.apache.avro.io.BinaryEncoder.SimpleByteWriter.SimpleByteWriter(OutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.PositionFilter.PositionFilter(OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

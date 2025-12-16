@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.parser.ParserSettings.substitute(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()
+org.apache.ivy.core.module.id.ModuleId.equals(Object)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getMergedDescriptor()
+org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)
+org.apache.ivy.core.module.descriptor.ExtendsDescriptor.getResolvedParentRevisionId()
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()
+org.apache.ivy.util.XMLHelper.escape(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.write(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.substitute(ParserSettings, String)
+org.apache.ivy.plugins.parser.xml.UpdateOptions.isMerge()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.startExtends(Attributes)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

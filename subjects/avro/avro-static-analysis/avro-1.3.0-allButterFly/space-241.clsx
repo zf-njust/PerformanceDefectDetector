@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.RandomData.randomBytes(Random, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.RandomData.generate(Schema, Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.generic.GenericRecord.put(String, Object)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.generic.GenericArray.add(T)" />
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

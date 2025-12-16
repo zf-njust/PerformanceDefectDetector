@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.printResult(long, Test, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Perf.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Perf.printHeader()" />
+<item name="org.apache.avro.io.Perf.usage()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

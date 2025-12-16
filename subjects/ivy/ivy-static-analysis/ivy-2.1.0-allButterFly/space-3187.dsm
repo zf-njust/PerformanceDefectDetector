@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 1 0 0 0 0 0 1 1 1 
+0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.Ivy.pushContext()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.pushNewContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.core.IvyContext.IvyContext(IvyContext)
+org.apache.ivy.core.IvyContext.pushNewCopyContext()
+org.apache.ivy.core.IvyThread.initContext()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.IvyContext.setIvy(Ivy)
+org.apache.ivy.core.IvyContext.pushContext(IvyContext)
+org.apache.ivy.core.IvyContext.peekIvy()

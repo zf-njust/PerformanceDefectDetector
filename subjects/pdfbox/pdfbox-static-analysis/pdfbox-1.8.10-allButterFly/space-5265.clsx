@@ -1,0 +1,78 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.readVertex(ImageInputStream, long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Type4ShadingContext.getTriangleList(AffineTransform, Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Type5ShadingContext.getTriangleList(AffineTransform, Matrix)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSStream.getUnfilteredStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType5.getVerticesPerRow()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeForParameter(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.ShadedTriangle(Point2D[], float[][])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingResources.getCOSDictionary()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.calcDeg(Point2D[])" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.getArea(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.edgeEquationValue(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.overlaps(Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.Line(Point, Point, float[], float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeValues()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.calcLine(int, int, int, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.interpolate(float, long, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Vertex.Vertex(Point2D, float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TriangleBasedShadingContext.transformPoint(Point2D, Matrix, AffineTransform)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroJob.setOutputMeta(JobConf, String, long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.WordCountUtil.setMeta(JobConf)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.setOutputMeta(JobConf, String, String)" />
+<item name="org.apache.avro.mapred.AvroJob.setOutputMeta(JobConf, String, byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

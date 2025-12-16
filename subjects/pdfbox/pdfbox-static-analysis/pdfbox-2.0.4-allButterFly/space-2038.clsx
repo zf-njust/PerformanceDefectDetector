@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.addWord(Word)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Paragraph.getLines(PDFont, float, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.setAttributes(AttributedString)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStringWidth(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.Word(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.calculateWidth(PDFont, float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.setWidth(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidth(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.getText()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.readCode(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.getAttributes()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getMissingWidth()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidths()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStandard14Width(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.hasMissingWidth()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidthFromFont(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertFloatCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.setHorizontalScaling(float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.text.SetTextHorizontalScaling.process(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

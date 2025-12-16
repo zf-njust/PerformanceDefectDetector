@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.listModules(OrganisationEntry)" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.listOrganisations()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.listRevisions(ModuleEntry)" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.listTokenValues(String, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.search.OrganisationEntry.getOrganisation()" />
+<item name="org.apache.ivy.core.search.ModuleEntry.getModule()" />
+<item name="org.apache.ivy.core.search.RevisionEntry.RevisionEntry(ModuleEntry, String)" />
+<item name="org.apache.ivy.core.search.ModuleEntry.getOrganisation()" />
+<item name="org.apache.ivy.core.search.ModuleEntry.ModuleEntry(OrganisationEntry, String)" />
+<item name="org.apache.ivy.core.search.OrganisationEntry.OrganisationEntry(DependencyResolver, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

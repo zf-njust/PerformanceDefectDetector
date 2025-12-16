@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.AbstractMessageLogger.clearProblems()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.AbstractMessageLogger.sumupProblems()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLoggerHelper.sumupProblems(MessageLogger)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.log(String, int)" />
+<item name="org.apache.ivy.util.MessageLogger.getErrors()" />
+<item name="org.apache.ivy.util.MessageLogger.getProblems()" />
+<item name="org.apache.ivy.util.MessageLogger.getWarns()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

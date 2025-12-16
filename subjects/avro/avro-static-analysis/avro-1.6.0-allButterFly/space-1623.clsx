@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroJob.configureAvroShuffle(JobConf)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroJob.setMapOutputSchema(JobConf, Schema)" />
+<item name="org.apache.avro.mapred.AvroJob.configureAvroOutput(JobConf)" />
+<item name="org.apache.avro.mapred.AvroJob.configureAvroInput(JobConf)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.Props.write(JsonGenerator)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

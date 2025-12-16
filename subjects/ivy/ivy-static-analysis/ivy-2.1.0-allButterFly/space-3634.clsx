@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.filter.OrFilter.OrFilter(Filter, Filter)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.event.IvyEventFilter.parseExpression(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.filter.NotFilter.NotFilter(Filter)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+<item name="org.apache.ivy.util.filter.AndFilter.AndFilter(Filter, Filter)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

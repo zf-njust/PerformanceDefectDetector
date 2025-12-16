@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 1 1 0 0 1 
+0 0 0 0 0 1 0 0 0 0 0 
+1 1 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyId()
+org.apache.ivy.core.sort.ModuleInSort.match(DependencyDescriptor, VersionMatcher)
+org.apache.ivy.Ivy.getWorkingRevision()
+org.apache.ivy.core.sort.CollectionOfModulesToSort.getModuleDescriptorDependency(DependencyDescriptor)
+org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)
+org.apache.ivy.util.HostUtil.getLocalHostName()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.core.sort.NonMatchingVersionReporter.reportNonMatchingVersion(DependencyDescriptor, ModuleDescriptor)
+org.apache.ivy.core.sort.ModuleInSort.getSortedModuleDescriptor()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

@@ -1,0 +1,20 @@
+[Call]
+9
+0 1 1 1 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 
+org.apache.pdfbox.filter.DCTFilter.decode(InputStream, OutputStream, COSDictionary, int)
+org.apache.pdfbox.filter.DCTFilter.getNumChannels(ImageReader)
+org.apache.pdfbox.filter.Filter.findImageReader(String, String)
+org.apache.pdfbox.filter.DCTFilter.fromBGRtoRGB(Raster)
+org.apache.pdfbox.filter.DCTFilter.getAdobeTransform(IIOMetadata)
+org.apache.pdfbox.filter.MissingImageReaderException.MissingImageReaderException(String)
+org.apache.pdfbox.filter.DCTFilter.clamp(float)
+org.apache.pdfbox.filter.DecodeResult.DecodeResult(COSDictionary)
+org.apache.pdfbox.filter.DCTFilter.fromYCCKtoCMYK(Raster)

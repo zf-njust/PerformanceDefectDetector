@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.font.PDType1Font.codeToName(int)
+org.apache.pdfbox.pdmodel.font.PDType1Font.getPath(String)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.codePointToName(int)
+org.apache.pdfbox.pdmodel.font.PDType1Font.getName()
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getGlyphList()
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)
+org.apache.pdfbox.pdmodel.font.PDType1Font.isEmbedded()
+org.apache.pdfbox.pdmodel.font.UniUtil.getUniNameOfCodePoint(int)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.getNameToCodeMap()
+org.apache.pdfbox.pdmodel.font.PDType1Font.getNameInFont(String)
+org.apache.pdfbox.pdmodel.font.PDType1Font.encode(int)
+org.apache.pdfbox.pdmodel.font.PDType1Font.getBaseFont()
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.getEncodingName()
+org.apache.pdfbox.pdmodel.font.PDType1Font.hasGlyph(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)

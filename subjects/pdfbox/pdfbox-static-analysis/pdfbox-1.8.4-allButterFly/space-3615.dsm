@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.ResourceLoader.loadResource(String)
+org.apache.pdfbox.util.TextNormalize.findICU4J()
+org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)
+org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.ICU4JImpl.ICU4JImpl()
+org.apache.pdfbox.util.PDFMarkedContentExtractor.PDFMarkedContentExtractor(String)
+org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)
+org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)
+org.apache.pdfbox.util.TextNormalize.TextNormalize(String)

@@ -1,0 +1,57 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.COSParser.isString(char[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.COSParser.checkXRefOffset(long)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForXRefStreams()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForXRefTables()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForObjects()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.parseStartXref()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isEOF()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.peek()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.calculateXRefFixedOffset(long, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.checkXRefStreamOffset(long, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.readFully(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readExpectedString(char[], boolean)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForXRef(long, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readGenerationNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readInt()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.searchNearestValue(List, long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

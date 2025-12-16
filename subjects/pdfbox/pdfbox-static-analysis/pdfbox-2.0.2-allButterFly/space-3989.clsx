@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDVectorFont.getPath(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.TTFGlyph2D.getPathForGID(int, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getPath(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.codeToCID(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.codeToCID(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

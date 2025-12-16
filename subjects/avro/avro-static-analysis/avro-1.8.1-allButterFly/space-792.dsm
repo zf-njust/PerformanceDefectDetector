@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.avro.util.Utf8.getBytesFor(String)
+org.apache.avro.io.LegacyBinaryEncoder.encodeString(byte[], int, int)
+org.apache.avro.util.Utf8.Utf8(String)
+org.apache.avro.io.LegacyBinaryEncoder.writeString(String)
+org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)
+org.apache.avro.util.Utf8.set(String)
+org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)

@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.tool.IdlToSchemataTool.getOutputDirectory(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.IdlToSchemataTool.run(InputStream, PrintStream, PrintStream, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.tool.IdlToSchemataTool.isRequestingHelp(List)" />
+<item name="org.apache.avro.tool.IdlToSchemataTool.print(Schema, File, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

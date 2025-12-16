@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.codeToCID(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.codeToCID(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getPositionVector(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getWidth(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.Type0Font.readMap(PDCIDFont, PDType0Font)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getVerticalDisplacementVectorY(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDVectorFont.getPath(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDVectorFont.hasGlyph(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getWidthForCID(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getDefaultPositionVector(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.codeToGID(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDFont.getDefaultWidth()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getName()" />
+<item name="org.apache.pdfbox.util.Vector.Vector(float, float)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.getBaseFont()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

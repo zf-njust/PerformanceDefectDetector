@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.BasicURLHandler.upload(File, URL, CopyProgressListener)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(URL, int, String)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToURL(URL)" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+<item name="org.apache.ivy.util.url.BasicURLHandler.disconnect(URLConnection)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.CopyProgressListener.start(CopyProgressEvent)" />
+<item name="org.apache.ivy.util.CopyProgressListener.end(CopyProgressEvent)" />
+<item name="org.apache.ivy.util.CopyProgressEvent.update(byte[], int, long)" />
+<item name="org.apache.ivy.util.CopyProgressEvent.CopyProgressEvent()" />
+<item name="org.apache.ivy.util.CopyProgressListener.progress(CopyProgressEvent)" />
+</group>
+</group>
+</group>
+</cluster>

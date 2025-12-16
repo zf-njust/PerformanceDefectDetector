@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.FileInfo.setLastModified(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.ssh.Scp.parseTLine(String, FileInfo)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.ssh.RemoteScpException.RemoteScpException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

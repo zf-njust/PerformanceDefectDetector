@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+org.apache.ivy.util.filter.Filter.accept(Object)
+org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getGroupIntValue(java.util.regex.Matcher, int)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.settings.IvySettings.getVariable(String)
+org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId, Filter)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultTTL()
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)
+org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()
+org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.parseDuration(String)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getTTL(ModuleRevisionId)

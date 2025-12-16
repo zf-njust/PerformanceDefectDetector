@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.QuickSort.quicksort(List, Comparator)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.QuickSort.sort(List, Comparator)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.QuickSort.partition(List, Comparator, int, int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.QuickSort.swap(List, int, int)" />
+</group>
+</group>
+</group>
+</cluster>

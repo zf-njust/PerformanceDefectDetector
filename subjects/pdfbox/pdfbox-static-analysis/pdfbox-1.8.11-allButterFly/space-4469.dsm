@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+1 0 0 0 1 0 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject.PDListAttributeObject()
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.setOwner(String)

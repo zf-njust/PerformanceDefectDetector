@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseOr()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.filter.OrFilter.OrFilter()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseMultiOperator(MultiOperatorFilter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseFilter()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.unread()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.skipWhiteSpace()" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.add(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.readNext()" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.MultiOperatorFilter()" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.getSubFilters()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseAnd()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseNot()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompare()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.filter.CompareFilter.CompareFilter(String, Operator, String)" />
+<item name="org.apache.ivy.osgi.filter.NotFilter.NotFilter(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareOperator()" />
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareValue()" />
+<item name="org.apache.ivy.osgi.filter.AndFilter.AndFilter()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.isOperator(char)" />
+<item name="org.apache.ivy.osgi.filter.UniOperatorFilter.UniOperatorFilter(OSGiFilter)" />
+</group>
+</group>
+</group>
+</cluster>

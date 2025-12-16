@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.ASCII85InputStream(InputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ASCII85Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.DecodeResult(COSDictionary)" />
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.read()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

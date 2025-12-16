@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 
+org.apache.ivy.core.resolve.VisitNode.getNode()
+org.apache.ivy.core.resolve.VisitData.getVisitNodes(String)
+org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)
+org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)
+org.apache.ivy.core.resolve.VisitNode.getRootModuleConf()
+org.apache.ivy.core.resolve.ResolveData.register(ModuleRevisionId, VisitNode)
+org.apache.ivy.core.resolve.VisitData.setNode(IvyNode)
+org.apache.ivy.core.resolve.VisitData.addVisitNode(VisitNode)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()
+org.apache.ivy.core.resolve.VisitData.VisitData(IvyNode)
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)

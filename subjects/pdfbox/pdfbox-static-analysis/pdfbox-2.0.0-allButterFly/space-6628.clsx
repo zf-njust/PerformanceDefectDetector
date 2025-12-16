@@ -1,0 +1,93 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionFactory.createAction(COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getPV()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.getAction()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDPageAdditionalActions.getO()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getPO()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getD()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getE()" />
+<item name="org.apache.pdfbox.pdmodel.PDJavascriptNameTreeNode.convertCOSToPD(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getPI()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getOpenAction()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions.getWP()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.getV()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions.getWS()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.getF()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getAction()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions.getWC()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getX()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.getC()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.getAction()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getAction()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.getK()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions.getDS()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions.getDP()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAction.getNext()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFJavaScript.getDoc()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getPC()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getU()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getBl()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getFo()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDPageAdditionalActions.getC()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions.getF()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination.create(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination.PDPageFitHeightDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSString)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination.PDPageFitWidthDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination.PDPageFitRectangleDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination.PDNamedDestination(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination.PDPageFitDestination(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination.PDPageXYZDestination(COSArray)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageDestination.PDPageDestination(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionHide.PDActionHide(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionMovie.PDActionMovie(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionURI.PDActionURI(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionRemoteGoTo.PDActionRemoteGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionThread.PDActionThread(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionJavaScript.PDActionJavaScript(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionImportData.PDActionImportData(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionNamed.PDActionNamed(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionLaunch.PDActionLaunch(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionResetForm.PDActionResetForm(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo.PDActionGoTo(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionSubmitForm.PDActionSubmitForm(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionSound.PDActionSound(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDAction.PDAction(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

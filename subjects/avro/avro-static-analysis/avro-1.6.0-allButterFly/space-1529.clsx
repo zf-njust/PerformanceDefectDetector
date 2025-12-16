@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroUtf8InputFormat.Utf8LineRecordReader.next(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroWrapper.datum(T)" />
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.Utf8.setByteLength(int)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getArtifactsIncludingExtending(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getArtifacts(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfiguration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationIntersection.getIntersectedConfigurationNames()" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationGroup.getMembersConfigurationNames()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttribute(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationIntersection.ConfigurationIntersection(String, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.ConfigurationGroup.ConfigurationGroup(String, Map)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.findConfigurationExtending(String, Configuration[])" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+</group>
+</group>
+</cluster>

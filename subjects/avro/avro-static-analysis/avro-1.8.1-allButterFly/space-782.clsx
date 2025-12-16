@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificDatumWriter.writeString(Schema, Object, Encoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificDatumWriter.getSpecificData()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)" />
+<item name="org.apache.avro.specific.SpecificData.isStringable(Class)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumWriter.getData()" />
+<item name="org.apache.avro.io.Encoder.writeString(CharSequence)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+</group>
+</group>
+</group>
+</cluster>

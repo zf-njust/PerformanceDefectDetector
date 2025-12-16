@@ -1,0 +1,69 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.blacklist(IvyNodeBlacklist)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.blacklist(IvyNodeBlacklist)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.ResolveData.blacklist(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.toString()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveEngineSettings.logResolvedRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getSettings()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.clearEvictionDataInAllCallers(String, Stack)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.ResolveEngine.getSettings()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.findNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.IvyNodeEviction(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.getRootModuleConf()" />
+</group>
+</group>
+</group>
+</cluster>

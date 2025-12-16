@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.initWriter(OutputStream, RandomAccessRead)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.COSWriter(OutputStream, InputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.COSWriter(OutputStream, RandomAccessRead)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer(InputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.write(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.seek(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.expandBuffer()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.checkClosed()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.nextBuffer()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setOutput(OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setStandardOutput(COSStandardOutputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.COSStandardOutputStream(OutputStream, int)" />
+</group>
+</group>
+</group>
+</cluster>

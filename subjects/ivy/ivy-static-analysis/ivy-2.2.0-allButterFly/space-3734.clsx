@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getRequiredConfigurations(IvyNode, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.getRequiredConfigurations(IvyNode, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.addAllIfNotNull(Collection, Collection)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.NodeConf.NodeConf(IvyNode, String)" />
+</group>
+</group>
+</group>
+</cluster>

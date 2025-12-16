@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.setCanFillInForm(boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.setPermissionBit(int, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.getPermissions()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.setPermissions(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

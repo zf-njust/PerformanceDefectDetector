@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.SetLineJoinStyle.process(PDFOperator, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.SetLineJoinStyle.process(PDFOperator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineJoin()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getGraphics()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineJoin(int)" />
+</group>
+</group>
+</group>
+</cluster>

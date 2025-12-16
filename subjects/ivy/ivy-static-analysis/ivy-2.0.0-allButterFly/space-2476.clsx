@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()" />
+<item name="org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)" />
+<item name="org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 1 1 0 0 0 0 0 
+1 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.PDResources.getIndirect(COSName, COSName)
+org.apache.pdfbox.pdmodel.PDResources.getExtGState(COSName)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.pdmodel.PDResources.get(COSName, COSName)
+org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary)
+org.apache.pdfbox.pdmodel.ResourceCache.put(COSObject, PDExtendedGraphicsState)
+org.apache.pdfbox.pdmodel.ResourceCache.getExtGState(COSObject)
+org.apache.pdfbox.cos.COSObject.getObject()

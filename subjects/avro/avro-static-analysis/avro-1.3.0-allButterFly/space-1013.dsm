@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 1 1 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.BlockingBinaryEncoder.endBlockedValue()
+org.apache.avro.io.BlockingBinaryEncoder.finishOverflow()
+org.apache.avro.io.BlockingBinaryEncoder.flush()
+org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)
+org.apache.avro.io.BlockingBinaryEncoder.ensure(int)
+org.apache.avro.io.BlockingBinaryEncoder.write(byte[], int, int)
+org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.buffer()
+org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.length()
+org.apache.avro.io.BlockingBinaryEncoder.compact()
+org.apache.avro.io.BlockingBinaryEncoder.check()
+org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)

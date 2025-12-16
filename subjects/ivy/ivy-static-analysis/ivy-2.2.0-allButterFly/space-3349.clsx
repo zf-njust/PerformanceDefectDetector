@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateDataFrom(IvyNodeUsage, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateDataFrom(Collection, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateMapOfSet(Map, Map)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.updateMapOfSetForKey(Map, Map, Object)" />
+</group>
+</group>
+</group>
+</cluster>

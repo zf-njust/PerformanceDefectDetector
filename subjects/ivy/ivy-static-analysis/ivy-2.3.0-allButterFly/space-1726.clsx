@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getChangingMatcher(CacheMetadataOptions)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.isChanging(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isChanging()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getMatcher(String)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.getChangingPattern()" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.getChangingMatcherName()" />
+</group>
+</group>
+</group>
+</cluster>

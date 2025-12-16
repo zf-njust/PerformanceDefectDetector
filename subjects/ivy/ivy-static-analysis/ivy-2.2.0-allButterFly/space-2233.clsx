@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.getResource(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.url.URLRepository.getResource(String)" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.getRepository()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+</group>
+</group>
+</group>
+</cluster>

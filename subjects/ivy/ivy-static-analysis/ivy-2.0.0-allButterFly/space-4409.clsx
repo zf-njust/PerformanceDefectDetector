@@ -1,0 +1,92 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.getCache()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.determineArtifactsToCopy(ModuleRevisionId, String, RetrieveOptions)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.getConfs(ModuleRevisionId, RetrieveOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.getMetadataArtifactReport(ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.getRealDependencyRevisionIds()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.resolveFile(String)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.setConfs(String[])" />
+<item name="org.apache.ivy.core.retrieve.FileNameMapper.mapFileName(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.retrieve.RetrieveEngineSettings.getVariables()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getConfigurationResolveReportInCache(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResource()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getMapper()" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getDefaultResolveId(ModuleId)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getType()" />
+<item name="org.apache.ivy.core.retrieve.RetrieveEngine.getConflictResolvingPolicy()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.getArtifactReports()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifact()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getResolvedModuleDescriptor(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getArtifactFilter()" />
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getDestIvyPattern()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.parse(File)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getConfs()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.setResolveId(String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.core.retrieve.RetrieveOptions.getResolveId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.getArtifactReports()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.getMetadataArtifactReport(ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.getRealModuleRevisionIds()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.SaxXmlReportParser(File)" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.parse()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolutionCacheManager()" />
+</group>
+</group>
+</group>
+</cluster>

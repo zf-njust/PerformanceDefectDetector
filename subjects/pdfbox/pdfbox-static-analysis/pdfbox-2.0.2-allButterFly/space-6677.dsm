@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1 1 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+1 1 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSArray.growToSize(int, COSBase)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getColor(COSName)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.interactive.form.PDDefaultAppearanceString.setFontColor(PDColor)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getColor(COSName)
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.operator.color.SetColor.setColor(PDColor)
+org.apache.pdfbox.contentstream.operator.color.SetColor.process(Operator, List)
+org.apache.pdfbox.pdmodel.interactive.form.PDDefaultAppearanceString.processSetFontColor(List)
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getTextColor()
+org.apache.pdfbox.contentstream.operator.color.SetColor.getColorSpace()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getCOSObject()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()
+org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(COSArray, PDColorSpace)

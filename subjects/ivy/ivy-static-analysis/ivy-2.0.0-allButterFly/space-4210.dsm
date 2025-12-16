@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.version.VersionRangeMatcher.getLatestStrategy()
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)
+org.apache.ivy.plugins.latest.LatestStrategy.findLatest(ArtifactInfo[], Date)
+org.apache.ivy.core.settings.IvySettings.getLatestStrategy(String)
+org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()
+org.apache.ivy.plugins.version.VersionRangeMatcher.(Anon_1).compare(Object, Object)
+org.apache.ivy.plugins.version.VersionRangeMatcher.MRIDArtifactInfo.MRIDArtifactInfo(ModuleRevisionId)

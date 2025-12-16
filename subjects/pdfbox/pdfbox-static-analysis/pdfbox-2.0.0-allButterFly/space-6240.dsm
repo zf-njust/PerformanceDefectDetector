@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 1 0 1 1 0 0 0 0 1 0 1 0 0 0 1 0 1 
+1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canPrint()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.isOwnerPermission()
+org.apache.pdfbox.debugger.flagbitspane.EncryptFlag.getFlagBits()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canModify()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canFillInForm()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canModifyAnnotations()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canAssembleDocument()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canExtractContent()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.hasAnyRevision3PermissionSet()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.isPermissionBitOn(int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canExtractForAccessibility()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canPrintDegraded()

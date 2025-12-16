@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificRecordBuilderBase.SpecificRecordBuilderBase(SpecificRecordBuilderBase)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="avro.examples.baseball.Player.Builder.Builder(avro.examples.baseball.Player.Builder)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.data.RecordBuilderBase.RecordBuilderBase(RecordBuilderBase, GenericData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getFields()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

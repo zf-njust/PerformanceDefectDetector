@@ -1,0 +1,91 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, Map, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.getResourceURL()" />
+<item name="org.apache.ivy.ant.IvyReport.getOutputPattern(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.getResolvedModule()" />
+<item name="org.apache.ivy.core.cache.ResolutionCacheManager.getConfigurationResolveReportInCache(String, String)" />
+<item name="org.apache.ivy.Ivy.getResolutionCacheManager()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.parse(File)" />
+<item name="org.apache.ivy.ant.IvyTask.getIvyInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.parse()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.getResolvedModule()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getResolutionCacheManager()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.plugins.report.XmlReportParser.SaxXmlReportParser.SaxXmlReportParser(File)" />
+<item name="org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultResolutionCacheBasedir()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.DefaultResolutionCacheManager(File)" />
+<item name="org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)" />
+<item name="org.apache.ivy.core.settings.IvySettings.init(Object)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCache()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.util.FileUtil.normalize(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.FileUtil.dissect(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean, String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.pack.ArchivePacking.unpack(InputStream, File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.pack.PackagingManager.unpackArtifact(Artifact, File, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.pack.PackingRegistry.get(String)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttribute(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getPackingRegistry()" />
+<item name="org.apache.ivy.core.pack.StreamPacking.unpack(InputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

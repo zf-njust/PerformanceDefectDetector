@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfigurationWithAvroSerialization()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getConfigurationWithAvroSerialization()" />
+<item name="org.apache.avro.mapreduce.AvroJob.setMapOutputValueSchema(Job, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setValueReaderSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.setKeyReaderSchema(Configuration, Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getInputPath()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Writer.Options.getConfiguration()" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getConfiguration()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.getFileSystem()" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.getMetadata(FileSystem, Path, Configuration)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

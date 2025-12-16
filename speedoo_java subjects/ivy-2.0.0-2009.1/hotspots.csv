@@ -1,0 +1,232 @@
+method,Time,Count
+"org.apache.ivy.core.resolve.ResolveEngine.resolve(ModuleDescriptor, ResolveOptions)",216305,736
+"org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(VisitNode, String, boolean)",169993,5130
+"org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(VisitNode, String)",168610,4818
+"org.apache.ivy.core.resolve.ResolveEngine.getDependencies(ModuleDescriptor, ResolveOptions, ResolveReport)",167730,751
+"org.apache.ivy.core.resolve.IvyNode.loadData(String, IvyNode, String, String, boolean, IvyNodeUsage)",160685,5150
+"org.apache.ivy.core.resolve.VisitNode.loadData(String, boolean)",160211,5110
+"org.apache.ivy.plugins.resolver.BasicResolver.getDependency(DependencyDescriptor, ResolveData)",150134,2809
+"org.apache.ivy.plugins.resolver.ChainResolver.getDependency(DependencyDescriptor, ResolveData)",122308,1181
+java.io.File.delete(),95960,15346
+org.apache.ivy.ant.IvyResolve.doExecute(),92521,284
+org.apache.ivy.util.FileUtil.forceDelete(File),70123,9137
+java.lang.Thread.sleep(long) Thread.java,67081,451
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser$Parser.parse(),66552,2143
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.download(Artifact, ArtifactResourceResolver, ResourceDownloader, CacheDownloadOptions)",53298,2161
+"org.apache.xerces.parsers.AbstractSAXParser.startElement(QName, XMLAttributes,",50659,67150
+"org.apache.ivy.plugins.resolver.BasicResolver.parse(ResolvedResource, DependencyDescriptor, ResolveData)",46594,709
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.cacheModuleDescriptor(DependencyResolver, ResolvedResource, DependencyDescriptor, Artifact, ResourceDownloader, CacheMetadataOptions)",46185,705
+"org.apache.xerces.impl.xs.XMLSchemaValidator.handleStartElement(QName, XMLAttributes,",45969,11800
+"org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(QName, XMLAttributes,",45529,37710
+"org.apache.ivy.core.settings.XmlSettingsParser.startElement(String, String, String, Attributes)",43742,37038
+"org.apache.xerces.impl.xs.XMLSchemaValidator.startElement(QName, XMLAttributes,",42784,4976
+"org.apache.xerces.impl.xs.XMLSchemaValidator.findSchemaGrammar(short, String, QName, QName,",41720,11520
+java.io.BufferedInputStream.read(),41711,255385
+"org.apache.xerces.impl.xs.traversers.XSDHandler.parseSchema(XMLInputSource, XSDDescription,",41681,3942
+org.apache.ivy.core.settings.XmlSettingsParser.parse(URL),37767,712
+org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL),37620,3059
+sun.net.www.URLConnection.getContentLength(),36781,2
+"org.apache.commons.httpclient.HttpParser.readLine(InputStream, String)",34830,3936
+org.apache.commons.httpclient.HttpParser.readRawLine(InputStream),34762,3936
+"org.apache.commons.httpclient.HttpMethodBase.execute(HttpState, HttpConnection)",33536,203
+"org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpState, HttpConnection)",33402,203
+"org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpState, HttpConnection)",32977,203
+"org.apache.ivy.plugins.resolver.BasicResolver$6.download(Artifact, Resource, File)",31008,1804
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.doFindModuleInCache(ModuleRevisionId, CacheMetadataOptions, String)",29985,4401
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)",29773,83540
+org.apache.ivy.core.settings.IvySettings.load(URL),29122,479
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.originalToCachedModuleDescriptor(DependencyResolver, ResolvedResource, Artifact, ResolvedModuleRevision, ModuleDescriptorWriter)",28723,1186
+org.apache.ivy.plugins.matcher.AbstractPatternMatcherTest.testLoadTestGetMatcher(),27989,8
+org.apache.ivy.plugins.matcher.AbstractPatternMatcher.getMatcher(String),27889,1200381
+org.apache.ivy.core.module.status.StatusManager.getCurrent(),27833,1816
+"org.apache.ivy.plugins.resolver.AbstractResolver.findModuleInCache(DependencyDescriptor, ResolveData, boolean)",27301,3530
+"org.apache.ivy.plugins.resolver.BasicResolver.getAndCheck(Resource, File)",27249,1804
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.findModuleInCache(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions, String)",27213,3530
+"org.apache.ivy.util.cli.CommandLineParser.printHelp(PrintWriter, int, String, boolean)",27092,6
+"java.net.Socket.<init>(String, int)",26203,27
+java.lang.StringBuffer.append(char),24858,26485623
+org.apache.ivy.Ivy.configureDefault(),24642,407
+"org.apache.ivy.plugins.resolver.RepositoryResolver.get(Resource, File)",24150,1757
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.traverseComplexTypeDecl(Element, String, Object[], XSDocumentInfo,",23600,56168
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.processComplexContent(Element, boolean, boolean, XSDocumentInfo,",23504,56168
+org.apache.ivy.util.url.URLHandlerDispatcher.getURLInfo(URL),23494,629
+org.apache.ivy.ant.IvyAntSettings.createIvyEngine(),22747,402
+"org.apache.ivy.util.StringUtils.repeat(String, int)",22722,603278
+org.apache.tools.ant.taskdefs.Delete.removeDir(File),21880,477
+"org.apache.xerces.impl.xs.traversers.XSAttributeChecker.checkAttributes(Element, boolean, XSDocumentInfo,",21837,436252
+"org.apache.ivy.core.resolve.ResolveEngine.downloadArtifacts(ResolveReport, Filter, DownloadOptions)",21782,597
+java.lang.ClassLoader.loadClass(String),21708,100093
+org.apache.tools.ant.taskdefs.Delete.delete(File),21644,1633
+"org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findResourceUsingPatterns(ModuleRevisionId, List, Artifact, ResourceMDParser, Date)",21512,1265
+"org.apache.xerces.impl.xs.traversers.XSDElementTraverser.traverseLocal(XSParticleDecl, Element, XSDocumentInfo, SchemaGrammar, int,",21499,54161
+"org.apache.ivy.plugins.resolver.RepositoryResolver.findResourceUsingPattern(ModuleRevisionId, String, Artifact, ResourceMDParser, Date)",21461,1116
+org.apache.tools.ant.taskdefs.Delete.execute(),21432,172
+"org.apache.ivy.plugins.resolver.BasicResolver.cacheModuleDescriptor(ModuleDescriptor, ModuleRevisionId, ResolvedResource, ResolvedModuleRevision)",21319,806
+"org.apache.xerces.impl.xs.traversers.XSDElementTraverser.traverseNamedElement(Element, Object[], XSDocumentInfo, SchemaGrammar, boolean,",21162,56167
+"org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.traverseLocal(Element, XSDocumentInfo,",21011,52155
+org.apache.ivy.ant.IvyTask.getIvyInstance(),20594,1589
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map)",20435,92703
+"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.<init>(ModuleRevisionId, String, Date, boolean)",20183,479
+org.apache.ivy.ant.IvyAntSettings.getDefaultInstance(Project),20168,1532
+"org.apache.ivy.plugins.resolver.BasicResolver.download(Artifact[], DownloadOptions)",20143,1048
+org.apache.ivy.core.settings.XmlSettingsParser.includeStarted(Map),20046,2165
+"org.apache.ivy.plugins.resolver.RepositoryResolver.download(Artifact[], DownloadOptions)",19799,1005
+java.lang.StringBuffer.append(String),19589,18129257
+"org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)",19481,276531
+org.apache.ivy.ant.IvyTask.prepareTask(),19382,606
+org.apache.ivy.core.resolve.ResolveTest.tearDown(),18923,368
+"org.apache.xerces.impl.xs.traversers.XSAttributeChecker.checkAttributes(Element, boolean,",18745,365084
+"org.apache.xerces.parsers.SAXParser.<init>(SymbolTable,",18314,6867
+org.apache.ivy.core.settings.IvySettings.<init>(IvyVariableContainer),17455,1871
+"org.apache.xerces.jaxp.SAXParserImpl.<init>(SAXParserFactory,",17400,6570
+"org.apache.xerces.parsers.ObjectFactory.createObject(String, String,",15368,5840
+"org.apache.ivy.core.settings.IvyVariableContainerImpl.setVariable(String, String, boolean)",15181,158430
+"org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)",14011,482
+"org.apache.xerces.impl.xs.traversers.XSDAbstractParticleTraverser.traverseSequence(Element, XSDocumentInfo, SchemaGrammar, int,",13699,22120
+"org.apache.xerces.impl.xs.traversers.XSDAbstractParticleTraverser.traverseSeqChoice(Element, XSDocumentInfo, SchemaGrammar, int, boolean,",13694,23700
+"org.apache.xerces.parsers.ObjectFactory.createObject(String,",13554,5499
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getIvyFileInCache(ModuleRevisionId),13543,26251
+java.io.FileOutputStream.<init>(File),13541,11205
+java.util.regex.Pattern.compile(String),13274,421743
+"org.apache.xerces.impl.xs.traversers.XSDElementTraverser.traverseLocal(Element, XSDocumentInfo, SchemaGrammar, int,",13270,42659
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.lockMetadataArtifact(ModuleRevisionId),13221,11334
+"org.apache.xerces.impl.xs.traversers.XSDAbstractTraverser.traverseAttrsAndAttrGrps(Element, XSAttributeGroupDecl, XSDocumentInfo, SchemaGrammar,",12992,42660
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultMetadataArtifactOrigin(ModuleRevisionId),12979,22668
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.unlockMetadataArtifact(ModuleRevisionId),12773,11334
+org.apache.ivy.plugins.matcher.RegexpPatternMatcher$RegexpMatcher.<init>(String),12650,400140
+"org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.update(InputStream, Resource, File, UpdateOptions)",12587,886
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArchiveFileInCache(Artifact, ArtifactOrigin)",12488,24114
+org.apache.ivy.core.settings.IvySettings.load(File),12395,320
+"org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)",12002,175449
+"org.apache.ivy.core.settings.IvySettings.addAllVariables(Map, boolean)",11994,2774
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String)",11395,29717
+"org.apache.ivy.plugins.resolver.BasicResolver$1.write(ResolvedResource, ModuleDescriptor, File, File)",11230,806
+java.util.regex.Matcher.find(),11004,293669
+"org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)",10831,66439
+org.apache.ivy.util.PropertiesFile.save(),10572,3971
+"org.apache.oro.text.regex.Perl5Compiler.compile(char[],",10429,200068
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArchivePathInCache(Artifact, ArtifactOrigin)",10157,27232
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, ArtifactOrigin)",9998,27232
+"org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.update(URL, InputStream, OutputStream, UpdateOptions)",9807,886
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact)",9676,25002
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getSavedArtifactOrigin(Artifact),9675,3282
+"org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, String)",9656,25002
+"org.apache.ivy.core.resolve.ResolveEngine.outputReport(ResolveReport, ResolutionCacheManager, ResolveOptions)",9530,427
+"org.apache.oro.text.regex.Perl5Compiler.__parseExpression(boolean,",9067,400126
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.saveResolvers(ModuleDescriptor, String, String)",9051,1741
+java.io.File.<init>(String),8956,94541
+"org.apache.xerces.impl.xs.traversers.XSDAttributeTraverser.traverseLocal(Element, XSDocumentInfo, SchemaGrammar,",8910,110302
+"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.newCallerInstance(ModuleRevisionId[], boolean, boolean)",8477,134
+org.apache.ivy.core.settings.IvySettings.<init>(),8268,870
+"org.apache.ivy.core.cache.DefaultRepositoryCacheManager.saveArtifactOrigin(Artifact, ArtifactOrigin)",8265,2184
+"org.apache.ivy.plugins.report.XmlReportOutputter.output(ResolveReport, ResolutionCacheManager, ResolveOptions)",8056,426
+"org.apache.ivy.plugins.report.XmlReportOutputter.output(ConfigurationResolveReport, String, String[], ResolutionCacheManager)",8045,740
+"org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)",7970,86811
+"org.apache.ivy.plugins.resolver.RepositoryResolver.findDynamicResourceUsingPattern(ResourceMDParser, ModuleRevisionId, String, Artifact, Date)",7626,163
+"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.<init>(ModuleDescriptorParser, Resource)",7386,102
+"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.newDefaultInstance(ModuleRevisionId, DependencyArtifactDescriptor[])",7198,232
+"org.apache.oro.text.GlobCompiler.compile(char[],",7109,100016
+"java.net.Socket.<init>(String, int, InetAddress, int)",7095,39
+org.apache.ivy.Ivy.bind(),6840,650
+org.apache.ivy.plugins.matcher.RegexpPatternMatcher.newMatcher(String),6528,200043
+org.apache.ivy.plugins.matcher.ExactOrRegexpPatternMatcher$ExactOrRegexpMatcher.<init>(String),6490,200043
+"org.apache.ivy.plugins.resolver.AbstractResolver.findModuleInCache(DependencyDescriptor, ResolveData)",6127,641
+org.apache.ivy.core.settings.IvyVariableContainerImpl.substitute(String),6028,77414
+"org.apache.ivy.plugins.resolver.BasicResolver.check(Resource, File, String)",5813,459
+"org.apache.ivy.util.Configurator.setCurrent(Object, String)",5750,8038
+"org.apache.ivy.util.Configurator$ObjectDescriptor.<init>(Object, String)",5725,8038
+org.apache.ivy.core.IvyContext.getIvy(),5612,18824
+java.lang.String.charAt(int),5510,46501319
+org.apache.ivy.core.settings.IvySettings.addSystemProperties(),5339,953
+"org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef(Artifact, Date)",5034,696
+java.awt.EventDispatchThread.run(),4860,7
+sun.net.www.protocol.http.HttpURLConnection.getInputStream(),4713,92
+org.apache.ivy.Ivy.newInstance(),4554,452
+"org.apache.ivy.core.report.ResolveReport.output(ReportOutputter[], ResolutionCacheManager, ResolveOptions)",4548,213
+org.apache.ivy.core.settings.IvySettings.addAllVariables(Map),4439,773
+"org.apache.ivy.core.install.InstallEngine.install(ModuleRevisionId, String, String, InstallOptions)",4361,9
+"java.io.BufferedInputStream.read(byte[], int, int)",4264,10943
+java.net.URLClassLoader.getResourceAsStream(String),4254,3654
+org.apache.ivy.core.IvyContext.getSettings(),4254,8088
+java.lang.Class.getResource(String),4080,5804
+java.net.URL.openConnection(),3885,27536
+"org.apache.oro.text.GlobCompiler.globToPerl5(char[],",3695,200068
+"org.apache.ivy.core.settings.XmlSettingsParser.inConfiguratorStarted(String, Map)",3674,5817
+"org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(String, XMLInputSource, boolean,",3535,154
+java.lang.StringBuilder.append(String),3426,1861055
+org.apache.ivy.plugins.matcher.AbstractPatternMatcherTest.testLoadTestMatches(),3367,8
+"org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)",3334,62
+"org.apache.ivy.util.Configurator.addChild(Configurator$ObjectDescriptor, Class, String, Object)",3279,4009
+"org.apache.xerces.parsers.SecuritySupport12.getResourceAsStream(ClassLoader,",2996,2613
+java.util.regex.Matcher.matches(),2913,194073
+org.apache.ivy.core.settings.XmlSettingsParser.anyConfiguratorStarted(String),2578,2165
+org.apache.ivy.util.Configurator.setRoot(Object),2576,2165
+org.apache.ivy.core.settings.IvySettings.substitute(String),2404,18191
+org.apache.ivy.core.settings.IvySettings.getSettingsURL(String),2277,3028
+org.apache.ivy.util.Configurator.startCreateChild(String),2242,4049
+java.io.PrintWriter.println(String),2175,603283
+java.io.PrintWriter.print(String),2111,1208561
+"org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)",2091,1088
+java.lang.String.startsWith(String),2025,4813889
+java.lang.String.length(),1980,20538640
+"java.net.URL.<init>(URL, String, URLStreamHandler)",1905,61571
+org.slf4j.LoggerFactory.getLogger(Class),1904,26
+java.net.URL.openStream(),1829,3594
+org.apache.commons.httpclient.HttpConnection.readLine(String),1593,8
+org.apache.ivy.core.settings.IvySettings.loadDefaultProperties(),1575,414
+org.apache.ivy.util.StringUtils.uncapitalize(String),1544,185136
+"org.apache.ivy.plugins.resolver.RepositoryResolver.publish(Artifact, File, boolean)",1444,87
+"org.apache.ivy.plugins.resolver.RepositoryResolver.put(Artifact, File, String, boolean)",1407,87
+java.net.HttpURLConnection.getResponseCode(),1346,27
+"org.apache.ivy.core.settings.IvySettings.loadProperties(URL, boolean)",1303,417
+"org.apache.xerces.parsers.ObjectFactory.newInstance(String, ClassLoader,",1266,600
+"org.apache.xerces.parsers.XML11Configuration.<init>(SymbolTable, XMLGrammarPool,",1001,529
+"org.apache.ivy.plugins.resolver.RepositoryResolver.putChecksum(Artifact, File, String, boolean, String)",993,170
+java.io.File.exists(),944,18991
+"org.apache.ivy.util.FileUtil.copy(InputStream, File, CopyProgressListener)",930,519
+"org.apache.ivy.plugins.repository.file.FileRepository.copy(File, File, boolean)",882,329
+"org.apache.ivy.util.FileUtil.copy(File, File, CopyProgressListener, boolean)",866,331
+"org.apache.ivy.Main.run(CommandLineParser, String[])",845,6
+"sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String)",802,8
+"org.apache.ivy.plugins.repository.file.FileRepository.put(File, String, boolean)",799,257
+"org.apache.ivy.plugins.repository.AbstractRepository.put(Artifact, File, String, boolean)",799,257
+"junit.framework.Assert.assertEquals(Object, Object)",795,40
+"org.apache.ivy.TestHelper.fillRepository(DependencyResolver, Collection)",661,2
+org.apache.ivy.util.url.ApacheURLListerTest.testRetrieveListing(),658,1
+org.apache.commons.httpclient.HttpConnection.open(),642,3
+java.lang.Class.forName(String),514,194
+"org.apache.ivy.core.settings.IvySettings.typeDefs(Properties, boolean)",508,331
+"org.apache.ivy.core.settings.IvySettings.typeDef(String, String, boolean)",474,9788
+"org.apache.ivy.core.settings.IvySettings.typeDefs(InputStream, boolean)",468,365
+org.apache.ivy.core.install.InstallTest.tearDown(),462,9
+"org.apache.ivy.util.url.ApacheURLLister.retrieveListing(URL, boolean, boolean)",441,7
+"org.apache.xerces.impl.XMLEntityScanner.load(int,",423,1270
+"org.apache.xerces.impl.io.UTF8Reader.read(char[], int,",412,1270
+"org.apache.xerces.impl.XMLEntityManager$RewindableInputStream.read(byte[], int,",411,1270
+"sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(byte[], int, int)",409,84
+"org.evosuite.runtime.mock.java.net.MockURL.URL(URL, String)",373,5
+"org.evosuite.runtime.mock.java.net.MockURL.URL(URL, String, URLStreamHandler)",373,5
+org.evosuite.runtime.mock.java.net.MockURL.getHttpExample(),373,5
+org.apache.ivy.core.NormalRelativeUrlResolver_ESTest.test1(),372,1
+"org.apache.ivy.core.settings.IvySettings.classForName(String, boolean)",367,4778
+org.evosuite.runtime.mock.java.net.URLUtil.<clinit>(),364,2
+"org.apache.ivy.core.retrieve.RetrieveEngine.retrieve(ModuleRevisionId, String, RetrieveOptions)",353,10
+java.lang.String.matches(String),325,448
+"org.apache.ivy.core.publish.PublishEngine.publish(ModuleDescriptor, Collection, DependencyResolver, PublishOptions)",268,5
+java.lang.Class.getMethods(),253,549
+"java.io.File.createTempFile(String, String)",252,190
+org.apache.ivy.core.settings.IvySettings.getDefaultSettingsDir(),222,315
+org.apache.ivy.tools.analyser.JarJarDependencyAnalyser.analyze(JarModule[]),157,5
+sun.net.www.protocol.file.FileURLConnection.getInputStream(),154,330
+"org.apache.xerces.impl.dv.ObjectFactory.newInstance(String, ClassLoader,",143,63
+"org.apache.ivy.core.settings.IvySettings.loadProperties(InputStream, boolean)",141,52
+org.apache.ivy.util.url.BasicURLHandler.openStream(URL),135,53
+org.apache.ivy.core.settings.IvySettings.getDefaultSettingsURL(),131,191
+java.io.BufferedReader.readLine(),126,15
+java.text.SimpleDateFormat.<init>(String),123,7
+"org.apache.xerces.impl.XMLScanner.scanAttributeValue(XMLString, XMLString, String, boolean,",109,1686
+"org.apache.xerces.impl.XMLEntityScanner.scanLiteral(int,",103,1923
+"org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.validate(String, ValidationContext,",80,2664
+org.apache.ivy.Ivy.<clinit>(),77,1
+"org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.getActualValue(Object, ValidationContext, ValidatedInfo,",76,2680
+java.io.PrintStream.println(String),75,717

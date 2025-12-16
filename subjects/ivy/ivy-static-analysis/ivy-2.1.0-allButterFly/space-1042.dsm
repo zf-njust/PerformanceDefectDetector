@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.CopyProgressListener.progress(CopyProgressEvent)
+org.apache.ivy.util.CopyProgressEvent.CopyProgressEvent()
+org.apache.ivy.util.url.AbstractURLHandler.normalizeToURL(URL)
+org.apache.ivy.util.url.BasicURLHandler.upload(File, URL, CopyProgressListener)
+org.apache.ivy.util.CopyProgressEvent.update(byte[], int, long)
+org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)
+org.apache.ivy.util.FileUtil.copy(InputStream, OutputStream, CopyProgressListener)
+org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(URL, int, String)
+org.apache.ivy.util.CopyProgressListener.end(CopyProgressEvent)
+org.apache.ivy.util.url.BasicURLHandler.disconnect(URLConnection)
+org.apache.ivy.Ivy.getIvyVersion()
+org.apache.ivy.util.CopyProgressListener.start(CopyProgressEvent)

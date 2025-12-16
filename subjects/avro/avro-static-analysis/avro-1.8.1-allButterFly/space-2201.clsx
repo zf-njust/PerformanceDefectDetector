@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.DelegatingInputFormat.getRecordReader(InputSplit, JobConf, Reporter)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.TaggedInputSplit.getInputFormatClass()" />
+<item name="org.apache.avro.mapred.TaggedInputSplit.getInputSplit()" />
+<item name="org.apache.avro.mapred.TaggedInputSplit.getSchema()" />
+<item name="org.apache.avro.mapred.AvroJob.setInputSchema(JobConf, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.configureAvroInput(JobConf)" />
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.mapred.AvroJob.configureAvroShuffle(JobConf)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

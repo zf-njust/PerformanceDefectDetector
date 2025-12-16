@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printDependency(PrintWriter, int, String, String, String, String, String, String, boolean, ExcludeRule[])
+org.apache.ivy.core.module.descriptor.ExcludeRule.getId()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printExclusions(ExcludeRule[], PrintWriter, int)
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.core.module.id.ArtifactId.getModuleId()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.indent(PrintWriter, int)
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()

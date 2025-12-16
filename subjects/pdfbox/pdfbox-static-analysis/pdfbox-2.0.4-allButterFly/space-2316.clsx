@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.toByteArray()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.getContents(COSFilterInputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSString.parseHex(String)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.read()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.nextAvailable()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.COSFilterInputStream.inRange()" />
+</group>
+</group>
+</group>
+</cluster>

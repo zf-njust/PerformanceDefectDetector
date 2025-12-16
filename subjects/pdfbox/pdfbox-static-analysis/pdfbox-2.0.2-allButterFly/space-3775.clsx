@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceStyle.getLeading()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainTextFormatter.processLines(List, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.getInterWordSpacing(float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.getText()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Word.getAttributes()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PlainText.Line.getWords()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.newLineAtOffset(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.showText(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.willBeSubset()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.addToSubset(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.Hex.getBytes(byte)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

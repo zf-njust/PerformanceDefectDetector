@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.setRevisionNumber(T, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getClassNames()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getAttributes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.create(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.addObject(T, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.iterator()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.setStructureElement(PDStructureElement)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.Revisions()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.PDTableAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.PDLayoutAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject.PDListAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject.PDPrintFieldAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject.PDExportFormatAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDDefaultAttributeObject.PDDefaultAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.PDUserAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.PDStandardAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.PDAttributeObject(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.PDDictionaryWrapper(COSDictionary)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.getObjects()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.getRevisionNumbers()" />
+</group>
+</group>
+</group>
+</cluster>

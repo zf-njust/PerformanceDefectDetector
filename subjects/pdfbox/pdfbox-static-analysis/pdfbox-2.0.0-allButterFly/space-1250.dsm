@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.cos.COSDictionary.setFlag(COSName, int, boolean)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)
+org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.PDTerminalField(PDAcroForm)
+org.apache.pdfbox.pdmodel.interactive.form.PDRadioButton.PDRadioButton(PDAcroForm)
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()
+org.apache.pdfbox.pdmodel.interactive.form.PDButton.setRadioButton(boolean)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary, PDNonTerminalField)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.pdmodel.interactive.form.PDButton.PDButton(PDAcroForm)
+org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm)
+org.apache.pdfbox.cos.COSObject.getObject()

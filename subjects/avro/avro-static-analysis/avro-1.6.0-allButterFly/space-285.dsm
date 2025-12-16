@@ -1,0 +1,20 @@
+[Call]
+9
+0 1 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 1 0 1 0 0 0 0 
+org.apache.avro.ipc.generic.GenericResponder.writeError(Schema, Object, Encoder)
+org.apache.avro.AvroRemoteException.getValue()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()
+org.apache.avro.io.DatumWriter.write(D, Encoder)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.generic.GenericData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.ipc.generic.GenericResponder.getDatumWriter(Schema)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema)

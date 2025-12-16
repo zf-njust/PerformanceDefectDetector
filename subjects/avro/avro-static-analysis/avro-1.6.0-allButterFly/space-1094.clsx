@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileStream.initialize(InputStream, Header)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileReader.DataFileReader(SeekableInput, DatumReader, Header)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.SeekableInputStream(SeekableInput)" />
+<item name="org.apache.avro.file.DataFileStream.DataFileStream(DatumReader)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DatumReader.setSchema(Schema)" />
+<item name="org.apache.avro.file.DataFileStream.resolveCodec()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.file.DataFileStream.getMetaString(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileStream.getMeta(String)" />
+</group>
+</group>
+</group>
+</cluster>

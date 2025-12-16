@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyServer.NettyServer(Responder, InetSocketAddress, ChannelFactory, ExecutionHandler)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyServer.NettyServer(Responder, InetSocketAddress, ChannelFactory)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyServer.NettyServer(Responder, InetSocketAddress, ChannelFactory, ChannelPipelineFactory, ExecutionHandler)" />
+</group>
+</group>
+</group>
+</cluster>

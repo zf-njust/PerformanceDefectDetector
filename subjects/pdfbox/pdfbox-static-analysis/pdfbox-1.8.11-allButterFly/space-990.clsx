@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.LZWFilter.doLZWDecode(InputStream, OutputStream, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.LZWFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.filter.Predictor.decodePredictor(int, int, int, int, InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.filter.Predictor.getBitSeq(int, int, int)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.filter.Predictor.calcSetBitSeq(int, int, int, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.LZWFilter.createCodeTable()" />
+<item name="org.apache.pdfbox.filter.LZWFilter.calculateChunk(int, int)" />
+<item name="org.apache.pdfbox.filter.LZWFilter.checkIndexBounds(List, long, MemoryCacheImageInputStream)" />
+</group>
+</group>
+</group>
+</cluster>

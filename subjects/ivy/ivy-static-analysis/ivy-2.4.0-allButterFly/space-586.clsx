@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyTask.getResolvedReport(String, String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getResolvedReport()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getModule()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.getOrganisation()" />
+<item name="org.apache.ivy.ant.IvyPostResolveTask.isInline()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyTask.getReference(String, String, String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

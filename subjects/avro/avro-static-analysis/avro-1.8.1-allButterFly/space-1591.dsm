@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)
+org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.AvroWrapperSerializer(DatumWriter)
+org.apache.avro.Schema.getName()
+org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)
+org.apache.avro.mapred.AvroJob.getDataModelClass(Configuration)
+org.apache.avro.generic.GenericData.createDatumWriter(Schema)
+org.apache.avro.mapred.AvroKeyComparator.setConf(Configuration)
+org.apache.avro.mapred.Pair.getValueSchema(Schema)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)
+org.apache.avro.mapred.AvroSerialization.getSerializer(Class)
+org.apache.avro.Schema.getFullName()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.mapred.Pair.getKeySchema(Schema)
+org.apache.avro.generic.GenericData.createDatumReader(Schema)
+org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.AvroWrapperDeserializer(DatumReader, boolean)
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.Schema.getField(String)
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.mapred.AvroJob.createMapOutputDataModel(Configuration)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.mapred.AvroJob.newDataModelInstance(Class, Configuration)
+org.apache.avro.mapred.AvroSerialization.getDeserializer(Class)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)
+org.apache.avro.mapred.AvroJob.createDataModel(Configuration)

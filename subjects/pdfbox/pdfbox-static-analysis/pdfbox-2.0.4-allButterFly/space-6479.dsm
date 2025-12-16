@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1 0 0 
+org.apache.pdfbox.io.RandomAccessRead.isClosed()
+org.apache.pdfbox.io.ScratchFile.getPageSize()
+org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)
+org.apache.pdfbox.io.ScratchFile.enlarge()
+org.apache.pdfbox.cos.COSDictionary.entrySet()
+org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)
+org.apache.pdfbox.cos.COSStream.createRawInputStream()
+org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)
+org.apache.pdfbox.io.ScratchFile.getNewPage()
+org.apache.pdfbox.io.ScratchFile.createBuffer()
+org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)
+org.apache.pdfbox.io.ScratchFileBuffer.addPage()
+org.apache.pdfbox.cos.COSDictionary.toString()
+org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)
+org.apache.pdfbox.cos.COSStream.checkClosed()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.io.ScratchFile.checkClosed()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryString(COSBase, List)

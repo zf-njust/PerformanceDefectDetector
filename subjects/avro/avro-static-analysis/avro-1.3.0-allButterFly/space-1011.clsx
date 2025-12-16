@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.SeekableInput.length()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.skip(long)" />
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.length()" />
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.available()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.SeekableInput.seek(long)" />
+<item name="org.apache.avro.file.SeekableInput.tell()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

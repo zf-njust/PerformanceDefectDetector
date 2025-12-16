@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultIncludeRule.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.AbstractIncludeExcludeRule.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ArtifactId.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getShortDescription()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+</group>
+</cluster>

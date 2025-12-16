@@ -1,0 +1,153 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.multipdf.Overlay.createStream(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.multipdf.Overlay.createOverlayStream(PDPage, LayoutPage, COSName)" />
+<item name="org.apache.pdfbox.multipdf.Overlay.processPages(PDDocument)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.multipdf.Overlay.overlayPage(COSArray, PDPage, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getPages()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getMediaBox()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getNumberOfPages()" />
+<item name="org.apache.pdfbox.multipdf.Overlay.addOriginalContent(COSBase, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.multipdf.Overlay.float2String(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.getInheritableAttribute(COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.getCount()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setResources(PDResources)" />
+<item name="org.apache.pdfbox.multipdf.Overlay.createOverlayXObject(PDPage, LayoutPage, COSStream)" />
+<item name="org.apache.pdfbox.cos.COSArray.addAll(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setFormType(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(PDXObject, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.PDPageTree(COSDictionary, PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setResources(PDResources)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary, ResourceCache)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.setMatrix(AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.createRetranslatedRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.PDFormXObject(COSStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.PDXObject(COSStream, COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightX(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightY(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float, float, float)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSStream.COSStream()" />
+<item name="org.apache.pdfbox.cos.COSStream.createOutputStream(COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSOutputStream.COSOutputStream(List, COSDictionary, OutputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+</group>
+</cluster>

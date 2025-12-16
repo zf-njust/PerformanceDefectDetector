@@ -1,0 +1,47 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonEncoder.configure(JsonGenerator)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonEncoder.configure(OutputStream)" />
+<item name="org.apache.avro.io.JsonEncoder.JsonEncoder(Schema, JsonGenerator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.JsonEncoder.getJsonGenerator(OutputStream)" />
+<item name="org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema)" />
+<item name="org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Symbol.root(Symbol...)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonEncoder.flush()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.processImplicitActions()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

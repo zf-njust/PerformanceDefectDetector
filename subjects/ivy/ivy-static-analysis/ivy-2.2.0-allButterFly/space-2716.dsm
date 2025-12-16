@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.osgi.repo.RepoDescriptor.RepoDescriptor(URI, ExecutionEnvironmentProfileProvider)
+org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.loadP2(URI)
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.osgi.p2.P2MetadataParser.P2MetadataParser(P2Descriptor)
+org.apache.ivy.osgi.p2.P2ArtifactParser.P2ArtifactParser(P2Descriptor, String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.p2.P2CompositeParser.getChildLocations()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.getInstance()
+org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.populateP2Descriptor(URI, P2Descriptor)
+org.apache.ivy.osgi.p2.P2Descriptor.P2Descriptor(URI, ExecutionEnvironmentProfileProvider)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readJarOrXml(URI, String, XMLInputParser)
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readComposite(URI, String, P2Descriptor)
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.findEntry(InputStream, String)
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.osgi.p2.XMLInputParser.parse(InputStream)

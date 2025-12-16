@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.createTmpFile(InputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.RandomAccessBufferedFileInputStream(InputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

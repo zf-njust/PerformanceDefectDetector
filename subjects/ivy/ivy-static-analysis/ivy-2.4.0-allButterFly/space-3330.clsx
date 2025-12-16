@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.listOrganisations()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.ensureIvyConfigured(ResolverSettings)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler)" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.listOrganisations()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.util.Message.warn(String, Throwable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeIvyPattern()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.search.OrganisationEntry.OrganisationEntry(DependencyResolver, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.XMLHelper.toSystemId(URL)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeIvyPattern()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler, boolean)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.XMLHelper.canDisableExternalDtds(SAXParserFactory)" />
+</group>
+</group>
+</group>
+</cluster>

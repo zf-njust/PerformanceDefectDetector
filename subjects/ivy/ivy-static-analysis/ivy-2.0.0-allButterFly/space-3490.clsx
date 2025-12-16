@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getArtifactName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.setModuleVariables(ModuleDescriptor, IvyVariableContainer, PomWriterOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getDescription()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.findArtifact(ModuleDescriptor, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getArtifactPackaging()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getAttribute(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllArtifacts()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

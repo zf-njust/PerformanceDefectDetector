@@ -1,0 +1,87 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getStack()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Mod.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Sqrt.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Round.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Atan.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Exp.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Type4Tester.isEmpty()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.Bitshift.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.False.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunctionType4.eval(float[])" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ConditionalOperators.IfElse.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Sin.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Truncate.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Type4Tester.popReal(float, double)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Floor.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.AbstractLogicalOperator.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ConditionalOperators.If.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Abs.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Div.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Pop.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Exch.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.Not.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Log.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Add.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Sub.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Copy.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Cvr.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Dup.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Cvi.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Type4Tester.pop(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Roll.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.RelationalOperators.AbstractNumberComparisonOperator.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Ln.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.IDiv.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Neg.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Cos.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Mul.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators.Ceiling.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.True.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.RelationalOperators.Eq.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.StackOperators.Index.execute(ExecutionContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.clipToRange(float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Operators.getOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.AbstractLogicalOperator.applyforInteger(int, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.getOperators()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popInt()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.ExecutionContext(Operators)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popReal()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.Operator.execute(ExecutionContext)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeForOutput(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.RelationalOperators.AbstractNumberComparisonOperator.compare(Number, Number)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators.AbstractLogicalOperator.applyForBoolean(boolean, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainForInput(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.RelationalOperators.Eq.isEqual(Object, Object)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popNumber()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfOutputParameters()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeValues()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainValues()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.function.PDFunction.getCOSObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

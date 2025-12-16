@@ -1,0 +1,85 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDocument.setVersion(float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.setVersion(float)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.parseHeader(String, String)" />
+<item name="org.apache.pdfbox.multipdf.Splitter.createNewDocument()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFDocument.FDFDocument()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.multipdf.Splitter.getSourceDocument()" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getVersion()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getVersion()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.rewind(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.setDocumentInformation(PDDocumentInformation)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getViewerPreferences()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.setViewerPreferences(PDViewerPreferences)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLine()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFDocument.setCatalog(FDFCatalog)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFCatalog.FDFCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.setVersion(String)" />
+<item name="org.apache.pdfbox.cos.COSDocument.setTrailer(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getVersion()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(MemoryUsageSetting)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PDViewerPreferences(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

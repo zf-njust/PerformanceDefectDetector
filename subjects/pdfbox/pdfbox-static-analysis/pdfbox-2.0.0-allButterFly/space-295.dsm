@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 1 
+0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.contentstream.operator.text.ShowTextLine.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.unsupportedOperator(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.operatorException(Operator, List, IOException)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.operator.Operator.Operator(String)
+org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(String, List)
+org.apache.pdfbox.contentstream.operator.Operator.getOperator(String)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)

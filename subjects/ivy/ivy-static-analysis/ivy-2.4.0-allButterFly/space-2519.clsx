@@ -1,0 +1,49 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.MyModuleDescriptorProvider.MyModuleDescriptorProvider(ModuleDescriptorParser, ParserSettings)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getStaledMd(ModuleDescriptorParser, CacheMetadataOptions, File, ParserSettings)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getMdFromCache(ModuleDescriptorParser, CacheMetadataOptions, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.get(File, ParserSettings, boolean, ModuleDescriptorProvider)" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getStale(File, ParserSettings, boolean, ModuleDescriptorProvider)" />
+<item name="org.apache.ivy.core.cache.CacheMetadataOptions.isValidate()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getMemoryCache()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.putInCache(File, ParserSettingsMonitor, boolean, ModuleDescriptor)" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.ModuleDescriptorMemoryCache(int)" />
+<item name="org.apache.ivy.core.cache.ParserSettingsMonitor.getMonitoredSettings()" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getFromCache(File, ParserSettings, boolean)" />
+<item name="org.apache.ivy.core.cache.ParserSettingsMonitor.ParserSettingsMonitor(ParserSettings)" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorProvider.provideModule(ParserSettings, File, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.CacheEntry.CacheEntry(ModuleDescriptor, boolean, ParserSettingsMonitor)" />
+<item name="org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.CacheEntry.isStale(boolean, ParserSettings)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.cache.ParserSettingsMonitor.hasChanged(ParserSettings)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

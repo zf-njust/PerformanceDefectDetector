@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.PDFOperator.getImageData()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.getImageParameters()
+org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDInlinedImage.setImageParameters(ImageParameters)
+org.apache.pdfbox.pdmodel.font.Type3StreamParser.processOperator(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDInlinedImage.setImageData(byte[])
+org.apache.pdfbox.util.PDFOperator.getOperation()

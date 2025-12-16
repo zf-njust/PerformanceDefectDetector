@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.examples.signature.TSAClient.getTimeStampToken(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.signature.CreateSignature.signTimeStamp(SignerInformation)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.examples.signature.CreateSignatureBase.getTsaClient()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.signature.TSAClient.getHashObjectIdentifier(String)" />
+<item name="org.apache.pdfbox.examples.signature.TSAClient.getTSAResponse(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.calcFinalKey(long, long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAES256(InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAESother(byte[], InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataRC4(byte[], InputStream, OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.prepareAESInitializationVector(boolean, byte[], InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.setKey(byte[])" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.fixByte(byte)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte[], int, int, OutputStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getMD5()" />
+</group>
+</group>
+</group>
+</cluster>

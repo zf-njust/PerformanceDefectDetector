@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.data.RecordBuilderBase.validate(Field, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="avro.examples.baseball.Player.Builder.setNumber(int)" />
+<item name="avro.examples.baseball.Player.Builder.setPosition(java.util.List)" />
+<item name="avro.examples.baseball.Player.Builder.setLastName(java.lang.CharSequence)" />
+<item name="avro.examples.baseball.Player.Builder.setFirstName(java.lang.CharSequence)" />
+<item name="org.apache.avro.generic.GenericRecordBuilder.set(Field, int, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.Record.put(int, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.data.RecordBuilderBase.isValidValue(Field, Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+</group>
+</cluster>

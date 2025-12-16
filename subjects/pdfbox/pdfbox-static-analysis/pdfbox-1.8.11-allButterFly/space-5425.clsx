@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModifyAnnotations(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.Encrypt.encrypt(String[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getOwnerAccessPermission()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModify(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.setPermission(AccessPermission)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrintDegraded(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanFillInForm(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.ProtectionPolicy.setEncryptionKeyLength(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.setX509(X509Certificate)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.protect(ProtectionPolicy)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanAssembleDocument(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.addRecipient(PublicKeyRecipient)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.load(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractContent(boolean)" />
+<item name="org.apache.pdfbox.Encrypt.usage()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.close()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.PublicKeyProtectionPolicy()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrint(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy.StandardProtectionPolicy(String, String, AccessPermission)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractForAccessibility(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.clearResources()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getSecurityHandler(ProtectionPolicy)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.getInstance()" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.save(File)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.SequentialRead.close()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.SecurityHandlersManager()" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager.registerHandler(String, Class, Class)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException.BadSecurityHandlerException(Exception)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+1 1 1 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.ivy.plugins.circular.WarnCircularDependencyStrategy.getInstance()
+org.apache.ivy.plugins.circular.ErrorCircularDependencyStrategy.getInstance()
+org.apache.ivy.core.settings.IvySettings.addCircularDependencyStrategy(CircularDependencyStrategy)
+org.apache.ivy.core.settings.IvySettings.configureDefaultCircularDependencyStrategies()
+org.apache.ivy.plugins.circular.CircularDependencyStrategy.getName()
+org.apache.ivy.plugins.circular.IgnoreCircularDependencyStrategy.getInstance()

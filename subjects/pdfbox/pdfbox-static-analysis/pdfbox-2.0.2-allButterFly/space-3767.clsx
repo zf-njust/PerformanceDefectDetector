@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessRead.isEOF()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.RandomAccessSource.isEOF()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.parseXrefTable(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.read()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForXRefStreams()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForXRefTables()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.parseXrefTable(long)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.bfSearchForObjects()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.rewind(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.isString(char[])" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLine()" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.readFully(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.restorePosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.nextXrefObj(long, XRefType)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.peek()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readInt()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.nextIsEOL()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.XrefTrailerObj.XrefTrailerObj()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isSpace(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

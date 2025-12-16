@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.available()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.read(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.readRemainingBytes(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.nextBuffer()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.length()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.checkClosed()" />
+</group>
+</group>
+</group>
+</cluster>

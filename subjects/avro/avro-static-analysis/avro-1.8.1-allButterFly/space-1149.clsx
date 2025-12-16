@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.protobuf.ProtobufData.createDatumReader(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.protobuf.ProtobufDatumReader.ProtobufDatumReader(Schema, Schema, ProtobufData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

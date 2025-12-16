@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransceiver.disconnect(boolean, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransceiver.close()" />
+<item name="org.apache.avro.ipc.NettyTransceiver.disconnect()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.Callback.handleError(Throwable)" />
+</group>
+</group>
+</group>
+</cluster>

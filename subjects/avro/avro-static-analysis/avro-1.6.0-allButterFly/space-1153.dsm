@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 1 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 1 0 
+org.apache.avro.ipc.trace.TraceClientServlet.getTemplate(VelocityEngine, String)
+org.apache.avro.ipc.trace.TraceClientServlet.loadSpans(PrintWriter)
+org.apache.avro.ipc.trace.TraceClientServlet.overview(PrintWriter)
+org.apache.avro.ipc.trace.TraceClientServlet.doGet(HttpServletRequest, HttpServletResponse)
+org.apache.avro.ipc.trace.TraceCollection.getNodeWithIDRecurse(int, TraceNodeStats)
+org.apache.avro.ipc.trace.TraceClientServlet.collection(PrintWriter, int)
+org.apache.avro.ipc.trace.TraceCollection.getNodeWithID(int)
+org.apache.avro.ipc.trace.TraceClientServlet.collectionNode(PrintWriter, int, int)

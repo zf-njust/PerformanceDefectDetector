@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherOutputService.output(ByteBuffer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherOutputService.outputPartitioned(int, ByteBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherPartitioner.setNextPartition(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherData.TetherData(ByteBuffer)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 1 0 0 
+1 1 0 1 0 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.core.event.IvyEvent.addModuleIdAttributes(ModuleId)
+org.apache.ivy.core.event.IvyEvent.addMridAttributes(ModuleRevisionId)
+org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.event.IvyEvent.addAttributes(Map)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getExtraAttributes()
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 1 0 1 0 0 1 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, String, String)
+org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()
+org.apache.ivy.core.module.id.ModuleRevisionId.getName()
+org.apache.ivy.core.module.id.ArtifactId.getType()
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.core.module.id.ArtifactId.getModuleId()
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.core.module.id.ArtifactId.getName()
+org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ModuleId, ModuleId)
+org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ArtifactId, ArtifactId)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.core.module.id.ArtifactId.getExt()
+org.apache.ivy.plugins.matcher.MatcherHelper.matches(PatternMatcher, ModuleRevisionId, ModuleRevisionId)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

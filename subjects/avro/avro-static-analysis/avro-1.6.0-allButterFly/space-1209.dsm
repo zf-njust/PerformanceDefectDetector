@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 1 0 1 1 0 1 1 0 1 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.Decoder.readBoolean()
+org.apache.avro.io.Decoder.readIndex()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)
+org.apache.avro.io.ValidatingDecoder.readString()
+org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)
+org.apache.avro.data.Json.JsonType.values()
+org.apache.avro.io.Decoder.readNull()
+org.apache.avro.Schema.getProp(String)
+org.apache.avro.io.Decoder.readLong()
+org.apache.avro.io.Decoder.mapNext()
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.Decoder.readString()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.io.Decoder.readMapStart()
+org.apache.avro.data.Json.read(Decoder)
+org.apache.avro.io.Decoder.arrayNext()
+org.apache.avro.io.Decoder.readArrayStart()
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.Decoder.readDouble()
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.io.Decoder.readString(Utf8)

@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.SkipParser.skipRepeater()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ValidatingDecoder.skipMap()" />
+<item name="org.apache.avro.io.ValidatingDecoder.skipArray()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Decoder.skipArray()" />
+<item name="org.apache.avro.io.Decoder.skipMap()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.SkipParser.skipTo(int)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipAction()" />
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipTopSymbol()" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

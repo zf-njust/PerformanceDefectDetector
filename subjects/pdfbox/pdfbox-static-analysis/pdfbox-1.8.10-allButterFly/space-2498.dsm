@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 0 0 
+1 0 0 1 0 0 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdfviewer.PageDrawer.fixY(double)
+org.apache.pdfbox.util.operator.pagedrawer.AppendRectangleToPath.process(PDFOperator, List)
+org.apache.pdfbox.pdfviewer.PageDrawer.transformedPoint(double, double)
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.cos.COSNumber.doubleValue()
+org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()

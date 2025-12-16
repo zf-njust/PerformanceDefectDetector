@@ -1,0 +1,95 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.core.settings.IvySettings.load(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.load(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.defaultInit()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.dumpSettings()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setSettingsVariables(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCache()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.parse(URL)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.XmlSettingsParser(IvySettings)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.loadDefaultProperties()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setSettingsVariables(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.dumpSettings()" />
+<item name="org.apache.ivy.core.settings.IvySettings.loadProperties(URL, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.isCheckUpToDate()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getCircularDependencyStrategy()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultResolver()" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getTypeDefs()" />
+<item name="org.apache.ivy.util.Configurator.setFileResolver(FileResolver)" />
+<item name="org.apache.ivy.util.FileUtil.normalize(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.dump(String)" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultPropertiesURL()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Configurator.typeDef(String, Class)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDeprecatedVariable(String, String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.doValidate()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)" />
+<item name="org.apache.ivy.util.FileUtil.dissect(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.toString()" />
+<item name="org.apache.ivy.core.settings.IvySettings.validate()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getCircularDependencyStrategy(String)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getSettingsURL(String)" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.core.settings.IvySettings.validateAll(Collection)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)" />
+<item name="org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.settings.Validatable.validate()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

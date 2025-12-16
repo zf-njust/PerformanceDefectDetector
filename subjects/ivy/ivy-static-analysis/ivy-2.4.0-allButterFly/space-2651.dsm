@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 1 0 0 
+1 0 1 0 0 0 
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.core.settings.IvySettings.addConflictManager(String, ConflictManager)
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.conflict.ConflictManager.getName()
+org.apache.ivy.core.settings.IvySettings.addConfigured(ConflictManager)
+org.apache.ivy.core.settings.IvySettings.init(Object)

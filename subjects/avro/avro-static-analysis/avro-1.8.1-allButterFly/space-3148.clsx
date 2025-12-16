@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.trevni.avro.AvroTrevniOutputFormat.filterMetadata(JobConf)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.trevni.avro.AvroTrevniOutputFormat.getRecordWriter(FileSystem, JobConf, String, Progressable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

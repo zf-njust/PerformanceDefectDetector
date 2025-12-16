@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 1 0 0 
+0 0 0 0 0 
+0 1 0 0 0 
+0 0 0 0 0 
+1 0 0 1 0 
+org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)
+org.apache.avro.io.Encoder.writeString(Utf8)
+org.apache.avro.io.Encoder.writeString(CharSequence)
+org.apache.avro.Schema.getProp(String)
+org.apache.avro.reflect.ReflectDatumWriter.writeString(Schema, Object, Encoder)

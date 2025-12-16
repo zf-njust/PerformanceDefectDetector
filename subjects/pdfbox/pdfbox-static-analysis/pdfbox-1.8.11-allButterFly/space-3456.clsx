@@ -1,0 +1,96 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightPath.getClosestTypePosition(Class)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.reflect.ActionsValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getClosestPathElement(Class)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightPath.isExpectedType(Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.peek()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.isEmpty()" />
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.valid(boolean)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.getActionManagers(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getActionFact()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.isArray(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.validNextActions()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.isAdditionalAction()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.callCreateAction(COSBase, PreflightContext, List, String, Map)" />
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.innerValid()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.callCreateAction(COSBase, PreflightContext, List, Map)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsDictionary(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.isDictionary(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.createActionManager(PreflightContext, COSDictionary, String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.getNextActions(PreflightContext, COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.preflight.action.ThreadAction.ThreadAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.preflight.action.GoToAction.GoToAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.preflight.action.GoToRemoteAction.GoToRemoteAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.InvalidAction.InvalidAction(ActionManagerFactory, COSDictionary, PreflightContext, String, String)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.preflight.action.NamedAction.NamedAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.UndefAction.UndefAction(ActionManagerFactory, COSDictionary, PreflightContext, String, String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.preflight.action.SubmitAction.SubmitAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.preflight.action.UriAction.UriAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsArray(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.preflight.action.HideAction.HideAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.AbstractActionManager(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

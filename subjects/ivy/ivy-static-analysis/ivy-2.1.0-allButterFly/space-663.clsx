@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.XMLHelper.parseToDom(InputStream, Resource, EntityResolver)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomReader(URL, Resource)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.AddDTDFilterInputStream.AddDTDFilterInputStream(InputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

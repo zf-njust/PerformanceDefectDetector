@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedNodes(ModuleId, String)
+org.apache.ivy.core.resolve.IvyNodeEviction.setPendingConflicts(ModuleId, String, Collection)
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeEviction.setEvictedNodes(ModuleId, String, Collection)
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.core.resolve.IvyNode.getRealNode()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.ModuleIdConf(ModuleId, String)
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.resolve.IvyNodeEviction.getEvictedRevisions(ModuleId, String)
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.core.resolve.IvyNode.getResolvedId()
+org.apache.ivy.core.resolve.IvyNodeEviction.getPendingConflicts(String, ModuleId)
+org.apache.ivy.core.resolve.IvyNodeEviction.setResolvedNodes(ModuleId, String, Collection)
+org.apache.ivy.core.resolve.IvyNodeEviction.getEvictedNodes(ModuleId, String)
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedRevisions(ModuleId, String)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

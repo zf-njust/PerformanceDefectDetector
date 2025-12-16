@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, String, String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+</group>
+</cluster>

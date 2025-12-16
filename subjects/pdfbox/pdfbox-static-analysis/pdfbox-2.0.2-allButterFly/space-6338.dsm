@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSArray.toFloatArray()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.getQuadPoints()

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.ReadDouble.genData(Encoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.io.Perf.newRandom()" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+</group>
+</group>
+</cluster>

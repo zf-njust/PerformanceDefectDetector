@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonDecoder.readDouble()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonDecoder.advance(Symbol)" />
+<item name="org.apache.avro.io.JsonDecoder.error(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()" />
+<item name="org.apache.avro.io.parsing.Parser.depth()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

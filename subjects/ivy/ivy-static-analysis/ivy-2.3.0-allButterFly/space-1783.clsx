@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.version.VersionRangeMatcher.getLatestStrategy()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.version.VersionRangeMatcher.(Anon_1).compare(Object, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.latest.LatestStrategy.findLatest(ArtifactInfo[], Date)" />
+<item name="org.apache.ivy.plugins.version.VersionRangeMatcher.MRIDArtifactInfo.MRIDArtifactInfo(ModuleRevisionId)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getLatestStrategy(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)" />
+<item name="org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)" />
+</group>
+</group>
+</group>
+</cluster>

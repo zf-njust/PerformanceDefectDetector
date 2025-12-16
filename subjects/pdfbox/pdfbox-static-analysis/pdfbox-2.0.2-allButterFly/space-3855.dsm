@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+1 0 0 0 0 
+0 0 0 0 0 
+0 1 1 0 1 
+0 0 0 0 0 
+org.apache.pdfbox.cos.ICOSVisitor.visitFromNull(COSNull)
+org.apache.pdfbox.cos.COSNull.accept(ICOSVisitor)
+org.apache.pdfbox.cos.COSBase.accept(ICOSVisitor)
+org.apache.pdfbox.cos.COSObject.accept(ICOSVisitor)
+org.apache.pdfbox.cos.COSObject.getObject()

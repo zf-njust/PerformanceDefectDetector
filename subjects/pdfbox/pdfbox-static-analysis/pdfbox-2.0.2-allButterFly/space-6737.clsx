@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.rendering.PageDrawer.PageDrawer(PageDrawerParameters)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.rendering.CustomPageDrawer.MyPageDrawer.MyPageDrawer(PageDrawerParameters)" />
+<item name="org.apache.pdfbox.rendering.PDFRenderer.createPageDrawer(PageDrawerParameters)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.PDFGraphicsStreamEngine(PDPage)" />
+<item name="org.apache.pdfbox.rendering.PageDrawerParameters.getPage()" />
+<item name="org.apache.pdfbox.rendering.PageDrawerParameters.getRenderer()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.ResolverTestHelper.assertRevisionEntriesContains(DependencyResolver, ModuleEntry, String[], RevisionEntry[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.ResolverTestHelper.assertRevisionEntries(DependencyResolver, ModuleEntry, String[], RevisionEntry[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.search.RevisionEntry.getRevision()" />
+<item name="org.apache.ivy.core.search.RevisionEntry.getModuleEntry()" />
+<item name="org.apache.ivy.core.search.RevisionEntry.getResolver()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.search.ModuleEntry.getResolver()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.search.OrganisationEntry.getResolver()" />
+</group>
+</group>
+</group>
+</cluster>

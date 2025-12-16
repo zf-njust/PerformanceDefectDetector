@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+1 0 1 0 0 
+0 0 0 1 1 
+0 0 0 0 1 
+0 0 0 0 0 
+org.apache.avro.io.EncoderFactory.get()
+org.apache.avro.mapred.tether.TetherKeySerialization.TetherDataSerializer.open(OutputStream)
+org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)
+org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)
+org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)

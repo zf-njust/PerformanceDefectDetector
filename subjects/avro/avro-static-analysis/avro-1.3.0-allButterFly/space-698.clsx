@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryEncoder.writeLong(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryEncoder.setItemCount(long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

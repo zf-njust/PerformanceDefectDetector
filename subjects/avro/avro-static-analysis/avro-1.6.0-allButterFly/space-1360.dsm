@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 0 0 1 1 
+0 0 1 0 0 0 1 
+1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 
+org.apache.avro.ipc.trace.Trace.printBriefRecurse(List)
+org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.TraceNodeStats(TraceNode)
+org.apache.avro.ipc.trace.TraceCollection.TraceCollection(Trace)
+org.apache.avro.ipc.trace.SpanAggregator.getTraceCollections(List)
+org.apache.avro.ipc.trace.Trace.printBrief()
+org.apache.avro.ipc.trace.Trace.getRoot()
+org.apache.avro.ipc.trace.Trace.executionPathHash()

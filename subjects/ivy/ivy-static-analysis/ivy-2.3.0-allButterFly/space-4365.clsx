@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.ResolverTestHelper.assertModuleEntries(DependencyResolver, OrganisationEntry, String[], ModuleEntry[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.ResolverTestHelper.assertModuleEntriesContains(DependencyResolver, OrganisationEntry, String[], ModuleEntry[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.search.ModuleEntry.getOrganisationEntry()" />
+<item name="org.apache.ivy.core.search.ModuleEntry.getModule()" />
+<item name="org.apache.ivy.core.search.ModuleEntry.getResolver()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.search.OrganisationEntry.getResolver()" />
+</group>
+</group>
+</group>
+</cluster>

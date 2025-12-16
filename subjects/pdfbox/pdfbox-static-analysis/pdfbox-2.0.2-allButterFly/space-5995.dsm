@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)
+org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getGlyphs(PDSimpleFont)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)
+org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.font.PDFont.getName()

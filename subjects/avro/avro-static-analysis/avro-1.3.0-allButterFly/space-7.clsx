@@ -1,0 +1,51 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.SkipParser.skipSymbol(Symbol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ResolvingDecoder.doAction(Symbol, Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.getSymbol(int)" />
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], BinaryDecoder)" />
+<item name="org.apache.avro.io.Decoder.readIndex()" />
+<item name="org.apache.avro.io.DecoderFactory.defaultFactory()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], int, int, BinaryDecoder)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.init(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(byte[], int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.ByteArrayByteSource.ByteArrayByteSource(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.SkipParser.skipTo(int)" />
+<item name="org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipAction()" />
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipTopSymbol()" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+</group>
+</group>
+</cluster>

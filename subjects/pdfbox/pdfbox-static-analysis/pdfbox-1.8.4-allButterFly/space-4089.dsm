@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 1 
+0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.getOperator(String)
+org.apache.pdfbox.util.PDFOperator.PDFOperator(String)
+org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.processOperator(String, List)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.operator.MoveAndShow.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFOperator.getOperation()

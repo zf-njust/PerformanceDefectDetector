@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.url.AbstractURLHandler.normalizeToURL(URL)
+org.apache.ivy.util.url.AbstractURLHandler.getUserAgent()
+org.apache.ivy.util.url.HttpClientHandler.doGet(URL, int)
+org.apache.ivy.util.url.HttpClientHandler.createCredentials(String, String)
+org.apache.ivy.util.url.HttpClientHandler.useProxyAuthentication()
+org.apache.ivy.util.url.HttpClientHandler.doHead(URL, int)
+org.apache.ivy.util.url.HttpClientHandler.useProxy()
+org.apache.ivy.util.HostUtil.getLocalHostName()
+org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)
+org.apache.ivy.util.url.AbstractURLHandler.validatePutStatusCode(URL, int, String)
+org.apache.ivy.util.url.HttpClientHandler.useAuthentication(URL)
+org.apache.ivy.util.url.HttpClientHandler.FileRequestEntity.FileRequestEntity(File)
+org.apache.ivy.Ivy.getIvyVersion()
+org.apache.ivy.util.url.HttpClientHandler.upload(File, URL, CopyProgressListener)
+org.apache.ivy.util.url.CredentialsStore.hasCredentials(String)
+org.apache.ivy.util.url.HttpClientHandler.getClient()

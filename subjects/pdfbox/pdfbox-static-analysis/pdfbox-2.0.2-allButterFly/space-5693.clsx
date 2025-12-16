@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getNumber(String, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getBaselineShift()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getStartIndent()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getEndIndent()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getTextIndent()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getSpaceBefore()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getSpaceAfter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(String, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

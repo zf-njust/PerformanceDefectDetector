@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.fdf.FDFField.getFieldFlags()
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.fdf.FDFField.getCOSValue()
+org.apache.pdfbox.pdmodel.interactive.form.PDField.importFDF(FDFField)
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getFieldFlags()
+org.apache.pdfbox.pdmodel.fdf.FDFField.getSetFieldFlags()
+org.apache.pdfbox.pdmodel.fdf.FDFField.getClearFieldFlags()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.interactive.form.PDField.setFieldFlags(int)

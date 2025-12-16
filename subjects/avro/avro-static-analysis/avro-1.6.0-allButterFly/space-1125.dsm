@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+1 0 1 1 
+0 0 0 0 
+0 0 0 0 
+org.apache.avro.file.DeflateCodec.getOutputBuffer(int)
+org.apache.avro.file.DeflateCodec.compress(ByteBuffer)
+org.apache.avro.file.DeflateCodec.getDeflater()
+org.apache.avro.file.DeflateCodec.writeAndClose(ByteBuffer, OutputStream)

@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 0 
+1 1 0 1 1 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.ivy.core.cache.CacheMetadataOptions.getChangingMatcherName()
+org.apache.ivy.core.settings.IvySettings.getMatcher(String)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getChangingMatcher(CacheMetadataOptions)
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.core.cache.CacheMetadataOptions.getChangingPattern()

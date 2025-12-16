@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.encryption.ARCFour.setKey(byte[])" />
+<item name="org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(Throwable)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.write(InputStream, OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.fixByte(byte)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte[], int, int, OutputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encryption.ARCFour.write(byte, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

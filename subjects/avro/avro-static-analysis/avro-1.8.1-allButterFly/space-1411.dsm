@@ -1,0 +1,10 @@
+[Call]
+4
+0 1 0 1 
+0 0 1 0 
+0 0 0 0 
+0 0 0 0 
+org.apache.avro.io.BufferedBinaryEncoder.writeBoolean(boolean)
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BinaryData.encodeBoolean(boolean, byte[], int)

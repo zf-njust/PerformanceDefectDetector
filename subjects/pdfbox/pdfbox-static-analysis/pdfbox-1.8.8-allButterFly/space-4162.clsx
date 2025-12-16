@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeObject(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeTokens(List, int, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageParameters()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+<item name="org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSString.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.util.ImageParameters.getDictionary()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageData()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

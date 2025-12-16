@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TracePlugin.TraceResponder.getAllSpans()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.SpanStorage.getAllSpans()" />
+</group>
+</group>
+</group>
+</cluster>

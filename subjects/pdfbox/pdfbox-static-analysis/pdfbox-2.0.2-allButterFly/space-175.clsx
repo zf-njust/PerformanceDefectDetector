@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode.PDDestinationNameTreeNode(COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentNameDictionary.getDests()" />
+<item name="org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode.createChildNode(COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.PDNameTreeNode(COSDictionary)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 1 0 1 0 1 0 1 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.colorpane.CSDeviceN.getColorantData()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGB(float[])
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getColorantNames()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGB(float[])
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGBWithAttributes(float[])
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.getNumberOfComponents()
+org.apache.pdfbox.pdmodel.common.function.PDFunction.eval(float[])
+org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setMaximum(Color)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)
+org.apache.pdfbox.debugger.colorpane.DeviceNColorant.DeviceNColorant()
+org.apache.pdfbox.debugger.colorpane.CSDeviceN.getColorObj(float[])
+org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setMinimum(Color)
+org.apache.pdfbox.debugger.colorpane.DeviceNColorant.setName(String)
+org.apache.pdfbox.pdmodel.common.COSArrayList.convertCOSNameCOSArrayToList(COSArray)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN.toRGBWithTintTransform(float[])
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()

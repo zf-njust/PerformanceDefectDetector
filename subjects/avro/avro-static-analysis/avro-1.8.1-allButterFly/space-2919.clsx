@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.MapCompletion.outerSchema(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.createMap(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

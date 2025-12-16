@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileReader.SeekableInputStream.seek(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileReader.seek(long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DecoderFactory.defaultFactory()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.SeekableInput.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

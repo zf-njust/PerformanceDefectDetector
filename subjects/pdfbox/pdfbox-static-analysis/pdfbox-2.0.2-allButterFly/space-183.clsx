@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.loadDiskCache(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FileSystemFontProvider(FontCache)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.scanFonts(List)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.saveDiskCache()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeCollection(File)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFont(File)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getSupplement()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addType1Font(File)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFontImpl(TrueTypeFont, File)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSIgnored.FSIgnored(File, FontFormat, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.FSFontInfo(File, FontFormat, String, CIDSystemInfo, int, int, int, int, int, byte[], FileSystemFontProvider)" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.CIDSystemInfo(String, String, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getDiskCacheFile()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.PDPanoseClassification(byte[])" />
+</group>
+</group>
+</group>
+</cluster>

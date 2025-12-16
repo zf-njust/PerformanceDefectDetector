@@ -1,0 +1,89 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setItalic(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.TrueTypeEmbedder.createFontDescriptor(TrueTypeFont)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFixedPitch(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setXHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setDescent(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setLowerLeftX(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.PDFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setLowerLeftY(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontWeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setStemV(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setScript(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setSymbolic(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setItalicAngle(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontBoundingBox()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setCapHeight(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setAscent(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightY(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightX(float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setNonSymbolic(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFontBoundingBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setSerif(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float, float, float)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setFloat(COSName, float)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFlagBit(int, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.setFlags(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

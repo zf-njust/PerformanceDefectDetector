@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSName.writePDF(OutputStream)
+org.apache.pdfbox.util.PDFOperator.getImageData()
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.util.ImageParameters.getDictionary()
+org.apache.pdfbox.cos.COSBoolean.writePDF(OutputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromInt(COSInteger)
+org.apache.pdfbox.cos.COSDictionary.keySet()
+org.apache.pdfbox.util.PDFOperator.getImageParameters()
+org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.exceptions.COSVisitorException.COSVisitorException(Exception)
+org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream)
+org.apache.pdfbox.exceptions.WrappedException.WrappedException(Exception)
+org.apache.pdfbox.cos.COSDictionary.entrySet()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeObject(Object)
+org.apache.pdfbox.cos.COSString.writePDF(OutputStream)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.util.PDFOperator.getOperation()

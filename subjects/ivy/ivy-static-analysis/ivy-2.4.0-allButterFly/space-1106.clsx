@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.warn(String, Throwable)" />
+<item name="org.apache.ivy.util.XMLHelper.canDisableExternalDtds(SAXParserFactory)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

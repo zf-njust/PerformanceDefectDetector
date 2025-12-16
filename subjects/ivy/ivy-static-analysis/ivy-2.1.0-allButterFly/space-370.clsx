@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.VisitNode.isParentConfTransitive()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.VisitNode.getParentNode()" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getParent()" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getRequestedConf()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConfiguration(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNode.getMainConf(String)" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getNode()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+1 0 1 1 0 
+0 0 0 0 1 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.mapred.MapCollector.MapCollector(OutputCollector, boolean)
+org.apache.avro.mapred.HadoopMapper.map(AvroWrapper, NullWritable, OutputCollector, Reporter)
+org.apache.avro.mapred.AvroMapper.map(IN, AvroCollector, Reporter)
+org.apache.avro.mapred.AvroWrapper.datum()
+org.apache.avro.mapred.AvroCollector.collect(T)

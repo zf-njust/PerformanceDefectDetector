@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 1 0 0 1 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+org.apache.avro.thrift.test.Foo.Processor.ping.getResult(I, ping_args)
+org.apache.avro.thrift.test.Foo.AsyncProcessor.ping.getResultHandler.(Anon_1).onError(Exception)
+org.apache.avro.thrift.test.Foo.Iface.ping()
+org.apache.avro.thrift.test.Foo.AsyncProcessor.ping.getResultHandler.(Anon_1).onComplete(Void)
+org.apache.avro.thrift.test.Foo.Client.recv_ping()
+org.apache.avro.thrift.test.Foo.ping_result.ping_result()

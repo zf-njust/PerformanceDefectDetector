@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readLine()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parseXrefTable()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.XrefEntry.XrefEntry(int, int, int, String)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readInt()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.consumeWhitespace()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.SequentialRead.read()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readByte()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

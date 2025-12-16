@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.BaseTypeBuilder(Completion, NameContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.UnionBuilder.UnionBuilder(Completion, NameContext, List)" />
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.nullable()" />
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.TypeBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.FieldTypeBuilder.optional()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.NullableCompletion.NullableCompletion(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.OptionalCompletion.OptionalCompletion(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

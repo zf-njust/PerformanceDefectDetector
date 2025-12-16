@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getMatcher(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.ivyModuleStarted(Attributes)" />
+<item name="org.apache.ivy.core.cache.ParserSettingsMonitor.(Anon_1).getMatcher(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.managerStarted(Attributes, String)" />
+<item name="org.apache.ivy.core.cache.DefaultResolutionCacheManager.CacheParserSettings.getMatcher(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.mediationOverrideStarted(Attributes)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.ResolverParserSettings.getMatcher(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.getPatternMatcher(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.addError(String)" />
+<item name="org.apache.ivy.plugins.conflict.FixedConflictManager.FixedConflictManager(String[])" />
+<item name="org.apache.ivy.core.module.descriptor.OverrideDependencyDescriptorMediator.OverrideDependencyDescriptorMediator(String, String)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addDependencyDescriptorMediator(ModuleId, PatternMatcher, DependencyDescriptorMediator)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(String)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getConflictManager(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConflictManager(ModuleId, PatternMatcher, ConflictManager)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addExtraAttributeNamespace(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.MapMatcher(Map, PatternMatcher)" />
+<item name="org.apache.ivy.plugins.conflict.AbstractConflictManager.setName(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getAttributes()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

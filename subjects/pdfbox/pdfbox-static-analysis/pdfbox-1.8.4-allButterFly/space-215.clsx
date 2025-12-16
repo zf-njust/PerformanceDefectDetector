@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkNoOperands(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.StubOperator.process(PDFOperator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkStringOperands(List, int)" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkNumberOperands(List, int)" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkArrayOperands(List, int)" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.checkTagAndPropertyOperands(List)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.size()" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSFloat.doubleValue()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.content.StubOperator.createLimitError(String, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.StubOperator.createInvalidArgumentsError()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamException.ContentStreamException(String)" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamException.setErrorCode(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.validate()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initNamespaceFromSettings()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initLatestStrategyFromSettings()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getSystemNamespace()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getLatestStrategy(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultLatestStrategy()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getNamespace(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+</group>
+</group>
+</group>
+</cluster>

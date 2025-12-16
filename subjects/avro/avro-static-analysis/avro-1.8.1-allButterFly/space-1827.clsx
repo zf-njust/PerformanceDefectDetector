@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.close()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.abort()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherTask.close()" />
+<item name="org.apache.avro.ipc.Server.close()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readInt()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+</group>
+</group>
+</group>
+</cluster>

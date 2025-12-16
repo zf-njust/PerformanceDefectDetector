@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.setField(Object, String, int, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.setField(Object, String, int, Object)" />
+<item name="org.apache.avro.generic.GenericData.setField(Object, String, int, Object, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.ReflectData.getField(Class, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.reflect.ReflectData.findField(Class, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.IndexedRecord.put(int, Object)" />
+</group>
+</group>
+</group>
+</cluster>

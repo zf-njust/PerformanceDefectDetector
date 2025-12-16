@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroDeserializer.AvroDeserializer(Schema, Schema, ClassLoader)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroKeyDeserializer.AvroKeyDeserializer(Schema, Schema, ClassLoader)" />
+<item name="org.apache.avro.hadoop.io.AvroValueDeserializer.AvroValueDeserializer(Schema, Schema, ClassLoader)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)" />
+<item name="org.apache.avro.reflect.ReflectData.ReflectData(ClassLoader)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.specific.SpecificData.SpecificData(ClassLoader)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.GenericData(ClassLoader)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

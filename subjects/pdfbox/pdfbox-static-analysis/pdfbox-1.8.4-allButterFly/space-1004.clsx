@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.stroke()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawLine(float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawPolygon(float[], float[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.addLine(float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.addPolygon(float[], float[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.lineTo(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.moveTo(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.closeSubPath()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(float)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[])" />
+</group>
+</group>
+</group>
+</cluster>

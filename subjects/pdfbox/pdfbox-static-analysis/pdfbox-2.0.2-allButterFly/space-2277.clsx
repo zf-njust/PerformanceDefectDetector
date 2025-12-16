@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineJoin()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.PageDrawer.getStroke()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineWidth()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.transformWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getPhase()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineDashPattern()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getDashArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineCap()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getMiterLimit()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.Matrix.getScaleY()" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleX()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearX()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearY()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

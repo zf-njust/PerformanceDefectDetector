@@ -1,0 +1,10 @@
+[Call]
+4
+0 1 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 1 0 
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()
+org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)
+org.apache.avro.ipc.trace.Util.printableTime(long)
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTimeString()

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getCountersEnabled(JobContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.AvroMultipleOutputs(TaskInputOutputContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getNamedOutputsList(JobContext)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+[Call]
+9
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.PDOutlineNode(COSDictionary)
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.PDDictionaryWrapper(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.PDOutlineItem(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode.getOutlineItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItemIterator.next()
+org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.getNextSibling()
+org.apache.pdfbox.cos.COSObject.getObject()

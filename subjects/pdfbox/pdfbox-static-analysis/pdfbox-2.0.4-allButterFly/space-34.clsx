@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.COSParser.setLenient(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.PreflightParser(File)" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.PreflightParser(DataSource)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead)" />
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.RandomAccessBufferedFileInputStream(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long)" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, ScratchFile)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String, ScratchFile)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.COSParser(RandomAccessRead)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)" />
+<item name="org.apache.pdfbox.pdfparser.RandomAccessSource.RandomAccessSource(RandomAccessRead)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

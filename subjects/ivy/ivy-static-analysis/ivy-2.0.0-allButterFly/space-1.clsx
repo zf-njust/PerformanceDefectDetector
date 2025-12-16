@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getPublicationDate()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.getPublication()" />
+<item name="org.apache.ivy.plugins.resolver.ChainResolver.ResolvedModuleRevisionArtifactInfo.getLastModified()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedPublicationDate()" />
+</group>
+</group>
+</group>
+</cluster>

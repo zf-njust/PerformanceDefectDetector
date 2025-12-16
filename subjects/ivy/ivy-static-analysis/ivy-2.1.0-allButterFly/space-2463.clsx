@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.ModuleIdConf(ModuleId, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getEvictedRevisions(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getPendingConflicts(String, ModuleId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.setPendingConflicts(ModuleId, String, Collection)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedRevisions(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedNodes(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.setResolvedNodes(ModuleId, String, Collection)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getEvictedNodes(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.setEvictedNodes(ModuleId, String, Collection)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealNode()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

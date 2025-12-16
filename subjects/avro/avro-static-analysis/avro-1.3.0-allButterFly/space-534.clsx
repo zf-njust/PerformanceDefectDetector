@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.DirectBinaryDecoder.ByteReader.read(ByteBuffer, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DirectBinaryDecoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.read(ByteBuffer, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DirectBinaryDecoder.readInt()" />
+<item name="org.apache.avro.ipc.ByteBufferInputStream.readBuffer(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.ByteBufferInputStream.getBuffer()" />
+<item name="org.apache.avro.ipc.ByteBufferInputStream.read(byte[], int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

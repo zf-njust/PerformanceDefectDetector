@@ -1,0 +1,64 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.internal.JacksonUtils.toJsonNode(Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.data.Json.toString(Object)" />
+<item name="org.apache.avro.JsonProperties.addProp(String, Object)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, Object, Order)" />
+<item name="org.apache.avro.data.Json.writeObject(Object, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.data.Json.write(JsonNode, Encoder)" />
+<item name="org.apache.avro.JsonProperties.addProp(String, JsonNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.Encoder.writeString(String)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.isValidDefault(Schema, JsonNode)" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

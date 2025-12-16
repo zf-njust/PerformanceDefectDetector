@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.HttpTransceiver.writeBuffers(List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.HttpTransceiver.getLength(List)" />
+<item name="org.apache.avro.ipc.HttpTransceiver.writeBuffers(List, OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.HttpTransceiver.writeLength(int, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

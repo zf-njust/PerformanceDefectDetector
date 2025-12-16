@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 1 0 1 
+0 0 0 0 0 0 
+org.apache.ivy.core.module.id.ModuleRevisionId.toString()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.module.id.ModuleId.toString()
+org.apache.ivy.plugins.version.VersionMatcher.compare(ModuleRevisionId, ModuleRevisionId, Comparator)
+org.apache.ivy.plugins.version.ChainVersionMatcher.compare(ModuleRevisionId, ModuleRevisionId, Comparator)
+org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)

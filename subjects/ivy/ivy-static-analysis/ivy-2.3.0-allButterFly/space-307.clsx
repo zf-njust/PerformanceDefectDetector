@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.matcher.Matcher.isExact()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.isExact(PatternMatcher, String)" />
+<item name="org.apache.ivy.plugins.matcher.ExactOrRegexpPatternMatcher.ExactOrRegexpMatcher.isExact()" />
+<item name="org.apache.ivy.core.search.SearchEngine.addMatcher(PatternMatcher, String, Map, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

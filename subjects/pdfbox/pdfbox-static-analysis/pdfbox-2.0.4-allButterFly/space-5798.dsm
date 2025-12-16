@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 0 1 0 0 1 1 1 1 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.font.util.GlyphDetail.throwExceptionIfNotValid()
+org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String, Throwable)
+org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int)
+org.apache.pdfbox.preflight.font.container.FontContainer.markAsInvalid(int, GlyphException)
+org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)
+org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)
+org.apache.pdfbox.pdmodel.font.PDFontLike.getWidthFromFont(int)
+org.apache.pdfbox.preflight.font.container.FontContainer.checkGlyphWidth(int)
+org.apache.pdfbox.preflight.font.container.FontContainer.markAsValid(int)
+org.apache.pdfbox.pdmodel.font.PDFontLike.getWidth(int)
+org.apache.pdfbox.preflight.font.container.FontContainer.checkWidthsConsistency(int, float, float)
+org.apache.pdfbox.preflight.font.container.FontContainer.hasGlyph(int)
+org.apache.pdfbox.pdmodel.font.PDFontLike.getName()
+org.apache.pdfbox.preflight.font.container.FontContainer.isAlreadyProcessed(int)

@@ -1,0 +1,14 @@
+[Call]
+6
+0 1 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 1 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Schema, Decoder)
+org.apache.avro.io.Decoder.readBytes(ByteBuffer)
+org.apache.avro.JsonProperties.getJsonProp(String)
+org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)
+org.apache.avro.JsonProperties.getProp(String)
+org.apache.avro.util.ClassUtils.forName(String)

@@ -1,0 +1,54 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptor.getDependencyManagementMap()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDefaultScope(PomDependencyData)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDefaultVersion(PomDependencyData)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyManagements(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExclusions(ModuleDescriptor, String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyManagementMap(ModuleDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.DefaultPomDependencyMgt.DefaultPomDependencyMgt(String, String, String, String, List)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getExcludedModules()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getVersion()" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForScope(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getScope()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getArtifactId()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.newInstance(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExtraInfoPrefixForExclusion(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForVersion(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfo()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildText(Element, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.replaceProps(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.intern(ModuleId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getTextContent(Element)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

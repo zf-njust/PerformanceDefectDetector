@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.getProp(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumWriter.writeString(Schema, Object, Encoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Schema, Decoder)" />
+<item name="org.apache.avro.reflect.ReflectData.getClass(Schema)" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.readInt(Object, Schema, Decoder)" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.newArray(Object, int, Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.io.Decoder.readString()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)" />
+<item name="org.apache.avro.io.Decoder.readInt()" />
+<item name="org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.io.Encoder.writeString(CharSequence)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

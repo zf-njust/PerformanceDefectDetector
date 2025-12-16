@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 1 1 0 1 1 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getRecipientsLength()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.exceptions.CryptographyException.CryptographyException(String)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getCertificate()
+org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getRecipientStringAt(int)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getLength()
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setReadOnly()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(byte[])
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.prepareForDecryption(PDEncryptionDictionary, COSArray, DecryptionMaterial)
+org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getPrivateKey()

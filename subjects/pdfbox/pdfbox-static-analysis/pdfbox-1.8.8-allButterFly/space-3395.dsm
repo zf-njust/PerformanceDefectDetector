@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.pdmodel.common.PDTypedDictionaryWrapper.getType()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)

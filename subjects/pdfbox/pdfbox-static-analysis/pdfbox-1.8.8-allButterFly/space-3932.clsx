@@ -1,0 +1,92 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.checkTrailersForLinearizedPDF14(PreflightContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.checkTrailersForLinearizedPDF15(PreflightContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.getLinearizedDictionary(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.checkLinearizedDictionnary(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectsByType(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getHeaderString()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getXrefTable()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.compareIds(COSDictionary, COSDictionary, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.closeDocumentQuietly(COSDocument)" />
+<item name="org.apache.pdfbox.preflight.process.TrailerValidationProcess.checkMainTrailer(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.getLastTrailer()" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationError(PreflightContext, ValidationError)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getXrefTableResolver()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.getFirstTrailer()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.isArray(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.isDictionary(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.toList()" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.isInteger(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDocument.close()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.utils.COSUtils.getAsArray(COSBase, COSDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.io.SequentialRead.close()" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.clear()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)" />
+<item name="org.apache.pdfbox.cos.COSStream.close()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+</group>
+</group>
+</group>
+</cluster>

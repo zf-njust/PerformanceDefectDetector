@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.Util.getAllEvents(Span)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.SpanAggregator.getFullSpans(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.Util.longValue(ID)" />
+<item name="org.apache.avro.ipc.trace.Util.idsEqual(ID, ID)" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.SpanAggregationResults.SpanAggregationResults()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

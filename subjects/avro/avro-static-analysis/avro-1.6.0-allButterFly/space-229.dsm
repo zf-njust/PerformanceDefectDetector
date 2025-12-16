@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 1 0 0 1 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 
+1 0 0 0 0 0 0 0 
+org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema)
+org.apache.avro.ipc.specific.SpecificResponder.getDatumWriter(Schema)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.specific.SpecificData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.mapred.tether.TetherTask.Collector.Collector(Schema)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.ipc.specific.SpecificRequestor.getDatumWriter(Schema)

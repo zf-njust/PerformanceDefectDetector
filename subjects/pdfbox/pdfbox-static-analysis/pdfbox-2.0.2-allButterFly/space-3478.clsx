@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.getFont()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getType1Font(String, File)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontCache.getFont(FontInfo)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getOTFFont(String, File)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontCache.addFont(FontInfo, FontBoxFont)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getTrueTypeFont(String, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.readTrueTypeFont(String, File)" />
+</group>
+</group>
+</group>
+</cluster>

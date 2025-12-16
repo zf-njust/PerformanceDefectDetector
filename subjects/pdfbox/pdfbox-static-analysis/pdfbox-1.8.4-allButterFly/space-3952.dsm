@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getName()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.encoding.Encoding.getCharacter(int)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isHidden()
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getFormattedValue()
+org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()
+org.apache.pdfbox.cos.COSDictionary.getString(COSName)
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getValue()
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.toString()
+org.apache.pdfbox.encoding.Encoding.getCharacter(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)
+org.apache.pdfbox.cos.COSBoolean.getValue()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.cos.COSName.getName()

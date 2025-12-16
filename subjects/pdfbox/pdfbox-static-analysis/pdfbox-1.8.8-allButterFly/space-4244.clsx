@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.MoveAndShow.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(String, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperator(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.PDFOperator.PDFOperator(String)" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,81 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getKey()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.PDFDebugger.showFlagPane(Object, Object)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isEncrypt(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeModel.getIndexOfChild(Object, Object)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isFlagNode(Object, Object)" />
+<item name="org.apache.pdfbox.debugger.treestatus.TreeStatus.getObjectName(Object)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.getNodeKey(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeCellRenderer.toTreeObject(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getGenerationNumber()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getIndex()" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isAnnot(Object)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.size()" />
+<item name="org.apache.pdfbox.cos.COSFloat.floatValue()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPane.getPane()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObjectNumber()" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.cos.COSArray.indexOf(COSBase)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.getUnderneathObject(Object)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPane.FlagBitsPane(COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.debugger.ui.DocumentEntry.indexOf(PageEntry)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.isFontDescriptor(Object)" />
+<item name="org.apache.pdfbox.debugger.PDFDebugger.replaceRightComponent(Component)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getDict()" />
+<item name="org.apache.pdfbox.cos.COSString.toHexString()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getItem()" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getPath()" />
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeCellRenderer.toTreePostfix(Object)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getItem()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPane.createPane(COSDictionary, COSName)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPaneView.getPanel()" />
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getPageNum()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.indexOfObject(COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.debugger.flagbitspane.FontFlag.FontFlag(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.PanoseFlag.PanoseFlag(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagBits()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagType()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.Flag.getFlagValue()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPaneView.FlagBitsPaneView(String, String, Object[][], String[])" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.AnnotFlag.AnnotFlag(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.EncryptFlag.EncryptFlag(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.Flag.getColumnNames()" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FieldFlag.FieldFlag(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.debugger.flagbitspane.PanoseFlag.getPanoseBytes(COSDictionary)" />
+<item name="org.apache.pdfbox.debugger.flagbitspane.FlagBitsPaneView.createView()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

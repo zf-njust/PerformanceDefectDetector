@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

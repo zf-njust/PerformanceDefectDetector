@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 1 0 0 
+1 0 0 0 0 
+0 0 0 0 0 
+0 1 0 1 0 
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)
+org.apache.avro.ipc.generic.GenericResponder.getDatumReader(Schema, Schema)
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.io.DatumReader.read(D, Decoder)
+org.apache.avro.ipc.generic.GenericResponder.readRequest(Schema, Schema, Decoder)

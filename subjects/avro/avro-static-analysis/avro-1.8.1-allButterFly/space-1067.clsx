@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectData.getClass(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumReader.newArray(Object, int, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.newInstance(Class, Schema)" />
+<item name="org.apache.avro.generic.GenericDatumReader.getData()" />
+<item name="org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.getConversionFor(LogicalType)" />
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Conversion.getConvertedType()" />
+<item name="org.apache.avro.Schema.getLogicalType()" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.util.ClassUtils.forName(String)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.getClassLoader()" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.specific.SpecificData.getWrapper(Schema)" />
+<item name="org.apache.avro.LogicalType.getName()" />
+<item name="org.apache.avro.util.ClassUtils.forName(ClassLoader, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.util.ClassUtils.forName(String, ClassLoader)" />
+</group>
+</group>
+</group>
+</cluster>

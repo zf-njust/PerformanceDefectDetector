@@ -1,0 +1,57 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.IvyVariableContainerWrapper.IvyVariableContainerWrapper(IvyVariableContainer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.includeStarted(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.getVariableContainer()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setSettingsVariables(URL)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.urlFromFileAttribute(String)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.XmlSettingsParser(IvySettings)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.parse(Configurator, URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setSettingsVariables(File)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(File, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariableContainer(IvyVariableContainer)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.FileUtil.normalize(String)" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDeprecatedVariable(String, String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.settings.IvySettings.validate()" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+<item name="org.apache.ivy.util.FileUtil.dissect(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.validateAll(Collection)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.settings.Validatable.validate()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

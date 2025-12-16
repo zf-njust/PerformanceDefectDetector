@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.event.IvyEvent.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.event.IvyEvent.equals(Object)" />
+<item name="org.apache.ivy.core.event.IvyEvent.hashCode()" />
+<item name="org.apache.ivy.core.event.IvyEventFilter.IvyEventFilter.(Anon_1).accept(Object)" />
+<item name="org.apache.ivy.core.event.IvyEvent.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+<item name="org.apache.ivy.core.event.IvyEvent.getSource()" />
+<item name="org.apache.ivy.core.event.IvyEvent.getAttributes()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

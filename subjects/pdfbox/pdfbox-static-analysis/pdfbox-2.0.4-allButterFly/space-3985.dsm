@@ -1,0 +1,50 @@
+[Call]
+24
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.fontencodingpane.Type3Font.getEncodingName(PDSimpleFont)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)
+org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.createView(JPanel, JTable)
+org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getTable(Object[][], String[], double[])
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()
+org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.FontEncodingView(Object[][], Map, String[], double[])
+org.apache.pdfbox.debugger.fontencodingpane.Type3Font.getGlyphs(PDType3Font)
+org.apache.pdfbox.pdmodel.font.PDType3Font.getName()
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)
+org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)
+org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.getHeaderPanel(Map)
+org.apache.pdfbox.debugger.fontencodingpane.Type3Font.Type3Font(PDType3Font)
+org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.debugger.fontencodingpane.FontEncodingView.GlyphCellRenderer.GlyphCellRenderer(double[])
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.pdmodel.font.PDFont.getName()

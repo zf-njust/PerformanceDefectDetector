@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceCollection.addTrace(Trace)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.Trace.executionPathHash()" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.recursiveProcess(TraceNode, TraceNodeStats)" />
+<item name="org.apache.avro.ipc.trace.Trace.getRoot()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.TraceNode.getPostLinkTime()" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceTiming.TraceTiming(Long, Long, Long)" />
+<item name="org.apache.avro.ipc.trace.Trace.printBrief()" />
+<item name="org.apache.avro.ipc.trace.TraceNode.getProcessTime()" />
+<item name="org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)" />
+<item name="org.apache.avro.ipc.trace.Trace.printBriefRecurse(List)" />
+</group>
+</group>
+</group>
+</cluster>

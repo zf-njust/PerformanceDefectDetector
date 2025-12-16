@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 
+org.apache.avro.Schema.getName()
+org.apache.trevni.avro.AvroColumnator.simpleValueType(Schema)
+org.apache.trevni.avro.AvroColumnator.p(String, String, String)
+org.apache.avro.Schema.getType()
+org.apache.avro.Schema.getElementType()
+org.apache.avro.Schema.getTypes()
+org.apache.trevni.avro.AvroColumnator.isSimple(Schema)
+org.apache.avro.Schema.getFullName()
+org.apache.avro.Schema.getValueType()
+org.apache.trevni.avro.AvroColumnator.p(String, Schema, String)
+org.apache.trevni.avro.AvroColumnator.addColumn(String, ValueType, ColumnMetaData, boolean)
+org.apache.avro.Schema.Field.name()
+org.apache.avro.Schema.Field.schema()
+org.apache.avro.Schema.getFields()
+org.apache.trevni.avro.AvroColumnator.addArrayColumn(String, Schema, ColumnMetaData)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.trevni.avro.AvroColumnator.columnize(String, Schema, ColumnMetaData, boolean)

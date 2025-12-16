@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.isEmbedded()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.getNameInFont(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.getPath(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.UniUtil.getUniNameOfCodePoint(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getDifferences()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getBaseEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.WeakIdentityHashMap.reap()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.util.WeakIdentityHashMap.get(Object)" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.put(K, V)" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.hashCode()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.isEmpty()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.containsValue(Object)" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.remove(Object)" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.size()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.entrySet()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.clear()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.keySet()" />
+<item name="org.apache.avro.util.WeakIdentityHashMap.containsKey(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.WeakIdentityHashMap.IdentityWeakReference.IdentityWeakReference(Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

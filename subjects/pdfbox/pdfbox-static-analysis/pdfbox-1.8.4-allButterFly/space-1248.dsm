@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.encoding.Encoding.getCharacter(int)
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFontFamily()
+org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.encoding.Encoding.getCharacter(String)
+org.apache.pdfbox.cos.COSObject.getObject()

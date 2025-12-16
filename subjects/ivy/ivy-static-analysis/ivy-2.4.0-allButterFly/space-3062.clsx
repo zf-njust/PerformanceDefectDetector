@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2Descriptor.finish()" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.getCapabilityValues(String)" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()" />
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getArtifacts()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

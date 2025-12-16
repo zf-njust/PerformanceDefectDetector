@@ -1,0 +1,58 @@
+[Call]
+28
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdfparser.COSParser.getDocument()
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()
+org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)
+org.apache.pdfbox.cos.COSDocument.COSDocument()
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()
+org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead, AccessPermission)
+org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()
+org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)
+org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)
+org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead)
+org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()
+org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)
+org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)
+org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(Format, PreflightConfiguration)
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()
+org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()
+org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)
+org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()
+org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()
+org.apache.pdfbox.preflight.parser.PreflightParser.createPdfADocument(Format, PreflightConfiguration)
+org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)
+org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()
+org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)

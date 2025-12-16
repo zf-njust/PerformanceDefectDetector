@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.Ivy.pushContext()
+org.apache.ivy.core.search.RevisionEntry.RevisionEntry(ModuleEntry, String)
+org.apache.ivy.core.IvyContext.popContext()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.pushNewContext()
+org.apache.ivy.core.search.SearchEngine.listRevisionEntries(ModuleEntry)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.core.search.ModuleEntry.getOrganisation()
+org.apache.ivy.Ivy.popContext()
+org.apache.ivy.Ivy.listRevisionEntries(ModuleEntry)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.search.OrganisationEntry.getOrganisation()
+org.apache.ivy.core.search.ModuleEntry.getModule()
+org.apache.ivy.core.IvyContext.setIvy(Ivy)
+org.apache.ivy.plugins.resolver.DependencyResolver.listTokenValues(String, Map)
+org.apache.ivy.core.IvyContext.pushContext(IvyContext)
+org.apache.ivy.core.settings.IvySettings.getResolvers()
+org.apache.ivy.core.IvyContext.peekIvy()

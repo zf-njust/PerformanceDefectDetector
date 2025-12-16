@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setLowerLimit(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.calculateLimits()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getKids()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getNames()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setUpperLimit(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.isRootNode()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getLowerLimit()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getUpperLimit()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.getString(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.createChildNode(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.convertCOSToPD(COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSArray.getString(int, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNameTreeNode.PDNameTreeNode(COSDictionary, Class)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.setString(int, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

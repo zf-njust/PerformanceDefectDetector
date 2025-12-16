@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.Array.hashCode()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.hashCode(Object, Schema)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.GenericData.hashCodeAdd(int, Object, Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+</group>
+</group>
+</group>
+</cluster>

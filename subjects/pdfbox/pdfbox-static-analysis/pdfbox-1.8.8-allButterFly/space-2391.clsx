@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.locate(Artifact)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.exists(Artifact)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)" />
+<item name="org.apache.ivy.core.resolve.DownloadOptions.DownloadOptions()" />
+</group>
+</group>
+</group>
+</cluster>

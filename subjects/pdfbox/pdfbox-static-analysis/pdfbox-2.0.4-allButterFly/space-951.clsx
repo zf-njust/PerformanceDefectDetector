@@ -1,0 +1,144 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getBackground()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.initializeAppearanceContent(PDAnnotationWidget, PDAppearanceStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.PDPageContentStream(PDDocument, PDAppearanceStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setLineWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.fill()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.closeAndStroke()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getBorderColour()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.close()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.getAppearanceCharacteristics()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getAcroForm()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.addRect(float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getWidth()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.applyPadding(PDRectangle, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.getBorderStyle()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.resolveBoundingBox(PDAnnotationWidget, PDAppearanceStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.writeToStream(byte[], PDAppearanceStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.PDBorderStyleDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.getName(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.createOutputStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getComponents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.getPatternName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.PDAppearanceCharacteristicsDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.createRetranslatedRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getBBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setNonStrokingColorSpaceStack(PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(String, float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.setStrokingColorSpaceStack(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSStream.createOutputStream(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightY(float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.setUpperRightX(float)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatFloatFast(float, int, byte[])" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle()" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(PDColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary, ResourceCache)" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.PDResources.add(COSName, String, COSObjectable)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSOutputStream.COSOutputStream(List, COSDictionary, OutputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.getExponent(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.util.NumberFormatUtil.formatPositiveNumber(long, int, boolean, byte[], int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getKeyForValue(Object)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.put(COSName, COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.createKey(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsValue(Object)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getColor(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(COSArray, PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+</group>
+</group>
+</cluster>

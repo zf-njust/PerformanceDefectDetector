@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.cos.COSDictionary.getString(String, String)
+org.apache.pdfbox.cos.COSDictionary.getString(COSName, String)
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.getThousandsSeparator()
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.getDictionary()
+org.apache.pdfbox.cos.COSDictionary.getString(COSName)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)

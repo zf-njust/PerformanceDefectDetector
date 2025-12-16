@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.getConf()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.hashCode()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.hashCode()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.getModuleId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

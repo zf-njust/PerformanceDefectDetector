@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.CacheUtil.checkCachePattern(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setArtifactPattern(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCacheIvyPattern(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setIvyPattern(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setDataFilePattern(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCacheArtifactPattern(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

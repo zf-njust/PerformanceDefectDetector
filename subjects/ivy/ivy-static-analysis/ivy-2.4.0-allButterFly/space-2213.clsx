@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setRepository(Repository)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.JarResolver.JarResolver()" />
+<item name="org.apache.ivy.plugins.resolver.VfsResolver.VfsResolver()" />
+<item name="org.apache.ivy.plugins.resolver.URLResolver.URLResolver()" />
+<item name="org.apache.ivy.plugins.resolver.SFTPResolver.SFTPResolver()" />
+<item name="org.apache.ivy.plugins.resolver.MirroredURLResolver.MirroredURLResolver()" />
+<item name="org.apache.ivy.plugins.resolver.SshResolver.SshResolver()" />
+<item name="org.apache.ivy.plugins.resolver.VsftpResolver.VsftpResolver()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.FileSystemResolver()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.FileRepository()" />
+<item name="org.apache.ivy.plugins.repository.vfs.VfsRepository.VfsRepository()" />
+<item name="org.apache.ivy.plugins.repository.sftp.SFTPRepository.SFTPRepository()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

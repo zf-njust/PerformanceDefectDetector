@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.Version.withNudgedPatch()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.toIvyRevision()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.Version.Version(int, int, int, String)" />
+</group>
+</group>
+</group>
+</cluster>

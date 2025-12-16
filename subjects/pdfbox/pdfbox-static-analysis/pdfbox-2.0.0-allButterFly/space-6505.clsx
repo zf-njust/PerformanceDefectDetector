@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.DCTFilter.fromYCCKtoCMYK(Raster)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.DCTFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.DCTFilter.getNumChannels(ImageReader)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.DecodeResult(COSDictionary)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.getAdobeTransform(IIOMetadata)" />
+<item name="org.apache.pdfbox.filter.Filter.findImageReader(String, String)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.fromBGRtoRGB(Raster)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.MissingImageReaderException.MissingImageReaderException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.DCTFilter.clamp(float)" />
+</group>
+</group>
+</group>
+</cluster>

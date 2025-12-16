@@ -1,0 +1,49 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.getConflictParent()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.handleAllBlacklistedRevisions(DependencyDescriptor, Collection)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyContext.getResolveData()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getReport()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getBlacklistData(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.getEvictedNode()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.getSelectedNode()" />
+<item name="org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.handleUnsolvableConflict(IvyNode, Collection, IvyNode, IvyNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getBlacklistData(String)" />
+<item name="org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(IvyNode, IvyNode)" />
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getAllRealCallers()" />
+<item name="org.apache.ivy.core.resolve.ResolveProcessException.ResolveProcessException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getAllRealCallers()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.isRealCaller()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

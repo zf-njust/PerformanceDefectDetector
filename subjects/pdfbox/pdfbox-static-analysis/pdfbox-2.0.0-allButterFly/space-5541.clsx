@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.getColorSpace()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.process(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(COSArray, PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.contentstream.operator.color.SetColor.setColor(PDColor)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

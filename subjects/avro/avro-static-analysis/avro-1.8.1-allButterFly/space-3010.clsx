@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Conversion.toRecord(T, Schema, LogicalType)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumWriter.convert(Schema, LogicalType, Conversion, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Conversion.toBytes(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toMap(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toArray(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toInt(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toEnumSymbol(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Conversion.getConvertedType()" />
+<item name="org.apache.avro.Conversion.toDouble(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toFixed(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toLong(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toFloat(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toCharSequence(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toBoolean(T, Schema, LogicalType)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalType.getName()" />
+</group>
+</group>
+</group>
+</cluster>

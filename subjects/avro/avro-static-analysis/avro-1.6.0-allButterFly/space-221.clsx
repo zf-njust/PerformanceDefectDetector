@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.Util.getPayloadSize(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TracePlugin.clientReceiveResponse(RPCContext)" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.serverReceiveRequest(RPCContext)" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.clientSendRequest(RPCContext)" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.serverSendResponse(RPCContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.SpanStorage.addSpan(Span)" />
+<item name="org.apache.avro.ipc.trace.Util.addEvent(Span, SpanEvent)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.ipc.RPCContext.getRequestPayload()" />
+<item name="org.apache.avro.ipc.RPCContext.getResponsePayload()" />
+<item name="org.apache.avro.ipc.RPCContext.getMessage()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

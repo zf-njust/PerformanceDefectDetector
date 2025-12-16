@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.RPCMetaTestPlugin.serverReceiveRequest(RPCContext)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.RPCContext.requestCallMeta()" />
+<item name="org.apache.avro.ipc.RPCContext.getMessage()" />
+</group>
+</group>
+</group>
+</cluster>

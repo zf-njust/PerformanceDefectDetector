@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 0 
+0 1 0 0 1 0 
+0 0 1 0 0 1 
+0 0 0 0 0 0 
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)
+org.apache.avro.io.Perf.GenericResolving.getReaderSchema()
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.io.Perf.GenericResolving.newReader()
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema)
+org.apache.avro.generic.GenericData.get()

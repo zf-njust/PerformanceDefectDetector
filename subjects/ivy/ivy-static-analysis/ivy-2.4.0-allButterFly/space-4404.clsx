@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.DualResolver.commitPublishTransaction()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.commitPublishTransaction()" />
+</group>
+</group>
+</group>
+</cluster>

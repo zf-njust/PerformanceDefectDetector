@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress, String, String, String, Map, CallbackHandler)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress, SaslServerFactory)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SocketServer.SocketServer(Responder, SocketAddress)" />
+</group>
+</group>
+</group>
+</cluster>

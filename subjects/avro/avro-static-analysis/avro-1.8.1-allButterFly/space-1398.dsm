@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 
+0 1 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 
+org.apache.avro.io.BinaryDecoder.ensureBounds(int)
+org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)
+org.apache.avro.io.BinaryDecoder.doReadItemCount()
+org.apache.avro.io.BinaryDecoder.arrayNext()
+org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)
+org.apache.avro.io.BinaryDecoder.innerLongDecode(long)
+org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)
+org.apache.avro.io.BinaryDecoder.readLong()

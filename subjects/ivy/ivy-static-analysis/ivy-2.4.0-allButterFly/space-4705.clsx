@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.DefaultMessageLogger.DefaultMessageLogger(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.Main.initMessage(CommandLine, Ivy)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.util.cli.CommandLine.hasOption(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

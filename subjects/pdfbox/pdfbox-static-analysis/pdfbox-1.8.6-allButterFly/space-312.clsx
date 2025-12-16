@@ -1,0 +1,61 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial.getPassword()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.prepareForDecryption(PDEncryptionDictionary, COSArray, DecryptionMaterial)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.exceptions.CryptographyException.CryptographyException(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKey(byte[], byte[], int, byte[], int, int, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setAES(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.isEncryptMetaData()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getUserKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getOwnerKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getRevision()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.getCryptFilterMethod()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getPermissions()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getOwnerAccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getLength()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getStdCryptFilterDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.getUserPassword(byte[], byte[], int, long)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModify(boolean)" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrintDegraded(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanFillInForm(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModifyAnnotations(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getCryptFilterDictionary(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanAssembleDocument(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractContent(boolean)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.setKey(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncateOrPad(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrint(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractForAccessibility(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.PDCryptFilterDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.fixByte(byte)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

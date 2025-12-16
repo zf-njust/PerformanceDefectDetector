@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 1 1 1 1 1 0 1 1 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.blackListIncompatibleCaller(VersionMatcher, IvyNode, IvyNode, IvyNode, Stack)
+org.apache.ivy.core.resolve.IvyNodeUsage.isBlacklisted(String)
+org.apache.ivy.core.resolve.IvyNode.isBlacklisted(String)
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getAskedDependencyId(ResolveData)
+org.apache.ivy.core.resolve.IvyNode.findNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.getCallers(String)
+org.apache.ivy.core.resolve.IvyNodeBlacklist.IvyNodeBlacklist(IvyNode, IvyNode, IvyNode, IvyNode, String)
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.getData()
+org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()
+org.apache.ivy.core.resolve.ResolveData.getReport()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)

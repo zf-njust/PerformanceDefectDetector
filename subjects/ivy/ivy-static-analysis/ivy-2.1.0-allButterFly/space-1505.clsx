@@ -1,0 +1,119 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.isSearched()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getSearchedNodes()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.ouputRevision(ConfigurationResolveReport, PrintWriter, List, IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.isLoaded()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.isDefault()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputMetadataArtifact(PrintWriter, IvyNode)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getResolver()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getArtifactResolver()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.hasProblem()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isDownloaded()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getStatus()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.getDetail()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputCallers(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getProblem()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConfigurations(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getEvictedData(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.getConflictManager()" />
+<item name="org.apache.ivy.core.module.descriptor.License.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputEvictionInformation(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputArtifacts(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+<item name="org.apache.ivy.core.module.descriptor.License.getUrl()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getModuleRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getLicenses()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isEvicted(String)" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.toString(String[])" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealNode()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getDependencies()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDescriptor()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getPublication()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getExtraAttributes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifactOrigin()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getName()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getPublicationDate()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+<item name="org.apache.ivy.core.report.MetadataArtifactDownloadReport.isSearched()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getReport()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadTimeMillis()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getConfigurations(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.isEvicted(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getType()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.addAllIfNotNull(Collection, Collection)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getArtifact()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.isLocal()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getExt()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.report.DownloadStatus.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getLocation()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getAskedDependencyId(ResolveData)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getSize()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getEvictedData(String)" />
+<item name="org.apache.ivy.core.report.MetadataArtifactDownloadReport.getOriginalLocalFile()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadDetails()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.getSelected()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getDownloadReports(ModuleRevisionId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.EvictionData.isTransitivelyEvicted()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getRoot()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.cleanEvicted()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedRevisions(ModuleId, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedPublicationDate()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getDependency(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.getResolvedRevisions(ModuleId, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.equals(Object)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.ModuleIdConf(ModuleId, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

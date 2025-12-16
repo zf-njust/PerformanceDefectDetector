@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+0 1 1 0 0 1 
+0 1 1 0 0 1 
+0 0 0 0 0 0 
+org.apache.pdfbox.preflight.ValidationResult.addErrors(List)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()
+org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)
+org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)
+org.apache.pdfbox.preflight.parser.PreflightParser.addValidationError(ValidationError)
+org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)

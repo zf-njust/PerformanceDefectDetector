@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.ccitt.PackedBitArray.clear()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.decodeLine()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.readByte()" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.CodeWord.execute(CCITTFaxG31DDecodeInputStream)" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.CodeWord.getType()" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.LookupTreeNode.getNextCodeWord(CCITTFaxG31DDecodeInputStream)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ccitt.PackedBitArray.getBitCount()" />
+<item name="org.apache.pdfbox.filter.ccitt.PackedBitArray.clearBits(int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.ccitt.PackedBitArray.byteOffset(int)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGBImageAWT(WritableRaster, ColorSpace)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDJPXColorSpace.toRGBImage(WritableRaster)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDDeviceCMYK.toRGBImageAWT(WritableRaster, ColorSpace)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDICCBased.toRGBImage(WritableRaster)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toRGBImage(WritableRaster)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

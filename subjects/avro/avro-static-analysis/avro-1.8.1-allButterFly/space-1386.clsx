@@ -1,0 +1,51 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getSpecificData()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getDatumWriter(Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificResponder.getDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificResponder.respond(Message, Object)" />
+<item name="org.apache.avro.ipc.reflect.ReflectResponder.getReflectData()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.generic.GenericRecord.get(String)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.getClassLoader()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.specific.SpecificData.getWrapper(Schema)" />
+<item name="org.apache.avro.util.ClassUtils.forName(ClassLoader, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.util.ClassUtils.forName(String, ClassLoader)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.generic.GenericResponder.getGenericData()" />
+</group>
+</group>
+</group>
+</cluster>

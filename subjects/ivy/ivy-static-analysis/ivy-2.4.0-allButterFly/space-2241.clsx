@@ -1,0 +1,52 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.BundleInfo.toString()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2Descriptor.addBundle(BundleInfo)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.addBundle(BundleInfo)" />
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicNameTarget()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersionTarget()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.equals(Object)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.getLogLevel()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.isSource()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.core.BundleInfo.getCapabilities()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getName()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getType()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.ModuleDescriptorWrapper(BundleInfo, URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModule(String, Version)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.add(String, String, ModuleDescriptorWrapper)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.findModules(String, String)" />
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+<item name="org.apache.ivy.osgi.repo.ModuleDescriptorWrapper.getBundleInfo()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

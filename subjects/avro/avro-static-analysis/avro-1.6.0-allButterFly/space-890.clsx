@@ -1,0 +1,198 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.main(String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.sendRpcs(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.HttpTransceiver.HttpTransceiver(URL)" />
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.createServer(boolean)" />
+<item name="org.apache.avro.ipc.HttpServer.close()" />
+<item name="org.apache.avro.ipc.generic.GenericRequestor.request(String, Object)" />
+<item name="org.apache.avro.ipc.generic.GenericRequestor.GenericRequestor(Protocol, Transceiver)" />
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+<item name="org.apache.avro.ipc.HttpServer.getPort()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.Requestor.Requestor(Protocol, Transceiver)" />
+<item name="org.apache.avro.ipc.Responder.addRPCPlugin(RPCPlugin)" />
+<item name="org.apache.avro.ipc.Requestor.request(String, Object)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, int)" />
+<item name="org.apache.avro.ipc.stats.StatsPluginOverhead.IdentityResponder.IdentityResponder(Protocol)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.StatsPlugin()" />
+<item name="org.apache.avro.ipc.HttpServer.start()" />
+<item name="org.apache.avro.AvroRemoteException.AvroRemoteException(Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.ipc.generic.GenericResponder.GenericResponder(Protocol)" />
+<item name="org.apache.avro.ipc.ResponderServlet.ResponderServlet(Responder)" />
+<item name="org.apache.avro.ipc.CallFuture.get()" />
+<item name="org.apache.avro.Protocol.Message.isOneWay()" />
+<item name="org.apache.avro.ipc.CallFuture.CallFuture()" />
+<item name="org.apache.avro.ipc.Requestor.Request.Request(String, Object, RPCContext)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, String, int)" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.StatsPlugin(Ticks, Segmenter, Segmenter)" />
+<item name="org.apache.avro.ipc.Requestor.Request.getMessage()" />
+<item name="org.apache.avro.ipc.Requestor.request(Request, Callback)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.ipc.CallFuture.CallFuture(Callback)" />
+<item name="org.apache.avro.ipc.Transceiver.transceive(List, Callback)" />
+<item name="org.apache.avro.ipc.Requestor.getLocal()" />
+<item name="org.apache.avro.ipc.CallFuture.await()" />
+<item name="org.apache.avro.Protocol.getMessages()" />
+<item name="org.apache.avro.ipc.CallFuture.getError()" />
+<item name="org.apache.avro.ipc.Callback.handleResult(T)" />
+<item name="org.apache.avro.ipc.Transceiver.lockChannel()" />
+<item name="org.apache.avro.ipc.Transceiver.writeBuffers(List)" />
+<item name="org.apache.avro.ipc.Responder.Responder(Protocol)" />
+<item name="org.apache.avro.ipc.Requestor.getTransceiver()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.ipc.Requestor.TransceiverCallback.TransceiverCallback(Request, Callback)" />
+<item name="org.apache.avro.AvroRemoteException.AvroRemoteException(Throwable)" />
+<item name="org.apache.avro.ipc.Transceiver.unlockChannel()" />
+<item name="org.apache.avro.ipc.Requestor.Request.Request(String, Object, RPCContext, BinaryEncoder)" />
+<item name="org.apache.avro.ipc.Requestor.Request.getBytes()" />
+<item name="org.apache.avro.ipc.Transceiver.isConnected()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.ipc.Transceiver.transceive(List)" />
+<item name="org.apache.avro.util.ByteBufferOutputStream.getBufferList()" />
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.ipc.Callback.handleError(Throwable)" />
+<item name="org.apache.avro.ipc.RPCContext.setRequestPayload(List)" />
+<item name="org.apache.avro.ipc.RPCPlugin.clientSendRequest(RPCContext)" />
+<item name="org.apache.avro.ipc.RPCContext.requestCallMeta()" />
+<item name="org.apache.avro.util.ByteBufferOutputStream.ByteBufferOutputStream()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.io.BinaryEncoder.writeString(String)" />
+<item name="org.apache.avro.ipc.RPCContext.setMessage(Message)" />
+<item name="org.apache.avro.Protocol.getMD5()" />
+<item name="org.apache.avro.ipc.Requestor.writeHandshake(Encoder)" />
+<item name="org.apache.avro.ipc.Requestor.writeRequest(Schema, Object, Encoder)" />
+<item name="org.apache.avro.util.ByteBufferOutputStream.append(List)" />
+<item name="org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.BinaryEncoder.writeZero()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.write(Schema, Object, Encoder)" />
+<item name="org.apache.avro.ipc.RPCContext.setHandshakeRequest(HandshakeRequest)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.Protocol.toString()" />
+<item name="org.apache.avro.ipc.Transceiver.getRemoteName()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)" />
+<item name="org.apache.avro.util.ByteBufferOutputStream.reset()" />
+<item name="org.apache.avro.ipc.RPCPlugin.clientStartConnect(RPCContext)" />
+<item name="org.apache.avro.ipc.Transceiver.readBuffers()" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.ipc.RPCContext.requestHandshakeMeta()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.Protocol.toString(boolean)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.error(Schema, Object)" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.io.Encoder.writeFloat(float)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.npe(NullPointerException, String)" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeString(Schema, Object, Encoder)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeBytes(Object, Encoder)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeArray(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeMap(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeEnum(Schema, Object, Encoder)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeRecord(Schema, Object, Encoder)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeFixed(Schema, Object, Encoder)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.avro.generic.GenericDatumWriter.getArraySize(Object)" />
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int, Object)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.getArrayElements(Object)" />
+<item name="org.apache.avro.Protocol.toJson(JsonGenerator)" />
+<item name="org.apache.avro.io.Encoder.writeBytes(ByteBuffer)" />
+<item name="org.apache.avro.generic.GenericData.getRecordState(Object, Schema)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.getMapEntries(Object)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.getMapSize(Object)" />
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.UnresolvedUnionException.UnresolvedUnionException(Schema, Object)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.generic.GenericData.getEnumSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.io.Encoder.writeString(CharSequence)" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.Schema.Names.contains(Schema)" />
+<item name="org.apache.avro.Schema.Names.space(String)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.generic.GenericData.getFixedSchema(Object)" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.Schema.Props.write(JsonGenerator)" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+</group>
+<group name="Layer-12">
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-13">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-14">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+</group>
+</group>
+</cluster>

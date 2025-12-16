@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.contentstream.PDFStreamEngine.transformedPoint(float, float)
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.moveTo(float, float)
+org.apache.pdfbox.contentstream.operator.graphics.MoveTo.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)

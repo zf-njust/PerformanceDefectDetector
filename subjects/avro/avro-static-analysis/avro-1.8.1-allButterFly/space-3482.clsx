@@ -1,0 +1,103 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.Schema.parse(JsonNode, Names)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.Schema.parseAliases(JsonNode)" />
+<item name="org.apache.avro.Schema.Field.Order.valueOf()" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+<item name="org.apache.avro.Schema.getRequiredText(JsonNode, String, String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+<item name="org.apache.avro.Schema.Names.space()" />
+<item name="org.apache.avro.Schema.addAlias(String)" />
+<item name="org.apache.avro.Schema.LockableArrayList.add(E)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.Names.space(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(E...)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Schema.Names.add(Schema)" />
+<item name="org.apache.avro.LogicalTypes.fromSchemaIgnoreInvalid(Schema)" />
+<item name="org.apache.avro.Schema.getOptionalText(JsonNode, String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.LockableArrayList.ensureUnlocked()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.LogicalTypes.fromSchemaImpl(Schema, boolean)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.Schema.Names.put(Name, Schema)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.LogicalType.validate(Schema)" />
+<item name="org.apache.avro.LogicalTypes.Decimal.Decimal(Schema)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.Name.toString()" />
+<item name="org.apache.avro.Schema.isValidDefault(Schema, JsonNode)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.LogicalTypes.Decimal.hasProperty(Schema, String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.LogicalTypes.Decimal.getInt(Schema, String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.LogicalType.LogicalType(String)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.getObjectProp(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.avro.Schema.equals(Object)" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.avro.Schema.equalCachedHash(Schema)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

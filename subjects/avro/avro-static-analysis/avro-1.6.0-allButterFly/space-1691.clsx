@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericRecord.get(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.specific.SpecificResponder.respond(Message, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.Schema.getProp(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

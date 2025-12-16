@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.file.DataFileWriter.writeBlock()
+org.apache.avro.io.Encoder.writeFixed(byte[])
+org.apache.avro.file.Codec.compress(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)
+org.apache.avro.file.DeflateCodec.decompress(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.file.DeflateCodec.compress(ByteBuffer)

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.put(Artifact, File, String, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.put(File, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.getName()" />
+</group>
+</group>
+</group>
+</cluster>

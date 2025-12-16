@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)
+org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema, ReflectData)
+org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)
+org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.ipc.reflect.ReflectRequestor.getClient(Class, ReflectRequestor)
+org.apache.avro.ipc.reflect.ReflectRequestor.getReflectData()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.generic.GenericData.getClassLoader()
+org.apache.avro.ipc.specific.SpecificRequestor.getSpecificData()
+org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)
+org.apache.avro.ipc.reflect.ReflectRequestor.getDatumReader(Schema, Schema)
+org.apache.avro.ipc.reflect.ReflectRequestor.getDatumWriter(Schema)
+org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)

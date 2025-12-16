@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.trevni.avro.AvroColumnator.simpleValueType(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.trevni.avro.AvroColumnator.columnize(String, Schema, ColumnMetaData, boolean)" />
+<item name="org.apache.trevni.avro.AvroColumnator.addArrayColumn(String, Schema, ColumnMetaData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.trevni.avro.AvroColumnator.p(String, Schema, String)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.trevni.avro.AvroColumnator.p(String, String, String)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.trevni.avro.AvroColumnator.addColumn(String, ValueType, ColumnMetaData, boolean)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.trevni.avro.AvroColumnator.isSimple(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.getType()" />
+</group>
+</group>
+</group>
+</cluster>

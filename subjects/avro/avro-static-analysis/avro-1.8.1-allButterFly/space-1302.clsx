@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getReflectData()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getClient(Class, ReflectRequestor)" />
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.ipc.reflect.ReflectRequestor.getDatumWriter(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema, ReflectData)" />
+<item name="org.apache.avro.generic.GenericData.getClassLoader()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(GenericData)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getSpecificData()" />
+</group>
+</group>
+</group>
+</cluster>

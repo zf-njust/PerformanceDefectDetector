@@ -1,0 +1,42 @@
+[Call]
+20
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.plugins.resolver.BasicResolver.filterNames(Collection)
+org.apache.ivy.plugins.resolver.FileSystemResolver.filterNames(Collection)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.resolver.AbstractResolver.getName()
+org.apache.ivy.plugins.resolver.FileSystemResolver.checkSupportTransaction()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.resolver.FileSystemResolver.supportTransaction()
+org.apache.ivy.plugins.resolver.ResolverSettings.filterIgnore(Collection)
+org.apache.ivy.plugins.resolver.FileSystemResolver.unsupportedTransaction(String)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getArtifactPatterns()
+org.apache.ivy.core.IvyContext.peekIvy()

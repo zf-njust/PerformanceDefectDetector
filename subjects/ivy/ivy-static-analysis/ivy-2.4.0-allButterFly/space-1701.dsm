@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 1 0 1 0 0 
+0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompare()
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareValue()
+org.apache.ivy.osgi.filter.CompareFilter.CompareFilter(String, Operator, String)
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.readNext()
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.parseCompareOperator()
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.isOperator(char)
+org.apache.ivy.osgi.filter.OSGiFilterParser.Parser.unread()

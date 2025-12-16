@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.download(URL, File, CopyProgressListener)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getHandler(String)" />
+<item name="org.apache.ivy.util.url.URLHandler.download(URL, File, CopyProgressListener)" />
+</group>
+</group>
+</group>
+</cluster>

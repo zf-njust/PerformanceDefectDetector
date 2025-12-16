@@ -1,0 +1,86 @@
+Release Notes -- Apache PDFBox -- Version 1.8.10
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.10 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-1453] - NPE saving modified encrypted document
+[PDFBOX-1642] - NPE when parsing XMP schema definition with "closed Choice" value type
+[PDFBOX-2501] - Page render without barcode
+[PDFBOX-2730] - PDFSplit slow and keeps unused pages
+[PDFBOX-2733] - Nullpointer exception in PDFXrefStreamParser.parse
+[PDFBOX-2734] - Can't create PDF with DeviceN colorspace
+[PDFBOX-2737] - PDF not converted to Image
+[PDFBOX-2741] - IndexOutOfBoundsException when calling PDSeparation.setAlternateColorSpace
+[PDFBOX-2742] - PDFSplit ignores global resources
+[PDFBOX-2743] - Can't create PDF with PDIndexed colorspace
+[PDFBOX-2745] - PDPageXYZDestination zoom property can't be set lower than 100%
+[PDFBOX-2767] - ClassCastException in PDDocument.addSignature
+[PDFBOX-2769] - NPE when saving encrypted file
+[PDFBOX-2772] - EI token lost for rewrite
+[PDFBOX-2773] - ClassCastException in PDDocumentCatalog.java:339
+[PDFBOX-2778] - PDF to Image conversion fails with "Invalid code word encountered"
+[PDFBOX-2781] - Opening pdf document after encrypting it with PDFBox throws IllegalBlockSizeException
+[PDFBOX-2786] - PDPageDestination page index off by one
+[PDFBOX-2788] - Seemingly good document gets semi-corrupted
+[PDFBOX-2792] - Text extraction ignores bookmarks
+[PDFBOX-2793] - /Dests dictionary isn't supported
+[PDFBOX-2797] - PDJavascriptNameTreeNode does not support dictionaries
+[PDFBOX-2799] - PDOptionalContentProperties.setGroupEnabled not working
+[PDFBOX-2801] - SecurityHandler does not tolerate plain-text COSString
+[PDFBOX-2811] - Infinite loop within RandomAccessBuffer
+[PDFBOX-2812] - NPE in PDColorSpaceFactory.createColorSpace with PDICCBased
+[PDFBOX-2819] - invalid ICC Profile when reading from a byte array
+[PDFBOX-2823] - StringIndexOutOfBoundsException when doing DateConverter.parseDate()
+[PDFBOX-2837] - PDFBox creates files with EBCDIC code on z/OS
+[PDFBOX-2847] - mergeDocumentsNonSeq does not utilize scratchFile
+[PDFBOX-2853] - CCITT: Background is rendered as transparent color
+[PDFBOX-2867] - Correct use of Float.NaN
+
+Improvement
+
+[PDFBOX-2744] - Add validation check for setNonStrokingColor and setStrokingColor
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/

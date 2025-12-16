@@ -1,0 +1,12 @@
+[Call]
+5
+0 1 0 0 0 
+0 0 0 1 1 
+1 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.mapred.SequenceFileRecordReader.SequenceFileRecordReader(JobConf, FileSplit)
+org.apache.avro.mapred.AvroRecordReader.AvroRecordReader(FileReader, FileSplit)
+org.apache.avro.mapred.SequenceFileInputFormat.getRecordReader(InputSplit, JobConf, Reporter)
+org.apache.avro.file.FileReader.sync(long)
+org.apache.avro.file.FileReader.tell()

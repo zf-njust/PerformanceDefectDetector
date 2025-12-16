@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withValueSchema(Schema)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.mapreduce.AvroSequenceFileInputFormat.AvroSequenceFileRecordReader.initialize(InputSplit, TaskAttemptContext)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withConfiguration(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withInputPath(Path)
+org.apache.avro.mapreduce.AvroJob.getInputKeySchema(Configuration)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withKeySchema(Schema)
+org.apache.avro.mapreduce.AvroJob.getInputValueSchema(Configuration)
+org.apache.avro.Schema.parse(String)
+org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withFileSystem(FileSystem)

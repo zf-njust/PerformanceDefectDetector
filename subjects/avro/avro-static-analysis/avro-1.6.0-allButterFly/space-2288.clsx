@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.GenerateBlockingData.main(String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.GenerateBlockingData.writeBlock(Encoder, FileOutputStream)" />
+<item name="org.apache.avro.io.DatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.RandomData.RandomData(Schema, int)" />
+<item name="org.apache.avro.Schema.parse(File)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.RandomData.RandomData(Schema, int, long)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.Schema.Parser.parse(File)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)" />
+<item name="org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 1 0 1 0 0 0 0 
+0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 
+org.apache.ivy.plugins.resolver.ChainResolver.commitPublishTransaction()
+org.apache.ivy.plugins.resolver.ChainResolver.publish(Artifact, File, boolean)
+org.apache.ivy.plugins.resolver.DependencyResolver.commitPublishTransaction()
+org.apache.ivy.plugins.resolver.ChainResolver.abortPublishTransaction()
+org.apache.ivy.plugins.resolver.ChainResolver.getFirstResolver()
+org.apache.ivy.plugins.resolver.DependencyResolver.publish(Artifact, File, boolean)
+org.apache.ivy.plugins.resolver.DependencyResolver.abortPublishTransaction()
+org.apache.ivy.plugins.resolver.DependencyResolver.beginPublishTransaction(ModuleRevisionId, boolean)
+org.apache.ivy.plugins.resolver.ChainResolver.beginPublishTransaction(ModuleRevisionId, boolean)

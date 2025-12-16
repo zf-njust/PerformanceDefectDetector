@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 1 0 0 0 0 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.ResolvingDecoder.readDouble()
+org.apache.avro.io.Decoder.readLong()
+org.apache.avro.Schema.Field.pos()
+org.apache.avro.io.Decoder.readFloat()
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.ResolvingDecoder.readFieldOrder()
+org.apache.avro.io.ValidatingDecoder.readString(Utf8)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.io.Decoder.readInt()
+org.apache.avro.io.Perf.RecordWithDefault.readInternal(Decoder)
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.Decoder.readDouble()
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.io.Decoder.readString(Utf8)
+org.apache.avro.io.ValidatingDecoder.readInt()

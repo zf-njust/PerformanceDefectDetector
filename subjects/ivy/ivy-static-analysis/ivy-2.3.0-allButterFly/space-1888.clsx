@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseOr()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseMultiOperator(MultiOperatorFilter)" />
+<item name="org.apache.ivy.osgi.obr.filter.OrFilter.OrFilter()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.getSubFilters()" />
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.MultiOperatorFilter()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.readNext()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.unread()" />
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.add(RequirementFilter)" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseFilter()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.skipWhiteSpace()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseAnd()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompare()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseNot()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.obr.filter.CompareFilter.CompareFilter(String, Operator, String)" />
+<item name="org.apache.ivy.osgi.obr.filter.AndFilter.AndFilter()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareValue()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareOperator()" />
+<item name="org.apache.ivy.osgi.obr.filter.NotFilter.NotFilter(RequirementFilter)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.isOperator(char)" />
+<item name="org.apache.ivy.osgi.obr.filter.UniOperatorFilter.UniOperatorFilter(RequirementFilter)" />
+</group>
+</group>
+</group>
+</cluster>

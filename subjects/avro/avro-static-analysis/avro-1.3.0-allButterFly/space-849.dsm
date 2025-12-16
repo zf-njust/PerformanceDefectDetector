@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 1 1 0 0 1 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.getName()
+org.apache.avro.reflect.ReflectData.getClass(Schema)
+org.apache.avro.Schema.getElementType()
+org.apache.avro.io.Encoder.writeString(Utf8)
+org.apache.avro.specific.SpecificData.getClassName(Schema)
+org.apache.avro.Schema.getTypes()
+org.apache.avro.reflect.ReflectDatumWriter.writeString(Object, Encoder)
+org.apache.avro.io.Decoder.readInt()
+org.apache.avro.Schema.getFullName()
+org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)
+org.apache.avro.Schema.getType()
+org.apache.avro.Schema.getProp(String)
+org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)
+org.apache.avro.util.Utf8.Utf8(String)
+org.apache.avro.reflect.ReflectDatumWriter.writeString(Schema, Object, Encoder)
+org.apache.avro.specific.SpecificData.getClass(Schema)
+org.apache.avro.Schema.getNamespace()

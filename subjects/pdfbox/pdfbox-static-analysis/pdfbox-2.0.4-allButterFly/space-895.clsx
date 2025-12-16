@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeString(String, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeLine(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.text.PDFTextStripper.WordWithTextPositions.getText()" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.WordWithTextPositions.getTextPositions()" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeWordSeparator()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.text.PDFTextStripper.getWordSeparator()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.text.PDFTextStripper.writeString(String)" />
+</group>
+</group>
+</group>
+</cluster>

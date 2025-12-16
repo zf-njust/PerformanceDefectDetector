@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.CustomEncoding.read(Decoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.FieldAccessUnsafe.UnsafeCustomEncodedField.read(Object, Decoder)" />
+<item name="org.apache.avro.reflect.FieldAccessReflect.ReflectionBasesAccessorCustomEncoded.read(Object, Decoder)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.CustomEncoding.read(Object, Decoder)" />
+</group>
+</group>
+</group>
+</cluster>

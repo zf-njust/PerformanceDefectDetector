@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+1 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.PDTilingPattern(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern(COSDictionary)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.PDShadingPattern(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.create(COSDictionary)
+org.apache.pdfbox.cos.COSObject.getObject()

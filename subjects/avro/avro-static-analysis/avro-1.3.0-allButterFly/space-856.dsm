@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 1 0 0 
+org.apache.avro.io.Encoder.writeBytes(byte[], int, int)
+org.apache.avro.io.Encoder.writeBytes(byte[])
+org.apache.avro.reflect.ReflectDatumWriter.writeBytes(Object, Encoder)
+org.apache.avro.io.JsonEncoder.writeBytes(ByteBuffer)

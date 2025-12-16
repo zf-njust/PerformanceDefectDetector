@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.COSStandardOutputStream(OutputStream, long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.COSWriter(OutputStream, RandomAccessRead)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setOutput(OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setStandardOutput(COSStandardOutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

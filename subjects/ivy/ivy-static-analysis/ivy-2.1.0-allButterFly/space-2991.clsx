@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.AbstractIncludeExcludeRule.AbstractIncludeExcludeRule(ArtifactId, PatternMatcher, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultIncludeRule.DefaultIncludeRule(ArtifactId, PatternMatcher, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultExcludeRule.DefaultExcludeRule(ArtifactId, PatternMatcher, Map)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.AbstractIncludeExcludeRule.initStandardAttributes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+</group>
+</group>
+</group>
+</cluster>

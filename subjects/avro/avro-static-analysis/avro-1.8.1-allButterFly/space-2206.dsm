@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.Conversion.toCharSequence(T, Schema, LogicalType)
+org.apache.avro.Conversion.toMap(T, Schema, LogicalType)
+org.apache.avro.Conversion.toArray(T, Schema, LogicalType)
+org.apache.avro.Conversion.getConvertedType()
+org.apache.avro.Conversion.toLong(T, Schema, LogicalType)
+org.apache.avro.Schema.getType()
+org.apache.avro.Conversion.toInt(T, Schema, LogicalType)
+org.apache.avro.Conversion.toBoolean(T, Schema, LogicalType)
+org.apache.avro.Conversion.toFloat(T, Schema, LogicalType)
+org.apache.avro.generic.GenericDatumWriter.convert(Schema, LogicalType, Conversion, Object)
+org.apache.avro.Conversion.toDouble(T, Schema, LogicalType)
+org.apache.avro.LogicalType.getName()
+org.apache.avro.Conversion.toRecord(T, Schema, LogicalType)
+org.apache.avro.Conversion.toBytes(T, Schema, LogicalType)
+org.apache.avro.Conversion.toEnumSymbol(T, Schema, LogicalType)
+org.apache.avro.Conversion.toFixed(T, Schema, LogicalType)

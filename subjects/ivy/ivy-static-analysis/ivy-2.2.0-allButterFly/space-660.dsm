@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 1 0 0 1 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL)
+org.apache.ivy.core.settings.XmlSettingsParser.parse(Configurator, URL)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.settings.IvySettings.validate()
+org.apache.ivy.core.settings.Validatable.validate()
+org.apache.ivy.core.settings.XmlSettingsParser.parse(URL)
+org.apache.ivy.util.url.URLHandlerRegistry.getDefault()
+org.apache.ivy.util.url.URLHandler.openStream(URL)
+org.apache.ivy.core.settings.IvySettings.validateAll(Collection)
+org.apache.ivy.core.settings.IvySettings.getTypeDefs()
+org.apache.ivy.util.Configurator.typeDef(String, Class)
+org.apache.ivy.util.Configurator.setFileResolver(FileResolver)

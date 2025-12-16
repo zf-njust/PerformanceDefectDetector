@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 1 
+1 1 0 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.avro.util.Utf8.getByteLength()
+org.apache.avro.io.LegacyBinaryEncoder.encodeString(byte[], int, int)
+org.apache.avro.io.LegacyBinaryEncoder.writeString(Utf8)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)

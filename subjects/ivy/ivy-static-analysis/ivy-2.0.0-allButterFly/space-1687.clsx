@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.collateInheritedItems(ModuleDescriptor, InheritableItem[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedItems(ModuleDescriptor, InheritableItem[], ItemPrinter, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ItemPrinter.print(ModuleDescriptor, Object, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getIndent()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritanceComment(String, Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.fillIndents(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.InheritableItem.getSourceModule()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.tool.BinaryFragmentToJsonTool.run(InputStream, PrintStream, PrintStream, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+<item name="org.apache.avro.io.DecoderFactory.createBinaryDecoder(InputStream, BinaryDecoder)" />
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.io.JsonEncoder.JsonEncoder(Schema, JsonGenerator)" />
+<item name="org.apache.avro.io.DecoderFactory.defaultFactory()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DirectBinaryDecoder.DirectBinaryDecoder(InputStream)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(int, InputStream)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.io.BinaryDecoder.init(int, InputStream)" />
+<item name="org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.init(InputStream)" />
+<item name="org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+<item name="org.apache.avro.io.parsing.Symbol.root(Symbol...)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder()" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.io.BinaryDecoder.InputStreamByteSource.InputStreamByteSource(InputStream)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.ReuseByteReader(ByteBufferInputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+<item name="org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+</group>
+</cluster>

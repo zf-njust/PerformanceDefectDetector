@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 
+org.apache.avro.mapred.AvroMapper.map(IN, AvroCollector, Reporter)
+org.apache.avro.Schema.getName()
+org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)
+org.apache.avro.mapred.Pair.Pair(Schema)
+org.apache.avro.mapred.AvroReducer.reduce(K, Iterable, AvroCollector, Reporter)
+org.apache.avro.mapred.AvroCollector.collect(T)
+org.apache.avro.mapred.Pair.set(K, V)
+org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)
+org.apache.avro.Schema.getFullName()

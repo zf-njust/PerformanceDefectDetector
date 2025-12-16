@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.action.UriAction.UriAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.action.ActionManagerFactory.createActionManager(PreflightContext, COSDictionary, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.action.UndefAction.UndefAction(ActionManagerFactory, COSDictionary, PreflightContext, String, String)" />
+<item name="org.apache.pdfbox.preflight.action.SubmitAction.SubmitAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.ThreadAction.ThreadAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.GoToAction.GoToAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.GoToRemoteAction.GoToRemoteAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.preflight.action.NamedAction.NamedAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.preflight.action.HideAction.HideAction(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.preflight.action.InvalidAction.InvalidAction(ActionManagerFactory, COSDictionary, PreflightContext, String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.action.AbstractActionManager.AbstractActionManager(ActionManagerFactory, COSDictionary, PreflightContext, String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.font.container.TrueTypeContainer.TrueTypeContainer(PDFont)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.TrueTypeFontValidator.TrueTypeFontValidator(PreflightContext, PDFont)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.SimpleFontValidator.SimpleFontValidator(PreflightContext, PDFont, T)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.FontValidator.FontValidator(PreflightContext, PDFont, T)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addFontContainer(COSBase, FontContainer)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.FontContainer(PDFont)" />
+</group>
+</group>
+</group>
+</cluster>

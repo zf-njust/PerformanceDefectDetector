@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 1 0 0 1 0 0 0 
+1 1 0 0 1 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.pdfbox.tools.imageio.TIFFUtil.createRationalField(int, String, int, int)
+org.apache.pdfbox.tools.imageio.TIFFUtil.createAsciiField(int, String, String)
+org.apache.pdfbox.tools.imageio.ImageIOUtil.setDPI(IIOMetadata, int, String)
+org.apache.pdfbox.tools.imageio.TIFFUtil.setCompressionType(ImageWriteParam, BufferedImage)
+org.apache.pdfbox.tools.imageio.TIFFUtil.createLongField(int, String, long)
+org.apache.pdfbox.tools.imageio.ImageIOUtil.writeImage(BufferedImage, String, OutputStream, int, float)
+org.apache.pdfbox.tools.imageio.TIFFUtil.updateMetadata(IIOMetadata, BufferedImage, int)
+org.apache.pdfbox.tools.imageio.MetaUtil.debugLogMetadata(IIOMetadata, String)
+org.apache.pdfbox.tools.imageio.TIFFUtil.createShortField(int, String, int)
+org.apache.pdfbox.tools.imageio.JPEGUtil.updateMetadata(IIOMetadata, int)
+org.apache.pdfbox.tools.imageio.ImageIOUtil.getOrCreateChildNode(IIOMetadataNode, String)
+org.apache.pdfbox.tools.imageio.ImageIOUtil.writeImage(BufferedImage, String, OutputStream, int)
+org.apache.pdfbox.tools.imageio.ImageIOUtil.writeImage(BufferedImage, String, OutputStream)

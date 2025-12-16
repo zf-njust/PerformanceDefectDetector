@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 1 1 1 1 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getKey()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)
+org.apache.pdfbox.cos.COSObjectKey.getGeneration()
+org.apache.pdfbox.pdfwriter.COSWriter.getXRefEntries()
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.isFree()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF()
+org.apache.pdfbox.pdfwriter.COSWriter.addXRefEntry(COSWriterXRefEntry)
+org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()
+org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry)
+org.apache.pdfbox.pdfwriter.COSWriter.writeXrefRange(long, long)
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteXRefTable()
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getNullEntry()
+org.apache.pdfbox.pdfwriter.COSWriter.setStartxref(long)
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()
+org.apache.pdfbox.cos.COSObjectKey.getNumber()
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getOffset()
+org.apache.pdfbox.pdfwriter.COSWriter.getXRefRanges(List)

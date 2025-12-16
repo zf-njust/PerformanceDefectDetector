@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.filter.UniOperatorFilter.getSubFilter()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.extractFilter(OSGiFilter)" />
+<item name="org.apache.ivy.osgi.filter.NotFilter.eval(Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.filter.OSGiFilter.eval(Map)" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.parseCompareFilter(CompareFilter, boolean)" />
+<item name="org.apache.ivy.osgi.filter.MultiOperatorFilter.getSubFilters()" />
+<item name="org.apache.ivy.osgi.obr.xml.UnsupportedFilterException.UnsupportedFilterException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.filter.CompareFilter.getOperator()" />
+<item name="org.apache.ivy.osgi.filter.CompareFilter.getRightValue()" />
+<item name="org.apache.ivy.osgi.filter.CompareFilter.getLeftValue()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

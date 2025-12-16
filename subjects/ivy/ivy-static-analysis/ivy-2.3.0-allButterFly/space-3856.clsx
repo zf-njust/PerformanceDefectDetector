@@ -1,0 +1,49 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.setDownloader(String, URLHandler)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyAntSettings.configureURLHandler()" />
+<item name="org.apache.ivy.Main.configureURLHandler(String, String, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyAntSettings.getUsername()" />
+<item name="org.apache.ivy.ant.IvyAntSettings.getRealm()" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getHttp()" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.setDefault(URLHandler)" />
+<item name="org.apache.ivy.util.url.CredentialsStore.addCredentials(String, String, String, String)" />
+<item name="org.apache.ivy.ant.IvyAntSettings.getHost()" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.URLHandlerDispatcher()" />
+<item name="org.apache.ivy.ant.IvyAntSettings.getPasswd()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Credentials.toString()" />
+<item name="org.apache.ivy.util.Credentials.Credentials(String, String, String, String)" />
+<item name="org.apache.ivy.util.Credentials.getKey()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Credentials.buildKey(String, String)" />
+<item name="org.apache.ivy.util.Credentials.getUserName()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.Credentials.getPasswdAsStars()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

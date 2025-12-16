@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.FileReader.pastSync(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroRecordReader.next(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.mapred.AvroAsTextRecordReader.next(Text, Text)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroWrapper.datum(T)" />
+<item name="org.apache.avro.file.FileReader.next(D)" />
+<item name="org.apache.avro.mapred.AvroWrapper.datum()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

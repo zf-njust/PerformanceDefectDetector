@@ -1,0 +1,58 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.HttpClientHandler.getLastModified(HttpMethodBase)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.HttpClientHandler.getURLInfo(URL, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.HttpClientHandler.doGet(URL, int)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.doHead(URL, int)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.getResponseContentLength(HttpMethodBase)" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.URLInfo(boolean, long, long, String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.checkStatusCode(URL, HttpMethodBase)" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getRequestMethod()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.url.HttpClientHandler.getHttpClientHelper()" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.HttpClientHelper.getResponseContentLength(HttpMethodBase)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useAuthentication(URL)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.getClient()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.url.AbstractURLHandler.normalizeToString(URL)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxyAuthentication()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getUserAgent()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.HttpClientHelper3x.HttpClientHelper3x()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.url.CredentialsStore.hasCredentials(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.HttpClientHelper2x.HttpClientHelper2x()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.createCredentials(String, String)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxy()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

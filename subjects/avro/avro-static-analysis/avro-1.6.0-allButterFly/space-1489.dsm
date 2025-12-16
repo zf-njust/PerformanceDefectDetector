@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+org.apache.avro.ipc.stats.Histogram.getRecentAdditions()
+org.apache.avro.Protocol.Message.getName()
+org.apache.avro.ipc.stats.FloatHistogram.getMean()
+org.apache.avro.ipc.stats.IntegerHistogram.getUnbiasedStdDev()
+org.apache.avro.ipc.stats.Histogram.getHistogram()
+org.apache.avro.ipc.stats.StatsServlet.escapeStringArray(List)
+org.apache.avro.ipc.stats.StatsServlet.RenderableMessage.RenderableMessage(String)
+org.apache.avro.ipc.stats.Histogram.getSegmenter()
+org.apache.avro.ipc.stats.Histogram.Segmenter.getBoundaryLabels()
+org.apache.avro.ipc.stats.StatsServlet.renderMethod(Message)
+org.apache.avro.ipc.stats.StatsServlet.writeStats(Writer)
+org.apache.avro.ipc.stats.StatsServlet.formatMillis(float)
+org.apache.avro.ipc.stats.IntegerHistogram.getMean()
+org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()
+org.apache.avro.ipc.stats.StatsServlet.renderActiveRpc(RPCContext, Stopwatch)
+org.apache.avro.ipc.stats.Histogram.Segmenter.getBucketLabels()
+org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)
+org.apache.avro.ipc.stats.Histogram.getCount()
+org.apache.avro.ipc.RPCContext.getMessage()
+org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()
+org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()

@@ -1,0 +1,28 @@
+[Call]
+13
+0 1 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 1 0 0 
+0 0 1 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.plugins.resolver.util.ResolvedResource.getResource()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.osgi.updatesite.UpdateSiteResolver.init.(Anon_1).startArtifactDownload(RepositoryCacheManager, ResolvedResource, Artifact, ArtifactOrigin)
+org.apache.ivy.util.Message.info(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.repository.Resource.getName()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.MessageLogger.info(String)
+org.apache.ivy.core.IvyContext.peekIvy()

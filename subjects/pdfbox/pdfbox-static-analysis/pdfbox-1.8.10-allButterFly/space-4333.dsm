@@ -1,0 +1,26 @@
+[Call]
+12
+0 1 1 0 0 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.decodeLine()
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CodeWord.getType()
+org.apache.pdfbox.io.ccitt.PackedBitArray.clear()
+org.apache.pdfbox.io.ccitt.PackedBitArray.getBitCount()
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.getNextCodeWord(CCITTFaxG31DDecodeInputStream)
+org.apache.pdfbox.io.ccitt.PackedBitArray.clearBits(int, int)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CodeWord.execute(CCITTFaxG31DDecodeInputStream)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.LookupTreeNode.getNextCodeWord(CCITTFaxG31DDecodeInputStream)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.readBit()
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.get(int)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.readByte()
+org.apache.pdfbox.io.ccitt.PackedBitArray.byteOffset(int)

@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.text.PDFMarkedContentExtractor.PDFMarkedContentExtractor(String)
+org.apache.pdfbox.examples.util.PrintTextColors.PrintTextColors()
+org.apache.pdfbox.preflight.content.PreflightStreamEngine.PreflightStreamEngine(PreflightContext, PDPage)
+org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.GlyphList(GlyphList, InputStream)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.preflight.content.StubOperator.StubOperator(String)
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.PDFGraphicsStreamEngine(PDPage)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()
+org.apache.pdfbox.pdmodel.font.encoding.GlyphList.loadList(InputStream)
+org.apache.pdfbox.text.PDFTextStreamEngine.PDFTextStreamEngine()
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.examples.util.PrintImageLocations.PrintImageLocations()
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

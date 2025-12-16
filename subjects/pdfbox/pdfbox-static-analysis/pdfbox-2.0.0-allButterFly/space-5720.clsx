@@ -1,0 +1,79 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.ShadedTriangle(Point2D[], float[][])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getShadedTriangles(CoordinateColorPair[][])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Type5ShadingContext.collectTriangles(PDShadingType5, AffineTransform, Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Type4ShadingContext.collectTriangles(PDShadingType4, AffineTransform, Matrix)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShading.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.readVertex(ImageInputStream, long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType5.getVerticesPerRow()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeForParameter(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.overlaps(Point2D, Point2D)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.interpolate(float, long, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.util.Matrix.transformPoint(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.getDecodeValues()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Vertex.Vertex(Point2D, float[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.Line(Point, Point, float[], float[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.overlaps(Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.calcDeg(Point2D[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.getArea(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.edgeEquationValue(Point2D, Point2D, Point2D)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.calcLine(int, int, int, int)" />
+</group>
+</group>
+</group>
+</cluster>

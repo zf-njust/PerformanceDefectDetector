@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataRC4(byte[], byte[], OutputStream)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte[], OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.setKey(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.fixByte(byte)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

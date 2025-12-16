@@ -1,0 +1,52 @@
+[Call]
+25
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 0 0 1 1 1 0 0 1 0 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getPubdate()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.UpdaterHandler(URL, PrintWriter, UpdateOptions)
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getResolvedBranches()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getNamespace()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getResolvedRevisions()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getSettings()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.isReplaceInclude()
+org.apache.ivy.plugins.repository.file.FileResource.getFile()
+org.apache.ivy.plugins.repository.url.URLResource.getURL()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getRevision()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getConfsToExclude()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.getStatus()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.update(URL, InputStream, OutputStream, UpdateOptions)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.plugins.parser.xml.UpdateOptions.isGenerateRevConstraint()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.update(InputStream, Resource, File, UpdateOptions)

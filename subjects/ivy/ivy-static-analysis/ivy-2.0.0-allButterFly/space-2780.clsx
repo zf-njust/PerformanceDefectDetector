@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.url.ChainedRepository.logFailed(Repository)" />
+<item name="org.apache.ivy.plugins.repository.url.ChainedRepository.logTry(Repository)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.toString()" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.toString()" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.put(File, String, boolean)" />
+<item name="org.apache.ivy.plugins.repository.url.ChainedRepository.newIOEFail(String)" />
+<item name="org.apache.ivy.plugins.repository.url.ChainedRepository.logSuccess(Repository)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getUsername()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.plugins.repository.Repository.getName()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getAuthentication()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getHost()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

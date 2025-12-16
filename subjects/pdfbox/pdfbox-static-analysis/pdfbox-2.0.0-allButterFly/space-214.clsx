@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readlong(char, RandomAccess)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.extractFromTiff(RandomAccess, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readshort(char, RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+</group>
+</group>
+</group>
+</cluster>

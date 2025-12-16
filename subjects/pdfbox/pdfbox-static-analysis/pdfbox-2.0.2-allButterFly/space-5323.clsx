@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getX509()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientsField(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getPermissionBytesForPublicKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getRecipientsIterator()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.createDERForRecipient(byte[], X509Certificate)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getNumberOfRecipients()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientInfo(X509Certificate, byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

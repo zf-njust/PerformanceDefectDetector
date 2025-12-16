@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.buildUpTerminating(short[], NonLeafLookupTreeNode, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.buildLookupTree()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUpLong(short[], NonLeafLookupTreeNode)" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUp(short[], NonLeafLookupTreeNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.MakeUpTreeNode.MakeUpTreeNode(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.RunLengthTreeNode.RunLengthTreeNode(int, int)" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.addLookupTreeNode(short, NonLeafLookupTreeNode, LookupTreeNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.get(int)" />
+<item name="org.apache.pdfbox.filter.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.set(int, LookupTreeNode)" />
+</group>
+</group>
+</group>
+</cluster>

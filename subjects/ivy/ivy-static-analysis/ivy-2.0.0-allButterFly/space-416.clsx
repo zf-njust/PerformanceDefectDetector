@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.VfsResolver.prepareForDisplay(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.toString()" />
+<item name="org.apache.ivy.plugins.resolver.VfsResolver.hidePassword(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.getName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsResource.normalize(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

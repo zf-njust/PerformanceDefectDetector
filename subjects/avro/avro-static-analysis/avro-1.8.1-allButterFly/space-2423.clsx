@@ -1,0 +1,51 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ResolvingDecoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.io.BinaryDecoder.readString(Utf8)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.writeString(Utf8)" />
+<item name="org.apache.avro.io.BinaryEncoder.writeString(Utf8)" />
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.util.Utf8.setByteLength(int)" />
+<item name="org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)" />
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+<item name="org.apache.avro.io.Decoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<item name="org.apache.avro.util.Utf8.getByteLength()" />
+<item name="org.apache.avro.io.BinaryDecoder.readInt()" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeString(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryEncoder.writeZero()" />
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.io.LegacyBinaryEncoder.encodeLong(long, OutputStream)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

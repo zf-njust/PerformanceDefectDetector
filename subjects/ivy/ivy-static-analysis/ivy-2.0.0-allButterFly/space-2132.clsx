@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2CompositeParser.getChildLocations()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readComposite(URI, String, P2Descriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.populateP2Descriptor(URI, P2Descriptor)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.readJarOrXml(URI, String, XMLInputParser)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)" />
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.P2ArtifactParser(P2Descriptor, String)" />
+<item name="org.apache.ivy.osgi.p2.XMLInputParser.parse(InputStream)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.findEntry(InputStream, String)" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.P2MetadataParser(P2Descriptor)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

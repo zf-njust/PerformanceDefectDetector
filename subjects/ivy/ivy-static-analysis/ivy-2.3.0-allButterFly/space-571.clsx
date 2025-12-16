@@ -1,0 +1,59 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.outputCallers(ConfigurationResolveReport, PrintWriter, IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact, Stack)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesExclude(ModuleDescriptor, String, String[], DependencyDescriptor, Artifact, Stack)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleDescriptor()" />
+<item name="org.apache.ivy.plugins.report.XmlReportWriter.toString(String[])" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getAskedDependencyId(ResolveData)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

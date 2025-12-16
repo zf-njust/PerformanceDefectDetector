@@ -1,0 +1,46 @@
+[Call]
+22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.overlaps(Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.overlaps(Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideDD(Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.calcLevel()
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.getShadedTriangles(CoordinateColorPair[][])
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideCC(Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.reshapeControlPoints(Point2D[])
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.isEdgeALine(Point2D[])
+org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.edgeEquationValue(Point2D, Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getPatchCoordinatesColor()
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getTriangles()
+org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.getArea(Point2D, Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.Line.calcLine(int, int, int, int)
+org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.calcDeg(Point2D[])
+org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.ShadedTriangle(Point2D[], float[][])
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.TensorPatch(Point2D[], float[][])
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.Patch(Point2D[], float[][])
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.getLen(Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.CoordinateColorPair.CoordinateColorPair(Point2D, float[])
+org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.getBernsteinPolynomials(int)
+org.apache.pdfbox.pdmodel.graphics.shading.Patch.edgeEquationValue(Point2D, Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.shading.Line.Line(Point, Point, float[], float[])

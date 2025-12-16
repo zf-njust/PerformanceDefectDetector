@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 
+org.apache.ivy.core.module.descriptor.Artifact.getExt()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printPublications(ModuleDescriptor, PrintWriter)
+org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)
+org.apache.ivy.core.module.descriptor.Artifact.getType()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()
+org.apache.ivy.util.XMLHelper.escape(String)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllArtifacts()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getArtifacts(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)
+org.apache.ivy.core.module.descriptor.Artifact.getName()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.getConfs(ModuleDescriptor, Artifact)

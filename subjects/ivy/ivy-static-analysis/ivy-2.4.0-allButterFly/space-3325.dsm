@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.ivy.core.pack.StreamPacking.unpack(InputStream, File)
+org.apache.ivy.core.settings.IvySettings.getPackingRegistry()
+org.apache.ivy.core.pack.PackingRegistry.get(String)
+org.apache.ivy.core.pack.PackagingManager.unpackArtifact(Artifact, File, File)
+org.apache.ivy.util.FileUtil.copy(InputStream, File, CopyProgressListener)
+org.apache.ivy.util.extendable.ExtendableItem.getExtraAttribute(String)
+org.apache.ivy.core.pack.ArchivePacking.unpack(InputStream, File)
+org.apache.ivy.core.pack.StreamPacking.unpack(InputStream)

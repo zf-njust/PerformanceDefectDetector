@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.stats.StatsServlet.formatMillis(float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.stats.StatsServlet.writeActiveRpc(Writer, RPCContext, Stopwatch)" />
+<item name="org.apache.avro.ipc.stats.StatsServlet.writeMethod(Writer, Message, FloatHistogram)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.stats.Histogram.entries()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getMean()" />
+<item name="org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.ipc.stats.Histogram.getCount()" />
+<item name="org.apache.avro.ipc.stats.FloatHistogram.getUnbiasedStdDev()" />
+<item name="org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()" />
+<item name="org.apache.avro.ipc.RPCContext.getMessage()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

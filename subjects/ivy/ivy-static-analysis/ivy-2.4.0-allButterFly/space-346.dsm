@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.core.module.id.MatcherLookup.key(Map)
+org.apache.ivy.plugins.matcher.MapMatcher.getAttributes()
+org.apache.ivy.core.module.id.MatcherLookup.add(MapMatcher)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)
+org.apache.ivy.core.module.id.MatcherLookup.get(Map)
+org.apache.ivy.plugins.matcher.MapMatcher.getPatternMatcher()

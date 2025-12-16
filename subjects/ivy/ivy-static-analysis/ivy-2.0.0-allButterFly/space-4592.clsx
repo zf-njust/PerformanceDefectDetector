@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.replaceProps(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getParentVersion()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getVersion()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getVersion()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomPluginElement.getVersion()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getScope()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getArtifactId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyData.getType()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getParentArtifactId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyData.getScope()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getParentGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomPluginElement.getGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getArtifactId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomPluginElement.getArtifactId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyData.getClassifier()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildText(Element, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getTextContent(Element)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

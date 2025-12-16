@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="avro.examples.baseball.Player.Builder.setLastName(java.lang.CharSequence)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.data.RecordBuilderBase.fieldSetFlags()" />
+<item name="org.apache.avro.data.RecordBuilderBase.fields()" />
+<item name="org.apache.avro.data.RecordBuilderBase.validate(Field, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.data.RecordBuilderBase.isValidValue(Field, Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+</group>
+</cluster>

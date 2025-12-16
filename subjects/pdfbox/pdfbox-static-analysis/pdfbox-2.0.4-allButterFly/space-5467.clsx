@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.operator.text.SetWordSpacing.process(Operator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.setWordSpacing(float)" />
+</group>
+</group>
+</group>
+</cluster>

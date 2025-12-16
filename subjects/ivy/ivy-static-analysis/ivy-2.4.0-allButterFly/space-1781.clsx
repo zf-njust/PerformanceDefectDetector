@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.addConfiguredTtl(Map)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.parseDuration(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getMatcher(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.addTTL(Map, PatternMatcher, long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.MapMatcher(Map, PatternMatcher)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getGroupIntValue(java.util.regex.Matcher, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+<item name="org.apache.ivy.core.module.id.MatcherLookup.add(MapMatcher)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.getAttributes()" />
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.getPatternMatcher()" />
+<item name="org.apache.ivy.core.module.id.MatcherLookup.key(Map)" />
+</group>
+</group>
+</group>
+</cluster>

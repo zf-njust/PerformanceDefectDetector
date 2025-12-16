@@ -1,0 +1,150 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getTTL(ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getResolvedRevision(ModuleRevisionId, CacheMetadataOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.lockMetadataArtifact(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.core.cache.CacheDownloadOptions.isForce()" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getCachedDataFile(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.saveResolvedRevision(ModuleRevisionId, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.unlockMetadataArtifact(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArchiveFileInCache(Artifact, ArtifactOrigin)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultMetadataArtifact(ModuleRevisionId)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getRepositoryCacheRoot()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDataFilePattern()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.lock.LockStrategy.lockArtifact(Artifact, File)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getLockStrategy()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultMetadataArtifactOrigin(ModuleRevisionId)" />
+<item name="org.apache.ivy.util.PropertiesFile.PropertiesFile(File, String)" />
+<item name="org.apache.ivy.plugins.lock.LockStrategy.unlockArtifact(Artifact, File)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.PropertiesFile.save()" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArchivePathInCache(Artifact, ArtifactOrigin)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.ArtifactOrigin(Artifact, boolean, String)" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.isLocal()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.newIvyArtifact(ModuleRevisionId, Date)" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.isUnknown(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultLockStrategy()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, boolean)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getBasedir()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getIvyFileInCache(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getLocation()" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getLockStrategy(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, ArtifactOrigin)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.plugins.lock.NoLockStrategy.NoLockStrategy()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getIvyPattern()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact)" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultRepositoryCacheBasedir()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArtifactPattern()" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.isOriginalMetadataArtifact(Artifact)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCacheIvyPattern()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.plugins.lock.AbstractLockStrategy.setName(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCache()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCacheArtifactPattern()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.isMetadata()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getExtraAttributes()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getDefaultTTL()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.parseDuration(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleRevisionId, Filter)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getGroupIntValue(java.util.regex.Matcher, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)" />
+<item name="org.apache.ivy.util.filter.Filter.accept(Object)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.matcher.Matcher.matches(String)" />
+</group>
+</group>
+</group>
+</cluster>

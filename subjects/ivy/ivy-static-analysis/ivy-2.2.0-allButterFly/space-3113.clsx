@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.filterCapabilityValues(Set, Map, Map, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.findNames(Map, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.repo.RepoDescriptor.findModule(String, String)" />
+<item name="org.apache.ivy.osgi.repo.RepoDescriptor.getModuleByCapbilities()" />
+<item name="org.apache.ivy.osgi.repo.BundleCapabilityAndLocation.getBundleInfo()" />
+<item name="org.apache.ivy.osgi.util.Version.equals(Object)" />
+<item name="org.apache.ivy.osgi.core.BundleInfoAdapter.getConfigurations(BundleInfo)" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.getRepoDescriptor()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+<item name="org.apache.ivy.osgi.repo.BundleCapabilityAndLocation.getVersion()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.core.BundleInfo.getExports()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getName()" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.ensureInit()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.core.BundleCapability.getType()" />
+<item name="org.apache.ivy.osgi.repo.AbstractOSGiResolver.init()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.ArtifactInfo.getRevision()" />
+</group>
+</group>
+</group>
+</cluster>

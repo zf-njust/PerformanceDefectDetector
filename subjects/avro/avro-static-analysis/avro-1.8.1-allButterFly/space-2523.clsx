@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

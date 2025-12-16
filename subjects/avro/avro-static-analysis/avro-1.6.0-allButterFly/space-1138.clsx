@@ -1,0 +1,96 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileWriter.close()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.WordCountUtil.writeLinesBytesFile()" />
+<item name="org.apache.avro.ipc.trace.FileSpanStorage.DiskWriterThread.assureCurrentWriter()" />
+<item name="org.apache.avro.mapred.AvroOutputFormat.getRecordWriter.(Anon_1).close(Reporter)" />
+<item name="org.apache.avro.mapred.WordCountUtil.writeLinesFile()" />
+<item name="org.apache.avro.tool.FromTextTool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.RandomData.main(String[])" />
+<item name="org.apache.avro.mapred.AvroTextOutputFormat.AvroTextRecordWriter.close(Reporter)" />
+<item name="org.apache.avro.tool.DataFileWriteTool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.mapred.tether.TetherOutputFormat.getRecordWriter.(Anon_1).close(Reporter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.FileSpanStorage.floorSecond(long)" />
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.tool.DataFileWriteTool.readSchemaFromFile(String)" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.RandomData.RandomData(Schema, int)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+<item name="org.apache.avro.file.DataFileWriter.append(D)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+<item name="org.apache.avro.tool.Util.fileOrStdin(String, InputStream)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.file.DataFileWriter.create(Schema, File)" />
+<item name="org.apache.avro.tool.Util.fileOrStdout(String, OutputStream)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.parse(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.DataFileWriter.resetBufferTo(int)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.Parser.parse(File)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.RandomData.RandomData(Schema, int, long)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.file.DataFileWriter.writeIfBlockFull()" />
+<item name="org.apache.avro.file.DataFileWriter.bufferInUse()" />
+<item name="org.apache.avro.file.DataFileWriter.AppendWriteException.AppendWriteException(Exception)" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryEncoder.bytesBuffered()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.flush()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileWriter.sync()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.tell()" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+</group>
+</group>
+</group>
+</cluster>

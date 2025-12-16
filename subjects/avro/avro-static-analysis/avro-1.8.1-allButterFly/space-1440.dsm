@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 1 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+org.apache.avro.io.JsonDecoder.error(String)
+org.apache.avro.io.parsing.Parser.popSymbol()
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.JsonDecoder.advance(Symbol)
+org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()
+org.apache.avro.io.JsonDecoder.readIndex()
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.parsing.Parser.depth()
+org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)
+org.apache.avro.io.parsing.Symbol.Alternative.findLabel(String)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.io.parsing.Symbol.Alternative.getSymbol(int)
+org.apache.avro.AvroTypeException.AvroTypeException(String)

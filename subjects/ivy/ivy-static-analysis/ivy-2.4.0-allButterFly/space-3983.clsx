@@ -1,0 +1,36 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getEventType()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.bind.(Anon_1).transferProgress(TransferEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.progress()" />
+<item name="org.apache.ivy.core.LogOptions.getLog()" />
+<item name="org.apache.ivy.core.IvyContext.getResolveData()" />
+<item name="org.apache.ivy.util.Message.endProgress(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getOptions()" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getTotalLength()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.util.MessageLogger.endProgress(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.util.MessageLogger.progress()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getExcludeRules(String[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParserTester.assertDependencyModulesExcludes(DependencyDescriptor, String[], String[])" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParserTester.assertDependencyArtifactExcludeRules(DependencyDescriptor, String[], String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

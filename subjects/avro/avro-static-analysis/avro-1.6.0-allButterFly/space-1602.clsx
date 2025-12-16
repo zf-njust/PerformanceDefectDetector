@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceNode.TraceNode(Span, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.Trace.getNode(Span, HashMap, HashMap)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.Util.longValue(ID)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

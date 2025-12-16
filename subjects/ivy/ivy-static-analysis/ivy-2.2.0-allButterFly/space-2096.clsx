@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.setIvypattern(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.ensureIvyConfigured(ResolverSettings)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeIvyPattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeIvyPattern()" />
+</group>
+</group>
+</group>
+</cluster>

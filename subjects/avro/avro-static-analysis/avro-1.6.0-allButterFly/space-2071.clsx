@@ -1,0 +1,54 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.Pair.getKeySchema(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroSerialization.getDeserializer(Class)" />
+<item name="org.apache.avro.mapred.AvroSerialization.getSerializer(Class)" />
+<item name="org.apache.avro.mapred.AvroKeyComparator.setConf(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.AvroWrapperDeserializer(DatumReader, boolean)" />
+<item name="org.apache.avro.mapred.Pair.getValueSchema(Schema)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.AvroWrapperSerializer(DatumWriter)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema, ReflectData)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+</group>
+</cluster>

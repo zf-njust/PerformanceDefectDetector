@@ -1,0 +1,76 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.setName(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setRubyAlign(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setInlineAlign(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setRubyPosition(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setLineHeightAuto()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setTextDecorationType(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject.setListNumbering(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject.setCheckedState(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setWritingMode(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setAllBorderStyles(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setGlyphOrientationVertical(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject.setRole(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject.setListNumbering(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setPlacement(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setHeightAuto()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject.setScope(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setBlockAlign(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setTextAlign(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setAllTBorderStyles(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setWidthAuto()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.setLineHeightNormal()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.setScope(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.potentiallyNotifyChanged(COSBase, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(String, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.notifyChanged()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.isValueChanged(COSBase, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.attributeChanged(PDAttributeObject)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.getStructureElement()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getRevisionNumber()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

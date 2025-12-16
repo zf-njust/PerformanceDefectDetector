@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+1 0 0 0 1 
+1 0 0 0 1 
+1 0 0 0 0 
+0 0 0 0 0 
+org.apache.ivy.plugins.matcher.Matcher.isExact()
+org.apache.ivy.plugins.matcher.MatcherHelper.isExact(PatternMatcher, String)
+org.apache.ivy.core.search.SearchEngine.addMatcher(PatternMatcher, String, Map, String)
+org.apache.ivy.plugins.matcher.ExactOrRegexpPatternMatcher.ExactOrRegexpMatcher.isExact()
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)

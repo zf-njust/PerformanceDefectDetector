@@ -1,0 +1,110 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.unionAdjustAction(int, Symbol)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(Schema, Schema, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.seq(Symbol...)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.resolveRecords(Schema, Schema, Map)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.mkEnumAdjust(List, List)" />
+<item name="org.apache.avro.io.parsing.Symbol.error(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.resolve(Symbol, Symbol)" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.bestBranch(Schema, Schema, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.intCheckAction(int)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.resolveUnion(Schema, Schema, Map)" />
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.generate(Schema, Map)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.parsing.Symbol.repeat(Symbol, Symbol...)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.LitS.LitS(Schema)" />
+<item name="org.apache.avro.io.parsing.Symbol.fieldOrderAction(Schema.Field[])" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.getBinary(Schema, JsonNode)" />
+<item name="org.apache.avro.io.parsing.Symbol.alt(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.hasMatchError(Symbol)" />
+<item name="org.apache.avro.io.parsing.Symbol.ResolvingAction.ResolvingAction(Symbol, Symbol)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.io.parsing.Symbol.defaultStartAction(byte[])" />
+<item name="org.apache.avro.io.parsing.Symbol.IntCheckAction.IntCheckAction(int)" />
+<item name="org.apache.avro.io.parsing.Symbol.writerUnionAction()" />
+<item name="org.apache.avro.io.parsing.Symbol.ErrorAction.ErrorAction(String)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.Sequence(Symbol[])" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.io.parsing.Symbol.skipAction(Symbol)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.io.parsing.Symbol.enumAdjustAction(int, Object[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.Repeater(Symbol, Symbol...)" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.LitS2.LitS2(Schema, Schema)" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.Symbol.WriterUnionAction.WriterUnionAction()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.encode(Encoder, Schema, JsonNode)" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.DefaultStartAction.DefaultStartAction(byte[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+<item name="org.apache.avro.io.parsing.Symbol.Repeater.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.EnumAdjustAction.EnumAdjustAction(int, Object[])" />
+<item name="org.apache.avro.io.parsing.Symbol.FieldOrderAction.FieldOrderAction(Schema.Field[])" />
+<item name="org.apache.avro.io.parsing.Symbol.SkipAction.SkipAction(Symbol)" />
+<item name="org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.Encoder.writeMapStart()" />
+<item name="org.apache.avro.io.Encoder.writeEnum(int)" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)" />
+<item name="org.apache.avro.io.Encoder.writeFloat(float)" />
+<item name="org.apache.avro.io.Encoder.writeNull()" />
+<item name="org.apache.avro.io.Encoder.writeIndex(int)" />
+<item name="org.apache.avro.io.Encoder.writeMapEnd()" />
+<item name="org.apache.avro.io.Encoder.writeArrayStart()" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.io.parsing.Symbol.ImplicitAction.ImplicitAction(boolean)" />
+<item name="org.apache.avro.io.Encoder.setItemCount(long)" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.io.Encoder.writeArrayEnd()" />
+<item name="org.apache.avro.io.Encoder.writeBoolean(boolean)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)" />
+<item name="org.apache.avro.io.Encoder.writeString(String)" />
+<item name="org.apache.avro.io.Encoder.startItem()" />
+<item name="org.apache.avro.io.Encoder.writeInt(int)" />
+<item name="org.apache.avro.io.Encoder.writeDouble(double)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.util.Utf8.getBytesFor(String)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.toUtf8(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.UnionAdjustAction.UnionAdjustAction(int, Symbol)" />
+</group>
+</group>
+</group>
+</cluster>

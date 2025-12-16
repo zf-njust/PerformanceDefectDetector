@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="avro.examples.baseball.Player.readExternal(java.io.ObjectInput)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.specific.SpecificData.getDecoder(ObjectInput)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.io.DecoderFactory.directBinaryDecoder(InputStream, BinaryDecoder)" />
+<item name="org.apache.avro.specific.ExternalizableInput.ExternalizableInput(ObjectInput)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DirectBinaryDecoder.DirectBinaryDecoder(InputStream)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.configure(InputStream)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder()" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.ReuseByteReader(ByteBufferInputStream)" />
+</group>
+</group>
+</group>
+</cluster>

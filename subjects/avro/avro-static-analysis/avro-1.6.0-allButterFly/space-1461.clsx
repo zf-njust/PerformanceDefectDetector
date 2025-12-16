@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.ResponderServlet.ResponderServlet(Responder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, int)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, Connector)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, String, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, Connector)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, String, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

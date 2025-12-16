@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyMakePom.Mapping.getScope()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyMakePom.getMappingsMap()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyTask.splitConfs(String)" />
+<item name="org.apache.ivy.ant.IvyMakePom.Mapping.getConf()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

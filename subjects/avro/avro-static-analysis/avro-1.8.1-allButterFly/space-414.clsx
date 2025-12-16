@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroOutputFormat.configureDataFileWriter(DataFileWriter, JobConf)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroOutputFormat.getRecordWriter(FileSystem, JobConf, String, Progressable)" />
+<item name="org.apache.avro.mapred.AvroTextOutputFormat.getRecordWriter(FileSystem, JobConf, String, Progressable)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.createDataModel(Configuration)" />
+<item name="org.apache.avro.generic.GenericData.createDatumWriter(Schema)" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter()" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.mapred.AvroTextOutputFormat.AvroTextRecordWriter.AvroTextRecordWriter(DataFileWriter, byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(ReflectData)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.mapred.AvroJob.getDataModelClass(Configuration)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.mapred.AvroJob.newDataModelInstance(Class, Configuration)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(SpecificData)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroOutputFormat.getCodecFactory(JobConf)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.file.DataFileWriter.setSyncInterval(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.getAvroCodecName(String)" />
+<item name="org.apache.avro.file.CodecFactory.xzCodec(int)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.fromHadoopString(String)" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

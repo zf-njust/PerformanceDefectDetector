@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.COSParser.isString(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.COSParser.validateStreamLength(long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessRead.peek()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.rewind(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

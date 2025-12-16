@@ -1,0 +1,141 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.getChildren()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.validateField(PreflightContext, PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree.FieldIterator.enqueueKids(PDField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.exportFDF()" />
+<item name="org.apache.pdfbox.examples.interactive.form.PrintFields.processField(PDField, String, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.importFDF(FDFField)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.setValue(COSBase)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getActions()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.FDFField()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.setPartialFieldName(String)" />
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.exploreWidgets(PreflightContext, List)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.exportFDF()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getPartialName()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getPartialFieldName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getValueAsString()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.setKids(List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.importFDF(FDFField)" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationError(PreflightContext, ValidationError)" />
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.exploreFields(PreflightContext, List)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.getWidgets()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getKids()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.setFieldFlags(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getSetFieldFlags()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getClearFieldFlags()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getFieldFlags()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.FDFField(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions.PDFormFieldAdditionalActions(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(PreflightContext, Object, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getFieldFlags()" />
+<item name="org.apache.pdfbox.pdmodel.fdf.FDFField.getCOSValue()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getConfig()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pushObject(Object)" />
+<item name="org.apache.pdfbox.preflight.utils.ContextHelper.hasRecursion(PreflightContext, Object, PreflightPath)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.process.ValidationProcess.validate(PreflightContext)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.pop()" />
+<item name="org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String)" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.getBytes(String)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.containsChar(char)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.size()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getAcroForm()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.fromDictionary(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createButtonSubType(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.findFieldType(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createChoiceSubType(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTextField.PDTextField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.PDSignatureField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.PDNonTerminalField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioButton.PDRadioButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDComboBox.PDComboBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.PDTerminalField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDCheckBox.PDCheckBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDListBox.PDListBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDPushButton.PDPushButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoice.PDChoice(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDButton.PDButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+</group>
+</group>
+</group>
+</cluster>

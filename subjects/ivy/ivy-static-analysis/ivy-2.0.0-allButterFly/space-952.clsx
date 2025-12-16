@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.ExtendsDescriptor.getResolvedParentRevisionId()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.startExtends(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.isMerge()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getMergedDescriptor()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.write(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.substitute(ParserSettings, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

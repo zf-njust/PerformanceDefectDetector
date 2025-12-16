@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()
+org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)
+org.apache.avro.ipc.Requestor.Request.Request(String, Object, RPCContext, BinaryEncoder)
+org.apache.avro.util.ByteBufferOutputStream.ByteBufferOutputStream()
+org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)
+org.apache.avro.ipc.Requestor.Request.Request(String, Object, RPCContext)
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)
+org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)
+org.apache.avro.util.ByteBufferOutputStream.reset()

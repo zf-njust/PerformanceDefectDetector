@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.ByteArrayPushBackInputStream.ByteArrayPushBackInputStream(byte[])" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.init(File, RandomAccess, String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(InputStream, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.setDocument(COSDocument)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.setEOFLookupRange(int)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

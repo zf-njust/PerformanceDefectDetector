@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificCompiler.enqueue(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificCompiler.SpecificCompiler(Protocol)" />
+<item name="org.apache.avro.specific.SpecificCompiler.SpecificCompiler(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Protocol.getTypes()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

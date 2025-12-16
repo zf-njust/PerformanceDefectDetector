@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ValidateAll.ValidateAll(SchemaValidationStrategy)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaValidatorBuilder.validateAll()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaValidatorBuilder.valid()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

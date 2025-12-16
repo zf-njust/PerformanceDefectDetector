@@ -1,0 +1,63 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.NameContext.namespace(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.RecordBuilder.fields()" />
+<item name="org.apache.avro.SchemaBuilder.builder(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.doc()" />
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext()" />
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.TypeBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.completeSchema(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.space()" />
+<item name="org.apache.avro.SchemaBuilder.FieldAssembler.FieldAssembler(Completion, NameContext, Schema)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.name()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.context()" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.names()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.BaseTypeBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.addAliasesTo(Schema)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.put(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+<item name="org.apache.avro.Schema.addAlias(String)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext(HashMap, String)" />
+</group>
+</group>
+</group>
+</cluster>

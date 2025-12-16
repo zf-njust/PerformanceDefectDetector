@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.id.ModuleRevisionId.toString()
+org.apache.ivy.core.resolve.IvyNode.getAllRealCallers()
+org.apache.ivy.core.resolve.RestartResolveProcess.RestartResolveProcess(String)
+org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(IvyNode, IvyNode)
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.isRealCaller()
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.core.module.id.ModuleId.toString()
+org.apache.ivy.core.resolve.ResolveProcessException.ResolveProcessException(String)
+org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(String)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNode.toString()
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.resolve.IvyNodeCallers.getAllRealCallers()
+org.apache.ivy.core.resolve.IvyNode.getResolvedId()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

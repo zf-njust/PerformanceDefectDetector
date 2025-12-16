@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendCOSName(COSName)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.beginMarkedContentSequence(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.beginMarkedContentSequence(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int)" />
+<item name="org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.PDCryptFilterDictionary()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.prepareEncryptionDictAES(PDEncryption, COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setStreamFilterName(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setStringFilterName(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setStdCryptFilterDictionary(PDCryptFilterDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.setLength(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.setCryptFilterMethod(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setAES(boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setCryptFilterDictionary(COSName, PDCryptFilterDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.getCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+</group>
+</group>
+</group>
+</cluster>

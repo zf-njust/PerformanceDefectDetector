@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.Concatenate.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.util.Matrix.setValue(int, int, float)" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentTransformationMatrix(Matrix)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.reset()" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+</group>
+</group>
+</group>
+</cluster>

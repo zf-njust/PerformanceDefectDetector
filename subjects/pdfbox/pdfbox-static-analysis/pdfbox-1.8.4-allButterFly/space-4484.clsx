@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.PDFXrefStreamParser.parse()" />
+<item name="org.apache.pdfbox.pdfparser.VisualSignatureParser.skipToNextObj()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.skipToNextObj()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSArray.iterator()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.isEOF()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

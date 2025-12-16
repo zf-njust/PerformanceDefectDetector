@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalTypes.Decimal.maxPrecision(Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.LogicalTypes.Decimal.validate(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.LogicalType.validate(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

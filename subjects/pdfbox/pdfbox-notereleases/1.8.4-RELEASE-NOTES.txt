@@ -1,0 +1,89 @@
+Release Notes -- Apache PDFBox -- Version 1.8.3
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.3 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug Fixes
+
+[PDFBOX-161] - java.util.EmptyStackException from PDFTextStripper.writeText
+[PDFBOX-940] - [pdmodel.font.PDFont] Error: Could not parse predefined CMAP file for
+               'PDFXC-Indentity0-0'
+[PDFBOX-1302] - Got ArrayIndexOutOfBoundsException in parsing a Chinese ttf file.
+[PDFBOX-1541] - expected='endstream' actual='' failure to parse
+[PDFBOX-1585] - org.apache.pdfbox.util.PDFTextStripper.getText() causes thread to block
+                indefinitely
+[PDFBOX-1625] - java.lang.IndexOutOfBoundsException at writing PDF file
+[PDFBOX-1668] - Loading a Russian PDF never finishes
+[PDFBOX-1679] - java.io.IOException: Error: Expected an integer type, actual='f'
+[PDFBOX-1725] - Character rendered at wrong position
+[PDFBOX-1733] - Rectangles have one rounded edge in rendered image only
+[PDFBOX-1763] - Exception caused by "Invalid ICC Profile Data"
+[PDFBOX-1770] - ExtractText gets all "?" when pdf 's font is instance of PDType1Font
+[PDFBOX-1777] - memory leak in org.apache.pdfbox.cos.COSDocument
+[PDFBOX-1789] - NullPointerException at PDPageContentStream.setFont
+[PDFBOX-1794] - Rendering Problem with Type 3 Fonts
+[PDFBOX-1796] - Infiniteloop BaseParser.java:1010
+[PDFBOX-1799] - NullPointerException when constructing a PDJPeg using a BufferedImage
+[PDFBOX-1802] - COSDictionary in COSArray setDirect(true) but dic written indirect
+[PDFBOX-1804] - PDFTextStripper Issue related to word positions not correctly being parsed
+[PDFBOX-1808] - PDFTextStripper.getText - hight memory usage
+[PDFBOX-1810] - PDFToImage: Image of pdf is resized and drawn multiple times at top of 
+                output image
+[PDFBOX-1812] - Illegal characters in XML output
+[PDFBOX-1818] - Push back buffer is full error
+[PDFBOX-1829] - PDF Extract Image Pixelmap Issue
+[PDFBOX-1830] - Grey background rectangle rendered at different position
+[PDFBOX-1861] - Line is incorrectly dashed
+[PDFBOX-1862] - Incomplete signature creation (regression in 1.8.3 with PDFBOX-1780)
+
+Improvement
+
+[PDFBOX-1685] - Verify interpretation of rdf:about for PDF/A
+[PDFBOX-1707] - Add dispose() when done with graphics
+[PDFBOX-1769] - Fix crash on invalid xref
+[PDFBOX-1815] - Suggestion: close files in COSStream
+[PDFBOX-1820] - Suggestion: close streams in PDIndex and PDJpeg
+[PDFBOX-1839] - PDFImageWriter default BufferedImage type makes output colors look poor
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/

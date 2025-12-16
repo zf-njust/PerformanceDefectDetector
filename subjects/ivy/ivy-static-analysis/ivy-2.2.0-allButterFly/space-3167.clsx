@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.LazyResource.checkInit()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.LazyResource.getContentLength()" />
+<item name="org.apache.ivy.plugins.repository.LazyResource.getLastModified()" />
+<item name="org.apache.ivy.plugins.repository.LazyResource.exists()" />
+<item name="org.apache.ivy.plugins.repository.LazyResource.isLocal()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.LazyResource.init()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,14 @@
+[Call]
+6
+0 1 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 1 
+0 0 0 0 0 0 
+1 1 0 1 0 1 
+0 0 0 0 0 0 
+org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.plugins.conflict.FixedConflictManager.resolveConflicts(IvyNode, Collection)
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.resolve.IvyNode.getResolvedId()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryEncoder.ReuseByteWriter.ReuseByteWriter(ByteBufferOutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryEncoder.BinaryEncoder(OutputStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BinaryEncoder.SimpleByteWriter.SimpleByteWriter(OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

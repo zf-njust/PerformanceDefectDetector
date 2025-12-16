@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfoContentByTagName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDefaultScope(PomDependencyData)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDefaultVersion(PomDependencyData)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getGroupId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomDependencyMgtElement.getArtifactId()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.newInstance(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptor.getDependencyManagementMap()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getVersion()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForVersion(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForScope(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getScope()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildText(Element, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.replaceProps(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.intern(ModuleId)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getTextContent(Element)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfoByTagName(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ExtraInfoHolder.getContent()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ExtraInfoHolder.getName()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+</group>
+</group>
+</group>
+</cluster>

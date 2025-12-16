@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 1 0 0 0 1 1 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 1 0 1 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.stats.Histogram.Segmenter.size()
+org.apache.avro.ipc.stats.StatsPlugin.serverSendResponse(RPCContext)
+org.apache.avro.ipc.stats.StatsPlugin.createNewIntegerHistogram()
+org.apache.avro.ipc.stats.IntegerHistogram.IntegerHistogram(Segmenter)
+org.apache.avro.ipc.stats.StatsPlugin.publish(RPCContext, Stopwatch)
+org.apache.avro.ipc.stats.StatsPlugin.createNewFloatHistogram()
+org.apache.avro.ipc.stats.Histogram.Histogram(Segmenter)
+org.apache.avro.ipc.RPCContext.getResponsePayload()
+org.apache.avro.ipc.stats.FloatHistogram.FloatHistogram(Segmenter)
+org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()
+org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)
+org.apache.avro.ipc.RPCContext.getMessage()
+org.apache.avro.ipc.stats.Stopwatch.stop()
+org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()
+org.apache.avro.ipc.stats.StatsPlugin.getPayloadSize(List)

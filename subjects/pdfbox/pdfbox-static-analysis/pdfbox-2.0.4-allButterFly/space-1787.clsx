@@ -1,0 +1,138 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getCOSObject()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.PDShadingPattern()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.setMatrix(AffineTransform)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getXStep()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setYStep(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setTilingType(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getPaintType()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getBBox()" />
+<item name="org.apache.pdfbox.preflight.process.reflect.TilingPatternValidationProcess.checkMandatoryFields(PreflightContext, PDPage, PDTilingPattern)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getYStep()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getTilingType()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.setExtendedGraphicsState(PDExtendedGraphicsState)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.getShading()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setPaintType(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getContents()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setResources(PDResources)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.getExtendedGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.PDTilingPattern()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getContentStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.setXStep(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPattern.setShading(PDShading)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setFloat(COSName, float)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.PDAbstractPattern()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShading.create(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType3.PDShadingType3(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(ScratchFile)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType1.PDShadingType1(COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType5.PDShadingType5(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType7.PDShadingType7(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2.PDShadingType2(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType6.PDShadingType6(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType4.PDShadingType4(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShading.PDShading(COSDictionary)" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType.PDTriangleBasedShadingType(COSDictionary)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

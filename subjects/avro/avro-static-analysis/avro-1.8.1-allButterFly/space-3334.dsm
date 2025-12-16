@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+org.apache.avro.hadoop.io.AvroSerialization.setKeyReaderSchema(Configuration, Schema)
+org.apache.avro.Schema.getName()
+org.apache.avro.mapreduce.AvroJob.setOutputKeySchema(Job, Schema)
+org.apache.avro.hadoop.io.AvroSerialization.setKeyWriterSchema(Configuration, Schema)
+org.apache.avro.mapreduce.AvroMultipleOutputs.getNamedOutputFormatClass(JobContext, String)
+org.apache.avro.mapreduce.AvroMultipleOutputs.getContext(String)
+org.apache.avro.mapreduce.AvroMultipleOutputs.getRecordWriter(TaskAttemptContext, String)
+org.apache.avro.mapreduce.AvroMultipleOutputs.setSchema(Job, Schema, Schema)
+org.apache.avro.JsonProperties.writeProps(JsonGenerator)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.mapreduce.AvroMultipleOutputs.checkBaseOutputPath(String)
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.mapreduce.AvroJob.setMapOutputKeySchema(Job, Schema)
+org.apache.avro.mapreduce.AvroMultipleOutputs.RecordWriterWithCounter.RecordWriterWithCounter(RecordWriter, String, TaskInputOutputContext)
+org.apache.avro.hadoop.io.AvroSerialization.addToConfiguration(Configuration)
+org.apache.avro.mapreduce.AvroMultipleOutputs.getTaskAttemptContextClass()
+org.apache.avro.mapreduce.AvroJob.setMapOutputValueSchema(Job, Schema)
+org.apache.avro.Schema.toString()
+org.apache.avro.mapreduce.AvroJob.setOutputValueSchema(Job, Schema)
+org.apache.avro.mapreduce.AvroMultipleOutputs.write(Object, Object, Schema, Schema, String)
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.mapreduce.AvroMultipleOutputs.createTaskAttemptContext(Configuration, TaskAttemptID)
+org.apache.avro.hadoop.io.AvroSerialization.setValueReaderSchema(Configuration, Schema)
+org.apache.avro.hadoop.io.AvroSerialization.setValueWriterSchema(Configuration, Schema)

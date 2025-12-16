@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.setBufferingChar(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceLicenseHandler.ResourceLicenseHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDocumentationHandler.ResourceDocumentationHandler()" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.FilterHandler.FilterHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDescriptionHandler.ResourceDescriptionHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSizeHandler.ResourceSizeHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.DescriptionHandler.DescriptionHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.CopyrightHandler.CopyrightHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.DescriptionHandler.DescriptionHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.LicenseHandler.LicenseHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateMethodName(Schema, Field, String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateHasMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateSetBuilderMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateSetMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateHasBuilderMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateGetBuilderMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateClearMethod(Schema, Field)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.generateGetMethod(Schema, Field)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set, boolean)" />
+<item name="org.apache.avro.Schema.isError()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

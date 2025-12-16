@@ -1,0 +1,94 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientStringAt(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.prepareDocumentForEncryption(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.prepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDocument.setEncryptionDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setDecryptMetadata(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setRecipients(byte[][])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setSubFilter(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setCurrentAccessPermission(AccessPermission)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.PDEncryption()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setReadOnly()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setVersion(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getLength()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setFilter(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientsField(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getSHA1()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getEncryption()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.removeV45filters()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getPrivateKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.isEncryptMetaData()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getCertificate()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setLength(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.setEncryptionDictionary(PDEncryption)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.appendCertInfo(StringBuilder, KeyTransRecipientId, X509Certificate, X509CertificateHolder)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientsLength()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getPermission()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient.getX509()" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getRecipientsIterator()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getPermissionBytesForPublicKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.createDERForRecipient(byte[], X509Certificate)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.PDEncryption(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy.getNumberOfRecipients()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory.newSecurityHandlerForFilter(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getFilter()" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.setValue(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.computeRecipientInfo(X509Certificate, byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory.newSecurityHandler(Class, Class[], Object[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

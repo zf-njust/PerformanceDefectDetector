@@ -1,0 +1,110 @@
+Release Notes -- Apache PDFBox -- Version 1.8.7
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.6 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-91] - Problem with Form TextField and option "COMB"
+[PDFBOX-710] - XMPSchema.java:392 and XMPSchema.java:570 Possible null pointer 
+               dereference of bagElement
+[PDFBOX-1268] - OutOfMemory Error because of huge colors
+[PDFBOX-1511] - pdfMerger App produces Garbage
+[PDFBOX-1533] - When merging certain PDF's several odd looking empty pages occur 
+                in the result
+[PDFBOX-1872] - PDMetadata.exportXMPMetadata fails when Metadata has encrypted stream
+[PDFBOX-1875] - Image and some text missing in rendered file
+[PDFBOX-1940] - Faulty pdf->image rendering
+[PDFBOX-2020] - PDF/A Validation raises NullPointerException for PDFs without 
+                ImageColorSpace
+[PDFBOX-2141] - Shading not applied to text
+[PDFBOX-2153] - Setting the correct clipping path for shading
+[PDFBOX-2154] - NPE while rendering files with type3 fonts
+[PDFBOX-2156] - different shading patterns at different resolutions when ctm is null
+[PDFBOX-2160] - PDFTextStripper doesn't always write paragraph start
+[PDFBOX-2163] - inline image with EI in the middle incorrectly parsed
+[PDFBOX-2166] - AIOOBE with barcode ttf font
+[PDFBOX-2183] - COSArray cannot be cast to COSNumber
+[PDFBOX-2185] - Rotation and skew not applied on rectangles
+[PDFBOX-2186] - java.io.IOException: Catalog cannot be found
+[PDFBOX-2187] - ArrayIndexOutOfBoundsException in TIFFFaxDecoder
+[PDFBOX-2194] - Refactor predictor
+[PDFBOX-2198] - ClassCastException in COSArrayList.convertIntegerCOSArrayToList for
+                font widths
+[PDFBOX-2201] - getKeywords returns null although keywords are present
+[PDFBOX-2207] - Stream parsing still incorrect if length value is wrong
+[PDFBOX-2212] - OutOfMemoryError in GlyfCompositeDescrip
+[PDFBOX-2218] - PDFCheckbox NPE
+[PDFBOX-2222] - NPE in PDFStreamEngine
+[PDFBOX-2225] - ClassCastException in PDFMergerUtility.appendDocument
+[PDFBOX-2228] - LZW EarlyChange parameter isn't supported
+[PDFBOX-2234] - [PATCH] Invalid Color space preflight error on Java 8
+[PDFBOX-2237] - java.io.IOException: Image stream is empty for inline image
+[PDFBOX-2243] - java.lang.IllegalArgumentException: negative dash phase
+[PDFBOX-2247] - Regression in text extraction between 1.8.5 and 1.8.6
+[PDFBOX-2249] - Listbox controls render incorrectly in Adobe Acrobat or Adobe Reader
+[PDFBOX-2251] - NoSuchElementException when reading cmap format 4 subtable
+[PDFBOX-2257] - BufferedInputStream wrapped in BufferedInputStream
+[PDFBOX-2267] - IOException and partial rendering and colorspace creation error
+[PDFBOX-2270] - PDField.getFullyQualifiedName() returns name adding suffix '.null'
+[PDFBOX-2285] - debugLogMetadata doesn't log
+[PDFBOX-2291] - Differences in Overlay stamping between version 1.8.2 and 1.8.6
+[PDFBOX-2292] - Saving of decrypted version of password protected document gives an error
+[PDFBOX-2330] - Typo on usage message; "PDFDBox" instead of "PDFBox"
+[PDFBOX-2344] - NegativeArraySizeException in radial shading
+[PDFBOX-2345] - IndexOutOfBoundsException reading encrypted pdf
+[PDFBOX-2347] - NPE while creating security handler for decryption
+
+Improvement
+
+[PDFBOX-1055] - XMPMetadata.getSchemasByNamespaceURI() implementation inefficient
+[PDFBOX-1915] - Implement shading with Coons and tensor-product patch meshes
+[PDFBOX-2151] - Replace log4j with commons logging
+[PDFBOX-2211] - Create sample code for creating a PDF with shading
+[PDFBOX-2236] - Useless dependency in specific usage
+[PDFBOX-2239] - Add missing values to PDComplexFileSpecification
+[PDFBOX-2314] - Restore backward compatibility between Overlay and OverlayPDF
+
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/

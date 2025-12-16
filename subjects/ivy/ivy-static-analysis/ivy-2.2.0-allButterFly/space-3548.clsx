@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyTask.getResolvedDescriptor(String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyTask.getResolvedDescriptor(String, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyTask.getReference(String, String, String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

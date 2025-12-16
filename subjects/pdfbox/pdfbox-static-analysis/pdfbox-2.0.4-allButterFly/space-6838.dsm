@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.loadDiskCache(List)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FileSystemFontProvider(FontCache)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFontImpl(TrueTypeFont, File)
+org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getSupplement()
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getDiskCacheFile()
+org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getOrdering()
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.FSFontInfo(File, FontFormat, String, CIDSystemInfo, int, int, int, int, int, byte[], FileSystemFontProvider)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeCollection(File)
+org.apache.pdfbox.pdmodel.font.CIDSystemInfo.CIDSystemInfo(String, String, int)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addType1Font(File)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.saveDiskCache()
+org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getRegistry()
+org.apache.pdfbox.pdmodel.font.PDPanoseClassification.PDPanoseClassification(byte[])
+org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getBytes()
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFont(File)
+org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSIgnored.FSIgnored(File, FontFormat, String)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.scanFonts(List)

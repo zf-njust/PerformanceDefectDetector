@@ -1,0 +1,46 @@
+[Call]
+22
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 1 1 1 0 1 0 1 0 0 1 0 1 1 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSArray.getInt(int)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getDecode()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.TiffWrapper.addTag(int, long)
+org.apache.pdfbox.cos.COSArray.getInt(int, int)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.common.PDStream.getStream()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.TiffWrapper.buildHeader(COSDictionary)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.TiffWrapper.addTag(int, long, long)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.TiffWrapper.addTag(int, short)
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.TiffWrapper.addTag(int, String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)
+org.apache.pdfbox.cos.COSBoolean.getValue()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName)

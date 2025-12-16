@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFileUnix()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.examples.pdmodel.ExtractEmbeddedFiles.getEmbeddedFile(PDComplexFileSpecification)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFileDos()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFileMac()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFileUnicode()" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFile()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile.PDEmbeddedFile(COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getObjectFromEFDictionary(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEFDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

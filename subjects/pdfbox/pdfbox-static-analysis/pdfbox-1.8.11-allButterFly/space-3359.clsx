@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForXRefs()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForXRef(long)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.seek(long)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.isEOF()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.getOffset()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkBytesAtOffset(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

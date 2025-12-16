@@ -1,0 +1,1169 @@
+method,Layer,Size,upperDepth,upperWidth,lowerDepth,lowerWidth,LOC,Cyclomatic,FanIn,FanOut,Loop,Time,OwnTime,Count
+org.apache.pdfbox.cos.COSDictionary.COSDictionary(),0,753,8,228,0,0,3,1,133,1,0,7,3,5193
+org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary),2,67,8,20,0,0,4,1,4,2,0,7,0,398
+org.apache.pdfbox.cos.COSDictionary.size(),0,121,7,32,0,0,4,1,9,2,0,0,0,3
+org.apache.pdfbox.cos.COSDictionary.clear(),0,14,4,5,0,0,4,1,6,1,0,1,0,2200
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String),2,361,9,128,2,2,4,1,130,3,0,0,0,87
+"org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String, String)",2,38,5,14,2,2,9,2,5,3,0,3,0,1255
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String[]),2,9,2,2,2,2,9,2,5,3,1,5,2,4185
+"org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)",1,1122,10,329,1,1,11,2,292,2,0,60,6,23425
+"org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)",2,454,7,144,2,2,9,2,84,2,0,0,0,109
+"org.apache.pdfbox.cos.COSDictionary.setItem(String, COSObjectable)",3,111,8,72,3,3,4,1,74,2,0,0,0,34
+"org.apache.pdfbox.cos.COSDictionary.setBoolean(String, boolean)",2,19,2,11,2,3,4,1,13,3,0,0,0,8
+"org.apache.pdfbox.cos.COSDictionary.setItem(String, COSBase)",2,147,8,40,2,2,4,1,42,2,0,0,0,9
+"org.apache.pdfbox.cos.COSDictionary.setName(String, String)",3,82,8,26,3,2,4,1,29,2,0,0,0,28
+"org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)",2,236,7,77,2,2,9,2,88,2,0,0,0,64
+"org.apache.pdfbox.cos.COSDictionary.setDate(String, Calendar)",12,13,2,1,4,3,4,1,3,2,0,47,0,14
+"org.apache.pdfbox.cos.COSDictionary.setString(String, String)",3,66,8,31,3,3,4,1,33,2,0,0,0,4
+"org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)",2,123,7,50,2,2,9,2,53,2,0,1,0,71
+"org.apache.pdfbox.cos.COSDictionary.setInt(String, int)",3,105,8,32,3,3,4,1,10,2,0,0,0,2
+"org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)",2,360,9,99,2,2,4,1,79,2,0,0,0,160
+"org.apache.pdfbox.cos.COSDictionary.setLong(String, long)",12,8,0,0,3,3,4,1,2,2,0,0,0,80
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(String),3,195,10,37,3,4,4,1,19,3,0,0,0,2
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName),2,296,7,107,2,3,17,4,53,4,0,0,0,239
+"org.apache.pdfbox.cos.COSDictionary.getNameAsString(String, String)",4,21,2,6,4,3,4,1,8,3,0,0,0,2
+org.apache.pdfbox.cos.COSDictionary.getString(String),3,152,10,27,3,3,4,1,27,3,0,0,0,2
+org.apache.pdfbox.cos.COSDictionary.getString(COSName),2,167,10,59,2,3,10,2,60,3,0,4,0,121
+org.apache.pdfbox.cos.COSDictionary.getDate(String),12,24,2,1,7,4,4,1,2,3,0,3,0,18
+"org.apache.pdfbox.cos.COSDictionary.getBoolean(String, boolean)",5,35,4,13,5,2,4,1,15,3,0,0,0,147
+"org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)",3,7,1,2,3,2,10,2,5,3,0,0,0,147
+org.apache.pdfbox.cos.COSDictionary.getInt(String),5,65,5,22,5,2,4,1,3,3,0,0,0,6
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName),5,548,8,141,5,2,4,1,28,2,0,0,0,55
+"org.apache.pdfbox.cos.COSDictionary.getInt(String[], int)",12,7,0,0,3,2,10,2,2,3,0,2,0,736
+"org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)",3,43,4,14,3,2,10,2,7,3,0,2,0,814
+org.apache.pdfbox.cos.COSDictionary.getLong(String),12,7,0,0,3,3,4,1,1,3,0,0,0,24
+"org.apache.pdfbox.cos.COSDictionary.getLong(String[], long)",12,7,0,0,3,2,10,2,2,3,0,0,0,101
+"org.apache.pdfbox.cos.COSDictionary.getFloat(String, float)",3,16,2,5,3,3,4,1,7,3,0,0,0,6
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName),0,151,5,57,0,0,4,1,42,1,0,0,0,82
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName),0,736,8,269,0,0,4,1,87,2,0,3,1,3723
+org.apache.pdfbox.cos.COSDictionary.keySet(),0,375,13,118,0,0,4,1,28,2,0,0,0,31
+org.apache.pdfbox.cos.COSDictionary.entrySet(),0,252,7,87,0,0,4,1,16,2,0,0,0,319
+org.apache.pdfbox.cos.COSDictionary.getValues(),0,224,10,65,0,0,4,1,5,2,0,0,0,165
+org.apache.pdfbox.cos.COSDictionary.accept(ICOSVisitor),12,19,4,9,1,1,4,1,2,2,0,119,0,152
+org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary),2,13,4,4,2,2,11,3,4,8,1,1,0,77
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName),0,96,6,25,0,0,3,1,22,2,0,0,0,5
+org.apache.pdfbox.cos.COSDictionary.mergeInto(COSDictionary),10,275,7,82,1,1,10,3,2,5,1,0,0,1
+org.apache.pdfbox.cos.COSDictionary.getObjectFromPath(String),3,97,10,24,3,3,19,4,9,7,1,0,0,4
+org.apache.pdfbox.cos.COSDictionary.toString(),12,98,13,19,2,1,15,3,4,8,1,0,0,1
+org.apache.pdfbox.cos.COSBase.COSBase(),4,2,1,1,0,0,4,1,1,2,0,3,3,34814
+org.apache.pdfbox.cos.COSBase.getFilterManager(),2,33,4,12,2,3,4,1,4,2,0,4,0,84
+org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm),1,67,7,19,1,1,5,1,3,4,0,0,0,1
+org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.PDAcroForm(PDDocument),2,159,6,53,2,4,7,1,6,7,0,0,0,1
+org.apache.pdfbox.pdmodel.common.function.type4.Operators.Operators(),12,28,6,7,0,0,45,1,44,2,0,6,4,96
+org.apache.pdfbox.pdmodel.common.function.type4.Operators.getOperator(String),1,5,2,3,0,0,4,1,3,2,0,0,0,187
+org.apache.pdfbox.cos.COSString.COSString(),0,123,5,58,0,0,4,1,13,3,0,1,0,1605
+org.apache.pdfbox.cos.COSString.COSString(boolean),12,2,0,0,1,1,4,1,0,2,0,4,0,212
+org.apache.pdfbox.cos.COSString.COSString(String),0,552,11,134,0,0,35,5,46,8,1,0,0,23
+org.apache.pdfbox.cos.COSString.createFromHexString(String),2,110,9,31,2,2,4,1,7,2,0,0,0,3
+"org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)",1,7,2,2,1,2,31,5,6,11,1,18,1,167
+org.apache.pdfbox.cos.COSString.getHexString(),1,209,9,54,1,1,11,2,7,6,1,0,0,3
+org.apache.pdfbox.cos.COSString.getString(),1,443,9,97,1,2,27,5,39,5,0,11,0,456
+"org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)",1,3,2,1,0,0,5,1,5,4,0,7,0,191
+org.apache.pdfbox.cos.COSString.append(byte[]),0,110,5,52,0,0,5,1,15,2,0,0,0,53
+org.apache.pdfbox.cos.COSString.append(int),1,13,4,6,0,0,5,1,8,2,0,15,5,26637
+org.apache.pdfbox.cos.COSString.reset(),0,384,10,86,0,0,5,1,7,2,0,0,0,1
+org.apache.pdfbox.cos.COSString.getBytes(),0,440,8,126,0,0,4,1,27,2,0,0,0,420
+org.apache.pdfbox.cos.COSString.writePDF(OutputStream),1,39,6,22,1,1,68,13,18,3,3,11,0,78
+org.apache.pdfbox.cos.COSString.accept(ICOSVisitor),12,37,5,15,1,1,4,1,3,2,0,10,0,54
+org.apache.pdfbox.cos.COSString.equals(Object),12,4,0,0,2,2,9,2,3,3,0,1,0,172
+org.apache.pdfbox.cos.COSString.hashCode(),12,4,0,0,2,2,5,2,2,3,0,0,0,8
+org.apache.pdfbox.encoding.PDFDocEncodingCharset.PDFDocEncodingCharset(),12,4,0,0,2,2,4,1,1,3,0,0,0,2
+org.apache.pdfbox.encoding.PDFDocEncodingCharset.createEncoding(),12,4,3,1,0,0,51,2,2,1,1,0,0,2
+org.apache.pdfbox.util.PDFOperator.PDFOperator(String),0,2,1,1,0,0,8,2,2,4,0,0,0,42
+org.apache.pdfbox.util.PDFOperator.getOperator(String),0,368,9,95,1,1,21,4,12,5,0,1,0,243
+org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties),2,18,4,9,2,2,35,5,12,14,1,77,0,9
+"org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)",1,5,2,2,1,1,5,1,5,2,0,1,0,429
+"org.apache.pdfbox.util.PDFStreamEngine.processStream(PDPage, PDResources, COSStream)",7,352,8,77,9,19,9,1,11,7,0,3496,0,11
+"org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDPage, PDResources, COSStream)",4,274,9,63,8,7,20,2,13,5,0,3483,0,11
+org.apache.pdfbox.util.PDFStreamEngine.processSubStream(COSStream),4,37,1,1,7,7,34,5,4,12,1,3483,0,11
+org.apache.pdfbox.util.PDFStreamEngine.processEncodedText(byte[]),7,76,2,3,5,32,122,9,9,36,1,156,3,99
+"org.apache.pdfbox.util.PDFStreamEngine.processOperator(String, List<COSBase>)",2,20,4,7,2,4,12,2,13,3,0,3449,0,241
+org.apache.pdfbox.util.PDFStreamEngine.getXObjects(),12,56,10,11,0,0,4,1,2,3,0,3,0,1
+org.apache.pdfbox.util.PDFStreamEngine.getFonts(),12,10,2,8,0,0,8,2,2,5,0,150,0,18
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsStates(),12,188,15,46,0,0,4,1,2,3,0,2,0,7
+org.apache.pdfbox.util.PDFStreamEngine.getResources(),0,206,10,56,0,0,4,1,8,2,0,0,0,15
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(),2,479,10,116,2,6,16,1,59,8,0,10,0,49
+org.apache.pdfbox.pdmodel.PDDocument.generatePageMap(),12,32,0,0,4,14,5,1,1,6,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocument.processListOfPageReferences(List<Object>),12,32,0,0,7,10,17,4,2,7,1,0,0,1
+org.apache.pdfbox.pdmodel.PDDocument.parseCatalogObject(COSObject),12,32,0,0,6,9,50,9,4,11,2,0,0,4
+org.apache.pdfbox.pdmodel.PDDocument.getPageMap(),12,32,0,0,5,13,8,2,3,2,0,0,0,10
+org.apache.pdfbox.pdmodel.PDDocument.addPage(PDPage),5,816,12,162,4,10,7,1,41,6,0,8,0,32
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument),1,341,11,74,1,1,4,1,8,2,0,0,0,33
+"org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, BaseParser)",0,4,2,2,0,0,5,1,4,3,0,0,0,101
+org.apache.pdfbox.pdmodel.PDDocument.getDocumentInformation(),2,521,9,116,2,5,15,3,15,7,0,1,0,28
+org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog(),2,1352,11,394,3,4,17,3,90,6,0,2,0,109
+org.apache.pdfbox.pdmodel.PDDocument.isEncrypted(),3,1085,11,261,3,1,4,1,37,2,0,0,0,8
+org.apache.pdfbox.pdmodel.PDDocument.load(URL),-1,1,0,0,0,0,4,1,3,3,0,428,0,2
+"org.apache.pdfbox.pdmodel.PDDocument.load(URL, boolean)",-1,1,0,0,0,0,4,1,2,3,0,68,0,1
+"org.apache.pdfbox.pdmodel.PDDocument.load(URL, RandomAccess)",-1,1,0,0,0,0,4,1,2,3,0,21,0,1
+org.apache.pdfbox.pdmodel.PDDocument.load(String),0,1076,11,234,0,0,4,1,43,3,0,35,0,3
+"org.apache.pdfbox.pdmodel.PDDocument.load(String, boolean)",11,513,11,111,0,0,4,1,3,3,0,68,0,1
+"org.apache.pdfbox.pdmodel.PDDocument.load(String, RandomAccess)",-1,1,0,0,0,0,4,1,2,3,0,2584,0,50
+org.apache.pdfbox.pdmodel.PDDocument.load(File),0,450,11,113,0,0,4,1,15,3,0,26,0,4
+org.apache.pdfbox.pdmodel.PDDocument.load(InputStream),9,736,11,118,10,54,4,1,16,2,0,2559,0,48
+"org.apache.pdfbox.pdmodel.PDDocument.load(InputStream, RandomAccess, boolean)",12,182,1,1,9,54,6,1,4,5,0,68,0,1
+"org.apache.pdfbox.pdmodel.PDDocument.loadNonSeq(File, RandomAccess)",11,428,10,42,12,60,4,1,20,2,0,129,0,17
+"org.apache.pdfbox.pdmodel.PDDocument.loadNonSeq(File, RandomAccess, String)",10,667,9,88,11,60,6,1,11,4,0,129,0,17
+"org.apache.pdfbox.pdmodel.PDDocument.loadNonSeq(InputStream, RandomAccess)",10,507,7,80,12,62,4,1,4,2,0,81,0,1
+"org.apache.pdfbox.pdmodel.PDDocument.loadNonSeq(InputStream, RandomAccess, String)",10,241,1,1,11,62,6,1,4,4,0,81,0,1
+org.apache.pdfbox.pdmodel.PDDocument.save(String),1,1059,11,245,1,1,4,1,42,2,0,148,0,8
+org.apache.pdfbox.pdmodel.PDDocument.save(File),0,410,13,87,0,0,4,1,16,2,0,340,0,22
+org.apache.pdfbox.pdmodel.PDDocument.save(OutputStream),10,507,12,114,5,25,18,2,6,6,0,326,0,24
+org.apache.pdfbox.pdmodel.PDDocument.getNumberOfPages(),3,559,11,132,4,6,5,1,16,4,0,0,0,26
+org.apache.pdfbox.pdmodel.PDDocument.close(),2,1434,11,400,2,6,22,4,132,10,0,10,0,78
+org.apache.pdfbox.pdmodel.PDDocument.getCurrentAccessPermission(),2,562,11,116,3,9,8,2,7,3,0,1,0,2
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(),0,42,6,20,0,0,4,1,5,2,0,0,0,1
+"org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)",0,10,1,9,0,0,14,2,12,2,0,0,0,8
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.getOwnerAccessPermission(),1,45,5,19,2,9,13,1,2,10,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrint(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModify(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.canExtractContent(),8,556,9,108,1,1,4,1,7,2,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractContent(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModifyAnnotations(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanFillInForm(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractForAccessibility(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanAssembleDocument(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrintDegraded(boolean),1,41,6,20,1,1,7,2,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm),12,4,1,1,2,1,4,1,2,2,0,0,0,1
+org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.doNotScroll(),12,38,6,10,6,2,4,1,4,3,0,0,0,2
+org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setDoNotScroll(boolean),12,14,0,0,6,4,4,1,4,2,0,0,0,2
+org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.shouldComb(),12,9,0,0,6,2,4,1,3,3,0,1,0,9
+org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.setComb(boolean),12,14,0,0,6,4,4,1,4,2,0,0,0,8
+org.apache.pdfbox.cos.COSInteger.get(long),1,612,12,134,1,1,11,3,41,3,0,13,5,29847
+org.apache.pdfbox.cos.COSInteger.COSInteger(long),0,3,1,2,0,0,4,1,3,2,0,8,3,13075
+org.apache.pdfbox.cos.COSInteger.COSInteger(int),12,2,0,0,1,1,4,1,7,2,0,0,0,7
+org.apache.pdfbox.cos.COSInteger.equals(Object),8,17,4,7,1,1,4,1,3,2,0,0,0,228
+org.apache.pdfbox.cos.COSInteger.accept(ICOSVisitor),12,2,0,0,1,1,4,1,2,2,0,5,0,215
+org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream),0,22,3,15,0,0,4,1,5,3,0,5,0,235
+org.apache.pdfbox.cos.COSName.getPDFName(String),1,642,9,215,1,1,17,4,162,3,0,63,11,30514
+"org.apache.pdfbox.cos.COSName.COSName(String, boolean)",0,3,1,2,0,0,13,2,7,5,0,3,0,1116
+org.apache.pdfbox.cos.COSName.COSName(String),12,2,0,0,1,1,4,1,1,2,0,2,0,742
+org.apache.pdfbox.cos.COSName.toString(),0,336,9,78,0,0,4,1,1,1,0,0,0,3
+org.apache.pdfbox.cos.COSName.equals(Object),0,501,7,181,0,0,10,2,30,2,0,0,0,1991
+org.apache.pdfbox.cos.COSName.accept(ICOSVisitor),12,2,0,0,1,1,4,1,2,2,0,87,0,953
+org.apache.pdfbox.cos.COSName.writePDF(OutputStream),1,37,3,25,1,1,28,3,9,4,1,86,3,961
+org.apache.pdfbox.cos.COSNumber.get(String),2,116,8,42,2,2,34,6,9,9,0,186,23,29712
+"org.apache.pdfbox.util.BitFlagHelper.setFlag(COSDictionary, String, int, boolean)",12,15,0,0,6,4,4,1,4,2,0,0,0,10
+"org.apache.pdfbox.util.BitFlagHelper.getFlag(COSDictionary, String, int)",12,10,0,0,6,2,4,1,3,3,0,0,0,11
+"org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)",2,10,4,4,0,0,5,1,3,3,0,0,0,52
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getAcroForm(),2,431,8,138,2,2,13,3,18,4,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.setAcroForm(PDAcroForm),3,323,7,115,3,2,4,1,7,1,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages(),2,310,8,90,2,2,4,1,13,3,0,2,0,102
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getAllPages(),4,1001,11,212,3,5,7,1,45,4,0,0,0,19
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getDocumentOutline(),2,464,8,143,2,2,10,2,6,3,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.setOpenAction(PDDestinationOrAction),3,302,7,89,3,2,4,1,6,1,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getOpenAction(),10,275,7,78,5,18,21,4,3,5,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getNames(),2,686,11,137,2,2,10,2,7,3,0,1,0,4
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getMarkInfo(),10,275,7,82,2,2,10,2,3,3,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPageMode(),10,275,7,79,4,3,4,1,4,2,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getStructureTreeRoot(),10,275,7,81,2,2,10,2,3,3,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getVersion(),12,8,0,0,3,3,4,1,3,2,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.setVersion(String),12,6,0,0,3,2,4,1,4,1,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPageLabels(),12,24,0,0,6,9,10,2,5,3,0,6,0,2
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.getOCProperties(),2,142,9,35,2,2,10,2,6,3,0,0,0,3
+org.apache.pdfbox.pdmodel.PDDocumentCatalog.setOCProperties(PDOptionalContentProperties),12,133,9,33,3,2,4,1,5,1,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentInformation.PDDocumentInformation(COSDictionary),0,12,4,5,0,0,4,1,3,2,0,0,0,17
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getTitle(),3,294,10,51,3,3,4,1,8,2,0,2,0,11
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setTitle(String),12,5,0,0,3,2,4,1,11,1,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getAuthor(),3,272,10,50,3,3,4,1,7,2,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setAuthor(String),12,5,0,0,3,2,4,1,11,1,0,0,0,8
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getSubject(),3,290,10,51,3,3,4,1,8,2,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setSubject(String),12,5,0,0,3,2,4,1,11,1,0,0,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getKeywords(),3,287,10,51,3,3,4,1,7,2,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setKeywords(String),12,5,0,0,3,2,4,1,10,1,0,0,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreator(),3,290,10,51,3,3,4,1,8,2,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setCreator(String),12,5,0,0,3,2,4,1,10,1,0,0,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getProducer(),3,290,10,51,3,3,4,1,8,2,0,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setProducer(String),12,5,0,0,3,2,4,1,10,1,0,0,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getCreationDate(),3,287,10,50,7,4,4,1,7,2,0,2,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setCreationDate(Calendar),12,9,0,0,4,3,4,1,10,1,0,42,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getModificationDate(),3,287,10,50,7,4,4,1,7,2,0,1,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.setModificationDate(Calendar),12,9,0,0,4,3,4,1,10,1,0,4,0,7
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getTrapped(),3,263,10,50,3,3,4,1,5,2,0,0,0,1
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getMetadataKeys(),12,3,0,0,1,2,8,2,2,5,1,0,0,9
+org.apache.pdfbox.pdmodel.PDDocumentInformation.getCustomMetadataValue(String),12,10,0,0,4,3,4,1,3,2,0,0,0,2
+"org.apache.pdfbox.pdmodel.graphics.xobject.CompositeImage.CompositeImage(BufferedImage, BufferedImage)",6,61,8,14,0,0,5,1,3,3,0,0,0,10
+org.apache.pdfbox.pdmodel.graphics.xobject.CompositeImage.createMaskedImage(COSArray),6,61,8,13,3,2,29,5,5,8,2,3722,219,10
+org.apache.pdfbox.cos.COSArray.COSArray(),0,758,9,301,0,0,3,1,135,1,0,3,1,1995
+org.apache.pdfbox.cos.COSArray.add(COSBase),0,883,12,273,0,0,4,1,112,1,0,18,5,19368
+org.apache.pdfbox.cos.COSArray.add(COSObjectable),1,68,7,24,1,1,4,1,17,2,0,0,0,64
+org.apache.pdfbox.cos.COSArray.clear(),0,362,12,56,0,0,4,1,7,1,0,0,0,136
+org.apache.pdfbox.cos.COSArray.addAll(Collection<COSBase>),-1,1,0,0,0,0,4,1,4,1,0,0,0,38
+"org.apache.pdfbox.cos.COSArray.set(int, COSBase)",0,140,8,47,0,0,4,1,50,1,0,0,0,64
+org.apache.pdfbox.cos.COSArray.getObject(int),1,881,8,265,1,1,13,3,92,3,0,1,0,1151
+org.apache.pdfbox.cos.COSArray.get(int),0,611,8,186,0,0,4,1,77,2,0,2,1,3966
+org.apache.pdfbox.cos.COSArray.getInt(int),1,208,9,70,2,2,4,1,25,2,0,0,0,55
+"org.apache.pdfbox.cos.COSArray.getInt(int, int)",1,4,1,1,1,2,13,3,4,4,0,0,0,55
+"org.apache.pdfbox.cos.COSArray.setInt(int, int)",2,24,4,11,2,2,4,1,13,2,0,0,0,30
+"org.apache.pdfbox.cos.COSArray.setString(int, String)",12,11,3,4,1,2,11,2,4,2,0,0,0,16
+org.apache.pdfbox.cos.COSArray.getString(int),2,46,5,11,3,2,4,1,6,2,0,0,0,16
+"org.apache.pdfbox.cos.COSArray.getString(int, String)",2,6,1,1,2,2,13,3,4,4,0,0,0,16
+org.apache.pdfbox.cos.COSArray.size(),0,1063,12,377,0,0,4,1,142,2,0,0,0,7737
+org.apache.pdfbox.cos.COSArray.remove(int),0,56,5,17,0,0,4,1,6,2,0,1,0,2792
+org.apache.pdfbox.cos.COSArray.remove(COSBase),0,48,7,21,0,0,4,1,7,2,0,0,0,1
+org.apache.pdfbox.cos.COSArray.iterator(),0,210,10,43,0,0,4,1,8,2,0,0,0,157
+org.apache.pdfbox.cos.COSArray.accept(ICOSVisitor),12,3,1,1,1,1,4,1,2,2,0,24,0,86
+org.apache.pdfbox.cos.COSArray.toFloatArray(),2,214,8,76,2,3,9,2,26,4,1,2,1,216
+org.apache.pdfbox.cos.COSArray.setFloatArray(float[]),1,73,6,26,3,3,8,2,14,3,1,2,0,71
+"org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)",0,8,2,4,0,0,6,1,5,4,0,7,0,130
+org.apache.pdfbox.cos.COSDocument.COSDocument(),1,262,9,82,1,2,4,1,14,3,0,10,0,110
+org.apache.pdfbox.cos.COSDocument.COSDocument(File),8,177,9,53,2,1,4,1,3,2,0,0,0,2
+org.apache.pdfbox.cos.COSDocument.getScratchFile(),0,220,8,69,0,0,12,2,12,2,0,0,0,451
+org.apache.pdfbox.cos.COSDocument.createCOSStream(),2,427,10,92,4,2,4,1,6,3,0,2,0,72
+org.apache.pdfbox.cos.COSDocument.createCOSStream(COSDictionary),3,79,7,19,4,2,4,1,4,3,0,0,0,2
+org.apache.pdfbox.cos.COSDocument.getObjectByType(String),12,7,0,0,2,4,4,1,1,3,0,0,0,36
+org.apache.pdfbox.cos.COSDocument.getObjectsByType(String),12,111,9,26,2,4,4,1,2,3,0,4,1,50
+org.apache.pdfbox.cos.COSDocument.setVersion(float),4,285,7,83,0,0,8,2,6,4,0,0,0,68
+org.apache.pdfbox.cos.COSDocument.isEncrypted(),2,178,9,52,2,1,13,3,5,2,0,0,0,58
+org.apache.pdfbox.cos.COSDocument.getCatalog(),2,223,8,58,2,3,9,2,5,3,0,0,0,36
+org.apache.pdfbox.cos.COSDocument.getObjects(),0,447,9,108,0,0,4,1,13,3,0,2,0,95
+org.apache.pdfbox.cos.COSDocument.accept(ICOSVisitor),3,30,5,14,1,1,4,1,2,2,0,281,0,24
+org.apache.pdfbox.cos.COSDocument.close(),1,260,9,78,1,6,38,9,19,11,1,8,1,95
+org.apache.pdfbox.cos.COSDocument.finalize(),12,8,0,0,2,6,11,3,3,2,0,5,0,63
+org.apache.pdfbox.cos.COSDocument.dereferenceObjectStreams(),7,197,7,36,7,24,20,4,7,12,2,36,0,50
+org.apache.pdfbox.cos.COSDocument.getObjectFromPool(COSObjectKey),2,285,8,88,2,6,19,4,26,9,0,21,5,8188
+"org.apache.pdfbox.cos.COSDocument.addXRefTable(Map<COSObjectKey, Long>)",0,247,9,83,0,0,4,1,5,1,0,3,0,56
+org.apache.pdfbox.cos.COSDocument.isXRefStream(),12,95,5,40,1,2,8,2,6,3,0,0,0,24
+org.apache.pdfbox.cos.COSObject.COSObject(COSBase),0,165,7,61,1,1,4,1,16,2,0,1,1,4059
+org.apache.pdfbox.cos.COSObject.getItem(COSName),1,172,10,45,1,1,9,2,6,2,0,0,0,116
+org.apache.pdfbox.cos.COSObject.accept(ICOSVisitor),12,5,0,0,2,3,4,2,2,4,0,5,0,59
+org.apache.pdfbox.pdfwriter.COSWriter.COSWriter(OutputStream),3,226,10,61,1,3,8,1,13,6,0,15,0,27
+org.apache.pdfbox.pdfwriter.COSWriter.addXRefEntry(COSWriterXRefEntry),12,75,5,31,1,1,4,1,4,2,0,0,0,264
+org.apache.pdfbox.pdfwriter.COSWriter.close(),1,223,10,61,1,2,11,3,7,4,0,7,0,48
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteBody(COSDocument),12,95,6,23,4,15,32,6,7,8,2,214,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.addObjectToWrite(COSBase),2,47,5,21,1,2,35,7,10,9,0,4,1,304
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteObject(COSBase),12,77,5,22,3,13,36,5,12,18,0,212,2,240
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteHeader(COSDocument),12,95,6,32,3,4,8,1,4,5,0,3,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteTrailer(COSDocument),12,95,6,27,3,10,15,2,7,13,0,23,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.doWriteXRef(COSDocument),12,95,6,21,3,17,47,6,6,23,4,37,0,24
+"org.apache.pdfbox.pdfwriter.COSWriter.writeXrefRange(long, long)",12,75,5,29,3,3,7,1,5,5,0,3,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry),12,75,5,26,3,7,11,2,8,9,0,31,1,264
+org.apache.pdfbox.pdfwriter.COSWriter.getXRefRanges(List<COSWriterXRefEntry>),12,75,5,32,1,2,33,5,3,8,1,0,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.getObjectKey(COSBase),2,29,3,12,2,4,28,6,4,7,0,2,1,519
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromArray(COSArray),12,37,0,0,4,16,70,11,6,19,1,24,1,86
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromDictionary(COSDictionary),3,84,7,18,4,14,86,12,12,21,1,173,4,226
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromDocument(COSDocument),12,95,0,0,5,37,48,8,7,17,0,281,0,24
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromFloat(COSFloat),12,5,0,0,2,3,12,2,2,4,0,2,0,136
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromInt(COSInteger),12,5,0,0,2,3,12,2,2,4,0,5,0,215
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromName(COSName),12,6,0,0,2,3,12,2,2,4,0,86,0,953
+org.apache.pdfbox.pdfwriter.COSWriter.writeReference(COSBase),3,37,3,14,3,7,16,2,6,8,0,24,1,279
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromStream(COSStream),12,76,0,0,6,22,64,8,10,25,1,79,0,56
+org.apache.pdfbox.pdfwriter.COSWriter.visitFromString(COSString),12,19,0,0,5,7,19,3,5,8,0,10,0,54
+org.apache.pdfbox.pdfwriter.COSWriter.write(COSDocument),4,210,10,49,5,16,5,1,4,2,0,305,0,24
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject),1,250,8,77,2,4,4,1,28,5,0,0,0,87
+"org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)",0,214,8,79,1,2,5,1,17,3,0,1,1,11122
+org.apache.pdfbox.persistence.util.COSObjectKey.equals(Object),12,3,0,0,1,2,6,1,1,3,0,1,1,6147
+"org.apache.pdfbox.pdfparser.BaseParser.BaseParser(InputStream, boolean)",1,32,7,7,1,1,15,2,9,6,0,4,0,94
+org.apache.pdfbox.pdfparser.BaseParser.isHexDigit(char),0,12,3,6,0,0,6,1,3,1,0,0,0,6048
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionaryValue(),3,51,0,0,4,20,25,3,3,10,0,1696,18,21518
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(),3,182,10,28,5,13,129,25,19,17,2,1974,34,4250
+"org.apache.pdfbox.pdfparser.BaseParser.parseCOSStream(COSDictionary, RandomAccess)",4,148,7,41,6,20,139,22,17,35,3,57,2,329
+org.apache.pdfbox.pdfparser.BaseParser.readUntilEndStream(OutputStream),4,49,7,17,1,2,63,12,10,6,2,3,1,93
+org.apache.pdfbox.pdfparser.BaseParser.checkForMissingCloseParen(int),2,13,3,6,2,2,22,4,3,3,0,6,1,1246
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSString(),2,114,8,39,3,7,152,33,5,13,2,100,11,1386
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSHexString(),2,13,4,3,2,3,43,9,3,10,2,31,3,162
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSArray(),3,108,8,19,4,17,55,8,8,20,1,573,17,1450
+org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char),0,41,3,20,0,0,7,1,6,1,0,25,25,222373
+org.apache.pdfbox.pdfparser.BaseParser.parseCOSName(),2,109,8,39,2,6,52,8,6,12,1,621,110,30030
+org.apache.pdfbox.pdfparser.BaseParser.parseDirObject(),3,190,8,44,3,25,120,19,16,24,1,2061,95,46250
+org.apache.pdfbox.pdfparser.BaseParser.readString(),1,210,7,90,2,5,16,3,16,9,1,68,15,3403
+org.apache.pdfbox.pdfparser.BaseParser.readString(int),2,136,8,38,2,5,20,3,4,10,1,34,8,2282
+org.apache.pdfbox.pdfparser.BaseParser.readLine(),3,240,8,84,3,3,18,4,9,8,1,121,17,3185
+org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int),0,145,7,45,0,0,5,1,14,1,0,1,1,10209
+org.apache.pdfbox.pdfparser.BaseParser.skipSpaces(),1,282,7,128,1,3,24,5,25,3,2,367,80,176529
+org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber(),2,201,8,61,3,3,9,2,9,3,0,44,0,2654
+org.apache.pdfbox.pdfparser.BaseParser.readGenerationNumber(),3,200,8,65,3,3,9,2,6,3,0,27,1,2459
+org.apache.pdfbox.pdfparser.BaseParser.readInt(),3,8,1,1,2,3,16,2,2,9,0,26,2,2459
+org.apache.pdfbox.pdfparser.BaseParser.readLong(),2,82,7,20,2,3,17,2,6,9,0,48,2,2924
+org.apache.pdfbox.pdfparser.BaseParser.readStringNumber(),2,177,9,52,1,2,20,3,4,5,1,35,8,5383
+org.apache.pdfbox.pdfparser.BaseParser.clearResources(),0,13,3,7,0,0,9,2,4,3,0,0,0,34
+"org.apache.pdfbox.pdfparser.PDFParser.PDFParser(InputStream, RandomAccess)",9,182,10,53,3,1,4,1,4,2,0,7,0,49
+"org.apache.pdfbox.pdfparser.PDFParser.PDFParser(InputStream, RandomAccess, boolean)",2,191,10,52,2,1,5,1,8,3,0,8,0,68
+org.apache.pdfbox.pdfparser.PDFParser.parse(),8,288,10,33,8,54,91,13,16,27,1,2604,0,50
+org.apache.pdfbox.pdfparser.PDFParser.skipToNextObj(),8,177,9,48,3,4,27,4,3,9,1,14,0,50
+org.apache.pdfbox.pdfparser.PDFParser.parseHeader(),5,254,9,77,4,3,83,14,10,16,1,11,0,68
+org.apache.pdfbox.pdfparser.PDFParser.getDocument(),0,299,8,110,0,0,8,2,12,2,0,0,0,520
+org.apache.pdfbox.pdfparser.PDFParser.getPDDocument(),1,265,10,72,1,2,4,1,6,3,0,0,0,68
+org.apache.pdfbox.pdfparser.PDFParser.parseObject(),8,177,7,21,7,40,154,25,7,38,2,2502,7,2400
+"org.apache.pdfbox.pdfparser.PDFParser.addObjectToConflicts(long, COSObjectKey, COSBase)",8,130,8,38,2,8,9,1,5,9,0,0,0,10
+org.apache.pdfbox.pdfparser.PDFParser.parseStartXref(),4,221,8,66,2,7,15,3,3,9,0,4,0,75
+org.apache.pdfbox.pdfparser.PDFParser.parseXrefTable(long),4,221,8,60,2,12,68,13,8,21,2,257,4,77
+org.apache.pdfbox.pdfparser.PDFParser.parseTrailer(),4,221,8,44,6,15,28,4,5,14,0,51,0,77
+org.apache.pdfbox.pdfparser.PDFParser.readVersionInTrailer(COSDictionary),4,209,10,50,1,5,16,4,6,6,0,0,0,95
+"org.apache.pdfbox.pdfparser.PDFParser.parseXrefStream(COSStream, long)",4,178,10,36,7,13,8,1,7,4,0,7,0,7
+"org.apache.pdfbox.pdfparser.PDFParser.tolerantConflicResolver(Collection<Long>, long, int)",8,17,4,7,0,0,18,4,4,3,1,3,0,10
+org.apache.pdfbox.pdfparser.PDFParser.clearResources(),12,5,0,0,3,2,13,3,2,5,0,0,0,34
+"org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)",0,8,2,4,0,0,10,3,5,4,0,3,0,112
+org.apache.pdfbox.io.PushBackInputStream.peek(),1,250,8,89,1,2,9,2,23,3,0,268,65,162923
+org.apache.pdfbox.io.PushBackInputStream.read(),0,218,7,91,0,0,9,2,28,3,0,835,218,892056
+org.apache.pdfbox.io.PushBackInputStream.read(byte[]),2,27,4,11,1,1,4,1,6,2,0,5,0,1675
+"org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)",0,152,9,29,0,0,9,2,11,3,0,9,1,2938
+org.apache.pdfbox.io.PushBackInputStream.unread(int),0,197,7,85,0,0,5,1,19,2,0,244,102,415710
+org.apache.pdfbox.io.PushBackInputStream.unread(byte[]),4,103,7,33,1,1,4,1,15,1,0,0,0,427
+"org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)",0,102,7,24,0,0,8,2,13,2,0,1,0,2552
+org.apache.pdfbox.io.PushBackInputStream.isEOF(),2,206,8,75,2,2,5,1,10,2,0,23,2,11125
+org.apache.pdfbox.io.PushBackInputStream.readFully(int),1,52,4,24,1,1,15,3,3,3,1,0,0,52
+org.apache.pdfbox.io.PushBackInputStream.seek(long),1,243,8,87,1,1,13,3,15,6,0,1,0,780
+org.apache.pdfbox.cos.COSFloat.COSFloat(float),0,424,10,71,2,1,4,1,76,2,0,31,0,1302
+org.apache.pdfbox.cos.COSFloat.COSFloat(String),2,4,3,1,0,0,12,2,3,5,0,16,2,5701
+org.apache.pdfbox.cos.COSFloat.setValue(float),0,3,1,1,1,1,5,1,3,6,0,30,2,1302
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String),0,2,1,1,0,0,11,3,2,5,1,2,0,1302
+org.apache.pdfbox.cos.COSFloat.floatValue(),0,59,7,16,0,0,4,1,11,2,0,3,0,1482
+org.apache.pdfbox.cos.COSFloat.doubleValue(),12,8,4,3,0,0,4,1,3,2,0,0,0,21
+org.apache.pdfbox.cos.COSFloat.longValue(),-1,1,0,0,0,0,4,1,2,2,0,0,0,20
+org.apache.pdfbox.cos.COSFloat.intValue(),3,20,4,10,0,0,4,1,3,2,0,0,0,20
+org.apache.pdfbox.cos.COSFloat.equals(Object),-1,1,0,0,0,0,4,1,3,3,0,4,0,213
+org.apache.pdfbox.cos.COSFloat.hashCode(),-1,1,0,0,0,0,4,1,2,2,0,0,0,96
+org.apache.pdfbox.cos.COSFloat.accept(ICOSVisitor),12,2,0,0,1,1,4,1,2,2,0,2,0,136
+org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream),0,22,3,15,0,0,4,1,5,2,0,2,0,157
+org.apache.pdfbox.cos.COSStream.clone(RandomAccess),1,7,2,2,2,1,9,3,3,2,0,10,0,459
+org.apache.pdfbox.cos.COSStream.COSStream(RandomAccess),2,38,7,7,3,2,5,1,5,4,0,1,0,73
+"org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)",2,154,9,28,3,2,5,1,8,4,0,17,0,386
+org.apache.pdfbox.cos.COSStream.getFilteredStream(),3,136,6,54,5,6,12,2,11,6,0,16,0,77
+org.apache.pdfbox.cos.COSStream.getFilteredLength(),12,76,6,19,5,8,8,2,4,3,0,37,0,36
+org.apache.pdfbox.cos.COSStream.getUnfilteredStream(),3,667,11,165,5,7,21,3,28,7,0,95,0,109
+org.apache.pdfbox.cos.COSStream.accept(ICOSVisitor),12,2,0,0,1,1,4,1,1,2,0,79,0,56
+org.apache.pdfbox.cos.COSStream.doDecode(),3,24,1,1,4,10,25,5,2,6,1,94,0,52
+"org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)",3,23,3,3,3,9,71,8,8,12,2,94,0,45
+org.apache.pdfbox.cos.COSStream.doEncode(),3,24,1,2,4,9,21,5,3,5,1,39,0,47
+"org.apache.pdfbox.cos.COSStream.doEncode(COSName, int)",3,22,3,3,3,8,12,1,6,11,0,39,0,20
+org.apache.pdfbox.cos.COSStream.getFilters(),2,125,8,29,2,1,4,1,7,2,0,0,0,176
+org.apache.pdfbox.cos.COSStream.createFilteredStream(),2,106,7,29,2,1,8,1,11,6,0,0,0,23
+org.apache.pdfbox.cos.COSStream.createFilteredStream(COSBase),2,151,9,29,2,2,9,1,8,7,0,7,1,377
+org.apache.pdfbox.cos.COSStream.createUnfilteredStream(),2,236,7,88,2,1,8,1,17,6,0,0,0,53
+org.apache.pdfbox.cos.COSStream.close(),1,7,2,3,1,2,24,5,6,5,0,0,0,275
+"org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)",0,298,11,85,0,0,5,1,15,3,0,0,0,1
+org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String),0,202,11,39,0,0,4,1,12,2,0,0,0,7
+org.apache.pdfbox.pdmodel.common.PDRange.PDRange(),1,32,6,10,3,3,7,1,4,6,0,0,0,2
+"org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)",0,42,6,13,0,0,5,1,12,3,0,0,0,20
+org.apache.pdfbox.pdmodel.common.PDRange.getMin(),2,175,9,53,2,2,5,1,13,3,0,0,0,18
+org.apache.pdfbox.pdmodel.common.PDRange.setMin(float),12,22,6,5,3,2,4,1,5,2,0,0,0,2
+org.apache.pdfbox.pdmodel.common.PDRange.getMax(),2,175,9,53,2,2,5,1,13,3,0,0,0,18
+org.apache.pdfbox.pdmodel.common.PDRange.setMax(float),12,22,6,5,3,2,4,1,5,2,0,0,0,2
+org.apache.pdfbox.util.Matrix.Matrix(),0,213,12,62,1,1,5,1,24,3,0,1,0,1247
+org.apache.pdfbox.util.Matrix.reset(),0,71,6,30,0,0,4,1,6,1,0,0,0,1775
+org.apache.pdfbox.util.Matrix.createAffineTransform(),0,351,9,109,0,0,8,1,12,2,0,0,0,15
+org.apache.pdfbox.util.Matrix.multiply(Matrix),1,249,9,76,2,2,4,1,10,3,0,1,0,548
+"org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)",1,75,6,34,2,1,52,5,8,4,0,0,0,2741
+org.apache.pdfbox.util.Matrix.clone(),1,4,1,1,2,1,6,1,2,3,0,0,0,43
+org.apache.pdfbox.util.Matrix.copy(),1,85,6,34,3,1,4,1,6,2,0,0,0,43
+org.apache.pdfbox.util.Matrix.getXScale(),0,284,9,81,0,0,10,2,8,3,0,0,0,1596
+org.apache.pdfbox.util.Matrix.getYScale(),0,240,9,69,0,0,10,2,6,3,0,0,0,542
+org.apache.pdfbox.pdfviewer.PageDrawer.PageDrawer(),3,137,11,33,3,3,5,1,4,3,0,64,0,6
+"org.apache.pdfbox.pdfviewer.PageDrawer.drawPage(Graphics, PDPage, Dimension)",8,137,4,4,9,33,48,8,15,29,0,3141,0,6
+"org.apache.pdfbox.pdfviewer.PageDrawer.drawImage(Image, AffineTransform)",1,187,9,39,1,3,6,1,5,6,0,1661,0,15
+org.apache.pdfbox.pdmodel.PDPage.PDPage(),3,685,12,124,2,3,6,1,40,5,0,0,0,26
+org.apache.pdfbox.pdmodel.PDPage.PDPage(PDRectangle),12,6,0,0,2,3,6,1,6,5,0,0,0,5
+org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary),0,393,9,95,0,0,4,1,11,2,0,0,0,112
+org.apache.pdfbox.pdmodel.PDPage.getParent(),3,61,5,20,3,2,12,3,10,4,0,0,0,250
+org.apache.pdfbox.pdmodel.PDPage.setParent(PDPageNode),5,26,5,8,2,2,5,1,5,3,0,0,0,32
+org.apache.pdfbox.pdmodel.PDPage.getResources(),2,518,11,97,2,2,12,3,11,4,0,2,0,48
+org.apache.pdfbox.pdmodel.PDPage.findResources(),4,512,8,144,3,6,10,2,19,4,0,3,0,18
+org.apache.pdfbox.pdmodel.PDPage.setResources(PDResources),3,184,8,56,2,2,12,2,12,3,0,0,0,26
+org.apache.pdfbox.pdmodel.PDPage.getMediaBox(),4,382,11,90,3,4,12,3,10,4,0,1,0,30
+org.apache.pdfbox.pdmodel.PDPage.findMediaBox(),5,587,11,127,4,6,14,3,15,5,0,1,0,23
+org.apache.pdfbox.pdmodel.PDPage.setMediaBox(PDRectangle),2,450,11,113,1,3,12,2,12,4,0,0,0,32
+org.apache.pdfbox.pdmodel.PDPage.getCropBox(),6,21,4,6,3,4,10,2,3,3,0,22,0,218
+org.apache.pdfbox.pdmodel.PDPage.findCropBox(),6,402,7,125,4,8,14,3,15,5,0,24,0,218
+org.apache.pdfbox.pdmodel.PDPage.findParentCropBox(PDPageNode),6,21,4,3,4,4,10,2,2,3,0,0,0,21
+org.apache.pdfbox.pdmodel.PDPage.setCropBox(PDRectangle),2,311,7,95,1,3,11,2,7,3,0,0,0,1
+org.apache.pdfbox.pdmodel.PDPage.getRotation(),4,11,3,4,2,2,10,2,3,4,0,0,0,107
+org.apache.pdfbox.pdmodel.PDPage.findRotation(),4,640,11,152,3,6,18,3,12,5,0,0,0,107
+org.apache.pdfbox.pdmodel.PDPage.setRotation(int),3,436,12,108,3,2,4,1,7,1,0,0,0,1
+org.apache.pdfbox.pdmodel.PDPage.getContents(),5,488,7,139,6,4,4,1,15,3,0,0,0,50
+org.apache.pdfbox.pdmodel.PDPage.setContents(PDStream),3,218,8,51,3,2,4,1,8,1,0,0,0,30
+org.apache.pdfbox.pdmodel.PDPage.getThreadBeads(),8,151,11,38,2,6,20,4,3,9,1,0,0,5
+org.apache.pdfbox.pdmodel.PDPage.convertToImage(),10,411,12,58,11,36,4,1,11,2,0,3233,0,6
+"org.apache.pdfbox.pdmodel.PDPage.convertToImage(int, int)",9,148,5,5,10,36,59,8,7,21,0,3233,0,6
+org.apache.pdfbox.pdmodel.PDPage.getAnnotations(),4,703,11,205,4,14,22,3,13,10,1,0,0,6
+org.apache.pdfbox.pdmodel.PDResources.PDResources(),1,432,9,97,1,1,4,1,14,3,0,0,0,27
+org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary),0,211,10,56,0,0,4,1,10,2,0,0,0,15
+org.apache.pdfbox.pdmodel.PDResources.clear(),1,72,8,17,1,2,56,12,12,14,2,0,0,11
+org.apache.pdfbox.pdmodel.PDResources.getFonts(),7,275,8,41,12,48,38,7,12,12,1,152,0,27
+org.apache.pdfbox.pdmodel.PDResources.getXObjects(),6,278,9,55,5,9,35,6,14,12,1,4,0,34
+"org.apache.pdfbox.pdmodel.PDResources.setFonts(Map<String, PDFont>)",7,143,13,48,3,4,14,2,5,6,0,2,0,10
+"org.apache.pdfbox.pdmodel.PDResources.setXObjects(Map<String, PDXObject>)",6,39,6,8,3,4,14,2,5,6,0,0,0,25
+org.apache.pdfbox.pdmodel.PDResources.getGraphicsStates(),12,6,0,0,2,4,17,4,4,8,1,2,0,7
+org.apache.pdfbox.pdmodel.PDResources.getProperties(),12,133,9,33,2,2,10,2,5,3,0,0,0,3
+org.apache.pdfbox.pdmodel.PDResources.setProperties(PDPropertyList),12,133,9,33,2,2,4,1,5,2,0,0,0,2
+org.apache.pdfbox.pdmodel.PDResources.addFont(PDFont),9,154,2,4,13,48,4,1,2,4,0,3,0,9
+"org.apache.pdfbox.pdmodel.PDResources.addFont(PDFont, String)",8,235,8,32,13,48,16,3,6,5,0,0,0,9
+"org.apache.pdfbox.pdmodel.PDResources.addFontToDictionary(PDFont, String)",8,147,14,48,4,3,5,1,5,2,0,0,0,7
+"org.apache.pdfbox.pdmodel.PDResources.addXObject(PDXObject, String)",7,76,6,18,6,9,16,3,8,6,0,1,0,33
+"org.apache.pdfbox.pdmodel.PDResources.addXObjectToDictionary(PDXObject, String)",7,44,7,8,4,3,5,1,5,2,0,0,0,22
+"org.apache.pdfbox.pdmodel.PDResources.reverseMap(Map<String, T>, Class<T>)",0,10,4,3,0,0,9,2,4,6,1,0,0,35
+"org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(float, float)",1,179,8,44,3,3,8,1,6,5,0,1,0,8
+org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(BoundingBox),1,168,7,52,3,3,8,1,6,9,0,0,0,2
+org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray),3,215,6,79,3,3,9,1,23,8,0,23,1,212
+org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX(),1,486,11,108,1,2,4,1,12,3,0,0,0,136
+org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY(),1,366,11,87,1,2,4,1,9,3,0,0,0,141
+org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX(),1,336,11,81,1,2,4,1,7,3,0,0,0,122
+org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY(),1,476,11,102,1,2,4,1,10,3,0,0,0,127
+org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth(),2,596,11,155,2,2,4,1,21,3,0,0,0,121
+org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight(),2,545,11,136,2,2,4,1,21,3,0,0,0,126
+org.apache.pdfbox.pdmodel.common.PDRectangle.createDimension(),3,137,11,32,3,4,4,1,5,4,0,0,0,11
+org.apache.pdfbox.pdmodel.font.PDFont.getAdobeFontMetrics(),12,4,0,0,2,2,23,1,0,4,0,1895,0,2
+"org.apache.pdfbox.pdmodel.font.PDFont.addAdobeFontMetric(Map<String, FontMetric>, String)",12,4,1,1,2,1,5,1,3,1,0,1351,0,15
+"org.apache.pdfbox.pdmodel.font.PDFont.addAdobeFontMetric(Map<String, FontMetric>, String, String)",12,4,1,2,1,1,24,3,6,6,0,1895,0,19
+org.apache.pdfbox.pdmodel.font.PDFont.PDFont(),2,5,1,1,2,2,5,1,4,4,0,0,0,14
+org.apache.pdfbox.pdmodel.font.PDFont.PDFont(COSDictionary),0,3,1,1,1,1,5,1,2,3,0,58,0,14
+org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor(),4,351,8,96,4,4,20,4,29,6,0,0,0,54
+"org.apache.pdfbox.pdmodel.font.PDFont.getCodeFromArray(byte[], int, int)",0,127,7,49,0,0,10,2,12,1,1,0,0,1073
+org.apache.pdfbox.pdmodel.font.PDFont.getFontWidthFromAFMFile(int),12,31,6,5,4,4,11,2,3,4,0,0,0,12
+org.apache.pdfbox.pdmodel.font.PDFont.getAFM(),4,75,8,20,3,4,26,6,9,9,0,0,0,31
+org.apache.pdfbox.pdmodel.font.PDFont.getEncoding(),2,42,7,13,2,1,8,2,5,3,0,0,0,15
+org.apache.pdfbox.pdmodel.font.PDFont.setEncoding(COSBase),2,104,8,37,2,1,5,1,5,2,0,0,0,14
+"org.apache.pdfbox.pdmodel.font.PDFont.cmapEncoding(int, int, boolean, CMap)",2,10,3,4,0,0,17,4,8,3,0,1,0,512
+"org.apache.pdfbox.pdmodel.font.PDFont.encode(byte[], int, int)",2,79,6,33,2,4,25,6,11,5,0,2,0,529
+"org.apache.pdfbox.pdmodel.font.PDFont.parseCmap(String, InputStream)",4,48,7,12,0,0,21,4,8,6,0,37,0,9
+org.apache.pdfbox.pdmodel.font.PDFont.getSubType(),3,35,4,11,3,3,12,2,8,8,0,0,0,31
+org.apache.pdfbox.pdmodel.font.PDFont.isType1Font(),4,22,4,7,4,3,5,1,3,2,0,0,0,31
+org.apache.pdfbox.pdmodel.font.PDFont.isSymbolicFont(),12,51,10,6,5,5,8,2,1,3,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFont.getBaseFont(),3,130,8,43,3,3,4,1,11,2,0,0,0,17
+org.apache.pdfbox.pdmodel.font.PDFont.setBaseFont(String),3,114,7,47,3,2,4,1,6,1,0,0,0,14
+org.apache.pdfbox.pdmodel.font.PDFont.getFirstChar(),5,117,11,27,5,2,4,1,5,2,0,0,0,121
+org.apache.pdfbox.pdmodel.font.PDFont.getLastChar(),5,117,11,27,5,2,4,1,5,2,0,0,0,121
+org.apache.pdfbox.pdmodel.font.PDFont.getWidths(),2,115,11,24,2,5,16,3,6,5,0,1,0,107
+org.apache.pdfbox.pdmodel.font.PDFont.hashCode(),12,2,0,0,1,1,4,1,0,3,0,0,0,25
+org.apache.pdfbox.pdmodel.font.PDFont.getFontWidth(int),6,82,9,16,5,9,26,5,8,8,0,2,0,121
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.PDGraphicsState(PDRectangle),7,69,10,13,3,6,9,2,3,10,0,9,0,11
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.clone(),3,163,10,36,7,11,25,4,11,14,0,1,0,19
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentClippingPath(Shape),0,46,8,11,0,0,19,3,4,3,0,0,0,19
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokeJavaComposite(),0,55,5,26,0,0,3,1,5,2,0,0,0,15
+org.apache.pdfbox.pdmodel.text.PDTextState.clone(),3,42,8,11,0,0,11,2,1,2,0,0,0,19
+org.apache.pdfbox.util.ResourceLoader.loadResource(String),0,56,7,13,0,0,39,8,10,7,0,40,0,37
+"org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)",1,16,4,7,1,1,29,4,9,6,0,14,0,9
+"org.apache.pdfbox.util.ResourceLoader.loadProperties(String, Properties)",12,2,0,0,1,1,20,3,2,4,0,1,0,1
+"org.apache.pdfbox.util.TextPosition.TextPosition(int, float, float, Matrix, float, float, float, float, float, String, int[], PDFont, float, int)",0,73,6,31,0,0,40,3,18,15,0,0,0,527
+org.apache.pdfbox.util.TextPosition.getDir(),1,12,3,4,1,1,24,5,5,3,0,0,0,40
+org.apache.pdfbox.util.TextPosition.getXRot(float),1,5,2,2,1,1,20,5,6,2,0,0,0,547
+org.apache.pdfbox.util.TextPosition.getX(),3,97,5,39,2,1,8,2,7,3,0,0,0,1581
+org.apache.pdfbox.util.TextPosition.getXDirAdj(),1,80,5,39,2,2,4,1,6,3,0,0,0,20
+org.apache.pdfbox.util.TextPosition.getYLowerLeftRot(float),1,5,2,2,1,1,20,5,6,2,0,0,0,547
+org.apache.pdfbox.util.TextPosition.getY(),3,97,5,39,2,1,15,3,9,3,0,0,0,1581
+org.apache.pdfbox.util.TextPosition.getYDirAdj(),1,76,5,38,2,2,12,2,7,3,0,0,0,20
+org.apache.pdfbox.util.TextPosition.getWidthRot(float),2,7,3,2,1,2,11,2,6,4,0,0,0,1056
+org.apache.pdfbox.util.TextPosition.getWidth(),3,96,5,45,2,2,4,1,5,2,0,1,0,1056
+org.apache.pdfbox.util.TextPosition.isDiacritic(),3,40,5,14,1,1,12,2,5,5,0,6,1,1044
+org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument),3,331,8,83,5,2,4,1,16,4,0,2,0,64
+org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream),0,119,8,35,0,0,4,1,14,2,0,0,0,84
+"org.apache.pdfbox.pdmodel.common.PDStream.PDStream(PDDocument, InputStream, boolean)",3,474,10,127,5,4,34,5,15,10,1,1,0,8
+org.apache.pdfbox.pdmodel.common.PDStream.addCompression(),4,459,7,131,4,10,10,2,7,4,0,0,0,18
+org.apache.pdfbox.pdmodel.common.PDStream.createFromCOS(COSBase),4,93,8,29,5,3,24,5,5,7,0,0,0,50
+org.apache.pdfbox.pdmodel.common.PDStream.createOutputStream(),3,325,8,82,3,1,4,1,11,2,0,0,0,30
+org.apache.pdfbox.pdmodel.common.PDStream.createInputStream(),4,706,11,123,6,7,4,1,18,2,0,11,0,49
+org.apache.pdfbox.pdmodel.common.PDStream.getPartiallyFilteredStream(List<String>),4,55,6,10,5,11,26,3,5,15,1,1,0,16
+org.apache.pdfbox.pdmodel.common.PDStream.getLength(),12,7,0,0,5,2,4,1,3,2,0,0,0,1
+org.apache.pdfbox.pdmodel.common.PDStream.getFilters(),3,84,6,22,3,5,16,3,7,4,0,0,0,77
+org.apache.pdfbox.pdmodel.common.PDStream.setFilters(List<COSName>),2,57,6,18,2,7,5,1,5,2,0,0,0,23
+org.apache.pdfbox.pdmodel.common.PDStream.getByteArray(),5,354,9,79,7,7,23,3,13,7,1,24,2,42
+org.apache.pdfbox.pdmodel.common.PDStream.getInputStreamAsString(),6,98,9,17,8,7,5,1,2,3,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.PDColorState(),3,12,2,3,5,3,4,1,2,2,0,1,0,61
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.clone(),3,42,6,9,6,5,9,1,3,7,0,1,0,38
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getJavaColor(),3,63,5,28,4,4,8,2,7,4,0,4,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.createColor(),3,12,1,1,3,5,88,12,13,12,0,4,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setColorSpaceValue(float[]),2,140,10,24,4,3,7,1,23,4,0,1,0,61
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getCOSObject(),2,27,3,12,2,2,4,1,7,3,0,0,0,35
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace(),0,193,9,39,1,1,6,2,18,3,0,0,0,17
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toString(),1,123,13,22,1,2,4,2,4,3,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.PDXObjectForm(PDStream),3,253,7,64,3,3,5,1,8,4,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setResources(PDResources),3,253,7,64,3,3,4,1,7,2,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setBBox(PDRectangle),3,253,7,64,2,4,11,2,7,4,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.getMatrix(),2,217,7,58,2,6,16,2,5,7,0,0,0,1
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.PDXObjectImage(PDStream, String)",3,199,11,37,3,2,5,1,9,3,0,0,0,61
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.PDXObjectImage(PDDocument, String)",6,53,7,9,7,4,6,1,6,5,0,0,0,18
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getSMaskImage(),6,62,6,8,6,9,13,2,19,5,0,1,0,141
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.applyMasks(BufferedImage),6,169,9,27,7,14,28,5,5,11,0,3737,0,81
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.hasMask(),12,110,8,16,7,9,4,1,1,4,0,0,0,25
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getHeight(),5,560,12,92,5,2,4,1,22,3,0,0,0,141
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setHeight(int),3,70,7,16,3,3,4,1,5,2,0,0,0,35
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getWidth(),5,560,12,92,5,2,4,1,22,3,0,0,0,141
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setWidth(int),3,70,7,16,3,3,4,1,5,2,0,0,0,35
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getBitsPerComponent(),12,144,9,29,4,3,4,1,5,3,0,0,0,73
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setBitsPerComponent(int),3,70,7,16,3,3,4,1,5,2,0,0,0,35
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getColorSpace(),6,183,9,36,6,12,36,6,13,8,0,12,0,114
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.setColorSpace(PDColorSpace),3,70,7,16,3,4,9,2,5,3,0,0,0,35
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getImageMask(),5,178,10,36,5,2,4,1,5,3,0,0,0,123
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getDecode(),2,153,9,40,2,2,9,2,6,3,0,0,0,49
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.getMask(),6,148,9,32,2,2,9,2,6,3,0,0,0,106
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage.extractAlphaImage(BufferedImage),0,69,8,19,0,0,11,2,6,7,0,14,0,6
+org.apache.pdfbox.preflight.PreflightContext.PreflightContext(DataSource),0,17,7,5,0,0,4,1,3,2,0,0,0,33
+org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError),1,631,9,157,2,3,5,1,96,1,0,0,0,22
+org.apache.pdfbox.preflight.PreflightPath.pushObject(Object),1,10,4,5,0,0,11,2,6,3,0,0,0,5
+"org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class<T>)",1,3,2,1,0,0,8,2,4,3,0,0,0,1
+org.apache.pdfbox.preflight.PreflightPath.getClosestTypePosition(Class<T>),0,74,7,25,0,0,11,3,6,4,1,0,0,5
+org.apache.pdfbox.preflight.PreflightPath.peek(),0,450,12,90,0,0,4,1,11,2,0,0,0,1
+org.apache.pdfbox.preflight.PreflightPath.pop(),1,10,4,5,0,0,5,1,4,2,0,0,0,1
+org.apache.pdfbox.preflight.PreflightPath.clear(),-1,1,0,0,0,0,5,1,3,1,0,0,0,1
+org.apache.pdfbox.preflight.PreflightPath.size(),12,72,7,25,0,0,4,1,3,2,0,0,0,7
+org.apache.pdfbox.preflight.PreflightPath.isEmpty(),0,450,12,90,0,0,4,1,11,2,0,0,0,3
+org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean),0,9,3,3,0,0,4,1,8,2,0,0,0,37
+org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError),0,6,2,3,1,1,8,2,9,3,0,0,0,29
+org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDStream),4,31,5,8,4,2,4,1,3,2,0,0,0,7
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDDocument, InputStream)",12,174,2,1,10,32,13,2,16,7,0,19,0,2
+org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.setPropertiesFromAWT(BufferedImage),4,189,11,33,4,5,21,3,4,9,0,0,0,12
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDDocument, BufferedImage)",12,47,0,0,6,14,5,1,11,4,0,355,0,8
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.PDJpeg(PDDocument, BufferedImage, float)",12,46,0,0,6,14,5,1,5,4,0,24,0,2
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.createImageStream(PDDocument, BufferedImage, float)",12,47,1,1,7,14,37,4,17,20,0,355,0,10
+org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.getRGBImage(),9,186,7,9,9,33,60,10,3,20,0,825,0,56
+org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.removeAllFiltersButDCT(OutputStream),9,166,10,30,6,11,11,2,4,5,1,2,0,16
+org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg.clear(),12,2,0,0,1,1,5,1,0,2,0,0,0,1
+org.apache.pdfbox.encoding.DictionaryEncoding.DictionaryEncoding(COSDictionary),2,68,7,18,2,7,28,5,11,10,1,7,0,4
+org.apache.pdfbox.encoding.Encoding.loadGlyphList(String),12,2,0,0,1,1,69,11,6,23,2,98,18,2
+org.apache.pdfbox.encoding.Encoding.getCodeToNameMap(),5,71,5,31,0,0,4,1,3,2,0,0,0,3
+org.apache.pdfbox.encoding.Encoding.getNameToCodeMap(),5,55,9,13,0,0,4,1,2,2,0,0,0,3
+"org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)",0,58,8,15,0,0,5,1,13,1,0,16,8,3395
+org.apache.pdfbox.encoding.Encoding.getName(int),0,87,10,25,0,0,4,1,10,2,0,0,0,44
+org.apache.pdfbox.encoding.Encoding.getCharacterForName(String),0,66,9,15,0,0,9,2,5,4,0,0,0,2
+org.apache.pdfbox.encoding.Encoding.getCharacter(int),1,9,2,4,1,2,9,2,3,3,0,0,0,19
+org.apache.pdfbox.encoding.Encoding.getCharacter(String),0,117,9,39,0,0,69,11,7,16,1,0,0,115
+org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font(),3,93,8,28,3,2,5,1,7,3,0,0,0,14
+org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font(COSDictionary),6,138,8,33,10,15,20,4,4,8,0,111,0,5
+org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font(String),12,15,0,0,4,5,7,1,2,6,0,143,1,14
+org.apache.pdfbox.pdmodel.font.PDType1Font.determineEncoding(),12,61,0,0,7,23,15,3,0,6,0,23,0,5
+org.apache.pdfbox.pdmodel.font.PDType1Font.getEncodingFromFont(boolean),12,61,4,5,7,13,147,26,4,36,3,0,0,5
+"org.apache.pdfbox.pdmodel.font.PDType1Font.encode(byte[], int, int)",12,11,0,0,3,5,12,3,4,4,0,2,0,517
+org.apache.pdfbox.pdmodel.font.PDType1Font.clear(),12,4,1,1,1,2,9,2,2,3,0,0,0,5
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.PDFontDescriptorDictionary(COSDictionary),4,13,5,4,0,0,4,1,2,2,0,0,0,10
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFlags(),12,7,0,0,5,2,8,2,3,3,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFontBoundingBox(),6,67,5,30,3,4,10,2,3,3,0,0,0,5
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getCapHeight(),12,5,0,0,3,2,8,2,4,4,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getXHeight(),12,5,0,0,3,2,8,2,4,4,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getMissingWidth(),12,5,0,0,3,2,4,1,2,2,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFontFile(),2,75,8,26,2,2,10,2,7,3,0,0,0,3
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFontFile2(),2,210,10,44,2,2,10,2,10,3,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.getFontFile3(),2,109,8,21,2,2,10,2,9,3,0,0,0,6
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic(),2,60,9,17,2,1,4,1,6,2,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isItalic(),12,5,2,1,2,1,4,1,2,2,0,0,0,11
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isForceBold(),12,5,2,1,2,1,4,1,2,2,0,0,0,11
+org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int),1,11,1,9,1,1,4,1,10,2,0,0,0,24
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.PDNumberTreeNode(Class<? extends COSObjectable>),12,2,0,0,1,1,5,1,2,4,0,0,0,15
+"org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.PDNumberTreeNode(COSDictionary, Class<? extends COSObjectable>)",0,285,7,85,0,0,5,1,6,3,0,0,0,5
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getKids(),2,20,5,4,2,5,15,3,5,8,1,0,0,14
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setKids(List<? extends PDNumberTreeNode>),12,25,0,0,4,12,17,3,9,9,0,0,0,12
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getValue(Integer),12,18,0,0,4,9,30,5,3,10,1,2,0,5
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getNumbers(),2,20,5,4,2,5,18,3,4,10,1,0,0,9
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.convertCOSToPD(COSBase),2,7,3,4,0,0,14,2,4,6,0,0,0,24
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.createChildNode(COSDictionary),2,8,3,4,1,1,4,1,3,2,0,0,0,3
+"org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setNumbers(Map<Integer, ? extends COSObjectable>)",12,16,0,0,4,6,31,4,8,14,1,1,0,11
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getUpperLimit(),2,34,5,14,3,3,10,2,5,5,0,0,0,20
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setUpperLimit(Integer),3,28,5,6,3,6,19,3,5,7,0,0,0,17
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getLowerLimit(),2,34,5,14,3,3,10,2,5,5,0,0,0,20
+org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.setLowerLimit(Integer),3,28,5,6,3,6,19,3,5,7,0,0,0,17
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(),3,189,8,66,1,1,5,1,4,5,0,0,0,15
+"org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List<E>, COSArray)",0,154,6,54,0,0,5,1,33,3,0,0,0,115
+"org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(E, COSBase, COSDictionary, COSName)",1,41,4,15,1,2,9,1,13,9,0,0,0,59
+org.apache.pdfbox.pdmodel.common.COSArrayList.size(),-1,1,0,0,0,0,4,1,1,2,0,0,0,608
+org.apache.pdfbox.pdmodel.common.COSArrayList.contains(Object),-1,1,0,0,0,0,4,1,2,2,0,0,0,115
+org.apache.pdfbox.pdmodel.common.COSArrayList.iterator(),-1,1,0,0,0,0,4,1,1,2,0,0,0,62
+org.apache.pdfbox.pdmodel.common.COSArrayList.add(E),12,8,0,0,2,6,26,5,5,9,0,0,0,52
+org.apache.pdfbox.pdmodel.common.COSArrayList.convertFloatCOSArrayToList(COSArray),2,8,3,1,1,4,14,3,2,8,1,1,0,5
+org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List<?>),1,81,5,29,1,6,53,10,32,17,1,0,0,43
+org.apache.pdfbox.pdmodel.common.COSArrayList.get(int),-1,1,0,0,0,0,4,1,2,2,0,0,0,156
+"org.apache.pdfbox.util.operator.BeginText.process(PDFOperator, List<COSBase>)",12,5,0,0,2,3,5,1,1,3,0,0,0,16
+org.apache.pdfbox.encoding.PDFBoxCharsetProvider.PDFBoxCharsetProvider(),-1,1,0,0,0,0,12,3,3,5,2,0,0,23
+org.apache.pdfbox.encoding.PDFBoxCharsetProvider.charsetForName(String),-1,1,0,0,0,0,4,1,2,2,0,0,0,23
+org.apache.pdfbox.preflight.exception.MissingValidationProcessException.MissingValidationProcessException(String),1,4,2,1,1,1,5,1,2,3,0,0,0,5
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCMYK.ColorSpaceCMYK(),12,2,1,1,0,0,4,1,3,2,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCMYK.toRGB(float[]),12,3,2,1,0,0,12,2,3,1,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(COSStream),3,10,4,1,2,3,5,1,4,5,0,0,0,62
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.PDXObject(PDStream),2,10,4,2,2,2,5,1,5,4,0,0,0,18
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSObject(),12,148,10,29,1,1,4,1,2,2,0,0,0,39
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream(),1,487,10,141,1,1,4,1,49,2,0,0,0,1153
+org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.createXObject(COSBase),5,103,6,20,5,11,4,1,6,2,0,5,0,43
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.commonXObjectCreation(COSBase, boolean)",4,33,1,2,4,11,43,8,11,11,0,5,0,43
+org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter(),1,4,2,2,0,0,3,1,1,1,0,0,0,104
+"org.apache.pdfbox.filter.CCITTFaxDecodeFilter.decode(InputStream, OutputStream, COSDictionary, int)",12,39,0,0,3,16,60,9,15,20,0,75,1,5
+org.apache.pdfbox.filter.CCITTFaxDecodeFilter.invertBitmap(byte[]),12,39,4,16,0,0,7,2,3,1,1,1,1,5
+org.apache.pdfbox.io.IOUtils.toByteArray(InputStream),1,62,7,18,1,1,6,1,8,4,0,53,0,15
+"org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)",0,239,10,45,0,0,12,2,8,3,1,53,0,16
+"org.apache.pdfbox.io.IOUtils.populateBuffer(InputStream, byte[])",12,110,9,25,0,0,15,3,5,2,1,0,0,28
+org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream),0,191,9,75,0,0,8,3,17,1,0,0,0,156
+org.apache.pdfbox.io.IOUtils.closeQuietly(Reader),-1,1,0,0,0,0,8,3,2,1,0,0,0,1294
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CCITTFaxG31DDecodeInputStream(InputStream, int, int, boolean)",12,4,1,1,1,2,9,1,7,9,0,0,0,7
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.CCITTFaxG31DDecodeInputStream(InputStream, int, boolean)",12,39,4,15,2,2,4,1,5,2,0,0,0,6
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.read(),12,12,0,0,4,5,13,3,2,5,0,50,3,13045
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.decodeLine(),12,12,2,2,3,5,62,12,12,9,1,46,3,318
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.writeRun(int, int)",12,6,1,1,2,3,10,2,6,3,0,5,1,8749
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.readBit(),1,6,2,2,1,1,13,4,6,3,0,6,4,51253
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.readByte(),0,10,4,4,0,0,5,1,3,3,0,1,1,6412
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildLookupTree(),12,9,0,0,2,4,12,1,8,4,0,2,0,1
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpTerminating(short[], NonLeafLookupTreeNode, boolean)",12,9,3,2,2,2,8,3,5,2,1,1,0,2
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUp(short[], NonLeafLookupTreeNode)",12,9,3,2,2,2,8,2,4,2,1,0,0,2
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUpLong(short[], NonLeafLookupTreeNode)",12,9,3,2,2,2,8,2,4,2,1,0,0,2
+"org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.addLookupTreeNode(short, NonLeafLookupTreeNode, LookupTreeNode)",12,9,2,4,1,2,32,5,7,5,1,1,0,210
+org.apache.pdfbox.io.ccitt.FillOrderChangeInputStream.FillOrderChangeInputStream(InputStream),12,39,4,16,0,0,4,1,2,2,0,0,0,1
+"org.apache.pdfbox.io.ccitt.FillOrderChangeInputStream.read(byte[], int, int)",-1,1,0,0,0,0,13,3,4,3,1,51,0,5
+"org.apache.pdfbox.filter.TIFFFaxDecoder.TIFFFaxDecoder(int, int, int)",12,39,4,16,0,0,9,1,4,8,0,0,0,5
+"org.apache.pdfbox.filter.TIFFFaxDecoder.decodeT6(byte[], byte[], int, int, long, boolean)",12,39,4,14,2,6,139,22,13,16,4,20,11,4
+"org.apache.pdfbox.filter.TIFFFaxDecoder.setToBlack(byte[], int, int, int)",0,12,2,8,0,0,28,5,7,1,3,1,1,5417
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeWhiteCodeWord(),12,12,3,5,1,3,32,6,4,5,1,1,0,1039
+org.apache.pdfbox.filter.TIFFFaxDecoder.decodeBlackCodeWord(),12,12,3,5,1,3,49,7,6,5,1,1,0,1039
+"org.apache.pdfbox.filter.TIFFFaxDecoder.getNextChangingElement(int, boolean, int[])",12,12,3,7,0,0,22,6,7,2,1,1,1,10743
+org.apache.pdfbox.filter.TIFFFaxDecoder.nextNBits(int),0,9,2,4,0,0,60,10,13,4,0,0,0,1427
+org.apache.pdfbox.filter.TIFFFaxDecoder.nextLesserThan8Bits(int),0,12,2,6,0,0,41,7,15,4,0,2,2,11907
+org.apache.pdfbox.filter.TIFFFaxDecoder.updatePointer(int),0,12,2,6,0,0,9,2,7,2,0,1,1,12919
+org.apache.pdfbox.encoding.StandardEncoding.StandardEncoding(),1,10,2,6,1,1,152,1,2,2,0,0,0,1
+org.apache.pdfbox.encoding.WinAnsiEncoding.WinAnsiEncoding(),1,127,10,43,1,1,228,3,5,4,1,29,5,15
+"org.apache.pdfbox.util.operator.pagedrawer.Invoke.process(PDFOperator, List<COSBase>)",12,140,0,0,9,29,66,9,4,43,0,3129,0,15
+org.apache.pdfbox.filter.FilterManager.FilterManager(),1,53,7,13,1,3,29,1,20,4,0,15,1,104
+org.apache.pdfbox.filter.FilterManager.getFilters(),-1,1,0,0,0,0,4,1,2,2,0,0,0,20
+"org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)",1,4,2,2,0,0,4,1,4,1,0,2,0,1768
+org.apache.pdfbox.filter.FilterManager.getFilter(COSName),1,36,4,13,1,1,9,2,6,3,0,0,0,65
+"org.apache.pdfbox.filter.FlateFilter.decode(InputStream, OutputStream, COSDictionary, int)",12,12,0,0,3,7,56,8,12,20,0,22,0,80
+"org.apache.pdfbox.filter.FlateFilter.decompress(InputStream, OutputStream)",12,12,4,6,0,0,27,5,3,9,1,18,1,80
+"org.apache.pdfbox.filter.FlateFilter.encode(InputStream, OutputStream, COSDictionary, int)",-1,1,0,0,0,0,17,3,3,7,1,66,0,60
+"org.apache.pdfbox.filter.LZWFilter.decode(InputStream, OutputStream, COSDictionary, int)",12,14,0,0,3,7,46,7,10,17,0,7096,0,41
+"org.apache.pdfbox.filter.LZWFilter.doLZWDecode(InputStream, OutputStream)",12,14,4,6,1,2,59,8,7,10,3,7092,570,41
+"org.apache.pdfbox.filter.LZWFilter.encode(InputStream, OutputStream, COSDictionary, int)",12,4,0,0,1,3,64,7,5,9,2,1005920,545,41
+"org.apache.pdfbox.filter.LZWFilter.findPatternCode(ArrayList, byte[])",12,4,2,2,0,0,29,7,5,4,1,998214,368922,840392
+org.apache.pdfbox.filter.LZWFilter.createCodeTable(),0,5,2,2,0,0,14,2,2,3,1,95,18,430
+org.apache.pdfbox.filter.LZWFilter.calculateChunk(int),0,5,2,2,0,0,16,4,3,1,0,166,166,1510929
+org.apache.pdfbox.filter.ASCIIHexFilter.isWhitespace(int),12,3,2,1,0,0,4,1,2,1,0,68,68,821112
+"org.apache.pdfbox.filter.ASCIIHexFilter.decode(InputStream, OutputStream, COSDictionary, int)",12,3,0,0,1,2,39,8,4,6,2,861,408,40
+"org.apache.pdfbox.filter.ASCIIHexFilter.encode(InputStream, OutputStream, COSDictionary, int)",-1,1,0,0,0,0,11,2,3,3,1,773,192,40
+"org.apache.pdfbox.filter.ASCII85Filter.decode(InputStream, OutputStream, COSDictionary, int)",12,5,0,0,2,3,23,3,2,5,1,294,0,40
+"org.apache.pdfbox.filter.ASCII85Filter.encode(InputStream, OutputStream, COSDictionary, int)",12,6,0,0,2,3,13,2,2,5,1,669,0,40
+org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter(),1,4,2,2,0,0,3,1,1,1,0,0,0,104
+"org.apache.pdfbox.filter.CryptFilter.decode(InputStream, OutputStream, COSDictionary, int)",12,6,0,0,2,4,14,2,6,5,0,0,0,20
+"org.apache.pdfbox.filter.CryptFilter.encode(InputStream, OutputStream, COSDictionary, int)",12,6,0,0,2,4,14,2,6,5,0,1,0,20
+org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.PDPropertyList(),12,133,9,34,1,1,4,1,2,3,0,0,0,2
+org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.PDPropertyList(COSDictionary),12,4,3,1,0,0,4,1,2,2,0,0,0,2
+org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.getOptionalContentGroup(COSName),12,133,9,31,2,4,12,3,7,5,0,0,0,4
+"org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.putMapping(COSName, PDOptionalContentGroup)",12,133,9,32,3,2,4,1,4,2,0,0,0,4
+"org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList.putMapping(COSName, COSDictionary)",12,5,2,1,2,1,4,1,4,1,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(String),12,133,9,32,3,3,6,1,6,5,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.PDOptionalContentGroup(COSDictionary),2,18,4,6,1,2,9,2,6,5,0,0,0,10
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.getName(),12,8,1,1,3,3,4,1,5,2,0,0,0,6
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup.setName(String),12,7,2,1,3,2,4,1,4,1,0,0,0,4
+"org.apache.pdfbox.pdmodel.PDDocumentNameDictionary.PDDocumentNameDictionary(PDDocumentCatalog, COSDictionary)",2,4,3,1,0,0,5,1,3,3,0,0,0,2
+org.apache.pdfbox.pdmodel.PDDocumentNameDictionary.getEmbeddedFiles(),2,528,11,110,2,2,10,2,6,3,0,4,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB.createColorSpace(),-1,1,0,0,0,0,4,1,1,2,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB.createColorModel(int),12,3,0,0,2,1,12,1,3,3,0,0,0,16
+org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.PDAction(),4,13,2,3,5,2,5,1,4,4,0,0,0,14
+org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.setType(String),4,9,2,1,4,2,4,1,3,1,0,0,0,14
+org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.setSubType(String),4,15,3,5,4,2,4,1,7,1,0,0,0,14
+org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.setNext(List),12,13,0,0,3,8,4,1,4,2,0,3,0,2
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionGoTo.PDActionGoTo(),12,67,5,22,5,3,5,1,5,3,0,0,0,3
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionGoTo.setDestination(PDDestination),12,67,5,24,4,3,4,1,4,2,0,0,0,2
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.PDNameTreeNode(Class<? extends COSObjectable>),1,5,1,3,1,1,5,1,5,4,0,0,0,10
+"org.apache.pdfbox.pdmodel.common.PDNameTreeNode.PDNameTreeNode(COSDictionary, Class<? extends COSObjectable>)",0,9,3,5,0,0,5,1,7,3,0,0,0,7
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setParent(PDNameTreeNode),12,34,3,3,4,12,5,1,2,2,0,3,0,8
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getKids(),2,164,10,29,2,5,15,3,6,8,1,0,0,14
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setKids(List<? extends PDNameTreeNode>),12,269,16,46,4,13,19,4,7,6,1,3,0,6
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.calculateLimits(),12,36,3,3,3,12,44,5,8,14,0,3,0,18
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getNames(),2,526,11,108,2,5,19,3,7,9,1,2,0,10
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.createChildNode(COSDictionary),2,8,3,4,1,1,4,1,3,2,0,0,0,4
+"org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setNames(Map<String, ? extends COSObjectable>)",12,269,16,46,4,9,21,3,6,11,1,0,0,4
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getUpperLimit(),3,29,4,8,4,2,10,2,5,3,0,0,0,9
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setUpperLimit(String),12,28,4,7,2,5,12,2,4,5,0,0,0,8
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.getLowerLimit(),3,29,4,8,4,2,10,2,5,3,0,0,0,9
+org.apache.pdfbox.pdmodel.common.PDNameTreeNode.setLowerLimit(String),12,28,4,7,2,5,12,2,4,5,0,0,0,8
+org.apache.pdfbox.pdfparser.EndstreamOutputStream.EndstreamOutputStream(OutputStream),0,150,9,29,0,0,4,1,4,2,0,0,0,98
+"org.apache.pdfbox.pdfparser.EndstreamOutputStream.write(byte[], int, int)",-1,1,0,0,0,0,53,12,8,6,1,0,0,174
+org.apache.pdfbox.pdfparser.EndstreamOutputStream.flush(),-1,1,0,0,0,0,11,2,3,5,0,0,0,98
+org.apache.pdfbox.pdmodel.common.COSStreamArray.COSStreamArray(COSArray),3,76,7,26,4,4,9,2,4,7,0,0,0,5
+org.apache.pdfbox.pdmodel.common.COSStreamArray.get(int),4,47,7,13,1,1,4,1,3,2,0,0,0,5
+org.apache.pdfbox.pdmodel.common.COSStreamArray.getStreamCount(),4,47,7,13,1,1,4,1,2,2,0,0,0,7
+org.apache.pdfbox.pdmodel.common.COSStreamArray.getItem(COSName),12,2,0,0,1,1,4,1,2,2,0,0,0,9
+org.apache.pdfbox.pdmodel.common.COSStreamArray.accept(ICOSVisitor),12,3,0,0,2,1,4,1,2,2,0,1,0,3
+org.apache.pdfbox.pdmodel.common.COSStreamArray.appendStream(COSStream),6,51,6,18,1,1,4,1,3,1,0,0,0,2
+"org.apache.pdfbox.pdmodel.common.COSDictionaryMap.convert(Map<?, ?>)",2,15,2,7,2,4,12,2,8,10,1,0,0,35
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.getISOBytes(String),-1,1,0,0,0,0,11,2,3,3,0,0,0,45
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.PDPageContentStream(PDDocument, PDPage)",8,437,11,93,7,19,4,1,12,2,0,0,0,2
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.PDPageContentStream(PDDocument, PDPage, boolean, boolean)",7,577,13,78,6,19,5,1,29,2,0,11,0,30
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.PDPageContentStream(PDDocument, PDPage, boolean, boolean, boolean)",6,233,16,43,5,19,73,10,11,27,0,11,0,30
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.beginText(),9,408,11,98,1,1,9,2,16,3,0,0,0,9
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.endText(),9,408,11,98,1,1,9,2,16,3,0,0,0,9
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setFont(PDFont, float)",9,408,8,86,14,48,10,1,19,5,0,3,0,9
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawXObject(PDXObject, float, float, float, float)",9,442,13,76,8,9,5,1,22,2,0,8,0,31
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawXObject(PDXObject, AffineTransform)",8,134,8,22,7,9,26,3,9,8,0,8,0,33
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.moveTextPositionByAmount(float, float)",1,394,11,101,1,3,12,2,16,4,0,1,0,14
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setTextMatrix(AffineTransform),12,5,0,0,2,2,9,2,4,3,0,0,0,1
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.concatenate2CTM(AffineTransform),8,53,8,9,2,2,5,1,3,2,0,6,0,33
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.drawString(String),9,408,11,95,2,4,13,2,18,7,0,0,0,14
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setStrokingColor(float[]),12,4,0,0,1,3,17,3,6,3,1,0,0,1
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setNonStrokingColor(Color),12,7,0,0,2,3,22,4,10,10,0,4,0,7
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setStrokingColor(int, int, int, int)",12,4,0,0,1,3,12,1,6,3,0,0,0,1
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setNonStrokingColor(int, int, int)",1,235,16,43,1,3,10,1,7,3,0,0,0,6
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.setNonStrokingColor(int, int, int, int)",12,4,0,0,1,3,12,1,6,3,0,0,0,1
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.addRect(float, float, float, float)",12,6,2,1,1,3,16,2,8,4,0,0,0,3
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.fillRect(float, float, float, float)",12,112,8,27,2,3,9,2,8,3,0,0,0,3
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.fill(int),1,11,3,5,1,1,19,4,8,2,0,0,0,3
+"org.apache.pdfbox.pdmodel.edit.PDPageContentStream.beginMarkedContentSequence(COSName, COSName)",12,133,9,32,3,3,8,1,6,3,0,0,0,4
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.endMarkedContentSequence(),12,133,9,34,1,1,4,1,3,1,0,0,0,4
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.saveGraphicsState(),1,275,11,51,1,1,4,1,4,1,0,0,0,33
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.restoreGraphicsState(),1,89,8,22,1,1,4,1,3,1,0,0,0,33
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(String),0,178,15,53,0,0,4,1,7,2,0,2,0,363
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(byte[]),0,226,15,52,0,0,4,1,47,1,0,0,0,587
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(int),0,215,15,52,0,0,4,1,34,1,0,0,0,409
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(double),0,16,2,13,0,0,4,1,15,2,0,7,0,230
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendRawCommands(float),0,165,15,48,0,0,4,1,14,2,0,2,0,49
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendCOSName(COSName),2,7,2,2,2,1,4,1,4,1,0,0,0,8
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.appendMatrix(AffineTransform),1,6,2,2,1,2,10,2,4,3,1,6,0,34
+org.apache.pdfbox.pdmodel.edit.PDPageContentStream.close(),6,712,12,137,0,0,7,1,37,4,0,0,0,30
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionURI.PDActionURI(),12,286,16,49,5,2,5,1,5,4,0,0,0,6
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionURI.setURI(String),4,303,16,55,4,3,4,1,5,1,0,0,0,4
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont(),2,10,1,5,3,2,4,1,5,2,0,0,0,14
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont(COSDictionary),0,138,10,40,2,1,4,1,7,2,0,59,0,14
+"org.apache.pdfbox.pdmodel.font.PDSimpleFont.getFontHeight(byte[], int, int)",12,27,0,0,4,11,46,9,4,14,0,0,0,525
+"org.apache.pdfbox.pdmodel.font.PDSimpleFont.getFontWidth(byte[], int, int)",12,36,3,2,5,9,15,3,5,6,0,76,1,529
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getToUnicode(),2,59,7,15,2,1,4,1,4,2,0,0,0,21
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.determineEncoding(),4,68,6,12,6,12,92,16,7,14,0,58,0,12
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.extractToUnicodeEncoding(),4,38,3,4,6,7,45,8,5,10,0,18,0,12
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.getSpaceWidth(),12,36,0,0,6,12,32,6,5,8,0,73,0,99
+org.apache.pdfbox.encoding.EncodingManager.getEncoding(COSName),1,81,7,26,1,2,14,5,14,4,0,0,0,14
+org.apache.pdfbox.pdmodel.font.PDCIDFontType2Font.PDCIDFontType2Font(COSDictionary),2,149,12,46,4,7,4,1,3,2,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDType0Font.PDType0Font(COSDictionary),6,138,0,0,12,49,16,3,4,8,0,26,0,2
+"org.apache.pdfbox.pdmodel.font.PDType0Font.getFontWidth(byte[], int, int)",12,2,0,0,1,1,4,1,4,2,0,0,0,2
+"org.apache.pdfbox.pdmodel.font.PDType0Font.getFontHeight(byte[], int, int)",12,2,0,0,1,1,4,1,4,2,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDType0Font.getAverageFontWidth(),12,2,0,0,1,1,4,1,1,2,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDType0Font.getDescendantFonts(),6,138,13,49,2,1,8,2,4,3,0,0,0,2
+"org.apache.pdfbox.pdmodel.font.PDType0Font.encode(byte[], int, int)",12,9,0,0,3,3,17,4,5,5,0,0,0,4
+org.apache.pdfbox.pdmodel.font.PDType0Font.clear(),12,2,0,0,1,1,11,2,1,4,0,0,0,2
+org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode.PDEmbeddedFilesNameTreeNode(COSDictionary),1,6,3,2,1,1,4,1,3,2,0,1,0,3
+org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode.convertCOSToPD(COSBase),12,5,0,0,3,2,4,1,1,2,0,1,0,10
+org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.PDComplexFileSpecification(COSDictionary),2,7,2,2,2,2,12,2,6,4,0,0,0,10
+org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEmbeddedFile(),4,515,11,111,4,3,10,2,4,3,0,4,0,4
+org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile.PDEmbeddedFile(PDDocument),12,17,0,0,6,4,5,1,1,4,0,0,0,3
+org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile.getSubtype(),11,513,11,111,4,4,4,1,1,3,0,0,0,2
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper(Properties),12,10,2,1,3,3,6,1,3,5,0,84,0,3
+org.apache.pdfbox.util.PDFTextStripper.getText(PDDocument),12,4,3,1,0,0,6,1,5,4,0,6,0,2
+"org.apache.pdfbox.util.PDFTextStripper.writeText(COSDocument, Writer)",12,315,0,0,10,81,4,1,2,2,0,365,0,5
+org.apache.pdfbox.util.PDFTextStripper.resetEngine(),1,432,10,106,1,1,16,3,4,7,0,0,0,5
+org.apache.pdfbox.util.PDFTextStripper.processPages(List<COSObjectable>),9,312,8,19,11,59,30,6,6,11,1,365,0,5
+"org.apache.pdfbox.util.PDFTextStripper.processPage(PDPage, COSStream)",8,232,8,25,10,44,32,5,13,15,1,365,0,5
+org.apache.pdfbox.util.PDFTextStripper.startArticle(boolean),0,72,5,31,1,1,4,1,3,2,0,0,0,3
+org.apache.pdfbox.util.PDFTextStripper.endArticle(),0,72,5,32,1,1,4,1,3,2,0,0,0,5
+org.apache.pdfbox.util.PDFTextStripper.writePage(),4,169,11,19,4,32,185,25,20,48,4,9,0,5
+"org.apache.pdfbox.util.PDFTextStripper.overlap(float, float, float, float)",4,71,5,31,1,1,5,1,5,2,0,0,0,522
+org.apache.pdfbox.util.PDFTextStripper.writeLineSeparator(),4,33,5,13,1,1,4,1,2,2,0,0,0,10
+"org.apache.pdfbox.util.PDFTextStripper.writeString(String, List<TextPosition>)",4,7,3,3,1,1,4,1,2,1,0,0,0,13
+org.apache.pdfbox.util.PDFTextStripper.writeString(String),0,56,8,13,0,0,4,1,10,1,0,0,0,25
+org.apache.pdfbox.util.PDFTextStripper.processTextPosition(TextPosition),12,39,1,1,4,14,134,22,8,30,2,42,6,527
+"org.apache.pdfbox.util.PDFTextStripper.handleLineSeparation(PositionWrapper, PositionWrapper, PositionWrapper, float)",4,71,5,21,4,14,25,3,5,8,0,0,0,10
+"org.apache.pdfbox.util.PDFTextStripper.isParagraphSeparation(PositionWrapper, PositionWrapper, PositionWrapper, float)",4,33,4,5,3,12,61,13,5,13,0,0,0,10
+org.apache.pdfbox.util.PDFTextStripper.writeParagraphSeparator(),4,33,5,12,2,2,5,1,1,2,0,0,0,7
+org.apache.pdfbox.util.PDFTextStripper.writeParagraphStart(),4,71,5,33,2,2,10,2,5,4,0,0,0,12
+org.apache.pdfbox.util.PDFTextStripper.writeParagraphEnd(),0,75,5,33,1,1,5,1,5,3,0,0,0,12
+org.apache.pdfbox.util.PDFTextStripper.writePageStart(),4,71,5,31,1,1,4,1,2,2,0,0,0,5
+org.apache.pdfbox.util.PDFTextStripper.writePageEnd(),4,71,5,31,1,1,4,1,2,2,0,0,0,5
+org.apache.pdfbox.util.PDFTextStripper.matchListItemPattern(PositionWrapper),4,23,4,10,1,4,6,1,2,5,0,0,0,1
+org.apache.pdfbox.util.PDFTextStripper.getListItemPatterns(),4,5,2,3,0,0,13,3,3,5,1,0,0,1
+"org.apache.pdfbox.util.PDFTextStripper.matchPattern(String, List<Pattern>)",4,5,2,3,0,0,12,3,3,3,1,0,0,1
+"org.apache.pdfbox.util.PDFTextStripper.writeLine(List<WordWithTextPositions>, boolean)",4,71,5,31,2,4,13,3,2,6,1,0,0,15
+"org.apache.pdfbox.util.PDFTextStripper.normalize(List<TextPosition>, boolean, boolean)",4,71,5,30,3,3,26,5,3,11,2,4,0,15
+"org.apache.pdfbox.util.PDFTextStripper.createWord(String, List<TextPosition>)",4,7,2,2,2,2,4,1,5,3,0,1,0,15
+"org.apache.pdfbox.util.PDFTextStripper.normalizeAdd(LinkedList<WordWithTextPositions>, StringBuilder, List<TextPosition>, TextPosition)",4,7,1,1,3,2,16,2,5,10,0,2,0,527
+"org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, int)",0,149,12,35,0,0,15,1,6,7,0,940,0,34
+"org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, String, int)",-1,1,0,0,0,0,14,1,4,5,0,940,0,34
+"org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, OutputStream, int, float)",0,47,8,10,2,6,87,13,9,32,2,1290,1,44
+"org.apache.pdfbox.util.ImageIOUtil.getOrCreateChildNode(IIOMetadataNode, String)",0,2,1,1,0,0,11,2,3,6,0,0,0,48
+"org.apache.pdfbox.util.ImageIOUtil.setDPI(IIOMetadata, int, String)",0,11,3,5,1,1,21,3,6,8,0,11,0,16
+org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer(),0,45,7,11,0,0,11,1,20,10,0,3,2,590
+org.apache.pdfbox.io.RandomAccessBuffer.clone(),1,3,1,1,1,1,20,3,9,14,1,8,3,453
+org.apache.pdfbox.io.RandomAccessBuffer.close(),-1,1,0,0,0,0,9,1,1,6,0,0,0,370
+org.apache.pdfbox.io.RandomAccessBuffer.seek(long),12,2,0,0,1,1,8,1,9,6,0,2,1,2389
+org.apache.pdfbox.io.RandomAccessBuffer.getPosition(),12,2,0,0,1,1,4,1,2,2,0,0,0,1
+org.apache.pdfbox.io.RandomAccessBuffer.read(),12,2,0,0,1,1,22,4,11,7,0,0,0,23
+"org.apache.pdfbox.io.RandomAccessBuffer.read(byte[], int, int)",12,3,0,0,1,2,37,5,11,7,1,1,1,644
+org.apache.pdfbox.io.RandomAccessBuffer.length(),12,2,0,0,1,1,5,1,1,2,0,0,0,518
+org.apache.pdfbox.io.RandomAccessBuffer.write(int),12,4,0,0,2,2,26,6,9,7,0,0,0,21
+"org.apache.pdfbox.io.RandomAccessBuffer.write(byte[], int, int)",12,4,0,0,2,2,43,7,13,7,1,2,1,1742
+org.apache.pdfbox.io.RandomAccessBuffer.expandBuffer(),1,5,2,2,1,1,15,2,7,6,0,1,1,307
+org.apache.pdfbox.io.RandomAccessBuffer.nextBuffer(),0,4,2,2,0,0,5,1,4,4,0,0,0,126
+org.apache.pdfbox.io.RandomAccessBuffer.checkClosed(),0,10,2,7,0,0,5,2,8,1,0,0,0,5338
+org.apache.pdfbox.pdmodel.font.PDCIDFont.PDCIDFont(COSDictionary),2,14,1,2,3,7,5,1,3,3,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.getDefaultWidth(),2,12,2,5,2,2,16,3,6,4,0,0,0,4
+"org.apache.pdfbox.pdmodel.font.PDCIDFont.getFontWidth(byte[], int, int)",12,6,0,0,3,2,11,2,4,5,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.extractWidths(),2,12,4,1,2,6,40,7,4,9,3,0,0,2
+"org.apache.pdfbox.pdmodel.font.PDCIDFont.getFontHeight(byte[], int, int)",12,17,0,0,5,4,28,5,0,5,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.getAverageFontWidth(),12,9,0,0,2,6,41,7,2,7,2,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.getCIDSystemInfo(),12,48,8,10,4,3,13,2,6,4,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.determineEncoding(),12,48,0,0,7,14,52,8,4,13,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDCIDFont.clear(),12,2,0,0,1,1,9,2,1,3,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDType1CFont.PDType1CFont(COSDictionary),5,67,4,3,9,13,5,1,3,3,0,82,0,3
+org.apache.pdfbox.pdmodel.font.PDType1CFont.load(),5,59,4,1,8,13,115,17,8,56,6,74,0,3
+org.apache.pdfbox.pdmodel.font.PDType1CFont.loadBytes(),5,55,5,9,7,8,32,5,1,10,1,0,0,3
+"org.apache.pdfbox.pdmodel.font.PDType1CFont.hexString(int, int)",5,55,9,13,0,0,9,2,3,3,1,1,0,111
+org.apache.pdfbox.pdmodel.font.PDType1CFont.loadOverride(),5,55,9,9,3,7,25,5,3,7,0,5,0,3
+org.apache.pdfbox.pdmodel.font.PDType1CFont.loadEncoding(COSName),5,13,3,4,2,2,12,2,3,11,1,3,0,3
+org.apache.pdfbox.pdmodel.font.PDType1CFont.loadDifferences(COSArray),5,13,4,3,1,4,24,4,2,9,1,0,0,2
+org.apache.pdfbox.pdmodel.font.PDType1CFont.clear(),12,3,1,1,1,1,37,7,7,11,0,0,0,3
+"org.apache.pdfbox.util.operator.GRestore.process(PDFOperator, List<COSBase>)",12,3,0,0,1,2,11,2,2,5,0,0,0,19
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.PDOptionalContentProperties(),12,133,9,32,2,3,6,1,5,5,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.PDOptionalContentProperties(COSDictionary),2,4,3,1,0,0,4,1,2,2,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getOCGs(),2,23,4,9,2,3,10,2,5,4,0,0,0,11
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getD(),2,30,4,12,2,3,10,2,7,4,0,0,0,21
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getGroup(String),12,21,3,4,3,7,14,3,5,6,1,0,0,6
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.addGroup(PDOptionalContentGroup),12,133,9,30,2,8,12,2,4,8,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getOptionalContentGroups(),12,9,0,0,3,4,11,2,1,5,1,0,0,1
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getBaseState(),12,16,4,2,3,4,6,1,3,4,0,0,0,3
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.getGroupNames(),12,11,1,1,3,5,13,2,5,6,1,0,0,2
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.hasGroup(String),12,133,9,33,4,5,12,3,2,3,1,0,0,1
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.isGroupEnabled(String),12,16,0,0,3,6,33,7,7,8,2,0,0,8
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.toDictionary(COSBase),1,28,4,13,1,1,11,2,5,2,0,0,0,30
+"org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties.setGroupEnabled(String, boolean)",12,21,0,0,3,10,60,10,7,12,2,0,0,4
+org.apache.pdfbox.util.PDFCloneUtility.PDFCloneUtility(PDDocument),0,276,7,82,0,0,4,1,4,2,0,0,0,3
+org.apache.pdfbox.util.PDFCloneUtility.cloneForNewDocument(Object),4,276,6,80,6,15,91,16,8,24,5,1,0,53
+"org.apache.pdfbox.util.PDFCloneUtility.cloneMerge(COSObjectable, COSObjectable)",4,309,6,78,6,14,85,16,6,20,4,0,0,2
+"org.apache.pdfbox.util.MapUtil.getNextUniqueKey(Map<String, ?>, String)",0,167,14,53,0,0,9,2,4,2,1,0,0,31
+"org.apache.pdfbox.util.JPEGUtil.updateMetadata(IIOMetadata, int)",0,11,3,5,1,1,47,7,4,12,0,244,0,23
+"org.apache.pdfbox.util.MetaUtil.debugLogMetadata(IIOMetadata, String)",0,7,2,4,0,0,27,4,8,11,0,278,0,33
+"org.apache.pdfbox.encoding.SingleByteCharset.SingleByteCharset(String, String[], char[])",12,4,2,1,1,1,11,2,6,6,0,0,0,2
+org.apache.pdfbox.encoding.SingleByteCharset.initInverseMap(),12,2,1,1,0,0,30,6,5,3,1,0,0,2
+org.apache.pdfbox.encoding.SingleByteCharset.newDecoder(),12,2,0,0,1,1,4,1,0,2,0,0,0,2
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.PDCcitt(PDDocument, RandomAccess, int)",6,46,1,1,6,15,16,1,14,13,0,4,0,6
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.PDCcitt(PDDocument, RandomAccess)",6,215,8,50,7,15,4,1,6,2,0,1,0,2
+org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.getRGBImage(),12,110,0,0,8,25,86,12,7,31,1,79,0,25
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.extractFromTiff(RandomAccess, OutputStream, COSDictionary, int)",6,45,7,10,3,7,183,35,9,12,3,3,0,6
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.readshort(char, RandomAccess)",6,13,4,5,1,1,8,2,3,2,0,1,0,169
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.readlong(char, RandomAccess)",6,13,4,5,1,1,8,2,3,2,0,2,0,164
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceGray.createColorModel(int),-1,1,0,0,0,0,21,3,4,4,1,0,0,10
+"org.apache.pdfbox.pdmodel.common.function.type4.Parser.parse(CharSequence, SyntaxHandler)",0,19,2,2,3,7,5,1,3,2,0,16,0,98
+org.apache.pdfbox.util.StringUtil.getBytes(String),-1,1,0,0,0,0,11,2,2,3,0,1,0,277
+org.apache.pdfbox.pdmodel.interactive.form.PDTextbox.PDTextbox(PDAcroForm),12,4,0,0,3,1,4,1,2,2,0,0,0,1
+"org.apache.pdfbox.preflight.utils.COSUtils.isDictionary(COSBase, COSDocument)",3,77,4,21,3,10,17,3,9,4,0,0,0,41
+"org.apache.pdfbox.preflight.utils.COSUtils.isString(COSBase, COSDocument)",3,126,8,30,3,10,17,3,15,4,0,0,0,13
+"org.apache.pdfbox.preflight.utils.COSUtils.isStream(COSBase, COSDocument)",3,118,8,28,3,10,17,3,9,4,0,0,0,2
+"org.apache.pdfbox.preflight.utils.COSUtils.isInteger(COSBase, COSDocument)",3,54,4,21,3,10,17,3,11,4,0,0,0,4
+"org.apache.pdfbox.preflight.utils.COSUtils.isFloat(COSBase, COSDocument)",3,30,3,8,3,10,17,3,6,4,0,0,0,2
+"org.apache.pdfbox.preflight.utils.COSUtils.isArray(COSBase, COSDocument)",3,81,5,26,3,10,17,3,12,4,0,0,0,9
+"org.apache.pdfbox.preflight.utils.COSUtils.getAsArray(COSBase, COSDocument)",3,147,9,39,3,10,31,5,10,4,0,0,0,2
+"org.apache.pdfbox.preflight.utils.COSUtils.getAsDictionary(COSBase, COSDocument)",3,355,9,73,3,10,31,5,21,4,0,0,0,35
+org.apache.pdfbox.preflight.utils.COSUtils.closeDocumentQuietly(COSDocument),2,60,6,16,2,6,14,3,7,3,0,0,0,2
+org.apache.pdfbox.preflight.utils.COSUtils.closeDocumentQuietly(PDDocument),12,11,1,1,3,6,7,2,3,2,0,0,0,1
+org.apache.pdfbox.preflight.annotation.AnnotationValidatorFactory.AnnotationValidatorFactory(),12,2,0,0,1,1,4,1,0,2,0,16,0,44
+org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration(),2,6,1,1,2,2,26,1,30,6,0,52,0,45
+org.apache.pdfbox.preflight.PreflightConfiguration.getInstanceOfProcess(String),1,10,2,5,2,2,33,6,18,6,0,1,0,12
+"org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class<? extends ValidationProcess>)",2,5,3,1,1,1,11,2,6,2,0,0,0,399
+org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String),2,2,1,1,0,0,4,1,5,1,0,0,0,3
+"org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class<? extends ValidationProcess>)",2,5,3,1,1,1,9,2,5,2,0,0,0,397
+org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String),2,2,1,1,0,0,4,1,5,1,0,0,0,3
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory.createColorSpace(COSBase),3,104,6,34,5,12,4,1,13,2,0,0,0,112
+"org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory.createColorSpace(COSBase, Map<String, PDColorSpace>)",2,24,3,2,4,12,5,1,5,2,0,0,0,112
+"org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory.createColorSpace(COSBase, Map<String, PDColorSpace>, Map<String, PDPatternResources>)",2,46,6,9,3,13,72,15,19,16,0,0,0,112
+"org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory.createColorSpace(String, Map<String, PDColorSpace>)",1,21,3,12,2,3,37,7,14,6,0,0,0,112
+org.apache.pdfbox.util.DateConverter.toString(Calendar),3,8,4,2,2,1,15,2,6,4,0,122,0,142
+org.apache.pdfbox.util.DateConverter.toISO8601(Calendar),12,3,0,0,2,1,13,1,5,4,0,71,0,74
+org.apache.pdfbox.util.DateConverter.restrainTZoffset(long),0,7,2,4,0,0,6,1,5,1,0,0,0,300
+"org.apache.pdfbox.util.DateConverter.formatTZoffset(long, String)",1,4,1,2,1,1,7,1,5,9,0,91,2,232
+"org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)",2,8,2,5,0,0,26,5,6,6,1,0,0,782
+"org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)",2,11,2,5,0,0,14,3,8,6,1,0,0,1268
+"org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)",2,11,3,6,0,0,9,2,5,5,0,0,0,314
+org.apache.pdfbox.util.DateConverter.newGreg(),2,11,4,4,0,0,8,1,6,6,0,10,1,626
+"org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)",2,6,2,4,0,0,7,1,7,3,0,0,0,73
+"org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)",2,10,3,2,1,5,37,6,7,18,0,7,0,86
+"org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)",2,10,3,3,1,3,38,4,3,9,0,6,1,155
+"org.apache.pdfbox.util.DateConverter.parseSimpleDate(String, String[], ParsePosition)",2,10,3,4,1,2,18,3,5,9,1,186,1,86
+"org.apache.pdfbox.util.DateConverter.parseDate(String, String[], ParsePosition)",2,11,1,1,2,5,69,11,6,11,0,196,0,155
+org.apache.pdfbox.util.DateConverter.toCalendar(COSString),2,19,3,1,5,4,8,2,4,3,0,5,0,20
+org.apache.pdfbox.util.DateConverter.toCalendar(String),2,16,3,2,4,4,13,3,10,5,0,106,0,90
+"org.apache.pdfbox.util.DateConverter.toCalendar(String, String[])",2,12,1,1,3,4,13,2,6,9,0,198,0,156
+org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary),0,18,4,9,0,0,4,1,6,2,0,0,0,122
+org.apache.pdfbox.pdmodel.PDPageNode.updateCount(),4,61,6,21,4,8,21,3,6,6,1,1,0,56
+org.apache.pdfbox.pdmodel.PDPageNode.getCount(),2,156,6,51,2,2,13,3,4,3,0,0,0,26
+org.apache.pdfbox.pdmodel.PDPageNode.getParent(),3,24,5,6,3,2,10,2,9,3,0,0,0,34
+org.apache.pdfbox.pdmodel.PDPageNode.getKids(),3,40,4,12,3,6,6,1,6,4,0,3,0,93
+org.apache.pdfbox.pdmodel.PDPageNode.getAllKids(List),3,266,8,82,3,6,4,1,8,1,0,0,0,19
+"org.apache.pdfbox.pdmodel.PDPageNode.getAllKids(List, COSDictionary, boolean)",2,11,2,2,2,6,35,7,9,9,1,0,0,112
+org.apache.pdfbox.pdmodel.PDPageNode.getResources(),4,8,3,2,2,2,10,2,3,3,0,0,0,3
+org.apache.pdfbox.pdmodel.PDPageNode.findResources(),4,11,2,2,3,4,10,2,1,3,0,0,0,3
+org.apache.pdfbox.pdmodel.PDPageNode.getCropBox(),4,18,3,3,3,4,10,2,5,3,0,0,0,21
+org.apache.pdfbox.pdmodel.PDPageNode.getRotation(),4,8,3,2,2,2,10,2,3,4,0,0,0,10
+org.apache.pdfbox.pdmodel.PDPageNode.findRotation(),4,11,2,2,3,4,18,3,1,4,0,0,0,10
+"org.apache.pdfbox.filter.Predictor.decodePredictor(int, int, int, int, InputStream)",0,16,4,7,0,0,118,26,8,12,8,0,0,7
+org.apache.pdfbox.pdmodel.graphics.xobject.PDUtils.createInterestingImage(int),-1,1,0,0,0,0,15,1,9,9,0,1,0,4
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDUtils.checkIdent(BufferedImage, BufferedImage)",-1,1,0,0,0,0,17,4,6,5,2,5582,427,7
+org.apache.pdfbox.pdmodel.graphics.xobject.PDUtils.colorCount(BufferedImage),-1,1,0,0,0,0,14,3,6,7,2,1556,192,6
+org.apache.pdfbox.pdmodel.common.function.PDFunction.PDFunction(COSBase),7,56,10,11,2,3,12,3,8,6,0,0,0,2
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getDictionary(),1,43,4,18,1,1,11,2,20,2,0,0,0,4
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfOutputParameters(),3,75,8,23,3,2,9,2,5,4,0,0,0,4
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeForOutput(int),3,72,11,17,3,2,5,1,3,3,0,0,0,4
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainForInput(int),3,109,11,25,3,2,5,1,4,3,0,1,0,8
+org.apache.pdfbox.pdmodel.common.function.PDFunction.eval(COSArray),3,77,13,11,4,6,7,1,4,5,0,1,0,3
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeValues(),2,15,3,4,2,2,8,2,6,4,0,0,0,6
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getDomainValues(),2,9,2,2,2,2,8,2,4,4,0,0,0,8
+"org.apache.pdfbox.pdmodel.common.function.PDFunction.clipToRange(float, float, float)",0,109,11,25,0,0,4,1,7,3,0,0,0,12
+org.apache.pdfbox.io.ASCII85InputStream.ASCII85InputStream(InputStream),12,5,3,2,0,0,9,1,2,7,0,0,0,40
+org.apache.pdfbox.io.ASCII85InputStream.read(),12,2,1,1,0,0,94,17,14,8,6,263,174,205332
+"org.apache.pdfbox.io.ASCII85InputStream.read(byte[], int, int)",12,5,2,2,1,1,24,5,7,4,1,291,28,860
+org.apache.pdfbox.io.ASCII85InputStream.close(),12,5,3,2,0,0,7,1,1,4,0,0,0,40
+org.apache.pdfbox.io.ASCII85OutputStream.ASCII85OutputStream(OutputStream),12,6,3,2,0,0,11,1,2,9,0,0,0,40
+org.apache.pdfbox.io.ASCII85OutputStream.transformASCII85(),12,3,1,2,0,0,23,2,5,1,0,20,20,205292
+org.apache.pdfbox.io.ASCII85OutputStream.write(int),12,6,3,2,1,1,24,5,7,6,1,563,242,821112
+org.apache.pdfbox.io.ASCII85OutputStream.flush(),12,3,1,1,1,1,41,9,11,8,3,0,0,80
+org.apache.pdfbox.io.ASCII85OutputStream.close(),12,6,2,2,2,1,12,1,1,4,0,0,0,40
+"org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(InputStream, RandomAccess, boolean)",2,30,7,7,2,1,7,1,5,3,0,0,0,13
+"org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(InputStream, RandomAccess)",6,33,7,7,3,1,5,1,9,2,0,0,0,2
+org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(PDStream),12,182,8,54,7,7,4,1,2,5,0,0,0,2
+"org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(COSStream, boolean)",4,36,3,3,6,7,5,1,3,4,0,0,0,11
+org.apache.pdfbox.pdfparser.PDFStreamParser.parse(),6,333,9,52,8,42,15,2,14,3,1,1,0,2
+org.apache.pdfbox.pdfparser.PDFStreamParser.close(),4,36,8,7,0,0,4,1,2,1,0,0,0,11
+org.apache.pdfbox.pdfparser.PDFStreamParser.getTokenIterator(),4,36,8,7,0,0,41,1,1,1,0,1,0,11
+org.apache.pdfbox.pdfparser.PDFStreamParser.parseNextToken(),5,103,1,2,7,42,191,40,7,36,3,28,2,643
+org.apache.pdfbox.pdfparser.PDFStreamParser.readOperator(),5,101,8,39,2,5,27,3,2,9,1,3,1,207
+org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.PDPixelMap(PDStream),4,31,5,8,4,2,4,1,3,2,0,0,0,36
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.PDPixelMap(PDDocument, BufferedImage)",6,215,8,47,8,14,5,1,15,3,0,6493,0,14
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.PDPixelMap(PDDocument, BufferedImage, boolean)",6,52,0,0,8,13,5,1,5,3,0,951,0,4
+"org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.createImageStream(PDDocument, BufferedImage, boolean)",6,53,1,1,9,12,105,16,16,38,9,6492,926,18
+org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.getRGBImage(),12,158,6,6,8,29,114,16,10,29,3,3022,0,105
+org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap.clear(),12,2,0,0,1,1,5,1,0,2,0,0,0,10
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.nextXrefObj(long),1,71,8,23,1,1,4,1,5,3,0,3,0,84
+"org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)",1,45,4,22,1,1,9,2,8,3,0,5,1,2528
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.setTrailer(COSDictionary),4,95,8,28,0,0,9,2,5,3,0,0,0,84
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.setStartxref(long),4,246,9,75,3,4,51,9,9,17,2,8,0,68
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.getXrefTable(),0,263,8,98,0,0,4,2,8,1,0,0,0,403
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.clearResources(),12,5,2,1,2,1,17,4,4,4,0,0,0,34
+"org.apache.pdfbox.pdfparser.PDFXrefStreamParser.PDFXrefStreamParser(COSStream, COSDocument, boolean, XrefTrailerResolver)",4,46,4,9,6,7,10,1,5,6,0,4,0,7
+org.apache.pdfbox.pdfparser.PDFXrefStreamParser.parse(),4,46,8,6,3,9,75,12,8,18,7,1,0,7
+org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess),1,24,4,10,1,1,5,1,8,4,0,1,0,526
+org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength(),2,27,4,10,1,2,18,4,8,3,0,0,0,186
+"org.apache.pdfbox.io.RandomAccessFileOutputStream.write(byte[], int, int)",12,3,0,0,1,2,6,1,7,3,0,32,1,1745
+org.apache.pdfbox.io.RandomAccessFileOutputStream.write(int),12,3,0,0,1,2,6,1,5,3,0,1,0,16
+"org.apache.pdfbox.io.RandomAccessFile.RandomAccessFile(File, String)",0,217,8,66,0,0,4,1,11,2,0,127,0,5
+org.apache.pdfbox.io.RandomAccessFile.close(),-1,1,0,0,0,0,4,1,3,1,0,49,0,2
+org.apache.pdfbox.io.RandomAccessFile.seek(long),-1,1,0,0,0,0,4,1,4,1,0,0,0,59
+org.apache.pdfbox.io.RandomAccessFile.getPosition(),-1,1,0,0,0,0,3,1,3,2,0,0,0,8
+org.apache.pdfbox.io.RandomAccessFile.read(),-1,1,0,0,0,0,4,1,1,2,0,3,0,1006
+"org.apache.pdfbox.io.RandomAccessFile.read(byte[], int, int)",-1,1,0,0,0,0,4,1,5,2,0,0,0,11
+org.apache.pdfbox.io.RandomAccessFile.length(),-1,1,0,0,0,0,4,1,3,2,0,0,0,17
+"org.apache.pdfbox.io.RandomAccessFile.write(byte[], int, int)",-1,1,0,0,0,0,4,1,4,1,0,25,0,7
+org.apache.pdfbox.io.RandomAccessFile.write(int),-1,1,0,0,0,0,4,1,2,1,0,1,0,16
+"org.apache.pdfbox.pdfparser.PDFObjectStreamParser.PDFObjectStreamParser(COSStream, COSDocument, boolean)",6,163,6,46,6,7,8,1,7,5,0,1,0,6
+org.apache.pdfbox.pdfparser.PDFObjectStreamParser.parse(),6,179,8,34,6,24,36,4,10,18,2,28,0,6
+"org.apache.pdfbox.preflight.action.GoToRemoteAction.GoToRemoteAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,9,2,1,4,1,5,2,0,0,0,4
+org.apache.pdfbox.preflight.action.GoToRemoteAction.innerValid(),12,31,0,0,5,10,14,3,4,5,0,0,0,4
+"org.apache.pdfbox.preflight.action.GoToAction.GoToAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,9,1,1,4,1,6,2,0,0,0,7
+org.apache.pdfbox.preflight.action.GoToAction.innerValid(),12,31,1,1,4,13,17,3,6,8,0,0,0,7
+"org.apache.pdfbox.preflight.action.ActionManagerFactory.getActionManagers(PreflightContext, COSDictionary)",4,94,8,16,5,24,34,7,7,14,1,3,0,33
+"org.apache.pdfbox.preflight.action.ActionManagerFactory.callCreateAction(COSBase, PreflightContext, List<AbstractActionManager>, Map<COSObjectKey, Boolean>)",4,59,4,7,5,19,5,1,6,1,0,3,0,35
+"org.apache.pdfbox.preflight.action.ActionManagerFactory.callCreateAction(COSBase, PreflightContext, List<AbstractActionManager>, String, Map<COSObjectKey, Boolean>)",4,55,4,4,4,19,25,4,8,11,0,3,0,35
+"org.apache.pdfbox.preflight.action.ActionManagerFactory.getNextActions(PreflightContext, COSDictionary)",4,58,2,1,6,17,24,4,4,11,1,0,0,14
+"org.apache.pdfbox.preflight.action.ActionManagerFactory.createActionManager(PreflightContext, COSDictionary, String)",4,47,5,11,3,11,46,10,22,13,0,1,1,35
+org.apache.pdfbox.io.ccitt.PackedBitArray.PackedBitArray(int),12,3,2,1,0,0,6,1,3,3,0,0,0,8
+org.apache.pdfbox.io.ccitt.PackedBitArray.byteOffset(int),0,7,2,4,0,0,4,1,5,1,0,0,0,9093
+org.apache.pdfbox.io.ccitt.PackedBitArray.bitOffset(int),0,6,2,3,0,0,4,1,4,1,0,0,0,8461
+org.apache.pdfbox.io.ccitt.PackedBitArray.set(int),12,3,0,0,1,2,5,1,2,3,0,0,0,1
+org.apache.pdfbox.io.ccitt.PackedBitArray.clear(int),12,3,0,0,1,2,6,1,2,3,0,0,0,1
+"org.apache.pdfbox.io.ccitt.PackedBitArray.setBits(int, int, int)",12,6,0,0,2,3,11,2,4,2,0,0,0,2
+"org.apache.pdfbox.io.ccitt.PackedBitArray.setBits(int, int)",1,7,2,2,1,3,33,6,5,5,1,4,2,4230
+"org.apache.pdfbox.io.ccitt.PackedBitArray.clearBits(int, int)",1,7,3,2,1,1,29,5,5,2,1,0,0,316
+org.apache.pdfbox.io.ccitt.PackedBitArray.clear(),12,9,2,4,2,2,4,1,2,2,0,0,0,313
+org.apache.pdfbox.io.ccitt.PackedBitArray.getByteCount(),0,14,5,5,0,0,4,1,5,1,0,1,1,13053
+org.apache.pdfbox.io.ccitt.PackedBitArray.toString(),12,3,0,0,2,1,4,1,3,3,0,0,0,11
+org.apache.pdfbox.io.ccitt.PackedBitArray.toBitString(byte),12,3,0,0,2,1,5,1,1,2,0,1,0,16
+"org.apache.pdfbox.io.ccitt.PackedBitArray.toBitString(byte[], int, int)",0,2,1,1,0,0,14,4,4,4,2,1,0,16
+org.apache.pdfbox.preflight.annotation.pdfa.PDFAbAnnotationFactory.initializeClasses(),-1,1,0,0,0,0,19,1,17,1,0,15,0,44
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.addName(String),12,8,2,6,0,0,4,1,3,1,0,0,0,190
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.addInteger(int),12,8,2,6,0,0,4,1,3,2,0,0,0,193
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.addReal(float),12,8,2,6,0,0,4,1,3,2,0,0,0,36
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.addProc(InstructionSequence),12,8,2,6,0,0,4,1,3,1,0,0,0,13
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence.execute(ExecutionContext),1,48,6,11,1,4,29,5,6,9,2,3,0,109
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.ExecutionContext(Operators),0,46,6,12,0,0,4,1,3,2,0,0,0,99
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popNumber(),0,18,2,16,0,0,4,1,17,2,0,0,0,98
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popInt(),0,5,2,3,0,0,4,1,4,3,0,0,0,85
+org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext.popReal(),0,28,5,9,0,0,4,1,6,3,0,0,0,22
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.PDTristimulus(),12,6,0,0,3,3,7,1,2,5,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.PDTristimulus(COSArray),0,16,4,6,0,0,4,1,7,2,0,0,0,12
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getX(),3,14,5,5,1,2,4,1,4,3,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.setX(float),12,5,0,0,3,2,4,1,3,2,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getY(),3,14,5,5,1,2,4,1,4,3,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.setY(float),12,5,0,0,3,2,4,1,3,2,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getZ(),3,14,5,5,1,2,4,1,4,3,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.setZ(float),12,5,0,0,3,2,4,1,3,2,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.PDLab(),1,6,2,1,1,3,7,1,5,6,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getWhitePoint(),12,17,3,4,3,5,12,2,4,6,0,0,0,6
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.setWhitePoint(PDTristimulus),12,4,0,0,2,2,8,2,4,2,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getBlackPoint(),12,17,3,4,3,5,12,2,4,6,0,1,0,6
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.setBlackPoint(PDTristimulus),12,4,0,0,2,2,9,2,4,2,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getDefaultRangeArray(),1,20,3,6,3,3,9,1,4,4,0,0,0,5
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getARange(),12,17,3,4,4,4,9,2,4,4,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.setARange(PDRange),12,16,0,0,3,7,19,3,4,7,0,0,0,1
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.getBRange(),12,17,3,4,4,4,9,2,4,4,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.color.PDLab.setBRange(PDRange),12,16,0,0,3,7,19,3,4,7,0,0,0,1
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.COSStandardOutputStream(OutputStream),3,4,2,2,0,0,13,3,4,9,0,3,0,27
+"org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(byte[], int, int)",12,76,7,20,2,2,7,1,5,4,0,123,7,10727
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int),1,146,7,62,2,2,7,1,3,4,0,66,4,5906
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF(),2,80,7,22,3,2,4,1,3,1,0,4,0,376
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL(),2,145,7,58,3,3,8,2,11,3,0,25,1,2222
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.checkPos(),0,7,2,4,1,1,5,2,5,3,0,89,5,16633
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary),0,8,3,4,0,0,4,1,3,2,0,0,0,4
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.copyIntoGraphicsState(PDGraphicsState),12,188,2,2,13,46,68,17,18,38,1,0,0,7
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getOverprintMode(),12,185,14,46,3,2,4,1,2,2,0,0,0,7
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getSmoothnessTolerance(),12,185,14,46,3,2,4,1,2,2,0,0,0,2
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getAutomaticStrokeAdjustment(),12,185,14,46,5,2,4,1,3,2,0,0,0,7
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getStrokingAlpaConstant(),12,185,14,46,3,2,4,1,2,2,0,0,0,5
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getNonStrokingAlpaConstant(),12,185,14,46,3,2,4,1,2,2,0,0,0,5
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getAlphaSourceFlag(),12,185,14,46,5,2,4,1,3,2,0,0,0,5
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.getFloatItem(COSName),12,11,1,7,2,2,10,2,9,4,0,0,0,19
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.RandomAccessBufferedFileInputStream(File),1,16,3,8,2,1,7,1,3,6,0,5,0,18
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long),0,6,1,4,1,1,18,3,9,8,0,3,0,832
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage(),0,2,1,1,0,0,24,4,4,3,1,1,0,52
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.read(),12,3,0,0,2,1,13,3,5,4,0,1,1,19328
+"org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.read(byte[], int, int)",12,3,0,0,2,1,18,4,8,6,0,1,0,325
+org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.close(),-1,1,0,0,0,0,5,1,2,2,0,1,0,18
+org.apache.pdfbox.pdmodel.common.function.PDFunctionType4.PDFunctionType4(COSBase),7,61,5,4,9,11,6,1,3,6,0,0,0,2
+org.apache.pdfbox.pdmodel.common.function.PDFunctionType4.eval(float[]),12,24,0,0,4,10,28,4,5,14,2,1,0,4
+"org.apache.pdfbox.util.operator.SetGraphicsStateParameters.process(PDFOperator, List<COSBase>)",12,188,0,0,14,46,6,1,2,6,0,2,0,7
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionJavaScript.PDActionJavaScript(),12,16,5,1,5,3,5,1,3,3,0,0,0,1
+"org.apache.pdfbox.preflight.action.SubmitAction.SubmitAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,10,1,1,4,1,5,2,0,0,0,2
+org.apache.pdfbox.preflight.action.SubmitAction.innerValid(),12,9,0,0,3,3,11,2,4,4,0,0,0,2
+"org.apache.pdfbox.preflight.action.AbstractActionManager.AbstractActionManager(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,9,1,8,0,0,7,1,12,5,0,0,0,35
+org.apache.pdfbox.preflight.action.AbstractActionManager.validNextActions(),4,60,2,1,7,17,12,3,4,3,1,0,0,14
+org.apache.pdfbox.preflight.action.AbstractActionManager.valid(),5,85,8,7,9,15,4,1,1,2,0,2,0,33
+org.apache.pdfbox.preflight.action.AbstractActionManager.valid(boolean),4,73,3,9,8,15,14,3,5,6,0,2,0,33
+org.apache.pdfbox.ExtractText.ExtractText(),11,515,12,111,0,0,3,1,1,1,0,0,0,1
+org.apache.pdfbox.ExtractText.main(String[]),11,1048,13,83,11,111,5,1,4,2,0,563,0,2
+org.apache.pdfbox.ExtractText.startExtraction(String[]),11,515,2,1,10,111,230,37,18,45,2,563,0,2
+org.apache.pdfbox.ExtractText.startProcessing(String),11,513,11,111,0,0,8,2,4,3,0,0,0,2
+"org.apache.pdfbox.ExtractText.stopProcessing(String, long)",11,513,11,111,0,0,9,2,5,2,0,0,0,2
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeTitleProperty(PDDocumentInformation, DublinCoreSchema, List<ValidationError>)",12,49,10,11,4,4,51,9,4,15,0,2,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeAuthorProperty(PDDocumentInformation, DublinCoreSchema, List<ValidationError>)",12,49,10,11,4,4,40,7,4,10,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeSubjectProperty(PDDocumentInformation, DublinCoreSchema, List<ValidationError>)",12,49,10,11,4,4,33,6,4,8,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeKeywordsProperty(PDDocumentInformation, AdobePDFSchema, List<ValidationError>)",12,49,10,11,4,4,25,5,4,8,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeProducerProperty(PDDocumentInformation, AdobePDFSchema, List<ValidationError>)",12,49,10,11,4,4,25,5,4,8,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeCreatorToolProperty(PDDocumentInformation, XMPBasicSchema, List<ValidationError>)",12,49,10,11,4,4,25,5,4,8,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeCreationDateProperty(PDDocumentInformation, XMPBasicSchema, List<ValidationError>)",12,49,4,11,8,5,35,6,6,10,0,4,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.analyzeModifyDateProperty(PDDocumentInformation, XMPBasicSchema, List<ValidationError>)",12,49,4,11,8,5,35,6,6,10,0,2,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.validateMetadataSynchronization(PDDocument, XMPMetadata)",12,125,9,20,9,17,32,3,14,15,0,12,0,10
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.SchemaAccessException(String, Throwable)",12,2,0,0,1,1,6,1,3,5,0,0,0,1
+org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.unsynchronizedMetaDataError(String),12,41,9,10,2,1,6,1,10,5,0,0,0,13
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.AbsentSchemaMetaDataError(String, String)",12,41,9,10,2,1,7,1,11,5,0,0,0,8
+"org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation.AbsentXMPPropertyError(String, String)",12,41,9,10,2,1,7,1,11,5,0,0,0,11
+org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(COSDictionary),6,186,6,18,11,50,48,10,17,13,0,143,1,11
+org.apache.pdfbox.util.PDFMergerUtility.PDFMergerUtility(),12,513,14,121,0,0,4,1,2,3,0,0,0,1
+"org.apache.pdfbox.util.PDFMergerUtility.appendDocument(PDDocument, PDDocument)",10,507,12,72,6,82,262,40,17,79,4,0,0,1
+"org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)",5,15,2,4,5,2,4,1,3,2,0,5,0,33
+"org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)",2,16,3,3,4,2,10,2,7,5,0,5,0,33
+org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format),2,9,3,1,3,2,9,1,2,2,0,4,0,33
+org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError),1,6,1,2,1,3,11,3,4,4,0,0,0,22
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.PDTrueTypeFont(COSDictionary),6,138,12,8,6,41,5,1,2,3,0,4,0,2
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.ensureFontDescriptor(),6,90,4,1,5,40,20,3,1,6,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getTTFFont(),12,63,6,10,7,8,21,5,3,9,0,72,0,4
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.clear(),12,2,0,0,1,1,12,2,1,6,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getFontWidth(int),12,63,0,0,8,15,35,6,2,9,0,73,0,10
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getGlyphcode(int),12,63,6,4,9,8,64,15,11,11,0,0,0,2
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.extractCMaps(),12,51,5,6,8,8,41,10,10,10,1,0,0,2
+"org.apache.pdfbox.util.operator.Concatenate.process(PDFOperator, List<COSBase>)",12,10,0,0,2,7,18,1,2,8,0,0,0,16
+"org.apache.pdfbox.util.operator.EndText.process(PDFOperator, List<COSBase>)",12,3,0,0,1,2,5,1,1,2,0,0,0,16
+"org.apache.pdfbox.util.operator.GSave.process(PDFOperator, List<COSBase>)",12,45,0,0,8,11,4,1,1,4,0,1,0,19
+"org.apache.pdfbox.util.operator.Invoke.process(PDFOperator, List<COSBase>)",12,56,0,0,9,12,23,4,2,14,0,4,0,1
+"org.apache.pdfbox.util.operator.MoveText.process(PDFOperator, List<COSBase>)",12,12,0,0,2,8,10,1,2,9,0,0,0,4
+"org.apache.pdfbox.util.operator.SetCharSpacing.process(PDFOperator, List<COSBase>)",12,5,0,0,1,4,12,3,2,6,0,0,0,5
+"org.apache.pdfbox.util.operator.SetHorizontalTextScaling.process(PDFOperator, List<COSBase>)",12,5,0,0,1,4,5,1,2,5,0,0,0,1
+"org.apache.pdfbox.util.operator.SetLineWidth.process(PDFOperator, List<COSBase>)",12,8,2,3,1,3,5,1,3,4,0,0,0,1
+"org.apache.pdfbox.util.operator.SetMatrix.process(PDFOperator, List<COSBase>)",12,9,0,0,2,6,18,1,2,7,0,0,0,14
+"org.apache.pdfbox.util.operator.SetTextFont.process(PDFOperator, List<COSBase>)",12,10,0,0,1,9,14,3,2,13,0,151,0,18
+"org.apache.pdfbox.util.operator.SetTextRenderingMode.process(PDFOperator, List<COSBase>)",12,5,0,0,1,4,5,1,2,5,0,0,0,1
+"org.apache.pdfbox.util.operator.SetTextRise.process(PDFOperator, List<COSBase>)",12,5,0,0,1,4,5,1,2,5,0,0,0,1
+"org.apache.pdfbox.util.operator.SetWordSpacing.process(PDFOperator, List<COSBase>)",12,5,0,0,1,4,5,1,2,5,0,0,0,1
+"org.apache.pdfbox.preflight.parser.XmlResultParser.createResponseWithError(Document, String, ValidationResult, Element)",12,284,15,53,1,2,25,2,9,13,1,1,0,4
+org.apache.pdfbox.preflight.parser.XmlResultParser.cleanErrorList(List<ValidationError>),12,3,2,1,0,0,12,3,2,5,1,0,0,4
+"org.apache.pdfbox.preflight.parser.XmlResultParser.generateResponseSkeleton(Document, String, long)",12,284,15,53,0,0,8,1,6,6,0,0,0,4
+"org.apache.pdfbox.preflight.action.ThreadAction.ThreadAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,10,1,1,4,1,5,2,0,0,0,3
+org.apache.pdfbox.preflight.action.ThreadAction.innerValid(),12,31,0,0,4,13,18,3,5,9,0,0,0,3
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.NonSequentialPDFParser(File, RandomAccess, String)",3,239,12,53,3,7,7,1,7,6,0,4,0,17
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.init(File, RandomAccess, String)",1,16,4,4,1,5,19,4,7,10,0,0,0,18
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.NonSequentialPDFParser(InputStream, RandomAccess, String)",3,241,12,53,3,9,7,1,7,7,0,64,0,1
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.createTmpFile(InputStream),3,15,4,7,1,2,18,1,3,7,0,61,0,1
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.initialParse(),8,228,3,9,9,55,130,23,18,53,3,124,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getPdfSourceOffset(),7,143,10,37,1,1,4,1,2,2,0,0,0,45
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.setPdfSource(long),7,225,8,75,2,1,4,1,7,1,0,0,0,276
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.closeFileStream(),9,225,11,52,0,0,7,2,2,1,0,1,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getStartxrefOffset(),8,209,10,54,1,1,50,8,7,10,1,2,0,18
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.lastIndexOf(char[], byte[], int)",0,9,3,4,0,0,23,5,6,1,1,0,0,36
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.readPattern(char[]),7,156,8,48,2,3,13,3,4,5,1,1,0,177
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getPagesObject(),9,159,3,5,9,40,19,4,5,8,0,0,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.parse(),9,265,7,16,10,52,46,7,8,11,1,129,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.deleteTempFile(),9,225,11,52,0,0,17,4,5,3,0,0,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getPDDocument(),2,242,12,60,2,2,9,2,3,3,0,0,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getPageNumber(),9,225,7,38,10,41,9,2,2,4,0,0,0,18
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getObjectId(COSObject),8,149,10,36,1,3,4,1,4,4,0,0,0,497
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.addNewToList(Queue<COSBase>, Collection<COSBase>, Set<Long>)",8,149,10,36,2,3,16,4,4,3,1,1,0,146
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.addNewToList(Queue<COSBase>, COSBase, Set<Long>)",8,149,10,36,2,3,13,3,4,3,0,0,0,273
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.parseDictObjects(COSDictionary, COSName...)",8,213,6,33,9,36,91,18,7,33,5,72,2,18
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.parseObjectDynamically(COSObject, boolean)",7,214,6,38,8,41,6,1,8,5,0,69,0,258
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.parseObjectDynamically(int, int, boolean)",7,143,0,0,7,43,139,26,14,45,3,69,1,258
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.getLength(COSBase),7,143,0,0,9,37,50,8,3,10,0,5,0,48
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.parseCOSStream(COSDictionary, RandomAccess)",7,166,5,8,10,30,78,13,9,18,2,14,0,48
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.validateStreamLength(long),7,143,11,30,2,7,23,3,5,7,0,1,0,48
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.calculateFixingOffset(long),8,209,10,50,3,5,10,2,5,4,0,0,0,18
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.calculateFixingOffset(long, long, long)",8,15,2,3,4,4,5,1,4,4,0,5,0,177
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkBytesAtOffset(byte[]),7,13,3,3,2,3,25,5,5,5,1,1,0,243
+"org.apache.pdfbox.pdfparser.NonSequentialPDFParser.calculateFixingOffset(long, byte[])",8,13,2,2,3,4,64,11,6,9,3,2,0,195
+org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkXrefOffsets(),8,209,10,46,5,4,23,5,3,8,1,5,0,18
+org.apache.pdfbox.util.PDFText2HTML.PDFText2HTML(String),11,513,11,111,4,8,11,1,5,9,0,5,0,2
+org.apache.pdfbox.util.PDFText2HTML.writeHeader(),12,90,6,30,5,6,16,2,3,6,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.writePage(),12,90,0,0,6,35,9,2,1,3,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.endDocument(PDDocument),12,2,0,0,1,1,4,1,0,1,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.getTitle(),12,21,3,2,4,6,36,7,2,15,2,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.startArticle(boolean),12,2,0,0,1,1,11,2,1,1,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.endArticle(),12,4,0,0,2,2,5,1,0,2,0,0,0,2
+"org.apache.pdfbox.util.PDFText2HTML.writeString(String, List<TextPosition>)",12,32,0,0,7,9,4,1,3,2,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.writeParagraphEnd(),12,7,0,0,3,3,5,1,1,3,0,0,0,2
+org.apache.pdfbox.util.PDFText2HTML.escape(String),0,45,7,14,1,1,9,2,4,6,1,0,0,2
+"org.apache.pdfbox.util.PDFText2HTML.appendEscaped(StringBuilder, char)",0,29,6,9,0,0,28,6,4,3,0,0,0,21
+"org.apache.pdfbox.util.TIFFUtil.setCompressionType(ImageWriteParam, BufferedImage)",0,11,3,6,0,0,12,2,4,4,0,0,0,5
+"org.apache.pdfbox.util.TIFFUtil.updateMetadata(IIOMetadata, BufferedImage, int)",0,11,3,3,1,5,41,5,8,20,0,60,0,5
+"org.apache.pdfbox.util.TIFFUtil.createShortField(int, String, int)",0,6,2,4,0,0,13,1,4,5,0,0,0,10
+"org.apache.pdfbox.util.TIFFUtil.createAsciiField(int, String, String)",0,6,2,4,0,0,13,1,4,5,0,0,0,5
+"org.apache.pdfbox.util.TIFFUtil.createLongField(int, String, long)",0,6,2,4,0,0,13,1,4,6,0,0,0,5
+"org.apache.pdfbox.util.TIFFUtil.createRationalField(int, String, int, int)",0,6,2,4,0,0,14,1,5,5,0,0,0,10
+org.apache.pdfbox.pdmodel.common.PDPageLabels.PDPageLabels(PDDocument),12,23,5,7,4,4,8,1,4,7,0,1,0,2
+"org.apache.pdfbox.pdmodel.common.PDPageLabels.PDPageLabels(PDDocument, COSDictionary)",12,24,1,1,5,10,10,2,3,4,0,4,0,2
+org.apache.pdfbox.pdmodel.common.PDPageLabels.findLabels(PDNumberTreeNode),12,23,6,3,3,7,22,6,3,7,2,1,0,2
+org.apache.pdfbox.pdmodel.common.PDPageLabels.getLabelsByPageIndices(),12,36,0,0,6,10,15,1,3,3,0,3,0,3
+org.apache.pdfbox.pdmodel.common.PDPageLabels.computeLabels(LabelHandler),5,37,1,2,5,11,31,5,5,11,3,2,0,2
+org.apache.pdfbox.util.ICU4JImpl.ICU4JImpl(),0,2,1,1,0,0,5,1,3,3,0,34,0,3
+org.apache.pdfbox.util.ICU4JImpl.normalizePres(String),4,2,1,1,0,0,38,6,3,10,1,0,0,15
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo.PDActionRemoteGoTo(),12,9,0,0,5,2,5,1,5,4,0,0,0,4
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo.setFile(PDFileSpecification),12,8,0,0,4,3,4,1,5,1,0,0,0,3
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo.setD(COSBase),12,6,0,0,3,2,4,1,5,1,0,0,0,3
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.InstructionSequenceBuilder(),0,19,5,7,0,0,4,1,3,2,0,1,0,98
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.parse(CharSequence),0,62,10,8,4,7,6,1,3,4,0,19,0,98
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.getCurrentSequence(),12,8,2,6,0,0,4,1,2,2,0,0,0,432
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.token(CharSequence),12,9,0,0,2,7,5,1,1,2,0,7,0,445
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.token(String),12,9,1,1,1,7,29,5,5,13,0,6,1,445
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.parseInt(String),12,8,2,6,0,0,8,2,2,4,0,0,0,193
+org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder.parseReal(String),12,8,2,6,0,0,4,1,3,2,0,0,0,43
+"org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)",2,28,4,11,0,0,6,1,8,4,0,0,0,251
+"org.apache.pdfbox.io.RandomAccessFileInputStream.read(byte[], int, int)",12,4,0,0,1,3,21,4,5,5,0,3,0,835
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.compareTo(COSWriterXRefEntry),12,3,0,0,1,2,11,2,1,3,0,0,0,580
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getNullEntry(),12,75,5,29,2,5,9,2,3,5,0,0,0,24
+"org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.COSWriterXRefEntry(long, COSBase, COSObjectKey)",12,30,3,14,1,3,7,1,5,4,0,0,0,241
+org.apache.pdfbox.util.TextNormalize.TextNormalize(String),0,15,4,6,2,1,5,1,7,3,0,54,0,3
+org.apache.pdfbox.util.TextNormalize.findICU4J(),0,3,1,1,1,1,13,2,1,5,0,54,0,3
+org.apache.pdfbox.util.TextNormalize.populateDiacHash(),-1,1,0,0,0,0,34,1,1,2,0,0,0,1
+org.apache.pdfbox.util.TextNormalize.normalizePres(String),4,4,2,1,1,1,11,2,3,2,0,0,0,15
+org.apache.pdfbox.util.PositionWrapper.PositionWrapper(TextPosition),4,71,5,31,0,0,4,1,2,2,0,0,0,527
+"org.apache.pdfbox.preflight.action.HideAction.HideAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,10,1,1,4,1,5,2,0,0,0,4
+org.apache.pdfbox.preflight.action.HideAction.innerValid(),12,36,0,0,4,15,24,4,7,10,0,0,0,4
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.PDFontDescriptorAFM(FontMetric),4,13,5,4,0,0,4,1,2,2,0,0,0,3
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.getFontName(),-1,1,0,0,0,0,4,1,1,2,0,0,0,22
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.getFlags(),-1,1,0,0,0,0,4,2,1,2,0,0,0,22
+org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.getFontBoundingBox(),12,7,0,0,4,3,10,2,1,3,0,0,0,1
+"org.apache.pdfbox.util.operator.ShowText.process(PDFOperator, List<COSBase>)",12,73,0,0,6,32,5,1,2,3,0,77,0,7
+org.apache.pdfbox.util.LayerUtility.LayerUtility(PDDocument),12,2,0,0,1,1,5,1,2,4,0,1,0,1
+org.apache.pdfbox.util.LayerUtility.wrapInSaveRestore(PDPage),12,22,0,0,5,11,33,3,3,17,0,0,0,1
+"org.apache.pdfbox.util.LayerUtility.importPageAsForm(PDDocument, int)",12,127,0,0,7,42,5,1,3,5,0,1,0,1
+"org.apache.pdfbox.util.LayerUtility.importPageAsForm(PDDocument, PDPage)",12,127,5,5,6,41,49,7,6,37,0,1,0,1
+"org.apache.pdfbox.util.LayerUtility.appendFormAsLayer(PDPage, PDXObjectForm, AffineTransform, String)",12,133,0,0,8,35,42,5,8,21,1,0,0,1
+"org.apache.pdfbox.util.LayerUtility.transferDict(COSDictionary, COSDictionary, Set<String>, boolean)",12,116,5,24,7,15,18,4,6,7,1,0,0,1
+org.apache.pdfbox.util.LayerUtility.getNormalizedRotation(PDPage),12,116,7,37,4,6,21,6,2,2,1,0,0,1
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.PDPageLabelRange(),12,10,5,2,1,2,4,1,1,3,0,0,0,2
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.PDPageLabelRange(COSDictionary),12,15,4,7,0,0,4,1,3,2,0,0,0,7
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getStyle(),5,20,5,4,3,3,4,1,3,2,0,0,0,33
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.setStyle(String),12,10,3,2,3,2,11,2,4,2,0,0,0,2
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getStart(),5,20,5,4,5,2,4,1,3,2,0,0,0,16
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange.getPrefix(),5,20,5,4,3,3,4,1,3,2,0,0,0,23
+"org.apache.pdfbox.preflight.action.UriAction.UriAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,10,1,1,4,1,5,2,0,0,0,6
+org.apache.pdfbox.preflight.action.UriAction.innerValid(),12,29,0,0,4,13,17,3,5,7,0,0,0,6
+"org.apache.pdfbox.util.operator.ShowTextGlyph.process(PDFOperator, List<COSBase>)",12,75,0,0,6,25,27,4,2,16,1,79,0,11
+"org.apache.pdfbox.preflight.action.NamedAction.NamedAction(ActionManagerFactory, COSDictionary, PreflightContext, String)",4,19,4,10,1,1,4,1,5,2,0,0,0,6
+org.apache.pdfbox.preflight.action.NamedAction.innerValid(),12,15,0,0,3,6,19,3,9,5,0,0,0,6
+"org.apache.pdfbox.preflight.action.InvalidAction.InvalidAction(ActionManagerFactory, COSDictionary, PreflightContext, String, String)",4,19,4,10,1,1,6,1,6,3,0,0,0,7
+org.apache.pdfbox.preflight.action.InvalidAction.innerValid(),12,8,0,0,3,3,6,1,3,3,0,1,0,7
+org.apache.pdfbox.TextToPDF.createPDFFromText(Reader),12,238,3,6,15,42,84,12,7,26,3,0,0,1
+"org.apache.pdfbox.filter.IdentityFilter.decode(InputStream, OutputStream, COSDictionary, int)",-1,1,0,0,0,0,11,2,3,3,1,0,0,20
+"org.apache.pdfbox.filter.IdentityFilter.encode(InputStream, OutputStream, COSDictionary, int)",-1,1,0,0,0,0,11,2,3,3,1,0,0,20

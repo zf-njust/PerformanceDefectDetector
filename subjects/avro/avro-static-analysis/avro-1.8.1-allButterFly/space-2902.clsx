@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.Utf8.Utf8()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryDecoder.readString(Utf8)" />
+<item name="org.apache.avro.RandomData.randomUtf8(Random, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.Utf8.setByteLength(int)" />
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<item name="org.apache.avro.io.BinaryDecoder.readInt()" />
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericRecordBuilder.clear(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericRecordBuilder.clear(Field)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.pos()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.Record.put(int, Object)" />
+<item name="org.apache.avro.data.RecordBuilderBase.fieldSetFlags()" />
+</group>
+</group>
+</group>
+</cluster>

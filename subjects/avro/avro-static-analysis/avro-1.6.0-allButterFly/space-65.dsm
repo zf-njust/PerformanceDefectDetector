@@ -1,0 +1,14 @@
+[Call]
+6
+0 1 0 0 0 1 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+0 0 1 0 0 0 
+org.apache.avro.tool.TetherTool.run(InputStream, PrintStream, PrintStream, List)
+org.apache.avro.mapred.tether.TetherJob.runJob(JobConf)
+org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File, List, boolean)
+org.apache.avro.mapred.tether.TetherJob.getExecutable(JobConf)
+org.apache.avro.mapred.tether.TetherJob.setupTetherJob(JobConf)
+org.apache.avro.mapred.tether.TetherJob.setExecutable(JobConf, File)

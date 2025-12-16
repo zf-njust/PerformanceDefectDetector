@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericRecordBuilder.set(Field, int, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericRecordBuilder.set(int, Object)" />
+<item name="org.apache.avro.generic.GenericRecordBuilder.set(Field, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.data.RecordBuilderBase.fields()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.Record.put(int, Object)" />
+<item name="org.apache.avro.data.RecordBuilderBase.fieldSetFlags()" />
+<item name="org.apache.avro.data.RecordBuilderBase.validate(Field, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.data.RecordBuilderBase.isValidValue(Field, Object)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+</group>
+</cluster>

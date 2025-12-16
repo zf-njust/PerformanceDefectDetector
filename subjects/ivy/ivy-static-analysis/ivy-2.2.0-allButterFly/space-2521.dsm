@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher)
+org.apache.ivy.plugins.version.VersionRangeMatcher.getLatestStrategy()
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)
+org.apache.ivy.core.settings.IvySettings.getLatestStrategy(String)
+org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()

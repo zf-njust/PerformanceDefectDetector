@@ -1,0 +1,94 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationErrors(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.validText(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkGlyphWith(int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isEmbeddedFont()" />
+<item name="org.apache.pdfbox.pdmodel.text.PDTextState.getFont()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.getAllErrors()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getFontContainer(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.text.PDTextState.getRenderingMode()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamEngine.registerError(String, String)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.setErrorsAleadyMerged(boolean)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isValid()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.errorsAleadyMerged()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getBaseFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encodeToCID(byte[], int, int)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.getErrorCode()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.checkWidthsConsistency(int, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCodeFromArray(byte[], int, int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(byte[], int, int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.isAlreadyComputedCid(int)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.getFontProgramWidth(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontWidth(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markCIDAsValid(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getLastChar()" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.throwExceptionIfNotValid()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getMissingWidth()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markCIDAsInvalid(int, GlyphException)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFirstChar()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getWidths()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStringFromArray(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.cmapEncoding(int, int, boolean, CMap)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM.PDFontDescriptorAFM(FontMetric)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.PDFontDescriptorDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getAFM()" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertFloatCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSString.toString(byte[], int, int, Charset)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isType1Font()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getSubType()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+</group>
+</cluster>

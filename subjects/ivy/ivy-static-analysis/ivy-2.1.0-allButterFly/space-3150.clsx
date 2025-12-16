@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.cli.ParseException.ParseException(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.cli.Option.missingArgument(int)" />
+<item name="org.apache.ivy.util.cli.CommandLineParser.parse(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.cli.CommandLine.setLeftOverArgs(String[])" />
+<item name="org.apache.ivy.util.cli.CommandLine.addOptionValues(String, String[])" />
+<item name="org.apache.ivy.util.cli.Option.getArgsSpec()" />
+<item name="org.apache.ivy.util.cli.Option.parse(ListIterator)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.cli.Option.isCountArgs()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.getLen(Point2D, Point2D)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.CoonsPatch.calcLevel()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.calcLevel()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideCC(Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch.isOnSameSideDD(Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.isEdgeALine(Point2D[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Patch.edgeEquationValue(Point2D, Point2D, Point2D)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

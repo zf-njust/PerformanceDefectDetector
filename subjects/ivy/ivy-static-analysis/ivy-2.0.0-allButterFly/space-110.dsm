@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 1 0 1 
+0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.handleCircularDependency(ModuleRevisionId[])
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.core.resolve.ResolveOptions.getResolveId()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.core.resolve.ResolveData.getOptions()
+org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.getCircularDependencyId(ModuleRevisionId[])
+org.apache.ivy.core.IvyContext.getResolveData()
+org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.logCircularDependency(ModuleRevisionId[])

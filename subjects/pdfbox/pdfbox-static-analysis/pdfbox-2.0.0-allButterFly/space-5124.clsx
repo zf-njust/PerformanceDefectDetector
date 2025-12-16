@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.Matrix.Matrix(COSArray)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject.getMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType1.getMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.getFontMatrix()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShading.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontMatrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+</group>
+</group>
+</cluster>

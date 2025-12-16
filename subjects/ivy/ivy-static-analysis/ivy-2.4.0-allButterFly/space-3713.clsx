@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.ProvidesHandler.ProvidesHandler.(Anon_13).childHanlded(ProvidedHandler)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.namespace2Type(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.BundleCapability(String, String, Version)" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.ExportPackage(String, Version)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.ensureToString()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

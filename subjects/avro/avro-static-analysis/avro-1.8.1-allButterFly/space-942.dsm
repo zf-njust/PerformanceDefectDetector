@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 1 0 0 0 0 0 0 
+1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)
+org.apache.avro.SchemaBuilder.NestedCompletion.complete(Schema)
+org.apache.avro.SchemaBuilder.Completion.complete(Schema)
+org.apache.avro.SchemaBuilder.PropBuilder.hasProps()
+org.apache.avro.SchemaBuilder.ArrayCompletion.ArrayCompletion(ArrayBuilder, Completion)
+org.apache.avro.SchemaBuilder.ArrayBuilder.items(Schema)
+org.apache.avro.SchemaBuilder.NestedCompletion.outerSchema(Schema)
+org.apache.avro.SchemaBuilder.MapCompletion.MapCompletion(MapBuilder, Completion)
+org.apache.avro.SchemaBuilder.MapBuilder.values(Schema)
+org.apache.avro.SchemaBuilder.NestedCompletion.NestedCompletion(PropBuilder, Completion)

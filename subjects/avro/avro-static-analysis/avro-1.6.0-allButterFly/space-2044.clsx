@@ -1,0 +1,111 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroOutputFormat.getRecordWriter(FileSystem, JobConf, String, Progressable)" />
+<item name="org.apache.avro.mapred.tether.TetherKeyComparator.setConf(Configuration)" />
+<item name="org.apache.avro.mapred.AvroSerialization.getDeserializer(Class)" />
+<item name="org.apache.avro.mapred.tether.TetherPartitioner.configure(JobConf)" />
+<item name="org.apache.avro.mapred.tether.TetherMapRunner.run(RecordReader, OutputCollector, Reporter)" />
+<item name="org.apache.avro.mapred.tether.TetherReducer.reduce(TetherData, Iterator, OutputCollector, Reporter)" />
+<item name="org.apache.avro.mapred.AvroSerialization.getSerializer(Class)" />
+<item name="org.apache.avro.mapred.AvroKeyComparator.setConf(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetheredProcess.TetheredProcess(JobConf, OutputCollector, Reporter)" />
+<item name="org.apache.avro.mapred.AvroOutputFormat.configureDataFileWriter(DataFileWriter, JobConf)" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.error()" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter()" />
+<item name="org.apache.avro.mapred.Pair.getValueSchema(Schema)" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.waitForFinish()" />
+<item name="org.apache.avro.mapred.tether.TetherData.buffer()" />
+<item name="org.apache.avro.mapred.tether.TetheredProcess.close()" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema)" />
+<item name="org.apache.avro.mapred.tether.TetherData.count()" />
+<item name="org.apache.avro.mapred.tether.TetherData.TetherData()" />
+<item name="org.apache.avro.mapred.Pair.getKeySchema(Schema)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.AvroWrapperDeserializer(DatumReader, boolean)" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.isFinished()" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperSerializer.AvroWrapperSerializer(DatumWriter)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketAddress)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema, Schema, ReflectData)" />
+<item name="org.apache.avro.ipc.Server.close()" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.TetherOutputService(OutputCollector, Reporter)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(ReflectData)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.mapred.tether.TetherOutputService.inputPort()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress)" />
+<item name="org.apache.avro.file.DataFileWriter.setSyncInterval(int)" />
+<item name="org.apache.avro.mapred.tether.TetheredProcess.startSubprocess(JobConf)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.ReflectDatumWriter(Schema, ReflectData)" />
+<item name="org.apache.avro.ipc.Server.start()" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema, SpecificData)" />
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(SpecificData)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.ipc.Server.getPort()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.ipc.SaslSocketServer.SaslSocketServer(Responder, SocketAddress, SaslServerFactory)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketAddress, SaslClient)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.SaslParticipant(SaslClient)" />
+<item name="org.apache.avro.ipc.SocketServer.SocketServer(Responder, SocketAddress)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.getRemoteName()" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.open(boolean)" />
+<item name="org.apache.avro.Schema.Props.write(JsonGenerator)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String, ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readStatus()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.toString(ByteBuffer)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getNegotiatedProperty(String)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readFrame()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getMechanismName()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.evaluate(byte[])" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.isComplete()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.Status.values()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(ByteBuffer)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.writeFully(ByteBuffer...)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

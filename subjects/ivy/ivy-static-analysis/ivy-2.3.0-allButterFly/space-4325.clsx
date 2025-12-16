@@ -1,0 +1,106 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.toSystem(Artifact)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.locate(Artifact)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef(Artifact, Date)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolvedResource.getResource()" />
+<item name="org.apache.ivy.plugins.repository.Resource.exists()" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.ArtifactOrigin(Artifact, boolean, String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.isUnknown(ArtifactOrigin)" />
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getSavedArtifactOrigin(Artifact)" />
+<item name="org.apache.ivy.plugins.repository.Resource.isLocal()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.FileRepository()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.findArtifactRef(Artifact, Date)" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.repository.file.FileResource.FileResource(FileRepository, File)" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getLocation()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+<item name="org.apache.ivy.plugins.resolver.BasicResolver.logArtifactAttempt(Artifact, String)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)" />
+<item name="org.apache.ivy.core.IvyContext.set(String, Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getNamespace()" />
+<item name="org.apache.ivy.plugins.namespace.NameSpaceHelper.transform(Artifact, NamespaceTransformer)" />
+<item name="org.apache.ivy.plugins.namespace.Namespace.getToSystemTransformer()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getPublicationDate()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getUrl()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initNamespaceFromSettings()" />
+<item name="org.apache.ivy.plugins.namespace.NamespaceTransformer.isIdentity()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, URL, Map)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.plugins.namespace.NamespaceTransformer.transform(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getSystemNamespace()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getNamespace(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

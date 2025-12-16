@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.RequiredHandler.handleAttributes(Attributes)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getOptionalBooleanAttribute(Attributes, String, Boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.parseBoolean(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getLocator()" />
+</group>
+</group>
+</group>
+</cluster>

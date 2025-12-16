@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 1 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 0 0 0 
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getSettings()
+org.apache.ivy.core.settings.IvySettings.getVariable(String)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.isCheckmodified(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions)
+org.apache.ivy.core.cache.CacheMetadataOptions.isCheckmodified()
+org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.isCheckmodified()

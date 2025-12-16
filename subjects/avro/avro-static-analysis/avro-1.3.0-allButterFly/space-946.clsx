@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SocketServer.Connection.Connection(SocketChannel)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SocketServer.run()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SocketTransceiver.SocketTransceiver(SocketChannel)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SocketTransceiver.getRemoteName()" />
+</group>
+</group>
+</group>
+</cluster>

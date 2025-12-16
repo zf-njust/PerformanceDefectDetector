@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 1 
+1 1 0 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getCOSDictionary()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPatternResources.getExtendedGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary)
+org.apache.pdfbox.cos.COSObject.getObject()

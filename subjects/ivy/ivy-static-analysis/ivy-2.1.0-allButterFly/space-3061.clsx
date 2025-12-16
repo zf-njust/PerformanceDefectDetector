@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.Ivy.execute(IvyCallback)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.pushContext()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.Ivy.IvyCallback.doInIvyContext(Ivy, IvyContext)" />
+<item name="org.apache.ivy.Ivy.popContext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.IvyContext.popContext()" />
+<item name="org.apache.ivy.core.IvyContext.pushContext(IvyContext)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.setIvy(Ivy)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.core.IvyContext.pushNewContext()" />
+</group>
+</group>
+</group>
+</cluster>

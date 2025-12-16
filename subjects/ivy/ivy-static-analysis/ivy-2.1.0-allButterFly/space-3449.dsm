@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyId()
+org.apache.ivy.core.module.id.ModuleId.equals(Object)
+org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.dependsOn(VersionMatcher, ModuleDescriptor)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

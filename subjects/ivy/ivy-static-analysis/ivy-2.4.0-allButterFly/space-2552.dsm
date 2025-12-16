@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+org.apache.ivy.util.filter.Filter.accept(Object)
+org.apache.ivy.core.settings.IvySettings.getConflictManager(String)
+org.apache.ivy.core.module.id.MatcherLookup.key(Map)
+org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)
+org.apache.ivy.core.settings.IvySettings.getDefaultResolveMode()
+org.apache.ivy.core.settings.IvySettings.getDefaultBranch()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.module.id.ModuleId.getAttributes()
+org.apache.ivy.core.settings.IvySettings.ModuleSettings.getBranch()
+org.apache.ivy.core.settings.IvySettings.ModuleSettings.getConflictManager()
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId, Filter)
+org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.core.module.id.ModuleRules.getRule(ModuleId)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)
+org.apache.ivy.core.settings.IvySettings.getResolveMode(ModuleId)
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.core.settings.IvySettings.getDefaultBranch(ModuleId)
+org.apache.ivy.plugins.matcher.MapMatcher.matches(Map)
+org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()
+org.apache.ivy.core.module.id.MatcherLookup.get(Map)
+org.apache.ivy.core.settings.IvySettings.ModuleSettings.getResolveMode()
+org.apache.ivy.core.module.id.ModuleRules.getRule(Map, Filter)
+org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()
+org.apache.ivy.core.settings.IvySettings.getConflictManager(ModuleId)

@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MessageLoggerEngine.log(String, int)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.endProgress(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.verbose(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.info(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.warn(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.progress()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.rawinfo(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.endProgress()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.deprecated(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.rawlog(String, int)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.debug(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.error(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLogger.deprecated(String)" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.rawlog(String, int)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.endProgress()" />
+<item name="org.apache.ivy.util.MessageLogger.log(String, int)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.MessageLogger.endProgress(String)" />
+<item name="org.apache.ivy.util.MessageLogger.rawinfo(String)" />
+<item name="org.apache.ivy.util.MessageLogger.progress()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,1004 @@
+class path,method name,method arguments,Time,OwnTime,count
+lang\java\src\java\org\apache\avro\ipc\RPCContext.java,requestCallMeta,,0,0,126
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,skipGenerated,Decoder,6,0,4
+lang\java\src\java\org\apache\avro\io\ParsingDecoder.java,skipTopSymbol,,120468,120468,736710131
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testList,,1,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeInt,int,1,0,1314
+lang\java\src\test\java\org\apache\avro\util\TestUtf8.java,testByteConstructor,,0,0,1
+lang\java\src\java\org\apache\avro\ipc\DatagramServer.java,close,,0,0,7
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,newDecoder,"byte[], int, int",0,0,2
+lang\java\src\test\java\org\apache\avro\TestDataFileConcat.java,<init>,"CodecFactory, CodecFactory, Boolean",0,0,6
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificData.java,testHashCode,,0,0,1
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,flattenedSize,"Symbol[], int",21,14,90469
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,<init>,"Class, Object",71,0,32
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testInputStreamProxy,,246,0,2
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,getMapEntries,Object,1,0,281
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,<init>,"Schema, SpecificData",0,0,22
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,getClient,"Class, Transceiver",25,0,25
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,setItemCount,long,1,0,1966
+lang\java\src\test\java\org\apache\avro\RandomData.java,randomBytes,"Random, int",2,0,212
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeString,Utf8,3,0,647
+lang\java\src\test\java\org\apache\avro\TestBulkData.java,startServer,,263,0,2
+lang\java\src\test\java\org\apache\avro\TestSchema.java,lockedArrayList,,0,0,10
+lang\java\src\test\java\org\apache\avro\ipc\TestLocalTransceiver.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,escapeForJavaDoc,String,0,0,7
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,expandStack,,464,197,501029
+lang\java\src\test\java\org\apache\avro\tool\TestJsonToFromBinaryFragmentTools.java,testBinaryToJson,,2,0,1
+lang\java\src\java\org\apache\avro\Schema.java,toString,,30,0,315
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,clientSendRequest,RPCContext,0,0,12
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeLong,"long, byte[], int",0,0,3766
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,setField,"Object, String, int, Object",0,0,32
+lang\java\src\java\org\apache\avro\ipc\stats\Histogram.java,entries,,3,0,4
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setSyncInterval,int,0,0,61
+lang\java\src\java\org\apache\avro\ipc\HttpServer.java,close,,908,0,9
+lang\java\src\test\java\org\apache\avro\TestNamespaceSpecific.java,testStopServer,,1,0,2
+lang\java\src\java\org\apache\avro\ipc\Requestor.java,writeHandshake,Encoder,13,0,61
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,resolve,"Symbol, Symbol",17,2,7491
+lang\java\src\java\org\apache\avro\io\parsing\ValidatingGrammarGenerator.java,generate,Schema,252,7,9776
+lang\java\src\java\org\apache\avro\ipc\stats\StatsServlet.java,<init>,StatsPlugin,0,0,6
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,<init>,OutputStream,49,1,2892
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readBoolean,,9,0,147
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,<init>,"Schema, InputStream",145,2,3072
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getProtocol,Class,18,0,10
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,writeLength,"int, OutputStream",19,0,126
+lang\java\src\java\org\apache\avro\Schema.java,hashCode,,51,11,27295
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,read,"Object, Decoder",16572,141,506968
+lang\java\src\java\org\apache\avro\Schema.java,<init>,Schema$Type,46,10,37867
+lang\java\src\test\java\org\apache\avro\TestReflect.java,<init>,,0,0,23
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testEnum,,0,0,1
+lang\java\src\java\org\apache\avro\tool\Util.java,jsonToGenericDatum,"Schema, String",4,0,1
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,<init>,,0,0,4
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readIndex,,1083,399,1499468
+lang\java\src\java\org\apache\avro\file\SeekableFileInput.java,length,,23,1,2807
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testRead,,2,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,errors,Schema,0,0,1
+lang\java\src\java\org\apache\avro\io\ParsingEncoder.java,pop,,0,0,6146
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeArrayStart,,2,0,1660
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,isRecord,Object,0,0,5
+lang\java\src\java\org\apache\avro\io\parsing\ValidatingGrammarGenerator.java,<init>,,2,2,24502
+lang\java\src\java\org\apache\avro\io\ParsingEncoder.java,setItemCount,long,0,0,3348
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,<init>,"int, InputStream",6,0,366
+lang\java\src\java\org\apache\avro\file\SeekableFileInput.java,tell,,2396,130,498034
+lang\java\src\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"InputStream, BinaryDecoder",21,0,419
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readEnum,"Schema, Decoder",16,2,5089
+lang\java\src\java\org\apache\avro\generic\GenericResponder.java,<init>,Protocol,0,0,2
+lang\java\src\java\org\apache\avro\ipc\Transceiver.java,transceive,List,401,0,53
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,longValue,Object,0,0,2263
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testBadLongEncoding,,0,0,2
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,,6,0,490
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeIndex,int,1,0,1119
+lang\java\src\java\org\apache\avro\tool\BinaryFragmentToJsonTool.java,run,"InputStream, PrintStream, PrintStream, List",0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testEnumWithPrimitiveName,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestDataFileReflect.java,testNestedClass,,3,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,<init>,"Schema, OutputStream",155,1,3067
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,init,OutputStream,0,0,11
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,getArrayElements,Object,2,0,7
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,getRemoteName,,0,0,28
+lang\java\src\java\org\apache\avro\ipc\stats\Stopwatch.java,elapsedNanos,,0,0,23
+lang\java\src\test\java\org\apache\avro\BarRecord.java,equals,Object,0,0,5
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipFixed,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,data,,2,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,newDecoder,byte[],0,0,34
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readLong,,1381,498,2516005
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFDouble,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIOResolving.java,dataForResolvingTests,,0,0,1
+lang\java\src\java\org\apache\avro\io\DecoderFactory.java,<init>,,0,0,57
+lang\java\src\test\java\org\apache\avro\ipc\stats\FakeTicks.java,<init>,,0,0,17
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeFixed,"Schema, Object, Encoder",1,0,175
+lang\java\src\java\org\apache\avro\Schema.java,toString,boolean,35,1,316
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,createSchema,"Type, Map",37,1,181
+lang\java\src\java\org\apache\avro\ipc\DatagramServer.java,run,,9959,0,8
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testArrayConstructorNullSchema,,0,0,1
+lang\java\src\java\org\apache\avro\Schema.java,getRequiredText,"JsonNode, String, String",36,6,20100
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readDouble,,6,0,135
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getSchema,"Type, Map",2,0,74
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,<init>,Schema,0,0,81
+lang\java\src\java\org\apache\avro\ipc\Responder.java,respond,List,117,0,61
+lang\java\src\java\org\apache\avro\util\Utf8.java,equals,Object,0,0,1320
+lang\java\src\java\org\apache\avro\ipc\stats\FloatHistogram.java,<init>,Histogram$Segmenter,0,0,11
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,close,,19,0,39
+lang\java\src\test\java\org\apache\avro\TestDataFileReflect.java,testMultiReflectWithUnionBeforeWriting,,23,0,1
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,<init>,"TestValidatingIO$Encoding, int, String, String, String, String",0,0,768
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testStartServer,,31,0,4
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,initialize,InputStream,288,2,218
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeEnum,"Schema, Object, Encoder",0,0,39
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,readBuffers,,302,0,28
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,getDatumReader,Schema,0,0,35
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,clientFinishConnect,RPCContext,0,0,12
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeDouble,double,2,0,136
+lang\java\src\java\org\apache\avro\io\ParsingDecoder.java,<init>,Symbol,401,147,519003
+lang\java\src\java\org\apache\avro\tool\Main.java,<init>,,9,0,1
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR6,,5,0,1
+lang\java\src\java\org\apache\avro\io\parsing\SkipParser.java,skipRepeater,,22255,0,224
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testFixed,,6,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeBytes,"byte[], int, int",1,0,52
+lang\java\src\java\org\apache\avro\Schema.java,toJson,"Schema$Names, JsonGenerator",1,0,350
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testNotStarted2,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericData.java,induce,Object,0,0,187
+lang\java\src\java\org\apache\avro\ipc\ByteBufferInputStream.java,<init>,List,0,0,138
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,mapNext,,6,0,971
+lang\java\src\java\org\apache\avro\Protocol.java,createMessage,"String, String, Schema, Schema, Schema",0,0,34
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,newInstance,Class,16,0,293
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testNoDefaultField,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificRecordBase.java,toString,,0,0,1
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,setItemCount,long,3,1,2344
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,<init>,,0,0,6
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,pushSymbol,Symbol,259,259,3005657
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,addToMap,"Object, Object, Object",0,0,188
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR5,,1,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readIndex,,20,2,816
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIOResolving.java,testResolving,,85,0,156
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,generate,"Schema, Schema, Map",377,22,25723
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testEchoBytes,,19,0,4
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readBytes,"Object, Decoder",12,0,2121
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testRecordGetFieldDoesntExist,,0,0,1
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,readDouble,,31056,3,5037
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,skipString,,1,0,1162
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testImmutability2,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeMap,"Schema, Object, Encoder",8,1,281
+lang\java\src\java\org\apache\avro\ipc\DatagramServer.java,getPort,,0,0,7
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipMap,,4,0,182
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeString,"Object, Encoder",12,1,5146
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readIndex,,2,0,228
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeLong,long,26,1,7272
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,serverSendResponse,RPCContext,0,0,15
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeRecord,"Schema, Object, Encoder",88,9,5143
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,generateData,,34,0,1
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testTwiceStarted,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,generate,"Encoder, String, Object[]",190,31,8880
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testDecodeFromSources,,192,1,2
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,skipMap,"JsonParser, Decoder, int",0,0,5
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testDouble,,0,0,1
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,<init>,OutputStream,12,5,6950
+lang\java\src\java\org\apache\avro\Schema.java,createEnum,"String, String, String, List",0,0,5
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeDouble,"double, byte[], int",0,0,120
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testManglingForRecords,,966,0,1
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setMetaInternal,"String, String",0,0,50
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,mkEnumAdjust,"List, List",3,1,264
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,init,InputStream,77,2,3089
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,remainingInt,,0,0,10
+lang\java\src\java\org\apache\avro\generic\GenericData.java,compare,"Object, Object, Schema",117,31,36019
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testBytes,,0,0,1
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,next,Object,19690,371,504006
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,newArray,"Object, int, Schema",204,167,499869
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,read,byte[],0,0,8
+lang\java\src\java\org\apache\avro\tool\DataFileGetSchemaTool.java,<init>,,0,0,2
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readString,"Object, Decoder",1035,91,508920
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readInt,"Object, Schema, Decoder",6,1,2121
+lang\java\src\java\org\apache\avro\ipc\stats\StatsServlet.java,writeStats,Writer,7,0,4
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,assertCompilesWithJavaCompiler,Collection,4804,0,4
+lang\java\src\java\org\apache\avro\Schema.java,createMap,Schema,0,0,16
+lang\java\src\test\java\org\apache\avro\generic\TestGenericDatumWriter.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readBoolean,,0,0,1600
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificData.java,testToString,,0,0,1
+lang\java\src\java\org\apache\avro\ipc\ResponderServlet.java,<init>,Responder,0,0,10
+lang\java\src\java\org\apache\avro\tool\JsonToBinaryFragmentTool.java,<init>,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestDataFileMeta.java,testUseMetaAfterCreate,,0,0,1
+lang\java\src\test\java\org\apache\avro\util\TestUtf8.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,finishOverflow,,1,0,296
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO2.java,data,,0,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,startItem,,2,0,2070
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,compileInterface,Protocol,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isFixed,Object,0,0,19
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readString,"Object, Schema, Decoder",1115,81,508718
+lang\java\src\java\org\apache\avro\ipc\stats\Histogram.java,add,Object,0,0,39
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,<init>,"Symbol, InputStream",80,2,3086
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeArray,"Schema, Object, Encoder",14,1,518
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,doWriteBytes,"byte[], int, int",4,1,1364
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,init,"byte[], int, int",1288,225,504764
+lang\java\src\java\org\apache\avro\Schema.java,createRecord,List,1,0,49
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,appendAllFrom,"DataFileStream, boolean",4,0,7
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,error,String,0,0,80
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testMakePath,,0,0,1
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,<init>,,0,0,7
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testLongTooShort,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testRecursiveEquals,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readByteArray,,1,0,86
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testIntTooShort,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testBadIntEncoding,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestSchema.java,check,"String, String, Object, boolean",116,0,13
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,writeString,"Object, Encoder",0,0,15
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeEnum,int,0,0,41
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,<init>,,0,0,28
+lang\java\src\java\org\apache\avro\tool\GenAvroTool.java,run,"InputStream, PrintStream, PrintStream, List",37,0,6
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,concat,Object[][],0,0,1500
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,close,,0,0,25
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readString,Utf8,688,370,509791
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeInt,int,6,1,1340
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,readBuffers,InputStream,471,0,59
+lang\java\src\test\java\org\apache\avro\TestSchema.java,<init>,,0,0,38
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,setField,"Object, String, int, Object",0,0,519
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeBoolean,boolean,0,0,1000
+lang\java\src\java\org\apache\avro\tool\DataFileWriteTool.java,<init>,,0,0,6
+lang\java\src\test\java\org\apache\avro\ipc\TestLocalTransceiver.java,testSingleRpc,,1,0,1
+lang\java\src\java\org\apache\avro\generic\GenericData.java,<init>,,0,0,5
+lang\java\src\java\org\apache\avro\io\Decoder.java,<init>,,31,31,526400
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,countRecords,File,0,0,2
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getClass,Schema,1,0,9
+lang\java\src\test\java\org\apache\avro\TestDataFileReflect.java,write,"DataFileWriter, Object, TestDataFileReflect$CheckList",0,0,9
+lang\java\src\java\org\apache\avro\util\Utf8.java,compareTo,Utf8,5,1,5898
+lang\java\src\java\org\apache\avro\specific\SpecificRecordBase.java,equals,Object,0,0,5
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,resolveUnion,"Schema, Schema, Map",91,9,2771
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,getMetaString,String,4,0,437
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,addToArray,"Object, long, Object",4,3,11364
+lang\java\src\test\java\org\apache\avro\TestNamespaceSpecific.java,testStartServer,,39,0,2
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,appendTo,File,31,0,14
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,<init>,Class,10,0,39
+lang\java\src\java\org\apache\avro\ipc\AvroRemoteException.java,<init>,Throwable,0,0,3
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readMapStart,,11,0,1580
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFEnum,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,<init>,boolean,0,0,40
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testArray,,1,0,1
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,readLong,,48114,360,1011037
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,testGenericRead,,16,0,5
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,getMapSize,Object,0,0,281
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,init,InputStream,4,0,4
+lang\java\src\java\org\apache\avro\generic\GenericData.java,instanceOf,"Schema, Object",2,0,1241
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,testScan,,37,0,94
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,assertNotOpen,,0,0,117
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,codecs,,7,0,2
+lang\java\src\test\java\org\apache\avro\RandomData.java,<init>,"Schema, int",0,0,18
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificData.java,<init>,,0,0,2
+lang\java\src\test\java\org\apache\avro\RandomData.java,randomUtf8,"Random, int",115,25,8360
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO2.java,testScan,,4,0,84
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,<init>,"Schema, String",4,0,1
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,write,"byte[], int, int",1,0,334
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,GenericData,0,0,632
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testWriteWithDeflate,,5,0,1
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,<init>,SocketChannel,292,0,42
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,arrayNext,,15,4,5772
+lang\java\src\java\org\apache\avro\generic\GenericData.java,validate,"Schema, Object",1,1,778
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeLong,"long, OutputStream",40,15,21594
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestHistogram.java,<init>,,0,0,3
+lang\java\src\test\java\org\apache\avro\TestProtocolDatagram.java,<init>,,0,0,7
+lang\java\src\java\org\apache\avro\file\NullCodec.java,<init>,,0,0,15
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,create,"Schema, OutputStream",111,0,30
+lang\java\src\java\org\apache\avro\Protocol.java,getMD5,,31,0,99
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readArrayStart,,5,0,773
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,writeBytes,"Object, Encoder",0,0,2
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testEnumMismatch,,0,0,1
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,<init>,"byte[], int, int",24,4,6913
+lang\java\src\java\org\apache\avro\ipc\DatagramTransceiver.java,getRemoteName,,0,0,10
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testTwiceStopped,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeString,"Schema, Object, Encoder",12,1,4960
+lang\java\src\test\java\org\apache\avro\io\parsing\TestResolvingGrammarGenerator.java,test,,0,0,16
+lang\java\src\java\org\apache\avro\ipc\Requestor.java,addRPCPlugin,RPCPlugin,0,0,14
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,isEnd,,0,0,3
+lang\java\src\test\java\org\apache\avro\FooRecord.java,<init>,int,0,0,2
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readMapStart,,12,0,562
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testParseInputStream,,0,0,1
+lang\java\src\java\org\apache\avro\ipc\stats\FloatHistogram.java,getMean,,0,0,11
+lang\java\src\java\org\apache\avro\Schema.java,create,Schema$Type,44,9,21781
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,publish,"RPCContext, Stopwatch",0,0,13
+lang\java\src\java\org\apache\avro\io\Encoder.java,writeString,String,17,1,1267
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,startItem,,3,1,1186
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,getBinary,"Schema, JsonNode",1,0,86
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,init,String,3,0,22
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,check,"Schema, byte[], String, Object[], int, TestValidatingIO$Encoding",103,2,960
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,generate,"Schema, Schema",609,7,8582
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,<init>,,4,3,8582
+lang\java\src\java\org\apache\avro\util\Utf8.java,setLength,int,41,41,518151
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readFixed,"Object, Schema, Decoder",1826,367,996880
+lang\java\src\test\java\org\apache\avro\TestProtocolHttp.java,<init>,,0,0,7
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readBoolean,,302,233,505928
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,readEnum,,35025,2,5119
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,flush,,5,0,41
+lang\java\src\test\java\org\apache\avro\file\TestLengthLimitedInputStream.java,testRead,,0,0,1
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,skipArray,,2,0,1620
+lang\java\src\java\org\apache\avro\Protocol.java,toJson,JsonGenerator,4,0,15
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,getMeta,String,1,0,437
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testEsc,,0,0,1
+lang\java\src\java\org\apache\avro\tool\BinaryFragmentToJsonTool.java,<init>,,0,0,2
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipMap,,7,0,546
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,getLength,List,0,0,56
+lang\java\src\test\java\org\apache\avro\TestDataFileMeta.java,testUseReservedMeta,,0,0,1
+lang\java\src\java\org\apache\avro\ipc\LocalTransceiver.java,<init>,Responder,0,0,8
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,Schema,0,0,139
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeDouble,double,0,0,117
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFInt,,0,0,2
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,writeRequest,"Schema, Object, Encoder",0,0,50
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,getClass,Schema,5,0,402
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeLong,long,6,0,1181
+lang\java\src\test\java\org\apache\avro\TestReflect.java,check,"Type, String",2,0,19
+lang\java\src\java\org\apache\avro\ipc\Responder.java,<init>,Protocol,58,0,38
+lang\java\src\java\org\apache\avro\Protocol.java,parse,File,0,0,4
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,doAction,"Symbol, Symbol",13,1,2009
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testRecordWithPrimitiveName,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,testSkip2,,18,0,94
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,resolve,"Schema, Schema",632,5,8583
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,writeSampleFile,,2,0,1
+lang\java\src\test\java\org\apache\avro\tool\TestRpcReceiveAndSendTools.java,testServeAndSend,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testFloat,,4,0,1
+lang\java\src\java\org\apache\avro\io\BinaryData.java,compareBytes,"byte[], int, int, byte[], int, int",1,1,5903
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readLong,,3,0,175
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,assertCompiles,"Schema, boolean",67,0,180
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,init,"int, InputStream",6,0,425
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,writeRawBlock,DataFileStream$DataBlock,0,0,72
+lang\java\src\java\org\apache\avro\ipc\ResponderServlet.java,doPost,"HttpServletRequest, HttpServletResponse",116,0,27
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFString,,0,0,2
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeNull,,0,0,65
+lang\java\src\java\org\apache\avro\tool\DataFileReadTool.java,run,"InputStream, PrintStream, PrintStream, List",1,0,5
+lang\java\src\java\org\apache\avro\generic\GenericResponder.java,writeResponse,"Schema, Object, Encoder",0,0,11
+lang\java\src\test\java\org\apache\avro\TestDataFileDeflate.java,testWriteAndRead,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testComplexProp,,0,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectRequestor.java,getDatumReader,Schema,0,0,4
+lang\java\src\java\org\apache\avro\tool\RpcReceiveTool.java,<init>,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestNamespaceSpecific.java,testError,,3,0,1
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeFloat,"float, OutputStream",3,2,646
+lang\java\src\java\org\apache\avro\generic\GenericData.java,toString,"Object, StringBuilder",6,1,590
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,writeBytes,"Object, Encoder",2,0,320
+lang\java\src\test\java\org\apache\avro\file\TestLengthLimitedInputStream.java,testAvailable,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readInt,,15,1,1248
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeDouble,double,4,0,352
+lang\java\src\java\org\apache\avro\ipc\stats\Histogram.java,<init>,Histogram$Segmenter,0,0,13
+lang\java\src\test\java\org\apache\avro\file\TestLengthLimitedInputStream.java,setupRawStream,,0,0,2
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeString,Utf8,9,3,5489
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipFixed,int,0,0,4
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,<init>,,3,0,7
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testDocs,,0,0,1
+lang\java\src\test\java\org\apache\avro\tool\TestJsonToFromBinaryFragmentTools.java,testJsonToBinary,,1,0,1
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,pastSync,long,25,0,2849
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestHistogram.java,testBasicOperation,,9,0,1
+lang\java\src\java\org\apache\avro\ipc\RPCContext.java,<init>,,0,0,331
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,sync,,3,0,58
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,read,,0,0,9
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeInt,int,5,0,1783
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,<init>,,0,0,118
+lang\java\src\java\org\apache\avro\AvroRuntimeException.java,<init>,String,0,0,90
+lang\java\src\java\org\apache\avro\Protocol.java,parseNamespace,JsonNode,0,0,8
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,createFixed,"Object, Schema",6,0,132
+lang\java\src\java\org\apache\avro\io\parsing\SkipParser.java,skipSymbol,Symbol,236296,0,17
+lang\java\src\test\java\org\apache\avro\TestDataFileReflect.java,<init>,,0,0,3
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readArrayStart,,890,279,501587
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testDifferentSeparatorsBetweenJsonRecords,,4,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,readInt,"Object, Schema, Decoder",0,0,21
+lang\java\src\java\org\apache\avro\file\SeekableFileInput.java,<init>,File,19,0,210
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,createNewHistogram,,0,0,2
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readFloat,,4,1,2148
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testHashCode,,0,0,1
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,<init>,"Schema, Encoder",237,6,8814
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,writeBuffers,List,12,0,36
+lang\java\src\java\org\apache\avro\ipc\stats\FloatHistogram.java,add,Float,0,0,18
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,makeFile,,0,0,20
+lang\java\src\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"byte[], int, int, BinaryDecoder",1389,96,504763
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,generateSync,,97,0,29
+lang\java\src\test\java\org\apache\avro\tool\TestMain.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeMapEnd,,2,0,744
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,newDecoderWithNoData,,0,0,18
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testStopServer,,713,0,28
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,invoke,"Object, Method, Object[]",597,0,50
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,writeLength,int,9,0,74
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeMapEnd,,3,0,754
+lang\java\src\test\java\org\apache\avro\io\parsing\TestResolvingGrammarGenerator.java,<init>,"String, String",3,0,16
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, String",0,0,9
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,skip,"TestValidatingIO$InputScanner, Decoder, boolean",19,2,1113
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readEnum,,0,0,30
+lang\java\src\java\org\apache\avro\Protocol.java,parse,String,18,0,9
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testWrite,"String, List, String",8,0,2
+lang\java\src\java\org\apache\avro\Protocol.java,parseMessage,"String, JsonNode",1,0,14
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeEnum,int,0,0,29
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testPrimitiveSchemaGeneratesNothing,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,<init>,"Class, Transceiver",0,0,7
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readMapStart,,21,1,1900
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testProtocolWithDocs,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testMap,,17,0,1
+lang\java\src\java\org\apache\avro\ipc\SocketServer.java,<init>,"Responder, SocketAddress",22,0,22
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testHello,,3,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,getArrayElements,Object,0,0,511
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,line,"StringBuilder, int, String",7,1,1677
+lang\java\src\test\java\org\apache\avro\TestProtocolParsing.java,<init>,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,validateInputStreamReads,"InputStream, InputStream",475,23,8
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkParseError,String,3,0,11
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList3,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,testGenericAppend,,129,0,5
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,<init>,"Protocol, Transceiver",0,0,36
+lang\java\src\java\org\apache\avro\util\Utf8.java,hashCode,,0,0,577
+lang\java\src\java\org\apache\avro\Schema.java,createUnion,List,1,0,80
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,nanosToMillis,long,0,0,17
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,flatten,"Symbol[], int, Symbol[], int, Map, Map",368,29,64953
+lang\java\src\java\org\apache\avro\generic\GenericResponder.java,readRequest,"Schema, Decoder",1,0,11
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkJson,"Schema, Object, DatumWriter, DatumReader",130,1,180
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isBytes,Object,0,0,62
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,reset,,2,0,255
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeLong,long,0,0,385
+lang\java\src\java\org\apache\avro\ipc\stats\Stopwatch.java,start,,0,0,29
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeMapStart,,9,2,2164
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,clientStartConnect,RPCContext,0,0,12
+lang\java\src\java\org\apache\avro\io\ParsingEncoder.java,<init>,,4,3,11927
+lang\java\src\java\org\apache\avro\Schema.java,createFixed,"String, String, String, int",0,0,4
+lang\java\src\java\org\apache\avro\file\DeflateCodec.java,equals,Object,0,0,9
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,append,Object,60,2,4449
+lang\java\src\java\org\apache\avro\Schema.java,getOptionalText,"JsonNode, String",46,9,31696
+lang\java\src\test\java\org\apache\avro\TestDataFileConcat.java,makeFile,String,0,0,12
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testDoubleTooShort,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestProtocolParsing.java,getSimpleProtocol,,0,0,2
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,isEnd,,516,287,996309
+lang\java\src\java\org\apache\avro\file\DeflateCodec.java,decompress,ByteBuffer,5994,941,497827
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,<init>,"Schema, Schema, Decoder",335,4,7837
+lang\java\src\java\org\apache\avro\io\parsing\JsonGrammarGenerator.java,generate,"Schema, Map",76,9,13192
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testNotStarted1,,0,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,readString,"Object, Schema, Decoder",0,0,14
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipBytes,,0,0,9
+lang\java\src\test\java\org\apache\avro\io\TestEncoders.java,testBlockingBinaryEncoderInit,,0,0,1
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,blockFinished,,3006,218,498031
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readBoolean,,26,26,504249
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,makePath,"String, String",0,0,160
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,readResponse,"Schema, Decoder",4,0,45
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR3,,0,0,1
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testSystemStopwatch,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,doMapNext,,5,0,936
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,randomValues,String,122,29,8724
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,readString,"Object, Decoder",0,0,15
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readBytes,ByteBuffer,12,1,2183
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readFixed,"byte[], int, int",1129,353,996913
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,getSchema,Type,47,0,142
+lang\java\src\test\java\org\apache\avro\RandomData.java,generate,"Schema, Random, int",198,23,27036
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,<init>,Schema,0,0,174
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,serverReceiveRequest,RPCContext,0,0,12
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeNull,,0,0,99
+lang\java\src\test\java\org\apache\avro\tool\TestJsonToFromBinaryFragmentTools.java,<init>,,0,0,2
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,arrayNext,,6,1,5807
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,setField,"Object, String, int, Object",708,708,5014963
+lang\java\src\java\org\apache\avro\Protocol.java,parse,JsonParser,8,0,8
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,extractInt,TestValidatingIO$InputScanner,65,17,18252
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,serverConnecting,RPCContext,1,0,12
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,createFixed,"Object, Schema",323,170,996748
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testMangleIfReserved,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,<init>,"Schema, JsonGenerator",107,5,3069
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,getField,"Object, String, int",0,0,7392
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,close,,5,0,39
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readBytes,ByteBuffer,1,0,411
+lang\java\src\java\org\apache\avro\ipc\DatagramTransceiver.java,<init>,DatagramChannel,0,0,26
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,"Schema, GenericData",0,0,142
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,doReadBytes,"byte[], int, int",321,299,2505370
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,makeContext,,0,0,2
+lang\java\src\test\java\org\apache\avro\generic\TestGenericDatumWriter.java,testWrite,,0,0,1
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeArrayStart,,8,1,2285
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,skipAction,,0,0,183
+lang\java\src\java\org\apache\avro\Protocol.java,toString,,9,0,15
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,doArrayNext,,4,0,1371
+lang\java\src\java\org\apache\avro\util\Utf8.java,<init>,String,18,1,3465
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkBinary,"Schema, Object, DatumWriter, DatumReader",41,0,180
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testMap,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,compare,"Object, Object, Schema",0,0,14
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testEcho,,29,0,4
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,endBlockedValue,,12,3,2414
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeFixed,"byte[], int, int",0,0,45
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,newRecord,"Object, Schema",15,0,162
+lang\java\src\java\org\apache\avro\io\parsing\SkipParser.java,<init>,"Symbol, Parser$ActionHandler, SkipParser$SkipHandler",220,93,519017
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR1,,12,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,flush,,13,2,3087
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeFloat,"float, byte[], int",0,0,427
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getMessage,"Method, Protocol, Map",14,0,34
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testP0,,11,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,<init>,Schema,0,0,19
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testHashCode,,0,0,4
+lang\java\src\java\org\apache\avro\specific\SpecificFixed.java,<init>,,24,0,238
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,testSchemas,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isArray,Object,0,0,33
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,error,String,0,0,1
+lang\java\src\java\org\apache\avro\file\CodecFactory.java,deflateCodec,int,5,0,14
+lang\java\src\java\org\apache\avro\ipc\Transceiver.java,close,,0,0,15
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,getField,"Object, String, int",0,0,519
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,floatValue,Object,0,0,67
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readFloat,,1,0,2425
+lang\java\src\java\org\apache\avro\reflect\ReflectResponder.java,getDatumWriter,Schema,0,0,4
+lang\java\src\test\java\org\apache\avro\RandomData.java,iterator,,1,0,63
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeEnum,int,0,0,5
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIOResolving.java,<init>,"TestValidatingIO$Encoding, int, String, String, Object[], String, String, Object[]",0,0,156
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,<init>,"Schema, Decoder",40,1,961
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,<init>,"InputStream, long",0,0,31
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,read,"Object, Schema, ResolvingDecoder",15464,2326,7032160
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList10,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,getClient,"Class, SpecificRequestor",0,0,7
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeArrayEnd,,9,2,2283
+lang\java\src\java\org\apache\avro\ipc\stats\Stopwatch.java,stop,,0,0,23
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,testCompatible,,1198,0,384
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,doSkipBytes,long,0,0,5141
+lang\java\src\java\org\apache\avro\file\CodecFactory.java,<init>,,0,0,22
+lang\java\src\java\org\apache\avro\file\DeflateCodec.java,compress,ByteBuffer,13,1,268
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestHistogram.java,testBadValue,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipString,,0,0,129
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,getDatumWriter,Schema,0,0,46
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testWritingZeroJsonValues,,2,0,1
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readFloat,,1,0,408
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,checkFixed,int,0,0,44
+lang\java\src\java\org\apache\avro\ipc\Responder.java,addRPCPlugin,RPCPlugin,0,0,15
+lang\java\src\java\org\apache\avro\util\Utf8.java,toString,,11,0,1488
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testVoid,,0,0,1
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,doSkipBytes,long,0,0,1407
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,skipArray,,3,0,190
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipArray,,6,0,580
+lang\java\src\java\org\apache\avro\ipc\SocketServer.java,getPort,,0,0,20
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testStopServer,,2,0,4
+lang\java\src\java\org\apache\avro\file\Codec.java,toString,,0,0,13
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,testMultipleRPCs,,3,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList8,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,mapNext,,3,0,375
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,data2,,2,0,2
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testRecord,,1,0,1
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readInt,,1,0,2019
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,advance,Symbol,22,4,7885
+lang\java\src\test\java\org\apache\avro\TestSchema.java,enumSchema,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testArray,,14,0,1
+lang\java\src\test\java\org\apache\avro\TestNamespaceSpecific.java,testEcho,,4,0,1
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,serverSendResponse,RPCContext,1,0,12
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,repeat,"Symbol, Symbol[]",18,4,12320
+lang\java\src\test\java\org\apache\avro\tool\TestRpcReceiveAndSendTools.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,getArraySize,Object,0,0,511
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO2.java,<init>,"int, int, String",13,0,84
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,testSkip1,,16,0,94
+lang\java\src\java\org\apache\avro\tool\GenAvroTool.java,<init>,,0,0,9
+lang\java\src\java\org\apache\avro\tool\Util.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,doc,"StringBuilder, int, String",0,0,226
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,<init>,"Schema, ReflectData",0,0,22
+lang\java\src\java\org\apache\avro\generic\GenericData.java,hashCode,"Object, Schema",0,0,42
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readString,Utf8,10,1,598
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testEcho,,3,0,1
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecificMeta.java,testStartServer,,11,0,7
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeFixed,"byte[], int, int",0,0,52
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,make,"Schema, String, Object[], TestValidatingIO$Encoding",649,16,8796
+lang\java\src\java\org\apache\avro\Schema.java,parse,"JsonNode, Schema$Names",533,81,37765
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkUnionError,Schema[],0,0,13
+lang\java\src\java\org\apache\avro\Protocol.java,parseTypes,JsonNode,1,0,8
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,getField,"Object, String, int",1,1,11060
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,writeBuffer,ByteBuffer,0,0,84
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testEchoBytes,,48,0,1
+lang\java\src\test\java\org\apache\avro\TestDataFileDeflate.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\Protocol.java,parseMessages,JsonNode,1,0,8
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkJson,"Schema, Object, String",6,0,5
+lang\java\src\java\org\apache\avro\file\DeflateCodec.java,<init>,int,0,0,268
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getField,"Class, String",0,0,64
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,flush,,20,3,8800
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,readFieldOrder,,27955,83,511587
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,configureSource,"int, BinaryDecoder$ByteSource",664,228,505186
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,getRecordSchema,Object,0,0,5
+lang\java\src\java\org\apache\avro\ipc\SocketServer.java,close,,4,0,20
+lang\java\src\java\org\apache\avro\ipc\ByteBufferInputStream.java,read,,0,0,2
+lang\java\src\test\java\org\apache\avro\file\TestLengthLimitedInputStream.java,<init>,,0,0,2
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeDouble,double,3,0,332
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,newRecord,"Object, Schema",229,178,511336
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testInputStreamPartiallyUsed,,115,0,2
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,getRemoteName,,3,0,79
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,check,,20,11,30068
+lang\java\src\java\org\apache\avro\ipc\HttpServer.java,getPort,,0,0,9
+lang\java\src\java\org\apache\avro\ipc\Transceiver.java,<init>,,0,0,95
+lang\java\src\java\org\apache\avro\ipc\ByteBufferInputStream.java,readBuffer,int,0,0,9
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,testSplits,,366,0,5
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,write,"Schema, Object, Encoder",107,9,18870
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeBytes,ByteBuffer,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isEnum,Object,0,0,8
+lang\java\src\java\org\apache\avro\Protocol.java,setTypes,Collection,0,0,10
+lang\java\src\java\org\apache\avro\generic\GenericRequestor.java,writeRequest,"Schema, Object, Encoder",0,0,11
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,checkString,"String, Decoder, int",4,0,253
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,create,"Schema, File",113,0,21
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,setElement,"Schema, Type",0,0,6
+lang\java\src\java\org\apache\avro\ipc\ByteBufferInputStream.java,read,"byte[], int, int",5,0,537
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readArrayStart,,533,170,501394
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,generateServletResponse,StatsPlugin,9,0,3
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeBytes,"byte[], int, int",0,0,84
+lang\java\src\test\java\org\apache\avro\TestBulkData.java,<init>,,52,0,2
+lang\java\src\java\org\apache\avro\io\Encoder.java,writeFixed,byte[],0,0,546
+lang\java\src\java\org\apache\avro\io\Encoder.java,writeBytes,byte[],6,0,808
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,read,"byte[], int, int",0,0,13
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,enqueue,Schema,11,0,645
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,advance,Symbol,186965,1291,7590674
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFBoolean,,0,0,2
+lang\java\src\java\org\apache\avro\Schema.java,equals,Object,0,0,264
+lang\java\src\java\org\apache\avro\ipc\Requestor.java,readHandshake,Decoder,18,0,61
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,seek,long,2,0,54
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testSchemaWithDocs,,3,0,1
+lang\java\src\java\org\apache\avro\io\parsing\SkipParser.java,skipTo,int,276804,156335,245
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isRecord,Object,0,0,60
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFFixed,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,convertTo2dArray,Object[][][],5,1,4
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,available,,0,0,7
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testrecordConstructorWrongSchema,,0,0,1
+lang\java\src\java\org\apache\avro\SchemaParseException.java,<init>,String,0,0,12
+lang\java\src\test\java\org\apache\avro\TestBulkData.java,testWrite,,383,0,1
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, byte[]",0,0,11
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,doAction,"Symbol, Symbol",6,1,3141
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,doAction,"Symbol, Symbol",223922,700,2017588
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testImmutability1,,0,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeMapStart,,1,0,754
+lang\java\src\test\java\org\apache\avro\TestProtocolReflect.java,testAdd,,3,0,1
+lang\java\src\java\org\apache\avro\ipc\AvroRemoteException.java,<init>,Object,0,0,5
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getFields,Class,6,0,40
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testAdd,,16,0,4
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,<init>,String,0,0,28
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,<init>,"File, DatumReader",286,0,204
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeBytes,ByteBuffer,0,0,24
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,encode,"Encoder, Schema, JsonNode",1,0,150
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,newMap,"Object, int",0,0,282
+lang\java\src\java\org\apache\avro\ipc\DatagramTransceiver.java,<init>,SocketAddress,0,0,12
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,writeBlock,,13,1,443
+lang\java\src\test\java\org\apache\avro\TestDataFileMeta.java,testUseMeta,,2,0,1
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIOResolving.java,data3,,0,0,1
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testGetSchema,,8,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readMap,"Object, Schema, ResolvingDecoder",15,0,282
+lang\java\src\java\org\apache\avro\ipc\DatagramTransceiver.java,writeBuffers,List,4,0,16
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,testOnce,"Schema, String, int, TestValidatingIO$Encoding",220,1,960
+lang\java\src\java\org\apache\avro\specific\SpecificRecordBase.java,<init>,,0,0,261
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,init,OutputStream,5,0,40
+lang\java\src\java\org\apache\avro\tool\RpcReceiveTool.java,run1,"InputStream, PrintStream, PrintStream, List",0,0,1
+lang\java\src\test\java\org\apache\avro\TestProtocolHttp.java,testStartServer,,20,0,7
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeArrayEnd,,11,0,1660
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,resolveCodec,,3,0,220
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeBoolean,boolean,1,0,150
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeBoolean,boolean,2,0,374
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeMapStart,,4,1,744
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readInt,,10,1,3106
+lang\java\src\java\org\apache\avro\util\Utf8.java,<init>,,115,115,514563
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,readError,"Schema, Decoder",1,0,5
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getAnnotatedUnion,"Union, Map",1,0,4
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,mapNext,,1,0,835
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,doReadItemCount,,379,84,509616
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,assertOpen,,0,0,4514
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,sync,long,291,13,49
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,writeBuffers,"List, OutputStream",33,0,55
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,write,"byte[], int, int",0,0,70
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,<init>,Protocol,0,0,1
+lang\java\src\java\org\apache\avro\io\parsing\JsonGrammarGenerator.java,generate,Schema,180,4,6142
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,next,,19742,97,500402
+lang\java\src\test\java\org\apache\avro\TestProtocolParsing.java,testParsing,,0,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectRequestor.java,getClient,"Class, Transceiver",15,0,4
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,data,,1,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,Class,1,0,39
+lang\java\src\java\org\apache\avro\ipc\RPCContext.java,responseHandshakeMeta,,0,0,99
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeString,Utf8,11,1,1552
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getClassProp,"Schema, String",0,0,26
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,createEnum,"String, Schema",0,0,69
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,respond,"Protocol$Message, Object",5,0,50
+lang\java\src\java\org\apache\avro\io\DecoderFactory.java,createBinaryDecoder,"byte[], BinaryDecoder",29,2,6716
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readNull,,487,317,1488996
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testString,,3,0,1
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readEnum,,6,1,5099
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readDouble,,0,0,412
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,clientReceiveResponse,RPCContext,0,0,12
+lang\java\src\java\org\apache\avro\io\Encoder.java,<init>,,1,1,18877
+lang\java\src\java\org\apache\avro\tool\DataFileReadTool.java,<init>,,0,0,8
+lang\java\src\java\org\apache\avro\ipc\Responder.java,handshake,"Decoder, Encoder",84,0,61
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList1,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testFloatTooShort,,0,0,2
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,isReserved,String,0,0,11
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testBoolean,,4,0,1
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,doubleValue,Object,1,1,3103
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,jss,"int, char",0,0,111
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testBoolean,,0,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,createFieldSchema,"Field, Map",3,0,50
+lang\java\src\test\java\org\apache\avro\TestDataFileMeta.java,<init>,,0,0,4
+lang\java\src\java\org\apache\avro\ipc\DatagramServer.java,<init>,"Responder, SocketAddress",36,0,9
+lang\java\src\java\org\apache\avro\Schema.java,writeProps,JsonGenerator,1,0,290
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,<init>,DatumReader,0,0,217
+lang\java\src\test\java\org\apache\avro\TestDataFileMeta.java,testBlockSizeSetInvalid,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericRequestor.java,readResponse,"Schema, Decoder",0,0,11
+lang\java\src\java\org\apache\avro\ipc\Requestor.java,<init>,"Protocol, Transceiver",0,0,47
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,writeEnum,"Schema, Object, Encoder",0,0,69
+lang\java\src\test\java\org\apache\avro\RandomData.java,<init>,"Schema, int, long",0,0,63
+lang\java\src\test\java\org\apache\avro\tool\TestMain.java,testToolDescriptionLength,,11,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testRecursive,,52,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testNull,,3,0,1
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,skipBytes,,1,0,995
+lang\java\src\java\org\apache\avro\tool\Util.java,datumFromFile,"Schema, String",1,0,2
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeByteArray,"byte[], int, int",2,0,97
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,<init>,DatumWriter,0,0,102
+lang\java\src\java\org\apache\avro\ipc\DatagramServer.java,main,String[],26,0,1
+lang\java\src\java\org\apache\avro\Protocol.java,getTypes,,0,0,5
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipBytes,,0,0,27
+lang\java\src\test\java\org\apache\avro\RPCMetaTestPlugin.java,checkRPCMetaMap,Map,0,0,12
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,hasNext,,10968,580,1001776
+lang\java\src\java\org\apache\avro\io\ParsingDecoder.java,skipAction,,0,0,3
+lang\java\src\java\org\apache\avro\ipc\SocketServer.java,main,String[],5,0,1
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testFailureOnWritingPartialJSONValues,,38,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,write,"Object, Encoder",109,1,5575
+lang\java\src\test\java\org\apache\avro\io\TestEncoders.java,<init>,,0,0,4
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,alt,"Symbol[], String[]",9,2,6608
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testRecordWithNullIO,,4,0,1
+lang\java\src\java\org\apache\avro\Protocol.java,<init>,,0,0,8
+lang\java\src\test\java\org\apache\avro\TestSchema.java,check,"String, String, Object",66,0,10
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,addToArray,"Object, long, Object",0,0,12
+lang\java\src\java\org\apache\avro\tool\DataFileGetSchemaTool.java,run,"InputStream, PrintStream, PrintStream, List",6,0,1
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testForwardReference,,5,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,header,"StringBuilder, String",0,0,158
+lang\java\src\java\org\apache\avro\io\ParsingEncoder.java,push,,0,0,6155
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,doReadBytes,"byte[], int, int",1,0,1633
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testEnum,,6,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,<init>,,0,0,3
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,writeBuffers,List,34,0,30
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,skipSync,,577,225,498111
+lang\java\src\test\java\org\apache\avro\io\parsing\TestResolvingGrammarGenerator.java,data,,0,0,1
+lang\java\src\java\org\apache\avro\ipc\LocalTransceiver.java,transceive,List,8,0,12
+lang\java\src\java\org\apache\avro\tool\Util.java,fileOrStdin,"String, InputStream",0,0,9
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeFloat,float,3,0,643
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeArrayEnd,,1,0,1099
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,testWrite,,2,0,1
+lang\java\src\java\org\apache\avro\AvroRuntimeException.java,<init>,"String, Throwable",0,0,2
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeBytes,ByteBuffer,1,0,298
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,flush,,7,3,5222
+lang\java\src\java\org\apache\avro\ipc\DatagramTransceiver.java,readBuffers,,9960,0,22
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,<init>,"Object, Decoder",671,94,514861
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,<init>,SocketAddress,42,0,22
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readBytes,ByteBuffer,1,0,43
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,expandStack,,13,6,3355
+lang\java\src\test\java\org\apache\avro\io\TestEncoders.java,testValidatingEncoderInit,,0,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeBoolean,boolean,0,0,125
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeFixed,"byte[], int, int",1,0,1158
+lang\java\src\java\org\apache\avro\io\ResolvingDecoder.java,readIndex,,46081,383,1499822
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testDouble,,6,0,1
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeMapEnd,,1,0,1010
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,<init>,"Symbol, String",3,0,22
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readEnum,,0,0,16
+lang\java\src\test\java\org\apache\avro\TestSchema.java,check,"String, boolean",270,1,18
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,writeResponse,"Schema, Object, Encoder",0,0,45
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,unbox,Schema,0,0,69
+lang\java\src\java\org\apache\avro\file\CodecFactory.java,addCodec,"String, CodecFactory",0,0,6
+lang\java\src\test\java\org\apache\avro\TestDataFileConcat.java,codecs,,0,0,1
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,<init>,"Schema, Schema",0,0,16
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeMapEnd,,9,2,2164
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isMap,Object,0,0,149
+lang\java\src\java\org\apache\avro\ipc\RPCContext.java,requestHandshakeMeta,,0,0,115
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,<init>,"Symbol, Parser$ActionHandler",128,128,530944
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readFixed,"byte[], int, int",0,0,40
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testInt,,4,0,1
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,readFile,"File, DatumReader",31178,0,165
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,skipFixed,int,2,1,4015
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testBytes,,5,0,1
+lang\java\src\java\org\apache\avro\Schema.java,getProp,String,0,0,112
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,data,,0,0,1
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,processTrailingImplicitActions,,2,2,14628
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,newDecoder,InputStream,0,0,2
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testInt,,0,0,1
+lang\java\src\java\org\apache\avro\Schema.java,parse,InputStream,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,performTest,"TestValidatingIO$Encoding, int, String, String, String, String",2416,3,768
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,init,OutputStream,0,0,3
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,serverReceiveRequest,RPCContext,5,0,15
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testString,,0,0,1
+lang\java\src\java\org\apache\avro\file\SeekableFileInput.java,seek,long,3,0,58
+lang\java\src\java\org\apache\avro\io\Decoder.java,readFixed,byte[],324,164,498627
+lang\java\src\test\java\org\apache\avro\TestDataFileReflect.java,testNull,,2,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,buildUnion,Schema[],0,0,4
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeIndex,int,7,1,817
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFLong,,0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestEncoders.java,testBinaryEncoderInit,,0,0,1
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,readLong,,2,1,1413
+lang\java\src\java\org\apache\avro\reflect\ReflectResponder.java,getDatumReader,Schema,0,0,5
+lang\java\src\test\java\org\apache\avro\TestDataFileConcat.java,testConcateateFiles,,206,0,6
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,hasNextBlock,,693,227,996400
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,getDatumWriter,Schema,0,0,35
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,testSkip3,,20,0,94
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setMetaInternal,"String, byte[]",0,0,54
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeIndex,int,0,0,717
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLisp,,54,0,1
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,check,"Schema, Schema, byte[], String, Object[], TestValidatingIO$Encoding, int",705,9,7836
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,transceive,List,486,0,30
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readDouble,,1,1,1845
+lang\java\src\java\org\apache\avro\Protocol.java,parse,JsonNode,2,0,8
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,<init>,"Class, ReflectData",0,0,1
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,processImplicitActions,,2,0,3087
+lang\java\src\java\org\apache\avro\SchemaParseException.java,<init>,Throwable,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeArrayStart,,5,1,960
+lang\java\src\java\org\apache\avro\ipc\stats\StatsServlet.java,formatMillis,float,2,0,6
+lang\java\src\java\org\apache\avro\ipc\ByteBufferInputStream.java,getBuffer,,4,0,539
+lang\java\src\java\org\apache\avro\file\SeekableFileInput.java,<init>,FileDescriptor,0,0,21
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,<init>,,1,0,133
+lang\java\src\java\org\apache\avro\specific\SpecificDatumWriter.java,<init>,,0,0,5
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList2,,0,0,1
+lang\java\src\java\org\apache\avro\Schema.java,createArray,Schema,0,0,21
+lang\java\src\java\org\apache\avro\io\parsing\ValidatingGrammarGenerator.java,generate,"Schema, Map",130,23,37070
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeFixed,"byte[], int, int",0,0,17
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,<init>,"Protocol, Object",55,0,32
+lang\java\src\java\org\apache\avro\generic\GenericData.java,isString,Object,0,0,313
+lang\java\src\test\java\org\apache\avro\TestReflect.java,check,"Object, String",0,0,2
+lang\java\src\test\java\org\apache\avro\TestNamespaceSpecific.java,<init>,,0,0,2
+lang\java\src\test\java\org\apache\avro\TestBulkData.java,stopServer,,201,0,2
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testEmptyEchoBytes,,15,0,4
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFBytes,,0,0,2
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readRecord,"Object, Schema, ResolvingDecoder",15235,1370,511498
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,<init>,CodecFactory,1,0,22
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,getArraySize,Object,0,0,7
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,findField,"Class, String",0,0,19
+lang\java\src\java\org\apache\avro\ipc\stats\StatsServlet.java,writeMethod,"Writer, Protocol$Message, FloatHistogram",6,0,2
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipString,,1,0,492
+lang\java\src\java\org\apache\avro\Schema.java,getName,,1,1,9732
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,checkFixed,int,402,262,996928
+lang\java\src\java\org\apache\avro\ipc\HttpServer.java,<init>,"Responder, int",195,0,9
+lang\java\src\java\org\apache\avro\ipc\LocalTransceiver.java,readBuffers,,0,0,2
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,<init>,"Symbol$Kind, Symbol[]",18,18,149514
+lang\java\src\java\org\apache\avro\generic\GenericData.java,hashCodeAdd,"int, Object, Schema",0,0,24
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testLong,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testStartServer,,11,0,7
+lang\java\src\java\org\apache\avro\reflect\ReflectRequestor.java,getClient,"Class, Transceiver, ReflectData",15,0,4
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,makeRequest,Transceiver,8,0,10
+lang\java\src\java\org\apache\avro\file\DeflateCodec.java,toString,,0,0,38
+lang\java\src\java\org\apache\avro\file\CodecFactory.java,fromString,String,0,0,216
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,getBufferList,,1,0,122
+lang\java\src\java\org\apache\avro\ipc\SocketServer.java,run,,33,1,21
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testEOFFloat,,0,0,2
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestHistogram.java,testFloatHistogram,,2,0,1
+lang\java\src\test\java\org\apache\avro\io\TestEncoders.java,testJsonEncoderInit,,0,0,1
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStopwatch.java,testNormal,,0,0,1
+lang\java\src\java\org\apache\avro\file\NullCodec.java,equals,Object,0,0,8
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,<init>,"Symbol, Decoder",578,181,515895
+lang\java\src\java\org\apache\avro\ipc\stats\StatsPlugin.java,<init>,"Stopwatch$Ticks, Histogram$Segmenter",0,0,10
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeFloat,float,8,0,446
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readString,Utf8,948,223,509781
+lang\java\src\java\org\apache\avro\Schema.java,createRecord,"String, String, String, boolean",1,0,93
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testFloat,,0,0,1
+lang\java\src\test\java\org\apache\avro\BarRecord.java,<init>,,0,0,6
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testManglingForProtocols,,921,0,1
+lang\java\src\test\java\org\apache\avro\BarRecord.java,<init>,String,0,0,4
+lang\java\src\java\org\apache\avro\specific\SpecificRecordBase.java,hashCode,,0,0,11
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,type,Schema,0,0,145
+lang\java\src\java\org\apache\avro\ipc\stats\StatsServlet.java,writeActiveRpc,"Writer, RPCContext, Stopwatch",0,0,2
+lang\java\src\java\org\apache\avro\ipc\AvroRemoteException.java,<init>,,0,0,15
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,isRecord,Object,0,0,14
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,validateInputStreamSkips,"InputStream, InputStream",9,1,4
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,compile,Schema,53,2,157
+lang\java\src\java\org\apache\avro\generic\GenericData.java,getRecordSchema,Object,0,0,40
+lang\java\src\java\org\apache\avro\Protocol.java,equals,Object,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,arrayNext,,3,0,600
+lang\java\src\java\org\apache\avro\Schema.java,parse,String,1564,12,17010
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readNull,,0,0,64
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,<init>,,0,0,424
+lang\java\src\test\java\org\apache\avro\TestProtocolDatagram.java,testStartServer,,32,0,7
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList6,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLong,,4,0,1
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testManglingForEnums,,456,0,1
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,<init>,Symbol$Kind,18,12,44079
+lang\java\src\java\org\apache\avro\ipc\Requestor.java,request,"String, Object",607,0,61
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList7,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,cartesian,Object[][][],1,0,4
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,newArray,"Object, int, Schema",0,0,7
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeArrayEnd,,2,1,960
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testUnion,,18,0,1
+lang\java\src\java\org\apache\avro\ipc\HttpTransceiver.java,<init>,URL,0,0,19
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,<init>,Schema,0,0,21
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,write,"Schema, Object, Encoder",6,0,91
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeInt,int,17,2,4019
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecificMeta.java,<init>,,0,0,7
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,encodeDouble,"double, OutputStream",3,2,335
+lang\java\src\java\org\apache\avro\io\parsing\JsonGrammarGenerator.java,<init>,,3,2,6142
+lang\java\src\test\java\org\apache\avro\TestReflect.java,checkReadWrite,Object,16,0,4
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList9,,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readFloat,,10,0,405
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,testFullServerPath,,18,0,1
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setCodec,CodecFactory,0,0,19
+lang\java\src\java\org\apache\avro\AvroTypeException.java,<init>,"String, Throwable",0,0,1
+lang\java\src\java\org\apache\avro\ipc\stats\Stopwatch.java,<init>,Stopwatch$Ticks,0,0,32
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,readLong,,30,0,602
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,readArray,"Object, Schema, ResolvingDecoder",1333,157,499877
+lang\java\src\test\java\org\apache\avro\TestReflect.java,checkReadWrite,"Object, Schema",10,0,8
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkProp,Schema,7,0,18
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeFloat,float,0,0,425
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,<init>,"OutputStream, int",56,27,3355
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testRecord,,39,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,testSkip,"int, int, String, int",55,0,282
+lang\java\src\test\java\org\apache\avro\AvroTestUtil.java,tempFile,String,0,0,10
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR2,,1,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectRequestor.java,getDatumWriter,Schema,0,0,5
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,<init>,"InputStream, DatumReader",0,0,2
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,<init>,"TestValidatingIO$Encoding, int, String, String",0,0,960
+lang\java\src\java\org\apache\avro\reflect\ReflectResponder.java,<init>,"Class, Object",6,0,4
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readFixed,"byte[], int, int",696,423,1993578
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testSkipping,,9,0,2
+lang\java\src\java\org\apache\avro\ipc\RPCContext.java,responseCallMeta,,0,0,111
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testRecordIO,,5,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,esc,Object,35,0,75
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,writeError,"Schema, AvroRemoteException, Encoder",0,0,5
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,init,OutputStream,0,0,5
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,getClassName,Schema,0,0,26
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,testIdentical,,1219,0,384
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,doSkipItems,,2,0,2082
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,isString,Object,0,0,3
+lang\java\src\java\org\apache\avro\AvroRuntimeException.java,<init>,Throwable,0,0,3
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testHello,,23,0,4
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,<init>,Schema,12,0,185
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeFloat,float,12,1,1275
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList5,,0,0,1
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,writeBytes,"byte[], int, int",7,1,1347
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testrecordConstructorNullSchema,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,<init>,"Protocol, Object, SpecificData",57,0,36
+lang\java\src\java\org\apache\avro\AvroTypeException.java,<init>,String,0,0,47
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testLockedArrayList4,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,getClient,"Class, Transceiver, SpecificData",25,0,25
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,serialize,"Encoder, JsonParser, ByteArrayOutputStream",32,3,376
+lang\java\src\java\org\apache\avro\generic\GenericData.java,resolveUnion,"Schema, Object",5,1,548
+lang\java\src\java\org\apache\avro\file\DataFileStream.java,nextBlock,DataFileStream$DataBlock,1066,284,498111
+lang\java\src\java\org\apache\avro\specific\SpecificDatumReader.java,<init>,,0,0,8
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readBytes,ByteBuffer,11,3,2405
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,ensure,int,2,0,1404
+lang\java\src\java\org\apache\avro\tool\RpcSendTool.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\Protocol.java,toString,boolean,9,0,15
+lang\java\src\java\org\apache\avro\generic\GenericRequestor.java,<init>,"Protocol, Transceiver",0,0,11
+lang\java\src\test\java\org\apache\avro\TestReflect.java,testR10,,8,0,1
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,skipMap,,0,0,462
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testNamespaceScope,,0,0,1
+lang\java\src\test\java\org\apache\avro\TestSchema.java,testComplexUnions,,64,0,1
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,<init>,,0,0,10
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,write,ByteBuffer,0,0,1
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,getJsonGenerator,OutputStream,46,2,3078
+lang\java\src\java\org\apache\avro\io\parsing\Parser.java,pushProduction,Symbol,752,287,2055794
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,getRecordSchema,Object,0,0,13
+lang\java\src\java\org\apache\avro\io\DirectBinaryDecoder.java,<init>,InputStream,0,0,88
+lang\java\src\java\org\apache\avro\Protocol.java,<init>,"String, String",0,0,10
+lang\java\src\test\java\org\apache\avro\FooRecord.java,equals,Object,0,0,2
+lang\java\src\java\org\apache\avro\file\DataFileWriter.java,setMeta,"String, long",0,0,3
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,testArrayConstructorWrongSchema,,0,0,1
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,<init>,"int, int, String",0,0,376
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeBytes,"byte[], int, int",1,0,87
+lang\java\src\test\java\org\apache\avro\TestSchema.java,checkDefault,"String, String, Object",24,0,14
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,readInt,,809,490,2025356
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,check,"Decoder, String, Object[], int",272,35,8880
+lang\java\src\java\org\apache\avro\specific\SpecificExceptionBase.java,hashCode,,0,0,4
+lang\java\src\java\org\apache\avro\io\BinaryDecoder.java,ensureBounds,int,1203,804,4545631
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,testSchemas,,0,0,1
+lang\java\src\java\org\apache\avro\specific\SpecificRecordBase.java,compareTo,SpecificRecord,0,0,5
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,writeIndex,int,11,2,2175
+lang\java\src\java\org\apache\avro\Schema.java,parseJson,String,1000,13,17010
+lang\java\src\java\org\apache\avro\io\BlockingBinaryEncoder.java,compact,,2,1,296
+lang\java\src\java\org\apache\avro\reflect\ReflectData.java,<init>,,3,0,3
+lang\java\src\test\java\org\apache\avro\io\TestBlockingIO.java,skipArray,"JsonParser, Decoder, int",2,0,237
+lang\java\src\test\java\org\apache\avro\specific\TestSpecificCompiler.java,testSimpleEnumSchema,,2464,0,1
+lang\java\src\java\org\apache\avro\Protocol.java,parseDoc,JsonNode,0,0,8
+lang\java\src\java\org\apache\avro\file\Codec.java,<init>,,0,0,283
+lang\java\src\java\org\apache\avro\io\JsonDecoder.java,doSkipFixed,int,0,0,4
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,bestBranch,"Schema, Schema",17,7,4333
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipFixed,,0,0,7
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,testMain,,326,0,960
+lang\java\src\java\org\apache\avro\generic\GenericData.java,toString,Object,6,0,40
+lang\java\src\java\org\apache\avro\generic\GenericDatumReader.java,peekArray,Object,4,2,11364
+lang\java\src\java\org\apache\avro\file\DataFileReader.java,<init>,"SeekableInput, DatumReader",289,0,216
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,getField,"Object, String, int",2,0,32
+lang\java\src\test\java\org\apache\avro\ipc\stats\TestStatsPluginAndServlet.java,<init>,,0,0,2
+lang\java\src\test\java\org\apache\avro\generic\TestGenericData.java,<init>,,0,0,6
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,createSchema,"Type, Map",11,0,62
+lang\java\src\java\org\apache\avro\ipc\stats\Histogram.java,toString,,4,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectRequestor.java,<init>,"Protocol, Transceiver",0,0,4
+lang\java\src\java\org\apache\avro\Protocol.java,parseDocNode,JsonNode,0,0,22
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,mangle,String,1,0,488
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,nextString,"Random, int",10,2,1671
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,readDouble,,1,0,108
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,params,Schema,0,0,1
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumWriter.java,writeString,"Schema, Object, Encoder",0,0,14
+lang\java\src\java\org\apache\avro\specific\SpecificResponder.java,readRequest,"Schema, Decoder",4,0,50
+lang\java\src\java\org\apache\avro\reflect\InduceSchemaTool.java,<init>,,0,0,1
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,startItem,,3,1,2478
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeString,Utf8,10,1,826
+lang\java\src\java\org\apache\avro\ipc\SocketTransceiver.java,readBuffers,,18072,297,56
+lang\java\src\test\java\org\apache\avro\TestDataFile.java,testGenericWrite,,142,0,5
+lang\java\src\java\org\apache\avro\Schema.java,addProp,"String, String",1,0,210
+lang\java\src\java\org\apache\avro\io\ValidatingDecoder.java,skipFixed,int,0,0,15
+lang\java\src\java\org\apache\avro\specific\SpecificExceptionBase.java,<init>,,0,0,14
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,seq,Symbol[],27,7,28166
+lang\java\src\test\java\org\apache\avro\io\TestBinaryDecoder.java,testInputStreamProxyDetached,,123,0,2
+lang\java\src\test\java\org\apache\avro\io\TestResolvingIO.java,testOnce,"String, String, String, String, TestValidatingIO$Encoding, int",2413,11,7680
+lang\java\src\java\org\apache\avro\ipc\ByteBufferOutputStream.java,write,int,1,1,1028
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,writeEnum,int,0,0,117
+lang\java\src\java\org\apache\avro\io\parsing\Symbol.java,root,Symbol[],456,7,24508
+lang\java\src\java\org\apache\avro\util\Utf8.java,compareTo,Object,6,1,5898
+lang\java\src\java\org\apache\avro\io\parsing\ResolvingGrammarGenerator.java,resolveRecords,"Schema, Schema, Map",283,18,1483
+lang\java\src\java\org\apache\avro\ipc\LocalTransceiver.java,writeBuffers,List,0,0,2
+lang\java\src\java\org\apache\avro\io\ValidatingEncoder.java,<init>,"Symbol, Encoder",16,7,8858
+lang\java\src\test\java\org\apache\avro\tool\TestDataFileTools.java,writeToAvroFile,"String, String, String",5,0,2
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,setItemCount,long,2,0,1407
+lang\java\src\java\org\apache\avro\Protocol.java,parseName,JsonNode,0,0,8
+lang\java\src\test\java\org\apache\avro\FooRecord.java,<init>,,0,0,2
+lang\java\src\java\org\apache\avro\ipc\HttpServer.java,<init>,"ResponderServlet, int",173,0,9
+lang\java\src\java\org\apache\avro\specific\SpecificCompiler.java,compile,,56,0,186
+lang\java\src\java\org\apache\avro\tool\DataFileWriteTool.java,run,"InputStream, PrintStream, PrintStream, List",44,0,5
+lang\java\src\java\org\apache\avro\specific\SpecificData.java,getProtocol,Class,16,0,64
+lang\java\src\java\org\apache\avro\io\BinaryEncoder.java,flush,,5,0,3114
+lang\java\src\test\java\org\apache\avro\TestProtocolSpecific.java,testError,,22,0,4
+lang\java\src\test\java\org\apache\avro\TestBulkData.java,testRead,,76,0,1
+lang\java\src\java\org\apache\avro\util\Utf8.java,<init>,byte[],0,0,3
+lang\java\src\java\org\apache\avro\specific\SpecificRequestor.java,getDatumReader,Schema,0,0,46
+lang\java\src\test\java\org\apache\avro\io\TestValidatingIO.java,nextBytes,"Random, int",0,0,133
+lang\java\src\java\org\apache\avro\generic\GenericDatumWriter.java,<init>,Schema,5,0,39
+lang\java\src\java\org\apache\avro\file\LengthLimitedInputStream.java,skip,long,0,0,6
+lang\java\src\java\org\apache\avro\file\CodecFactory.java,toString,,0,0,49
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,readBytes,"Object, Decoder",0,0,2
+lang\java\src\java\org\apache\avro\reflect\ReflectDatumReader.java,<init>,,0,0,4
+lang\java\src\java\org\apache\avro\tool\JsonToBinaryFragmentTool.java,run,"InputStream, PrintStream, PrintStream, List",0,0,1
+lang\java\src\java\org\apache\avro\ipc\RPCPlugin.java,<init>,,0,0,38
+lang\java\src\java\org\apache\avro\io\JsonEncoder.java,writeLong,long,4,0,651
+lang\java\src\java\org\apache\avro\ipc\stats\FloatHistogram.java,getUnbiasedStdDev,,0,0,6

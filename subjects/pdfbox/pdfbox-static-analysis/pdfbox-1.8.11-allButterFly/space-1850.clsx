@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.arraysEqual(byte[], byte[], int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.isUserPassword(byte[], byte[], byte[], int, byte[], int, int, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeUserPassword(byte[], byte[], int, byte[], int, int, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.encryption.ARCFour.setKey(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKey(byte[], byte[], int, byte[], int, int, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.fixByte(byte)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncateOrPad(byte[])" />
+<item name="org.apache.pdfbox.exceptions.CryptographyException.CryptographyException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

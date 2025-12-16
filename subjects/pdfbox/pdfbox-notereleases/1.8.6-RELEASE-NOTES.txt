@@ -1,0 +1,106 @@
+Release Notes -- Apache PDFBox -- Version 1.8.6
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.5 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-54] - please correct the SetField example
+[PDFBOX-62] - Incorrect (zero) character widths returned in some docs
+[PDFBOX-239] - PDFToImage prints every word at the start of the line
+[PDFBOX-934] - ImageToPDF.createPDFFromImage causes problems for certain TIFF inputs
+[PDFBOX-1474] - PDDocument.decrypt does not throws InvalidPasswordException
+[PDFBOX-1689] - Partial failure to render PDF
+[PDFBOX-1713] - [PATCH] Bullet character not rendered
+[PDFBOX-1756] - ClassCastException CosString cannot be cast to COSName
+[PDFBOX-1845] - PDDocument.load() give Error: Expected a long type at offset 1633
+[PDFBOX-1895] - Type0 settings /Registry and /Ordering are not decrypted when writing
+                document
+[PDFBOX-1922] - NonSequentialParser not reading version in header and trailer
+[PDFBOX-2047] - read operations alter PDLab object
+[PDFBOX-2050] - Add predictor to LZW filter
+[PDFBOX-2054] - Remove System.out.println()
+[PDFBOX-2056] - incomplete build tests
+[PDFBOX-2057] - Importing BufferedImage into PDPixelMap is broken in 1.8.5
+[PDFBOX-2058] - The text of pdfs using Type1C can't be extracted correct
+[PDFBOX-2063] - Incomplete EOF detection in ASCIIHexFilter
+[PDFBOX-2064] - ArrayIndexOutOfBoundsException in CompositeImage.createMaskedImage
+[PDFBOX-2072] - Wrong calculation of space char width in PDFStreamEngine
+[PDFBOX-2073] - PDF files with unusual Japanese font can not be rewrite correctly
+[PDFBOX-2074] - 4-bytes CMap entry causes exception
+[PDFBOX-2079] - Extra new line characters extracted in 1.8.5 for embedded files 
+                leading to ZipFile exception in Java 1.6
+[PDFBOX-2080] - Barcode getting color inverted in pdf to image conversion
+[PDFBOX-2082] - signing corrupts PDF when signature exactly fits allocated space
+[PDFBOX-2095] - Useless memory allocation in GlyfDescript
+[PDFBOX-2096] - ICC profile ignored if number of components is 1
+[PDFBOX-2100] - Gouraud shading doesn't work with function
+[PDFBOX-2101] - Surprising memory consumption when extracting images
+[PDFBOX-2102] - Characters swallowed on COSString.getString()
+[PDFBOX-2109] - CFFParser uses String constructor without encoding
+[PDFBOX-2110] - Font not found: CourierNew
+[PDFBOX-2111] - Cast error in Gouraud shadings
+[PDFBOX-2114] - ObjStm is being processed to late
+[PDFBOX-2115] - Use unfiltered stream in gouraud shadings
+[PDFBOX-2120] - Regression: Type 1 font corrupted
+[PDFBOX-2122] - FontBox's TTFDataStream doesn't set timezone in readInternationalDate
+
+Improvement
+
+[PDFBOX-712] - SecurityHandlersManager May stop the application Server when running 
+               PDFParser in a Servlet.
+[PDFBOX-1596] - OverlayPDF logic should be moved into a library class
+[PDFBOX-1739] - Load document error for two RegisSTAR documents
+[PDFBOX-2034] - TestFilters is non-deterministic
+[PDFBOX-2052] - PDFCloneUtility does not handle COSStreamArray
+[PDFBOX-2066] - RubberStampWithImage should support more image types
+[PDFBOX-2084] - Make TestImageIOUtils optional in 1.8 for Fedora packaging
+[PDFBOX-2105] - Support for multipage TIFFs in CCITTFactory, makes PDFBox capable of
+                doing tiff2pdf
+[PDFBOX-2129] - Add PDFBox version to the title
+[PDFBOX-1600] - COSDocument and PDDocument declare throws IOException when they don't
+[PDFBOX-1584] - Add unit test for RandomAccessFileOutputStream
+
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/

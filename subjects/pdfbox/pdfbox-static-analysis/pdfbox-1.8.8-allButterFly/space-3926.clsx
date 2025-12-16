@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.toCIEXYZ(float[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.toRGB(float[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.calculateStage2ToXYZ(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getX()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getY()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getZ()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.clipToRange(float, PDRange)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMin()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRange.getMax()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

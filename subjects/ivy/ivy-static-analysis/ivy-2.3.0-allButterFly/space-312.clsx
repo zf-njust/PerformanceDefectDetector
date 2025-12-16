@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.RepoDescriptor.RepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteDescriptor.UpdateSiteDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.p2.P2Descriptor.P2Descriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.BundleRepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

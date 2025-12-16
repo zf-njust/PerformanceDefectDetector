@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 
+org.apache.pdfbox.cos.COSInteger.get(long)
+org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readlong(char, RandomAccess)
+org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.readshort(char, RandomAccess)
+org.apache.pdfbox.io.RandomAccessRead.seek(long)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)
+org.apache.pdfbox.io.RandomAccessRead.read(byte[], int, int)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)
+org.apache.pdfbox.io.RandomAccessRead.read()
+org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory.extractFromTiff(RandomAccess, OutputStream, COSDictionary, int)
+org.apache.pdfbox.cos.COSInteger.COSInteger(long)
+org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)

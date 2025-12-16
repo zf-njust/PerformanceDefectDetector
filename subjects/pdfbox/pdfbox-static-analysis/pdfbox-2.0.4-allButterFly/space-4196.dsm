@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeForOutput(int)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSArray.toFloatArray()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getNumberOfOutputParameters()
+org.apache.pdfbox.pdmodel.common.function.PDFunctionType0.getDecodeValues()
+org.apache.pdfbox.pdmodel.common.function.PDFunction.clipToRange(float, float, float)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.common.PDRange.PDRange(COSArray, int)
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getRangeValues()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.common.function.PDFunction.getCOSObject()
+org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()
+org.apache.pdfbox.pdmodel.common.function.PDFunction.clipToRange(float[])
+org.apache.pdfbox.cos.COSObject.getObject()

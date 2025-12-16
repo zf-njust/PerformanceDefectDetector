@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 1 0 0 1 1 1 0 0 0 1 1 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.pdmodel.encryption.PDEncryption.getLength()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientStringAt(int)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.setReadOnly()
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.prepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(byte[])
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.encryption.MessageDigests.getSHA1()
+org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getPrivateKey()
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setDecryptMetadata(boolean)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getCertificate()
+org.apache.pdfbox.pdmodel.encryption.PDEncryption.isEncryptMetaData()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.appendCertInfo(StringBuilder, KeyTransRecipientId, X509Certificate, X509CertificateHolder)
+org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientsLength()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSBoolean.getValue()
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setCurrentAccessPermission(AccessPermission)

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

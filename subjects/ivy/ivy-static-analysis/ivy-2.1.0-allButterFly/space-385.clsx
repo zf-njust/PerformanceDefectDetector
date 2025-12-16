@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.getAllRealCallers()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.conflict.RegexpConflictManager.resolveConflicts(IvyNode, Collection)" />
+<item name="org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(IvyNode, IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.conflict.RegexpConflictManager.getMatch(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.plugins.conflict.RegexpConflictManager.nodeIsGreater(IvyNode, IvyNode)" />
+<item name="org.apache.ivy.core.resolve.ResolveProcessException.ResolveProcessException(String)" />
+<item name="org.apache.ivy.plugins.conflict.StrictConflictException.StrictConflictException(String)" />
+<item name="org.apache.ivy.plugins.conflict.RegexpConflictManager.matchEquals(IvyNode, IvyNode)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.plugins.conflict.RegexpConflictManager.warnOrThrow(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getAllRealCallers()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.isRealCaller()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.Line(Point, Point, float[], float[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.ShadedTriangle(Point2D[], float[][])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.overlaps(Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.calcDeg(Point2D[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.getArea(Point2D, Point2D, Point2D)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle.edgeEquationValue(Point2D, Point2D, Point2D)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.Line.calcLine(int, int, int, int)" />
+</group>
+</group>
+</group>
+</cluster>

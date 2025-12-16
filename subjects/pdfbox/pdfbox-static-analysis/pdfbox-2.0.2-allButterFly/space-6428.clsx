@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField.PDSignatureField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createButtonSubType(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.findFieldType(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory.createChoiceSubType(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTextField.PDTextField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.PDNonTerminalField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDRadioButton.PDRadioButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDComboBox.PDComboBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDVariableText.PDVariableText(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDCheckBox.PDCheckBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDListBox.PDListBox(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDPushButton.PDPushButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDChoice.PDChoice(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDButton.PDButton(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.PDTerminalField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDField.PDField(PDAcroForm, COSDictionary, PDNonTerminalField)" />
+</group>
+</group>
+</group>
+</cluster>

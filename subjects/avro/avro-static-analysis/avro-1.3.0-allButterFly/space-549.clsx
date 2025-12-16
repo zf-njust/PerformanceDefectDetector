@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.RecordSchema.setFields(List)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.LockableArrayList.add(E)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList()" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.LockableArrayList.ensureUnlocked()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

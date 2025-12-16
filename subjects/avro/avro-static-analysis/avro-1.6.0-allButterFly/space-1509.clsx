@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceCollection.getNodeWithID(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceClientServlet.collectionNode(PrintWriter, int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.TraceClientServlet.getTemplate(VelocityEngine, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceCollection.getNodeWithIDRecurse(int, TraceNodeStats)" />
+</group>
+</group>
+</group>
+</cluster>

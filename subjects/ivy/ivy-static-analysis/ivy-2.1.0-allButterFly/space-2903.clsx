@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.move(File, File)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.commitPublishTransaction()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.closeTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.supportTransaction()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.isTransactionStarted()" />
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.delete(File)" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.getFileRepository()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.checkSupportTransaction()" />
+<item name="org.apache.ivy.util.FileUtil.forceDelete(File)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getArtifactPatterns()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.unsupportedTransaction(String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

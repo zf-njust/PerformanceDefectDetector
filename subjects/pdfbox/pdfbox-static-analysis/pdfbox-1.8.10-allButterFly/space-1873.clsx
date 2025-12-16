@@ -1,0 +1,81 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfviewer.PageWrapper.PageWrapper(PDFReader)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.PDFReader.showPage(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfviewer.PageWrapper.getPanel()" />
+<item name="org.apache.pdfbox.pdfviewer.PageWrapper.displayPage(PDPage)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfviewer.PDFPagePanel.setPage(PDPage)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.createDimension()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findCropBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findRotation()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findRotation()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findMediaBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getRotation()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCropBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findParentCropBox(PDPageNode)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getMediaBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getRotation()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getCropBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findMediaBox()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getMediaBox()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PDFPagePanel.PDFPagePanel()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.PageDrawer()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.ResourceLoader.loadResource(String)" />
+<item name="org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+</group>
+</group>
+</group>
+</cluster>

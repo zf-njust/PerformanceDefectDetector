@@ -1,0 +1,56 @@
+[Call]
+27
+0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.updatesite.PluginAdapter.featureAsBundle(URI, EclipseFeature)
+org.apache.ivy.osgi.core.BundleInfo.setDescription(String)
+org.apache.ivy.osgi.util.VersionRange.VersionRange(Version)
+org.apache.ivy.osgi.core.BundleArtifact.BundleArtifact(boolean, URI, String)
+org.apache.ivy.osgi.updatesite.xml.Require.getFeature()
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getDescription()
+org.apache.ivy.osgi.updatesite.xml.Require.getMatch()
+org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)
+org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getVersion()
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getId()
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getRequires()
+org.apache.ivy.osgi.util.Version.ensureToString()
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getPlugins()
+org.apache.ivy.osgi.updatesite.xml.Require.getVersion()
+org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getLicense()
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getUrl()
+org.apache.ivy.osgi.util.Version.ensureSplitted()
+org.apache.ivy.osgi.updatesite.xml.EclipsePlugin.getId()
+org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_5).childHanlded(ResourceLicenseHandler)
+org.apache.ivy.osgi.core.BundleInfo.addArtifact(BundleArtifact)
+org.apache.ivy.osgi.updatesite.xml.EclipseFeature.getVersion()
+org.apache.ivy.osgi.core.BundleInfo.BundleInfo(String, Version)
+org.apache.ivy.osgi.core.BundleInfo.setLicense(String)
+org.apache.ivy.osgi.updatesite.xml.Require.getPlugin()
+org.apache.ivy.osgi.util.DelegatingHandler.getBufferedChars()

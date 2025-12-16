@@ -1,0 +1,73 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setSettings(ResolverSettings)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.JarResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.plugins.resolver.CacheResolver.CacheResolver(ResolverSettings)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractSshBasedResolver.setSettings(IvySettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getEventManager()" />
+<item name="org.apache.ivy.plugins.resolver.JarResolver.setJarFile(File)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.plugins.repository.ssh.AbstractSshBasedRepository.setPassFile(File)" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setName(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractSshBasedResolver.getSshBasedRepository()" />
+<item name="org.apache.ivy.plugins.repository.ssh.AbstractSshBasedRepository.getHost()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadDetails()" />
+<item name="org.apache.ivy.plugins.repository.Repository.removeTransferListener(TransferListener)" />
+<item name="org.apache.ivy.plugins.repository.Repository.addTransferListener(TransferListener)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.setName(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.setName(String)" />
+<item name="org.apache.ivy.plugins.repository.jar.JarRepository.setJarFile(JarFile)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.initRepositoryCacheManagerFromSettings()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.JarResolver.getJarRepository()" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.FileUtil.normalize(String)" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getDefaultRepositoryCacheManager()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManager(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.util.FileUtil.dissect(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.setSettings(ResolverSettings)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(String, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.graphics.CloseAndStrokePath.process(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.graphics.CloseFillEvenOddAndStrokePath.process(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.text.ShowTextLine.process(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.text.NextLine.process(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.text.MoveTextSetLeading.process(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.graphics.CloseFillNonZeroAndStrokePath.process(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDTextState.getLeading()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getOperator(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.unsupportedOperator(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.operatorException(Operator, List, IOException)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.Operator(String)" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.process(Operator, List)" />
+</group>
+</group>
+</group>
+</cluster>

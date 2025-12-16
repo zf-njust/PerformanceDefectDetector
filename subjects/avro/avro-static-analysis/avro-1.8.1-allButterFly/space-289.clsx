@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.newRecord(Object, Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.newRecord(Object, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.contains(float, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.text.PDFTextStripper.processTextPosition(TextPosition)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.text.TextPosition.contains(TextPosition)" />
+<item name="org.apache.pdfbox.text.TextPosition.getWidth()" />
+<item name="org.apache.pdfbox.text.TextPosition.mergeDiacritic(TextPosition)" />
+<item name="org.apache.pdfbox.text.TextPosition.getUnicode()" />
+<item name="org.apache.pdfbox.text.TextPosition.getY()" />
+<item name="org.apache.pdfbox.text.TextPosition.getX()" />
+<item name="org.apache.pdfbox.text.TextPosition.isDiacritic()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.text.TextPosition.getYDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPosition.getXDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPosition.getWidthDirAdj()" />
+<item name="org.apache.pdfbox.text.TextPosition.insertDiacritic(int, TextPosition)" />
+<item name="org.apache.pdfbox.text.TextPosition.getHeightDir()" />
+<item name="org.apache.pdfbox.text.TextPosition.getWidthRot(float)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.text.TextPosition.getDir()" />
+<item name="org.apache.pdfbox.text.TextPosition.combineDiacritic(String)" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateY()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslateX()" />
+<item name="org.apache.pdfbox.text.TextPosition.getXRot(float)" />
+<item name="org.apache.pdfbox.text.TextPosition.getYLowerLeftRot(float)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.Matrix.getScaleY()" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleX()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearX()" />
+<item name="org.apache.pdfbox.util.Matrix.getShearY()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+</group>
+</group>
+</group>
+</cluster>

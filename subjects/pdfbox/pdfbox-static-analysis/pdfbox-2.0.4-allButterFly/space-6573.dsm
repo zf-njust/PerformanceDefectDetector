@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperand(float)
+org.apache.pdfbox.pdmodel.PDPageContentStream.write(String)
+org.apache.pdfbox.util.Matrix.Matrix(float, float, float, float, float, float)
+org.apache.pdfbox.util.NumberFormatUtil.formatFloatFast(float, int, byte[])
+org.apache.pdfbox.pdmodel.PDPageContentStream.writeAffineTransform(AffineTransform)
+org.apache.pdfbox.pdmodel.PDPageContentStream.setTextMatrix(Matrix)
+org.apache.pdfbox.util.NumberFormatUtil.formatPositiveNumber(long, int, boolean, byte[], int)
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.util.NumberFormatUtil.getExponent(long)
+org.apache.pdfbox.pdmodel.PDPageContentStream.writeOperator(String)
+org.apache.pdfbox.pdmodel.PDPageContentStream.setTextMatrix(double, double, double, double, double, double)

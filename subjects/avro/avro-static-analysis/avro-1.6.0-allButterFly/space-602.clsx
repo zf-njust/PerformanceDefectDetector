@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.ThriftData.newRecord(Object, Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

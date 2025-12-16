@@ -1,0 +1,911 @@
+Project,Key,Summary,Issue Type,Status,Priority,Resolution,Assignee,Reporter,Creator,Created,Last Viewed,Updated,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Watchers,Images,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Sub-Tasks,Linked Issues,Environment,Description,Security Level,Progress,? Progress,? Time Spent,? Remaining Estimate,? Original Estimate,Labels,Date of First Response,Git Notification Mailing List,Github Integrations - Other,Github Integration,Last public comment date,Git Repository Name,Global Rank,Git Repository Type,Customer Request Type,Time to resolution,Blog Administrator?,Blogs - Admin for blog,Existing GitBox Approval,Blogs - Username,Protected Branch,Blogs - Email Address,GitHub Options,Docs Text,Git Repository Import Path,New-TLP-TLPName,Release Note,Hadoop Flags,Blogs - New Blog Write Access,Epic Colour,Blogs - Existing Blog Name,Tags,Attachment count,Blog - New Blog PMC,Epic Name,Blog - New Blog Administrators,Epic Status,Blog - Write access,Epic Link,Bugzilla - List of usernames,Bugzilla - PMC Name,Bugzilla - Email Notification Address,Blogs - Existing Blog Access Level,Bugzilla - Project Name,Bugzilla Id,Initial Confluence Contributors,Request participants,Waiting For Infra,Space Name,Space Description,Time to Respond,Github Integration - Triggers,INFRA - Subversion Repository Path,Space Key,Testcase included,Sprint,Rank (Obsolete),Project,Epic/Theme,Flagged,External issue ID,Machine Readable Info,External issue URL,Flags,Rank
+Avro,AVRO-2005,No ClassCastException when failing to load custom type and GenericData$Record is returned,Improvement,Open,Major,Unresolved,Unassigned,Nira Amit,Nira Amit,3/15/2017 7:48,7/6/2017 8:18,3/15/2017 7:48,,"1.7.7, 1.8.1",,java,,0,1,,,,,,,,Ubuntu,"I'm loading data from an avro file and attempting to create custom objects from it. If my schema specifies a class that doesn't exist, the library defaults to creating org.apache.avro.generic.GenericData$Record instances instead. The problem is that this behavior causes unexpected ClassCastException to be thrown when I try to access the datum field of MyCustomClassAvroKey (which is an AvroKey<MyCustomClass>). All the assignments such as this.mCurrentRecord = this.mAvroFileReader.next(this.mCurrentRecord) in org.apache.avro.mapreduce.AvroRecordReaderBase succeed because of the type erasure. 
+So my question is: why doesn't the library just fail when it can't load the requested class? E.g in org.apache.avro.specific.SpecificData#getClass(Schema schema): 
+{code} 
+try { 
+c = ClassUtils.forName(getClassLoader(), getClassName(schema)); 
+} catch (ClassNotFoundException e) { 
+c = NO_CLASS; // why not just fail? 
+} 
+{code} 
+Is this a design choice? It violates the type-safety guarantee and causes very confusing and unexpected behavior. 
+
+You can find a test-app that reproduces this problem in this GitHub repository: https://github.com/homosepian/spark-avro-kryo 
+I ran into it while trying to load custom types into a Spark RDD.",,,,,,,,,,,,"16 weeks, 1 day ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3caen:
+Avro,AVRO-2006,Java union index serialization/deserialization is incorrect,Bug,Open,Major,Unresolved,Unassigned,Marian S,Marian S,3/15/2017 9:13,,3/15/2017 9:14,,1.8.1,,java,,0,2,,,,,,,,,"According to the specification ""A union is encoded by first writing a long value indicating the zero-based position within the union"". See: 
+https://avro.apache.org/docs/1.8.1/spec.html#Unions 
+
+However in java implementation index is encoded as an int (which is 32 bits) see: https://avro.apache.org/docs/1.8.1/api/java/org/apache/avro/io/Encoder.html#writeIndex(int) 
+
+This causes inconsistencies betewwn diffrent languages, because for instance I can't deserialize avro serialized with Java using Python, because Python expects long (64 bits) as an index of an union.",,,,,,,,,,,,16 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3cakf:
+Avro,AVRO-2007,for avro-c enable getting enum size (i.e. number of symbols at enum schema),Improvement,Patch Available,Minor,Unresolved,Unassigned,Eliyahu Machluf,Eliyahu Machluf,3/16/2017 9:30,,3/16/2017 11:35,,1.8.1,1.8.1,c,,0,2,,,,,,,,,"Avro-c library stores internaly enum as int value, there is no validation, when setting an enum value, it match the schema. 
+Therefore, I want to enable getting enum size (i.e. number of symbols at enum schema), in order to enable validating (when using the instance) that the value is at enum range. 
+",,,,,,,,3/16/2017 11:35,,,,"15 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3ccsv:
+Avro,AVRO-2008,change the error module to be thread-safe on Windows as well as on UNIX,Improvement,Patch Available,Major,Unresolved,Eliyahu Machluf,Eliyahu Machluf,Eliyahu Machluf,3/16/2017 9:36,,5/14/2017 23:14,,1.8.1,1.8.3,c,,0,1,,,,,,,,,,,,,,,,,,,,,"15 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,Patch,0|i3cctj:
+Avro,AVRO-2009,bytes field when contains '\0' character cause the bytes data to be corrupted when represented as json,Bug,Open,Major,Unresolved,Unassigned,Eliyahu Machluf,Eliyahu Machluf,3/16/2017 9:50,,3/16/2017 9:50,,,,c,,0,1,,,,,,,,all platforms,"on Avro-c 
+When having a schema with bytes field, and the instance of that schema, contains byte valued '0', when requesting the data as json string, data is truncated at this point. it seems the code regard the bytes as string and stop at the null character.",,,,,,,,,,,,"15 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,"here a small program which demonstrate the problem: 
+
+#define _CRT_SECURE_NO_WARNINGS 
+#include <avro.h> 
+#include <stdio.h> 
+#include <stdlib.h> 
+
+static void print_exit( const char *message ) 
+{ 
+printf( ""%s\n"", message ); 
+exit(-1); 
+} 
+
+int main( void ) 
+{ 
+avro_schema_t root_schema = NULL; 
+
+avro_schema_t bytes_schema = avro_schema_bytes(); 
+
+int status = 0; 
+
+avro_value_iface_t *irecord = NULL; 
+avro_value_t instance = { 0 }; 
+avro_value_t bytes_field = { 0 }; 
+
+char *value_as_json = NULL; 
+
+unsigned char data_buffer[] = { 0x00, 0x61, 0x55, 0x10, 0x22, 0x93 }; 
+
+
+
+root_schema = avro_schema_record( ""my_schema"", NULL ); 
+
+if ( !root_schema ) 
+
+print_exit( ""failed to create root schema"" ); 
+status = avro_schema_record_field_append( root_schema, ""my_bytes"", bytes_schema ); 
+
+if ( status != 0 ) 
+print_exit( ""failed to add bytes field"" ); 
+
+printf( ""created avro schema with bytes field\n""); 
+
+irecord = avro_generic_class_from_schema( root_schema ); 
+if ( !irecord ) 
+print_exit( ""failed to create generic class"" ); 
+if ( avro_generic_value_new( irecord , &instance ) != 0 ) 
+
+print_exit( ""failed to instanciate generic class"" ); 
+
+
+
+printf( ""instanciated generic class\n""); 
+
+if ( avro_value_get_by_name( &instance, ""my_bytes"", &bytes_field, NULL ) != 0 ) 
+
+print_exit( ""failed to get my_bytes field"" ); 
+
+if ( avro_value_set_bytes( &bytes_field, data_buffer, sizeof(data_buffer) ) != 0 ) 
+
+print_exit( ""failed to set my_bytes field"" ); 
+
+
+
+printf( ""instance was set with bytes data ...\n "" ); 
+
+
+
+if ( avro_value_to_json( &bytes_field, 1, &value_as_json ) != 0 ) 
+
+print_exit( ""failed to convert value to json"" ); 
+
+
+
+printf( ""value as json is: %s\n"", value_as_json ); 
+
+printf( ""note the missing values 0x61, 0x55 etc.\n"" ); 
+
+
+if ( avro_value_to_json( &instance, 1, &value_as_json ) != 0 ) 
+
+print_exit( ""failed to convert value to json"" ); 
+
+
+
+printf( ""full record as json is: %s\n"", value_as_json ); 
+
+printf( ""note the missing values at bytes field: 0x61, 0x55 etc.\n"" ); 
+
+return 0; 
+
+} 
+",,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3ccv3:
+Avro,AVRO-2010,multi dimensional array schema is not generated as expected,Bug,Open,Major,Unresolved,Unassigned,Philip Henzler,Philip Henzler,3/18/2017 1:45,,3/18/2017 1:45,,,,c++,,0,1,,,,,,,,"Ubuntu 14.04, boost 1.62","I made the following change to the unittest.cc, adding a two dimensional array to the buildSchema() test: 
+
+{code} 
+ArraySchema array = ArraySchema(DoubleSchema()); 
+const std::string s(""myarray""); 
+record.addField(s, array); 
+
+ArraySchema array2 = ArraySchema(ArraySchema(DoubleSchema())); 
+const std::string s2(""my2dimarray""); 
+record.addField(s2, array2); 
+{code} 
+
+It creates the following JSON schema output: 
+
+{code} 
+{ 
+""name"": ""myarray"", 
+""type"": { 
+""type"": ""array"", 
+""items"": ""double"" 
+} 
+}, 
+{ 
+""name"": ""my2dimarray"", 
+""type"": { 
+""type"": ""array"", 
+""items"": ""double"" 
+} 
+} 
+{code} 
+
+Even tough I would expect the following output for the two dimensional case: 
+
+{code} 
+{ 
+""name"": ""my2dimarray"", 
+""type"": { 
+""type"": ""array"", 
+""items"": { 
+""type"": ""array"", 
+""items"": ""double"" 
+} 
+} 
+} 
+{code}",,,,,,,,,,,,"15 weeks, 5 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3cgm7:
+Avro,AVRO-2011,AbstractMethodError on version upgrade from 1.7.7 -->1.8.1,Bug,Resolved,Major,Not A Bug,Unassigned,Varuna Mohan,Varuna Mohan,3/23/2017 9:58,,3/26/2017 19:30,3/26/2017 19:30,1.8.1,,java,,0,2,,,,,,,AVRO-1502,"Apache Avro version:- 1.8.1 
+Java version:- 1.7 
+Pax Exam integration tests for OSGI setup","When I upgrade from avro version 1.7.7 to version 1.8.1 I am getting a runtime AbstractMethodError exception:- 
+
+13:07:33.334 DEBUG [Component Resolve Thread (Bundle 274)] [NumConfigProvider.java:322] Unbinding Application Configuration Service 
+13:07:33.880 ERROR [CIL Notification callback thread #0] [FilteringLogger.java:92] Encountered error while running polling notification thread. 
+com.bss.cil.client.service.notification.NotificationException: Failed to poll notifications: java.lang.reflect.InvocationTargetException 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:477) [na:na] 
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_79] 
+at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79] 
+at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79] 
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:344) [na:na] 
+at org.apache.avro.specific.SpecificData.createFixed(SpecificData.java:353) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readFixed(GenericDatumReader.java:349) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:179) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readField(GenericDatumReader.java:240) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readRecord(GenericDatumReader.java:230) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:174) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:144) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:151) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:80) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.unpackMsg(NotificationDeserializer.java:100) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:48) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:24) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.readOneRecord(CassandraConsumer.java:701) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOneTopicPartition(CassandraConsumer.java:655) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOnce(CassandraConsumer.java:588) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.poll(CassandraConsumer.java:544) [na:na] 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:441) [na:na] 
+... 7 common frames omitted 
+Caused by: java.lang.reflect.InvocationTargetException: null 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_79] 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [na:1.7.0_79] 
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.7.0_79] 
+at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [na:1.7.0_79] 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:342) [na:na] 
+... 26 common frames omitted 
+Caused by: java.lang.AbstractMethodError: org.apache.avro.specific.SpecificFixed.getSchema()Lorg/apache/avro/Schema; 
+at org.apache.avro.specific.SpecificFixed.<init>(SpecificFixed.java:36) [na:na] 
+at com.bss.cil.client.client.type.SchemaId.<init>(SchemaId.java:16) [na:na] 
+... 31 common frames omitted 
+13:07:33.880 ERROR [CIL Notification callback thread #1] [FilteringLogger.java:92] Encountered error while running polling notification thread. 
+com.bss.cil.client.service.notification.NotificationException: Failed to poll notifications: java.lang.reflect.InvocationTargetException 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:477) [na:na] 
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_79] 
+at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79] 
+at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79] 
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:344) [na:na] 
+at org.apache.avro.specific.SpecificData.createFixed(SpecificData.java:353) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readFixed(GenericDatumReader.java:349) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:179) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readField(GenericDatumReader.java:240) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readRecord(GenericDatumReader.java:230) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:174) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:144) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:151) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:80) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.unpackMsg(NotificationDeserializer.java:100) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:48) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:24) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.readOneRecord(CassandraConsumer.java:701) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOneTopicPartition(CassandraConsumer.java:655) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOnce(CassandraConsumer.java:588) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.poll(CassandraConsumer.java:544) [na:na] 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:441) [na:na] 
+... 7 common frames omitted 
+Caused by: java.lang.reflect.InvocationTargetException: null 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_79] 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [na:1.7.0_79] 
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.7.0_79] 
+at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [na:1.7.0_79] 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:342) [na:na] 
+... 26 common frames omitted 
+Caused by: java.lang.AbstractMethodError: org.apache.avro.specific.SpecificFixed.getSchema()Lorg/apache/avro/Schema; 
+at org.apache.avro.specific.SpecificFixed.<init>(SpecificFixed.java:36) [na:na] 
+at com.bss.cil.client.client.type.SchemaId.<init>(SchemaId.java:16) [na:na] 
+... 31 common frames omitted 
+13:07:33.896 ERROR [CIL Notification callback thread #0] [FilteringLogger.java:92] Encountered error while running polling notification thread. 
+com.bss.cil.client.service.notification.NotificationException: Failed to poll notifications: java.lang.reflect.InvocationTargetException 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:477) [na:na] 
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_79] 
+at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79] 
+at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79] 
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:344) [na:na] 
+at org.apache.avro.specific.SpecificData.createFixed(SpecificData.java:353) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readFixed(GenericDatumReader.java:349) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:179) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readField(GenericDatumReader.java:240) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readRecord(GenericDatumReader.java:230) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:174) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:144) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:151) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:80) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.unpackMsg(NotificationDeserializer.java:100) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:48) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:24) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.readOneRecord(CassandraConsumer.java:701) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOneTopicPartition(CassandraConsumer.java:655) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOnce(CassandraConsumer.java:588) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.poll(CassandraConsumer.java:544) [na:na] 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:441) [na:na] 
+... 7 common frames omitted 
+Caused by: java.lang.reflect.InvocationTargetException: null 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_79] 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [na:1.7.0_79] 
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.7.0_79] 
+at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [na:1.7.0_79] 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:342) [na:na] 
+... 26 common frames omitted 
+Caused by: java.lang.AbstractMethodError: org.apache.avro.specific.SpecificFixed.getSchema()Lorg/apache/avro/Schema; 
+at org.apache.avro.specific.SpecificFixed.<init>(SpecificFixed.java:36) [na:na] 
+at com.bss.cil.client.client.type.SchemaId.<init>(SchemaId.java:16) [na:na] 
+... 31 common frames omitted 
+13:07:33.896 ERROR [CIL Notification callback thread #1] [FilteringLogger.java:92] Encountered error while running polling notification thread. 
+com.bss.cil.client.service.notification.NotificationException: Failed to poll notifications: java.lang.reflect.InvocationTargetException 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:477) [na:na] 
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_79] 
+at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79] 
+at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79] 
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79] 
+at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79] 
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:344) [na:na] 
+at org.apache.avro.specific.SpecificData.createFixed(SpecificData.java:353) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readFixed(GenericDatumReader.java:349) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:179) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readField(GenericDatumReader.java:240) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readRecord(GenericDatumReader.java:230) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.readWithoutConversion(GenericDatumReader.java:174) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:152) [na:na] 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:144) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:151) [na:na] 
+at com.bss.cil.client.client.common.AvroCodec.decodeBlobToObject(AvroCodec.java:80) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.unpackMsg(NotificationDeserializer.java:100) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:48) [na:na] 
+at com.bss.cil.client.client.msg.NotificationDeserializer.deserialize(NotificationDeserializer.java:24) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.readOneRecord(CassandraConsumer.java:701) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOneTopicPartition(CassandraConsumer.java:655) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.pollOnce(CassandraConsumer.java:588) [na:na] 
+at com.bss.cil.messaging.client.CassandraConsumer.poll(CassandraConsumer.java:544) [na:na] 
+at com.bss.cil.client.client.msg.NotificationAdminImpl$Scanner.run(NotificationAdminImpl.java:441) [na:na] 
+... 7 common frames omitted 
+Caused by: java.lang.reflect.InvocationTargetException: null 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_79] 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [na:1.7.0_79] 
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.7.0_79] 
+at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [na:1.7.0_79] 
+at org.apache.avro.specific.SpecificData.newInstance(SpecificData.java:342) [na:na] 
+... 26 common frames omitted 
+Caused by: java.lang.AbstractMethodError: org.apache.avro.specific.SpecificFixed.getSchema()Lorg/apache/avro/Schema; 
+at org.apache.avro.specific.SpecificFixed.<init>(SpecificFixed.java:36) [na:na] 
+at com.bss.cil.client.client.type.SchemaId.<init>(SchemaId.java:16) [na:na] 
+... 31 common fram 
+",,,,,,,,3/23/2017 13:48,,,,"14 weeks, 3 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3cot3:
+Avro,AVRO-2012,Build for javascript language binding is broken,Bug,Resolved,Major,Fixed,Suraj Acharya,Thiruvalluvan M. G.,Thiruvalluvan M. G.,3/26/2017 1:43,,4/6/2017 3:08,4/6/2017 3:08,1.7.7,1.7.8,js,,0,3,,,,,,,,,"While trying to build javascript language binding: 
+{code} 
+$ ./build.sh test 
+
+> avro-js@1.8.0 cover /Users/thiru/Projects/apache/avro/lang/js 
+> istanbul cover _mocha 
+
+
+
+????????????????????????????????????????????????????????????? 
+????????????????????????????????????????????????????????????? 
+????????????????????????????????????????????????????????????? 
+????????????????????????????????????????????????????????????? 
+????????????????????????????????????????????????????????????? 
+????????????????????????????????????????????????????????????? 
+??????????????? 
+
+373 passing (809ms) 
+8 failing 
+
+1) protocols StatefulEmitter ok handshake: 
+TypeError: this.buf.binaryWrite is not a function 
+... 
+8) utils Tap binary write valid: 
+TypeError: this.buf.binaryWrite is not a function 
+at Tap.writeBinary (lib/utils.js:9:21544) 
+at Context.<anonymous> (test/test_utils.js:242:13) 
+... 
+npm ERR! npm owner ls avro-js 
+npm ERR! There is likely additional logging output above. 
+
+npm ERR! Please include the following file with any support request: 
+npm ERR! /Users/thiru/Projects/apache/avro/lang/js/npm-debug.log 
+js (master)$ 
+{code}",,,,,,,,3/26/2017 3:58,,,,13 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,"The fix is rather simple. JavaScript's Buffer class no writeBinary() method, one should rather use write() method, which converts the given (sub)string into UTF and write into the buffer.",,,,,,3,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3cstj:
+Avro,AVRO-2013,Unit test failure in Ruby 1.9,Bug,Resolved,Critical,Duplicate,Unassigned,Sean Busbey,Sean Busbey,3/28/2017 14:44,,4/12/2017 3:22,4/12/2017 3:22,1.7.8,,ruby,,0,1,,,,,,,AVRO-1782,,"{code} 
+1) Error: 
+test_md5_fingerprint(TestFingerprints): 
+JSON::GeneratorError: only generation of JSON objects or arrays allowed 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:394:in `dump' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:28:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:20:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema.rb:143:in `md5_fingerprint' 
+/Users/busbey/projects/avro/lang/ruby/test/test_fingerprints.rb:26:in `test_md5_fingerprint' 
+
+2) Error: 
+test_sha256_fingerprint(TestFingerprints): 
+JSON::GeneratorError: only generation of JSON objects or arrays allowed 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:394:in `dump' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:28:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:20:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema.rb:149:in `sha256_fingerprint' 
+/Users/busbey/projects/avro/lang/ruby/test/test_fingerprints.rb:35:in `test_sha256_fingerprint' 
+
+3) Error: 
+test_primitives(TestSchemaNormalization): 
+JSON::GeneratorError: only generation of JSON objects or arrays allowed 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:224:in `generate' 
+/Users/busbey/projects/avro/lang/ruby/.gem/gems/json_pure-2.0.3/lib/json/common.rb:394:in `dump' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:28:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/lib/avro/schema_normalization.rb:20:in `to_parsing_form' 
+/Users/busbey/projects/avro/lang/ruby/test/test_schema_normalization.rb:28:in `block in test_primitives' 
+/Users/busbey/projects/avro/lang/ruby/test/test_schema_normalization.rb:23:in `each' 
+/Users/busbey/projects/avro/lang/ruby/test/test_schema_normalization.rb:23:in `test_primitives' 
+
+4) Error: 
+test_shared_dataset(TestSchemaNormalization): 
+NameError: uninitialized constant CaseFinder::StringScanner 
+/Users/busbey/projects/avro/lang/ruby/test/case_finder.rb:11:in `initialize' 
+/Users/busbey/projects/avro/lang/ruby/test/case_finder.rb:7:in `new' 
+/Users/busbey/projects/avro/lang/ruby/test/case_finder.rb:7:in `cases' 
+/Users/busbey/projects/avro/lang/ruby/test/test_schema_normalization.rb:166:in `test_shared_dataset' 
+
+52 tests, 799 assertions, 0 failures, 4 errors, 0 skips 
+
+{code} 
+
+I'm using 1.9.3 installed via RVM. 
+
+{code} 
+Busbey-MBA:ruby busbey$ rvm version 
+rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/] 
+Busbey-MBA:ruby busbey$ rvm list 
+
+rvm rubies 
+
+=> ruby-1.9.3-p551 [ x86_64 ] 
+* ruby-2.2.1 [ x86_64 ] 
+
+# => - current 
+# =* - current && default 
+# * - default 
+{code}",,,,,,,,,,,,"12 weeks, 1 day ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3cwbz:
+Avro,AVRO-2014,C++ DataFile support custom stream,Improvement,Open,Major,Unresolved,Unassigned,Zoyo Pei,Zoyo Pei,3/30/2017 6:42,,3/30/2017 6:42,,,,c++,,1,2,,,,,,,,,"It is recommended that C++ DataFile support custom stream. E.g, 
+DataFileWriter(OutputStream *stream, ...); 
+So we can write into hdfs like this 
+auto writer = new DataFileWriter<T>(new HDFSOutputStream(...), ...);",,,,,,,,,,,,14 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3czgf:
+Avro,AVRO-2016,Add support for adding include dirs for avdl -> avpr generation,Improvement,Patch Available,Minor,Unresolved,Pepijn Noltes,Pepijn Noltes,Pepijn Noltes,4/3/2017 11:57,,4/25/2017 3:02,,,,java,,0,3,,,,,,,,,"I am using Apache Avro with a project setup where avdl files are imported by project dependencies. 
+
+In this setup, the project directory containing the avdl files and the directories containing the imported avdl files are separated. 
+
+During build I can bring these together, but during development (using avroclipse) they are still separated. I would like to specify which additional include dirs the 'avro-tools idl' should look for when resolving a 'import idl' statement.",,,,,,,,4/3/2017 12:05,,,,"10 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3d4nr:
+Avro,AVRO-2017,Add sacharya's key to KEYS,Task,Closed,Major,Fixed,Sean Busbey,Suraj Acharya,Suraj Acharya,4/5/2017 19:14,,4/5/2017 20:51,4/5/2017 20:47,,,build,,0,2,,,,,,,,,"I am working on adding my public key to the KEYS for making a release. 
+However, I guess only PMC can push to the KEYS file. 
+I have attached a diff file, and would appreciate if someone can add my key to the KEYS file. 
+The reason I am asking for that is so I can call a vote on 1.8.2 rc since that will need my signature to be verified. 
+
+Thanks",,,,,,,,4/5/2017 20:44,,,,13 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3d987:
+Avro,AVRO-2018,lang/java/avro/src/test/java/org/apache/avro/TestFixed.java missing copyright comment,Bug,Resolved,Blocker,Fixed,Suraj Acharya,Suraj Acharya,Suraj Acharya,4/7/2017 18:49,,4/7/2017 21:16,4/7/2017 21:15,1.8.2,1.8.2,java,,0,3,,,,,,,AVRO-1885,,"Running ./build.sh rat reveals a build failure caused by a missing 
+copyright comment in 
+lang/java/avro/src/test/java/org/apache/avro/TestFixed.java",,,,,,,,4/7/2017 20:56,,,,"12 weeks, 5 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3ddfz:
+Avro,AVRO-2019,Improve documentation for logical type annotations in IDL,Improvement,Patch Available,Minor,Unresolved,Unassigned,Andrew Rosca,Andrew Rosca,4/9/2017 2:29,,6/19/2017 10:03,,,,"doc, logical types",,0,2,,,,,,,AVRO-1918,,"The IDL documentation lacks information for how annotations can be specified for logical types, like in the following example: 
+
+{code} 
+protocol test { 
+record test { 
+@logicalType(""timestamp-millis"") 
+long time; 
+} 
+} 
+{code}",,,,,,,,6/19/2017 10:03,,,,"2 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dehj:
+Avro,AVRO-2020,Update BUILD instructions with correct versions for language-specific libraries,Task,Open,Critical,Unresolved,Unassigned,Sean Busbey,Sean Busbey,4/10/2017 14:09,,4/10/2017 14:09,,"1.7.7, 1.8.1, 1.9.0","1.7.8, 1.9.0, 1.8.3","community, doc",,0,1,,,,,,,,,"our BUILD instructions current list a few things I know are wrong (Ruby 1.8 support) and some things I'm pretty sure are wrong (Java 1.6 support). 
+
+
+we should do a pass checking all the languages. 
+
+{code} 
+
+REQUIREMENTS 
+
+The following packages must be installed before Avro can be built: 
+
+- Java: JDK 1.6, Maven 2 or better, protobuf-compile 
+- PHP: php5, phpunit, php5-gmp 
+- Python: 2.5 or greater, python-setuptools for dist target 
+- C: gcc, cmake, asciidoc, source-highlight 
+- C++: cmake 2.8.4 or greater, g++, flex, bison, libboost-dev 
+- C#: mono-devel mono-gmcs nunit 
+- JavaScript: nodejs, npm 
+- Ruby: ruby 1.86 or greater, ruby-dev, gem, rake, echoe, yajl-ruby 
+- Perl: perl 5.8.1 or greater, gmake, Module::Install, 
+Module::Install::ReadmeFromPod, Module::Install::Repository, 
+Math::BigInt, JSON::XS, Try::Tiny, Regexp::Common, Encode, 
+IO::String, Object::Tiny, Compress::ZLib, Test::More, 
+Test::Exception, Test::Pod 
+- Apache Ant 1.7 
+- Apache Forrest 0.8 (for documentation) 
+- md5sum, sha1sum, used by top-level dist target 
+{code}",,,,,,,,,,,,"12 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dfrr:
+Avro,AVRO-2021,uuid logical type is not documented,Improvement,Resolved,Minor,Fixed,Nandor Kollar,Andrew Rosca,Andrew Rosca,4/10/2017 18:56,,6/29/2017 11:24,6/29/2017 11:24,,"1.9.0, 1.8.3",,,0,5,,,,,,,,,"The documentation does not mention anything about the _uuid_ logical type, which is in fact implemented in LogicalTypes.java. 
+
+Add documentation for _uuid_",,,,,,,,6/28/2017 14:15,,,,6 days ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dg7j:
+Avro,AVRO-2022,IDL does not allow `schema` as identifier,Bug,Resolved,Major,Invalid,Unassigned,Erik van Oosten,Erik van Oosten,4/11/2017 12:42,,5/23/2017 11:46,5/23/2017 11:46,"1.7.7, 1.8.1",,java,,0,2,,,,,,,,,"The keyword {{schema}} is now allowed as escaped identifier in IDL. E.g. the following does not compile: 
+
+{noformat} 
+record { 
+string `schema`; 
+} 
+{noformat} 
+
+Patches are available for the master branch: https://github.com/apache/avro/pull/209 and 1.7 branch: https://github.com/apache/avro/pull/211",,,,,,,,5/23/2017 11:45,,,,"6 weeks, 1 day ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,Patch,0|i3dhg7:
+Avro,AVRO-2023,backport and update license fixes for branch-1.7,Task,Patch Available,Blocker,Unresolved,Suraj Acharya,Sean Busbey,Sean Busbey,4/12/2017 12:54,,6/13/2017 3:53,,1.7.7,1.7.8,"build, community",,0,3,,,,,,,AVRO-1998,,"Backport the changes from AVRO-1722 and subtasks, ensure they're applicable for branch-1.7. 
+
+git history as summary: 
+
+{code} 
+$ git hist --grep AVRO-1722 --grep AVRO-1727 --grep AVRO-1728 --grep AVRO-1729 --grep AVRO-1730 --grep AVRO-1731 --grep AVRO-1732 --grep AVRO-1733 --grep AVRO-1734 --grep AVRO-1735 --grep AVRO-1736 --grep AVRO-1771 origin/branch-1.8 
+* 059e6df - AVRO-1771. Add LICENSE and NOTICE to avro-doc artifact. Contributed by blue. (1 year, 3 months ago) 
+* ee28a20 - AVRO-1728: Java: Add LICENSE and NOTICE files to jars. (1 year, 4 months ago) 
+* 80ba788 - AVRO-1722 ADDENDUM: Add last license doc changes, rat helper. (1 year, 4 months ago) 
+* bf751df - AVRO-1722 ADDENDUM: Java: Fix tests broken by adding licenses. (1 year, 4 months ago) 
+* f49b2d3 - AVRO-1722: Update root LICENSE.txt and NOTICE.txt. (1 year, 4 months ago) 
+* 2c6c570 - AVRO-1730: Python3: Add LICENSE and NOTICE to distribution. (1 year, 4 months ago) 
+* e11c588 - AVRO-1730: Python: Add LICENSE and NOTICE to distribution. (1 year, 4 months ago) 
+* ada69ac - AVRO-1736: PHP: Add LICENSE and NOTICE to distribution. (1 year, 4 months ago) 
+* 96d2d35 - AVRO-1735: Perl: Add LICENSE and NOTICE to distribution. (1 year, 4 months ago) 
+* df5c513 - AVRO-1731: C: Add LICENSE and NOTICE to binary distribution. (1 year, 4 months ago) 
+* 3585c45 - AVRO-1733: C#: Add LICENSE and NOTICE to binary distribution. (1 year, 6 months ago) 
+* 5cb83db - AVRO-1732: C++: Add LICENSE and NOTICE to binary distribution. (1 year, 6 months ago) 
+* bc19e3a - AVRO-1729: Ruby: Add LICENSE and NOTICE to ruby gems. (1 year, 6 months ago) 
+{code}",,,,,,,,4/19/2017 0:44,,,,"3 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dj6f:
+Avro,AVRO-2024,rat on branch-1.7 doest produce expected results.,Improvement,Resolved,Major,Duplicate,Suraj Acharya,Suraj Acharya,Suraj Acharya,4/14/2017 18:58,,4/18/2017 0:46,4/18/2017 0:46,1.7.7,1.7.8,"build, community",,0,1,,,,,,,,,"Running this 
+{code} 
+mvn test -Dmaven.main.skip=true -Dmaven.test.skip=true -DskipTests=true -P rat -pl :avro-toplevel 
+{code} 
+should produce the list of licenses missing. However, currently that is not producing the same output. 
+",,,,,,,,,,,,"11 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dn9b:
+Avro,AVRO-2025,Bump version of JS to 1.8.2,Bug,Resolved,Major,Fixed,Suraj Acharya,Suraj Acharya,Suraj Acharya,4/14/2017 19:01,,4/17/2017 23:58,4/17/2017 23:58,1.8.2,1.8.2,js,,0,4,,,,,,,,,The version of javascript needs to be bumped for the release.,,,,,,,,4/14/2017 19:10,,,,"11 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dn9j:
+Avro,AVRO-2026,Incorporate valgrind memory testing for C,Improvement,Patch Available,Major,Unresolved,Unassigned,John Gill,John Gill,4/16/2017 5:59,,5/14/2017 23:14,,,1.8.3,c,,0,1,,,,,,,,,"With the work done for AVRO-1167 & AVRO-766 in identifying memory leaks decided to make it a standard part of the testing framework. This issue requires https://github.com/apache/avro/pull/218 otherwise test_avro_schema and test_avro_values fail due to to avro_schema_copy calls. 
+
+Adding valgrind tool to the docker container 
+Adding valgrind to CMakeLists.txt to optionally do valgrind testing if the tool is found 
+Cleaning up existing tests that were failing due to not properly cleaning up memory 
+Lastly, as part of ./build.sh test for lang/c do not remove the build/c directory. The memcheck output is kept so that memory leak issues can be reviewed and addressed.",,,,,,,,,,,,"11 weeks, 4 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3do1r:
+Avro,AVRO-2027,"Merge fix for data file corruption, when using Python3, avro-python3 and the snappy codec.",Bug,Patch Available,Major,Unresolved,Zahary Karadjov,Zahary Karadjov,Zahary Karadjov,4/22/2017 18:58,,6/2/2017 1:45,,1.8.1,,python,,0,2,,,,,,,,,"A complete description of the issue is provided in the Github pull request here: 
+https://github.com/apache/avro/pull/220",,,,,,,,6/2/2017 1:45,,,,"4 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3dyuf:
+Avro,AVRO-2028,"Specific Data, newBuilder(existingInstance) fails for BigDecimal",Bug,Open,Major,Unresolved,Unassigned,Adrian McCague,Adrian McCague,4/24/2017 19:09,,4/24/2017 19:09,,1.8.2,,,,0,1,,86400,86400,,0%,,,,"Using 1.8.2-rc3 
+
+When attempting to use: 
+{{MyType.newBuilder(existingType)}} 
+
+With a field of type {{Union}}: 
+{code} 
+[""null"",{""type"":""bytes"",""logicalType"":""decimal"",""precision"":20,""scale"":8}] 
+{code} 
+
+I get the following exception: 
+
+{code} 
+org.apache.avro.UnresolvedUnionException: Not in union [""null"",{""type"":""bytes"",""logicalType"":""decimal"",""precision"":20,""scale"":8}]: 12000.00000000 
+
+at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:740) 
+at org.apache.avro.generic.GenericData.deepCopyRaw(GenericData.java:1146) 
+at org.apache.avro.generic.GenericData.deepCopy(GenericData.java:1062) 
+at MyType$Builder.<init> 
+{code} 
+
+I suspected it may be related but also noticed in the generated Specific Data class the following: 
+{code} 
+private static final org.apache.avro.Conversion<?>[] conversions = 
+new org.apache.avro.Conversion<?>[] { 
+null, 
+TIMESTAMP_CONVERSION, 
+null, 
+null, // Should be DECIMAL_CONVERSION 
+null, 
+null, 
+null, 
+null, 
+null 
+}; 
+{code} 
+ie, the conversion was missing. 
+Adding this by hand however did not resolve the issue. I will add this as another issue.",,0%,0%,,86400,86400,,,,,,"10 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3e10v:
+Avro,AVRO-2029,Specific Data generated class missing Decimal Conversion,Bug,Open,Major,Unresolved,Unassigned,Adrian McCague,Adrian McCague,4/24/2017 19:13,,4/24/2017 19:13,,1.8.2,,,,0,1,,14400,14400,,0%,,,,"Using 1.8.2-rc3 
+
+Given a class generated with {{-bigDecimal}}, the generated class defines the DECIMAL_CONVERSION but does not set it to a {{BigDecimal}} field index. 
+
+Fields for illustration: 
+{code} 
+@Deprecated public java.lang.String id; 
+@Deprecated public org.joda.time.DateTime timestamp; 
+@Deprecated public java.lang.String applicationId; 
+@Deprecated public java.math.BigDecimal amount;; 
+
+... 
+
+protected static final org.apache.avro.data.TimeConversions.TimestampConversion TIMESTAMP_CONVERSION = new org.apache.avro.data.TimeConversions.TimestampConversion(); 
+protected static final org.apache.avro.Conversions.DecimalConversion DECIMAL_CONVERSION = new org.apache.avro.Conversions.DecimalConversion(); 
+
+private static final org.apache.avro.Conversion<?>[] conversions = 
+new org.apache.avro.Conversion<?>[] { 
+null, 
+TIMESTAMP_CONVERSION, 
+null, 
+null, // Should be DECIMAL_CONVERSION 
+null, 
+null, 
+null, 
+null, 
+null 
+}; 
+{code} 
+
+I am currently unsure of the impact of this.",,0%,0%,,14400,14400,,,,,,"10 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3e113:
+Avro,AVRO-2030,"Fix broken URL to ""this book chapter"" about Rabin fingerprints in 1.8.1 spec",Task,Open,Trivial,Unresolved,Unassigned,CJ Gaconnet,CJ Gaconnet,4/28/2017 15:41,,4/28/2017 15:41,,1.8.1,,,,0,1,,,,,,,,,"The [1.8.1 specification|https://avro.apache.org/docs/current/spec.html#N1088B] has a sentence saying: 
+
+bq. Readers interested in the mathematics behind this algorithm may want to read [this book chapter|http://www.scribd.com/fb-6001967/d/84795-Crc]. 
+
+The URL http://www.scribd.com/fb-6001967/d/84795-Crc now serves up a 404. Does anyone know what book the link was pointing to? 
+
+Searching around leads me to think it was probably pointing to ""14-2 Theory"" of _Hacker's Delight_ by Henry S. Warren. If so, it would be nice to either update or remove the hyperlink and have the text cite the book and chapter by name so that interested readers can still find it even if an updated link were to go away.",,,,,,,,,,,,"9 weeks, 5 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3e8w7:
+Avro,AVRO-2031,GenericData.writeEscapedString should be static,Improvement,Open,Trivial,Unresolved,Unassigned,Zoltan Farkas,Zoltan Farkas,5/1/2017 20:43,,5/1/2017 20:43,,1.8.1,,,,0,1,,,,,,,,,,,,,,,,,,,,,"9 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3ec07:
+Avro,AVRO-2032,"Unable to decode JSON-encoded Double.NaN, Double.POSITIVE_INFINITY or Double.NEGATIVE_INFINITY",Bug,Open,Major,Unresolved,Unassigned,Pieter Dekinder,Pieter Dekinder,5/5/2017 7:13,,5/5/2017 7:13,,1.8.1,,java,,0,1,,,,,,,,,"When using the JsonEncoder to serialize Double.NaN, Double.POSITIVE_INFINITY or Double.NEGATIVE_INFINITY to resulting JSON cannot be parsed by the JsonDencoder. 
+An AvroTypeException is thrown with the message ""Expected double. Got VALUE_STRING"". 
+When using BinaryEncoder/BinaryDecoder, it works fine. 
+
+This JUnit code snippet will reproduce the issue: 
+@Test 
+public void test() throws Exception { 
+Schema schema = SchemaBuilder.builder() 
+.record(""record"") 
+.fields() 
+.optionalDouble(""number1"") 
+.optionalDouble(""number2"") 
+.optionalDouble(""number3"") 
+.endRecord(); 
+GenericData.Record record = new GenericData.Record(schema); 
+record.put(""number1"", Double.NaN); 
+record.put(""number2"", Double.POSITIVE_INFINITY); 
+record.put(""number3"", Double.NEGATIVE_INFINITY); 
+
+ByteArrayOutputStream out = new ByteArrayOutputStream(); 
+JsonEncoder encoder = EncoderFactory.get().jsonEncoder(schema, out); 
+new GenericDatumWriter<GenericRecord>(schema).write(record, encoder); 
+encoder.flush(); 
+System.out.println(out); 
+
+Decoder decoder = DecoderFactory.get().jsonDecoder(schema, out.toString()); 
+GenericData.Record deserialized = new GenericData.Record(schema); 
+new GenericDatumReader<GenericRecord>(schema).read(deserialized, decoder); 
+}",,,,,,,,,,,,"8 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3eiy7:
+Avro,AVRO-2033,GenericUnions constructor defaults to a broken state,Bug,Resolved,Minor,Fixed,Philip Rizk,Philip Rizk,Philip Rizk,5/10/2017 15:48,,5/22/2017 2:31,5/22/2017 2:31,1.7.7,1.8.3,c++,,0,2,,,,,,,,,"Creating a GenericUnion with a NodePtr results in an object that causes errors when written. Specifically the index for the union type will be invalid. This will only be caught when reading the serialized record. 
+
+
+The issue is the consturctor: 
+{code} 
+GenericUnion(const NodePtr& schema) : 
+GenericContainer(AVRO_UNION, schema), curBranch_(schema->leaves()) { 
+{code} 
+
+Setting curBranch_ to schema->leaves() will result in setting the value to an invalid index (one more than available. I believe the constructor in question should be changed to: 
+
+{code} 
+GenericContainer(AVRO_UNION, schema), curBranch_(0) { 
+{code} 
+
+This should ensure the union is set to the default branch. 
+
+
+",,,,,,,,5/22/2017 2:31,,,,"6 weeks, 3 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3es4v:
+Avro,AVRO-2034,Nested schema types with unexpected fields causes json parse failure,Bug,Open,Major,Unresolved,Unassigned,Todd Nine,Todd Nine,5/11/2017 18:28,,5/15/2017 18:04,,1.8.1,,java,,0,2,,,,,,,,,"When parsing a nested type with an unexpected field using the JSON parser, this results in an error. To reproduce, see the class {{TestNestedRecords}} in the referenced PR. 
+
+https://github.com/apache/avro/pull/224 
+
+Note that this only occurs when the following pattern exists in the schema. 
+
+# regular field 
+# nested record with additional field 
+# Any subsequent field following the nested record with an unexpected field appears to reproduce the problem.",,,,,,,,5/11/2017 18:29,,,,"7 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3euuv:
+Avro,AVRO-2035,enable validation of default values in schemas by default,Bug,Resolved,Major,Fixed,Doug Cutting,radai rosenblatt,radai rosenblatt,5/17/2017 1:27,,6/28/2017 17:35,6/26/2017 16:02,1.8.1,1.9.0,java,,0,5,,,,,,,,,"suppose i have the following schema evolution: 
+{code} 
+{ 
+""name"": ""Bob"", 
+""type"": ""record"", 
+""fields"": [ 
+{""name"": ""f1"", ""type"": ""int""} 
+] 
+} 
+{code} 
+and then: 
+{code} 
+{ 
+""name"": ""Bob"", 
+""type"": ""record"", 
+""fields"": [ 
+{""name"": ""f1"", ""type"": ""int""}, 
+{""name"": ""f2"", ""type"": ""boolean"", ""default"": ""true""} 
+] 
+} 
+{code} 
+
+the default value for ""f2"" is specified as the _STRING_ ""true"" (and not the literal boolean true). 
+
+if this default value is ever accessed (when reading a gen1-serialized object as a gen2) we get this: 
+
+{code} 
+org.apache.avro.AvroTypeException: Non-boolean default for boolean: ""true"" 
+
+at org.apache.avro.io.parsing.ResolvingGrammarGenerator.encode(ResolvingGrammarGenerator.java:408) 
+at org.apache.avro.io.parsing.ResolvingGrammarGenerator.getBinary(ResolvingGrammarGenerator.java:307) 
+at org.apache.avro.io.parsing.ResolvingGrammarGenerator.resolveRecords(ResolvingGrammarGenerator.java:285) 
+at org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(ResolvingGrammarGenerator.java:118) 
+at org.apache.avro.io.parsing.ResolvingGrammarGenerator.generate(ResolvingGrammarGenerator.java:50) 
+at org.apache.avro.io.ResolvingDecoder.resolve(ResolvingDecoder.java:85) 
+at org.apache.avro.io.ResolvingDecoder.<init>(ResolvingDecoder.java:49) 
+at org.apache.avro.io.DecoderFactory.resolvingDecoder(DecoderFactory.java:307) 
+at org.apache.avro.generic.GenericDatumReader.getResolver(GenericDatumReader.java:127) 
+at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:142) 
+{code} 
+
+yet Schema.parse() passes for this",,,,,,,,6/16/2017 21:16,,,,1 week ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,Incompatible change,,,,,1,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3f37j:
+Avro,AVRO-2036,Avro fails to compile for C,Bug,Open,Major,Unresolved,Unassigned,Don Snedigar,Don Snedigar,5/17/2017 17:19,,5/18/2017 13:36,,1.8.2,,c,,0,1,,,,,,,,Linux,"AVRO for C fails to compile. 
+
+Could be duplicate of AVRO-778 
+
+First instance of failure (of many) occures in avro_schema_to_header : 
+
+static int avro_schema_to_header(avro_schema_t schema, specific_ctx * ctx) 
+{ 
+size_t i; 
+FILE *fp = ctx->header; 
+
+indent(ctx, fp); 
+ctx->depth++; 
+
+if (is_avro_primitive(schema) && !ctx->name) { 
+<function continues....> 
+
+ctx has no member name. 
+
+The definition of the struct above is : 
+enum specific_state { 
+START_STATE, 
+}; 
+typedef enum specific_state specific_state; 
+
+struct specific_ctx { 
+FILE *header; 
+FILE *source; 
+int depth; 
+specific_state state; 
+}; 
+typedef struct specific_ctx specific_ctx; 
+
+So every instance of ctx->name fails..... 
+
+
+
+
+",,,,,,,,,,,,7 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3f4m7:
+Avro,AVRO-2037,Use std::any where available,Improvement,Open,Major,Unresolved,Unassigned,Darryl Green,Darryl Green,5/25/2017 11:40,,5/25/2017 11:41,,,,c++,,0,1,,,,,,,,,"The use of boost::any to hold union types causes a significant performance hit especially for small types - in particular the when using [null,primitive] for optional primitive type elements of a schema. Most (all?) implementations of std::any include a small value optimisation that avoids allocation overhead for scalars and other small types. Its a little unfortunate that the performance of a C++ binding of a notionally high performance serialization format performs so poorly in this case (note - I had previously proposed using boost::variant which would address this problem but would fail to support recursive types or truly huge numbers of distinct types in a union). Obviously this requires C++ 17 but could fall back to boost::any for older compilers.",,,,,,,,,,,,"5 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3fgjz:
+Avro,AVRO-2038,Update the build.xml in doc to strip of any whitespace / new line,Improvement,Resolved,Major,Fixed,Rodrigo Coelho,Suraj Acharya,Suraj Acharya,5/31/2017 15:14,,6/1/2017 2:04,6/1/2017 2:04,,"1.9.0, 1.8.3","build, doc",,0,3,,,,,,,,,"Currently the build.xml present in the doc folder does not strip the whitespace/newline. 
+That needs to be removed so the build scripts build correctly.",,,,,,,,5/31/2017 20:08,,,,5 weeks ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3fp73:
+Avro,AVRO-2039,Ruby encoding performance improvement,Improvement,Patch Available,Major,Unresolved,Unassigned,Tim Perkins,Tim Perkins,6/12/2017 17:14,,6/12/2017 17:16,,,,,,0,1,,,,,,,,,"For a use case with a few levels of nesting and unions in several places within the schema we saw a 5x improvement in encoding performance with these changes to encoding using Ruby. 
+
+1. Avoid the exhaustive validation of schemas in a union 
+
+2. Avoid the repeated validation of nested schemas 
+
+https://github.com/apache/avro/pull/230",,,,,,,,,,,,"3 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,Ruby encoding performance improvements,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3g6dj:
+Avro,AVRO-2040,Fix Ruby 2.4 deprecation notices,Improvement,Patch Available,Minor,Unresolved,Unassigned,Tim Perkins,Tim Perkins,6/12/2017 18:48,,6/12/2017 18:48,,,,,,0,1,,,,,,,,,https://github.com/apache/avro/pull/231,,,,,,,,,,,,"3 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,Fix Ruby 2.4 deprecation notices,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3g6i7:
+Avro,AVRO-2041,set up gitbox integration,Task,Open,Major,Unresolved,Sean Busbey,Sean Busbey,Sean Busbey,6/13/2017 16:28,,6/27/2017 13:06,,,,community,,0,2,,,,,,,,,We got consensus back in may about [turning on gitbox integration|https://lists.apache.org/thread.html/cdd8ba14c1bf8aca2d71d09862e9780f2dc46af414ed78b1e3fd9c56@%3Cdev.avro.apache.org%3E] so do it.,,,,,,,,6/27/2017 13:06,,,,"1 week, 1 day ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3g813:
+Avro,AVRO-2042,Can't reliably write decimal/BigDecimal values to file,Bug,Resolved,Major,Not A Problem,Ryan Blue,Fred Cohen,Fred Cohen,6/15/2017 16:28,,6/15/2017 18:15,6/15/2017 16:39,1.8.2,,,,0,2,,,,,,,,,"Attempting to write some decimal values fails. 
+
+Here's the schema I created for this test: 
+
+{ 
+""namespace"":""org.test"", 
+""type"": ""record"", 
+""name"": ""DecimalTest"", 
+""fields"": [ 
+
+{ 
+""name"": ""decimalVal"", 
+""type"": {""type"": ""bytes"", ""logicalType"":""decimal"",""precision"": 6, ""scale"": 4} 
+} 
+] 
+} 
+
+The problem is that to my knowledge I can't control the scale used by BigDecimal. 
+While the first value uses a scale of 4, the second one is scale 0. 
+
+decimals.add(new BigDecimal(12.01F, mathContext)); 
+decimals.add(new BigDecimal(12.00F, mathContext)); 
+
+It leads to these errors during the write operation: 
+
+org.apache.avro.file.DataFileWriter$AppendWriteException: org.apache.avro.AvroTypeException: Cannot encode decimal with scale 0 as scale 4 
+
+at org.apache.avro.file.DataFileWriter.append(DataFileWriter.java:308) 
+at AvroDecimalTest.writeDecimalTest(AvroDecimalTest.java:67) 
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) 
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) 
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) 
+at java.lang.reflect.Method.invoke(Method.java:497) 
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) 
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) 
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41) 
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20) 
+at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79) 
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71) 
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49) 
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193) 
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52) 
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191) 
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42) 
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184) 
+at org.junit.runners.ParentRunner.run(ParentRunner.java:236) 
+at org.junit.runner.JUnitCore.run(JUnitCore.java:157) 
+at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) 
+at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51) 
+at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) 
+at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) 
+Caused by: org.apache.avro.AvroTypeException: Cannot encode decimal with scale 0 as scale 4 
+at org.apache.avro.Conversions$DecimalConversion.toBytes(Conversions.java:92) 
+at org.apache.avro.Conversions$DecimalConversion.toBytes(Conversions.java:62) 
+at org.apache.avro.Conversions.convertToRawType(Conversions.java:218) 
+at org.apache.avro.generic.GenericDatumWriter.convert(GenericDatumWriter.java:95) 
+at org.apache.avro.specific.SpecificDatumWriter.writeField(SpecificDatumWriter.java:84) 
+at org.apache.avro.generic.GenericDatumWriter.writeRecord(GenericDatumWriter.java:156) 
+at org.apache.avro.generic.GenericDatumWriter.writeWithoutConversion(GenericDatumWriter.java:118) 
+at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:75) 
+at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:62) 
+at org.apache.avro.file.DataFileWriter.append(DataFileWriter.java:302) 
+... 23 more 
+",,,,,,,,6/15/2017 16:38,,,,"2 weeks, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3gbrb:
+Avro,AVRO-2043,Move to java8,Improvement,Patch Available,Blocker,Unresolved,Gabor Szadovszky,Gabor Szadovszky,Gabor Szadovszky,6/16/2017 7:14,7/6/2017 7:34,6/19/2017 8:05,,1.9.0,1.9.0,java,,0,2,,,,,,,,,"java6 is really old and java7 is already EOD for 2yrs. It is time to move to java8 in the next major release (1.9.0): 
+* update source/target to 1.8.0 in the pom.xml 
+* update the Dockerfile to used jdk8 
+* ensure that lang/java builds fine with jdk8 
+* ensure that all unit tests pass in lang/java with jdk8 
+* ensure that everything builds fine and tests pass by using the new docker image",,,,,,,,6/16/2017 9:49,,,,"2 weeks, 5 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3gd07:
+Avro,AVRO-2044,Enforce maven 3,Improvement,Open,Major,Unresolved,Unassigned,Gabor Szadovszky,Gabor Szadovszky,6/20/2017 7:50,,6/20/2017 7:50,,1.9.0,1.9.0,build,,0,1,,,,,,,,,"maven 2 is EOL for 3+ years. We shall use maven 3 instead: 
+* Modify the root pom.xml to enforce maven 3.0.5 (or newer) 
+* Ensure that the Dockerfile installs the appropriate maven version 
+* Upgrade the maven version for maven-plugin module (it may require code change because of the differences between maven 2 and maven 3 API)",,,,,,,,,,,,"2 weeks, 2 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3ghaf:
+Avro,AVRO-2045,Avro should warn about corrupt EOF files,Bug,Open,Major,Unresolved,Nandor Kollar,Lars Volker,Lars Volker,6/22/2017 14:05,,6/23/2017 12:02,,1.7.6,,,,0,1,,,,,,,,,"When running queries on truncated files, Impala's Avro scanner issues a warning: 
+
+{noformat} 
+WARNINGS: Problem parsing file hdfs://host.company.com:8020/tmp/datagen/some_db/some_table/col1=A/col2=B/col3=D/col4=C/2017-05-18-18-5-9-876-0.avro at 1327214080(EOF) 
+Tried to read 64653 bytes but could only read 16549 bytes. This may indicate data file corruption. (file hdfs://host.company.com:8020/tmp/datagen/some_db/some_table/col1=A/col2=B/col3=D/col4=C/2017-05-18-18-5-9-876-0.avro, byte offset: 1327214080) 
+{noformat} 
+
+{{avro-tools tojson}} eventually prints the same number of rows that Impala reads, but does not print a warning. Instead it seems to quietly swallow the EOFException. 
+
+I think it should print a warning instead. 
+",,,,,,,,,,,,"1 week, 6 days ago",,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,,0|i3glyv:
+Avro,AVRO-2046,avro-python3: Very restricted set of data types which are allowed in AvroSchemaFromJSONData,Bug,Open,Major,Unresolved,Unassigned,Manvendra Singh,Manvendra Singh,7/4/2017 10:10,7/6/2017 7:36,7/4/2017 12:13,,1.8.2,,python,,1,2,,,,,,,,avro-python3 (1.8.2),"Minimal reproducable example: 
+
+
+{code:none} 
+from collections import OrderedDict 
+import avro.schema 
+AvroSchemaFromJSONData = avro.schema.SchemaFromJSONData 
+
+a = { 
+""fields"": [ 
+{ 
+""name"": ""name"", 
+""type"": ""string"" 
+}, 
+{ 
+""name"": ""favorite_number"", 
+""type"": [ 
+""int"", 
+""null"" 
+] 
+}, 
+{ 
+""name"": ""favorite_color"", 
+""type"": [ 
+""string"", 
+""null"" 
+] 
+} 
+], 
+""name"": ""User"", 
+""namespace"": ""example.avro"", 
+""type"": ""record"" 
+} 
+
+b = OrderedDict(a) 
+
+AvroSchemaFromJSONData(a) 
+AvroSchemaFromJSONData(b) 
+
+{code} 
+Ouput: 
+
+{code} 
+~/Desktop/test/venv3/lib/python3.5/site-packages/avro/schema.py in SchemaFromJSONData(json_data, names) 
+1252 if parser is None: 
+1253 raise SchemaParseException( 
+-> 1254 'Invalid JSON descriptor for an Avro schema: %r.' % json_data) 
+1255 return parser(json_data, names=names) 
+1256 
+
+SchemaParseException: Invalid JSON descriptor for an Avro schema: OrderedDict([('namespace', 'example.avro'), ('type', 'record'), ('name', 'User'), ('fields', [{'type': 'string', 'name': 'name'}, {'type': ['int', 'null'], 'name': 'favorite_number'}, {'type': ['string', 'null'], 'name': 'favorite_color'}])]). 
+{code} 
+
+
+h5. Current implementation of this function does not allow for *any dict like data type*. It however works in avro-python2. 
+
+Relevant line of code: https://github.com/apache/avro/blob/master/lang/py3/avro/schema.py#L1250",,,,,,,,,,,,1 day ago,,9.22337E+18,,,Restricted to agents,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,Restricted to agents,,,Restricted to agents,,,,,,9.22337E+18,,,,,,,Important,0|i3h2jz:

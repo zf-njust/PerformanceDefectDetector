@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 1 0 0 
+1 1 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.trace.Util.addEvent(Span, SpanEvent)
+org.apache.avro.ipc.trace.Util.getPayloadSize(List)
+org.apache.avro.ipc.trace.TracePlugin.serverReceiveRequest(RPCContext)
+org.apache.avro.Protocol.Message.getName()
+org.apache.avro.ipc.trace.SpanStorage.addSpan(Span)
+org.apache.avro.ipc.trace.TracePlugin.serverSendResponse(RPCContext)
+org.apache.avro.ipc.trace.TracePlugin.clientReceiveResponse(RPCContext)
+org.apache.avro.ipc.RPCContext.getRequestPayload()
+org.apache.avro.ipc.RPCContext.getResponsePayload()
+org.apache.avro.ipc.trace.TracePlugin.clientSendRequest(RPCContext)
+org.apache.avro.ipc.RPCContext.getMessage()

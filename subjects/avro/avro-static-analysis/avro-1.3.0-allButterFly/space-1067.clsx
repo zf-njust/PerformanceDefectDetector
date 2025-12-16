@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificCompiler.main(String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificCompiler.compileProtocol(File, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificCompiler.SpecificCompiler(Protocol)" />
+<item name="org.apache.avro.Protocol.parse(File)" />
+<item name="org.apache.avro.specific.SpecificCompiler.compileToDestination(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificCompiler.OutputFile.writeToDestination(File)" />
+<item name="org.apache.avro.specific.SpecificCompiler.compileInterface(Protocol)" />
+<item name="org.apache.avro.Protocol.getTypes()" />
+<item name="org.apache.avro.specific.SpecificCompiler.compile(Schema)" />
+<item name="org.apache.avro.specific.SpecificCompiler.enqueue(Schema)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.specific.SpecificCompiler.mangle(String)" />
+<item name="org.apache.avro.specific.SpecificCompiler.errors(Schema)" />
+<item name="org.apache.avro.specific.SpecificCompiler.doc(StringBuilder, int, String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.Protocol.getMessages()" />
+<item name="org.apache.avro.Schema.Field.doc()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Protocol.getNamespace()" />
+<item name="org.apache.avro.specific.SpecificCompiler.esc(Object)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Protocol.Message.getErrors()" />
+<item name="org.apache.avro.specific.SpecificCompiler.params(Schema)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Protocol.Message.getResponse()" />
+<item name="org.apache.avro.specific.SpecificCompiler.type(Schema)" />
+<item name="org.apache.avro.specific.SpecificCompiler.unbox(Schema)" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getDoc()" />
+<item name="org.apache.avro.Protocol.getName()" />
+<item name="org.apache.avro.Protocol.getDoc()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.specific.SpecificCompiler.header(StringBuilder, String)" />
+<item name="org.apache.avro.Schema.isError()" />
+<item name="org.apache.avro.specific.SpecificCompiler.line(StringBuilder, int, String)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.specific.SpecificCompiler.makePath(String, String)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.specific.SpecificCompiler.escapeForJavaDoc(String)" />
+</group>
+</group>
+</group>
+</cluster>

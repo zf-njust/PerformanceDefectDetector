@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 1 0 0 1 0 0 1 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 1 0 0 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.ui.MenuBase.setMenu(JMenu)
+org.apache.pdfbox.debugger.ui.RotationMenu.getInstance()
+org.apache.pdfbox.debugger.streampane.StreamImageView.ancestorAdded(AncestorEvent)
+org.apache.pdfbox.debugger.ui.MenuBase.addMenuListeners(ActionListener)
+org.apache.pdfbox.debugger.ui.RotationMenu.RotationMenu()
+org.apache.pdfbox.debugger.ui.MenuBase.removeActionListeners(JMenuItem)
+org.apache.pdfbox.debugger.PDFDebugger.createViewMenu()
+org.apache.pdfbox.debugger.ui.RotationMenu.createRotationMenu()
+org.apache.pdfbox.debugger.ui.ZoomMenu.setZoomSelection(String)
+org.apache.pdfbox.debugger.pagepane.PagePane.ancestorAdded(AncestorEvent)
+org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenuItem.ZoomMenuItem(String, int)
+org.apache.pdfbox.debugger.ui.RotationMenu.setRotationSelection(String)
+org.apache.pdfbox.debugger.ui.MenuBase.getMenu()
+org.apache.pdfbox.debugger.ui.ZoomMenu.ZoomMenu()
+org.apache.pdfbox.debugger.ui.ZoomMenu.getInstance()
+org.apache.pdfbox.debugger.ui.MenuBase.setEnableMenu(boolean)

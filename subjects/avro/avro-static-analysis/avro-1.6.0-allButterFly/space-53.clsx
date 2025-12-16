@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.RecordSchema.setFields(List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.LockableArrayList.add(E)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.LockableArrayList.ensureUnlocked()" />
+</group>
+</group>
+</group>
+</cluster>

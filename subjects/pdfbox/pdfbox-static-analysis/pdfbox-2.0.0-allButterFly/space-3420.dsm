@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 1 
+0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 1 0 0 
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getZ()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getCOSObject()
+org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.setWhitePoint(PDTristimulus)
+org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.fillWhitepointCache(PDTristimulus)
+org.apache.pdfbox.pdmodel.graphics.color.PDCIEDictionaryBasedColorSpace.setBlackPoint(PDTristimulus)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getX()
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getY()

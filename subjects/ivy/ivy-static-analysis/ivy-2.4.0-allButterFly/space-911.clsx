@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.requireInnerInfoElement(ModuleDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getLicenses()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfos()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDescription()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

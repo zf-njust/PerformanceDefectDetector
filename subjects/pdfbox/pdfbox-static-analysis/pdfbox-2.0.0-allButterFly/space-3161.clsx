@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.COSParser.parseHeader(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.COSParser.parseFDFHeader()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.parsePDFHeader()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLine()" />
+<item name="org.apache.pdfbox.cos.COSDocument.setVersion(float)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.rewind(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+</group>
+</group>
+</group>
+</cluster>

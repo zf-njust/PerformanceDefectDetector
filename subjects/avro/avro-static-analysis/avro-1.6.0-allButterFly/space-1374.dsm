@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+1 1 0 0 1 0 
+org.apache.avro.io.Perf.newRandom()
+org.apache.avro.Schema.getFields()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.Perf.GenericNested.genSourceData()
+org.apache.avro.generic.IndexedRecord.put(int, Object)
+org.apache.avro.io.Perf.generateGenericNested(Schema, int)

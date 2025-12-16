@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 
+1 0 0 0 1 0 1 
+1 0 0 0 1 0 1 
+0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.avro.io.BinaryEncoder.writeZero()
+org.apache.avro.io.BinaryEncoder.writeMapEnd()
+org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)
+org.apache.avro.io.BinaryEncoder.writeString(String)
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.io.BinaryEncoder.writeArrayEnd()
+org.apache.avro.io.Encoder.writeInt(int)

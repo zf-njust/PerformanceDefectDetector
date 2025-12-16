@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.computeHash()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.UnionSchema.computeHash()" />
+<item name="org.apache.avro.Schema.NamedSchema.computeHash()" />
+<item name="org.apache.avro.Schema.Field.hashCode()" />
+<item name="org.apache.avro.Schema.ArraySchema.computeHash()" />
+<item name="org.apache.avro.Schema.MapSchema.computeHash()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Name.hashCode()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.hashCode()" />
+<item name="org.apache.avro.Schema.getType()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaValidationStrategy.validate(Schema, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ValidateAll.validate(Schema, Iterable)" />
+<item name="org.apache.avro.ValidateLatest.validate(Schema, Iterable)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

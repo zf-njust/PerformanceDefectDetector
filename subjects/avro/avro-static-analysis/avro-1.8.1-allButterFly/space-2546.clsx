@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.JsonProperties.addProp(String, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.addProp(String, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.internal.JacksonUtils.toJsonNode(Object)" />
+<item name="org.apache.avro.JsonProperties.addProp(String, JsonNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.internal.JacksonUtils.toJson(Object, JsonGenerator)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

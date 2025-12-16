@@ -1,0 +1,72 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.listTokenValues(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.listTokenValues(String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.shouldUseMavenMetadata(String)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.listRevisionsWithMavenMetadata(Repository, String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.repository.Resource.exists()" />
+<item name="org.apache.ivy.plugins.repository.Resource.openStream()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUseMavenMetadata()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()" />
+<item name="org.apache.ivy.plugins.repository.Repository.getResource(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.util.ResolverHelper.listTokenValues(Repository, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyPatternHelper.getTokenString(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.repository.Repository.standardize(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.repository.Repository.getFileSeparator()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteToken(String, String, String)" />
+<item name="org.apache.ivy.util.Message.warn(String, Throwable)" />
+<item name="org.apache.ivy.plugins.resolver.util.ResolverHelper.listAll(Repository, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Message.verbose(String, Throwable)" />
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.plugins.repository.Repository.list(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteToken(StringBuffer, String, String)" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

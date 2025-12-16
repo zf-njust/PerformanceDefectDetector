@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroMultipleInputs.fromBase64(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroMultipleInputs.getInputSchemaMap(JobConf)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

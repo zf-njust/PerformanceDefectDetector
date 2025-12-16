@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BinaryEncoder.writeString(Utf8)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)" />
+<item name="org.apache.avro.util.Utf8.getLength()" />
+<item name="org.apache.avro.util.Utf8.getBytes()" />
+</group>
+</group>
+</group>
+</cluster>

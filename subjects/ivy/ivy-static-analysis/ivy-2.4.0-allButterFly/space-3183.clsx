@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.latest.LatestTimeStrategy.LatestTimeStrategy()" />
+<item name="org.apache.ivy.plugins.latest.LatestLexicographicStrategy.LatestLexicographicStrategy()" />
+<item name="org.apache.ivy.osgi.core.OsgiLatestStrategy.OsgiLatestStrategy()" />
+<item name="org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)" />
+<item name="org.apache.ivy.plugins.latest.ComparatorLatestStrategy.ComparatorLatestStrategy(Comparator)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

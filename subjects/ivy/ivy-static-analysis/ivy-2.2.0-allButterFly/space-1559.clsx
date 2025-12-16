@@ -1,0 +1,81 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.doesExclude(ModuleDescriptor, String, String[], DependencyDescriptor, Artifact, Stack)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.isDependencyModuleExcluded(DependencyDescriptor, String, ModuleRevisionId, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.newIvyArtifact(ModuleRevisionId, Date)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isRoot()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ModuleRevisionId, Date, String, String, String, URL, Map)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.module.descriptor.DefaultArtifact.DefaultArtifact(ArtifactRevisionId, Date, URL, boolean)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.newInstance(ModuleRevisionId, String, String, String, Map)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.ArtifactRevisionId(ArtifactId, ModuleRevisionId, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.ArtifactId(ModuleId, String, String, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getExt()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setStandardAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getType()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getName()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact, Stack)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)" />
+</group>
+</group>
+</group>
+</cluster>

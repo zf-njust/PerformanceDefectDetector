@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.xobject.XObjFormValidator.XObjFormValidator(PreflightContext, PDFormXObject)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.reflect.GraphicObjectPageValidationProcess.validate(PreflightContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.xobject.XObjPostscriptValidator.XObjPostscriptValidator(PreflightContext, PDPostScriptXObject)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.isExpectedType(Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.peek()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.isEmpty()" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjectValidator.validate()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjImageValidator.XObjImageValidator(PreflightContext, PDImageXObject)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.xobject.AbstractXObjValidator.AbstractXObjValidator(PreflightContext, COSStream)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+</group>
+</group>
+</cluster>

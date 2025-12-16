@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaNormalization.fingerprint64(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectData.getNameForNonStringMapRecord(Type, Type, Schema, Schema)" />
+<item name="org.apache.avro.SchemaNormalization.parsingFingerprint64(Schema)" />
+<item name="org.apache.avro.SchemaNormalization.fingerprint(String, byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.SchemaNormalization.toParsingForm(Schema)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaNormalization.build(Map, Schema, Appendable)" />
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

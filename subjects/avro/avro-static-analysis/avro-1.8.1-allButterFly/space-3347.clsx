@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.writeFully(ByteBuffer...)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.writeBuffers(List)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(Status, ByteBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.wrap(byte[], int, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

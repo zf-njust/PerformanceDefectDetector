@@ -1,0 +1,70 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setHideMenubar(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.extractFromTiff(RandomAccess, OutputStream, COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setHideToolbar(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText.setOpen(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setFitWindow(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setCenterWindow(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.setTextKnockoutFlag(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setVolatile(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setDisplayDocTitle(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.setAutomaticStrokeAdjustment(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuildDataDict.setPreRelease(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.setStrokingOverprintControl(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setHidden(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingResources.setAntiAlias(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuildDataDict.setTrustedMode(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.setHideWindowUI(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.setAlphaSourceFlag(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState.setNonStrokingOverprintControl(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.readshort(char, RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isHidden()" />
+<item name="org.apache.pdfbox.io.SequentialRead.read()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getDictionary()" />
+<item name="org.apache.pdfbox.io.SequentialRead.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt.readlong(char, RandomAccess)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.potentiallyNotifyChanged(Object, Object)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isEntryChanged(Object, Object)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.userPropertyChanged(PDUserProperty)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+</group>
+</cluster>

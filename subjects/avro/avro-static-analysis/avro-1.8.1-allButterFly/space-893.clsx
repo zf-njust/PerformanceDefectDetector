@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.MapDefault.MapDefault(FieldBuilder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.map()" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.map()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.wrap(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.completion(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.create(Completion, NameContext)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)" />
+<item name="org.apache.avro.SchemaBuilder.CompletionWrapper.wrap(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.MapBuilder(Completion, NameContext)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+</group>
+</group>
+</group>
+</cluster>

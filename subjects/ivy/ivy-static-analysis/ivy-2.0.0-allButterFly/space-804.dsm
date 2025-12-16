@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+1 0 0 0 
+0 1 0 1 
+0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.plugins.circular.CircularDependencyHelper.toMrids(ModuleDescriptor[])
+org.apache.ivy.plugins.circular.CircularDependencyHelper.formatMessage(ModuleDescriptor[])
+org.apache.ivy.plugins.circular.CircularDependencyHelper.formatMessage(ModuleRevisionId[])

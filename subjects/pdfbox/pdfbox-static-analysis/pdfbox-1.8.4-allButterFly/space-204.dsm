@@ -1,0 +1,20 @@
+[Call]
+9
+0 1 0 1 1 0 1 0 0 
+0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildLookupTree()
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUpLong(short[], NonLeafLookupTreeNode)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.RunLengthTreeNode.RunLengthTreeNode(int, int)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpTerminating(short[], NonLeafLookupTreeNode, boolean)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.addLookupTreeNode(short, NonLeafLookupTreeNode, LookupTreeNode)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.set(int, LookupTreeNode)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.buildUpMakeUp(short[], NonLeafLookupTreeNode)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.MakeUpTreeNode.MakeUpTreeNode(int)
+org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream.NonLeafLookupTreeNode.get(int)

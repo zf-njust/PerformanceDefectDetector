@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.FileReader.sync(long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroRecordReader.AvroRecordReader(FileReader, FileSplit)" />
+<item name="org.apache.avro.mapred.AvroAsTextRecordReader.AvroAsTextRecordReader(FileReader, FileSplit)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.FileReader.tell()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

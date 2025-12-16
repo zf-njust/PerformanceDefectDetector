@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()
+org.apache.pdfbox.pdmodel.common.COSArrayList.add(int, E)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSArray.add(int, COSBase)
+org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()
+org.apache.pdfbox.cos.COSString.COSString(String)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()

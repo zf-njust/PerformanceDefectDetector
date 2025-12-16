@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 1 1 
+0 0 0 0 0 1 0 0 0 
+1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.generic.GenericData.createEnum(String, Schema)
+org.apache.avro.thrift.ThriftDatumReader.createEnum(String, Schema)
+org.apache.avro.Schema.getNamespace()
+org.apache.avro.specific.SpecificData.getClassName(Schema)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.generic.GenericData.EnumSymbol.EnumSymbol(Schema, String)
+org.apache.avro.generic.GenericDatumReader.createEnum(String, Schema)
+org.apache.avro.util.ClassUtils.forName(String)

@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.FileUtil.resolveFile(File, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.resolveFile(String)" />
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.getFile(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

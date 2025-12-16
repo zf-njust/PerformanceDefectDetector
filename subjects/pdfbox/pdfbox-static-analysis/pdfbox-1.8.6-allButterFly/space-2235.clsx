@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.annotation.AnnotationValidator.AnnotationValidator(PreflightContext, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.annotation.SquareCircleAnnotationValidator.SquareCircleAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.TrapNetAnnotationValidator.TrapNetAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.MarkupAnnotationValidator.MarkupAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.InkAnnotationValdiator.InkAnnotationValdiator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.TextAnnotationValidator.TextAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.LineAnnotationValidator.LineAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.LinkAnnotationValidator.LinkAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.WidgetAnnotationValidator.WidgetAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.PrintMarkAnnotationValidator.PrintMarkAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.PopupAnnotationValidator.PopupAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.RubberStampAnnotationValidator.RubberStampAnnotationValidator(PreflightContext, COSDictionary)" />
+<item name="org.apache.pdfbox.preflight.annotation.FreeTextAnnotationValidator.FreeTextAnnotationValidator(PreflightContext, COSDictionary)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationSquareCircle.PDAnnotationSquareCircle(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.PDAnnotationLink(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup.PDAnnotationPopup(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget.PDAnnotationWidget(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown.PDAnnotationUnknown(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.PDAnnotationLine(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText.PDAnnotationText(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp.PDAnnotationRubberStamp(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationTextMarkup.PDAnnotationTextMarkup(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup.PDAnnotationMarkup(COSDictionary)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+</group>
+</group>
+</cluster>

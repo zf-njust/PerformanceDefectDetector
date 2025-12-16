@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyAntVariableContainer.setVariable(String, String, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvyVariableContainerImpl.substitute(String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainerImpl.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

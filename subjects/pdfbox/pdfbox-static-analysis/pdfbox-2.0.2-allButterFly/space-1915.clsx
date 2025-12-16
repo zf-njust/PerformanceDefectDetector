@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.lineTo(float, float)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.graphics.LineTo.process(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.moveTo(float, float)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.getCurrentPoint()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.transformedPoint(float, float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

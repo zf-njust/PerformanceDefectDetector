@@ -1,0 +1,153 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.SpecificErrorBuilderBase(SpecificErrorBuilderBase)" />
+<item name="org.apache.avro.specific.SpecificData.createFixed(Object, Schema)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Class)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.SpecificRequestor(Class, Transceiver)" />
+<item name="org.apache.avro.specific.SpecificRecordBuilderBase.SpecificRecordBuilderBase(T)" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.SpecificErrorBuilderBase(T)" />
+<item name="org.apache.avro.specific.SpecificRecordBuilderBase.SpecificRecordBuilderBase(Schema)" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.SpecificErrorBuilderBase(Schema)" />
+<item name="org.apache.avro.specific.SpecificRecordBase.compareTo(SpecificRecord)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+<item name="org.apache.avro.specific.SpecificRecordBase.hashCode()" />
+<item name="org.apache.avro.ipc.specific.SpecificResponder.SpecificResponder(Class, Object)" />
+<item name="org.apache.avro.ipc.specific.SpecificResponder.SpecificResponder(Protocol, Object)" />
+<item name="org.apache.avro.specific.SpecificExceptionBase.equals(Object)" />
+<item name="org.apache.avro.specific.SpecificRecordBase.toString()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Class)" />
+<item name="org.apache.avro.specific.SpecificFixed.SpecificFixed()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter()" />
+<item name="org.apache.avro.specific.SpecificExceptionBase.hashCode()" />
+<item name="org.apache.avro.specific.SpecificRecordBuilderBase.SpecificRecordBuilderBase(SpecificRecordBuilderBase)" />
+<item name="org.apache.avro.specific.SpecificData.newRecord(Object, Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getClient(Class, Transceiver)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.specific.SpecificData.getProtocol(Class)" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema)" />
+<item name="org.apache.avro.AvroRemoteException.getValue()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.generic.GenericData.createFixed(Object, Schema)" />
+<item name="org.apache.avro.data.RecordBuilderBase.RecordBuilderBase(RecordBuilderBase, GenericData)" />
+<item name="org.apache.avro.specific.SpecificData.getSchema(java.lang.reflect.Type)" />
+<item name="org.apache.avro.generic.GenericData.hashCode(Object, Schema)" />
+<item name="org.apache.avro.data.RecordBuilderBase.RecordBuilderBase(Schema, GenericData)" />
+<item name="org.apache.avro.specific.SpecificExceptionBase.getSchema()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.setCause(Throwable)" />
+<item name="org.apache.avro.generic.GenericData.newRecord(Object, Schema)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.SpecificRequestor(Protocol, Transceiver)" />
+<item name="org.apache.avro.generic.GenericData.toString(Object)" />
+<item name="org.apache.avro.generic.GenericData.Fixed.setSchema(Schema)" />
+<item name="org.apache.avro.specific.SpecificData.newInstance(Class, Schema)" />
+<item name="org.apache.avro.specific.SpecificErrorBuilderBase.setValue(Object)" />
+<item name="org.apache.avro.specific.SpecificRecordBase.getSchema()" />
+<item name="org.apache.avro.ipc.specific.SpecificResponder.SpecificResponder(Protocol, Object, SpecificData)" />
+<item name="org.apache.avro.ipc.specific.SpecificRequestor.getClient(Class, Transceiver, SpecificData)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.ipc.Requestor.Requestor(Protocol, Transceiver)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.Protocol.toString()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+<item name="org.apache.avro.Protocol.getNamespace()" />
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.Schema.getProp(String)" />
+<item name="org.apache.avro.ipc.generic.GenericResponder.GenericResponder(Protocol)" />
+<item name="org.apache.avro.generic.GenericData.hashCodeAdd(int, Object, Schema)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema, boolean)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.specific.SpecificData.createSchema(java.lang.reflect.Type, Map)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Protocol.toString(boolean)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.util.Utf8.compareTo(Utf8)" />
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.ipc.Responder.Responder(Protocol)" />
+<item name="org.apache.avro.Schema.createMap(Schema)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.UnresolvedUnionException.UnresolvedUnionException(Schema, Object)" />
+<item name="org.apache.avro.generic.GenericData.writeEscapedString(String, StringBuilder)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.toString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.generic.GenericData.getEnumSchema(Object)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.io.BinaryData.compareBytes(byte[], int, int, byte[], int, int)" />
+<item name="org.apache.avro.Protocol.getMD5()" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Protocol.toJson(JsonGenerator)" />
+<item name="org.apache.avro.generic.GenericData.getFixedSchema(Object)" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.Schema.Names.space(String)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.Names.contains(Schema)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.Schema.Props.write(JsonGenerator)" />
+<item name="org.apache.avro.Schema.Names.get(Object)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.avro.Schema.validateName(String)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

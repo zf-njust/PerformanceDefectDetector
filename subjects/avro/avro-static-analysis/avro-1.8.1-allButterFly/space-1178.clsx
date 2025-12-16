@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.checkTokenName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.checkNamedOutputName(JobContext, String, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.getNamedOutputsList(JobContext)" />
+<item name="org.apache.avro.mapreduce.AvroMultipleOutputs.checkBaseOutputPath(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

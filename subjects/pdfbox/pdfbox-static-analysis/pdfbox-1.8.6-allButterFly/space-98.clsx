@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.SetTextRise.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.text.PDTextState.setRise(float)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+</group>
+</group>
+</group>
+</cluster>

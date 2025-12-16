@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.SpecificResponder.readRequest(Schema, Decoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.specific.SpecificResponder.getDatumReader(Schema)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+</group>
+</group>
+</group>
+</cluster>

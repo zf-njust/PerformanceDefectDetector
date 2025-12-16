@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 1 
+1 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+org.apache.avro.SchemaBuilder.FixedBuilder.create(Completion, NameContext, String)
+org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.fixed(String)
+org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)
+org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.completion(Completion)
+org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)
+org.apache.avro.SchemaBuilder.NamedBuilder.NamedBuilder(NameContext, String)
+org.apache.avro.SchemaBuilder.checkRequired(Object, String)
+org.apache.avro.SchemaBuilder.NamespacedBuilder.NamespacedBuilder(Completion, NameContext, String)
+org.apache.avro.SchemaBuilder.FixedDefault.FixedDefault(FieldBuilder)
+org.apache.avro.SchemaBuilder.FixedBuilder.FixedBuilder(Completion, NameContext, String)

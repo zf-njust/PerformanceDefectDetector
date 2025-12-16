@@ -1,0 +1,67 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Conversion.getConvertedType()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.addLogicalTypeConversion(Conversion)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.javaUnbox(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.newArray(Object, int, Schema)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.javaType(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.getClass(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.convert(Schema, LogicalType, Conversion, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Conversion.toBytes(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.getStringType(JsonNode)" />
+<item name="org.apache.avro.generic.GenericData.getConversionFor(LogicalType)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.JsonProperties.getJsonProp(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Conversion.toDouble(T, Schema, LogicalType)" />
+<item name="org.apache.avro.specific.SpecificData.newInstance(Class, Schema)" />
+<item name="org.apache.avro.Conversion.toFixed(T, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)" />
+<item name="org.apache.avro.Conversion.toBoolean(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getLogicalType()" />
+<item name="org.apache.avro.Conversion.toMap(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toArray(T, Schema, LogicalType)" />
+<item name="org.apache.avro.generic.GenericDatumReader.getData()" />
+<item name="org.apache.avro.Conversion.toInt(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toEnumSymbol(T, Schema, LogicalType)" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+<item name="org.apache.avro.JsonProperties.getProp(String)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Conversion.toLong(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toFloat(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.toRecord(T, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversion.getLogicalTypeName()" />
+<item name="org.apache.avro.Conversion.toCharSequence(T, Schema, LogicalType)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.util.ClassUtils.forName(String)" />
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, boolean)" />
+<item name="org.apache.avro.generic.GenericData.getClassLoader()" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.specific.SpecificData.getWrapper(Schema)" />
+<item name="org.apache.avro.LogicalType.getName()" />
+<item name="org.apache.avro.util.ClassUtils.forName(ClassLoader, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.util.ClassUtils.forName(String, ClassLoader)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.mangle(String, Set, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

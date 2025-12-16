@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.avro.thrift.test.Foo.add_args.clear()
+org.apache.avro.thrift.test.Foo.add_args.setNum2(int)
+org.apache.avro.thrift.test.Foo.add_args.add_argsStandardScheme.read(org.apache.thrift.protocol.TProtocol, add_args)
+org.apache.avro.thrift.test.Foo.add_args.add_argsTupleScheme.read(org.apache.thrift.protocol.TProtocol, add_args)
+org.apache.avro.thrift.test.Foo.add_args.add_args(int, int)
+org.apache.avro.thrift.test.Foo.add_args.setNum2IsSet(boolean)
+org.apache.avro.thrift.test.Foo.add_args.validate()
+org.apache.avro.thrift.test.Foo.add_args.setNum1IsSet(boolean)
+org.apache.avro.thrift.test.Foo.add_args.add_args()

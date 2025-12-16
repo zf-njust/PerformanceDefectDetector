@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherOutputFormat.getRecordWriter(FileSystem, JobConf, String, Progressable)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.mapred.AvroJob.getOutputSchema(Configuration)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

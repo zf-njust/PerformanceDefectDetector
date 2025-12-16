@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.Server.join()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.DatagramServer.main(String[])" />
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.join()" />
+<item name="org.apache.avro.ipc.SocketServer.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SocketServer.SocketServer(Responder, SocketAddress)" />
+<item name="org.apache.avro.ipc.DatagramServer.DatagramServer(Responder, SocketAddress)" />
+<item name="org.apache.avro.Protocol.parse(String)" />
+<item name="org.apache.avro.ipc.Server.start()" />
+<item name="org.apache.avro.ipc.SocketServer.getPort()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.DatagramTransceiver.DatagramTransceiver(DatagramChannel)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

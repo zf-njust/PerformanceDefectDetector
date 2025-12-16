@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkBytesAtOffset(byte[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkXRefOffset(long)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.validateStreamLength(long)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.checkObjectId(String, long)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForObjects()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForXRefs()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.calculateXRefFixedOffset(long)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.readPattern(char[])" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.readFully(int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.seek(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber()" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.createObjectString(long, long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.setPdfSource(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readGenerationNumber()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.isEOF()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.getOffset()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.bfSearchForXRef(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readInt()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+</group>
+</group>
+</group>
+</cluster>

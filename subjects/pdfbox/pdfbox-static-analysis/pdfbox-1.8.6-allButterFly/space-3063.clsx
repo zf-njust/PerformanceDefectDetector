@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readNumber()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parseNumber(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.consumeWhitespace()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readByte()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.SequentialRead.read()" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+</group>
+</cluster>

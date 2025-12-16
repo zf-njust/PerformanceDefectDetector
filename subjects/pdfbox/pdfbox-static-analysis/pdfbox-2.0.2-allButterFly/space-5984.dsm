@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.PreflightConfiguration.removePageProcess(String)
+org.apache.pdfbox.preflight.PreflightContext.setDocument(PreflightDocument)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)
+org.apache.pdfbox.preflight.PreflightContext.PreflightContext(DataSource)
+org.apache.pdfbox.preflight.PreflightConfiguration.removeProcess(String)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead, AccessPermission)
+org.apache.pdfbox.preflight.action.pdfa1b.AbstractTestAction.createContext()
+org.apache.pdfbox.preflight.parser.PreflightParser.createContext()
+org.apache.pdfbox.preflight.PreflightDocument.initConfiguration(Format)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, RandomAccessRead)
+org.apache.pdfbox.preflight.PreflightConfiguration.replacePageProcess(String, Class)
+org.apache.pdfbox.preflight.PreflightConfiguration.replaceProcess(String, Class)
+org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format, PreflightConfiguration)
+org.apache.pdfbox.preflight.PreflightConfiguration.createPdfA1BConfiguration()
+org.apache.pdfbox.preflight.PreflightDocument.PreflightDocument(COSDocument, Format)
+org.apache.pdfbox.preflight.PreflightDocument.setContext(PreflightContext)
+org.apache.pdfbox.preflight.PreflightContext.setXrefTrailerResolver(XrefTrailerResolver)
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

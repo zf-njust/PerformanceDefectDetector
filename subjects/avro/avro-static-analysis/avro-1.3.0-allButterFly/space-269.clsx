@@ -1,0 +1,58 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonDecoder.error(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonDecoder.skipBytes()" />
+<item name="org.apache.avro.io.JsonDecoder.readEnum()" />
+<item name="org.apache.avro.io.JsonDecoder.doSkipFixed(int)" />
+<item name="org.apache.avro.io.JsonDecoder.readDouble()" />
+<item name="org.apache.avro.io.JsonDecoder.readString(Utf8)" />
+<item name="org.apache.avro.io.JsonDecoder.skipArray()" />
+<item name="org.apache.avro.io.JsonDecoder.readBytes(ByteBuffer)" />
+<item name="org.apache.avro.io.JsonDecoder.readIndex()" />
+<item name="org.apache.avro.io.JsonDecoder.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.JsonDecoder.readBoolean()" />
+<item name="org.apache.avro.io.JsonDecoder.readLong()" />
+<item name="org.apache.avro.io.JsonDecoder.readInt()" />
+<item name="org.apache.avro.io.JsonDecoder.skipMap()" />
+<item name="org.apache.avro.io.JsonDecoder.readFloat()" />
+<item name="org.apache.avro.io.JsonDecoder.readArrayStart()" />
+<item name="org.apache.avro.io.JsonDecoder.skipString()" />
+<item name="org.apache.avro.io.JsonDecoder.readNull()" />
+<item name="org.apache.avro.io.JsonDecoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.JsonDecoder.readMapStart()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.JsonDecoder.advance(Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.io.JsonDecoder.readByteArray()" />
+<item name="org.apache.avro.io.JsonDecoder.doArrayNext()" />
+<item name="org.apache.avro.io.JsonDecoder.doMapNext()" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.EnumLabelsAction.findLabel(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.getSymbol(int)" />
+<item name="org.apache.avro.io.parsing.Parser.topSymbol()" />
+<item name="org.apache.avro.io.JsonDecoder.checkFixed(int)" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.findLabel(String)" />
+<item name="org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.processTrailingImplicitActions()" />
+<item name="org.apache.avro.io.parsing.Parser.depth()" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

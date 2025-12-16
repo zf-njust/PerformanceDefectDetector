@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.report.ResolveReport.setProblemMessages(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.ResolveEngine.outputReport(ResolveReport, ResolutionCacheManager, ResolveOptions)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.LogOptions.getLog()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.getProblems()" />
+<item name="org.apache.ivy.core.report.ResolveReport.getResolveTime()" />
+<item name="org.apache.ivy.core.report.ResolveReport.output(ReportOutputter[], ResolutionCacheManager, ResolveOptions)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveEngineSettings.getReportOutputters()" />
+<item name="org.apache.ivy.core.report.ResolveReport.getDownloadTime()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.getProblems()" />
+<item name="org.apache.ivy.plugins.report.ReportOutputter.output(ResolveReport, ResolutionCacheManager, ResolveOptions)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

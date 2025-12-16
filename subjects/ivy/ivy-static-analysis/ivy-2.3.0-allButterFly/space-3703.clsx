@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.OsgiLatestStrategy.MridComparator.compare(ModuleRevisionId, ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.core.OsgiLatestStrategy.MridComparator.compare(Object, Object)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.osgi.util.Version.compareTo(Version)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.compareUnqualified(Version)" />
+</group>
+</group>
+</group>
+</cluster>

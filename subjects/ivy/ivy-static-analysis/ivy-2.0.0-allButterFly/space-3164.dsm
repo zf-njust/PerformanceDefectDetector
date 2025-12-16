@@ -1,0 +1,34 @@
+[Call]
+16
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.addError(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.error(SAXParseException)
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.warning(SAXParseException)
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getLocationString(SAXParseException)
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getResource()
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.fatalError(SAXParseException)
+org.apache.ivy.core.IvyContext.peekIvy()

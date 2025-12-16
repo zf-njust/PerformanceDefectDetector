@@ -1,0 +1,69 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.GSave.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsStack()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.clone()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.clone()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.clone()" />
+<item name="org.apache.pdfbox.util.Matrix.copy()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentClippingPath(Shape)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setCurrentTransformationMatrix(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineDashPattern(PDLineDashPattern)" />
+<item name="org.apache.pdfbox.pdmodel.text.PDTextState.clone()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setTextState(PDTextState)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.setPhaseStart(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.setDashPattern(List)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.PDColorState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setPattern(PDPatternResources)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getDashPattern()" />
+<item name="org.apache.pdfbox.cos.COSArray.addAll(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getPattern()" />
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getPhaseStart()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.converterToCOSArray(List)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setColorSpaceValue(float[])" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.convertIntegerCOSArrayToList(COSArray)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.cos.COSArray.set(int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.setFloatArray(float[])" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.util.Matrix.reset()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getSecondCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.DualCOSObjectable.getFirstCOSObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+</group>
+</cluster>

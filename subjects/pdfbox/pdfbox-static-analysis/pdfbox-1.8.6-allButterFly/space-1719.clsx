@@ -1,0 +1,158 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.ContentStreamWrapper(PreflightContext, PDPage)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess.validateContent(PreflightContext, PDPage)" />
+<item name="org.apache.pdfbox.preflight.process.reflect.TilingPatternValidationProcess.parsePatternContent(PreflightContext, PDPage, PDTilingPatternResources)" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjFormValidator.validateXObjectContent()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.validPageContentStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.validXObjContentStream(PDXObjectForm)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.validPatternContentStream(COSStream)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getClosestPathElement(Class)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getValidationPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.PDPage.findResources()" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamException.getErrorCode()" />
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processStream(PDPage, PDResources, COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getContents()" />
+<item name="org.apache.pdfbox.preflight.exception.ValidationException.ValidationException(String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.getResources()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getClosestTypePosition(Class)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDPage, PDResources, COSStream)" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamWrapper.resetEnginContext()" />
+<item name="org.apache.pdfbox.preflight.PreflightPath.getPathElement(int, Class)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getParent()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsStack()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.setTextLineMatrix(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findResources()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.PDGraphicsState(PDRectangle)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.createFromCOS(COSBase)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.setGraphicsState(PDGraphicsState)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.setTextMatrix(Matrix)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findCropBox()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.PDGraphicsState()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processSubStream(COSStream)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.createDimension()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.PDPageNode(COSDictionary)" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.common.COSStreamArray.COSStreamArray(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.getTokenIterator()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.PDStream(COSStream)" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(COSStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findMediaBox()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.close()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getResources()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getParent()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCropBox()" />
+<item name="org.apache.pdfbox.util.Matrix.getTranslatingInstance(float, float)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.findParentCropBox(PDPageNode)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftY()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getLowerLeftX()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getScratchFile()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.getMediaBox()" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getWidth()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.cos.COSStream.getUnfilteredStream()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSStream.COSStream(COSDictionary, RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getCropBox()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.PDFStreamParser(InputStream, RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.findMediaBox()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getHeight()" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.PDRectangle(COSArray)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getPosition()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileInputStream.RandomAccessFileInputStream(RandomAccess, long, long)" />
+<item name="org.apache.pdfbox.util.Matrix.reset()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(InputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.getMediaBox()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSStream.clone(RandomAccess)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightX()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getUpperRightY()" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode()" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLengthWritten()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.clone()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.doDecode(COSName, int)" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSBase.getFilterManager()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.filter.FilterManager.getFilter(COSName)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.RandomAccessFileOutputStream(RandomAccess)" />
+<item name="org.apache.pdfbox.io.RandomAccessFileOutputStream.getLength()" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.filter.FilterManager.FilterManager()" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecodeFilter.CCITTFaxDecodeFilter()" />
+<item name="org.apache.pdfbox.filter.FilterManager.addFilter(COSName, Filter)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.RunLengthDecodeFilter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.content.ContentStreamEngine.ContentStreamEngine(PreflightContext, PDPage)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine()" />
+<item name="org.apache.pdfbox.preflight.content.ContentStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.getDocument()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+</group>
+</group>
+</group>
+</cluster>

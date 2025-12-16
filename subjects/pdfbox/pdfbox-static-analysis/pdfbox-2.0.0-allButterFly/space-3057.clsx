@@ -1,0 +1,54 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.potentiallyNotifyChanged(Object, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setValue(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setHidden(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setFormattedValue(String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.setName(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isHidden()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getValue()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getName()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setString(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.getFormattedValue()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSBoolean.getBoolean(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getString(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.getBytes(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.containsChar(char)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty.isEntryChanged(Object, Object)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.userPropertyChanged(PDUserProperty)" />
+</group>
+</group>
+</group>
+</cluster>

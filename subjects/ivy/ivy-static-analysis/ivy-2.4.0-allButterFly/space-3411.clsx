@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.setName(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setName(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.setName(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

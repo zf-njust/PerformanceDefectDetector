@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.open(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketChannel, SaslServer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslSocketTransceiver(SocketAddress, SaslClient)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.SaslParticipant(SaslServer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.SaslParticipant(SaslClient)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.getRemoteName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String, ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readStatus()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.toString(ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(Status, String)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getNegotiatedProperty(String)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.readFrame()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.getMechanismName()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.evaluate(byte[])" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.SaslParticipant.isComplete()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.read(ByteBuffer)" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.Status.values()" />
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.write(ByteBuffer)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.SaslSocketTransceiver.writeFully(ByteBuffer...)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.fixed(String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.create(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.BaseFieldTypeBuilder.wrap(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.FixedDefault.FixedDefault(FieldBuilder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.FixedBuilder(Completion, NameContext, String)" />
+<item name="org.apache.avro.SchemaBuilder.CompletionWrapper.wrap(Completion)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.NamespacedBuilder(Completion, NameContext, String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.NamedBuilder(NameContext, String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.SchemaBuilder.checkRequired(Object, String)" />
+</group>
+</group>
+</group>
+</cluster>

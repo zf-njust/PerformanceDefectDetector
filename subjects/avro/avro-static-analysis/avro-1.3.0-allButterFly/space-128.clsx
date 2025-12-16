@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Decoder.skipFixed(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.skip(Schema, Decoder)" />
+<item name="org.apache.avro.io.ValidatingDecoder.skipFixed()" />
+<item name="org.apache.avro.io.ValidatingDecoder.skipFixed(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Decoder.readFloat()" />
+<item name="org.apache.avro.io.Decoder.skipString()" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.parsing.Parser.popSymbol()" />
+<item name="org.apache.avro.io.Decoder.skipBytes()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.io.Decoder.readIndex()" />
+<item name="org.apache.avro.io.Decoder.readLong()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.io.Decoder.skipMap()" />
+<item name="org.apache.avro.io.Decoder.readDouble()" />
+<item name="org.apache.avro.io.ValidatingDecoder.checkFixed(int)" />
+<item name="org.apache.avro.io.Decoder.readBoolean()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.Decoder.readInt()" />
+<item name="org.apache.avro.io.Decoder.skipArray()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

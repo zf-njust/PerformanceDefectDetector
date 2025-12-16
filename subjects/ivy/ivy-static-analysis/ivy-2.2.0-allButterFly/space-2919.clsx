@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.parseLong(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getOptionalLongAttribute(Attributes, String, Long)" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getRequiredLongAttribute(Attributes, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getRequiredAttribute(Attributes, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getLocator()" />
+</group>
+</group>
+</group>
+</cluster>

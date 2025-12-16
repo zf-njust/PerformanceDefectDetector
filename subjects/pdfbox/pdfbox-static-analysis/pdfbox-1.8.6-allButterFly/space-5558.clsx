@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isClosing()" />
+<item name="org.apache.pdfbox.pdfparser.PDFStreamParser.readOperator()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.PushBackInputStream.peek()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.read()" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.consumeWhitespace()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(char)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.SequentialRead.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readByte()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

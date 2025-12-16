@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.process(Operator, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(Operator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.unsupportedOperator(Operator, List)" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.operatorException(Operator, List, IOException)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

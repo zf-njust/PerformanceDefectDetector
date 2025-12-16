@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1IsSet(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_argsTupleScheme.read(org.apache.thrift.protocol.TProtocol, add_args)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum1(int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_args(int, int)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_argsStandardScheme.read(org.apache.thrift.protocol.TProtocol, add_args)" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.clear()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.add_args.validate()" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.add_args()" />
+<item name="org.apache.avro.thrift.test.Foo.add_args.setNum2IsSet(boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

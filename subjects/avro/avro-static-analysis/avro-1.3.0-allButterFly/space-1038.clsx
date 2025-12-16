@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Parser.reset()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ValidatingDecoder.init(InputStream)" />
+<item name="org.apache.avro.io.JsonDecoder.init(InputStream)" />
+<item name="org.apache.avro.io.ValidatingEncoder.init(OutputStream)" />
+<item name="org.apache.avro.io.JsonDecoder.init(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Decoder.init(InputStream)" />
+<item name="org.apache.avro.io.Encoder.init(OutputStream)" />
+<item name="org.apache.avro.io.ValidatingEncoder.flush()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

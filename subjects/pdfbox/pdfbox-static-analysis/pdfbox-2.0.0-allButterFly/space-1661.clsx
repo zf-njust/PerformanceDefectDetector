@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.addImage(Image)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.actionPerformed(ActionEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.isZoomMenu(String)" />
+<item name="org.apache.pdfbox.debugger.streampane.StreamImageView.zoomImage(BufferedImage, float, int)" />
+<item name="org.apache.pdfbox.debugger.ui.RotationMenu.isRotationMenu(String)" />
+<item name="org.apache.pdfbox.debugger.ui.RotationMenu.getRotationDegrees()" />
+<item name="org.apache.pdfbox.debugger.ui.ZoomMenu.getZoomScale()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.ui.ImageUtil.getRotatedImage(BufferedImage, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

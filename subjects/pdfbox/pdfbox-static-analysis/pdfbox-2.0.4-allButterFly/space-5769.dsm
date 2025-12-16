@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 1 0 0 
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.PDResources.PDResources()
+org.apache.pdfbox.pdmodel.PDResources.PDResources(COSDictionary, ResourceCache)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.PDPageTree.getInheritableAttribute(COSDictionary, COSName)
+org.apache.pdfbox.pdmodel.PDPage.getResources()
+org.apache.pdfbox.contentstream.PDContentStream.getResources()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.contentstream.PDFStreamEngine.pushResources(PDContentStream)

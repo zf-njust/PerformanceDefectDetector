@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.vfs.VfsRepository.VfsRepository()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.VfsResolver.VfsResolver()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.setRepository(Repository)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

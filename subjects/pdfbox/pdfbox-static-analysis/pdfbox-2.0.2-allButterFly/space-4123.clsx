@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.createView()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.HexEditor(HexModel)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.HexPane(HexModel)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.getScrollPane()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.UpperPane.UpperPane()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.AddressPane.AddressPane(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.addHexModelChangeListener(HexModelChangeListener)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.StatusPane()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.ASCIIPane.ASCIIPane(HexModel)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.addSelectionChangeListener(SelectionChangeListener)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.totalLine()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.addHexChangeListeners(HexChangeListener)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.createView()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.size()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfigurations()
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.core.module.descriptor.Configuration.Configuration(String)
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttribute(String)
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getArtifacts(String)
+org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.core.module.descriptor.ConfigurationGroup.getMembersConfigurationNames()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getArtifactsIncludingExtending(String)
+org.apache.ivy.core.module.descriptor.Configuration.getName()
+org.apache.ivy.core.module.descriptor.ConfigurationIntersection.getIntersectedConfigurationNames()
+org.apache.ivy.core.module.descriptor.ConfigurationGroup.ConfigurationGroup(String, Map)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getConfiguration(String)
+org.apache.ivy.core.module.descriptor.Configuration.getExtends()
+org.apache.ivy.core.module.descriptor.ConfigurationIntersection.ConfigurationIntersection(String, Map)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.core.module.descriptor.Configuration.findConfigurationExtending(String, Configuration[])

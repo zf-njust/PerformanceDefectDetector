@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSArray.toFloatArray()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.setLineDashPattern(PDLineDashPattern)
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.contentstream.PDFStreamEngine.setLineDashPattern(COSArray, int)
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.PDLineDashPattern(COSArray, int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.contentstream.operator.state.SetLineDashPattern.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)

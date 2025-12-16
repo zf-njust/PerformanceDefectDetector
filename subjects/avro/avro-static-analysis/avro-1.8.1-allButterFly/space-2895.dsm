@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 1 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+1 1 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 0 1 0 
+org.apache.avro.mapreduce.AvroJob.getOutputKeySchema(Configuration)
+org.apache.avro.mapreduce.AvroJob.getMapOutputKeySchema(Configuration)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter.initSchema(TaskAttemptContext)
+org.apache.avro.Schema.parse(String)
+org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)

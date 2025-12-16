@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectDatumWriter.writeBytes(Object, Encoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Encoder.writeBytes(byte[])" />
+<item name="org.apache.avro.generic.GenericDatumWriter.writeBytes(Object, Encoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Encoder.writeBytes(byte[], int, int)" />
+<item name="org.apache.avro.io.Encoder.writeBytes(ByteBuffer)" />
+</group>
+</group>
+</group>
+</cluster>

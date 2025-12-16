@@ -1,0 +1,27 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.SingletonTestingTracePlugin.SingletonTestingTracePlugin(TracePluginConfiguration)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TracePlugin.TracePlugin(TracePluginConfiguration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.InMemorySpanStorage.InMemorySpanStorage()" />
+<item name="org.apache.avro.ipc.trace.FileSpanStorage.FileSpanStorage(boolean, TracePluginConfiguration)" />
+<item name="org.apache.avro.ipc.trace.SpanStorage.setMaxSpans(long)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(Responder, int)" />
+<item name="org.apache.avro.ipc.HttpServer.start()" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.initializeClientServer()" />
+<item name="org.apache.avro.ipc.trace.TracePlugin.TraceResponder.TraceResponder(SpanStorage)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.trace.FileSpanStorage.DiskWriterThread.DiskWriterThread(BlockingQueue, TreeMap, boolean, int)" />
+<item name="org.apache.avro.ipc.ResponderServlet.ResponderServlet(Responder)" />
+<item name="org.apache.avro.ipc.HttpServer.HttpServer(ResponderServlet, String, int)" />
+<item name="org.apache.avro.ipc.trace.TraceClientServlet.TraceClientServlet()" />
+</group>
+</group>
+</group>
+</cluster>

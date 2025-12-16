@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.Schema.getName()
+org.apache.avro.mapred.Pair.Pair(Schema)
+org.apache.avro.mapred.SequenceFileReader.prepare()
+org.apache.avro.mapred.Pair.value(V)
+org.apache.avro.mapred.SequenceFileReader.next()
+org.apache.avro.mapred.SequenceFileReader.hasNext()
+org.apache.avro.mapred.Pair.checkIsPairSchema(Schema)
+org.apache.avro.Schema.getFullName()
+org.apache.avro.mapred.Pair.key(K)
+org.apache.avro.mapred.SequenceFileReader.next(Pair)
+org.apache.avro.mapred.SequenceFileReader.Converter.convert(Writable)

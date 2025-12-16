@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 
+1 1 0 0 0 1 0 0 1 0 1 1 0 0 0 0 1 
+1 1 0 0 0 1 0 0 1 0 1 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 0 1 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.checkArrayTypesClass(List, Class)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.contentstream.operator.graphics.ClosePath.process(Operator, List)
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.lineTo(float, float)
+org.apache.pdfbox.contentstream.PDFStreamEngine.transformedPoint(float, float)
+org.apache.pdfbox.contentstream.operator.graphics.CurveToReplicateInitialPoint.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.graphics.CurveTo.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.moveTo(float, float)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.getCurrentPoint()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.curveTo(float, float, float, float, float, float)
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.closePath()
+org.apache.pdfbox.contentstream.operator.graphics.LineTo.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)

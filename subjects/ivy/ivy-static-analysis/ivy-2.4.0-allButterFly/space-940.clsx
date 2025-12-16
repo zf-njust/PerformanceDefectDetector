@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.Version.Version(int, int, int, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(String)" />
+<item name="org.apache.ivy.osgi.util.Version.withoutQualifier()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersion()" />
+<item name="org.apache.ivy.osgi.util.Version.withNudgedPatch()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseQualifier()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parse()" />
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumberSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.VersionRangeParser(String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumber()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseEnd()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.skipWhiteSpace()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersionSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.readNext()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseStart()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.unread()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

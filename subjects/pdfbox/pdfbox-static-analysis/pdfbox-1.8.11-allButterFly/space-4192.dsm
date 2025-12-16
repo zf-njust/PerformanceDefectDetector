@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 
+0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSDictionary()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)
+org.apache.pdfbox.cos.COSDictionary.getFloat(String)
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.getTextDecorationThickness()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.getNumber(String)
+org.apache.pdfbox.cos.COSObject.getObject()

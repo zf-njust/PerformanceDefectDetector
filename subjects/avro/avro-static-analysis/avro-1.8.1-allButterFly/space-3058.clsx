@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.fromHadoopString(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroOutputFormat.getCodecFactory(JobConf)" />
+<item name="org.apache.avro.mapreduce.AvroOutputFormatBase.getCompressionCodec(TaskAttemptContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.getAvroCodecName(String)" />
+<item name="org.apache.avro.file.CodecFactory.xzCodec(int)" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

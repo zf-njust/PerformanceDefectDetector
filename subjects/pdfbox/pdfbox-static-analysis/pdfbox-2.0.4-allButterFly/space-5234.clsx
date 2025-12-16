@@ -1,0 +1,43 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.setSecurityHandler(SecurityHandler)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.protect(ProtectionPolicy)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.setAllSecurityToBeRemoved(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory.newSecurityHandlerForPolicy(ProtectionPolicy)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getEncryption()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isAllSecurityToBeRemoved()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.PDEncryption()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.PDEncryption(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory.newSecurityHandler(Class, Class[], Object[])" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory.newSecurityHandlerForFilter(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getFilter()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

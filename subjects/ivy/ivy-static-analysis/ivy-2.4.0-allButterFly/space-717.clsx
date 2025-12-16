@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.HttpClientHandler.createCredentials(String, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.HttpClientHandler.IvyCredentialsProvider.getCredentials(AuthScheme, String, int, boolean)" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.getClient()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.url.AbstractURLHandler.getUserAgent()" />
+<item name="org.apache.ivy.util.url.CredentialsStore.getCredentials(String, String)" />
+<item name="org.apache.ivy.util.Credentials.getUserName()" />
+<item name="org.apache.ivy.util.Credentials.getPasswd()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxy()" />
+<item name="org.apache.ivy.util.url.HttpClientHandler.useProxyAuthentication()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Credentials.buildKey(String, String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.HostUtil.getLocalHostName()" />
+</group>
+</group>
+</group>
+</cluster>

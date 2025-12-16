@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+1 1 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 1 0 1 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.module.descriptor.InheritableItem.getSourceModule()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()
+org.apache.ivy.core.module.id.ModuleId.equals(Object)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getIndent()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.collateInheritedItems(ModuleDescriptor, InheritableItem[])
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritanceComment(String, Object)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.fillIndents(int)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ItemPrinter.print(ModuleDescriptor, Object, PrintWriter)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedItems(ModuleDescriptor, InheritableItem[], ItemPrinter, String, boolean)

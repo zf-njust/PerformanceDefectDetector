@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.tool.Main.main(String[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.Main.Main()" />
+<item name="org.apache.avro.tool.Main.run(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.tool.Tool.getName()" />
+<item name="org.apache.avro.tool.Main.printStream(InputStream)" />
+<item name="org.apache.avro.tool.Tool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.tool.Tool.getShortDescription()" />
+</group>
+</group>
+</group>
+</cluster>

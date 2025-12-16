@@ -1,0 +1,24 @@
+[Call]
+11
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.PDPageTree.PageIterator.next()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary, ResourceCache)
+org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)
+org.apache.pdfbox.cos.COSName.toString()
+org.apache.pdfbox.pdmodel.PDPageTree.sanitizeType(COSDictionary)
+org.apache.pdfbox.pdmodel.PDDocument.getResourceCache()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSName.equals(Object)

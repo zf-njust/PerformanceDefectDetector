@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.read()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessRead.isEOF()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.restorePosition()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+</group>
+</group>
+</cluster>

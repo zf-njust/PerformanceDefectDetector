@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 
+0 0 1 0 1 0 0 0 
+1 0 0 0 0 0 0 0 
+org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema)
+org.apache.avro.io.DatumWriter.write(D, Encoder)
+org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)
+org.apache.avro.specific.SpecificData.get()
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)
+org.apache.avro.specific.SpecificResponder.writeResponse(Schema, Object, Encoder)
+org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)
+org.apache.avro.specific.SpecificResponder.getDatumWriter(Schema)

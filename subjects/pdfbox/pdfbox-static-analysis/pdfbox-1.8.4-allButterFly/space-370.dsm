@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions.getFo()
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo.PDActionRemoteGoTo(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(String)
+org.apache.pdfbox.encoding.Encoding.getName(int)
+org.apache.pdfbox.encoding.Encoding.getCharacter(int)
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionURI.PDActionURI(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.action.type.PDAction.PDAction(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionJavaScript.PDActionJavaScript(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionLaunch.PDActionLaunch(COSDictionary)
+org.apache.pdfbox.encoding.PdfDocEncoding.PdfDocEncoding()
+org.apache.pdfbox.pdmodel.interactive.action.type.PDActionGoTo.PDActionGoTo(COSDictionary)
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.encoding.Encoding.getCharacter(String)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.pdmodel.interactive.action.PDActionFactory.createAction(COSDictionary)

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceTiming.getTotalTime()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceTiming.compareTo(TraceTiming)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.getTimingAverage(Collection)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMinTime(List)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getMaxTime(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.Util.printableTime(long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

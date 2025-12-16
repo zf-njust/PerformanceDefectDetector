@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.specific.ExternalizableOutput.ExternalizableOutput(ObjectOutput)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.specific.SpecificData.getEncoder(ObjectOutput)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)" />
+<item name="org.apache.avro.io.EncoderFactory.get()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)" />
+<item name="org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 1 0 1 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.CategoryHandler.CategoryHandler()
+org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.normalizeSiteUri(URI, URI)
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)
+org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.FeatureHandler.FeatureHandler()
+org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.SiteHandler.handleAttributes(Attributes)
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.getUri()
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.setAssociateSitesURL(String)
+org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.setPack200(boolean)
+org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.SiteHandler.SiteHandler()
+org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)
+org.apache.ivy.osgi.updatesite.UpdateSiteLoader.loadSite(URI)
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.setDigestUri(URI)
+org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)
+org.apache.ivy.osgi.updatesite.xml.EclipseUpdateSiteParser.parse(InputStream)
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.setUri(URI)
+org.apache.ivy.osgi.util.DelegetingHandler.getName()
+org.apache.ivy.osgi.updatesite.xml.UpdateSite.setMirrorsURL(String)

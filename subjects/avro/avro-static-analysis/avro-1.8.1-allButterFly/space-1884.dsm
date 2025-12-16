@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 
+org.apache.avro.mapreduce.AvroRecordReaderBase.AvroRecordReaderBase(Schema)
+org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)
+org.apache.avro.mapred.AvroKey.AvroKey(T)
+org.apache.avro.mapreduce.AvroKeyInputFormat.createRecordReader(InputSplit, TaskAttemptContext)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.mapreduce.AvroKeyRecordReader.AvroKeyRecordReader(Schema)
+org.apache.avro.mapreduce.AvroJob.getInputKeySchema(Configuration)
+org.apache.avro.Schema.parse(String)

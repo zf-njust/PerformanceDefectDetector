@@ -1,0 +1,70 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.name()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.FieldBuilder.completeField(Schema, JsonNode)" />
+<item name="org.apache.avro.SchemaBuilder.FixedBuilder.size(int)" />
+<item name="org.apache.avro.SchemaBuilder.RecordBuilder.fields()" />
+<item name="org.apache.avro.SchemaBuilder.EnumBuilder.symbols(String...)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.createEnum(String, String, String, List)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.namespace(String)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.completeSchema(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.space()" />
+<item name="org.apache.avro.SchemaBuilder.FieldAssembler.FieldAssembler(Completion, NameContext, Schema)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)" />
+<item name="org.apache.avro.SchemaBuilder.FieldAssembler.addField(Field)" />
+<item name="org.apache.avro.Schema.createFixed(String, String, String, int)" />
+<item name="org.apache.avro.SchemaBuilder.Completion.complete(Schema)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.doc()" />
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.SchemaBuilder.NamespacedBuilder.context()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.addAliasesTo(Field)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.names()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.validateDefault(String, Schema, JsonNode)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.put(Schema)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.Field.addAlias(String)" />
+<item name="org.apache.avro.SchemaBuilder.NamedBuilder.addAliasesTo(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.NameContext(HashMap, String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.addAlias(String)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.isValidDefault(Schema, JsonNode)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

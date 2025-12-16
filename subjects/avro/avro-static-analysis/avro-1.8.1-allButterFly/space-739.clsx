@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroMultipleInputs.getMapperTypeMap(JobConf)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.DelegatingInputFormat.getSplits(JobConf, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.TaggedInputSplit.TaggedInputSplit(InputSplit, Configuration, Class, Class, Schema)" />
+<item name="org.apache.avro.mapred.AvroMultipleInputs.getInputSchemaMap(JobConf)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+<item name="org.apache.avro.mapred.AvroMultipleInputs.fromBase64(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

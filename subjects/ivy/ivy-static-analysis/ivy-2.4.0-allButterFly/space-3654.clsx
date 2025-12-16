@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2MetadataParser.UnitHandler.UnitHandler.(Anon_12).childHanlded(TouchpointDataHandler)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.verbose(String, Throwable)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicNameTarget()" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.formatLines(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setSymbolicNameTarget(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getVersionTarget()" />
+<item name="org.apache.ivy.osgi.core.ManifestParser.parseManifest(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setVersionTarget(Version)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.isSource()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.setHasInnerClasspath(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+</group>
+</group>
+</cluster>

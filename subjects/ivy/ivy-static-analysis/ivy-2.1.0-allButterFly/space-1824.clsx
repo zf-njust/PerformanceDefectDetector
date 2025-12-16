@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.circular.CircularDependencyHelper.formatMessage(ModuleDescriptor[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.circular.CircularDependencyHelper.toMrids(ModuleDescriptor[])" />
+<item name="org.apache.ivy.plugins.circular.CircularDependencyHelper.formatMessage(ModuleRevisionId[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+</group>
+</group>
+</cluster>

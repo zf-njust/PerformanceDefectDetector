@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 0 0 1 0 0 1 0 0 0 0 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.preflight.PreflightPath.peek()
+org.apache.pdfbox.preflight.xobject.XObjPostscriptValidator.XObjPostscriptValidator(PreflightContext, PDPostScriptXObject)
+org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)
+org.apache.pdfbox.preflight.process.reflect.GraphicObjectPageValidationProcess.validate(PreflightContext)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)
+org.apache.pdfbox.preflight.PreflightPath.isExpectedType(Class)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)
+org.apache.pdfbox.preflight.xobject.XObjFormValidator.XObjFormValidator(PreflightContext, PDFormXObject)
+org.apache.pdfbox.preflight.xobject.AbstractXObjValidator.AbstractXObjValidator(PreflightContext, COSStream)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()
+org.apache.pdfbox.preflight.xobject.XObjImageValidator.XObjImageValidator(PreflightContext, PDImageXObject)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)
+org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)
+org.apache.pdfbox.pdmodel.graphics.PDXObject.getCOSObject()
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)
+org.apache.pdfbox.pdmodel.common.PDStream.getCOSObject()
+org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)
+org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)
+org.apache.pdfbox.preflight.PreflightContext.getValidationPath()
+org.apache.pdfbox.preflight.PreflightPath.isEmpty()
+org.apache.pdfbox.preflight.xobject.XObjectValidator.validate()
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

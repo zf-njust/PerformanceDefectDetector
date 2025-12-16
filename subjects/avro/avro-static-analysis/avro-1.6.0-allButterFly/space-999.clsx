@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroWrapper.datum(T)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.HadoopCombiner.PairCollector.collect(Pair)" />
+<item name="org.apache.avro.mapred.AvroRecordReader.next(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.mapred.AvroUtf8InputFormat.Utf8LineRecordReader.next(AvroWrapper, NullWritable)" />
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.deserialize(AvroWrapper)" />
+<item name="org.apache.avro.mapred.HadoopReducer.ReduceCollector.collect(OUT)" />
+<item name="org.apache.avro.mapred.HadoopMapper.MapCollector.collect(OUT)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.mapred.Pair.key()" />
+<item name="org.apache.avro.mapred.Pair.value()" />
+<item name="org.apache.avro.mapred.AvroValue.AvroValue(T)" />
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+<item name="org.apache.avro.file.FileReader.next(D)" />
+<item name="org.apache.avro.mapred.AvroWrapper.datum()" />
+<item name="org.apache.avro.file.FileReader.pastSync(long)" />
+<item name="org.apache.avro.util.Utf8.setLength(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.util.Utf8.setByteLength(int)" />
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

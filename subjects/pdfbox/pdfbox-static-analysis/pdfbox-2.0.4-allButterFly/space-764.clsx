@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.prepareAESInitializationVector(boolean, byte[], InputStream, OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAES256(InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAESother(byte[], InputStream, OutputStream, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

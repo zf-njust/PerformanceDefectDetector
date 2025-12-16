@@ -1,0 +1,55 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.ant.IvyVar.getName()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyVar.doExecute()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.ant.IvyVar.getValue()" />
+<item name="org.apache.ivy.Ivy.getSettings()" />
+<item name="org.apache.ivy.ant.IvyVar.getFile()" />
+<item name="org.apache.ivy.ant.IvyTask.getIvyInstance()" />
+<item name="org.apache.ivy.ant.IvyVar.getVarName(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+<item name="org.apache.ivy.ant.IvyVar.getUrl()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.ant.IvyVar.getPrefix()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean, String, String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

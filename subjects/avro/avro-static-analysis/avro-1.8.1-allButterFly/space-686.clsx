@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.flatten(Map, Map)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.UnionAdjustAction.flatten(Map, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.flatten(Symbol[], int, Symbol[], int, Map, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.flatten(Map, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.ResolvingAction.flatten(Map, Map)" />
+<item name="org.apache.avro.io.parsing.Symbol.SkipAction.flatten(Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.Symbol.UnionAdjustAction.UnionAdjustAction(int, Symbol)" />
+<item name="org.apache.avro.io.parsing.Symbol.Fixup.Fixup(Symbol[], int)" />
+<item name="org.apache.avro.io.parsing.Symbol.copyFixups(List, Symbol[], int, Symbol[])" />
+<item name="org.apache.avro.io.parsing.Symbol.ResolvingAction.ResolvingAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Symbol.SkipAction.SkipAction(Symbol)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+<item name="org.apache.avro.io.parsing.Symbol.ImplicitAction.ImplicitAction(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

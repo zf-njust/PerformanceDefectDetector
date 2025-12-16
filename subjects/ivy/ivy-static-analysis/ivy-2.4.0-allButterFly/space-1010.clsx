@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Visibility.toString()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printConfiguration(Configuration, PrintWriter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDescription()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

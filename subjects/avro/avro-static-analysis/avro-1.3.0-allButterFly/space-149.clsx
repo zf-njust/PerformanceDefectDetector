@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Protocol.Message.toString()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Protocol.Message.toJson(JsonGenerator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.fieldsToJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.Schema.createUnion(List)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.writeProps(JsonGenerator)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+</group>
+</group>
+</cluster>

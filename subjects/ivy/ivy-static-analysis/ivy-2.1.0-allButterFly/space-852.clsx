@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.ResolveEngine.download(ArtifactOrigin, DownloadOptions)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.download(ArtifactOrigin, DownloadOptions)" />
+</group>
+</group>
+</group>
+</cluster>

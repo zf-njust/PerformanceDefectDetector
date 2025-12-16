@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String, int)
+org.apache.ivy.osgi.core.ManifestHeaderValue.addElement(ManifestHeaderElement)
+org.apache.ivy.osgi.core.ManifestHeaderElement.addAttribute(String, String)
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endValue()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseParameterValue()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterName()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseElement()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseValueOrParameter()
+org.apache.ivy.osgi.core.ManifestHeaderElement.getValues()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.readNext()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String)
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendQuoted(boolean)
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseSeparator()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendEscaped()
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parse()
+org.apache.ivy.osgi.core.ManifestHeaderElement.addDirective(String, String)
+org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterValue()
+org.apache.ivy.osgi.core.ManifestHeaderElement.addValue(String)

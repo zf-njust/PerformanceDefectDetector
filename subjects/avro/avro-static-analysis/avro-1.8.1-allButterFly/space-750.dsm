@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 0 0 0 
+0 0 0 0 0 0 
+1 0 1 0 0 0 
+org.apache.avro.SchemaValidatorBuilder.valid()
+org.apache.avro.ValidateLatest.ValidateLatest(SchemaValidationStrategy)
+org.apache.avro.ValidateAll.ValidateAll(SchemaValidationStrategy)
+org.apache.avro.SchemaValidatorBuilder.validateLatest()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.SchemaValidatorBuilder.validateAll()

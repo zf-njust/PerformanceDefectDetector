@@ -1,0 +1,56 @@
+[Call]
+27
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 1 0 0 1 0 0 0 1 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.plugins.repository.file.FileResource.FileResource(FileRepository, File)
+org.apache.ivy.plugins.parser.ModuleDescriptorParserRegistry.getInstance()
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.plugins.parser.ParserSettings.getRelativeUrlResolver()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.getSettings()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.util.Checks.checkAbsolute(File, String)
+org.apache.ivy.plugins.parser.ModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)
+org.apache.ivy.util.FileUtil.dissect(String)
+org.apache.ivy.util.Checks.checkAbsolute(String, String)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.FileUtil.normalize(String)
+org.apache.ivy.plugins.parser.ModuleDescriptorParser.accept(Resource)
+org.apache.ivy.core.RelativeUrlResolver.getURL(URL, String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.isValidate()
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.plugins.parser.ModuleDescriptorParserRegistry.getParser(Resource)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.parseParentModuleOnFilesystem(String)
+org.apache.ivy.plugins.repository.file.FileRepository.standardize(String)
+org.apache.ivy.util.FileUtil.resolveFile(File, String)
+org.apache.ivy.core.IvyContext.peekIvy()

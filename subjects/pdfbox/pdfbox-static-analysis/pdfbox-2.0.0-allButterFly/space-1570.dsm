@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 0 0 0 1 1 0 0 1 1 
+0 0 0 0 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.PDFDebugger.isFont(Object)
+org.apache.pdfbox.debugger.PDFDebugger.isCIDFont(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.debugger.ui.MapEntry.getValue()
+org.apache.pdfbox.debugger.ui.PageEntry.getDict()
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)
+org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.debugger.PDFDebugger.getUnderneathObject(Object)
+org.apache.pdfbox.cos.COSName.equals(Object)

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.filter.OrFilter.OrFilter(RequirementFilter[])" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.MultiOperatorFilter(RequirementFilter[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.add(RequirementFilter)" />
+</group>
+</group>
+</group>
+</cluster>

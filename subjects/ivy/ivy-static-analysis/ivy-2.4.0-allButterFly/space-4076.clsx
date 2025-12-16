@@ -1,0 +1,64 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.Ivy14.check(URL, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.Ivy.check(URL, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.check.CheckEngine.check(URL, String)" />
+<item name="org.apache.ivy.Ivy.pushContext()" />
+<item name="org.apache.ivy.Ivy.popContext()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.popContext()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveEngine, ResolveOptions)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.getDependency(DependencyDescriptor, ResolveData)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.plugins.parser.ModuleDescriptorParserRegistry.getInstance()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()" />
+<item name="org.apache.ivy.util.Message.info(String, Throwable)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.ResolveOptions()" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.exists(Artifact)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyConfigurations(String[])" />
+<item name="org.apache.ivy.core.check.CheckEngineSettings.getResolver(String)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.IvyContext.setIvy(Ivy)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getArtifacts(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.core.IvyContext.pushNewContext()" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.core.IvyContext.pushContext(IvyContext)" />
+<item name="org.apache.ivy.core.check.CheckEngineSettings.doValidate()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.getResolver(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getDescriptor()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+<item name="org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.parseDescriptor(ParserSettings, URL, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.util.Message.debug(Throwable)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.ResolveData(ResolveEngine, ResolveOptions, ConfigurationResolveReport, Map)" />
+<item name="org.apache.ivy.plugins.parser.ModuleDescriptorParser.parseDescriptor(ParserSettings, URL, Resource, boolean)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.StringUtils.getStackTrace(Throwable)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+</group>
+</group>
+</cluster>

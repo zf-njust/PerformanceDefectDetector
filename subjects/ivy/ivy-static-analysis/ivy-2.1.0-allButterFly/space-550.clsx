@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.canExclude()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.canExclude(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getDependencyDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getCallerConfigurations()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleDescriptor()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.doesExclude(ModuleDescriptor, String, String[], DependencyDescriptor, Artifact, Stack)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ArtifactRevisionId.getArtifactId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getId()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.doesExclude(String[], ArtifactId)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.doesCallersExclude(String, Artifact, Stack)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.canExclude()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+</group>
+</group>
+</group>
+</cluster>

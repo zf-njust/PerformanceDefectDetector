@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityPropertyHandler.CapabilityPropertyHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityHandler.CapabilityHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getName()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)" />
+</group>
+</group>
+</group>
+</cluster>

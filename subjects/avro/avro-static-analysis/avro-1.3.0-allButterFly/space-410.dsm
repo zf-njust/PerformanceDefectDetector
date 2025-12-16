@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 1 0 0 0 0 1 0 0 1 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.ipc.ByteBufferOutputStream.write(byte[], int, int)
+org.apache.avro.io.BlockingBinaryEncoder.endBlockedValue()
+org.apache.avro.io.BinaryEncoder.ReuseByteWriter.write(ByteBuffer)
+org.apache.avro.io.BinaryEncoder.writeMapEnd()
+org.apache.avro.io.BlockingBinaryEncoder.finishOverflow()
+org.apache.avro.io.BinaryEncoder.writeArrayEnd()
+org.apache.avro.io.BlockingBinaryEncoder.flush()
+org.apache.avro.io.BinaryEncoder.writeEnum(int)
+org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)
+org.apache.avro.io.BlockingBinaryEncoder.ensure(int)
+org.apache.avro.ipc.ByteBufferOutputStream.writeBuffer(ByteBuffer)
+org.apache.avro.io.BinaryEncoder.writeInt(int)
+org.apache.avro.io.BinaryEncoder.writeBytes(byte[], int, int)
+org.apache.avro.io.BinaryEncoder.writeString(Utf8)
+org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.buffer()
+org.apache.avro.io.BinaryEncoder.writeLong(long)
+org.apache.avro.io.BinaryEncoder.writeIndex(int)
+org.apache.avro.io.BlockingBinaryEncoder.EncoderBuffer.length()
+org.apache.avro.io.BinaryEncoder.SimpleByteWriter.write(ByteBuffer)
+org.apache.avro.util.Utf8.getBytes()
+org.apache.avro.io.BlockingBinaryEncoder.compact()
+org.apache.avro.io.BlockingBinaryEncoder.check()
+org.apache.avro.util.Utf8.getLength()
+org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)

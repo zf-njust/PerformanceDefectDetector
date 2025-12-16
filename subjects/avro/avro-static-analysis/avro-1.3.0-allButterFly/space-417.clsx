@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.createFixed(Object, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.readFixed(Object, Schema, Decoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.createFixed(Object, byte[], Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

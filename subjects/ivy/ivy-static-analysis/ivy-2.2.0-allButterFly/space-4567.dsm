@@ -1,0 +1,36 @@
+[Call]
+17
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.util.Message.info(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.settings.IvyVariableContainerImpl.IvyVariableContainerImpl(Map)
+org.apache.ivy.plugins.trigger.LogTrigger.progress(IvyEvent)
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.MessageLogger.info(String)
+org.apache.ivy.core.event.IvyEvent.getAttributes()
+org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)
+org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)
+org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, Map)
+org.apache.ivy.core.IvyContext.peekIvy()
+org.apache.ivy.plugins.trigger.LogTrigger.log(String)

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.writeBoolean(boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BinaryData.encodeBoolean(boolean, byte[], int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+</group>
+</group>
+</group>
+</cluster>

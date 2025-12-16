@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.createTmpFile(InputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.NonSequentialPDFParser(InputStream, RandomAccess, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(InputStream, RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.init(File, RandomAccess, String)" />
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.RandomAccessBufferedFileInputStream(File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(InputStream, boolean)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.setDocument(COSDocument)" />
+<item name="org.apache.pdfbox.pdfparser.NonSequentialPDFParser.setEOFLookupRange(int)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.io.PushBackInputStream.PushBackInputStream(InputStream, int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(InputStream)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

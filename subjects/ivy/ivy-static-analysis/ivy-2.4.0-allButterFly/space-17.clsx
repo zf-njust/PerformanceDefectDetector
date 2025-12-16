@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.CapabilityAdapter.adapt(BundleInfo, Capability)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_7).childHanlded(CapabilityHandler)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getLocator()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.CapabilityAdapter.getOSGiService(BundleInfo, Capability)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addCapability(BundleCapability)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+<item name="org.apache.ivy.osgi.obr.xml.Capability.getName()" />
+<item name="org.apache.ivy.osgi.obr.xml.CapabilityAdapter.getExportPackage(BundleInfo, Capability)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.CapabilityProperty.getValue()" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.Capability.getProperties()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.BundleCapability(String, String, Version)" />
+<item name="org.apache.ivy.osgi.obr.xml.CapabilityProperty.getName()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.ExportPackage(String, Version)" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.addUse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

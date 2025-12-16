@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 1 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+org.apache.avro.ipc.stats.StatsPlugin.publish(RPCContext, Stopwatch)
+org.apache.avro.ipc.stats.Histogram.Segmenter.size()
+org.apache.avro.ipc.stats.StatsPlugin.createNewHistogram()
+org.apache.avro.ipc.stats.Histogram.Histogram(Segmenter)
+org.apache.avro.ipc.stats.FloatHistogram.FloatHistogram(Segmenter)
+org.apache.avro.ipc.stats.Stopwatch.Ticks.ticks()
+org.apache.avro.ipc.stats.StatsPlugin.nanosToMillis(long)
+org.apache.avro.ipc.RPCContext.getMessage()
+org.apache.avro.ipc.stats.Stopwatch.elapsedNanos()

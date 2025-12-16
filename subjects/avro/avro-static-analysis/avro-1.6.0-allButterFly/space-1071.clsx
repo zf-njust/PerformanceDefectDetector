@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.alt(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.flatten(Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.flatten(Map, Map)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+</group>
+</group>
+</cluster>

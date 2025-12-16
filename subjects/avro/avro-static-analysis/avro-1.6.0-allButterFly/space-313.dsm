@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 1 0 0 
+1 0 1 0 1 1 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+org.apache.avro.ipc.trace.TraceNode.getPreLinkTime()
+org.apache.avro.ipc.trace.TraceCollection.TraceComparotor.compare(Trace, Trace)
+org.apache.avro.ipc.trace.TraceNode.getProcessTime()
+org.apache.avro.ipc.trace.TraceNode.extractEventTime(TraceNode, SpanEvent)
+org.apache.avro.ipc.trace.TraceNode.getPostLinkTime()
+org.apache.avro.ipc.trace.Trace.getRoot()

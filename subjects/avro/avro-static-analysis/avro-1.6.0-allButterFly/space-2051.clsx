@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.Util.sampledList(List, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getRequestPayloads()" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getTraceTimings()" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getTraceTimingsSorted()" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.getResponsePayloads()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

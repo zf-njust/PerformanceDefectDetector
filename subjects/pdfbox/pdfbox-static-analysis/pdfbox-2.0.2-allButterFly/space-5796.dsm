@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.contentstream.PDFStreamEngine.getInitialMatrix()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getCOSObject()
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getMatrix()
+org.apache.pdfbox.util.Matrix.clone()
+org.apache.pdfbox.util.Matrix.concatenate(Matrix, Matrix)
+org.apache.pdfbox.util.Matrix.Matrix(COSArray)
+org.apache.pdfbox.util.Matrix.getScalingFactorY()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)
+org.apache.pdfbox.rendering.TilingPaint.createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints)
+org.apache.pdfbox.util.Matrix.concatenate(Matrix)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.Matrix.getScalingFactorX()
+org.apache.pdfbox.util.Matrix.Matrix()

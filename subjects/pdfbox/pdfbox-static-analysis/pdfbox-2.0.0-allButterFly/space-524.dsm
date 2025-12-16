@@ -1,0 +1,44 @@
+[Call]
+21
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 1 1 0 0 0 1 0 0 1 0 0 1 1 0 0 0 0 0 1 0 
+0 1 1 0 0 0 1 0 0 1 0 0 1 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.Matrix.Matrix(float, float, float, float, float, float)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.checkArrayTypesClass(List, Class)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.contentstream.operator.graphics.AppendRectangleToPath.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.state.Concatenate.process(Operator, List)
+org.apache.pdfbox.util.Matrix.createAffineTransform()
+org.apache.pdfbox.contentstream.PDFStreamEngine.transformedPoint(float, float)
+org.apache.pdfbox.contentstream.operator.graphics.CurveToReplicateInitialPoint.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.graphics.CurveTo.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.moveTo(float, float)
+org.apache.pdfbox.contentstream.operator.graphics.CurveToReplicateFinalPoint.process(Operator, List)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.getCurrentPoint()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.curveTo(float, float, float, float, float, float)
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.appendRectangle(Point2D, Point2D, Point2D, Point2D)
+org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()
+org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)
+org.apache.pdfbox.util.Matrix.concatenate(Matrix)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)
+org.apache.pdfbox.util.Matrix.Matrix()

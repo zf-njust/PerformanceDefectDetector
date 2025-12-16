@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 
+1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+org.apache.avro.mapreduce.AvroJob.getMapOutputKeySchema(Configuration)
+org.apache.avro.Schema.Parser.parse(String)
+org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)
+org.apache.avro.hadoop.io.AvroKeyComparator.setConf(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)
+org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)
+org.apache.avro.Schema.parse(String)
+org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)

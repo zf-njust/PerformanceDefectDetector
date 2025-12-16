@@ -1,0 +1,44 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.PDPageLabels(PDDocument, COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPageLabels()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.PDNumberTreeNode(COSDictionary, Class)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.PDPageLabels(PDDocument)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabels.findLabels(PDNumberTreeNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.PDPageLabelRange()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getNumbers()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.getKids()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.setStyle(String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDPageLabelRange.PDPageLabelRange(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.convertCOSToPD(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDNumberTreeNode.createChildNode(COSDictionary)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+</group>
+</group>
+</cluster>

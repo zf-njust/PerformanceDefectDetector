@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.BundleInfo.getRawVersion()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxBundleInfo(BundleInfo, ContentHandler)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.BundleInfo.getUri()" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getCapabilities()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.addAttr(AttributesImpl, String, String)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.addAttr(AttributesImpl, String, Object)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapability(BundleCapability, ContentHandler)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getRequirements()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxRequirement(BundleRequirement, ContentHandler)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.getSymbolicName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.core.ExportPackage.getUses()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getResolution()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.buildFilter(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getName()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getType()" />
+<item name="org.apache.ivy.osgi.core.BundleCapability.getRawVersion()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getType()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, ContentHandler)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.appendVersion(StringBuffer, VersionRange)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, String, ContentHandler)" />
+<item name="org.apache.ivy.osgi.util.Version.numbersAsString()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getName()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.getVersion()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.util.VersionRange.getStartVersion()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isEndExclusive()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isStartExclusive()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.getEndVersion()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

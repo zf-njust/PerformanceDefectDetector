@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)" />
+<item name="org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)" />
+<item name="org.apache.pdfbox.util.DateConverter.newGreg()" />
+<item name="org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)" />
+<item name="org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)" />
+<item name="org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Map, Map, String, Visibility, String, String[], boolean, String, ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(String, Visibility, String, String[], boolean, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Configuration, ModuleRevisionId)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDescription()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.extendable.DefaultExtendableItem.DefaultExtendableItem(Map, Map)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

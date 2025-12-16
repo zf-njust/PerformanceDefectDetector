@@ -1,0 +1,42 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddRule.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.fillPath(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokeJavaComposite()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getJavaColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getPaint(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.createColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getPaint(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toString()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.createColorSpace()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

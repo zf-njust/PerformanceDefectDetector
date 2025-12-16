@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.trevni.avro.AvroTrevniInputFormat.getRecordReader(InputSplit, JobConf, Reporter)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.trevni.avro.AvroColumnReader.Params.setModel(GenericData)" />
+<item name="org.apache.trevni.avro.AvroColumnReader.Params.setSchema(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.get()" />
+<item name="org.apache.trevni.avro.HadoopInput.HadoopInput(Path, Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.getInputSchema(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.parse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+</group>
+</group>
+</cluster>

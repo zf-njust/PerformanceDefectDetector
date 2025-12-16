@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.enumAdjustAction(int, Object[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.mkEnumAdjust(List, List)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.EnumAdjustAction.EnumAdjustAction(int, Object[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Symbol.IntCheckAction.IntCheckAction(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,76 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.protobuf.ProtobufData.getDefault(FieldDescriptor)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.protobuf.ProtobufData.getSchema(Descriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.protobuf.ProtobufData.getNamespace(FileDescriptor, Descriptor)" />
+<item name="org.apache.avro.protobuf.ProtobufData.getSchema(FieldDescriptor)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+<item name="org.apache.avro.protobuf.ProtobufData.getNonRepeatedSchema(FieldDescriptor)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.protobuf.ProtobufData.toCamelCase(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.protobuf.ProtobufData.cap(String)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.generic.GenericData.setStringType(Schema, StringType)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.JsonProperties.addProp(String, String)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.toString(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericData.getField(Object, String, int)" />
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.getArrayAsCollection(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+<item name="org.apache.avro.generic.GenericData.writeEscapedString(CharSequence, StringBuilder)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,132 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.toIvyFile(InputStream, Resource, File, ModuleDescriptor)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.write(ModuleDescriptor, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.write(ModuleDescriptor, String, File)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printConfigurations(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printPublications(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencies(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraAttributesNamespaces()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printInfoTag(ModuleDescriptor, PrintWriter)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.requireInnerInfoElement(ModuleDescriptor)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.isDefault()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printAllMediators(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.descriptor.ExtendsDescriptor.getLocation()" />
+<item name="org.apache.ivy.core.module.descriptor.ExtendsDescriptor.getExtendsTypes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printConfiguration(Configuration, PrintWriter)" />
+<item name="org.apache.ivy.core.module.descriptor.ExtendsDescriptor.getParentRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getStatus()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedPublicationDate()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.plugins.namespace.Namespace.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getNamespace()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllArtifacts()" />
+<item name="org.apache.ivy.core.module.descriptor.Artifact.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.License.getName()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttributes()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.core.module.descriptor.License.getUrl()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getLicenses()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDescription()" />
+<item name="org.apache.ivy.util.StringUtils.join(Object[], String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printAllExcludes(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.getConfs(ModuleDescriptor, Artifact)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependency(ModuleDescriptor, DependencyDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.util.DateUtil.format(Date)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyConfigurations(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isChanging()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getAllExcludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.OverrideDependencyDescriptorMediator.getBranch()" />
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.getAttributes()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Visibility.toString()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyExcludeRules(ModuleDescriptor, PrintWriter, ExcludeRule[])" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDynamicConstraintDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllDependencyDescriptorMediators()" />
+<item name="org.apache.ivy.core.module.id.ModuleRules.getAllRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getAllIncludeRules()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isForce()" />
+<item name="org.apache.ivy.plugins.matcher.MapMatcher.getPatternMatcher()" />
+<item name="org.apache.ivy.core.module.descriptor.OverrideDependencyDescriptorMediator.getVersion()" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getType()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getAllDependencyArtifacts()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getArtifacts(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyArtefacts(ModuleDescriptor, PrintWriter, DependencyArtifactDescriptor[])" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDescription()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.isTransitive()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printDependencyIncludeRules(ModuleDescriptor, PrintWriter, IncludeRule[])" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getMatcher()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getConfigurations()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.equals(Object)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getMatcher()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getExt()" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getType()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.module.descriptor.IncludeRule.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getConfigurations()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

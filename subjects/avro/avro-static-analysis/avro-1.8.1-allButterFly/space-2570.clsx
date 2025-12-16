@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.codec.CustomCodec.compress(ByteBuffer)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.codec.CustomCodec.compareDecompress(Codec, ByteBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.Codec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.file.codec.CustomCodec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

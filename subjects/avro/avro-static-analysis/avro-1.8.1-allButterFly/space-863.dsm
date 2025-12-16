@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 1 
+1 0 1 0 1 0 
+0 0 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.avro.io.Encoder.writeFixed(ByteBuffer)
+org.apache.avro.io.BufferedBinaryEncoder.writeFixed(ByteBuffer)
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(ByteBuffer)
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)

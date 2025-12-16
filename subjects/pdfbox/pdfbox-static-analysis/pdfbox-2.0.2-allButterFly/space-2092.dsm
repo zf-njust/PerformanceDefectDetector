@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 
+org.apache.pdfbox.debugger.ui.ArrayEntry.getIndex()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.debugger.ui.PageEntry.getPath()
+org.apache.pdfbox.debugger.ui.Tree.getTreePathMenuItem.(Anon_1).actionPerformed(ActionEvent)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)
+org.apache.pdfbox.debugger.ui.MapEntry.getKey()
+org.apache.pdfbox.cos.COSArray.indexOfObject(COSBase)
+org.apache.pdfbox.debugger.treestatus.TreeStatus.getStringForPath(TreePath)
+org.apache.pdfbox.debugger.treestatus.TreeStatus.generatePathString(TreePath)
+org.apache.pdfbox.debugger.treestatus.TreeStatus.TreeStatus(Object)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.debugger.treestatus.TreeStatus.getObjectName(Object)

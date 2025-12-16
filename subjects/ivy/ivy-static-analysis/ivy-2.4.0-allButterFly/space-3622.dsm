@@ -1,0 +1,38 @@
+[Call]
+18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 1 0 0 0 1 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()
+org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.setModuleVariables(ModuleDescriptor, IvyVariableContainer, PomWriterOptions)
+org.apache.ivy.plugins.parser.m2.PomWriterOptions.getArtifactPackaging()
+org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()
+org.apache.ivy.core.module.id.ModuleRevisionId.getName()
+org.apache.ivy.core.module.descriptor.Artifact.getType()
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.util.extendable.ExtendableItem.getAttribute(String)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.findArtifact(ModuleDescriptor, String)
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getAllArtifacts()
+org.apache.ivy.plugins.parser.m2.PomWriterOptions.getArtifactName()
+org.apache.ivy.plugins.parser.m2.PomWriterOptions.getDescription()
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.core.module.descriptor.Artifact.getName()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

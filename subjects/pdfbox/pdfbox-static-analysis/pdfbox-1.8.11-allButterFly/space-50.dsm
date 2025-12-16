@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 1 1 0 0 1 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.operator.SetNonStrokingICCBasedColor.process(PDFOperator, List)
+org.apache.pdfbox.cos.COSArray.clear()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()
+org.apache.pdfbox.cos.COSFloat.setValue(float)
+org.apache.pdfbox.cos.COSArray.setFloatArray(float[])
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setColorSpaceValue(float[])
+org.apache.pdfbox.cos.COSArray.add(COSBase)
+org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.cos.COSFloat.COSFloat(float)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getNumberOfComponents()

@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.rendering.TilingPaint.createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getMatrix()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getInitialMatrix()" />
+<item name="org.apache.pdfbox.util.Matrix.getScalingFactorY()" />
+<item name="org.apache.pdfbox.util.Matrix.getScalingFactorX()" />
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.concatenate(Matrix)" />
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern.getCOSObject()" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix(COSArray)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

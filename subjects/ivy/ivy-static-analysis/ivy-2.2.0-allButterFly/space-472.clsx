@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareOperator()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompare()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.filter.CompareFilter.CompareFilter(String, Operator, String)" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.parseCompareValue()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.isOperator(char)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.readNext()" />
+<item name="org.apache.ivy.osgi.obr.filter.RequirementFilterParser.Parser.unread()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 1 
+1 1 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.cache.CacheMetadataOptions.getChangingMatcherName()
+org.apache.ivy.core.settings.IvySettings.getMatcher(String)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.isChanging(DependencyDescriptor, ModuleRevisionId, CacheMetadataOptions)
+org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getChangingMatcher(CacheMetadataOptions)
+org.apache.ivy.core.module.descriptor.DependencyDescriptor.isChanging()
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.core.cache.CacheMetadataOptions.getChangingPattern()
+org.apache.ivy.plugins.matcher.Matcher.matches(String)
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

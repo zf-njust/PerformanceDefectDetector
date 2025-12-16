@@ -1,0 +1,46 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.isTransitive()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.VisitNode.isParentConfTransitive()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Configuration, ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printConfiguration(Configuration, PrintWriter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Configuration(Map, Map, String, Visibility, String, String[], boolean, String, ModuleRevisionId)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getConfiguration(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getParentNode()" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getParent()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getDescription()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getRequestedConf()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.Visibility.toString()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()" />
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getMainConf(String)" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getNode()" />
+<item name="org.apache.ivy.util.extendable.DefaultExtendableItem.DefaultExtendableItem(Map, Map)" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

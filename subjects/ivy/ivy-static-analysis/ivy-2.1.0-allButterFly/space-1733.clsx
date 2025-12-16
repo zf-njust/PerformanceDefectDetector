@@ -1,0 +1,45 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.repository.RepositoryManagementEngine.analyze()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.progress()" />
+<item name="org.apache.ivy.core.repository.RepositoryManagementEngine.getDependency(DependencyDescriptor)" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.core.repository.RepositoryManagementEngine.getDependers(ModuleRevisionId)" />
+<item name="org.apache.ivy.core.repository.RepositoryManagementEngine.ensureLoaded()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVersionMatcher()" />
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.needModuleDescriptor(ModuleRevisionId, ModuleRevisionId)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleDescriptor)" />
+<item name="org.apache.ivy.core.repository.RepositoryManagementEngine.getAllRevisions(ModuleRevisionId)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.accept(ModuleRevisionId, ModuleRevisionId)" />
+<item name="org.apache.ivy.util.MessageLogger.progress()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

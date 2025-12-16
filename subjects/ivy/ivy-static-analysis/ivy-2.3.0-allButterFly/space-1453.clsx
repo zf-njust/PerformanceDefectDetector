@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityHandler.CapabilityHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceLicenseHandler.ResourceLicenseHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.setSkipOnError(boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDocumentationHandler.ResourceDocumentationHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RequireHandler.RequireHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceDescriptionHandler.ResourceDescriptionHandler()" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceSizeHandler.ResourceSizeHandler()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.setBufferingChar(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.CapabilityPropertyHandler.CapabilityPropertyHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getName()" />
+</group>
+</group>
+</group>
+</cluster>

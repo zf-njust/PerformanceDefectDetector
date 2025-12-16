@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 
+1 0 1 0 0 1 0 
+org.apache.ivy.plugins.conflict.AbstractConflictManager.setSettings(IvySettings)
+org.apache.ivy.plugins.latest.LatestRevisionStrategy.LatestRevisionStrategy()
+org.apache.ivy.plugins.conflict.LatestConflictManager.LatestConflictManager(LatestStrategy)
+org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator(Comparator)
+org.apache.ivy.plugins.latest.AbstractLatestStrategy.setName(String)
+org.apache.ivy.core.settings.IvySettings.getDefaultLatestStrategy()
+org.apache.ivy.core.settings.IvySettings.getDefaultConflictManager()

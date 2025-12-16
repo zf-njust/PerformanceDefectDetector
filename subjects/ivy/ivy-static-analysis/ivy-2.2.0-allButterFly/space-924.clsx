@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomPluginElement.getVersion()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildText(Element, String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.replaceProps(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getTextContent(Element)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+</group>
+</group>
+</group>
+</cluster>

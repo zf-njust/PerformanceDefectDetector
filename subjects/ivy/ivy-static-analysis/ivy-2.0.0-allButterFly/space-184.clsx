@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.ArtifactHandler.ArtifactHandler()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.p2.P2ArtifactParser.ArtifactsHandler.ArtifactsHandler(P2Descriptor, Map, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.addChild(DelegetingHandler, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.p2.PropertiesParser.PropertiesHandler.PropertiesHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.DelegetingHandler(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.p2.PropertiesParser.PropertyHandler.PropertyHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getName()" />
+</group>
+</group>
+</group>
+</cluster>

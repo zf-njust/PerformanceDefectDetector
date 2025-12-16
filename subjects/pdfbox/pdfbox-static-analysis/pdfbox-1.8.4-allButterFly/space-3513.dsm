@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 1 0 1 0 1 0 1 0 0 1 
+1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)
+org.apache.pdfbox.cos.COSInteger.longValue()
+org.apache.pdfbox.cos.COSObject.getDictionaryObject(COSName)
+org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)
+org.apache.pdfbox.cos.COSDocument.getCatalog()
+org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature.PDSignature(COSDictionary)
+org.apache.pdfbox.pdmodel.PDDocument.getSignatureDictionaries()
+org.apache.pdfbox.cos.COSDocument.getSignatureFields(boolean)
+org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(COSObject)
+org.apache.pdfbox.cos.COSObject.getObjectNumber()
+org.apache.pdfbox.cos.COSObject.getItem(COSName)
+org.apache.pdfbox.cos.COSDocument.getSignatureDictionaries()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.getItem(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSObject.getGenerationNumber()
+org.apache.pdfbox.cos.COSDocument.getObjectByType(COSName)
+org.apache.pdfbox.cos.COSName.equals(Object)

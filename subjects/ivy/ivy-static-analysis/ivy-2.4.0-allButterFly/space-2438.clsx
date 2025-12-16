@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.addCircularDependencyStrategy(CircularDependencyStrategy)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.configureDefaultCircularDependencyStrategies()" />
+<item name="org.apache.ivy.core.settings.IvySettings.addConfigured(CircularDependencyStrategy)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.circular.WarnCircularDependencyStrategy.getInstance()" />
+<item name="org.apache.ivy.plugins.circular.ErrorCircularDependencyStrategy.getInstance()" />
+<item name="org.apache.ivy.plugins.circular.IgnoreCircularDependencyStrategy.getInstance()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.circular.CircularDependencyStrategy.getName()" />
+</group>
+</group>
+</group>
+</cluster>

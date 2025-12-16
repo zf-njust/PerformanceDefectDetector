@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 1 1 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 
+org.apache.pdfbox.tools.ExtractImages.write2file(PDImage, String, boolean)
+org.apache.pdfbox.pdmodel.graphics.image.PDImage.getSuffix()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB.getName()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)
+org.apache.pdfbox.pdmodel.graphics.image.PDImage.getColorSpace()
+org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)
+org.apache.pdfbox.pdmodel.graphics.image.PDImage.createInputStream(List)
+org.apache.pdfbox.pdmodel.graphics.image.PDImage.getImage()
+org.apache.pdfbox.pdmodel.graphics.color.PDDeviceGray.getName()

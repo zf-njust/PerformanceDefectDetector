@@ -1,0 +1,53 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getPattern()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.dumpSettings()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getRoot()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.dumpSettings()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.dumpSettings()" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.dumpSettings()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getArtifactPatterns()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getName()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getTypeName()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

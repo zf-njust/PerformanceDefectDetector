@@ -1,0 +1,36 @@
+[Call]
+17
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 0 0 0 0 0 0 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.module.id.ModuleId.newInstance(String, String)
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.module.descriptor.ModuleDescriptor.getExtraInfo()
+org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)
+org.apache.ivy.util.MessageLogger.warn(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getVersion()
+org.apache.ivy.core.module.id.ModuleId.intern(ModuleId)
+org.apache.ivy.util.Message.warn(String)
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptor.getDependencyManagementMap()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.getDependencyManagementMap(ModuleDescriptor)
+org.apache.ivy.core.IvyContext.peekIvy()

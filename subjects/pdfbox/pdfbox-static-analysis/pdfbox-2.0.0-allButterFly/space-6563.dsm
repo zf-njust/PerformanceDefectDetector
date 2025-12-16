@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 
+1 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 
+org.apache.pdfbox.io.RandomAccessRead.length()
+org.apache.pdfbox.pdfparser.COSParser.COSParser(RandomAccessRead)
+org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String, ScratchFile)
+org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)
+org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)
+org.apache.pdfbox.pdfparser.RandomAccessSource.RandomAccessSource(RandomAccessRead)
+org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)
+org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)

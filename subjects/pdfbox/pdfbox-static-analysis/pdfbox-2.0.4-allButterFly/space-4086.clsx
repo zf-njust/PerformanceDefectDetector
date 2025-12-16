@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSBoolean.writePDF(OutputStream)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeObject(Object)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromBoolean(COSBoolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+<item name="org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getImageParameters()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(COSString, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.writePDF(OutputStream)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getImageData()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getForceHexForm()" />
+<item name="org.apache.pdfbox.util.Hex.writeHexByte(byte, OutputStream)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.util.Hex.getHighNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.getLowNibble(byte)" />
+<item name="org.apache.pdfbox.util.Hex.writeHexBytes(byte[], OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

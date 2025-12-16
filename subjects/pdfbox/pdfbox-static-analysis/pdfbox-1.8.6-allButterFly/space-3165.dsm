@@ -1,0 +1,30 @@
+[Call]
+14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 1 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.clear()
+org.apache.pdfbox.cos.COSDocument.close()
+org.apache.pdfbox.io.SequentialRead.close()
+org.apache.pdfbox.cos.COSStream.replaceWithStream(COSStream)
+org.apache.pdfbox.cos.COSDocument.getObjects()
+org.apache.pdfbox.cos.COSDictionary.clear()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.entrySet()
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.common.COSDictionaryMap.clear()
+org.apache.pdfbox.cos.COSStream.close()
+org.apache.pdfbox.pdfparser.XrefTrailerResolver.XrefTrailerObj.clearResources()
+org.apache.pdfbox.cos.COSObject.getObject()

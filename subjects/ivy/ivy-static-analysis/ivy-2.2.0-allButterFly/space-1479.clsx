@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.isLocal()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.file.FileRepository.isLocal()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.getFileRepository()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+</group>
+</group>
+</group>
+</cluster>

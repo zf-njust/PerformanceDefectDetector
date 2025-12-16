@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.SetLineCapStyle.process(PDFOperator, List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.SetLineCapStyle.process(PDFOperator, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineCap()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineCap(int)" />
+</group>
+</group>
+</group>
+</cluster>

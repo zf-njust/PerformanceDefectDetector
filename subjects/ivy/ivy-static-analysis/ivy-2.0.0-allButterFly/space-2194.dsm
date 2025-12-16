@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.getBuiltArtifact(Artifact)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact, String)
+org.apache.ivy.core.IvyPatternHelper.substituteTokens(String, Map)
+org.apache.ivy.core.module.descriptor.Artifact.getExt()
+org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(String, String, String, String, String, String, String, Map, Map)
+org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()
+org.apache.ivy.core.IvyPatternHelper.substitute(String, String, String, String, String, String, String, String, String, ArtifactOrigin, Map, Map)
+org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.core.module.id.ModuleRevisionId.getName()
+org.apache.ivy.core.module.descriptor.Artifact.getType()
+org.apache.ivy.core.module.id.ModuleId.getName()
+org.apache.ivy.core.IvyPatternHelper.substitute(String, ModuleRevisionId, Artifact, String, ArtifactOrigin)
+org.apache.ivy.plugins.resolver.packager.BuiltFileResource.BuiltFileResource(File, Artifact)
+org.apache.ivy.core.IvyPatternHelper.OriginalArtifactNameValue.OriginalArtifactNameValue(ArtifactOrigin)
+org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()
+org.apache.ivy.plugins.resolver.packager.BuiltFileResource.BuiltFileResource(File)
+org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()
+org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)
+org.apache.ivy.core.module.id.ModuleId.getOrganisation()
+org.apache.ivy.core.IvyPatternHelper.substitute(String, Artifact)
+org.apache.ivy.core.module.descriptor.Artifact.getName()
+org.apache.ivy.core.module.id.ModuleRevisionId.getBranch()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

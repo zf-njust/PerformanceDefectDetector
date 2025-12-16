@@ -1,0 +1,12 @@
+[Call]
+5
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+1 1 0 0 0 
+0 0 1 1 0 
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.signer.SignatureGenerator.getName()
+org.apache.ivy.core.settings.IvySettings.init(Object)
+org.apache.ivy.core.settings.IvySettings.addSignatureGenerator(SignatureGenerator)

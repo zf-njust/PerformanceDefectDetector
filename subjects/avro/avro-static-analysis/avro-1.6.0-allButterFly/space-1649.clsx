@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.protobuf.ProtobufDatumWriter.ProtobufDatumWriter(ProtobufData)" />
+<item name="org.apache.avro.protobuf.ProtobufDatumWriter.ProtobufDatumWriter()" />
+<item name="org.apache.avro.thrift.ThriftDatumWriter.ThriftDatumWriter()" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(SpecificData)" />
+<item name="org.apache.avro.thrift.ThriftDatumWriter.ThriftDatumWriter(ThriftData)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.ThriftData.get()" />
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.protobuf.ProtobufData.get()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

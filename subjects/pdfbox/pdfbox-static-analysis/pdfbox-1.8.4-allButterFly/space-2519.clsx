@@ -1,0 +1,62 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getUserPasswordForEncryption()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.encryption.DocumentEncryption.initForEncryption()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.setUserKey(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDocument.getDocumentID()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDocument.setEncryptionDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.encryption.PDFEncryption.computeUserPassword(byte[], byte[], int, byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getOwnerPasswordForEncryption()" />
+<item name="org.apache.pdfbox.encryption.PDFEncryption.computeEncryptedKey(byte[], byte[], int, byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSString.append(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getCOSDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDocument.setDocumentID(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.getRevision()" />
+<item name="org.apache.pdfbox.encryption.PDFEncryption.computeOwnerPassword(byte[], byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.getPermissions()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.getLength()" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.setOwnerKey(byte[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.exceptions.CryptographyException.CryptographyException(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary.PDEncryptionDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.encryption.PDFEncryption.truncateOrPad(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDocument.getEncryptionDictionary()" />
+<item name="org.apache.pdfbox.encryption.ARCFour.setKey(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.encryption.ARCFour.fixByte(byte)" />
+<item name="org.apache.pdfbox.cos.COSDocument.isEncrypted()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

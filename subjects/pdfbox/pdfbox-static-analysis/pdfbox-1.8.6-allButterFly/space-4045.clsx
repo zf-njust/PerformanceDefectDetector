@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.pagedrawer.CurveToReplicateInitialPoint.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.transformedPoint(double, double)" />
+<item name="org.apache.pdfbox.cos.COSNumber.doubleValue()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.fixY(double)" />
+</group>
+</group>
+</group>
+</cluster>

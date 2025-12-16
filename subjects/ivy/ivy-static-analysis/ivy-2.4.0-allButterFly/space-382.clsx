@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.BundleInfo.addExecutionEnvironment(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.adapt(BundleInfo, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.getVersionRange()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(boolean, Version, boolean, Version)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

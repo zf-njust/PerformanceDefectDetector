@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDType0Font.encode(byte[], int, int)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.hasToUnicode()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.cmapEncoding(int, int, boolean, CMap)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.encode(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getCodeFromArray(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStringFromArray(byte[], int, int)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.encoding.Encoding.getCharacter(String)" />
+<item name="org.apache.pdfbox.encoding.Encoding.getName(int)" />
+</group>
+</group>
+</group>
+</cluster>

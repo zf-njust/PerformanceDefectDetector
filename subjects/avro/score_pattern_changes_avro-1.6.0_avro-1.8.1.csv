@@ -1,0 +1,49 @@
+method1,method2,method_score1,method_score2
+org.apache.avro.ipc.NettyTransceiver.NettyTransceiver(InetSocketAddress),"org.apache.avro.ipc.NettyTransceiver.NettyTransceiver(InetSocketAddress, ChannelFactory, Map<String, Object>)",0.001682987464342503,0.04120980753518646
+"org.apache.avro.generic.GenericData.deepCopy(Schema, Object)","org.apache.avro.generic.GenericData.deepCopy(Schema, T)",0.29698366459360415,0.17752556965710595
+org.apache.avro.util.Utf8.toString(),org.apache.avro.util.Utf8.toString(),0.0494028154225462,0.0407365593337244
+org.apache.avro.util.Utf8.getBytesFor(String),org.apache.avro.util.Utf8.getBytesFor(String),0.006112032594477563,0.004456121502980879
+org.apache.avro.ipc.NettyTransceiver.disconnect(),"org.apache.avro.ipc.NettyTransceiver.disconnect(boolean, boolean, Throwable)",0.0005462608495523466,0.07282817000490915
+org.apache.avro.ipc.NettyTransceiver.writeBuffers(List<ByteBuffer>),org.apache.avro.ipc.NettyTransceiver.writeBuffers(List<ByteBuffer>),0.0011527154445327259,0.0044026699184785195
+org.apache.avro.ipc.NettyTransceiver.writeDataPack(NettyDataPack),org.apache.avro.ipc.NettyTransceiver.writeDataPack(NettyDataPack),0.011855235025037745,0.004419200638331336
+org.apache.avro.ipc.NettyTransceiver.getChannel(),org.apache.avro.ipc.NettyTransceiver.getChannel(),0.03577935081787704,0.0432844358129539
+"org.apache.avro.generic.GenericDatumReader.read(Object, Schema, ResolvingDecoder)","org.apache.avro.generic.GenericDatumReader.read(Object, Schema, ResolvingDecoder)",0.12575518174113984,0.02766314878367712
+"org.apache.avro.generic.GenericDatumReader.readRecord(Object, Schema, ResolvingDecoder)","org.apache.avro.generic.GenericDatumReader.readRecord(Object, Schema, ResolvingDecoder)",0.03812976984002106,0.03215848676968447
+"org.apache.avro.generic.GenericData.newRecord(Object, Schema)","org.apache.avro.generic.GenericData.newRecord(Object, Schema)",0.016497541730490308,0.013778758635692868
+"org.apache.avro.specific.SpecificData.newRecord(Object, Schema)","org.apache.avro.specific.SpecificData.newRecord(Object, Schema)",0.003272045877515097,0.003333295220011321
+"org.apache.avro.generic.GenericDatumReader.read(D, Decoder)","org.apache.avro.generic.GenericDatumReader.read(D, Decoder)",0.059788092270119206,0.03881524747315027
+"org.apache.avro.protobuf.ProtobufData.newRecord(Object, Schema)","org.apache.avro.protobuf.ProtobufData.newRecord(Object, Schema)",0.0039068217515879885,0.002792504599238844
+"org.apache.avro.generic.GenericData.setField(Object, String, int, Object, Object)","org.apache.avro.generic.GenericData.setField(Object, String, int, Object, Object)",0.006524277007664432,0.0053503494026418555
+"org.apache.avro.generic.GenericData.getField(Object, String, int, Object)","org.apache.avro.generic.GenericData.getField(Object, String, int, Object)",0.010619182725439926,0.007429795196406568
+"org.apache.avro.generic.GenericDatumWriter.writeRecord(Schema, Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.writeRecord(Schema, Object, Encoder)",0.034825457462684915,0.019978690458026287
+"org.apache.avro.io.BlockingBinaryEncoder.BlockingBinaryEncoder(OutputStream, int, int)","org.apache.avro.io.BlockingBinaryEncoder.BlockingBinaryEncoder(OutputStream, int, int)",0.00865365089149572,0.00564120698665081
+"org.apache.avro.io.EncoderFactory.blockingBinaryEncoder(OutputStream, BinaryEncoder)","org.apache.avro.io.EncoderFactory.blockingBinaryEncoder(OutputStream, BinaryEncoder)",0.0043182972796249166,0.003518062195321316
+"org.apache.avro.reflect.ReflectData.setField(Object, String, int, Object)","org.apache.avro.reflect.ReflectData.setField(Object, String, int, Object)",0.0033511235968732233,0.0010811024681581355
+"org.apache.avro.reflect.ReflectData.setElement(Schema, Type)","org.apache.avro.reflect.ReflectData.setElement(Schema, Type)",0.01276655192509598,0.008259296344165896
+"org.apache.avro.reflect.ReflectData.createSchema(Type, Map<String, Schema>)","org.apache.avro.reflect.ReflectData.createSchema(Type, Map<String, Schema>)",0.17655083976848332,0.19043320528717925
+org.apache.avro.reflect.ReflectData.getClass(Schema),org.apache.avro.reflect.ReflectData.getClass(Schema),0.011001457021429527,0.014149998101961322
+"org.apache.avro.reflect.ReflectData.getField(Object, String, int)","org.apache.avro.reflect.ReflectData.getField(Object, String, int)",0.00340054037784444,0.00138941314407172
+"org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)","org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)",0.01654943948641075,0.01777117891610677
+"org.apache.avro.reflect.ReflectData.createFieldSchema(Field, Map<String, Schema>)","org.apache.avro.reflect.ReflectData.createFieldSchema(Field, Map<String, Schema>)",0.01619957176300804,0.03656934180990005
+"org.apache.avro.reflect.ReflectDatumReader.newArray(Object, int, Schema)","org.apache.avro.reflect.ReflectDatumReader.newArray(Object, int, Schema)",0.007700362973134837,0.03626331589612301
+"org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)","org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)",0.001689494165429703,0.0022553989436351393
+"org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Decoder)","org.apache.avro.reflect.ReflectDatumReader.readBytes(Object, Schema, Decoder)",0.0009196251738557551,0.0021401300777343815
+"org.apache.avro.reflect.ReflectDatumWriter.write(Schema, Object, Encoder)","org.apache.avro.reflect.ReflectDatumWriter.write(Schema, Object, Encoder)",0.01178402970380593,0.03193877596208921
+org.apache.avro.tool.Main.Main(),org.apache.avro.tool.Main.Main(),0.009650713334681175,0.008047521236349164
+"org.apache.avro.generic.GenericDatumReader.readMap(Object, Schema, ResolvingDecoder)","org.apache.avro.generic.GenericDatumReader.readMap(Object, Schema, ResolvingDecoder)",0.04656707438581626,0.06553807945704276
+org.apache.avro.io.BinaryEncoder.setItemCount(long),org.apache.avro.io.BinaryEncoder.setItemCount(long),0.0006833890924246166,0.00046636873519620886
+"org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)","org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)",0.05237119415151489,0.016770385761418538
+org.apache.avro.io.ValidatingEncoder.setItemCount(long),org.apache.avro.io.ValidatingEncoder.setItemCount(long),0.001010040771231079,0.0006417885868737052
+"org.apache.avro.generic.GenericDatumWriter.writeArray(Schema, Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.writeArray(Schema, Object, Encoder)",0.03407854596109944,0.04239513888396201
+"org.apache.avro.generic.GenericDatumWriter.writeMap(Schema, Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.writeMap(Schema, Object, Encoder)",0.0359542636873427,0.03625350304604232
+org.apache.avro.io.BinaryEncoder.writeMapEnd(),org.apache.avro.io.BinaryEncoder.writeMapEnd(),0.0012239833983765601,0.0018587778406948345
+org.apache.avro.io.ValidatingEncoder.writeMapEnd(),org.apache.avro.io.ValidatingEncoder.writeMapEnd(),0.0015760500955219513,0.0009865670509840749
+org.apache.avro.io.ParsingEncoder.setItemCount(long),org.apache.avro.io.ParsingEncoder.setItemCount(long),0.0021370158850321677,0.001398765982761749
+"org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.writeString(Object, Encoder)",0.007015223996971505,0.0045023246032680235
+"org.apache.avro.generic.GenericDatumWriter.writeString(Schema, Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.writeString(Schema, Object, Encoder)",0.005817206636231457,0.003556691669265548
+"org.apache.avro.reflect.ReflectDatumReader.readString(Object, Schema, Decoder)","org.apache.avro.reflect.ReflectDatumReader.readString(Object, Decoder)",0.005356651105334262,0.0005375774767155792
+org.apache.avro.file.DataFileWriter.appendTo(File),org.apache.avro.file.DataFileWriter.appendTo(File),0.025944020526529107,0.003020830640460329
+org.apache.avro.Schema.equals(Object),org.apache.avro.Schema.equals(Object),0.04090044967408459,0.031471302668944795
+"org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)","org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)",0.033836761386394576,0.04689539723224241
+"org.apache.avro.generic.GenericDatumWriter.write(Schema, Object, Encoder)","org.apache.avro.generic.GenericDatumWriter.write(Schema, Object, Encoder)",0.09032878446331549,0.017771043392325242
+"org.apache.avro.generic.GenericData.compare(Object, Object, Schema, boolean)","org.apache.avro.generic.GenericData.compare(Object, Object, Schema, boolean)",0.11334317374489908,0.08976158118902434

@@ -1,0 +1,35 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.getWidth()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Sub.encodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.encode(byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Up.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.None.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Up.encodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Sub.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Average.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Optimum.checkBufsiz(byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.None.encodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Average.encodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Optimum.decode(byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.checkBufsiz(byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.encodeLine(byte[], byte[], int, int, int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.abovePixel(byte[], int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.decodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.leftPixel(byte[], int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.getHeight()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.aboveLeftPixel(byte[], int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.encodeLine(byte[], byte[], int, int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.paethPredictor(int, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.getBpp()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

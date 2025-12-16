@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonEncoder.writeString(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonEncoder.writeString(Utf8)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.util.Utf8.toString()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.util.Utf8.Utf8Converter.fromUtf8(byte[], int)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.topSymbol()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

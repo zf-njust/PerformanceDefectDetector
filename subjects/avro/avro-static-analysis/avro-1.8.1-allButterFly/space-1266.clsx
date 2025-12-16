@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.SocketServer.getPort()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.SocketServer.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.SocketServer.SocketServer(Responder, SocketAddress)" />
+<item name="org.apache.avro.Protocol.parse(String)" />
+<item name="org.apache.avro.ipc.Server.start()" />
+<item name="org.apache.avro.ipc.Server.join()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

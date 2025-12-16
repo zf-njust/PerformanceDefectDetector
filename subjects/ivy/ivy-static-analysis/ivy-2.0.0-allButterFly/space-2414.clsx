@@ -1,0 +1,60 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.openStream(URL)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(InputSource, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.settings.XmlSettingsParser.doParse(URL)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.openStream()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.PomReader(URL, Resource)" />
+<item name="org.apache.ivy.util.url.ApacheURLLister.retrieveListing(URL, boolean, boolean)" />
+<item name="org.apache.ivy.util.XMLHelper.parse(URL, URL, DefaultHandler, LexicalHandler)" />
+<item name="org.apache.ivy.core.settings.IvySettings.configureRepositories(boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.getFirstChildElement(Element, String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.url.URLHandler.getURLInfo(URL)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getHandler(String)" />
+<item name="org.apache.ivy.util.XMLHelper.toSystemId(URL)" />
+<item name="org.apache.ivy.util.FileUtil.readEntirely(BufferedReader)" />
+<item name="org.apache.ivy.util.XMLHelper.parseToDom(InputSource, EntityResolver)" />
+<item name="org.apache.ivy.util.url.URLHandler.URLInfo.getBodyCharset()" />
+<item name="org.apache.ivy.core.settings.IvySettings.validate()" />
+<item name="org.apache.ivy.plugins.repository.Resource.getName()" />
+<item name="org.apache.ivy.util.XMLHelper.newSAXParser(URL, InputStream)" />
+<item name="org.apache.ivy.util.url.URLHandlerRegistry.getDefault()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomReader.AddDTDFilterInputStream.AddDTDFilterInputStream(InputStream)" />
+<item name="org.apache.ivy.core.settings.IvySettings.addAllVariables(Map, boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getSettingsURL(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.XMLHelper.getDocBuilder(EntityResolver)" />
+<item name="org.apache.ivy.core.settings.IvySettings.validateAll(Collection)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.settings.Validatable.validate()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

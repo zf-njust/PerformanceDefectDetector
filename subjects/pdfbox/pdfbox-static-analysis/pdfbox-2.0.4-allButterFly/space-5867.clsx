@@ -1,0 +1,71 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.encode(int)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getEncodingName()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.codePointToName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getGIDToCode()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.UniUtil.getUniNameOfCodePoint(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getNameToCodeMap()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.codeToGID(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.getBaseFont()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDTrueTypeFont.extractCmapTable()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isFontSymbolic()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getDifferences()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getSymbolicFlag()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.getMappedFontName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isStandard14()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getBaseEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-10">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-11">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.Field.hashCode()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.computeHash()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.hashCode()" />
+<item name="org.apache.avro.Schema.getType()" />
+</group>
+</group>
+</group>
+</cluster>

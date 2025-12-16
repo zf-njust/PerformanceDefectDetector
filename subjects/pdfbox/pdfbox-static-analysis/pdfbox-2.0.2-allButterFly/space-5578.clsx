@@ -1,0 +1,78 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decryptString(COSString, long, long)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decrypt(COSBase, long, long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decryptDictionary(COSDictionary, long, long)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decryptStream(COSStream, long, long)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.decryptArray(COSArray, long, long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawOutputStream()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.io.IOUtils.toByteArray(InputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawInputStream()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.cos.COSString.setValue(byte[])" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAES256(InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.calcFinalKey(long, long)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataAESother(byte[], InputStream, OutputStream, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptDataRC4(byte[], InputStream, OutputStream)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.prepareAESInitializationVector(boolean, byte[], InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.setKey(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getMD5()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.fixByte(byte)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.swap(int[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte[], int, int, OutputStream)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.RC4Cipher.write(byte, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

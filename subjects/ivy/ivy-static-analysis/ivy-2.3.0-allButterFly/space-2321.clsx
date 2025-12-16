@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.isPrint()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.endElement(String, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getContext()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getContext()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedConfigurations(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.isMerge()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedDescription(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.toString()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedDependencies(ModuleDescriptor)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.flushAllMergedElements()" />
+<item name="org.apache.ivy.plugins.parser.xml.UpdateOptions.getMergedDescriptor()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.write(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getInheritedDescriptors()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritedItems(ModuleDescriptor, InheritableItem[], ItemPrinter, String, boolean)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.flushMergedElementsBefore(String)" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDescription()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getIndent()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.writeInheritanceComment(String, Object)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.collateInheritedItems(ModuleDescriptor, InheritableItem[])" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ItemPrinter.print(ModuleDescriptor, Object, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.fillIndents(int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.module.id.ModuleId.equals(Object)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.InheritableItem.getSourceModule()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

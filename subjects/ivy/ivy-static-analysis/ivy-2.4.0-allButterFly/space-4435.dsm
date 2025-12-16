@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 1 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 1 0 0 0 
+1 0 0 0 0 0 
+org.apache.ivy.core.settings.IvySettings.addReportOutputter(ReportOutputter)
+org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)
+org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)
+org.apache.ivy.plugins.report.ReportOutputter.getName()
+org.apache.ivy.core.settings.IvySettings.init(Object)
+org.apache.ivy.core.settings.IvySettings.addConfigured(ReportOutputter)

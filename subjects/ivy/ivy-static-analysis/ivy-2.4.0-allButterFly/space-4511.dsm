@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 1 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getArtifactId()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfoContentByTagName(String)
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.setName(String)
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.ExtraInfoHolder()
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.addPlugin(PomDependencyMgt)
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.setContent(String)
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.getName()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addExtraInfo(ExtraInfoHolder)
+org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.addExtraInfo(String, String)
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.ExtraInfoHolder(String, String)
+org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getGroupId()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfos()
+org.apache.ivy.plugins.parser.m2.PomDependencyMgt.getVersion()
+org.apache.ivy.core.module.descriptor.ExtraInfoHolder.getContent()
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.getExtraInfoByTagName(String)

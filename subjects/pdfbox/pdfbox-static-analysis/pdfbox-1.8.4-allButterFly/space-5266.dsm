@@ -1,0 +1,28 @@
+[Call]
+13
+0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 1 1 0 1 0 
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getZ()
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.clipToRange(float, PDRange)
+org.apache.pdfbox.pdmodel.common.PDRange.getMax()
+org.apache.pdfbox.pdmodel.common.PDRange.getMin()
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.fromRGB(float[])
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.calculateStage2FromXYZ(float)
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getX()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getY()
+org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab.fromCIEXYZ(float[])

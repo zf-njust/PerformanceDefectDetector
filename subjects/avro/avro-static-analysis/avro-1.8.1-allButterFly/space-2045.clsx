@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)" />
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.RecordSchema.setFields(List)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.LockableArrayList.add(E)" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(E...)" />
+<item name="org.apache.avro.Schema.Field.toString()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.LockableArrayList.ensureUnlocked()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

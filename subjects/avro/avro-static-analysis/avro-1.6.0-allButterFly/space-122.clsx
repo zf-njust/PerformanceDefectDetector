@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.SkipParser.skipTo(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.SkipParser.skipRepeater()" />
+<item name="org.apache.avro.io.parsing.SkipParser.skipSymbol(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.pushSymbol(Symbol)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipAction()" />
+<item name="org.apache.avro.io.parsing.SkipParser.SkipHandler.skipTopSymbol()" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+</group>
+</cluster>

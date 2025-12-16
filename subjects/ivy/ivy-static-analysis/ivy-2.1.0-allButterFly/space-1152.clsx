@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.write(ModuleDescriptor, ConfigurationScopeMapping, File)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.write(ModuleDescriptor, String, ConfigurationScopeMapping, File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printDependencies(ModuleDescriptor, ConfigurationScopeMapping, PrintWriter)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printModuleId(ModuleDescriptor, PrintWriter)" />
+<item name="org.apache.ivy.Ivy.getIvyHomeURL()" />
+<item name="org.apache.ivy.Ivy.getIvyVersion()" />
+<item name="org.apache.ivy.Ivy.getIvyDate()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.ConfigurationScopeMapping.getScope(String[])" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.ConfigurationScopeMapping.isOptional(String[])" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getHomePage()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.util.StringUtils.join(Object[], String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+</group>
+</group>
+</group>
+</cluster>

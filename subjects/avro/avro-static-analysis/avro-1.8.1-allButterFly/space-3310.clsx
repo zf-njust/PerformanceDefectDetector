@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.createEnum(String, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.ThriftDatumReader.createEnum(String, Schema)" />
+<item name="org.apache.avro.protobuf.ProtobufDatumReader.createEnum(String, Schema)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readEnum(Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.util.ClassUtils.forName(String)" />
+<item name="org.apache.avro.io.Decoder.readEnum()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.createEnum(String, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.EnumSymbol.EnumSymbol(Schema, String)" />
+</group>
+</group>
+</group>
+</cluster>

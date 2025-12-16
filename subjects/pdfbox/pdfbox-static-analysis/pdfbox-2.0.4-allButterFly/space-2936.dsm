@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 0 0 0 
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getAcroForm()
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)
+org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getNeedAppearances()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.constructAppearances()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSBoolean.getValue()
+org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.applyChange()

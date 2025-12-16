@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.JsonDecoder.doAction(Symbol, Symbol)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.JsonDecoder.error(String)" />
+<item name="org.apache.avro.io.JsonDecoder.makeParser(List)" />
+<item name="org.apache.avro.io.JsonDecoder.getVaueAsTree(JsonParser)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.JsonDecoder.JsonElement.JsonElement(JsonToken)" />
+<item name="org.apache.avro.io.JsonDecoder.JsonElement.JsonElement(JsonToken, String)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

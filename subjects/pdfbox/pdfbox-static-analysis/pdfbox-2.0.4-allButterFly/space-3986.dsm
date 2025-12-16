@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 0 0 0 
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.interactive.form.PDField.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdmodel.common.COSArrayList.convertIntegerCOSArrayToList(COSArray)
+org.apache.pdfbox.pdmodel.common.COSArrayList.COSArrayList(List, COSArray)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.interactive.form.PDChoice.getSelectedOptionsIndex()

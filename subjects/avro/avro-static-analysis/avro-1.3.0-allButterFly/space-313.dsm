@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 
+0 0 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)
+org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)
+org.apache.avro.Schema.EnumSchema.EnumSchema(Name, String, LockableArrayList)
+org.apache.avro.Schema.LockableArrayList.lock()
+org.apache.avro.Schema.Schema(Type)
+org.apache.avro.SchemaParseException.SchemaParseException(String)
+org.apache.avro.AvroTypeException.AvroTypeException(String)
+org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)

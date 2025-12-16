@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.BundleCapability.hashCode()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.core.ExportPackage.hashCode()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.Version.hashCode()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.ensureSplitted()" />
+</group>
+</group>
+</group>
+</cluster>

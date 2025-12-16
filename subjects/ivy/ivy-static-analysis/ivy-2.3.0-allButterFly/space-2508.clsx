@@ -1,0 +1,58 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.getRealConfs(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.handleConfiguration(boolean, String, IvyNode, String, String, boolean, IvyNodeUsage)" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getRealConfs(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.toString()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.toString()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isConfRequiredByMergedUsageOnly(String, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.addRootModuleConfigurations(IvyNodeUsage, String, String[])" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isRoot()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNode.getResolvedId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.getConfigurations(String)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.toString()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.addAndGetConfigurations(String)" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getExtends()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.toString()" />
+<item name="org.apache.ivy.core.resolve.ResolvedModuleRevision.getId()" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getResolvedModuleRevisionId()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getMainConf(String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.resolveSpecialConfigurations(String[])" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDefaultConf(String)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfiguration(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getPublicConfigurationsNames()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.isLoaded()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getDescriptor()" />
+</group>
+</group>
+</group>
+</cluster>

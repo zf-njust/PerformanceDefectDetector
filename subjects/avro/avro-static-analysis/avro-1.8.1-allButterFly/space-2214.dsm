@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 
+org.apache.avro.io.Encoder.writeFixed(ByteBuffer)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()
+org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)
+org.apache.avro.io.BufferedBinaryEncoder.writeFixed(ByteBuffer)
+org.apache.avro.io.BufferedBinaryEncoder.ensureBounds(int)
+org.apache.avro.io.BufferedBinaryEncoder.flush()
+org.apache.avro.io.BufferedBinaryEncoder.writeBoolean(boolean)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerFlush()
+org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)
+org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(ByteBuffer)
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)
+org.apache.avro.io.BufferedBinaryEncoder.writeByte(int)
+org.apache.avro.io.BinaryData.encodeBoolean(boolean, byte[], int)
+org.apache.avro.io.BufferedBinaryEncoder.writeFixed(byte[], int, int)

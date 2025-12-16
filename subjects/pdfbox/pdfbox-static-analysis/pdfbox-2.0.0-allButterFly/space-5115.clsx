@@ -1,0 +1,91 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.isEncryptMetaData()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.prepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.prepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setDecryptMetadata(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException.InvalidPasswordException(String)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientStringAt(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getOwnerEncryptionKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.validatePerms(PDEncryption, int, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setCurrentAccessPermission(AccessPermission)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getOwnerKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRevision()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setReadOnly()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getStdCryptFilterDictionary()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getLength()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getPermissions()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getUserKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getSHA1()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKey(byte[], byte[], byte[], byte[], byte[], int, byte[], int, int, boolean, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.SecurityHandler.setAES(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial.getPassword()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getPrivateKey()" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial.getCertificate()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getVersion()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.getUserPassword(byte[], byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.getCryptFilterMethod()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.getOwnerAccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler.appendCertInfo(StringBuilder, KeyTransRecipientId, X509Certificate, X509CertificateHolder)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.getDocumentIDBytes(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSString.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getUserEncryptionKey()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getRecipientsLength()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModify(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev56(byte[], boolean, byte[], byte[], byte[], byte[], int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.AccessPermission()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrintDegraded(boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanFillInForm(boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanModifyAnnotations(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.logIfStrongEncryptionMissing()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getCryptFilterDictionary(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanAssembleDocument(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeEncryptedKeyRev234(byte[], byte[], int, byte[], boolean, int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractContent(boolean)" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeRC4key(byte[], int, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanPrint(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDEncryption.getPerms()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setCanExtractForAccessibility(boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary.PDCryptFilterDictionary(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2A(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncateOrPad(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.AccessPermission.setPermissionBit(int, boolean)" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeSHA256(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.MessageDigests.getMD5()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.truncate127(byte[])" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.concat(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler.computeHash2B(byte[], byte[], byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

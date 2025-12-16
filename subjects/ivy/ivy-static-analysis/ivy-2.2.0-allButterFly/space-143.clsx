@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.settings.IvySettings.addVersionMatcher(VersionMatcher)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.configureDefaultVersionMatcher()" />
+<item name="org.apache.ivy.core.settings.IvySettings.addConfigured(VersionMatcher)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.version.LatestVersionMatcher.LatestVersionMatcher()" />
+<item name="org.apache.ivy.plugins.version.VersionRangeMatcher.VersionRangeMatcher()" />
+<item name="org.apache.ivy.plugins.version.SubVersionMatcher.SubVersionMatcher()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.version.ChainVersionMatcher.ChainVersionMatcher()" />
+<item name="org.apache.ivy.plugins.version.ChainVersionMatcher.add(VersionMatcher)" />
+<item name="org.apache.ivy.plugins.version.ExactVersionMatcher.ExactVersionMatcher()" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.getName()" />
+<item name="org.apache.ivy.core.settings.IvySettings.init(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.setSettings(ResolverSettings)" />
+<item name="org.apache.ivy.plugins.version.AbstractVersionMatcher.getSettings()" />
+<item name="org.apache.ivy.plugins.version.AbstractVersionMatcher.AbstractVersionMatcher(String)" />
+<item name="org.apache.ivy.plugins.IvySettingsAware.setSettings(IvySettings)" />
+</group>
+</group>
+</group>
+</cluster>

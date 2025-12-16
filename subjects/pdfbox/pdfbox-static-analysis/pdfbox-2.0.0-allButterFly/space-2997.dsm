@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getTrueTypeFont(String, File)
+org.apache.pdfbox.pdmodel.font.FontCache.getFont(FontInfo)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getType1Font(String, File)
+org.apache.pdfbox.pdmodel.font.FontCache.addFont(FontInfo, FontBoxFont)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.FSFontInfo.getFont()
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.readTrueTypeFont(String, File)
+org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)
+org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getOTFFont(String, File)

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 
+1 0 1 1 0 0 0 0 0 
+org.apache.pdfbox.rendering.PageDrawerParameters.getRenderer()
+org.apache.pdfbox.contentstream.PDFStreamEngine.addOperator(OperatorProcessor)
+org.apache.pdfbox.rendering.PageDrawerParameters.getPage()
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.PDFGraphicsStreamEngine(PDPage)
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.getName()
+org.apache.pdfbox.contentstream.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.examples.rendering.CustomPageDrawer.MyPageDrawer.MyPageDrawer(PageDrawerParameters)
+org.apache.pdfbox.examples.rendering.CustomPageDrawer.MyPDFRenderer.createPageDrawer(PageDrawerParameters)
+org.apache.pdfbox.rendering.PageDrawer.PageDrawer(PageDrawerParameters)

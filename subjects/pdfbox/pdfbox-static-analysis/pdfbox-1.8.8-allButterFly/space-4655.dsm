@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 0 0 1 0 1 0 
+org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.pdmodel.fdf.FDFDocument.setCatalog(FDFCatalog)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.pdmodel.fdf.FDFCatalog.FDFCatalog()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)
+org.apache.pdfbox.pdmodel.fdf.FDFCatalog.FDFCatalog(COSDictionary)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSDocument.getTrailer()
+org.apache.pdfbox.pdmodel.fdf.FDFDocument.getCatalog()

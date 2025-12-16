@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.getPermissions()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canFillInForm()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canExtractForAccessibility()
+org.apache.pdfbox.cos.COSInteger.intValue()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canModify()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canPrint()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canModifyAnnotations()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canPrintDegraded()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canExtractContent()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.canAssembleDocument()
+org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption.isPermissionBitOn(int)
+org.apache.pdfbox.cos.COSObject.getObject()

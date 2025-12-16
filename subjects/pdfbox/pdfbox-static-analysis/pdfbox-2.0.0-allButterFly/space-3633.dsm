@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 
+1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.util.Matrix.transformPoint(float, float)
+org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.interpolate(float, long, float, float)
+org.apache.pdfbox.pdmodel.graphics.shading.Vertex.Vertex(Point2D, float[])
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.common.PDRange.getMax()
+org.apache.pdfbox.pdmodel.common.PDRange.getMin()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext.readVertex(ImageInputStream, long, long, PDRange, PDRange, PDRange[], Matrix, AffineTransform)

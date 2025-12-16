@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.MapBuilder.values(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.NestedCompletion.complete(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.MapCompletion.MapCompletion(MapBuilder, Completion)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.NestedCompletion.NestedCompletion(PropBuilder, Completion)" />
+<item name="org.apache.avro.SchemaBuilder.Completion.complete(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.NestedCompletion.outerSchema(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+</group>
+</group>
+</group>
+</cluster>

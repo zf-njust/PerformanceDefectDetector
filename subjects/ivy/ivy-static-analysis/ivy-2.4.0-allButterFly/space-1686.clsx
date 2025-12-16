@@ -1,0 +1,60 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSiteDigestParser.parse(InputStream, UpdateSite)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.loadFromDigest(UpdateSite)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.downloadRepositoryResource(Resource, String, String, String, CacheResourceOptions, Repository)" />
+<item name="org.apache.ivy.plugins.repository.url.URLResource.URLResource(URL)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteLoader.findEntry(InputStream, String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.getDigestUri()" />
+<item name="org.apache.ivy.core.report.ArtifactDownloadReport.getLocalFile()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSiteDigestParser.DigestHandler.DigestHandler(UpdateSite)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.addChild(DH, ChildElementHandler)" />
+<item name="org.apache.ivy.osgi.updatesite.UpdateSiteDescriptor.UpdateSiteDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.FeatureHandler.FeatureHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.DelegatingHandler(String)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.UpdateSite.getUri()" />
+<item name="org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.getInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.PluginHandler.PluginHandler()" />
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.getName()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.RequiresHandler.RequiresHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.CopyrightHandler.CopyrightHandler()" />
+<item name="org.apache.ivy.osgi.repo.EditableRepoDescriptor.EditableRepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.DescriptionHandler.DescriptionHandler()" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.LicenseHandler.LicenseHandler()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.util.DelegatingHandler.setBufferingChar(boolean)" />
+<item name="org.apache.ivy.osgi.updatesite.xml.FeatureParser.ImportHandler.ImportHandler()" />
+</group>
+</group>
+</group>
+</cluster>

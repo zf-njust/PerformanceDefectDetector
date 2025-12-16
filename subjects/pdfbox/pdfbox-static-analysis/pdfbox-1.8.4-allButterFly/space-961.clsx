@@ -1,0 +1,97 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parse()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.ConformingPDDocument.load(File)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.ConformingPDFParser(File)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.getPDDocument()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessFile.RandomAccessFile(File, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.pdmodel.ConformingPDDocument.ConformingPDDocument(COSDocument)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parseXrefTable()" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parseTrailerInformation()" />
+<item name="org.apache.pdfbox.pdmodel.ConformingPDDocument.getObjectKeysFromPool()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.getObject(long, long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.common.XrefEntry.XrefEntry(int, int, int, String)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readDictionaryBackwards()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readInt()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.consumeWhitespaceBackwards()" />
+<item name="org.apache.pdfbox.pdmodel.common.XrefEntry.getByteOffset()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readObject(long, long)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readLineBackwards()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readLine()" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(RandomAccess, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDocument.setTrailer(COSDictionary)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readLongBackwards()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readWord()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readByteBackwards()" />
+<item name="org.apache.pdfbox.io.SequentialRead.read()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.pdmodel.ConformingPDDocument.putObjectInPool(COSBase, long, long)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readObjectBackwards()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.PDDocument(COSDocument, BaseParser)" />
+<item name="org.apache.pdfbox.cos.COSObject.COSObject(COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.consumeWhitespace()" />
+<item name="org.apache.pdfbox.pdmodel.ConformingPDDocument.getObjectFromPool(long, long)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readByte()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readNameBackwards()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.processCosObject(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSUnread.COSUnread(long, long, ConformingPDFParser)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObjectNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSString.createFromHexString(String)" />
+<item name="org.apache.pdfbox.cos.COSObject.setGenerationNumber(COSInteger)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.COSObjectKey(long, long)" />
+<item name="org.apache.pdfbox.cos.COSObject.setObject(COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.readBackwardUntilWhitespace()" />
+<item name="org.apache.pdfbox.pdfparser.ConformingPDFParser.parseNumber(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSNumber.get(String)" />
+<item name="org.apache.pdfbox.cos.COSUnread.COSUnread()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSBase.COSBase()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(String)" />
+<item name="org.apache.pdfbox.cos.COSUnread.COSUnread(long, long)" />
+<item name="org.apache.pdfbox.cos.COSString.createFromHexString(String, boolean)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setNumber(long)" />
+<item name="org.apache.pdfbox.persistence.util.COSObjectKey.setGeneration(long)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSString.COSString()" />
+<item name="org.apache.pdfbox.cos.COSString.append(int)" />
+</group>
+</group>
+</group>
+</cluster>

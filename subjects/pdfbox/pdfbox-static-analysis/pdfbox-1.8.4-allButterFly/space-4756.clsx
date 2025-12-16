@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.advancePointer()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.decodeNextScanline(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.setToBlack(byte[], int, int, int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.updatePointer(int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.nextNBits(int)" />
+<item name="org.apache.pdfbox.filter.TIFFFaxDecoder.nextLesserThan8Bits(int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

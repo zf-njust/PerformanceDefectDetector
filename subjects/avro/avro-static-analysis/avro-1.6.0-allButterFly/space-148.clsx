@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.hashCode()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.data.RecordBuilderBase.hashCode()" />
+<item name="org.apache.avro.Protocol.Message.hashCode()" />
+<item name="org.apache.avro.io.parsing.ValidatingGrammarGenerator.LitS.hashCode()" />
+<item name="org.apache.avro.Protocol.TwoWayMessage.hashCode()" />
+<item name="org.apache.avro.io.parsing.ResolvingGrammarGenerator.LitS2.hashCode()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.Schema.computeHash()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getType()" />
+</group>
+</group>
+</group>
+</cluster>

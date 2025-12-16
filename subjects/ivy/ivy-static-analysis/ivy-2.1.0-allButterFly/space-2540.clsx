@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.finalize()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.cleanup()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.FileUtil.forceDelete(File)" />
+</group>
+</group>
+</group>
+</cluster>

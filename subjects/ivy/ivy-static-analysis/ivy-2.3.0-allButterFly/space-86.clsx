@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.VersionRange.getEndVersion()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLWriter.appendVersion(StringBuffer, VersionRange)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.VersionRange.getStartVersion()" />
+<item name="org.apache.ivy.osgi.util.Version.toString()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isEndExclusive()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.isStartExclusive()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.Version.numbersAsString()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

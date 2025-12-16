@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.getMd()
+org.apache.ivy.core.module.id.ModuleRules.defineRule(MapMatcher, Object)
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConflictManager(ModuleId, PatternMatcher, ConflictManager)
+org.apache.ivy.plugins.parser.ParserSettings.getConflictManager(String)
+org.apache.ivy.core.module.id.ModuleId.ModuleId(String, String)
+org.apache.ivy.plugins.matcher.MapMatcher.MapMatcher(Map, PatternMatcher)
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.addError(String)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.core.module.id.ModuleId.getAttributes()
+org.apache.ivy.plugins.conflict.AbstractConflictManager.setName(String)
+org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.managerStarted(Attributes, String)
+org.apache.ivy.plugins.parser.ParserSettings.getMatcher(String)
+org.apache.ivy.plugins.conflict.FixedConflictManager.FixedConflictManager(String[])
+org.apache.ivy.core.cache.ParserSettingsMonitor.(Anon_1).getConflictManager(String)

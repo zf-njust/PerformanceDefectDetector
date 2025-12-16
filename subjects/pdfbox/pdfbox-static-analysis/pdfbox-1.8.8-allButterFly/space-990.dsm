@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 1 0 0 0 1 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.encoding.WinAnsiEncoding.WinAnsiEncoding()
+org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font(String)
+org.apache.pdfbox.pdmodel.font.PDFont.setBaseFont(String)
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.pdmodel.font.PDFont.PDFont()
+org.apache.pdfbox.pdmodel.font.PDType1Font.PDType1Font()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.encoding.Encoding.addCharacterEncoding(int, String)
+org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)
+org.apache.pdfbox.pdmodel.font.PDFont.setEncoding(COSBase)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.pdmodel.font.PDFont.setFontEncoding(Encoding)
+org.apache.pdfbox.pdmodel.font.PDSimpleFont.PDSimpleFont()

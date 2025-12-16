@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.setSelected(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexEditor.selectionChanged(SelectEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.getHexIndex()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.getNavigation()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.AddressPane.setSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.ASCIIPane.setSelected(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.StatusPane.updateStatus(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.size()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.putInSelected(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.lineNumber(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getPointForIndex(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.elementIndexInLine(int)" />
+</group>
+</group>
+</group>
+</cluster>

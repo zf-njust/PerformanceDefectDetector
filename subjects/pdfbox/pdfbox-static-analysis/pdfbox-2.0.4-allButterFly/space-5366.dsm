@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 1 0 0 1 0 1 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.Matrix.Matrix(float, float, float, float, float, float)
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.contentstream.operator.text.BeginText.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.endText()
+org.apache.pdfbox.util.Matrix.clone()
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.PDFStreamEngine.setTextMatrix(Matrix)
+org.apache.pdfbox.contentstream.operator.text.EndText.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.setTextLineMatrix(Matrix)
+org.apache.pdfbox.contentstream.PDFStreamEngine.beginText()
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)
+org.apache.pdfbox.contentstream.operator.state.SetMatrix.process(Operator, List)
+org.apache.pdfbox.util.Matrix.Matrix()

@@ -1,0 +1,41 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.adapt(BundleInfo, Requirement)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_7).childHanlded(DelegetingHandler)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementFilter.toString()" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getLocator()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementFilter.append(StringBuffer)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.Requirement.getFilter()" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.adapt(BundleInfo, boolean)" />
+<item name="org.apache.ivy.osgi.obr.xml.Requirement.isOptional()" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.extractFilter(RequirementFilter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.getSubFilters()" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.parseCompareFilter(CompareFilter, boolean)" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.obr.xml.UnsupportedFilterException.UnsupportedFilterException(String)" />
+<item name="org.apache.ivy.osgi.obr.xml.RequirementAdapter.getVersionRange()" />
+<item name="org.apache.ivy.osgi.obr.filter.UniOperatorFilter.getSubFilter()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.obr.filter.CompareFilter.getLeftValue()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(boolean, Version, boolean, Version)" />
+<item name="org.apache.ivy.osgi.obr.filter.CompareFilter.getRightValue()" />
+<item name="org.apache.ivy.osgi.obr.filter.CompareFilter.getOperator()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(String)" />
+</group>
+</group>
+</group>
+</cluster>

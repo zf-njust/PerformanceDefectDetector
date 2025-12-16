@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectionUtil.AccessorTestClass.validate(FieldAccess)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectionUtil.validate(FieldAccess)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectionUtil.AccessorTestClass.validField(FieldAccess, String, Object, Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.reflect.FieldAccessor.get(Object)" />
+<item name="org.apache.avro.reflect.ReflectionUtil.AccessorTestClass.accessor(FieldAccess, String)" />
+<item name="org.apache.avro.reflect.FieldAccessor.set(Object, Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.reflect.FieldAccess.getAccessor(Field)" />
+</group>
+</group>
+</group>
+</cluster>

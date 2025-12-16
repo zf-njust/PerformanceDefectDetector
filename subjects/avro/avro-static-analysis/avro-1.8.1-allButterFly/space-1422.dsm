@@ -1,0 +1,54 @@
+[Call]
+26
+0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+org.apache.avro.file.DataFileWriter.writeBlock()
+org.apache.avro.generic.GenericRecord.put(String, Object)
+org.apache.avro.io.BinaryEncoder.bytesBuffered()
+org.apache.avro.hadoop.io.AvroKeyValue.get()
+org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)
+org.apache.avro.hadoop.io.AvroKeyValue.setKey(K)
+org.apache.avro.mapreduce.AvroKeyValueRecordWriter.write(K, V)
+org.apache.avro.io.Encoder.writeFixed(byte[])
+org.apache.avro.file.DataFileWriter.resetBufferTo(int)
+org.apache.avro.hadoop.io.AvroKeyValue.setValue(V)
+org.apache.avro.hadoop.io.AvroDatumConverter.convert(INPUT)
+org.apache.avro.file.DataFileStream.DataBlock.setFlushOnWrite(boolean)
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)
+org.apache.avro.file.DataFileWriter.writeIfBlockFull()
+org.apache.avro.file.Codec.compress(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()
+org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()
+org.apache.avro.file.DataFileWriter.bufferInUse()
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.DatumWriter.write(D, Encoder)
+org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])
+org.apache.avro.file.DataFileWriter.AppendWriteException.AppendWriteException(Exception)
+org.apache.avro.file.DataFileWriter.append(D)
+org.apache.avro.file.DataFileWriter.assertOpen()

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 1 0 0 
+1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeArtPattern()
+org.apache.ivy.plugins.resolver.IvyRepResolver.ensureArtifactConfigured(ResolverSettings)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)
+org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)
+org.apache.ivy.plugins.resolver.IvyRepResolver.setArtpattern(String)
+org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeArtPattern()
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.IvyRepResolver.setArtroot(String)
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)

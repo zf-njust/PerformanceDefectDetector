@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 0 1 0 1 0 1 0 0 1 1 1 0 0 1 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSName.writePDF(OutputStream)
+org.apache.pdfbox.cos.COSString.getBytes()
+org.apache.pdfbox.contentstream.operator.Operator.getImageParameters()
+org.apache.pdfbox.cos.COSDictionary.keySet()
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.cos.COSDictionary.entrySet()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.util.Hex.getString(byte)
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeObject(Object)
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeToken(COSBase)
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.util.Hex.getBytes(byte)
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.cos.COSString.getForceHexForm()
+org.apache.pdfbox.cos.COSBoolean.writePDF(OutputStream)
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeToken(Operator)
+org.apache.pdfbox.contentstream.operator.Operator.getImageData()
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeTokens(Object...)
+org.apache.pdfbox.pdfwriter.ContentStreamWriter.writeTokens(List)
+org.apache.pdfbox.cos.COSInteger.writePDF(OutputStream)
+org.apache.pdfbox.pdfwriter.COSWriter.writeString(COSString, OutputStream)
+org.apache.pdfbox.cos.COSArray.get(int)
+org.apache.pdfbox.pdfwriter.COSWriter.writeString(byte[], boolean, OutputStream)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSFloat.writePDF(OutputStream)

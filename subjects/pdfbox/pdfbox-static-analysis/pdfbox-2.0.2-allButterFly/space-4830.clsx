@@ -1,0 +1,30 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.streampane.StreamTextView.getView()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.streampane.StreamPaneView.showStreamText(StyledDocument, ToolTipController)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.streampane.StreamTextView.StreamTextView(StyledDocument, ToolTipController)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.streampane.StreamTextView.initUI(StyledDocument)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.Searcher.getSearchPanel()" />
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.Searcher.Searcher(JTextComponent)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.SearchPanel.SearchPanel(DocumentListener, ChangeListener, ComponentListener, Action, Action)" />
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.SearchPanel.getPanel()" />
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.SearchEngine.SearchEngine(JTextComponent, Highlighter.HighlightPainter)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.debugger.ui.textsearcher.SearchPanel.initUI(DocumentListener, ChangeListener, ComponentListener)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.getCircularDependencyId(ModuleRevisionId[])" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.handleCircularDependency(ModuleRevisionId[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.circular.AbstractLogCircularDependencyStrategy.logCircularDependency(ModuleRevisionId[])" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyContext.getResolveData()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getOptions()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.getResolveId()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

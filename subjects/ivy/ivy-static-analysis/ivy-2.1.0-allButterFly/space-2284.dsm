@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.IvyRepResolver.updateWholeIvyPattern()
+org.apache.ivy.plugins.resolver.IvyRepResolver.listModules(OrganisationEntry)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findIvyNames(Map, String)
+org.apache.ivy.core.search.SearchEngine.listModuleEntries(OrganisationEntry)
+org.apache.ivy.plugins.resolver.BasicResolver.listModules(OrganisationEntry)
+org.apache.ivy.plugins.resolver.BasicResolver.findNames(Map, String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.convertM2TokenValuesForResourceSearch(Map)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()
+org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)
+org.apache.ivy.core.search.ModuleEntry.ModuleEntry(OrganisationEntry, String)
+org.apache.ivy.plugins.resolver.IvyRepResolver.ensureIvyConfigured(ResolverSettings)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.findTokenValues(Collection, List, Map, String)
+org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeIvyPattern()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.filterNames(Collection)
+org.apache.ivy.core.search.OrganisationEntry.getOrganisation()
+org.apache.ivy.plugins.resolver.ResolverSettings.filterIgnore(Collection)
+org.apache.ivy.plugins.resolver.DependencyResolver.listTokenValues(String, Map)
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.convertM2OrganizationForResourceSearch(String)
+org.apache.ivy.core.settings.IvySettings.getResolvers()
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)

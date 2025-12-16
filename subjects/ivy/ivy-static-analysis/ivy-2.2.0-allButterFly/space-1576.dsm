@@ -1,0 +1,32 @@
+[Call]
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.util.MessageLogger.debug(String)
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.setResource(Resource)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.plugins.repository.ResourceHelper.getLastModifiedOrDefault(Resource)
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setLastModified(long)
+org.apache.ivy.plugins.repository.Resource.getLastModified()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.util.Message.debug(String)
+org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.DefaultModuleDescriptor(ModuleDescriptorParser, Resource)
+org.apache.ivy.core.IvyContext.peekIvy()

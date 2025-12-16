@@ -1,0 +1,28 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherTask.complete()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.complete()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.close()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.SocketServer.close()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherTask.fail(String)" />
+<item name="org.apache.avro.mapred.tether.TetherTask.reduceFlush(MID, Collector)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherTask.close()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+</group>
+</group>
+</group>
+</cluster>

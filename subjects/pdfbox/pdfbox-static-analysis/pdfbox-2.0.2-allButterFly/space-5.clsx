@@ -1,0 +1,76 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.ui.DocumentEntry.getPage(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.ui.PDFTreeModel.getChild(Object, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.setItem(COSBase)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setIndex(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.keySet()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.getValue()" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.setKey(COSName)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setValue(COSBase)" />
+<item name="org.apache.pdfbox.debugger.ui.MapEntry.setValue(COSBase)" />
+<item name="org.apache.pdfbox.debugger.ui.ArrayEntry.setItem(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getObjects()" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.getDict()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.PDPage.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getPages()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.get(int)" />
+<item name="org.apache.pdfbox.debugger.ui.PageEntry.PageEntry(COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocumentCatalog()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.sanitizeType(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getResourceCache()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.get(int, COSDictionary, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages()" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.PDPage(COSDictionary, ResourceCache)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.getCOSName(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.getKids(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.COSDocument.getTrailer()" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.isPageTreeNode(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument, COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocumentCatalog.PDDocumentCatalog(PDDocument)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageTree.PDPageTree(COSDictionary, PDDocument)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.PDDocument.getDocument()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+</group>
+</group>
+</group>
+</cluster>

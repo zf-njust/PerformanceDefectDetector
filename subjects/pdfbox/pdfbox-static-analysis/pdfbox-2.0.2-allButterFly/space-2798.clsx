@@ -1,0 +1,60 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(String, boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo.usesUserProperties()" />
+<item name="org.apache.pdfbox.preflight.process.AcroFormValidationProcess.checkNeedAppearences(PreflightContext, PDAcroForm)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionURI.shouldTrackMousePosition()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionRemoteGoTo.shouldOpenInNewWindow()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.action.PDActionLaunch.shouldOpenInNewWindow()" />
+<item name="org.apache.pdfbox.preflight.xobject.XObjImageValidator.checkInterpolate()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.isFD()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo.isSuspect()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup.getOpen()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo.isMarked()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(String)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.preflight.process.AbstractProcess.addValidationError(PreflightContext, ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

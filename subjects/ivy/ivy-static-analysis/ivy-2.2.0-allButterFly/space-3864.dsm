@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.core.IvyContext.getMessageLogger()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfile.ExecutionEnvironmentProfile(String)
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.loadDefaultProfileList()
+org.apache.ivy.core.IvyContext.getContext()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfile.addPkgName(String)
+org.apache.ivy.core.IvyContext.getCurrentStack()
+org.apache.ivy.util.Message.getLogger()
+org.apache.ivy.util.MessageLogger.verbose(String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfile.getName()
+org.apache.ivy.core.IvyContext.IvyContext()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfile.getPkgNames()
+org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.loadProfile(Properties, Map, String)
+org.apache.ivy.util.Message.verbose(String)
+org.apache.ivy.core.IvyContext.peekIvy()

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 
+1 0 1 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 
+org.apache.ivy.util.MessageLoggerEngine.peekLogger()
+org.apache.ivy.util.Message.getDefaultLogger()
+org.apache.ivy.util.MessageLoggerEngine.pushLogger(MessageLogger)
+org.apache.ivy.ant.AntMessageLogger.register(ProjectComponent, Ivy)
+org.apache.ivy.util.Checks.checkNotNull(Object, String)
+org.apache.ivy.Ivy.getLoggerEngine()
+org.apache.ivy.ant.BuildBundleRepoDescriptorTask.doExecute.AntMessageLogger2.AntMessageLogger2()
+org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()
+org.apache.ivy.ant.AntMessageLogger.AntMessageLogger(ProjectComponent)

@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.parsing.Symbol.ResolvingAction.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.UnionAdjustAction.UnionAdjustAction(int, Symbol)
+org.apache.avro.io.parsing.Symbol.flatten(Symbol[], int, Symbol[], int, Map, Map)
+org.apache.avro.io.parsing.Symbol.ResolvingAction.ResolvingAction(Symbol, Symbol)
+org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])
+org.apache.avro.io.parsing.Symbol.SkipAction.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.Symbol(Kind)
+org.apache.avro.io.parsing.Symbol.UnionAdjustAction.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.SkipAction.SkipAction(Symbol)
+org.apache.avro.io.parsing.Symbol.Alternative.flatten(Map, Map)
+org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])
+org.apache.avro.io.parsing.Symbol.Fixup.Fixup(Symbol[], int)

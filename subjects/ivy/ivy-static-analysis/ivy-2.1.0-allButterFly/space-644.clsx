@@ -1,0 +1,37 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.findNode(ModuleRevisionId)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager.blackListIncompatibleCaller(VersionMatcher, IvyNode, IvyNode, IvyNode, Stack)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.clearEvictionDataInAllCallers(String, Stack)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.isBlacklisted(String)" />
+<item name="org.apache.ivy.core.report.ConfigurationResolveReport.getConfiguration()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getReport()" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getData()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getAskedDependencyId(ResolveData)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.IvyNodeEviction(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNodeBlacklist.IvyNodeBlacklist(IvyNode, IvyNode, IvyNode, IvyNode, String)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getCallers(String)" />
+<item name="org.apache.ivy.plugins.version.VersionMatcher.isDynamic(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeUsage.isBlacklisted(String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.VisitData.getNode()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+</group>
+</group>
+</cluster>

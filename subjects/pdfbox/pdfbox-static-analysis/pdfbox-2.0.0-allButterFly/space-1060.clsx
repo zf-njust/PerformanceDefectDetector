@@ -1,0 +1,85 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getEncoding()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.font.container.Type1Container.hasGlyph(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.getHeight(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getEncodingName(PDSimpleFont)" />
+<item name="org.apache.pdfbox.preflight.font.Type3FontValidator.getCharProc(int)" />
+<item name="org.apache.pdfbox.debugger.fontencodingpane.SimpleFont.getGlyphs(PDSimpleFont)" />
+<item name="org.apache.pdfbox.rendering.Type1Glyph2D.getPathForCharacterCode(int)" />
+<item name="org.apache.pdfbox.preflight.font.TrueTypeFontValidator.checkEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1CFont.codeToName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.isStandard14()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.getCharProc(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.codeToName(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getStandard14Width(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFontName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.getNameInFont(String)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getPath(String)" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphException.GlyphException(String, int, String)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getDifferences()" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.markAsInvalid(int, GlyphException)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getStandard14AFM()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isNonSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.getName(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getFontBoxFont()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontDescriptor()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding.getBaseEncoding()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.getCharProcs()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.isStandard14()" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.preflight.font.container.FontContainer.push(ValidationError)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isSymbolic()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3Font.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getName()" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.Encoding.contains(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType3CharProc.PDType3CharProc(PDType3Font, COSStream)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.hasGlyph(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.getAdobeGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.isFlagBitOn(int)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.getGlyphList()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDType1Font.isEmbedded()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDSimpleFont.toUnicode(int, GlyphList)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.pdmodel.font.encoding.GlyphList.toUnicode(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.Standard14Fonts.containsName(String)" />
+<item name="org.apache.pdfbox.pdmodel.font.UniUtil.getUniNameOfCodePoint(int)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.preflight.font.util.GlyphDetail.GlyphDetail(int, GlyphException)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptor.getFlags()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.toUnicode(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

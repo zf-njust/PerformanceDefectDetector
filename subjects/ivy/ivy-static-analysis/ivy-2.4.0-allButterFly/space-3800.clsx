@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.MessageLogger.rawlog(String, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MessageLoggerEngine.rawlog(String, int)" />
+<item name="org.apache.ivy.util.AbstractMessageLogger.rawinfo(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

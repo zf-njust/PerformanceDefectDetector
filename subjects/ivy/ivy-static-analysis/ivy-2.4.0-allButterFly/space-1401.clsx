@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.VsftpResolver.setReuseConnection(long)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.setReuseConnection(long)" />
+<item name="org.apache.ivy.plugins.resolver.VsftpResolver.getVsftpRepository()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.resolver.RepositoryResolver.getRepository()" />
+</group>
+</group>
+</group>
+</cluster>

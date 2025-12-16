@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.operator()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.append(StringBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.obr.xml.RequirementFilter.append(StringBuffer)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

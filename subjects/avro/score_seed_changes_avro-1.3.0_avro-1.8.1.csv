@@ -1,0 +1,14 @@
+method1,method2,method_score1,method_score2
+org.apache.avro.specific.SpecificData.getClass(Schema),org.apache.avro.specific.SpecificData.getClass(Schema),0.1558047322032086,0.12430895814712985
+org.apache.avro.generic.GenericData.induce(Object),org.apache.avro.generic.GenericData.induce(Object),0.19419620954664596,0.15802220868670974
+org.apache.avro.generic.GenericData.isArray(Object),org.apache.avro.generic.GenericData.isArray(Object),0.007278913539278544,0.006535050090849013
+"org.apache.avro.generic.GenericData.toString(Object, StringBuilder)","org.apache.avro.generic.GenericData.toString(Object, StringBuilder)",0.22974347581789617,0.1673950998718228
+org.apache.avro.generic.GenericDatumReader.peekArray(Object),org.apache.avro.generic.GenericDatumReader.peekArray(Object),0.009662239819042689,0.009625426497736575
+"org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)","org.apache.avro.generic.GenericDatumReader.newArray(Object, int, Schema)",0.018348111552106746,0.01263569390820587
+"org.apache.avro.generic.GenericDatumReader.addToArray(Object, long, Object)","org.apache.avro.generic.GenericDatumReader.addToArray(Object, long, Object)",0.008710215045489385,0.004772371808904213
+org.apache.avro.generic.GenericDatumWriter.getArraySize(Object),org.apache.avro.generic.GenericDatumWriter.getArraySize(Object),0.009659905154007123,0.005874191879702048
+org.apache.avro.generic.GenericDatumWriter.getArrayElements(Object),org.apache.avro.generic.GenericDatumWriter.getArrayElements(Object),0.009659903347433028,0.005875160571397562
+"org.apache.avro.specific.SpecificData.createSchema(java.lang.reflect.Type, Map<String, Schema>)","org.apache.avro.specific.SpecificData.createSchema(java.lang.reflect.Type, Map<String, Schema>)",0.18910549023591022,0.13378203411980996
+"org.apache.avro.generic.GenericDatumReader.read(D, Decoder)","org.apache.avro.generic.GenericDatumReader.read(D, Decoder)",0.05290217198303443,0.03626268337448073
+org.apache.avro.file.DataFileStream.hasNext(),org.apache.avro.file.DataFileStream.hasNext(),0.09264102010905972,0.08101480378662658
+"org.apache.avro.generic.GenericData.hashCode(Object, Schema)","org.apache.avro.generic.GenericData.hashCode(Object, Schema)",0.1498961717673606,0.11793086790963048

@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.parseXrefTable(long)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEndOfName(int)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.nextXrefObj(long, XRefType)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.isEOF()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.peek()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readObjectNumber()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLine()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.skipSpaces()" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readString()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readInt()" />
+<item name="org.apache.pdfbox.preflight.parser.PreflightParser.nextIsEOL()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isCR(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.unread(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isEOL(int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isDigit(int)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.XrefTrailerObj.XrefTrailerObj()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.read()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.getPosition()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isWhitespace(int)" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readStringNumber()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.readLong()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read()" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.isLF(int)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.peek()" />
+</group>
+</group>
+</group>
+</cluster>

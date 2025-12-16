@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.Type3StreamParser.processOperator(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFOperator, List)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDInlinedImage.setImageParameters(ImageParameters)" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageData()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDInlinedImage.setImageData(byte[])" />
+<item name="org.apache.pdfbox.util.PDFOperator.getImageParameters()" />
+<item name="org.apache.pdfbox.util.PDFOperator.getOperation()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)" />
+<item name="org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericData.get()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.Record.compareTo(Record)" />
+<item name="org.apache.avro.generic.GenericData.Array.compareTo(Array)" />
+<item name="org.apache.avro.generic.GenericData.Array.hashCode()" />
+<item name="org.apache.avro.generic.GenericData.Record.toString()" />
+<item name="org.apache.avro.generic.GenericData.Record.hashCode()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericData.hashCode(Object, Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.generic.GenericData.compare(Object, Object, Schema)" />
+<item name="org.apache.avro.generic.GenericData.Array.getSchema()" />
+<item name="org.apache.avro.generic.GenericData.toString(Object)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.generic.GenericContainer.getSchema()" />
+<item name="org.apache.avro.generic.IndexedRecord.get(int)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.Field.pos()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericData.toString(Object, StringBuilder)" />
+<item name="org.apache.avro.Schema.getEnumOrdinal(String)" />
+<item name="org.apache.avro.generic.GenericData.hashCodeAdd(int, Object, Schema)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.generic.GenericData.resolveUnion(Schema, Object)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericData.instanceOf(Schema, Object)" />
+<item name="org.apache.avro.generic.GenericArray.size()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.GenericData.getRecordSchema(Object)" />
+<item name="org.apache.avro.generic.GenericData.isEnum(Object)" />
+<item name="org.apache.avro.generic.GenericData.isFixed(Object)" />
+<item name="org.apache.avro.generic.GenericData.isArray(Object)" />
+<item name="org.apache.avro.generic.GenericData.isMap(Object)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.generic.GenericData.isBytes(Object)" />
+<item name="org.apache.avro.generic.GenericData.isString(Object)" />
+<item name="org.apache.avro.generic.GenericData.isRecord(Object)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

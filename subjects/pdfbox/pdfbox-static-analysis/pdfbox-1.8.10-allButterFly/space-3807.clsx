@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.checkConformanceLevel(List, String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.validatePDFAIdentifer(XMPMetadata)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.checkPartNumber(List, int)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String)" />
+<item name="org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation.unexpectedPrefixFoundError(String, String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+</group>
+</group>
+</group>
+</cluster>

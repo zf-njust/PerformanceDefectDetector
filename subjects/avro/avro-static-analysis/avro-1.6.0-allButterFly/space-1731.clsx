@@ -1,0 +1,29 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransceiver.transceive(List, Callback)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransceiver.transceive(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.CallFuture.get()" />
+<item name="org.apache.avro.ipc.CallFuture.CallFuture()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.CallFuture.CallFuture(Callback)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyTransceiver.writeDataPack(NettyDataPack)" />
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyDataPack.NettyDataPack(int, List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.NettyTransceiver.getChannel()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.NettyTransceiver.isChannelReady(Channel)" />
+</group>
+</group>
+</group>
+</cluster>

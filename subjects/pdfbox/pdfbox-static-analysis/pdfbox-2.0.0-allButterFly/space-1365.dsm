@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 1 0 1 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.DateConverter.parseTZoffset(String, GregorianCalendar, ParsePosition)
+org.apache.pdfbox.util.DateConverter.parseBigEndianDate(String, ParsePosition)
+org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])
+org.apache.pdfbox.cos.COSDictionary.getDate(String)
+org.apache.pdfbox.util.DateConverter.newGreg()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSString.getString()
+org.apache.pdfbox.util.DateConverter.skipOptionals(String, ParsePosition, String)
+org.apache.pdfbox.util.DateConverter.toCalendar(String)
+org.apache.pdfbox.util.DateConverter.skipString(String, String, ParsePosition)
+org.apache.pdfbox.util.DateConverter.parseDate(String, ParsePosition)
+org.apache.pdfbox.util.DateConverter.parseSimpleDate(String, String[], ParsePosition)
+org.apache.pdfbox.util.DateConverter.restrainTZoffset(long)
+org.apache.pdfbox.util.DateConverter.toCalendar(COSString)
+org.apache.pdfbox.cos.COSDictionary.getDate(COSName)
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.util.DateConverter.parseTimeField(String, ParsePosition, int, int)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.DateConverter.adjustTimeZoneNicely(GregorianCalendar, TimeZone)

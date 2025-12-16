@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.IvyNode.init(ResolveData)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNode.IvyNode(ResolveData, IvyNode, DependencyDescriptor)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.IvyNode(ResolveData, ModuleDescriptor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.IvyNode.getRoot()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.IvyNodeCallers.IvyNodeCallers(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getSettings()" />
+<item name="org.apache.ivy.core.resolve.IvyNodeEviction.IvyNodeEviction(IvyNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.ResolveEngine.getSettings()" />
+</group>
+</group>
+</group>
+</cluster>

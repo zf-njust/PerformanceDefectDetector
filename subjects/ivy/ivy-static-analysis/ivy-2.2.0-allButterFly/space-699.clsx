@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumberSeparator()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersion()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseQualifier()" />
+<item name="org.apache.ivy.osgi.util.Version.Version(int, int, int, String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumber()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.skipWhiteSpace()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.readNext()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.unread()" />
+</group>
+</group>
+</group>
+</cluster>

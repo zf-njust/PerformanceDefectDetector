@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readFully(int)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.read(byte[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.seek(long)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.io.RandomAccessBufferedFileInputStream.readPage()" />
+</group>
+</group>
+</group>
+</cluster>

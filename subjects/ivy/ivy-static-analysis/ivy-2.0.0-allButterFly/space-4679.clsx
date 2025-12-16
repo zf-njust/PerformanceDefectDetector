@@ -1,0 +1,57 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getClassifier()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printDependencies(ModuleDescriptor, PrintWriter, PomWriterOptions, int, boolean)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ConfigurationScopeMapping.getScope(String[])" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.isOptional()" />
+<item name="org.apache.ivy.util.extendable.ExtendableItem.getExtraAttribute(String)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getScope()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.getDependencies(ModuleDescriptor, PomWriterOptions)" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getAllDependencyArtifacts()" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyRevisionId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getVersion()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getModuleRevisionId()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getModuleConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getAllExcludeRules()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getType()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getArtifact()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getMapping()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getExtraDependencies()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ConfigurationScopeMapping.isOptional(String[])" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor.getType()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.ExtraDependency.getGroup()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.canExclude()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.indent(PrintWriter, int)" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printDependency(PrintWriter, int, String, String, String, String, String, String, boolean, ExcludeRule[])" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getOrganisation()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.core.module.descriptor.DependencyDescriptor.getDependencyConfigurations(String[])" />
+<item name="org.apache.ivy.util.ConfigurationUtils.replaceWildcards(String[], ModuleDescriptor)" />
+<item name="org.apache.ivy.core.module.id.ModuleRevisionId.getModuleId()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorWriter.printExclusions(ExcludeRule[], PrintWriter, int)" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getDependencies()" />
+<item name="org.apache.ivy.plugins.parser.m2.PomWriterOptions.getConfs()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getVisibility()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurations()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.equals(Object)" />
+<item name="org.apache.ivy.core.module.id.ArtifactId.getModuleId()" />
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+<item name="org.apache.ivy.core.module.descriptor.ModuleDescriptor.getConfigurationsNames()" />
+<item name="org.apache.ivy.core.module.descriptor.ExcludeRule.getId()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

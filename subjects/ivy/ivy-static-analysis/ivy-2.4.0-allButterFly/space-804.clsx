@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.isExact(PatternMatcher, ModuleId)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.module.id.ModuleId.getName()" />
+<item name="org.apache.ivy.core.module.id.ModuleId.getOrganisation()" />
+<item name="org.apache.ivy.plugins.matcher.MatcherHelper.isExact(PatternMatcher, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.matcher.Matcher.isExact()" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+</group>
+</group>
+</group>
+</cluster>

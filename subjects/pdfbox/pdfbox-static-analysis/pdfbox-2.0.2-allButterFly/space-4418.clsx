@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.getByte(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.keyTyped(KeyEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.hexChanged(HexChangedEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.getNewValue()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectEvent.SelectEvent(int, String)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireSelectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getByte(char[])" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.fireHexValueChanged(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.isHexChar(char)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getChars(byte)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.getByteIndex()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.fireModelChanged(int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.SelectionChangeListener.selectionChanged(SelectEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangedEvent.HexChangedEvent(byte, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModelChangeListener.hexModelChanged(HexModelChangedEvent)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModelChangedEvent.HexModelChangedEvent(int, int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexChangeListener.hexChanged(HexChangedEvent)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

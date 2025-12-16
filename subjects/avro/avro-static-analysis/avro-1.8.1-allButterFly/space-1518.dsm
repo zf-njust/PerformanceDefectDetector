@@ -1,0 +1,26 @@
+[Call]
+12
+0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+org.apache.avro.io.parsing.Parser.pushProduction(Symbol)
+org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)
+org.apache.avro.io.ParsingEncoder.depth()
+org.apache.avro.io.JsonEncoder.startItem()
+org.apache.avro.io.parsing.Parser.expandStack()
+org.apache.avro.io.JsonEncoder.writeArrayStart()
+org.apache.avro.io.ParsingEncoder.push()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.io.parsing.Parser.advance(Symbol)
+org.apache.avro.io.JsonEncoder.writeMapStart()
+org.apache.avro.io.ParsingEncoder.startItem()
+org.apache.avro.AvroTypeException.AvroTypeException(String)

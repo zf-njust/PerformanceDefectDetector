@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.NettyTransportCodec.NettyFrameDecoder.NettyFrameDecoder()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.NettyServer.NettyServer.(Anon_1).getPipeline()" />
+<item name="org.apache.avro.ipc.NettyTransceiver.NettyTransceiver.(Anon_1).getPipeline()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.NettyTransceiver.createNettyClientAvroHandler()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

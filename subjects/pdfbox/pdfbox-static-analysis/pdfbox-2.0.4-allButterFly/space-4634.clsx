@@ -1,0 +1,73 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getDashArray()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.rendering.PageDrawer.getAnnotationBorder(PDAnnotation, PDBorderStyleDictionary)" />
+<item name="org.apache.pdfbox.rendering.PageDrawer.getStroke()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getStyle()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getMiterLimit()" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getBorder()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(float[], PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineWidth()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.transformWidth(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.getPhase()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineDashPattern()" />
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getWidth()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineJoin()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getDashStyle()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getLineCap()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(String, String)" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleY()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern.PDLineDashPattern(COSArray, int)" />
+<item name="org.apache.pdfbox.util.Matrix.getScaleX()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getColor(COSName)" />
+<item name="org.apache.pdfbox.util.Matrix.getShearX()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.util.Matrix.getShearY()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(String, float)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(String, COSBase)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName, String)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.PDColor(COSArray, PDColorSpace)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getFloat(COSName, float)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

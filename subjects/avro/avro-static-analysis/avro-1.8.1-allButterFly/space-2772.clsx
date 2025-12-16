@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroJob.newDataModelInstance(Class, Configuration)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroJob.createDataModel(Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.createMapOutputDataModel(Configuration)" />
+<item name="org.apache.avro.mapred.AvroJob.createInputDataModel(Configuration)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroJob.getDataModelClass(Configuration)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

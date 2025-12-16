@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus.getCOSObject()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDLab.setBlackPoint(PDTristimulus)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalGray.setBlackPoint(PDTristimulus)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDLab.setWhitePoint(PDTristimulus)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalGray.setWhitepoint(PDTristimulus)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.setBlackPoint(PDTristimulus)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB.setWhitepoint(PDTristimulus)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

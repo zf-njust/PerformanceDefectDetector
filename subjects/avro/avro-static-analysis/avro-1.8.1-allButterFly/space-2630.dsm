@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+1 0 0 1 1 0 
+0 0 0 0 0 1 
+0 0 1 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.avro.io.EncoderFactory.get()
+org.apache.avro.specific.SpecificData.getEncoder(ObjectOutput)
+org.apache.avro.io.DirectBinaryEncoder.DirectBinaryEncoder(OutputStream)
+org.apache.avro.io.EncoderFactory.directBinaryEncoder(OutputStream, BinaryEncoder)
+org.apache.avro.specific.ExternalizableOutput.ExternalizableOutput(ObjectOutput)
+org.apache.avro.io.DirectBinaryEncoder.configure(OutputStream)

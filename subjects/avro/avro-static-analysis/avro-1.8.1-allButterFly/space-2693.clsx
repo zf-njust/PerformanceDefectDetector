@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DeflateCodec.getDeflater()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DeflateCodec.compress(ByteBuffer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.DeflateCodec.getOutputBuffer(int)" />
+<item name="org.apache.avro.file.DeflateCodec.writeAndClose(ByteBuffer, OutputStream)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

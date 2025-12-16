@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaCompatibility.ReaderWriter.ReaderWriter(Schema, Schema)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaCompatibility.ReaderWriterCompatiblityChecker.getCompatibility(Schema, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaCompatibility.ReaderWriterCompatiblityChecker.calculateCompatibility(Schema, Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.SchemaCompatibility.lookupWriterField(Schema, Field)" />
+<item name="org.apache.avro.SchemaCompatibility.schemaNameEquals(Schema, Schema)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getEnumSymbols()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.Field.aliases()" />
+<item name="org.apache.avro.SchemaCompatibility.objectsEqual(Object, Object)" />
+<item name="org.apache.avro.Schema.Field.name()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+<item name="org.apache.avro.Schema.getAliases()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

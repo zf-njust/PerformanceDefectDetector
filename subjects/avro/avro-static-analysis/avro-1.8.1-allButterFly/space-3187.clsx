@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaCompatibility.objectsEqual(Object, Object)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaCompatibility.schemaNameEquals(Schema, Schema)" />
+<item name="org.apache.avro.SchemaCompatibility.SchemaPairCompatibility.equals(Object)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Schema.getAliases()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

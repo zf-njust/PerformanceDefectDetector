@@ -1,0 +1,73 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokeJavaComposite()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.strokePath()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.processTextPosition(TextPosition)" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.drawImage(Image, AffineTransform)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.setValue(int, int, float)" />
+<item name="org.apache.pdfbox.pdmodel.text.PDTextState.getRenderingMode()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()" />
+<item name="org.apache.pdfbox.util.Matrix.createAffineTransform()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getPaint(int)" />
+<item name="org.apache.pdfbox.util.Matrix.getYPosition()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()" />
+<item name="org.apache.pdfbox.util.Matrix.getXPosition()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.drawString(String, int[], Graphics, float, AffineTransform, float, float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getTextState()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokingColor()" />
+<item name="org.apache.pdfbox.util.Matrix.copy()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFont.getFontMatrix()" />
+<item name="org.apache.pdfbox.util.TextPosition.getCharacter()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getJavaColor()" />
+<item name="org.apache.pdfbox.util.TextPosition.getFont()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokeJavaComposite()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.calculateStroke()" />
+<item name="org.apache.pdfbox.util.Matrix.getValue(int, int)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMatrix.getValue(int, int)" />
+<item name="org.apache.pdfbox.util.TextPosition.getTextPos()" />
+<item name="org.apache.pdfbox.util.TextPosition.getCodePoints()" />
+<item name="org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentClippingPath()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineWidth()" />
+<item name="org.apache.pdfbox.util.Matrix.getXScale()" />
+<item name="org.apache.pdfbox.pdmodel.common.PDMatrix.PDMatrix(COSArray)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorState.createColor()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentTransformationMatrix()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getPaint(int)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toString()" />
+<item name="org.apache.pdfbox.cos.COSArray.toFloatArray()" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.cos.COSFloat.setValue(float)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.createColorSpace()" />
+<item name="org.apache.pdfbox.util.Matrix.reset()" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+<item name="org.apache.pdfbox.cos.COSArray.toString()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

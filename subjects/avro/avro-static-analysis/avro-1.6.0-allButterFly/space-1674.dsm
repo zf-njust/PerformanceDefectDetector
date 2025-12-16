@@ -1,0 +1,52 @@
+[Call]
+25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)
+org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)
+org.apache.avro.file.DataFileWriter.flush()
+org.apache.avro.file.DataFileWriter.writeBlock()
+org.apache.avro.ipc.trace.FileSpanStorage.DiskWriterThread.assureCurrentWriter()
+org.apache.avro.file.Codec.getName()
+org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)
+org.apache.avro.file.Codec.compress(ByteBuffer)
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)
+org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()
+org.apache.avro.file.CodecFactory.createInstance()
+org.apache.avro.file.DataFileWriter.assertNotOpen()
+org.apache.avro.file.DataFileWriter.close()
+org.apache.avro.io.Encoder.writeFixed(byte[], int, int)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.file.DataFileWriter.sync()
+org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)
+org.apache.avro.io.Encoder.writeFixed(byte[])
+org.apache.avro.file.CodecFactory.deflateCodec(int)
+org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])
+org.apache.avro.ipc.trace.FileSpanStorage.floorSecond(long)
+org.apache.avro.io.Encoder.writeLong(long)
+org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.tell()
+org.apache.avro.file.DataFileWriter.assertOpen()

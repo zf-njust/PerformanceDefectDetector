@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getDefaultLogger()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.MessageLoggerEngine.clearProblems()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.peekLogger()" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.setShowProgress(boolean)" />
+<item name="org.apache.ivy.util.MessageLoggerEngine.isShowProgress()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.MessageLoggerEngine.getLoggerStack()" />
+<item name="org.apache.ivy.util.MessageLogger.isShowProgress()" />
+<item name="org.apache.ivy.util.MessageLogger.clearProblems()" />
+<item name="org.apache.ivy.util.MessageLogger.setShowProgress(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.Iface.ping()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.Processor.ping.getResult(I, ping_args)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.ping_result.ping_result()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

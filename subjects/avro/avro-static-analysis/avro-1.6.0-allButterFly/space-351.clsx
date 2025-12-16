@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.Codec.toString()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.CodecFactory.toString()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.Codec.getName()" />
+</group>
+</group>
+</group>
+</cluster>

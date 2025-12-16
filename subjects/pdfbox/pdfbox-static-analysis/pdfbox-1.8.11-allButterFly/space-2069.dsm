@@ -1,0 +1,42 @@
+[Call]
+20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 1 1 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 1 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.setPattern(PDPatternResources)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.PDPatternResources(COSDictionary)
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.util.PDFStreamEngine.getResources()
+org.apache.pdfbox.cos.COSDictionary.keySet()
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.util.operator.SetNonStrokingPattern.process(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources.PDTilingPatternResources(COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.cos.COSName.getName()
+org.apache.pdfbox.util.operator.OperatorProcessor.getContext()
+org.apache.pdfbox.pdmodel.PDResources.getPatterns()
+org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPatternResources.PDShadingPatternResources(COSDictionary)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.create(COSDictionary)

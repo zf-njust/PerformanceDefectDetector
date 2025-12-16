@@ -1,0 +1,112 @@
+Release Notes -- Apache PDFBox -- Version 1.8.5
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.4 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-198] - Tiff image problems
+[PDFBOX-205] - Miscellaneous errors on valid files
+[PDFBOX-778] - OutOfMemory when extracting text from pdf
+[PDFBOX-1069] - Ubuntu throws exceptions when fonts missing
+[PDFBOX-1074] - TIFFFaxDecoder5 when using PDFImageWriter
+[PDFBOX-1147] - Printing a PDF with an image inside show black.
+[PDFBOX-1164] - Inline image parsing error causes RuntimeException + FIX
+[PDFBOX-1664] - NullPointerException in PDType1Font.java
+[PDFBOX-1708] - IndexOutOfBoundsException on convertToImage with an embedded Fax-Image
+[PDFBOX-1811] - java.io.IOException: Object at offset does not end with 'endobj'
+[PDFBOX-1860] - HTML converter escapes formatting close tags
+[PDFBOX-1870] - PDFunctionType0 incorrect
+[PDFBOX-1876] - Incorrect color for DeviceN type 4 shading object
+[PDFBOX-1877] - Radial Shading (type 3) fails Ghent Workgroup tests
+[PDFBOX-1880] - [PATCH] Type 1 Shading must not ignore current transformation matrix
+[PDFBOX-1882] - Negative array size exception when reading a string from a OTF font
+[PDFBOX-1884] - Avoid NPE when encountering null PDComplexFileSpecification
+[PDFBOX-1887] - Bugfixes + Optimization of Gouraud Shading
+[PDFBOX-1888] - JBIG2Filter is creating an ImageInputStream (with temp file) and not 
+                closing it
+[PDFBOX-1896] - Support MMType1 (Multiple Master) Fonts
+[PDFBOX-1901] - null check confusing
+[PDFBOX-1917] - Rendering hangs
+[PDFBOX-1924] - Gouraud shading: detect empty triangles
+[PDFBOX-1966] - Type 1, 4 and 5 shadings for shFill()
+[PDFBOX-1970] - 1.8 shadings are sometimes flipped
+[PDFBOX-1977] - LZWFilter fails
+[PDFBOX-1984] - PDFont documentation correction needed for getFontWidth and getFontHeight
+[PDFBOX-1988] - PDFBox ExtractText issue of PDF with no embedded fonts
+[PDFBOX-1998] - PDF rendering with reversed colors
+[PDFBOX-1999] - JBIG2Filter - FlateDecoded Globals Table
+[PDFBOX-2004] - PDF2Image hangs/loops forever processing PDF
+[PDFBOX-2008] - Off-by-one error in BaseParser.readGenerationNumber()
+[PDFBOX-2016] - Stream parsing still incorrect if length value is wrong
+[PDFBOX-2018] - Dashed line with incorrect line cap
+[PDFBOX-2024] - /Rotate 180 PDF is not displayed correctly in PDFReader app
+[PDFBOX-2026] - cannot load jpg into new pdf
+[PDFBOX-2030] - Using new PDPixelMap() results in black image in PDF
+[PDFBOX-2031] - GrayScale images become inverted
+[PDFBOX-2032] - [PATCH] TTF Type12 IOException: Invalid Characters codes
+[PDFBOX-2035] - Ignore badly formatted toUnicode CMaps
+[PDFBOX-2036] - Add test with LZW fail sequence
+[PDFBOX-2042] - ColorSpace with empty Range array
+
+Improvement
+
+[PDFBOX-52] - DCTFilter is not implemented yet
+[PDFBOX-615] - shfill operator needs implementation
+[PDFBOX-1734] - ImageIoUtil.WriteImage doesn't work with tiff images
+[PDFBOX-1869] - Implementation for ShadingType 1
+[PDFBOX-1897] - There are some errors within the source code documentation (javadocs)
+[PDFBOX-1902] - generics added to maputil
+[PDFBOX-1909] - Close open streams
+[PDFBOX-1914] - Shading package: Move "function" methods to base class and more 
+                refactoring
+[PDFBOX-1946] - Running within an Applet has many AccessControlException 's
+[PDFBOX-1964] - PDFMergerUtility support merging using non sequential parser
+[PDFBOX-1975] - Improve TestImageIOUtils unit tests to check image resolution and 
+                compression
+[PDFBOX-2010] - make "protected PDFont getDescendantFont()" public as it is in 2.0.0
+[PDFBOX-2039] - Class PDDocument should implement java.io.Closeable
+
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/

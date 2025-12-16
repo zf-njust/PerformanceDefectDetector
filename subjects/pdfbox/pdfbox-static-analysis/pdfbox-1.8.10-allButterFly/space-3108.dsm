@@ -1,0 +1,28 @@
+[Call]
+13
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 1 1 0 1 1 0 0 0 1 1 0 0 
+1 0 1 1 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getKey()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeCRLF()
+org.apache.pdfbox.persistence.util.COSObjectKey.getGeneration()
+org.apache.pdfbox.persistence.util.COSObjectKey.getNumber()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)
+org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.checkPos()
+org.apache.pdfbox.pdfwriter.COSWriter.writeXrefEntry(COSWriterXRefEntry)
+org.apache.pdfbox.pdfparser.PDFXRefStream.addEntry(COSWriterXRefEntry)
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.isFree()
+org.apache.pdfbox.pdfwriter.COSWriterXRefEntry.getOffset()
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)
+org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()

@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 1 0 0 0 0 0 
+0 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.BitFlagHelper.getFlag(COSDictionary, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)
+org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.getDictionary()
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue.isVRequired()
+org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.cos.COSNumber.intValue()

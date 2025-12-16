@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Alternative.Alternative(Symbol[], String[])" />
+<item name="org.apache.avro.io.parsing.Symbol.IntCheckAction.IntCheckAction(int)" />
+<item name="org.apache.avro.io.parsing.Symbol.Terminal.Terminal(String)" />
+<item name="org.apache.avro.io.parsing.Symbol.ImplicitAction.ImplicitAction(boolean)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+</group>
+</group>
+</group>
+</cluster>

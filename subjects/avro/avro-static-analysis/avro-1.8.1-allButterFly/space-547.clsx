@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroSerialization.AvroWrapperDeserializer.deserialize(AvroWrapper)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroWrapper.datum(T)" />
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<item name="org.apache.avro.mapred.AvroValue.AvroValue(T)" />
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+<item name="org.apache.avro.mapred.AvroWrapper.datum()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,82 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.cos.COSArray.iterator()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getClassNames()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromArray(COSArray)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement.getAttributes()" />
+<item name="org.apache.pdfbox.pdfparser.PDFXrefStreamParser.parse()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.setRevisionNumber(T, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.cos.COSBase.isDirect()" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.isEOF()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.write(int)" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+<item name="org.apache.pdfbox.pdfparser.SequentialSource.read(byte[])" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int)" />
+<item name="org.apache.pdfbox.pdfparser.XrefTrailerResolver.setXRef(COSObjectKey, long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.setStructureElement(PDStructureElement)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.Revisions()" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.writeEOL()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.COSObjectKey(long, int)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.create(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSBase.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.addObjectToWrite(COSBase)" />
+<item name="org.apache.pdfbox.cos.COSInteger.longValue()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.addObject(T, int)" />
+<item name="org.apache.pdfbox.cos.COSNull.accept(ICOSVisitor)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode.getCOSObject()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.writeReference(COSBase)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.visitFromDictionary(COSDictionary)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getGeneration()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.setOnNewLine(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject.PDLayoutAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSBase.setDirect(boolean)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject.PDListAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.getRevisionNumbers()" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.isOnNewLine()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getObjectKey(COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject.PDExportFormatAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions.getObjects()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject.PDTableAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSUpdateInfo.isNeedToBeUpdated()" />
+<item name="org.apache.pdfbox.cos.COSArray.getInt(int, int)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.cos.ICOSVisitor.visitFromNull(COSNull)" />
+<item name="org.apache.pdfbox.cos.COSObjectKey.getNumber()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject.PDPrintFieldAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDDefaultAttributeObject.PDDefaultAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject.PDUserAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setNumber(long)" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject.PDStandardAttributeObject(COSDictionary)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getNumber()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject.PDAttributeObject(COSDictionary)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.PDDictionaryWrapper(COSDictionary)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

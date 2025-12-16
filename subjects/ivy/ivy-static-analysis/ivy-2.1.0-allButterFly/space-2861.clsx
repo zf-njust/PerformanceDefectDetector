@@ -1,0 +1,68 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getBasedir()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.clean()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getRepositoryCacheRoot()" />
+<item name="org.apache.ivy.plugins.resolver.CacheResolver.ensureConfigured()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getArtifactPattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.addIvyPattern(String)" />
+<item name="org.apache.ivy.util.FileUtil.forceDelete(File)" />
+<item name="org.apache.ivy.plugins.resolver.ResolverSettings.getRepositoryCacheManagers()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getIvyPattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.getIvyPatterns()" />
+<item name="org.apache.ivy.plugins.resolver.FileSystemResolver.addArtifactPattern(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCacheIvyPattern()" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.addIvyPattern(String)" />
+<item name="org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.addArtifactPattern(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCacheArtifactPattern()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultRepositoryCacheBasedir()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultCache()" />
+<item name="org.apache.ivy.util.Checks.checkAbsolute(String, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.getVariable(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.settings.IvySettings.getDefaultIvyUserDir()" />
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultCache(File)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.cache.RepositoryCacheManager.getName()" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultIvyUserDir(File)" />
+<item name="org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setBasedir(File)" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.setVariable(String, String, boolean)" />
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.settings.IvySettings.setVariable(String, String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+</group>
+</cluster>

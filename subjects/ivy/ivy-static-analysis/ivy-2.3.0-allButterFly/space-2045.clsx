@@ -1,0 +1,19 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.fireTransferError()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)" />
+<item name="org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)" />
+<item name="org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)" />
+<item name="org.apache.ivy.plugins.repository.TransferListener.transferProgress(TransferEvent)" />
+<item name="org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)" />
+</group>
+</group>
+</group>
+</cluster>

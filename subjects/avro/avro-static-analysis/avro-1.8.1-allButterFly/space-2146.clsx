@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectDatumReader.readString(Object, Decoder)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericDatumReader.readString(Object, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Decoder.readString(Utf8)" />
+</group>
+</group>
+</group>
+</cluster>

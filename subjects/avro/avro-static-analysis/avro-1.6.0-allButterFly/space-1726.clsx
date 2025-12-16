@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.AsyncClient.ping_call.getResult()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.Client.Client(org.apache.thrift.protocol.TProtocol)" />
+<item name="org.apache.avro.thrift.test.Foo.Client.recv_ping()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.ping_result.ping_result()" />
+</group>
+</group>
+</group>
+</cluster>

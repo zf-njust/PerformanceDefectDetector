@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)
+org.apache.avro.file.CodecFactory.createInstance()
+org.apache.avro.file.DataFileWriter.assertNotOpen()
+org.apache.avro.file.Codec.toString()
+org.apache.avro.file.Codec.getName()
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)

@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 1 0 
+0 0 0 0 
+0 0 0 0 
+1 1 0 0 
+org.apache.avro.mapred.tether.TetherOutputService.output(ByteBuffer)
+org.apache.avro.mapred.tether.TetherPartitioner.setNextPartition(int)
+org.apache.avro.mapred.tether.TetherData.TetherData(ByteBuffer)
+org.apache.avro.mapred.tether.TetherOutputService.outputPartitioned(int, ByteBuffer)

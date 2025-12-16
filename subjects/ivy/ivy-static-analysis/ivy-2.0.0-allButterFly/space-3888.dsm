@@ -1,0 +1,24 @@
+[Call]
+11
+0 1 0 0 1 0 0 0 0 1 0 
+0 0 1 1 0 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.IBiblioResolver.ensureConfigured(ResolverSettings)
+org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern()
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setArtifactPatterns(List)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.isM2compatible()
+org.apache.ivy.plugins.resolver.ResolverSettings.configureRepositories(boolean)
+org.apache.ivy.plugins.resolver.IBiblioResolver.isUsepoms()
+org.apache.ivy.plugins.resolver.IBiblioResolver.getWholePattern()
+org.apache.ivy.plugins.resolver.AbstractResolver.getSettings()
+org.apache.ivy.plugins.resolver.IBiblioResolver.setPattern(String)
+org.apache.ivy.plugins.resolver.ResolverSettings.getVariable(String)
+org.apache.ivy.plugins.resolver.AbstractPatternsBasedResolver.setIvyPatterns(List)

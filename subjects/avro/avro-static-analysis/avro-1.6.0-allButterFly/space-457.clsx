@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper(T)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroRecordReader.createKey()" />
+<item name="org.apache.avro.mapred.AvroValue.AvroValue(T)" />
+<item name="org.apache.avro.mapred.AvroWrapper.AvroWrapper()" />
+<item name="org.apache.avro.mapred.AvroKey.AvroKey(T)" />
+<item name="org.apache.avro.mapred.AvroUtf8InputFormat.Utf8LineRecordReader.createKey()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

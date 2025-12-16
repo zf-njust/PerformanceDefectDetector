@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericRecordBuilder.get(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericRecordBuilder.get(Field)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.Field.pos()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.generic.GenericData.Record.get(int)" />
+</group>
+</group>
+</group>
+</cluster>

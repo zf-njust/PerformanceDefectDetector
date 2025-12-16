@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.util.Version.numbersAsString()
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.addAttr(AttributesImpl, String, String)
+org.apache.ivy.osgi.core.BundleCapability.getType()
+org.apache.ivy.osgi.core.BundleCapability.getRawVersion()
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapability(BundleCapability, ContentHandler)
+org.apache.ivy.osgi.core.BundleCapability.getName()
+org.apache.ivy.osgi.core.ExportPackage.getUses()
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, ContentHandler)
+org.apache.ivy.osgi.obr.xml.OBRXMLWriter.saxCapabilityProperty(String, String, String, ContentHandler)

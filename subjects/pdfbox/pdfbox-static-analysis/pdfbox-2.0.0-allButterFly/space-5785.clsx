@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.paintInEdit(Graphics, byte, int, int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.paintComponent(Graphics)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.totalLine()" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.getBytesForLine(int)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getSelectedString(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexModel.size()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.getChars(byte)" />
+<item name="org.apache.pdfbox.debugger.hexviewer.HexPane.setDefault(Graphics)" />
+</group>
+</group>
+</group>
+</cluster>

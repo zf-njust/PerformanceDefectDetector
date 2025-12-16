@@ -1,0 +1,38 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.TraceClientServlet.doPost(HttpServletRequest, HttpServletResponse)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.TraceCollection.getExecutionPathHash()" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.getTraceCollections(List)" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.getFullSpans(List)" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.getTraces(List)" />
+<item name="org.apache.avro.ipc.trace.TraceClientServlet.collectAllSpans(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.HttpTransceiver.HttpTransceiver(URL)" />
+<item name="org.apache.avro.ipc.trace.Trace.executionPathHash()" />
+<item name="org.apache.avro.ipc.trace.Util.longValue(ID)" />
+<item name="org.apache.avro.ipc.trace.Util.idsEqual(ID, ID)" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.SpanAggregationResults.SpanAggregationResults()" />
+<item name="org.apache.avro.ipc.trace.SpanAggregator.TraceFormationResults.TraceFormationResults()" />
+<item name="org.apache.avro.ipc.trace.Trace.extractTrace(List)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceCollection(Trace)" />
+<item name="org.apache.avro.ipc.trace.Util.getAllEvents(Span)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.ipc.trace.Trace.printBrief()" />
+<item name="org.apache.avro.ipc.trace.Trace.getRoot()" />
+<item name="org.apache.avro.ipc.trace.Trace.getNode(Span, HashMap, HashMap)" />
+<item name="org.apache.avro.ipc.trace.Trace.Trace(TraceNode)" />
+<item name="org.apache.avro.ipc.trace.TraceCollection.TraceNodeStats.TraceNodeStats(TraceNode)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.ipc.trace.Trace.printBriefRecurse(List)" />
+<item name="org.apache.avro.ipc.trace.TraceNode.TraceNode(Span, List)" />
+</group>
+</group>
+</group>
+</cluster>

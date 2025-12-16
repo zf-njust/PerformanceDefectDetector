@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.openStream(URL)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.url.URLHandler.openStream(URL)" />
+<item name="org.apache.ivy.util.url.URLHandlerDispatcher.getHandler(String)" />
+</group>
+</group>
+</group>
+</cluster>

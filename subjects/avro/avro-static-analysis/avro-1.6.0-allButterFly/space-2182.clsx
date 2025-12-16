@@ -1,0 +1,12 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherPartitioner.configure(JobConf)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroJob.getMapOutputSchema(Configuration)" />
+</group>
+</group>
+</group>
+</cluster>

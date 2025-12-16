@@ -1,0 +1,48 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.JsonProperties.getObjectProps()" />
+<item name="org.apache.avro.JsonProperties.getObjectProp(String)" />
+<item name="org.apache.avro.data.Json.parseJson(String)" />
+<item name="org.apache.avro.data.Json.readObject(Decoder)" />
+<item name="org.apache.avro.Schema.Field.defaultVal()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.data.Json.read(Decoder)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Decoder.readBoolean()" />
+<item name="org.apache.avro.io.Decoder.readString()" />
+<item name="org.apache.avro.io.Decoder.readMapStart()" />
+<item name="org.apache.avro.io.Decoder.arrayNext()" />
+<item name="org.apache.avro.data.Json.JsonType.values()" />
+<item name="org.apache.avro.io.Decoder.readArrayStart()" />
+<item name="org.apache.avro.io.Decoder.readNull()" />
+<item name="org.apache.avro.io.Decoder.readLong()" />
+<item name="org.apache.avro.io.Decoder.readIndex()" />
+<item name="org.apache.avro.io.Decoder.mapNext()" />
+<item name="org.apache.avro.io.Decoder.readDouble()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.util.internal.JacksonUtils.toObject(JsonNode, Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.equals(Object)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getField(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.equalCachedHash(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

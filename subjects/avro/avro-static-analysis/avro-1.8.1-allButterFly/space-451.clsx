@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.FooOrBar._Fields.findByThriftId(int)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.FooOrBar._Fields.findByThriftIdOrThrow(int)" />
+<item name="org.apache.avro.thrift.test.FooOrBar.fieldForId(int)" />
+<item name="org.apache.avro.thrift.test.FooOrBar.standardSchemeReadValue(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TField)" />
+<item name="org.apache.avro.thrift.test.FooOrBar.tupleSchemeReadValue(org.apache.thrift.protocol.TProtocol, short)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

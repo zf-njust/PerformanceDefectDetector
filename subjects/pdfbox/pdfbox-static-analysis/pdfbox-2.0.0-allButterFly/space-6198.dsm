@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+0 0 1 1 
+0 0 0 0 
+1 0 0 0 
+org.apache.pdfbox.contentstream.operator.Operator.getName()
+org.apache.pdfbox.contentstream.operator.graphics.ShadingFill.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine.shadingFill(COSName)
+org.apache.pdfbox.contentstream.operator.MissingOperandException.MissingOperandException(Operator, List)

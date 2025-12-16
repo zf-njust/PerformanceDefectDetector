@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.reflect.ReflectResponder.getDatumReader(Schema)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumReader.ReflectDatumReader(Schema)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+</group>
+</group>
+</group>
+</cluster>

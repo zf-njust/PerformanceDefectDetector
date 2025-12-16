@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.preflight.graphic.DeviceColorSpaceHelper.DeviceColorSpaceHelper(PreflightContext, PDColorSpace)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.graphic.ColorSpaceHelperFactory.getColorSpaceHelper(PreflightContext, PDColorSpace, ColorSpaceRestriction)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.preflight.graphic.NoPatternColorSpaceHelper.NoPatternColorSpaceHelper(PreflightContext, PDColorSpace)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.preflight.graphic.StandardColorSpaceHelper.StandardColorSpaceHelper(PreflightContext, PDColorSpace)" />
+</group>
+</group>
+</group>
+</cluster>

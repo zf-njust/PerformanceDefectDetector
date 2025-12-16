@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.LogicalTypes.Decimal.getScale()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.Conversions.DecimalConversion.toBytes(BigDecimal, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversions.DecimalConversion.fromFixed(GenericFixed, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversions.DecimalConversion.toFixed(BigDecimal, Schema, LogicalType)" />
+<item name="org.apache.avro.Conversions.DecimalConversion.fromBytes(ByteBuffer, Schema, LogicalType)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.GenericFixed.bytes()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

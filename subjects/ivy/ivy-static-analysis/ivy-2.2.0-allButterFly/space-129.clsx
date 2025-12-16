@@ -1,0 +1,54 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.BundleRepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.obr.xml.OBRXMLParser.RepositoryHandler.handleAttributes(Attributes)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.log(int, String)" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getOptionalLongAttribute(Attributes, String, Long)" />
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.setName(String)" />
+<item name="org.apache.ivy.osgi.repo.BundleRepoDescriptor.setLastModified(Long)" />
+<item name="org.apache.ivy.osgi.core.ExecutionEnvironmentProfileProvider.getInstance()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.parseLong(String, String)" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getLocator()" />
+<item name="org.apache.ivy.util.Message.log(int, String)" />
+<item name="org.apache.ivy.osgi.util.DelegetingHandler.getLocation(Locator)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.warn(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.util.Message.error(String)" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.MessageLogger.warn(String)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+<item name="org.apache.ivy.util.MessageLogger.error(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.repo.RepoDescriptor.RepoDescriptor(URI, ExecutionEnvironmentProfileProvider)" />
+</group>
+</group>
+</group>
+</cluster>

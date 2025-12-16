@@ -1,0 +1,25 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.TIFFUtil.setCompressionType(ImageWriteParam, BufferedImage)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.ImageIOUtil.writeImage(BufferedImage, String, OutputStream, int, float)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.ImageIOUtil.setDPI(IIOMetadata, int, String)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.updateMetadata(IIOMetadata, BufferedImage, int)" />
+<item name="org.apache.pdfbox.util.JPEGUtil.updateMetadata(IIOMetadata, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.util.TIFFUtil.createAsciiField(int, String, String)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createLongField(int, String, long)" />
+<item name="org.apache.pdfbox.util.ImageIOUtil.getOrCreateChildNode(IIOMetadataNode, String)" />
+<item name="org.apache.pdfbox.util.MetaUtil.debugLogMetadata(IIOMetadata, String)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createRationalField(int, String, int, int)" />
+<item name="org.apache.pdfbox.util.TIFFUtil.createShortField(int, String, int)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

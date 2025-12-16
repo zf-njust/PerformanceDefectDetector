@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()
+org.apache.pdfbox.util.operator.OperatorProcessor.process(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getStrokingColor()
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.operator.SetStrokingColor.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.util.operator.OperatorProcessor.getContext()
+org.apache.pdfbox.util.PDFOperator.getOperation()

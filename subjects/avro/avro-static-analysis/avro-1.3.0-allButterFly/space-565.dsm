@@ -1,0 +1,56 @@
+[Call]
+27
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.BinaryEncoder.SimpleByteWriter.SimpleByteWriter(OutputStream)
+org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)
+org.apache.avro.Schema.Names.Names()
+org.apache.avro.io.Encoder.setItemCount(long)
+org.apache.avro.io.DatumWriter.setSchema(Schema)
+org.apache.avro.Schema.toString()
+org.apache.avro.Schema.writeProps(JsonGenerator)
+org.apache.avro.io.BinaryEncoder.BinaryEncoder(OutputStream)
+org.apache.avro.Schema.getName()
+org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)
+org.apache.avro.file.Codec.getName()
+org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.BufferedFileOutputStream(OutputStream)
+org.apache.avro.Schema.toJson(Names, JsonGenerator)
+org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)
+org.apache.avro.io.Encoder.startItem()
+org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)
+org.apache.avro.io.Encoder.writeMapStart()
+org.apache.avro.Schema.toString(boolean)
+org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)
+org.apache.avro.file.CodecFactory.createInstance()
+org.apache.avro.io.Encoder.writeMapEnd()
+org.apache.avro.io.BinaryEncoder.ReuseByteWriter.ReuseByteWriter(ByteBufferOutputStream)
+org.apache.avro.file.CodecFactory.nullCodec()
+org.apache.avro.file.DataFileWriter.assertNotOpen()
+org.apache.avro.file.DataFileWriter.generateSync()
+org.apache.avro.file.DataFileWriter.init(OutputStream)
+org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.PositionFilter.PositionFilter(OutputStream)

@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 1 0 1 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.DependencyResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()
+org.apache.ivy.plugins.resolver.ChainResolver.download(ArtifactOrigin, DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.ArtifactDownloadReport(Artifact)
+org.apache.ivy.core.report.ArtifactDownloadReport.setDownloadStatus(DownloadStatus)

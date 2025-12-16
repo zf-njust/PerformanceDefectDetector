@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 
+0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 
+1 0 0 0 0 0 0 
+org.apache.ivy.plugins.repository.TransferEvent.checkEventType(int)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferEvent(TransferEvent)
+org.apache.ivy.plugins.repository.TransferListener.transferProgress(TransferEvent)
+org.apache.ivy.plugins.repository.TransferEvent.setEventType(int)
+org.apache.ivy.core.event.IvyEvent.addAttribute(String, String)
+org.apache.ivy.plugins.repository.AbstractRepository.fireTransferError()
+org.apache.ivy.plugins.repository.TransferEvent.getElapsedTime(int, int)

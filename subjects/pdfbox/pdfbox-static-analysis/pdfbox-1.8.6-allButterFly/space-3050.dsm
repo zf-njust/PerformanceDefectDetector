@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 0 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSNumber.floatValue()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getColorSpace()
+org.apache.pdfbox.cos.COSArray.getObject(int)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getName()
+org.apache.pdfbox.cos.COSArray.toFloatArray()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getJavaColor()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.getJavaColorSpace()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.getPaint(int)
+org.apache.pdfbox.cos.COSArray.size()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.toString()
+org.apache.pdfbox.util.operator.pagedrawer.FillNonZeroRule.process(PDFOperator, List)
+org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getPaint(int)
+org.apache.pdfbox.pdmodel.graphics.color.PDColorState.createColor()
+org.apache.pdfbox.pdfviewer.PageDrawer.fillPath(int)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokeJavaComposite()
+org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddRule.process(PDFOperator, List)
+org.apache.pdfbox.cos.COSArray.toString()
+org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace.createColorSpace()
+org.apache.pdfbox.pdfviewer.PageDrawer.getLinePath()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getNonStrokingColor()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getCurrentClippingPath()
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()

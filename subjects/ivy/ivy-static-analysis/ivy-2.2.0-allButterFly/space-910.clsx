@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.Configurator.addMacroElement(String, boolean)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.util.Configurator.MacroDef.addElement(String, boolean)" />
+<item name="org.apache.ivy.util.Configurator.getCurrent()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Configurator.MacroDef.addConfiguredElement(Element)" />
+<item name="org.apache.ivy.util.Configurator.ObjectDescriptor.getObject()" />
+<item name="org.apache.ivy.util.Configurator.Element.setOptional(boolean)" />
+<item name="org.apache.ivy.util.Configurator.Element.setName(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.Configurator.Element.getName()" />
+</group>
+</group>
+</group>
+</cluster>

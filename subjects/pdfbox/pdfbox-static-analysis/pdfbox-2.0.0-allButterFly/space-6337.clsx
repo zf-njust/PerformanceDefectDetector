@@ -1,0 +1,40 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsStackSize()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.contentstream.operator.state.Restore.process(Operator, List)" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.validateNumberOfGraphicStates(Operator)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.contentstream.PDFStreamEngine.restoreGraphicsState()" />
+<item name="org.apache.pdfbox.contentstream.operator.state.EmptyGraphicsStackException.EmptyGraphicsStackException()" />
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String)" />
+<item name="org.apache.pdfbox.contentstream.operator.Operator.getName()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String, Throwable)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.preflight.content.PreflightStreamEngine.registerError(String, String, boolean, Throwable)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.preflight.PreflightContext.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String, String, Throwable)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setWarning(boolean)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.preflight.PreflightDocument.addValidationError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.setPageNumber(Integer)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.ValidationError(String)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.preflight.ValidationResult.addError(ValidationError)" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationError.isWarning()" />
+<item name="org.apache.pdfbox.preflight.ValidationResult.ValidationResult(boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

@@ -1,0 +1,16 @@
+[Call]
+7
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()
+org.apache.ivy.plugins.resolver.BasicResolver.getResource(String)
+org.apache.ivy.core.module.descriptor.Artifact.getModuleRevisionId()
+org.apache.ivy.plugins.resolver.BasicResolver.download.(Anon_4).resolve(Artifact)
+org.apache.ivy.plugins.resolver.util.ResolvedResource.ResolvedResource(Resource, String)
+org.apache.ivy.core.cache.ArtifactOrigin.getLocation()
+org.apache.ivy.core.module.id.ModuleRevisionId.getRevision()

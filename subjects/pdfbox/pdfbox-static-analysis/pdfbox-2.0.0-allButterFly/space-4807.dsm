@@ -1,0 +1,10 @@
+[Call]
+4
+0 0 0 0 
+0 0 0 0 
+1 1 0 1 
+0 0 0 0 
+org.apache.pdfbox.contentstream.operator.state.EmptyGraphicsStackException.EmptyGraphicsStackException()
+org.apache.pdfbox.contentstream.PDFStreamEngine.restoreGraphicsState()
+org.apache.pdfbox.contentstream.operator.state.Restore.process(Operator, List)
+org.apache.pdfbox.contentstream.PDFStreamEngine.getGraphicsStackSize()

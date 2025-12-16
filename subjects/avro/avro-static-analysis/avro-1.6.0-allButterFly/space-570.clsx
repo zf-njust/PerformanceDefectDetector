@@ -1,0 +1,13 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.HadoopReducerBase.configure(JobConf)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.AvroReducer.configure(JobConf)" />
+<item name="org.apache.avro.mapred.HadoopReducerBase.getReducer(JobConf)" />
+</group>
+</group>
+</group>
+</cluster>

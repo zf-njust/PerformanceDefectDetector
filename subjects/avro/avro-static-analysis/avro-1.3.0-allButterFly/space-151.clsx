@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.writeFloat(float)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.check()" />
+<item name="org.apache.avro.io.BinaryEncoder.encodeFloat(float, byte[], int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.ensure(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BlockingBinaryEncoder.BlockedValue.check(BlockedValue, int)" />
+<item name="org.apache.avro.io.BlockingBinaryEncoder.compact()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryEncoder.encodeLong(long, OutputStream)" />
+</group>
+</group>
+</group>
+</cluster>

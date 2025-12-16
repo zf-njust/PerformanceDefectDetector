@@ -1,0 +1,61 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.updateLastCommandTime()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.sendCommand(String, boolean, boolean, long)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.readResponse(boolean, long)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.ensureConnectionOpened()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.closeConnection()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.sendSingleCommand(String)" />
+<item name="org.apache.ivy.util.Message.info(String)" />
+<item name="org.apache.ivy.util.Message.debug(String)" />
+<item name="org.apache.ivy.core.IvyThread.IvyThread(Runnable)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getHost()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.checkInterrupted()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getSingleCommand(String)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.exec(String)" />
+<item name="org.apache.ivy.util.MessageLogger.info(String)" />
+<item name="org.apache.ivy.Ivy.checkInterrupted()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getAuthentication()" />
+<item name="org.apache.ivy.core.event.EventManager.addIvyListener(IvyListener, String)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getConnectionCommand()" />
+<item name="org.apache.ivy.util.Message.verbose(String)" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.readResponse(boolean)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+<item name="org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getUsername()" />
+<item name="org.apache.ivy.Ivy.getEventManager()" />
+<item name="org.apache.ivy.util.MessageLogger.debug(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.Ivy.isInterrupted()" />
+<item name="org.apache.ivy.core.event.IvyEventFilter.IvyEventFilter(String, String, PatternMatcher)" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+<item name="org.apache.ivy.core.event.EventManager.addIvyListener(IvyListener, Filter)" />
+<item name="org.apache.ivy.util.MessageLogger.verbose(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.event.IvyEventFilter.parseExpression(String)" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.event.FilteredIvyListener.FilteredIvyListener(IvyListener, Filter)" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.plugins.matcher.PatternMatcher.getMatcher(String)" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.filter.NotFilter.NotFilter(Filter)" />
+<item name="org.apache.ivy.util.filter.OrFilter.OrFilter(Filter, Filter)" />
+<item name="org.apache.ivy.util.filter.AndFilter.AndFilter(Filter, Filter)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

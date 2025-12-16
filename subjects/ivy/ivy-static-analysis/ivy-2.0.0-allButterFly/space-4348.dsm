@@ -1,0 +1,34 @@
+[Call]
+16
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 1 1 0 0 0 0 1 0 0 0 0 0 1 0 0 
+org.apache.ivy.core.resolve.ResolveData.getSettings()
+org.apache.ivy.core.resolve.IvyNode.findNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.getCallers(String)
+org.apache.ivy.core.resolve.ResolveData.isEqual(Object, Object)
+org.apache.ivy.core.resolve.ResolveData.isSubMap(Map, Map)
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNodeCallers.IvyNodeCallers(IvyNode)
+org.apache.ivy.core.resolve.IvyNodeCallers.Caller.getModuleRevisionId()
+org.apache.ivy.core.resolve.IvyNode.init(ResolveData)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.core.resolve.ResolveEngine.getSettings()
+org.apache.ivy.core.resolve.IvyNodeCallers.getCallers(String)
+org.apache.ivy.core.resolve.IvyNodeEviction.IvyNodeEviction(IvyNode)
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.clearEvictionDataInAllCallers(String, Stack)

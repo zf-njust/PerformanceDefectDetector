@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 0 1 
+0 0 1 0 0 0 1 1 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream)
+org.apache.pdfbox.encryption.ARCFour.write(byte, OutputStream)
+org.apache.pdfbox.encryption.ARCFour.setKey(byte[])
+org.apache.pdfbox.pdmodel.encryption.SecurityHandler.encryptData(long, long, InputStream, OutputStream, boolean)
+org.apache.pdfbox.encryption.ARCFour.write(byte[], int, int, OutputStream)
+org.apache.pdfbox.encryption.ARCFour.fixByte(byte)
+org.apache.pdfbox.encryption.ARCFour.write(InputStream, OutputStream)
+org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)
+org.apache.pdfbox.encryption.ARCFour.swap(int[], int, int)

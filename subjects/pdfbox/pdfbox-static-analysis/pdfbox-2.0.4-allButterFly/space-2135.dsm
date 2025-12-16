@@ -1,0 +1,50 @@
+[Call]
+24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 1 0 0 1 0 0 0 1 1 0 0 1 0 0 0 0 
+0 1 0 1 0 0 1 1 0 0 1 0 1 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()
+org.apache.pdfbox.cos.COSArray.COSArray()
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.cos.COSDictionary.COSDictionary()
+org.apache.pdfbox.cos.COSDocument.COSDocument()
+org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()
+org.apache.pdfbox.cos.COSName.getPDFName(String)
+org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()
+org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()
+org.apache.pdfbox.cos.COSDocument.setTrailer(COSDictionary)
+org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()
+org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()
+org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()
+org.apache.pdfbox.cos.COSName.COSName(String, boolean)
+org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)
+org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()
+org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)
+org.apache.pdfbox.pdmodel.PDDocument.PDDocument(MemoryUsageSetting)
+org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)
+org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)

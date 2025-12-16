@@ -1,0 +1,78 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.io.RandomAccessRead.length()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.doWriteSignature()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.available()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.initWriter(OutputStream, RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdfparser.FDFParser.FDFParser(InputStream)" />
+<item name="org.apache.pdfbox.cos.COSStream.createOutputStream.(Anon_1).close()" />
+<item name="org.apache.pdfbox.cos.COSStream.createRawOutputStream.(Anon_2).close()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.PDFParser(RandomAccessRead, String, InputStream, String, ScratchFile)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.getPos()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setOutput(OutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.pdfparser.FDFParser.init()" />
+<item name="org.apache.pdfbox.pdfparser.PDFParser.init(ScratchFile)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.getPosition()" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.setStandardOutput(COSStandardOutputStream)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer(InputStream)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface.sign(InputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.pdfwriter.COSWriter.getStandardOutput()" />
+<item name="org.apache.pdfbox.cos.COSString.COSString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSString.toHexString()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.restorePosition()" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.COSParser(RandomAccessRead)" />
+<item name="org.apache.pdfbox.pdfwriter.COSStandardOutputStream.COSStandardOutputStream(OutputStream, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.write(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSDocument.COSDocument(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer()" />
+<item name="org.apache.pdfbox.util.Hex.getString(byte)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSString.setValue(byte[])" />
+<item name="org.apache.pdfbox.pdfparser.BaseParser.BaseParser(SequentialSource)" />
+<item name="org.apache.pdfbox.pdfparser.COSParser.setEOFLookupRange(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.seek(long)" />
+<item name="org.apache.pdfbox.pdfparser.RandomAccessSource.RandomAccessSource(RandomAccessRead)" />
+<item name="org.apache.pdfbox.io.RandomAccessRead.seek(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.io.ScratchFile.getMainMemoryOnlyInstance()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.RandomAccessBuffer(int)" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.expandBuffer()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.checkClosed()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly()" />
+<item name="org.apache.pdfbox.io.RandomAccessBuffer.nextBuffer()" />
+<item name="org.apache.pdfbox.io.ScratchFile.ScratchFile(MemoryUsageSetting)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isMainMemoryRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxMainMemoryBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getMaxStorageBytes()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.getTempDir()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.isStorageRestricted()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useMainMemory()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.useTempFile()" />
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.setupMainMemoryOnly(long)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.io.MemoryUsageSetting.MemoryUsageSetting(boolean, boolean, long, long)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

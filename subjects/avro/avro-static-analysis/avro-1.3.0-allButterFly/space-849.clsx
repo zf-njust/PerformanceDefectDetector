@@ -1,0 +1,34 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Schema.getProp(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.reflect.ReflectDatumWriter.writeString(Schema, Object, Encoder)" />
+<item name="org.apache.avro.reflect.ReflectData.getClass(Schema)" />
+<item name="org.apache.avro.reflect.ReflectData.getClassProp(Schema, String)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.specific.SpecificData.getClass(Schema)" />
+<item name="org.apache.avro.reflect.ReflectDatumWriter.writeString(Object, Encoder)" />
+<item name="org.apache.avro.io.Decoder.readInt()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.specific.SpecificData.getClassName(Schema)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.Encoder.writeString(Utf8)" />
+<item name="org.apache.avro.util.Utf8.Utf8(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.getNamespace()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

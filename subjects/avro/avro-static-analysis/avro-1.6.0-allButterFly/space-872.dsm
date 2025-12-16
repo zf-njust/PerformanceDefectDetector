@@ -1,0 +1,16 @@
+[Call]
+7
+0 1 1 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 
+0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+org.apache.avro.ipc.trace.TracePlugin.clientStartConnect(RPCContext)
+org.apache.avro.ipc.trace.Util.createEventlessSpan(ID, ID, ID)
+org.apache.avro.ipc.RPCContext.requestHandshakeMeta()
+org.apache.avro.Schema.createArray(Schema)
+org.apache.avro.ipc.trace.TracePlugin.serverConnecting(RPCContext)
+org.apache.avro.Schema.Schema(Type)
+org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)

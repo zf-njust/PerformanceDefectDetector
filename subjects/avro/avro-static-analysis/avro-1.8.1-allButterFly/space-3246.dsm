@@ -1,0 +1,14 @@
+[Call]
+6
+0 0 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+1 0 1 0 0 0 
+0 0 1 0 0 0 
+0 0 1 0 0 0 
+org.apache.avro.thrift.test.Foo.ping_args.write(org.apache.thrift.protocol.TProtocol)
+org.apache.avro.thrift.test.Foo.Processor.ping.getEmptyArgsInstance()
+org.apache.avro.thrift.test.Foo.ping_args.ping_args()
+org.apache.avro.thrift.test.Foo.AsyncClient.ping_call.write_args(org.apache.thrift.protocol.TProtocol)
+org.apache.avro.thrift.test.Foo.AsyncProcessor.ping.getEmptyArgsInstance()
+org.apache.avro.thrift.test.Foo.Client.send_ping()

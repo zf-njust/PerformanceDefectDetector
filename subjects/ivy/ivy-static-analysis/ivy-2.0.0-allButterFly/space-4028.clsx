@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer, Stack)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, Map)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteParams(String, IvyVariableContainer, Stack)" />
+<item name="org.apache.ivy.core.IvyPatternHelper.substituteVariables(String, IvyVariableContainer)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.settings.IvyVariableContainerImpl.IvyVariableContainerImpl(Map)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.settings.IvyVariableContainer.getVariable(String)" />
+</group>
+</group>
+</group>
+</cluster>

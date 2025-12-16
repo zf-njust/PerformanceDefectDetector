@@ -1,0 +1,26 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.util.cli.OptionBuilder.countArgs(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.Main.getParser()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.cli.OptionBuilder.arg(String)" />
+<item name="org.apache.ivy.util.cli.OptionBuilder.description(String)" />
+<item name="org.apache.ivy.util.cli.OptionBuilder.deprecated()" />
+<item name="org.apache.ivy.util.cli.OptionBuilder.OptionBuilder(String)" />
+<item name="org.apache.ivy.util.cli.CommandLineParser.CommandLineParser()" />
+<item name="org.apache.ivy.util.cli.CommandLineParser.addCategory(String)" />
+<item name="org.apache.ivy.util.cli.CommandLineParser.addOption(Option)" />
+<item name="org.apache.ivy.util.cli.OptionBuilder.create()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.util.cli.Option.Option(String, String[], String, boolean, boolean, boolean)" />
+<item name="org.apache.ivy.util.cli.Option.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

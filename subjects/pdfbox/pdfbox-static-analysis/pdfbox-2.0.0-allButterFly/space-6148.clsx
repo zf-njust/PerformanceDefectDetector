@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDColor.toCOSArray()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine.setInteriorColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.setBorderColour(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem.setTextColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationSquareCircle.setInteriorColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.documentinterchange.prepress.PDBoxStyle.setGuideLineColor(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.setBackground(PDColor)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setColor(PDColor)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper.getCOSObject()" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.getCOSObject()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSArray.setFloatArray(float[])" />
+<item name="org.apache.pdfbox.cos.COSArray.COSArray()" />
+<item name="org.apache.pdfbox.cos.COSArray.add(COSBase)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSArray.clear()" />
+<item name="org.apache.pdfbox.cos.COSFloat.COSFloat(float)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.cos.COSFloat.removeNullDigits(String)" />
+</group>
+</group>
+</group>
+</cluster>

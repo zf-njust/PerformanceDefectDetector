@@ -1,0 +1,33 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.PDRectangle.getCOSArray()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.graphics.shading.PDShadingResources.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.setMediaBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm.setBBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setCropBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setTrimBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setMediaBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setBleedBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream.setBoundingBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary.setFontBoundingBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPage.setArtBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.setRectangle(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.PDPageNode.setCropBox(PDRectangle)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources.setBBox(PDRectangle)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources.getCOSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject.getCOSStream()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.PDStream.getStream()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

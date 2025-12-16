@@ -1,0 +1,20 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.GenericNestedFake.genSourceData()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Perf.generateGenericNested(Schema, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.generic.IndexedRecord.put(int, Object)" />
+<item name="org.apache.avro.io.Perf.newRandom()" />
+<item name="org.apache.avro.Schema.getFields()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

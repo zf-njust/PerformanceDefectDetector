@@ -1,0 +1,39 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getOrdering()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.toString()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontMapperImpl.isCharSetMatch(PDCIDSystemInfo, FontInfo)" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.saveDiskCache()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getOrdering()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDPanoseClassification.getBytes()" />
+<item name="org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getSupplement()" />
+<item name="org.apache.pdfbox.pdmodel.font.CIDSystemInfo.getRegistry()" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCIDSystemInfo()" />
+<item name="org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.getDiskCacheFile()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange1()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getNameAsString(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.font.FontInfo.getCodePageRange2()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.cos.COSString.getString()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.PDFDocEncoding.toString(byte[])" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

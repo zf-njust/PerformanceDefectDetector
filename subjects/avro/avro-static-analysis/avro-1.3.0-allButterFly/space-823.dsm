@@ -1,0 +1,20 @@
+[Call]
+9
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 
+0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 
+org.apache.avro.io.JsonDecoder.init(String)
+org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)
+org.apache.avro.io.JsonDecoder.JsonDecoder(Symbol, String)
+org.apache.avro.io.parsing.SkipParser.SkipParser(Symbol, ActionHandler, SkipHandler)
+org.apache.avro.io.JsonDecoder.JsonDecoder(Symbol, InputStream)
+org.apache.avro.io.ParsingDecoder.ParsingDecoder(Symbol)
+org.apache.avro.io.ValidatingDecoder.ValidatingDecoder(Symbol, Decoder)
+org.apache.avro.io.JsonDecoder.init(InputStream)
+org.apache.avro.io.parsing.Parser.reset()

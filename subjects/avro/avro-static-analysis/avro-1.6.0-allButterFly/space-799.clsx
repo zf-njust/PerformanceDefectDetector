@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapred.tether.TetherTaskRunner.configure(TaskType, String, String)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.mapred.tether.TetherTask.configure(TaskType, CharSequence, CharSequence)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapred.tether.TetherTask.Collector.Collector(Schema)" />
+<item name="org.apache.avro.mapred.tether.TetherTask.fail(String)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.mapred.tether.TetherTask.close()" />
+<item name="org.apache.avro.specific.SpecificData.get()" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema, Schema, SpecificData)" />
+<item name="org.apache.avro.specific.SpecificDatumWriter.SpecificDatumWriter(Schema)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema, Schema, GenericData)" />
+<item name="org.apache.avro.ipc.Transceiver.close()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+</group>
+</group>
+</group>
+</cluster>

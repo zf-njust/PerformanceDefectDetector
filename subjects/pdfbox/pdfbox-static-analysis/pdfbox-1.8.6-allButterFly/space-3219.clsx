@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.operator.MoveText.process(PDFOperator, List)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSNumber.floatValue()" />
+<item name="org.apache.pdfbox.util.Matrix.setValue(int, int, float)" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix)" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.getTextLineMatrix()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.setTextLineMatrix(Matrix)" />
+<item name="org.apache.pdfbox.util.Matrix.copy()" />
+<item name="org.apache.pdfbox.util.Matrix.Matrix()" />
+<item name="org.apache.pdfbox.util.PDFStreamEngine.setTextMatrix(Matrix)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.Matrix.reset()" />
+<item name="org.apache.pdfbox.util.Matrix.clone()" />
+<item name="org.apache.pdfbox.util.Matrix.multiply(Matrix, Matrix)" />
+</group>
+</group>
+</group>
+</cluster>

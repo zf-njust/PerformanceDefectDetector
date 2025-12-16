@@ -1,0 +1,22 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.includeStarted.(Anon_1).startElement(String, String, String, Attributes)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.setPrint(boolean)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.write(String)" />
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.substitute(ParserSettings, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.getWriter()" />
+<item name="org.apache.ivy.util.XMLHelper.escape(String)" />
+<item name="org.apache.ivy.plugins.parser.ParserSettings.substitute(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.ExtendedBuffer.getWriter()" />
+</group>
+</group>
+</group>
+</cluster>

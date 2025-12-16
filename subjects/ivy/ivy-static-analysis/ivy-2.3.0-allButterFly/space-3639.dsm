@@ -1,0 +1,36 @@
+[Call]
+17
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 1 1 1 1 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.repo.AbstractOSGiResolver.getRepoDescriptor()
+org.apache.ivy.osgi.util.Version.numbersAsString()
+org.apache.ivy.osgi.core.BundleCapability.getType()
+org.apache.ivy.osgi.repo.AbstractOSGiResolver.ensureInit()
+org.apache.ivy.osgi.repo.RepoDescriptor.findModule(String, String)
+org.apache.ivy.osgi.repo.AbstractOSGiResolver.listTokenValues(Set, Map)
+org.apache.ivy.osgi.util.Version.equals(Object)
+org.apache.ivy.osgi.repo.RepoDescriptor.getCapabilityValues(String)
+org.apache.ivy.osgi.repo.BundleCapabilityAndLocation.getVersion()
+org.apache.ivy.osgi.repo.BundleCapabilityAndLocation.getBundleInfo()
+org.apache.ivy.osgi.util.Version.toString()
+org.apache.ivy.osgi.core.BundleCapability.getName()
+org.apache.ivy.osgi.repo.AbstractOSGiResolver.listTokenValues(String[], Map)
+org.apache.ivy.osgi.core.BundleInfoAdapter.getConfigurations(BundleInfo)
+org.apache.ivy.osgi.util.Version.Version(String)
+org.apache.ivy.osgi.core.BundleInfo.getExports()
+org.apache.ivy.osgi.repo.AbstractOSGiResolver.init()

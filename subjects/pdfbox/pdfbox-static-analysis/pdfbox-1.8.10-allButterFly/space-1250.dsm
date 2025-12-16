@@ -1,0 +1,56 @@
+[Call]
+27
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.ResourceLoader.loadResource(String)
+org.apache.pdfbox.util.TextNormalize.findICU4J()
+org.apache.pdfbox.util.PDFHighlighter.main(String[])
+org.apache.pdfbox.cos.COSArray.clear()
+org.apache.pdfbox.util.PDFTextStripper.setPageSeparator(String)
+org.apache.pdfbox.util.PDFStreamEngine.PDFStreamEngine(Properties)
+org.apache.pdfbox.util.PDFStreamEngine.registerOperatorProcessor(String, OperatorProcessor)
+org.apache.pdfbox.cos.COSDocument.close()
+org.apache.pdfbox.util.PDFHighlighter.usage()
+org.apache.pdfbox.util.PDFTextStripper.setLineSeparator(String)
+org.apache.pdfbox.util.PDFHighlighter.PDFHighlighter()
+org.apache.pdfbox.io.SequentialRead.close()
+org.apache.pdfbox.util.PDFTextStripper.setWordSeparator(String)
+org.apache.pdfbox.util.PDFTextStripper.setShouldSeparateByBeads(boolean)
+org.apache.pdfbox.pdmodel.PDDocument.close()
+org.apache.pdfbox.util.PDFTextStripper.PDFTextStripper(String)
+org.apache.pdfbox.cos.COSDictionary.clear()
+org.apache.pdfbox.pdmodel.PDDocument.load(String)
+org.apache.pdfbox.util.PDFTextStripper.setSuppressDuplicateOverlappingText(boolean)
+org.apache.pdfbox.util.operator.OperatorProcessor.setContext(PDFStreamEngine)
+org.apache.pdfbox.util.ICU4JImpl.ICU4JImpl()
+org.apache.pdfbox.exceptions.WrappedIOException.WrappedIOException(String, Throwable)
+org.apache.pdfbox.pdfparser.BaseParser.clearResources()
+org.apache.pdfbox.cos.COSStream.close()
+org.apache.pdfbox.util.ResourceLoader.loadProperties(String, boolean)
+org.apache.pdfbox.cos.COSObject.getObject()
+org.apache.pdfbox.util.TextNormalize.TextNormalize(String)

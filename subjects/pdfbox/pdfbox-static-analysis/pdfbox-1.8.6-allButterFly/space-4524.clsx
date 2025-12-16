@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.util.TextNormalize.normalizeDiac(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.TextPosition.insertDiacritic(int, TextPosition, TextNormalize)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.util.TextPosition.getCharacter()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.util.ICU4JImpl.normalizeDiac(String)" />
+</group>
+</group>
+</group>
+</cluster>

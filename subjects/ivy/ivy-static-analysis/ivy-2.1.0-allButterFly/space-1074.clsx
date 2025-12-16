@@ -1,0 +1,31 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.ResolveData.register(VisitNode)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.VisitNode.VisitNode(ResolveData, IvyNode, VisitNode, String, String, IvyNodeUsage)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.util.Checks.checkNotNull(Object, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.resolve.VisitNode.getId()" />
+<item name="org.apache.ivy.core.resolve.ResolveData.register(ModuleRevisionId, VisitNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.VisitData.addVisitNode(VisitNode)" />
+<item name="org.apache.ivy.core.resolve.VisitNode.getNode()" />
+<item name="org.apache.ivy.core.resolve.VisitData.setNode(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.IvyNode.getId()" />
+<item name="org.apache.ivy.core.resolve.VisitData.VisitData(IvyNode)" />
+<item name="org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.resolve.VisitNode.getRootModuleConf()" />
+<item name="org.apache.ivy.core.resolve.VisitData.getVisitNodes(String)" />
+</group>
+</group>
+</group>
+</cluster>

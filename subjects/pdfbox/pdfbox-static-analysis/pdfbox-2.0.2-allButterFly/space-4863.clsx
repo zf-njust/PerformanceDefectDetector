@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.text.PDFTextStripper.LineItem.isWordSeparator()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.text.PDFTextStripper.normalizeAdd(List, StringBuilder, List, LineItem)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.text.PDFTextStripper.createWord(String, List)" />
+<item name="org.apache.pdfbox.text.TextPosition.getUnicode()" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.LineItem.getTextPosition()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.text.PDFTextStripper.WordWithTextPositions.WordWithTextPositions(String, List)" />
+<item name="org.apache.pdfbox.text.PDFTextStripper.normalizeWord(String)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.text.PDFTextStripper.handleDirection(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

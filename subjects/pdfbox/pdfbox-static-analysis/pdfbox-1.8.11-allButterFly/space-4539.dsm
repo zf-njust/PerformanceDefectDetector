@@ -1,0 +1,22 @@
+[Call]
+10
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 0 0 
+1 1 0 0 0 0 0 1 1 0 
+1 1 1 0 0 0 0 1 1 1 
+1 1 1 0 0 0 0 1 1 1 
+1 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.getWidth()
+org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.leftPixel(byte[], int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.aboveLeftPixel(byte[], int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.Average.encodeLine(byte[], byte[], int, int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.encodeLine(byte[], byte[], int, int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.decodeLine(byte[], byte[], int, int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.Average.decodeLine(byte[], byte[], int, int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.getBpp()
+org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm.abovePixel(byte[], int, int, int)
+org.apache.pdfbox.pdmodel.graphics.predictor.Paeth.paethPredictor(int, int, int)

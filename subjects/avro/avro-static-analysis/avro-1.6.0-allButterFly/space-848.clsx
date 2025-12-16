@@ -1,0 +1,90 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.Protocol.getDoc()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.addStringType(Protocol)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.compiler.specific.SpecificCompiler.addStringType(Schema, Map)" />
+<item name="org.apache.avro.Protocol.createMessage(String, String, Schema)" />
+<item name="org.apache.avro.Protocol.Message.getResponse()" />
+<item name="org.apache.avro.Protocol.createMessage(String, String, Schema, Schema, Schema)" />
+<item name="org.apache.avro.Protocol.Message.getRequest()" />
+<item name="org.apache.avro.Protocol.Message.isOneWay()" />
+<item name="org.apache.avro.Protocol.Message.getName()" />
+<item name="org.apache.avro.Protocol.getMessages()" />
+<item name="org.apache.avro.Protocol.getNamespace()" />
+<item name="org.apache.avro.Protocol.getName()" />
+<item name="org.apache.avro.Protocol.getTypes()" />
+<item name="org.apache.avro.Protocol.Message.getDoc()" />
+<item name="org.apache.avro.Protocol.Protocol(String, String, String)" />
+<item name="org.apache.avro.Protocol.setTypes(Collection)" />
+<item name="org.apache.avro.Protocol.Message.getErrors()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Field.addProp(String, String)" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.Schema.createUnion(List)" />
+<item name="org.apache.avro.Schema.Field.props()" />
+<item name="org.apache.avro.Schema.Field.doc()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericData.setStringType(Schema, StringType)" />
+<item name="org.apache.avro.Schema.addProp(String, String)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+<item name="org.apache.avro.Schema.Field.Field(String, Schema, String, JsonNode, Order)" />
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.Schema.getFullName()" />
+<item name="org.apache.avro.Protocol.TwoWayMessage.TwoWayMessage(String, String, Schema, Schema, Schema)" />
+<item name="org.apache.avro.Schema.Names.add(Schema)" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.Protocol.Message.Message(String, String, Schema)" />
+<item name="org.apache.avro.Schema.Field.defaultValue()" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.getDoc()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.Schema.createArray(Schema)" />
+<item name="org.apache.avro.Schema.createMap(Schema)" />
+<item name="org.apache.avro.Schema.isError()" />
+<item name="org.apache.avro.Schema.getProps()" />
+<item name="org.apache.avro.Schema.Field.name()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.LockableArrayList.LockableArrayList(List)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.MapSchema.MapSchema(Schema)" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.Schema.Props.add(String, String)" />
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.UnionSchema.UnionSchema(LockableArrayList)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.Schema.ArraySchema.ArraySchema(Schema)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.Schema.Names.put(Name, Schema)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.LockableArrayList.lock()" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.Schema.Name.toString()" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

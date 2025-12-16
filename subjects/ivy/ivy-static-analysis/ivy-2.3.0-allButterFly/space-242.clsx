@@ -1,0 +1,56 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setUseCacheOnly(boolean)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.ant.IvyResolve.getResolveOptions(Ivy, String[], IvySettings)" />
+<item name="org.apache.ivy.Ivy14.newResolveOptions(String[], String, File, Date, boolean, boolean, boolean, boolean, boolean, boolean, Filter)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setDate(Date)" />
+<item name="org.apache.ivy.util.filter.FilterHelper.getArtifactTypeFilter(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setTransitive(boolean)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setResolveMode(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setResolveId(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setOutputReport(boolean)" />
+<item name="org.apache.ivy.Ivy.getSettings()" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setRevision(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setValidate(boolean)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setCheckIfChanged(boolean)" />
+<item name="org.apache.ivy.ant.IvyTask.getPubDate(String, Date)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setDownload(boolean)" />
+<item name="org.apache.ivy.core.settings.IvySettings.useDeprecatedUseOrigin()" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setRefresh(boolean)" />
+<item name="org.apache.ivy.ant.IvyTask.doValidate(IvySettings)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.ResolveOptions()" />
+<item name="org.apache.ivy.core.LogOptions.setLog(String)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setArtifactFilter(Filter)" />
+<item name="org.apache.ivy.core.resolve.ResolveOptions.setConfs(String[])" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.settings.IvySettings.setDefaultUseOrigin(boolean)" />
+<item name="org.apache.ivy.util.Message.deprecated(String)" />
+<item name="org.apache.ivy.core.settings.IvySettings.doValidate()" />
+<item name="org.apache.ivy.util.filter.FilterHelper.getArtifactTypeFilter(String[])" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.util.MessageLogger.deprecated(String)" />
+<item name="org.apache.ivy.util.filter.ArtifactTypeFilter.ArtifactTypeFilter(Collection)" />
+<item name="org.apache.ivy.util.Message.getLogger()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.core.IvyContext.getMessageLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getContext()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.util.Message.getDefaultLogger()" />
+<item name="org.apache.ivy.core.IvyContext.getCurrentStack()" />
+<item name="org.apache.ivy.Ivy.getLoggerEngine()" />
+<item name="org.apache.ivy.core.IvyContext.peekIvy()" />
+<item name="org.apache.ivy.core.IvyContext.IvyContext()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

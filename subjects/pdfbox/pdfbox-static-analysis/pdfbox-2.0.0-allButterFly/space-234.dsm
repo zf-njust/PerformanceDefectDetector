@@ -1,0 +1,26 @@
+[Call]
+12
+0 1 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 1 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.decodeNextScanline(byte[], int, int)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.setToBlack(byte[], int, int, int)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.decode2D(byte[], byte[], int, int, long)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.decodeBlackCodeWord()
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.decodeWhiteCodeWord()
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.decode1D(byte[], byte[], int, int)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.readEOL()
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.advancePointer()
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.getNextChangingElement(int, boolean, int[])
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.updatePointer(int)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.nextNBits(int)
+org.apache.pdfbox.filter.ccitt.TIFFFaxDecoder.nextLesserThan8Bits(int)

@@ -1,0 +1,48 @@
+[Call]
+23
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+org.apache.ivy.osgi.util.DelegetingHandler.getLocator()
+org.apache.ivy.osgi.obr.xml.RequirementFilter.append(StringBuffer)
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.adapt(BundleInfo, boolean)
+org.apache.ivy.osgi.obr.xml.RequirementFilter.toString()
+org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.extractFilter(RequirementFilter)
+org.apache.ivy.osgi.obr.filter.CompareFilter.getRightValue()
+org.apache.ivy.osgi.obr.xml.OBRXMLParser.ResourceHandler.ResourceHandler.(Anon_7).childHanlded(DelegetingHandler)
+org.apache.ivy.osgi.obr.xml.Requirement.isOptional()
+org.apache.ivy.osgi.obr.xml.Requirement.getFilter()
+org.apache.ivy.osgi.obr.filter.UniOperatorFilter.getSubFilter()
+org.apache.ivy.osgi.util.VersionRange.VersionRange(boolean, Version, boolean, Version)
+org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)
+org.apache.ivy.osgi.obr.xml.UnsupportedFilterException.UnsupportedFilterException(String)
+org.apache.ivy.osgi.obr.filter.CompareFilter.getLeftValue()
+org.apache.ivy.osgi.obr.filter.CompareFilter.getOperator()
+org.apache.ivy.osgi.obr.filter.UniOperatorFilter.operator()
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.parseCompareFilter(CompareFilter, boolean)
+org.apache.ivy.osgi.util.Version.Version(String)
+org.apache.ivy.osgi.obr.filter.UniOperatorFilter.append(StringBuffer)
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.getVersionRange()
+org.apache.ivy.osgi.obr.filter.MultiOperatorFilter.getSubFilters()
+org.apache.ivy.osgi.obr.xml.RequirementAdapter.adapt(BundleInfo, Requirement)

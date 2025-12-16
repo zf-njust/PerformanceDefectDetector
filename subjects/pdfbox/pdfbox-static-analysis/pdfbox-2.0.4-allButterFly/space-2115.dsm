@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 
+0 1 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)
+org.apache.pdfbox.preflight.annotation.AnnotationValidator.AnnotationValidator(PreflightContext, COSDictionary)
+org.apache.pdfbox.preflight.annotation.LinkAnnotationValidator.LinkAnnotationValidator(PreflightContext, COSDictionary)
+org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)
+org.apache.pdfbox.preflight.PreflightContext.getDocument()
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.PDAnnotation(COSDictionary)
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink.PDAnnotationLink(COSDictionary)
+org.apache.pdfbox.pdmodel.PDDocument.getDocument()

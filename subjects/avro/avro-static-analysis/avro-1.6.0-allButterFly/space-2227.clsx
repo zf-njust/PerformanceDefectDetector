@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.ipc.trace.Trace.extractTrace(List)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.SpanAggregator.getTraces(List)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.SpanAggregator.TraceFormationResults.TraceFormationResults()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.ipc.trace.Util.longValue(ID)" />
+<item name="org.apache.avro.ipc.trace.Trace.getNode(Span, HashMap, HashMap)" />
+<item name="org.apache.avro.ipc.trace.Trace.Trace(TraceNode)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.ipc.trace.TraceNode.TraceNode(Span, List)" />
+</group>
+</group>
+</group>
+</cluster>

@@ -1,0 +1,18 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.Foo.ping_args.ping_args()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.Foo.AsyncClient.ping_call.write_args(org.apache.thrift.protocol.TProtocol)" />
+<item name="org.apache.avro.thrift.test.Foo.AsyncProcessor.ping.getEmptyArgsInstance()" />
+<item name="org.apache.avro.thrift.test.Foo.Processor.ping.getEmptyArgsInstance()" />
+<item name="org.apache.avro.thrift.test.Foo.Client.send_ping()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.Foo.ping_args.write(org.apache.thrift.protocol.TProtocol)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

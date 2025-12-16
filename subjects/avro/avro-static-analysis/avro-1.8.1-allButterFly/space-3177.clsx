@@ -1,0 +1,15 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.thrift.test.FooOrBar.setBar(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.thrift.test.FooOrBar.bar(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.thrift.test.FooOrBar.FooOrBar()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

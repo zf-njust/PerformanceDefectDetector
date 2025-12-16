@@ -1,0 +1,14 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.plugins.resolver.AbstractResolver.download(ArtifactOrigin, DownloadOptions)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.core.cache.ArtifactOrigin.getArtifact()" />
+<item name="org.apache.ivy.core.report.DownloadReport.getArtifactReport(Artifact)" />
+<item name="org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)" />
+</group>
+</group>
+</group>
+</cluster>

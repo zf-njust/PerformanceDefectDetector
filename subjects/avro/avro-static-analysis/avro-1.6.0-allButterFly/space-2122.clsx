@@ -1,0 +1,84 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileStream.nextRawBlock(DataBlock)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DataFileWriter.appendAllFrom(DataFileStream, boolean)" />
+<item name="org.apache.avro.file.DataFileStream.hasNext()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.equals(Object)" />
+<item name="org.apache.avro.io.DecoderFactory.get()" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.io.DecoderFactory.binaryDecoder(byte[], int, int, BinaryDecoder)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.writeBlockTo(BinaryEncoder, byte[])" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.decompressUsing(Codec)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.getAsByteBuffer()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.compressUsing(Codec)" />
+<item name="org.apache.avro.file.DataFileStream.getSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+<item name="org.apache.avro.file.Codec.equals(Object)" />
+<item name="org.apache.avro.file.DataFileStream.resolveCodec()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.configure(byte[], int, int)" />
+<item name="org.apache.avro.Schema.equalCachedHash(Schema)" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.file.DataFileStream.getMetaString(String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(ByteBuffer, long)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.file.Codec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.ByteArrayByteSource.ByteArrayByteSource(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+<item name="org.apache.avro.file.DataFileStream.getMeta(String)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Decoder.readFixed(byte[])" />
+<item name="org.apache.avro.file.DataFileStream.hasNextBlock()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(long, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.BinaryDecoder.readLong()" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.isEnd()" />
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.BinaryDecoder.innerLongDecode(long)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.isEof()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+</group>
+</group>
+</group>
+</cluster>

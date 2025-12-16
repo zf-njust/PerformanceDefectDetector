@@ -1,0 +1,18 @@
+[Call]
+8
+0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+org.apache.ivy.plugins.resolver.ChainResolver.download(Artifact[], DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.getDownloadStatus()
+org.apache.ivy.plugins.resolver.DependencyResolver.download(Artifact[], DownloadOptions)
+org.apache.ivy.core.report.ArtifactDownloadReport.ArtifactDownloadReport(Artifact)
+org.apache.ivy.core.report.DownloadReport.getArtifactsReports()
+org.apache.ivy.core.report.ArtifactDownloadReport.setDownloadStatus(DownloadStatus)
+org.apache.ivy.core.report.DownloadReport.addArtifactReport(ArtifactDownloadReport)
+org.apache.ivy.core.report.ArtifactDownloadReport.getArtifact()

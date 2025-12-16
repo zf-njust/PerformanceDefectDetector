@@ -1,0 +1,24 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroSequenceFileInputFormat.AvroSequenceFileRecordReader.initialize(InputSplit, TaskAttemptContext)" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withValueSchema(Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getInputValueSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withFileSystem(FileSystem)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withConfiguration(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withKeySchema(Schema)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getInputKeySchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSequenceFile.Reader.Options.withInputPath(Path)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.Schema.parse(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+</group>
+</group>
+</group>
+</cluster>

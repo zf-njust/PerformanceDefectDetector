@@ -1,0 +1,32 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getEFDictionary()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setEmbeddedFileDos(PDEmbeddedFile)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setEmbeddedFileMac(PDEmbeddedFile)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.getObjectFromEFDictionary(COSName)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setEmbeddedFileUnix(PDEmbeddedFile)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setEmbeddedFileUnicode(PDEmbeddedFile)" />
+<item name="org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification.setEmbeddedFile(PDEmbeddedFile)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSObjectable)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.pdmodel.common.COSObjectable.getCOSObject()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+</group>
+</group>
+</group>
+</cluster>

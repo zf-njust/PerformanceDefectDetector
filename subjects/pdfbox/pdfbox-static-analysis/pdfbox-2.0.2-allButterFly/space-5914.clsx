@@ -1,0 +1,127 @@
+<cluster>
+<group name="root">
+<item name="org.apache.pdfbox.filter.DecodeResult.DecodeResult(COSDictionary)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.pdfbox.filter.LZWFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.JBIG2Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.JPXFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.CryptFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.RunLengthDecodeFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.IdentityFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.ASCIIHexFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.FlateFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.filter.ASCII85Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, COSName, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.COSDictionary()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.containsKey(COSName)" />
+<item name="org.apache.pdfbox.cos.COSName.getName()" />
+<item name="org.apache.pdfbox.filter.Filter.decode(InputStream, OutputStream, COSDictionary, int)" />
+<item name="org.apache.pdfbox.cos.COSInteger.intValue()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxFilter.readFromDecoderStream(CCITTFaxDecoderStream, byte[])" />
+<item name="org.apache.pdfbox.filter.ASCIIHexFilter.isEOD(int)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxFilter.invertBitmap(byte[])" />
+<item name="org.apache.pdfbox.filter.DCTFilter.getNumChannels(ImageReader)" />
+<item name="org.apache.pdfbox.cos.COSStream.createInputStream()" />
+<item name="org.apache.pdfbox.filter.DecodeResult.getParameters()" />
+<item name="org.apache.pdfbox.filter.Filter.findImageReader(String, String)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.CCITTFaxDecoderStream(InputStream, int, int, int, long)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName)" />
+<item name="org.apache.pdfbox.filter.LZWFilter.doLZWDecode(InputStream, OutputStream, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.addAll(COSDictionary)" />
+<item name="org.apache.pdfbox.filter.JPXFilter.readJPX(InputStream, DecodeResult)" />
+<item name="org.apache.pdfbox.filter.ASCIIHexFilter.isWhitespace(int)" />
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.io.IOUtils.closeQuietly(Closeable)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.fromYCCKtoCMYK(Raster)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, boolean)" />
+<item name="org.apache.pdfbox.filter.Filter.getDecodeParams(COSDictionary, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setName(COSName, String)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.getAdobeTransform(IIOMetadata)" />
+<item name="org.apache.pdfbox.cos.COSName.equals(Object)" />
+<item name="org.apache.pdfbox.filter.FlateFilter.decompress(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.fromBGRtoRGB(Raster)" />
+<item name="org.apache.pdfbox.filter.Predictor.decodePredictor(int, int, int, int, InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName)" />
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.ASCII85InputStream(InputStream)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getInt(COSName, int)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.pdfbox.filter.LZWFilter.createCodeTable()" />
+<item name="org.apache.pdfbox.cos.COSArray.size()" />
+<item name="org.apache.pdfbox.filter.LZWFilter.calculateChunk(int, int)" />
+<item name="org.apache.pdfbox.cos.COSArray.getObject(int)" />
+<item name="org.apache.pdfbox.io.IOUtils.copy(InputStream, OutputStream)" />
+<item name="org.apache.pdfbox.cos.COSStream.ensureRandomAccessExists(boolean)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.entrySet()" />
+<item name="org.apache.pdfbox.filter.Predictor.calcSetBitSeq(int, int, int, int)" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getDictionaryObject(COSName, COSName)" />
+<item name="org.apache.pdfbox.cos.COSNumber.intValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setItem(COSName, COSBase)" />
+<item name="org.apache.pdfbox.cos.COSInputStream.create(List, COSDictionary, InputStream, ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSObject.getObject()" />
+<item name="org.apache.pdfbox.pdmodel.graphics.color.PDJPXColorSpace.PDJPXColorSpace(ColorSpace)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.read(byte[], int, int)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilterList()" />
+<item name="org.apache.pdfbox.io.RandomAccessInputStream.RandomAccessInputStream(RandomAccessRead)" />
+<item name="org.apache.pdfbox.filter.Predictor.getBitSeq(int, int, int)" />
+<item name="org.apache.pdfbox.filter.MissingImageReaderException.MissingImageReaderException(String)" />
+<item name="org.apache.pdfbox.cos.COSName.getPDFName(String)" />
+<item name="org.apache.pdfbox.filter.ASCII85InputStream.read()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.setInt(COSName, int)" />
+<item name="org.apache.pdfbox.filter.LZWFilter.checkIndexBounds(List, long, MemoryCacheImageInputStream)" />
+<item name="org.apache.pdfbox.filter.DecodeResult.setColorSpace(PDJPXColorSpace)" />
+<item name="org.apache.pdfbox.filter.DCTFilter.clamp(float)" />
+<item name="org.apache.pdfbox.cos.COSStream.checkClosed()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.getBoolean(COSName, COSName, boolean)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.pdfbox.io.RandomAccessRead.isClosed()" />
+<item name="org.apache.pdfbox.cos.COSInputStream.COSInputStream(InputStream, List)" />
+<item name="org.apache.pdfbox.io.RandomAccessOutputStream.RandomAccessOutputStream(RandomAccessWrite)" />
+<item name="org.apache.pdfbox.cos.COSInteger.get(long)" />
+<item name="org.apache.pdfbox.cos.COSBoolean.getValue()" />
+<item name="org.apache.pdfbox.cos.COSDictionary.removeItem(COSName)" />
+<item name="org.apache.pdfbox.cos.COSStream.getFilters()" />
+<item name="org.apache.pdfbox.cos.COSArray.get(int)" />
+<item name="org.apache.pdfbox.io.ScratchFile.createBuffer()" />
+<item name="org.apache.pdfbox.filter.FilterFactory.getFilter(COSName)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.fetch()" />
+<item name="org.apache.pdfbox.cos.COSName.COSName(String, boolean)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.pdfbox.cos.COSInteger.COSInteger(long)" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.ScratchFileBuffer(ScratchFile)" />
+<item name="org.apache.pdfbox.cos.COSName.toString()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decodeRow()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decodeRowType6()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decodeRowType4()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decodeRowType2()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getPageSize()" />
+<item name="org.apache.pdfbox.io.ScratchFile.checkClosed()" />
+<item name="org.apache.pdfbox.io.ScratchFileBuffer.addPage()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.Node.walk(boolean)" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decode2D()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decode1D()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.readBit()" />
+<item name="org.apache.pdfbox.io.ScratchFile.getNewPage()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.resetBuffer()" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.decodeRun(Tree)" />
+<item name="org.apache.pdfbox.io.ScratchFile.enlarge()" />
+<item name="org.apache.pdfbox.filter.CCITTFaxDecoderStream.getNextChangingElement(int, boolean)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

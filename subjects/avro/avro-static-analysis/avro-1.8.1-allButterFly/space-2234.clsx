@@ -1,0 +1,17 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.ArrayBuilder.items()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.ArrayCompletion.ArrayCompletion(ArrayBuilder, Completion)" />
+<item name="org.apache.avro.SchemaBuilder.TypeBuilder.TypeBuilder(Completion, NameContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.NestedCompletion.NestedCompletion(PropBuilder, Completion)" />
+<item name="org.apache.avro.SchemaBuilder.BaseTypeBuilder.BaseTypeBuilder(Completion, NameContext)" />
+</group>
+</group>
+</group>
+</cluster>

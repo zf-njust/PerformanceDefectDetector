@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Perf.ReadBoolean.ReadBoolean()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Perf.main(String[])" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Perf.ReadLong.ReadLong()" />
+<item name="org.apache.avro.io.Perf.ReadDouble.ReadDouble()" />
+<item name="org.apache.avro.io.Perf.usage()" />
+<item name="org.apache.avro.io.Perf.ReadLongSmall.ReadLongSmall(ReadInt)" />
+<item name="org.apache.avro.io.Perf.ReadInt.ReadInt()" />
+<item name="org.apache.avro.io.Perf.ReadFloat.ReadFloat()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.Perf.ReadInt.ReadInt(String, String)" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

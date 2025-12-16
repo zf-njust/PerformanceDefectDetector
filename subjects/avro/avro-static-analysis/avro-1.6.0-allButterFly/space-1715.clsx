@@ -1,0 +1,68 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.Decoder.readInt()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.io.ResolvingDecoder.readDouble()" />
+<item name="org.apache.avro.generic.GenericDatumReader.skip(Schema, Decoder)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readLong()" />
+<item name="org.apache.avro.io.BinaryData.hashCode(HashData, Schema)" />
+<item name="org.apache.avro.io.ResolvingDecoder.readFloat()" />
+<item name="org.apache.avro.io.BinaryData.compare(Decoders, Schema)" />
+<item name="org.apache.avro.io.ValidatingDecoder.readInt()" />
+<item name="org.apache.avro.thrift.ThriftDatumReader.readInt(Object, Schema, Decoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readInt(Object, Schema, Decoder)" />
+<item name="org.apache.avro.io.ParsingDecoder.skipTopSymbol()" />
+<item name="org.apache.avro.io.Perf.GenericNestedFake.readInternal(Decoder)" />
+<item name="org.apache.avro.reflect.ReflectDatumReader.readInt(Object, Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.parsing.Parser.advance(Symbol)" />
+<item name="org.apache.avro.io.Decoder.skipString()" />
+<item name="org.apache.avro.io.Decoder.skipBytes()" />
+<item name="org.apache.avro.Schema.getElementType()" />
+<item name="org.apache.avro.io.Decoder.readLong()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.Schema.getFixedSize()" />
+<item name="org.apache.avro.io.BinaryData.hashBytes(int, HashData, int, boolean)" />
+<item name="org.apache.avro.io.Decoder.skipMap()" />
+<item name="org.apache.avro.io.BinaryData.compareBytes(byte[], int, int, byte[], int, int)" />
+<item name="org.apache.avro.Schema.getProp(String)" />
+<item name="org.apache.avro.io.Decoder.readBoolean()" />
+<item name="org.apache.avro.Schema.getTypes()" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.getBuf()" />
+<item name="org.apache.avro.io.Decoder.readFloat()" />
+<item name="org.apache.avro.Schema.Field.order()" />
+<item name="org.apache.avro.Schema.getValueType()" />
+<item name="org.apache.avro.io.ParsingDecoder.skipFixed()" />
+<item name="org.apache.avro.io.BinaryDecoder.skipFixed(int)" />
+<item name="org.apache.avro.io.Decoder.readIndex()" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.io.Decoder.skipFixed(int)" />
+<item name="org.apache.avro.io.Decoder.readDouble()" />
+<item name="org.apache.avro.io.Decoder.readEnum()" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.io.parsing.Parser.topSymbol()" />
+<item name="org.apache.avro.generic.IndexedRecord.put(int, Object)" />
+<item name="org.apache.avro.io.Decoder.arrayNext()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.io.Decoder.readArrayStart()" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.getPos()" />
+<item name="org.apache.avro.io.Decoder.readNull()" />
+<item name="org.apache.avro.io.Decoder.skipArray()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.parsing.Parser.ActionHandler.doAction(Symbol, Symbol)" />
+<item name="org.apache.avro.io.parsing.Parser.pushProduction(Symbol)" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.io.BinaryDecoder.doSkipBytes(long)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.skipSourceBytes(long)" />
+<item name="org.apache.avro.io.parsing.Parser.expandStack()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

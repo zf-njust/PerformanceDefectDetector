@@ -1,0 +1,23 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setResolvedPublicationDate(Date)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomModuleDescriptorBuilder(ModuleDescriptorParser, Resource, ParserSettings)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.setMappingOverride(boolean)" />
+<item name="org.apache.ivy.plugins.repository.Resource.getLastModified()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addConfiguration(Configuration)" />
+<item name="org.apache.ivy.Ivy.getIvyHomeURL()" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addExtraAttributeNamespace(String, String)" />
+<item name="org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.DefaultModuleDescriptor(ModuleDescriptorParser, Resource)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.core.module.descriptor.Configuration.getName()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

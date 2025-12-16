@@ -1,0 +1,73 @@
+<cluster>
+<group name="root">
+<item name="org.apache.ivy.osgi.core.ManifestParser.versionRangeOf(String)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.core.ManifestParser.parseRequirement(BundleInfo, Attributes, String, String, String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderValue(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.getElements()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getDirectives()" />
+<item name="org.apache.ivy.osgi.core.BundleRequirement.BundleRequirement(String, String, VersionRange, String)" />
+<item name="org.apache.ivy.osgi.core.BundleInfo.addRequirement(BundleRequirement)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getAttributes()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.getValues()" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.ManifestHeaderParser(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parse()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String, int)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseElement()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.addElement(ManifestHeaderElement)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseValueOrParameter()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.readNext()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseSeparator()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterName()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.parseParameterValue()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endValue()" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendEscaped()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addValue(String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.endParameterValue()" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.appendQuoted(boolean)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderValue.ManifestHeaderParser.error(String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addDirective(String, String)" />
+<item name="org.apache.ivy.osgi.core.ManifestHeaderElement.addAttribute(String, String)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRange(String)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.ivy.osgi.util.Version.Version(int, int, int, String)" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parse()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.VersionRangeParser(String)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersion()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseEnd()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseVersionSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseStart()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseQualifier()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.skipWhiteSpace()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumberSeparator()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.readNext()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.parseNumber()" />
+<item name="org.apache.ivy.osgi.util.VersionRange.VersionRangeParser.unread()" />
+</group>
+</group>
+</group>
+</cluster>

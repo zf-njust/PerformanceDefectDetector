@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 0 0 1 0 1 
+1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.ivy.core.resolve.ResolveData.getNode(ModuleRevisionId)
+org.apache.ivy.core.resolve.IvyNode.getRealNode()
+org.apache.ivy.core.resolve.IvyNode.getPendingConflicts(String, ModuleId)
+org.apache.ivy.core.resolve.IvyNodeEviction.ModuleIdConf.ModuleIdConf(ModuleId, String)
+org.apache.ivy.core.resolve.IvyNode.getId()
+org.apache.ivy.core.resolve.VisitData.getNode()
+org.apache.ivy.core.resolve.IvyNodeEviction.getPendingConflicts(String, ModuleId)
+org.apache.ivy.core.resolve.ResolveData.getVisitData(ModuleRevisionId)

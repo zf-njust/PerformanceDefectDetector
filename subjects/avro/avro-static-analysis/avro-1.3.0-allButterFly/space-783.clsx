@@ -1,0 +1,21 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.file.DeflateCodec.compress(ByteBuffer)" />
+<item name="org.apache.avro.file.DeflateCodec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>

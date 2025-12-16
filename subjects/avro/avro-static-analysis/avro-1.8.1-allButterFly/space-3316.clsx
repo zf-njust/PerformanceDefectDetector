@@ -1,0 +1,16 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.generic.GenericDatumReader.readBytes(Object, Decoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.protobuf.ProtobufDatumReader.readBytes(Object, Decoder)" />
+<item name="org.apache.avro.generic.GenericDatumReader.readBytes(Object, Schema, Decoder)" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.io.Decoder.readBytes(ByteBuffer)" />
+</group>
+</group>
+</group>
+</cluster>

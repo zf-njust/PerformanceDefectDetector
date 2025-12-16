@@ -1,0 +1,40 @@
+[Call]
+19
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 1 0 1 1 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.core.module.descriptor.Configuration.isTransitive()
+org.apache.ivy.core.module.descriptor.Configuration.getDescription()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printConfiguration(Configuration, PrintWriter)
+org.apache.ivy.core.module.descriptor.Configuration.Visibility.toString()
+org.apache.ivy.util.extendable.ExtendableItem.getQualifiedExtraAttributes()
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(Map, PrintWriter, String)
+org.apache.ivy.core.module.descriptor.Configuration.getName()
+org.apache.ivy.util.XMLHelper.escape(String)
+org.apache.ivy.core.module.descriptor.Configuration.Configuration(Map, Map, String, Visibility, String, String[], boolean, String, ModuleRevisionId)
+org.apache.ivy.core.module.descriptor.Configuration.getDeprecated()
+org.apache.ivy.util.extendable.DefaultExtendableItem.DefaultExtendableItem(Map, Map)
+org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorWriter.printExtraAttributes(ExtendableItem, PrintWriter, String)
+org.apache.ivy.core.module.descriptor.Configuration.getVisibility()
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.getAttributes()
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.setExtraAttribute(String, String)
+org.apache.ivy.core.module.descriptor.Configuration.getExtends()
+org.apache.ivy.core.module.descriptor.Configuration.Configuration(Configuration, ModuleRevisionId)
+org.apache.ivy.util.extendable.UnmodifiableExtendableItem.UnmodifiableExtendableItem(Map, Map)

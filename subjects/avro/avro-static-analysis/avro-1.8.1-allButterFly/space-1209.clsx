@@ -1,0 +1,50 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.intType()" />
+<group name="upper">
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.intBuilder()" />
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.endInt()" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.SchemaBuilder.IntDefault.IntDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.PrimitiveBuilder.end()" />
+<item name="org.apache.avro.SchemaBuilder.UnionFieldTypeBuilder.completion(Completion)" />
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.create(Completion, NameContext)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.SchemaBuilder.FieldDefault.FieldDefault(FieldBuilder)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.hasProps()" />
+<item name="org.apache.avro.SchemaBuilder.Completion.complete(Schema)" />
+<item name="org.apache.avro.SchemaBuilder.UnionCompletion.UnionCompletion(Completion, NameContext, List)" />
+<item name="org.apache.avro.Schema.getType()" />
+<item name="org.apache.avro.SchemaBuilder.IntBuilder.IntBuilder(Completion, NameContext)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.SchemaBuilder.PropBuilder.addPropsTo(T)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.SchemaBuilder.PrimitiveBuilder.PrimitiveBuilder(Completion, NameContext, Schema.Type)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.Schema.Type.getName()" />
+<item name="org.apache.avro.SchemaBuilder.NameContext.getFullname(String)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+</group>
+</group>
+</group>
+</cluster>

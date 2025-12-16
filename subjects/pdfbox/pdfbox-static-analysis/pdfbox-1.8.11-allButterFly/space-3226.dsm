@@ -1,0 +1,18 @@
+[Call]
+8
+0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+1 1 1 0 0 1 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+org.apache.pdfbox.util.operator.SetLineCapStyle.process(PDFOperator, List)
+org.apache.pdfbox.pdfviewer.PageDrawer.setStroke(BasicStroke)
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.getLineCap()
+org.apache.pdfbox.pdmodel.graphics.PDGraphicsState.setLineCap(int)
+org.apache.pdfbox.util.operator.pagedrawer.SetLineCapStyle.process(PDFOperator, List)
+org.apache.pdfbox.util.PDFStreamEngine.getGraphicsState()
+org.apache.pdfbox.cos.COSNumber.intValue()
+org.apache.pdfbox.pdfviewer.PageDrawer.getStroke()

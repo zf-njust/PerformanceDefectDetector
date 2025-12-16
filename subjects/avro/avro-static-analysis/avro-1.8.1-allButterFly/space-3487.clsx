@@ -1,0 +1,131 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.mapreduce.AvroOutputFormatBase.getCompressionCodec(TaskAttemptContext)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.mapreduce.AvroKeyOutputFormat.getRecordWriter(TaskAttemptContext)" />
+<item name="org.apache.avro.mapreduce.AvroKeyValueOutputFormat.getRecordWriter(TaskAttemptContext)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.mapreduce.AvroJob.getMapOutputKeySchema(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroOutputFormatBase.getAvroFileOutputStream(TaskAttemptContext)" />
+<item name="org.apache.avro.mapreduce.AvroOutputFormatBase.getSyncInterval(TaskAttemptContext)" />
+<item name="org.apache.avro.mapreduce.AvroKeyValueRecordWriter.AvroKeyValueRecordWriter(AvroDatumConverter, AvroDatumConverter, GenericData, CodecFactory, OutputStream, int)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.AvroDatumConverterFactory(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputKeySchema(Configuration)" />
+<item name="org.apache.avro.mapreduce.AvroKeyOutputFormat.RecordWriterFactory.create(Schema, GenericData, CodecFactory, OutputStream, int)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.create(Class)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.createDataModel(Configuration)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.ByteWritableConverter.ByteWritableConverter()" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverter.getWriterSchema()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.BytesWritableConverter.BytesWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.AvroWrapperConverter.AvroWrapperConverter(Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.IntWritableConverter.IntWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.FloatWritableConverter.FloatWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.newDataModelInstance(Class, Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.DoubleWritableConverter.DoubleWritableConverter()" />
+<item name="org.apache.avro.mapreduce.AvroKeyRecordWriter.AvroKeyRecordWriter(Schema, GenericData, CodecFactory, OutputStream, int)" />
+<item name="org.apache.avro.hadoop.io.AvroKeyValue.AvroKeyValue(GenericRecord)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.NullWritableConverter.NullWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroKeyValue.getSchema(Schema, Schema)" />
+<item name="org.apache.avro.generic.GenericData.createDatumWriter(Schema)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.TextConverter.TextConverter()" />
+<item name="org.apache.avro.file.DataFileWriter.create(Schema, OutputStream)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.LongWritableConverter.LongWritableConverter()" />
+<item name="org.apache.avro.mapreduce.AvroJob.getMapOutputValueSchema(Configuration)" />
+<item name="org.apache.avro.file.DataFileWriter.setSyncInterval(int)" />
+<item name="org.apache.avro.hadoop.io.AvroDatumConverterFactory.BooleanWritableConverter.BooleanWritableConverter()" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getKeyWriterSchema(Configuration)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getDataModelClass(Configuration)" />
+<item name="org.apache.avro.Schema.parse(String)" />
+<item name="org.apache.avro.mapreduce.AvroJob.getOutputValueSchema(Configuration)" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.Schema.createRecord(String, String, String, boolean)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema, GenericData)" />
+<item name="org.apache.avro.file.DataFileWriter.create(Schema, OutputStream, byte[])" />
+<item name="org.apache.avro.Schema.createFixed(String, String, String, int)" />
+<item name="org.apache.avro.Schema.create(Type)" />
+<item name="org.apache.avro.hadoop.io.AvroSerialization.getValueWriterSchema(Configuration)" />
+<item name="org.apache.avro.Schema.Parser.parse(String)" />
+<item name="org.apache.avro.Schema.setFields(List)" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryEncoder.writeMapEnd()" />
+<item name="org.apache.avro.Schema.BooleanSchema.BooleanSchema()" />
+<item name="org.apache.avro.Schema.FixedSchema.FixedSchema(Name, String, int)" />
+<item name="org.apache.avro.Schema.FloatSchema.FloatSchema()" />
+<item name="org.apache.avro.file.DataFileWriter.generateSync()" />
+<item name="org.apache.avro.Schema.BytesSchema.BytesSchema()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.Schema.DoubleSchema.DoubleSchema()" />
+<item name="org.apache.avro.Schema.Name.Name(String, String)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.Schema.RecordSchema.RecordSchema(Name, String, boolean)" />
+<item name="org.apache.avro.Schema.StringSchema.StringSchema()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.io.BinaryEncoder.startItem()" />
+<item name="org.apache.avro.file.DataFileWriter.init(OutputStream)" />
+<item name="org.apache.avro.Schema.NullSchema.NullSchema()" />
+<item name="org.apache.avro.Schema.IntSchema.IntSchema()" />
+<item name="org.apache.avro.Schema.toString()" />
+<item name="org.apache.avro.Schema.LongSchema.LongSchema()" />
+<item name="org.apache.avro.io.BinaryEncoder.writeMapStart()" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.BinaryEncoder.writeZero()" />
+<item name="org.apache.avro.Schema.toString(boolean)" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.BufferedFileOutputStream(OutputStream)" />
+<item name="org.apache.avro.Schema.NamedSchema.NamedSchema(Type, Name, String)" />
+<item name="org.apache.avro.io.DatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.Schema.Schema(Type)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.NonCopyingByteArrayOutputStream(int)" />
+<item name="org.apache.avro.Schema.validateName(String)" />
+<item name="org.apache.avro.io.EncoderFactory.binaryEncoder(OutputStream, BinaryEncoder)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.configure(OutputStream, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.BufferedBinaryEncoder(OutputStream, int)" />
+<item name="org.apache.avro.Schema.toJson(Names, JsonGenerator)" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.PositionFilter.PositionFilter(OutputStream)" />
+<item name="org.apache.avro.Schema.Names.Names()" />
+<item name="org.apache.avro.AvroTypeException.AvroTypeException(String)" />
+<item name="org.apache.avro.JsonProperties.JsonProperties(Set)" />
+<item name="org.apache.avro.SchemaParseException.SchemaParseException(String)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.JsonProperties.writeProps(JsonGenerator)" />
+<item name="org.apache.avro.Schema.getName()" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.OutputStreamSink.OutputStreamSink(OutputStream)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.flushBuffer()" />
+</group>
+<group name="Layer-9">
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.innerWrite(byte[], int, int)" />
+<item name="org.apache.avro.io.BufferedBinaryEncoder.ByteSink.ByteSink()" />
+</group>
+</group>
+<group name="lower">
+<group name="Layer-1">
+<item name="org.apache.avro.file.CodecFactory.nullCodec()" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.getAvroCodecName(String)" />
+<item name="org.apache.avro.file.CodecFactory.xzCodec(int)" />
+<item name="org.apache.avro.hadoop.file.HadoopCodecFactory.fromHadoopString(String)" />
+<item name="org.apache.avro.file.CodecFactory.deflateCodec(int)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String, Throwable)" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+</group>
+</group>
+</group>
+</cluster>

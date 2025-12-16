@@ -1,0 +1,112 @@
+<cluster>
+<group name="root">
+<item name="org.apache.avro.io.DatumReader.read(D, Decoder)" />
+<group name="upper">
+<group name="Layer-1">
+<item name="org.apache.avro.tool.BinaryFragmentToJsonTool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.file.DataFileStream.next(D)" />
+<item name="org.apache.avro.specific.SpecificRequestor.readResponse(Schema, Decoder)" />
+<item name="org.apache.avro.specific.SpecificResponder.readRequest(Schema, Decoder)" />
+<item name="org.apache.avro.tool.DataFileWriteTool.run(InputStream, PrintStream, PrintStream, List)" />
+<item name="org.apache.avro.specific.SpecificRequestor.readError(Schema, Decoder)" />
+</group>
+<group name="Layer-2">
+<item name="org.apache.avro.io.DatumWriter.write(D, Encoder)" />
+<item name="org.apache.avro.io.DecoderFactory.createBinaryDecoder(InputStream, BinaryDecoder)" />
+<item name="org.apache.avro.file.DataFileStream.blockFinished()" />
+<item name="org.apache.avro.file.DataFileStream.hasNext()" />
+<item name="org.apache.avro.file.DataFileWriter.DataFileWriter(DatumWriter)" />
+<item name="org.apache.avro.file.DataFileWriter.setCodec(CodecFactory)" />
+<item name="org.apache.avro.file.DataFileWriter.close()" />
+<item name="org.apache.avro.io.JsonEncoder.JsonEncoder(Schema, JsonGenerator)" />
+<item name="org.apache.avro.Schema.getFields()" />
+<item name="org.apache.avro.Schema.Field.schema()" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter()" />
+<item name="org.apache.avro.file.DataFileWriter.append(D)" />
+<item name="org.apache.avro.generic.GenericDatumReader.GenericDatumReader(Schema)" />
+<item name="org.apache.avro.tool.Util.fileOrStdin(String, InputStream)" />
+<item name="org.apache.avro.specific.SpecificResponder.getDatumReader(Schema)" />
+<item name="org.apache.avro.file.CodecFactory.fromString(String)" />
+<item name="org.apache.avro.io.DecoderFactory.defaultFactory()" />
+<item name="org.apache.avro.specific.SpecificRequestor.getDatumReader(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(Schema)" />
+</group>
+<group name="Layer-3">
+<item name="org.apache.avro.io.DirectBinaryDecoder.DirectBinaryDecoder(InputStream)" />
+<item name="org.apache.avro.file.CodecFactory.createInstance()" />
+<item name="org.apache.avro.io.DecoderFactory.createBinaryDecoder(byte[], int, int, BinaryDecoder)" />
+<item name="org.apache.avro.specific.SpecificDatumReader.SpecificDatumReader(Schema)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.setSchema(Schema)" />
+<item name="org.apache.avro.file.DataFileWriter.assertOpen()" />
+<item name="org.apache.avro.file.DataFileStream.hasNextBlock()" />
+<item name="org.apache.avro.io.parsing.JsonGrammarGenerator.generate(Schema)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.init(InputStream)" />
+<item name="org.apache.avro.file.Codec.decompress(ByteBuffer)" />
+<item name="org.apache.avro.file.DataFileWriter.setMetaInternal(String, String)" />
+<item name="org.apache.avro.file.Codec.getName()" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(int, InputStream)" />
+<item name="org.apache.avro.io.BinaryDecoder.init(int, InputStream)" />
+<item name="org.apache.avro.generic.GenericDatumWriter.GenericDatumWriter(GenericData)" />
+<item name="org.apache.avro.file.DataFileWriter.assertNotOpen()" />
+<item name="org.apache.avro.generic.GenericData.get()" />
+<item name="org.apache.avro.io.BinaryDecoder.isEnd()" />
+<item name="org.apache.avro.AvroRuntimeException.AvroRuntimeException(String)" />
+<item name="org.apache.avro.file.DataFileStream.nextBlock(DataBlock)" />
+<item name="org.apache.avro.io.parsing.Parser.Parser(Symbol, ActionHandler)" />
+<item name="org.apache.avro.file.DataFileWriter.flush()" />
+<item name="org.apache.avro.file.DataFileWriter.writeBlock()" />
+</group>
+<group name="Layer-4">
+<item name="org.apache.avro.file.DataFileStream.skipSync()" />
+<item name="org.apache.avro.io.Encoder.writeLong(long)" />
+<item name="org.apache.avro.io.parsing.Symbol.root(Symbol...)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.init(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.InputStreamByteSource.InputStreamByteSource(InputStream)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.tryReadRaw(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.file.Codec.compress(ByteBuffer)" />
+<item name="org.apache.avro.io.Encoder.writeFixed(byte[])" />
+<item name="org.apache.avro.io.BinaryDecoder.readLong()" />
+<item name="org.apache.avro.file.DataFileWriter.sync()" />
+<item name="org.apache.avro.io.BinaryDecoder.configureSource(int, ByteSource)" />
+<item name="org.apache.avro.io.BinaryDecoder.BinaryDecoder()" />
+<item name="org.apache.avro.file.DataFileStream.DataBlock.DataBlock(long, int)" />
+<item name="org.apache.avro.io.DirectBinaryDecoder.ReuseByteReader.ReuseByteReader(ByteBufferInputStream)" />
+<item name="org.apache.avro.file.DataFileWriter.NonCopyingByteArrayOutputStream.getByteArrayAsByteBuffer()" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.isEof()" />
+</group>
+<group name="Layer-5">
+<item name="org.apache.avro.io.BinaryDecoder.ByteArrayByteSource.ByteArrayByteSource(byte[], int, int)" />
+<item name="org.apache.avro.file.DataFileWriter.BufferedFileOutputStream.tell()" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[])" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.detach()" />
+<item name="org.apache.avro.io.parsing.Symbol.Root.Root(Symbol...)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.attach(int, BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.ByteSource()" />
+<item name="org.apache.avro.io.BinaryDecoder.doReadBytes(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ensureBounds(int)" />
+</group>
+<group name="Layer-6">
+<item name="org.apache.avro.io.parsing.Symbol.Root.makeProduction(Symbol[])" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.BufferAccessor(BinaryDecoder)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.detach()" />
+<item name="org.apache.avro.io.parsing.Symbol.Symbol(Kind, Symbol[])" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.readRaw(byte[], int, int)" />
+<item name="org.apache.avro.io.Decoder.readFixed(byte[], int, int)" />
+<item name="org.apache.avro.io.BinaryDecoder.ByteSource.compactAndFill(byte[], int, int, int)" />
+</group>
+<group name="Layer-7">
+<item name="org.apache.avro.io.parsing.Symbol.flattenedSize(Symbol[], int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setLimit(int)" />
+<item name="org.apache.avro.io.BinaryDecoder.BufferAccessor.setPos(int)" />
+</group>
+<group name="Layer-8">
+<item name="org.apache.avro.io.parsing.Symbol.Sequence.flattenedSize()" />
+</group>
+</group>
+<group name="lower">
+</group>
+</group>
+</cluster>
